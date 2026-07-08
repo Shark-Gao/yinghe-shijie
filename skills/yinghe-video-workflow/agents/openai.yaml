@@ -1,0 +1,4 @@
+interface:
+  display_name: "硬核视界视频工作流"
+  short_description: "推荐视频、生成简介和 B 站封面，并维护记录。"
+  default_prompt: "推荐"

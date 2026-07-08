@@ -1,0 +1,8 @@
+{
+  "id": "plain_text_subtitle_converter",
+  "name": "会员字幕转普通字幕",
+  "version": "1.0.0",
+  "description": "将剪映草稿中现有字幕轨道重建为普通文本字幕，并自动清理会员字幕结构",
+  "author": "硬核视界",
+  "entry": "main.py"
+}

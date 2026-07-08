@@ -1,0 +1,8 @@
+videos/raw/*
+!videos/raw/.gitkeep
+
+videos/exports/*
+!videos/exports/.gitkeep
+
+__pycache__/
+*.py[cod]
