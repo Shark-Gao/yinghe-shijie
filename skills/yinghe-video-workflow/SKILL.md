@@ -103,6 +103,7 @@ In the final response, show which file goes into each Bilibili upload slot:
 - Prefer videos that can work with the V1.0 workflow: Telegram download MP4 → 剪映生成中英字幕 → 导出成片.
 - Avoid videos that rely heavily on talking-head performance, podcast-style discussion, or visual context that cannot be understood with subtitles.
 - Prefer visually self-explanatory source videos where subtitles alone can carry the Chinese remake.
+- Prefer source videos with no obvious watermarks, channel bug overlays, platform logos, or reused compilation watermarks. If a strong candidate has minor unavoidable branding, mention the risk and prefer a cleaner alternative when available.
 - If a promising video is from a channel already used, it is allowed as long as the exact source video was not recorded before.
 - If all promising candidates are uncertain, choose the safest high-fit candidate and clearly say what was verified.
 
