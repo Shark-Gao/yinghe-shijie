@@ -12,4 +12,7 @@
 | 2026-07-08 | How do Graphics Cards Work?  Exploring GPU Architecture | https://www.youtube.com/watch?v=h9Z4oGN89MU | Branch Education | AI硬件 / 芯片架构 / 3D动画 | 已推荐 |
 | 2026-07-08 | The Insane Engineering of Re-Entry | https://www.youtube.com/watch?v=ivLX9o6Ayl8 | Real Engineering | 航天工程 / 科技纪录片 / 工程可视化 | 已推荐 |
 | 2026-07-09 | How Nuclear Power Works | https://www.youtube.com/watch?v=PRWwXeRIvoI | Animagraffs | #科技纪录片 #核能工程 #3D动画 | 已推荐 |
+| 2026-07-09 | How does Bluetooth Work? | https://www.youtube.com/watch?v=1I1vxu5qIUM | Branch Education | #科技纪录片 #无线通信 #3D动画 | 已推荐 |
+| 2026-07-09 | The Insane Engineering of James Webb Telescope | https://www.youtube.com/watch?v=aICaAEXDJQQ | Real Engineering | #航天工程 #科技纪录片 #工程可视化 | 已推荐 |
+| 2026-07-09 | How does a Military Helicopter work?  (Pave Hawk) | https://www.youtube.com/watch?v=qf29pqPWDOU | Jared Owen | #军事机械 #直升机 #3D动画 | 已推荐 |
 
