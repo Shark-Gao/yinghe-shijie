@@ -55,6 +55,12 @@ Use this exact structure:
 10. 封面文案
 11. 视频简介
 
+For `内容分类`, use hashtag labels separated by spaces, not slashes or prose. Example:
+
+```text
+内容分类：#科技纪录片 #卫星互联网 #3D动画
+```
+
 For `视频简介`, write 80-150 Chinese characters suitable for a Bilibili/short-video publishing description. Summarize the core visual hook, what the viewer will understand, and why the topic is worth watching. Do not paste a translated source description verbatim. Do not overpromise with unverifiable claims.
 
 After the 11 fields, mention that the recommendation record was updated, then list the generated cover file paths. Keep the answer concise.
@@ -114,3 +120,5 @@ Append to `data/recommended_videos.md`:
 ```markdown
 | YYYY-MM-DD | Source video title | YouTube URL | Channel | Type | 已推荐 |
 ```
+
+Use the same hashtag label format in the `Type` column, for example `#科技纪录片 #卫星互联网 #3D动画`.
