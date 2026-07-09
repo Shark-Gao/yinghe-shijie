@@ -11,4 +11,5 @@
 | 2026-07-08 | How does Starlink Satellite Internet Work?📡☄🖥 | https://www.youtube.com/watch?v=qs2QcycggWU | Branch Education | 科技纪录片 / 卫星互联网 / 3D动画 | 已推荐 |
 | 2026-07-08 | How do Graphics Cards Work?  Exploring GPU Architecture | https://www.youtube.com/watch?v=h9Z4oGN89MU | Branch Education | AI硬件 / 芯片架构 / 3D动画 | 已推荐 |
 | 2026-07-08 | The Insane Engineering of Re-Entry | https://www.youtube.com/watch?v=ivLX9o6Ayl8 | Real Engineering | 航天工程 / 科技纪录片 / 工程可视化 | 已推荐 |
+| 2026-07-09 | How Nuclear Power Works | https://www.youtube.com/watch?v=PRWwXeRIvoI | Animagraffs | #科技纪录片 #核能工程 #3D动画 | 已推荐 |
 

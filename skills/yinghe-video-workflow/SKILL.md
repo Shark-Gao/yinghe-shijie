@@ -63,7 +63,12 @@ For `内容分类`, use hashtag labels separated by spaces, not slashes or prose
 
 For `视频简介`, write 80-150 Chinese characters suitable for a Bilibili/short-video publishing description. Summarize the core visual hook, what the viewer will understand, and why the topic is worth watching. Do not paste a translated source description verbatim. Do not overpromise with unverifiable claims.
 
-After the 11 fields, mention that the recommendation record was updated, then list the generated cover file paths. Keep the answer concise.
+After the 11 fields, mention that the recommendation record was updated, then show only the two final upload-ready cover images:
+
+- Use absolute filesystem paths, not relative paths, for cover links and Markdown image previews.
+- Provide a clickable Markdown link and an inline Markdown image preview for each final cover.
+- Do not show or link the generated base image in the final response unless the user explicitly asks for it.
+- Keep the answer concise.
 
 ## Cover Workflow
 
@@ -97,11 +102,16 @@ Overlay text locally after the base image is generated:
 
 Before finishing, inspect both generated cover images. If text is cramped, cropped, unreadable, or overlaps the subject badly, adjust and regenerate the final cover files.
 
-In the final response, show which file goes into each Bilibili upload slot:
+In the final response, show which file goes into each Bilibili upload slot using absolute paths and inline previews. Do not include `base-<topic>.png` in the final response unless explicitly requested.
 
-```text
-首页推荐封面 4:3: covers/<slug>/<slug>-cover-4x3.png
-个人空间封面 16:9: covers/<slug>/<slug>-cover-16x9.png
+```markdown
+首页推荐封面 4:3
+[打开图片](G:/workspace/yinghe-shijie/covers/<slug>/<slug>-cover-4x3.png)
+![首页推荐封面 4:3](G:/workspace/yinghe-shijie/covers/<slug>/<slug>-cover-4x3.png)
+
+个人空间封面 16:9
+[打开图片](G:/workspace/yinghe-shijie/covers/<slug>/<slug>-cover-16x9.png)
+![个人空间封面 16:9](G:/workspace/yinghe-shijie/covers/<slug>/<slug>-cover-16x9.png)
 ```
 
 ## Selection Notes
