@@ -1,0 +1,4 @@
+interface:
+  display_name: "字幕解说音频"
+  short_description: "生成等长中文解说MP3、JSON注释和自动混音"
+  default_prompt: "帮我生成字幕解说音频"
