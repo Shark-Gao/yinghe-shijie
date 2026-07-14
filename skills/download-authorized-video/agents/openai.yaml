@@ -1,0 +1,4 @@
+interface:
+  display_name: "Authorized Video Download"
+  short_description: "Verify and save permitted source video files locally"
+  default_prompt: "Use $download-authorized-video to inspect and save an authorized source video to the project video directory."

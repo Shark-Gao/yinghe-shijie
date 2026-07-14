@@ -7,9 +7,9 @@ description: Use when the user asks to generate source-length Chinese narration,
 
 ## Overview
 
-Turn bilingual or English/Chinese subtitles into source-length Chinese narration for 硬核视界: timeline JSON, `zh-CN-YunyangNeural` MP3, machine-readable overlay annotation JSON, and auto-ducked mixed MP3 for Jianying/CapCut.
+Turn bilingual or English/Chinese subtitles into source-length Chinese narration for 硬核视界: timeline JSON, a bilingual Chinese-narration SRT, a rewritten `zh-CN-YunyangNeural` narration MP3, a verbatim Chinese-subtitle MP3, a Chinese-subtitle-plus-BGM MP3, machine-readable overlay annotation JSON, and auto-ducked mixed MP3 for Jianying/CapCut.
 
-Only use 等长全程 mode. Do not create short remix, intermittent guide, or full narration subtitle SRT unless the user explicitly asks for a separate subtitle file.
+Only use 等长全程 mode. Do not create short remix or intermittent guide tracks.
 
 Default style: calm documentary male narration, tech/engineering focus, natural Chinese口播, no marketing hype, no direct subtitle line-by-line translation.
 
@@ -17,21 +17,36 @@ Default style: calm documentary male narration, tech/engineering focus, natural 
 
 1. Read the provided subtitle file (`.srt`, `.vtt`, or `.txt`) with `Get-Content -Raw`.
 2. Prefer existing Chinese subtitle meaning, but use English lines to correct mistranslations.
-3. Rewrite into full source-length Chinese narration, not a literal subtitle translation.
+3. Rewrite into full source-length Chinese narration, not a literal subtitle translation. For every narration segment, also write an accurate natural English translation in `english_text`; it is used only by the bilingual Chinese-narration SRT, never read by TTS.
 4. Remove creator calls-to-action, sponsor thanks, long filler, platform-specific ending cards, and low-value tangents unless the user asks to keep them.
 5. Keep the original video duration and chapter order. Use the original subtitle time ranges as alignment anchors.
 6. Save all generated files under `outputs/audio/`.
 7. Name every generated file from the source subtitle stem, preserving the Chinese title.
-8. Generate these outputs:
+8. Locate the original video in `videos/raw/` before rendering. The project convention is that every original video is placed in this directory. Match its filename to the subtitle stem after removing a trailing timeline suffix such as `_时间线01`; for example, `二战战机 为何封神？_时间线01.srt` maps to `videos/raw/二战战机 为何封神？.mp4`. If multiple media extensions match, prefer `.mp4`.
+9. Generate these outputs:
    - Timeline JSON: `outputs/audio/<字幕主名>_等长解说时间线.json`
    - Narration MP3: `outputs/audio/<字幕主名>_等长_Yunyang.mp3`
+   - Chinese narration SRT: `outputs/audio/<字幕主名>_中文解说.srt`
+   - Verbatim Chinese-subtitle timeline JSON: `outputs/audio/<字幕主名>_中文字幕直读时间线.json`
+   - Verbatim Chinese-subtitle MP3: `outputs/audio/<字幕主名>_中文字幕直读_Yunyang.mp3`
+   - Chinese-subtitle + BGM MP3: `outputs/audio/<字幕主名>_中文字幕直读_背景音乐_正式版.mp3`
    - Text annotations: `outputs/audio/<字幕主名>_等长文本注释.json`
    - Auto mixed MP3, when the source video is available: `outputs/audio/<字幕主名>_等长_自动混音_正式版.mp3`
-9. Generate MP3 from the timeline JSON with `scripts/render_timeline_tts.py`.
-10. Generate auto-ducked mixed MP3 with `scripts/auto_mix_audio.py` when the source video path is available.
-11. Validate `*_等长文本注释.json` with `scripts/validate_annotations_json.py`.
-12. Delete temporary test/smoke outputs before the final response. Remove files in `outputs/` or `outputs/audio/` whose names contain `_测试版_`, `_test`, or `_smoke`, while preserving formal output files.
-13. Report the timeline JSON, annotation JSON, narration MP3, mixed MP3, duration, voice, and rate.
+10. Build `*_中文字幕直读时间线.json` with `scripts/build_subtitle_tts_timeline.py`. It retains only Chinese subtitle lines and their original timecodes; it does not rewrite or translate the wording. An English-only subtitle file cannot produce this track.
+11. Export `*_中文解说.srt` from the rewritten narration timeline with `scripts/timeline_to_srt.py`. Each SRT cue contains the Chinese narration and its `english_text` translation on the next line, using exactly the corresponding narration time range. Do not overwrite the original bilingual subtitle file.
+12. Generate both the rewritten narration MP3 and the verbatim Chinese-subtitle MP3 from their respective timeline JSON files with `scripts/render_timeline_tts.py`.
+13. Mix the verbatim Chinese-subtitle MP3 with the default BGM using `scripts/mix_narration_with_bgm.py`. Use the project defaults: `music/硬核视界_通用BGM_舒缓科普探索_CC0.mp3`, music volume `0.45`, narration volume `1.0`, no ducking, no narration boost, no limiter, and no fade.
+14. Generate auto-ducked mixed MP3 with `scripts/auto_mix_audio.py` using the rewritten narration MP3 and the matched `videos/raw/` file. Only skip it when no matching source video exists.
+15. Validate `*_等长文本注释.json` with `scripts/validate_annotations_json.py`.
+16. Delete temporary test/smoke outputs before the final response. Remove files in `outputs/` or `outputs/audio/` whose names contain `_测试版_`, `_test`, or `_smoke`, while preserving formal output files.
+17. Report both timeline JSON files, Chinese narration SRT, annotation JSON, both pure-voice MP3 files, the BGM MP3, mixed MP3, duration, voice, and rate.
+
+## Script Management
+
+- Reuse the fixed tools in this skill's `scripts/` directory. Do not recreate, copy, or rewrite these Python scripts for each video run.
+- Never create one-off Python helper scripts under `outputs/`, `outputs/audio/`, temporary folders, or project root just to build, retime, or mix one video.
+- If a repeatable capability is missing (for example, creating a timeline from SRT or shifting all timecodes after a front cut), add or update one stable, parameterized script under `skills/generate-narration-audio/scripts/`, then call it with arguments.
+- Treat output JSON and audio files as data artifacts, not executable code. Keep temporary media only for the duration of a command and delete it before finishing.
 
 ## Narration Rules
 
@@ -46,7 +61,7 @@ Default style: calm documentary male narration, tech/engineering focus, natural 
 
 ## Timeline JSON
 
-Use many shorter timeline segments, usually 20-80 segments for a 20-30 minute video. Each segment must have `id`, `start`, `end`, and `text`. Keep segment starts increasing and make the final `end` equal the source video duration when the video file is available.
+Use many shorter timeline segments, usually 20-80 segments for a 20-30 minute video. Each segment must have `id`, `start`, `end`, `text`, and `english_text`. Keep segment starts increasing and make the final `end` equal the source video duration when the video file is available.
 
 The timeline JSON is the source of truth for both the narration text and timing. Do not create a separate human-readable script file by default.
 
@@ -66,7 +81,8 @@ Shape:
       "id": "seg_001",
       "start": "00:00:00.000",
       "end": "00:00:18.000",
-      "text": "这里是一段适合这个时间窗口的中文解说。"
+      "text": "这里是一段适合这个时间窗口的中文解说。",
+      "english_text": "This is Chinese narration written to fit this time window."
     }
   ]
 }
@@ -76,6 +92,7 @@ Before generating the MP3, check that:
 
 - `segments` are sorted by `start`.
 - Every `end` is later than `start`.
+- Every non-empty `text` has a concise, accurate `english_text` translation. Do not copy the original English subtitle unless it accurately translates the rewritten Chinese narration.
 - The final segment plus tail padding reaches `video_duration`.
 
 ## Video Text Annotation Rules
@@ -177,6 +194,16 @@ python "G:/workspace/yinghe-shijie/skills/generate-narration-audio/scripts/valid
   "G:/workspace/yinghe-shijie/outputs/audio/星链如何把网络送到全球_时间线01_等长文本注释.json"
 ```
 
+## Chinese Narration SRT Rules
+
+Always export a separate `*_中文解说.srt` from the rewritten `*_等长解说时间线.json`. It is an import-ready bilingual subtitle track for the generated Chinese narration, not a replacement for the original bilingual subtitle file.
+
+- Use the rewritten Chinese narration `text`, its `english_text` translation, and its timeline timecodes.
+- Each SRT cue has two lines: Chinese narration first and English translation second. Keep one cue per narration segment so both lines remain synchronized with the spoken audio.
+- Write concise natural English that preserves the Chinese narration's facts, tone, and intent; do not add information.
+- Save as UTF-8 SRT in `outputs/audio/`.
+- Keep the source subtitle unchanged, so the editor can choose either the original Chinese-English subtitle track or this Chinese narration subtitle track.
+
 ## Auto Mixed Audio Rules
 
 When the original video file is available, generate a Jianying-friendly MP3 that already contains:
@@ -200,6 +227,19 @@ Mixing defaults inside the script:
 
 After generation, verify the mixed MP3 duration equals the video duration with `ffprobe`. In Jianying, mute the original video track or set it to `0`, then use the `*_自动混音_正式版.mp3` file as the main audio track.
 
+## Verbatim Chinese-subtitle Audio Rules
+
+Always create a second, pure-voice MP3 from the original Chinese subtitle track. This gives the editor an alternative to the rewritten narration and auto-mixed tracks:
+
+- `*_中文字幕直读_Yunyang.mp3`: original Chinese subtitle wording only, aligned to the subtitle timestamps, with no source audio or BGM.
+- `*_中文字幕直读_背景音乐_正式版.mp3`: the same direct Chinese-subtitle voice, mixed with the standard loopable CC0 BGM.
+- `*_等长_Yunyang.mp3`: rewritten documentary-style Chinese narration, with no source audio or BGM.
+- `*_等长_自动混音_正式版.mp3`: rewritten narration plus ducked original video audio.
+
+For bilingual subtitles, read only the Chinese line(s) in each cue. Preserve their wording other than removing subtitle markup. Do not use the English line or rewrite the Chinese copy. Use the default `+0%` rate so that the spoken track follows the original subtitle rhythm as closely as possible.
+
+For the BGM version, use exactly the existing short-video mix convention: BGM at `0.45`, narration at `1.0`, and no ducking, gain boost, limiter, or fade. This version contains no original source audio.
+
 ## Defaults
 
 | Item | Default |
@@ -208,6 +248,9 @@ After generation, verify the mixed MP3 duration equals the video duration with `
 | Voice | `zh-CN-YunyangNeural` |
 | Rate | `-8%` |
 | Output dir | `outputs/audio/` |
+| Chinese narration subtitles | Always generate bilingual `*_中文解说.srt` from the rewritten narration timeline |
+| Direct subtitle audio | Always generate `*_中文字幕直读_Yunyang.mp3` from Chinese SRT/VTT cues |
+| Direct subtitle + BGM | Always generate `*_中文字幕直读_背景音乐_正式版.mp3` at music `0.45` / narration `1.0` |
 | Naming | Preserve the source subtitle stem, mainly Chinese |
 | Text annotations | 8-120 JSON overlay annotations, scaled by video duration |
 | Auto mixed audio | Generate when source video path is available |
@@ -221,6 +264,31 @@ Generate the source-length narration MP3 from timeline JSON:
 ```powershell
 python "G:/workspace/yinghe-shijie/skills/generate-narration-audio/scripts/render_timeline_tts.py" `
   --timeline "G:/workspace/yinghe-shijie/outputs/audio/星链如何把网络送到全球_时间线01_等长解说时间线.json"
+```
+
+Export the bilingual Chinese-narration subtitle track:
+
+```powershell
+python "G:/workspace/yinghe-shijie/skills/generate-narration-audio/scripts/timeline_to_srt.py" `
+  --timeline "G:/workspace/yinghe-shijie/outputs/audio/星链如何把网络送到全球_时间线01_等长解说时间线.json" `
+  --output "G:/workspace/yinghe-shijie/outputs/audio/星链如何把网络送到全球_时间线01_中文解说.srt"
+```
+
+Build and render the direct Chinese-subtitle audio:
+
+```powershell
+python "G:/workspace/yinghe-shijie/skills/generate-narration-audio/scripts/build_subtitle_tts_timeline.py" `
+  --subtitle "G:/workspace/yinghe-shijie/星链如何把网络送到全球_时间线01.srt" `
+  --video "G:/workspace/yinghe-shijie/videos/raw/星链如何把网络送到全球.mp4" `
+  --output "G:/workspace/yinghe-shijie/outputs/audio/星链如何把网络送到全球_时间线01_中文字幕直读时间线.json" `
+  --audio-output "星链如何把网络送到全球_时间线01_中文字幕直读_Yunyang.mp3"
+
+python "G:/workspace/yinghe-shijie/skills/generate-narration-audio/scripts/render_timeline_tts.py" `
+  --timeline "G:/workspace/yinghe-shijie/outputs/audio/星链如何把网络送到全球_时间线01_中文字幕直读时间线.json"
+
+python "G:/workspace/yinghe-shijie/skills/generate-narration-audio/scripts/mix_narration_with_bgm.py" `
+  --narration "G:/workspace/yinghe-shijie/outputs/audio/星链如何把网络送到全球_时间线01_中文字幕直读_Yunyang.mp3" `
+  --output "G:/workspace/yinghe-shijie/outputs/audio/星链如何把网络送到全球_时间线01_中文字幕直读_背景音乐_正式版.mp3"
 ```
 
 Generate auto-ducked mixed MP3 after the narration MP3 exists:
@@ -245,9 +313,13 @@ python "G:/workspace/yinghe-shijie/skills/generate-narration-audio/scripts/auto_
 Keep the final response short:
 
 - Link the等长解说时间线 JSON.
+- Link the中文解说 SRT.
+- Link the中文字幕直读时间线 JSON.
 - Link the等长文本注释 JSON.
 - Link the等长 Yunyang MP3.
+- Link the中文字幕直读 Yunyang MP3.
+- Link the中文字幕直读背景音乐 MP3.
 - Link the auto mixed MP3 when generated.
 - Include duration when checked.
 - Mention the voice and rate.
-- Tell the user to mute the original video audio in Jianying and use the formal mixed MP3 as the main audio.
+- Tell the user that they can choose the original bilingual subtitle file or the bilingual 中文解说 SRT in Jianying, and choose the direct-subtitle voice-only MP3, direct-subtitle+BGM MP3, or formal mixed MP3 as the main audio; mute the original video track when using any of them.

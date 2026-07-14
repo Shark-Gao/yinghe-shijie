@@ -1,0 +1,151 @@
+ffmpeg version 8.1-full_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers
+  built with gcc 15.2.0 (Rev11, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-cairo --enable-fontconfig --enable-iconv --enable-gnutls --enable-lcms2 --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-libsnappy --enable-zlib --enable-librist --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-libbluray --enable-libcaca --enable-libdvdnav --enable-libdvdread --enable-sdl2 --enable-libaribb24 --enable-libaribcaption --enable-libdav1d --enable-libdavs2 --enable-libopenjpeg --enable-libquirc --enable-libuavs3d --enable-libxevd --enable-libzvbi --enable-liboapv --enable-libqrencode --enable-librav1e --enable-libsvtav1 --enable-libvvenc --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxavs2 --enable-libxeve --enable-libxvid --enable-libaom --enable-libjxl --enable-libsvtjpegxs --enable-libvpx --enable-mediafoundation --enable-libass --enable-frei0r --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-liblensfun --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-dxva2 --enable-d3d11va --enable-d3d12va --enable-ffnvcodec --enable-libvpl --enable-nvdec --enable-nvenc --enable-vaapi --enable-libshaderc --enable-vulkan --enable-libplacebo --enable-opencl --enable-libcdio --enable-openal --enable-libgme --enable-libmodplug --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libshine --enable-libtheora --enable-libtwolame --enable-libvo-amrwbenc --enable-libcodec2 --enable-libilbc --enable-libgsm --enable-liblc3 --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-ladspa --enable-libbs2b --enable-libflite --enable-libmysofa --enable-librubberband --enable-libsoxr --enable-chromaprint --enable-whisper
+  libavutil      60. 26.100 / 60. 26.100
+  libavcodec     62. 28.100 / 62. 28.100
+  libavformat    62. 12.100 / 62. 12.100
+  libavdevice    62.  3.100 / 62.  3.100
+  libavfilter    11. 14.100 / 11. 14.100
+  libswscale      9.  5.100 /  9.  5.100
+  libswresample   6.  3.100 /  6.  3.100
+-filter_complex_script is deprecated, use -/filter_complex C:\t\xinvng2k7\filter_complex.txt instead
+[in#0/mp3 @ 0000021a9bd65b80] Estimating duration from bitrate, this may be inaccurate
+Input #0, mp3, from 'C:\t\xinvng2k7\seg_001.mp3':
+  Duration: 00:00:03.77, start: 0.000000, bitrate: 48 kb/s
+  Stream #0:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#1/mp3 @ 0000021a9bd61300] Estimating duration from bitrate, this may be inaccurate
+Input #1, mp3, from 'C:\t\xinvng2k7\seg_002.mp3':
+  Duration: 00:00:04.32, start: 0.000000, bitrate: 48 kb/s
+  Stream #1:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#2/mp3 @ 0000021a9bd6d080] Estimating duration from bitrate, this may be inaccurate
+Input #2, mp3, from 'C:\t\xinvng2k7\seg_003.mp3':
+  Duration: 00:00:05.23, start: 0.000000, bitrate: 48 kb/s
+  Stream #2:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#3/mp3 @ 0000021a9bdb6e40] Estimating duration from bitrate, this may be inaccurate
+Input #3, mp3, from 'C:\t\xinvng2k7\seg_004.mp3':
+  Duration: 00:00:03.89, start: 0.000000, bitrate: 48 kb/s
+  Stream #3:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#4/mp3 @ 0000021a9bddea00] Estimating duration from bitrate, this may be inaccurate
+Input #4, mp3, from 'C:\t\xinvng2k7\seg_005.mp3':
+  Duration: 00:00:04.82, start: 0.000000, bitrate: 48 kb/s
+  Stream #4:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#5/mp3 @ 0000021a9bdde740] Estimating duration from bitrate, this may be inaccurate
+Input #5, mp3, from 'C:\t\xinvng2k7\seg_006.mp3':
+  Duration: 00:00:02.18, start: 0.000000, bitrate: 48 kb/s
+  Stream #5:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#6/mp3 @ 0000021a9bde9080] Estimating duration from bitrate, this may be inaccurate
+Input #6, mp3, from 'C:\t\xinvng2k7\seg_007.mp3':
+  Duration: 00:00:05.54, start: 0.000000, bitrate: 48 kb/s
+  Stream #6:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#7/mp3 @ 0000021a9bdee240] Estimating duration from bitrate, this may be inaccurate
+Input #7, mp3, from 'C:\t\xinvng2k7\seg_008.mp3':
+  Duration: 00:00:05.16, start: 0.000000, bitrate: 48 kb/s
+  Stream #7:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+Stream mapping:
+  Stream #0:0 (mp3float) -> adelay:default
+  Stream #1:0 (mp3float) -> adelay:default
+  Stream #2:0 (mp3float) -> adelay:default
+  Stream #3:0 (mp3float) -> adelay:default
+  Stream #4:0 (mp3float) -> adelay:default
+  Stream #5:0 (mp3float) -> adelay:default
+  Stream #6:0 (mp3float) -> adelay:default
+  Stream #7:0 (mp3float) -> adelay:default
+  apad:default -> Stream #0:0 (libmp3lame)
+Press [q] to stop, [?] for help
+Output #0, mp3, to 'G:\workspace\yinghe-shijie\videos\exports\短视频\手机电车都在用，锂电池凭啥能充这么多次？\锂电池为何能反复充电_短视频\锂电池为何能反复充电_短视频_中文解说.mp3':
+  Metadata:
+    TSSE            : Lavf62.12.100
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 192 kb/s
+    Metadata:
+      encoder         : Lavc62.28.100 libmp3lame
+[out#0/mp3 @ 0000021a9c006700] video:0KiB audio:1420KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.046133%
+size=    1421KiB time=00:01:00.56 bitrate= 192.2kbits/s speed= 148x elapsed=0:00:00.41    
+ffmpeg version 8.1-full_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers
+  built with gcc 15.2.0 (Rev11, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-cairo --enable-fontconfig --enable-iconv --enable-gnutls --enable-lcms2 --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-libsnappy --enable-zlib --enable-librist --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-libbluray --enable-libcaca --enable-libdvdnav --enable-libdvdread --enable-sdl2 --enable-libaribb24 --enable-libaribcaption --enable-libdav1d --enable-libdavs2 --enable-libopenjpeg --enable-libquirc --enable-libuavs3d --enable-libxevd --enable-libzvbi --enable-liboapv --enable-libqrencode --enable-librav1e --enable-libsvtav1 --enable-libvvenc --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxavs2 --enable-libxeve --enable-libxvid --enable-libaom --enable-libjxl --enable-libsvtjpegxs --enable-libvpx --enable-mediafoundation --enable-libass --enable-frei0r --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-liblensfun --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-dxva2 --enable-d3d11va --enable-d3d12va --enable-ffnvcodec --enable-libvpl --enable-nvdec --enable-nvenc --enable-vaapi --enable-libshaderc --enable-vulkan --enable-libplacebo --enable-opencl --enable-libcdio --enable-openal --enable-libgme --enable-libmodplug --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libshine --enable-libtheora --enable-libtwolame --enable-libvo-amrwbenc --enable-libcodec2 --enable-libilbc --enable-libgsm --enable-liblc3 --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-ladspa --enable-libbs2b --enable-libflite --enable-libmysofa --enable-librubberband --enable-libsoxr --enable-chromaprint --enable-whisper
+  libavutil      60. 26.100 / 60. 26.100
+  libavcodec     62. 28.100 / 62. 28.100
+  libavformat    62. 12.100 / 62. 12.100
+  libavdevice    62.  3.100 / 62.  3.100
+  libavfilter    11. 14.100 / 11. 14.100
+  libswscale      9.  5.100 /  9.  5.100
+  libswresample   6.  3.100 /  6.  3.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'G:\workspace\yinghe-shijie\videos\raw\手机电车都在用，锂电池凭啥能充这么多次？.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf58.76.100
+  Duration: 00:09:29.96, start: 0.000000, bitrate: 1971 kb/s
+  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1920x1080 [SAR 1:1 DAR 16:9], 1837 kb/s, 24 fps, 24 tbr, 12288 tbn (default)
+    Metadata:
+      handler_name    : ISO Media file produced by Google Inc.
+  Stream #0:1[0x2](eng): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 127 kb/s (default)
+    Metadata:
+      handler_name    : ISO Media file produced by Google Inc.
+Input #1, mp3, from 'G:\workspace\yinghe-shijie\videos\exports\短视频\手机电车都在用，锂电池凭啥能充这么多次？\锂电池为何能反复充电_短视频\锂电池为何能反复充电_短视频_中文解说.mp3':
+  Metadata:
+    encoder         : Lavf62.12.100
+  Duration: 00:01:00.57, start: 0.025057, bitrate: 192 kb/s
+  Stream #1:0: Audio: mp3 (mp3float), 44100 Hz, stereo, fltp, 192 kb/s, start 0.025057
+    Metadata:
+      encoder         : Lavc62.28
+Input #2, mp3, from 'G:\workspace\yinghe-shijie\music\硬核视界_通用BGM_舒缓科普探索_CC0.mp3':
+  Metadata:
+    artist          : Cleyton Kauffman
+    title           : Exploration Theme
+    encoder         : Lavf62.12.100
+  Duration: 00:02:14.40, start: 0.025057, bitrate: 192 kb/s
+  Stream #2:0: Audio: mp3 (mp3float), 44100 Hz, stereo, fltp, 192 kb/s, start 0.025057
+    Metadata:
+      encoder         : Lavc62.28
+Stream mapping:
+  Stream #0:0 (h264) -> trim:default
+  Stream #0:0 (h264) -> trim:default
+  Stream #0:0 (h264) -> trim:default
+  Stream #1:0 (mp3float) -> atrim:default
+  Stream #2:0 (mp3float) -> atrim:default
+  concat:out:v0 -> Stream #0:0 (libx264)
+  amix:default -> Stream #0:1 (aac)
+Press [q] to stop, [?] for help
+[libx264 @ 000001f4ca8dba40] using SAR=1/1
+[libx264 @ 000001f4ca8dba40] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+[libx264 @ 000001f4ca8dba40] profile High, level 4.0, 4:2:0, 8-bit
+[libx264 @ 000001f4ca8dba40] 264 - core 165 r3223 0480cb0 - H.264/MPEG-4 AVC codec - Copyleft 2003-2025 - http://www.videolan.org/x264.html - options: cabac=1 ref=3 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=7 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=34 lookahead_threads=5 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=2 keyint=250 keyint_min=25 scenecut=40 intra_refresh=0 rc_lookahead=40 rc=crf mbtree=1 crf=19.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00
+Output #0, mp4, to 'G:\workspace\yinghe-shijie\videos\exports\短视频\手机电车都在用，锂电池凭啥能充这么多次？\锂电池为何能反复充电_短视频\锂电池为何能反复充电_短视频.581680.partial.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf62.12.100
+  Stream #0:0: Video: h264 (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1920x1080 [SAR 1:1 DAR 16:9], q=2-31, 30 fps, 15360 tbn
+    Metadata:
+      encoder         : Lavc62.28.100 libx264
+    Side data:
+      CPB properties: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+  Stream #0:1: Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 192 kb/s
+    Metadata:
+      encoder         : Lavc62.28.100 aac
+frame=    0 fps=0.0 q=0.0 size=       0KiB time=N/A bitrate=N/A speed=N/A elapsed=0:00:05.68    frame=  112 fps= 18 q=25.0 size=    1792KiB time=00:00:03.63 bitrate=4040.5kbits/s speed=0.585x elapsed=0:00:06.20    frame=  201 fps= 30 q=25.0 size=    3328KiB time=00:00:06.63 bitrate=4110.1kbits/s speed=0.984x elapsed=0:00:06.74    frame=  291 fps= 40 q=25.0 size=    5888KiB time=00:00:09.63 bitrate=5007.1kbits/s speed=1.33x elapsed=0:00:07.26    frame=  363 fps= 47 q=25.0 size=    7680KiB time=00:00:12.03 bitrate=5228.4kbits/s speed=1.55x elapsed=0:00:07.78    frame=  439 fps= 53 q=25.0 size=    9472KiB time=00:00:14.53 bitrate=5339.1kbits/s speed=1.75x elapsed=0:00:08.30    frame=  513 fps= 58 q=25.0 size=   11776KiB time=00:00:17.03 bitrate=5663.6kbits/s speed=1.93x elapsed=0:00:08.82    [out_#0:0 @ 000001f4cba5c980] 100 buffers queued in out_#0:0, something may be wrong.
+frame=  582 fps= 62 q=25.0 size=   13568KiB time=00:00:19.33 bitrate=5749.1kbits/s speed=2.07x elapsed=0:00:09.34    frame=  637 fps= 65 q=25.0 size=   15104KiB time=00:00:21.16 bitrate=5845.6kbits/s speed=2.15x elapsed=0:00:09.86    frame=  732 fps= 70 q=25.0 size=   15360KiB time=00:00:21.52 bitrate=5845.8kbits/s speed=2.07x elapsed=0:00:10.38    frame=  829 fps= 76 q=25.0 size=   15360KiB time=00:00:21.52 bitrate=5845.8kbits/s speed=1.97x elapsed=0:00:10.91    frame=  879 fps= 77 q=25.0 size=   15360KiB time=00:00:21.52 bitrate=5845.8kbits/s speed=1.88x elapsed=0:00:11.42    frame=  928 fps= 78 q=25.0 size=   15360KiB time=00:00:21.52 bitrate=5845.8kbits/s speed= 1.8x elapsed=0:00:11.95    frame=  969 fps= 78 q=25.0 size=   15616KiB time=00:00:21.52 bitrate=5943.2kbits/s speed=1.73x elapsed=0:00:12.46    frame= 1018 fps= 78 q=25.0 size=   16384KiB time=00:00:21.52 bitrate=6235.5kbits/s speed=1.66x elapsed=0:00:12.99    frame= 1070 fps= 79 q=25.0 size=   16640KiB time=00:00:21.52 bitrate=6332.9kbits/s speed=1.59x elapsed=0:00:13.51    frame= 1113 fps= 79 q=25.0 size=   16896KiB time=00:00:21.52 bitrate=6430.3kbits/s speed=1.53x elapsed=0:00:14.04    frame= 1165 fps= 80 q=25.0 size=   17408KiB time=00:00:21.52 bitrate=6625.2kbits/s speed=1.48x elapsed=0:00:14.56    frame= 1212 fps= 80 q=25.0 size=   19200KiB time=00:00:21.52 bitrate=7307.2kbits/s speed=1.43x elapsed=0:00:15.08    frame= 1253 fps= 80 q=25.0 size=   20736KiB time=00:00:21.52 bitrate=7891.8kbits/s speed=1.38x elapsed=0:00:15.60    frame= 1264 fps= 78 q=25.0 size=   23040KiB time=00:00:34.41 bitrate=5484.8kbits/s speed=2.13x elapsed=0:00:16.12    frame= 1301 fps= 78 q=25.0 size=   27904KiB time=00:00:43.30 bitrate=5279.2kbits/s speed= 2.6x elapsed=0:00:16.64    frame= 1365 fps= 80 q=25.0 size=   28416KiB time=00:00:44.69 bitrate=5207.9kbits/s speed= 2.6x elapsed=0:00:17.16    frame= 1435 fps= 81 q=25.0 size=   28416KiB time=00:00:44.69 bitrate=5207.9kbits/s speed=2.53x elapsed=0:00:17.67    frame= 1528 fps= 84 q=25.0 size=   28416KiB time=00:00:44.69 bitrate=5207.9kbits/s speed=2.46x elapsed=0:00:18.20    frame= 1594 fps= 85 q=25.0 size=   28416KiB time=00:00:44.69 bitrate=5207.9kbits/s speed=2.39x elapsed=0:00:18.72    frame= 1679 fps= 87 q=25.0 size=   29184KiB time=00:00:44.69 bitrate=5348.6kbits/s speed=2.32x elapsed=0:00:19.22    frame= 1739 fps= 88 q=25.0 size=   30464KiB time=00:00:48.04 bitrate=5194.6kbits/s speed=2.43x elapsed=0:00:19.74    frame= 1773 fps= 87 q=25.0 size=   37376KiB time=N/A bitrate=N/A speed=N/A elapsed=0:00:20.26    [mp4 @ 000001f4cadd8580] Starting second pass: moving the moov atom to the beginning of the file
+[out#0/mp4 @ 000001f4ca8c7440] video:37248KiB audio:1449KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.149280%
+frame= 1818 fps= 88 q=-1.0 Lsize=   38755KiB time=00:01:00.53 bitrate=5244.7kbits/s speed=2.94x elapsed=0:00:20.60    
+[libx264 @ 000001f4ca8dba40] frame I:8     Avg QP:13.22  size:294282
+[libx264 @ 000001f4ca8dba40] frame P:547   Avg QP:18.05  size: 42479
+[libx264 @ 000001f4ca8dba40] frame B:1263  Avg QP:21.06  size:  9937
+[libx264 @ 000001f4ca8dba40] consecutive B-frames:  1.3% 12.9% 16.3% 69.5%
+[libx264 @ 000001f4ca8dba40] mb I  I16..4: 26.3% 27.4% 46.4%
+[libx264 @ 000001f4ca8dba40] mb P  I16..4:  2.4%  4.3%  1.8%  P16..4: 23.5%  8.8%  6.0%  0.0%  0.0%    skip:53.2%
+[libx264 @ 000001f4ca8dba40] mb B  I16..4:  0.2%  0.3%  0.3%  B16..8: 18.5%  2.7%  1.0%  direct: 0.8%  skip:76.2%  L0:45.9% L1:44.9% BI: 9.2%
+[libx264 @ 000001f4ca8dba40] 8x8 transform intra:46.3% inter:45.0%
+[libx264 @ 000001f4ca8dba40] coded y,uvDC,uvAC intra: 40.1% 53.7% 34.0% inter: 6.1% 6.7% 3.1%
+[libx264 @ 000001f4ca8dba40] i16 v,h,dc,p: 30% 44% 12% 14%
+[libx264 @ 000001f4ca8dba40] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 17% 28% 34%  2%  4%  3%  5%  2%  4%
+[libx264 @ 000001f4ca8dba40] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 20% 25% 17%  5%  8%  5%  8%  5%  7%
+[libx264 @ 000001f4ca8dba40] i8c dc,h,v,p: 50% 30% 14%  6%
+[libx264 @ 000001f4ca8dba40] Weighted P-Frames: Y:0.5% UV:0.0%
+[libx264 @ 000001f4ca8dba40] ref P L0: 61.7% 15.5% 15.4%  7.4%  0.0%
+[libx264 @ 000001f4ca8dba40] ref B L0: 86.1% 11.6%  2.3%
+[libx264 @ 000001f4ca8dba40] ref B L1: 98.2%  1.8%
+[libx264 @ 000001f4ca8dba40] kb/s:5035.11
+[aac @ 000001f4cadd7240] Qavg: 632.634

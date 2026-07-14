@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "title": "锂电池里一张薄膜，为什么能防止起火？",
+  "platform_titles": {
+    "bilibili": "锂电池里一张薄膜，为什么能防止起火？",
+    "douyin": "一张薄膜，怎么拦住锂电池起火？",
+    "kuaishou": "电池里这层薄膜，到底防的是什么？",
+    "xiaohongshu": "锂电池隔膜原理图解：看懂它为何能防短路"
+  },
+  "source_video": "G:/workspace/yinghe-shijie/videos/raw/手机电车都在用，锂电池凭啥能充这么多次？.mp4",
+  "output_video": "G:/workspace/yinghe-shijie/videos/exports/短视频/手机电车都在用，锂电池凭啥能充这么多次？/隔膜为何能防止电池起火_短视频/隔膜为何能防止电池起火_短视频.mp4",
+  "cover_title": "隔膜不能破",
+  "cover_headline": "隔膜不能破",
+  "cover_subhead": "它拦住了短路",
+  "cover_aspect": "16:9",
+  "background_music": "music/硬核视界_通用BGM_舒缓科普探索_CC0.mp3",
+  "layout": "source",
+  "burn_captions": false,
+  "write_subtitles": true,
+  "mix": { "source_volume": 0.0, "narration_volume": 1.0, "music_volume": 0.45, "music_fade_seconds": 0.0 },
+  "clips": [
+    { "id": "separator-safety", "source_start": "00:05:41.800", "source_end": "00:06:08.500", "focus_x": 0.50 }
+  ],
+  "narration": {
+    "voice": "zh-CN-YunyangNeural",
+    "rate": "+0%",
+    "segments": [
+      { "start": "00:00:00.000", "end": "00:00:04.000", "text": "两张电极一旦贴在一起，锂电池会怎样？" },
+      { "start": "00:00:04.000", "end": "00:00:10.000", "text": "电池内部，正负极必须被一层隔膜隔开。" },
+      { "start": "00:00:10.000", "end": "00:00:17.000", "text": "要是它们直接接触，残留的锂会让反应迅速失控。" },
+      { "start": "00:00:17.000", "end": "00:00:22.000", "text": "热量急剧累积，起火甚至爆燃的风险就来了。" },
+      { "start": "00:00:22.000", "end": "00:00:26.700", "text": "所以隔膜要让锂离子通过，却绝不能让电子直接穿过去。" }
+    ]
+  }
+}

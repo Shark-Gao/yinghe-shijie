@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "title": "SSD 断电为什么不丢数据？",
+  "source_video": "G:/workspace/yinghe-shijie/videos/raw/AI 时代，缓存 内存 硬盘到底怎么分工？.mp4",
+  "output_video": "G:/workspace/yinghe-shijie/videos/exports/短视频/AI 时代，缓存 内存 硬盘到底怎么分工？/SSD断电为什么不丢数据_短视频/SSD断电为什么不丢数据_短视频.mp4",
+  "cover_title": "SSD 断电也不丢数据",
+  "cover_headline": "SSD断电不丢",
+  "cover_subhead": "电子锁在芯片里",
+  "cover_aspect": "16:9", "background_music": "music/硬核视界_通用BGM_舒缓科普探索_CC0.mp3",
+  "layout": "source", "burn_captions": false, "write_subtitles": true,
+  "mix": { "source_volume": 0.0, "narration_volume": 1.0, "music_volume": 0.45, "music_fade_seconds": 0.0 },
+  "clips": [
+    { "id": "ssd", "source_start": "00:09:17.000", "source_end": "00:09:25.000", "focus_x": 0.5 },
+    { "id": "nand", "source_start": "00:09:25.000", "source_end": "00:09:33.000", "focus_x": 0.5 },
+    { "id": "array", "source_start": "00:09:46.000", "source_end": "00:09:55.000", "focus_x": 0.5 },
+    { "id": "cell", "source_start": "00:10:09.000", "source_end": "00:10:18.000", "focus_x": 0.5 },
+    { "id": "electrons", "source_start": "00:10:18.000", "source_end": "00:10:28.000", "focus_x": 0.5 },
+    { "id": "tradeoff", "source_start": "00:10:28.000", "source_end": "00:10:40.000", "focus_x": 0.5 }
+  ],
+  "narration": { "voice": "zh-CN-YunyangNeural", "rate": "+0%", "segments": [
+    { "start": "00:00:00.000", "end": "00:00:08.000", "text": "一块两 TB 的 SSD，为什么能把海量文件塞进指甲盖大小的芯片？" },
+    { "start": "00:00:08.000", "end": "00:00:16.000", "text": "答案是 3D NAND：它不是把存储单元平铺，而是向上叠了数百层。" },
+    { "start": "00:00:16.000", "end": "00:00:25.000", "text": "每个单元靠困住不同数量的电子，记录多个比特。" },
+    { "start": "00:00:25.000", "end": "00:00:34.000", "text": "断电以后，电子仍被绝缘层锁在里面，所以文件不会立刻消失。" },
+    { "start": "00:00:34.000", "end": "00:00:44.000", "text": "但写入和读取这些电荷，需要复杂的电压步骤。" },
+    { "start": "00:00:44.000", "end": "00:00:56.000", "text": "这就是 SSD 容量大又省电，却仍比内存慢得多的根本原因。" }
+  ] }
+}

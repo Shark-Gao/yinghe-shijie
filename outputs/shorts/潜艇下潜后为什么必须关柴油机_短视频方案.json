@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "title": "潜艇下潜后为什么必须关柴油机？",
+  "source_video": "G:/workspace/yinghe-shijie/videos/raw/二战潜艇内部到底怎么运转？.mp4",
+  "output_video": "G:/workspace/yinghe-shijie/videos/exports/短视频/二战潜艇内部到底怎么运转？/潜艇下潜后为什么必须关柴油机_短视频/潜艇下潜后为什么必须关柴油机_短视频.mp4",
+  "cover_title": "潜艇下潜后为什么必须关柴油机？",
+  "cover_headline": "柴油机全熄火",
+  "cover_subhead": "下潜只靠电池",
+  "cover_aspect": "16:9",
+  "background_music": "music/硬核视界_通用BGM_舒缓科普探索_CC0.mp3",
+  "layout": "source",
+  "burn_captions": false,
+  "write_subtitles": true,
+  "mix": { "source_volume": 0.0, "narration_volume": 1.0, "music_volume": 0.45, "music_fade_seconds": 0.0 },
+  "clips": [
+    { "id": "battery-limit-hook", "source_start": "00:23:41.433", "source_end": "00:23:46.500", "focus_x": 0.5 },
+    { "id": "diesel-engine", "source_start": "00:19:26.633", "source_end": "00:19:35.700", "focus_x": 0.5 },
+    { "id": "diesel-electric", "source_start": "00:21:53.033", "source_end": "00:22:03.200", "focus_x": 0.5 },
+    { "id": "battery-banks", "source_start": "00:22:14.233", "source_end": "00:22:29.300", "focus_x": 0.5 },
+    { "id": "speed-tradeoff", "source_start": "00:23:30.733", "source_end": "00:23:42.800", "focus_x": 0.5 }
+  ],
+  "narration": {
+    "voice": "zh-CN-YunyangNeural",
+    "rate": "+0%",
+    "segments": [
+      { "start": "00:00:00.000", "end": "00:00:05.067", "text": "这艘二战潜艇全速潜航，电池只能撑半小时。" },
+      { "start": "00:00:05.067", "end": "00:00:14.134", "text": "看起来它有四台柴油机，可柴油机要不停吸气、排气；一旦潜入水下，发动机就必须熄火。" },
+      { "start": "00:00:14.134", "end": "00:00:24.301", "text": "它真正的结构是柴油发电，发电机把能量送给电动机；在水面上推进，也给电池充电。" },
+      { "start": "00:00:24.301", "end": "00:00:39.368", "text": "下潜时，螺旋桨改由巨大的电池组驱动。前后两组电池，各有一百二十六节；每一节都像户外垃圾桶那么大。" },
+      { "start": "00:00:39.368", "end": "00:00:51.435", "text": "代价是水下最高只有九节，远低于水面二十一节。电越省得越远，所以二战潜艇大多数时间其实待在水面。" }
+    ]
+  }
+}

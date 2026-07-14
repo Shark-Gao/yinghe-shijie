@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "title": "手机电车都在用，锂电池为何能反复充电？",
+  "platform_titles": {
+    "bilibili": "手机电车都在用，锂电池为何能反复充电？",
+    "douyin": "锂电池凭啥能一次次充满？",
+    "kuaishou": "锂电池到底咋做到反复充电的？",
+    "xiaohongshu": "锂电池充电原理图解：看懂锂离子如何往返"
+  },
+  "source_video": "G:/workspace/yinghe-shijie/videos/raw/手机电车都在用，锂电池凭啥能充这么多次？.mp4",
+  "output_video": "G:/workspace/yinghe-shijie/videos/exports/短视频/手机电车都在用，锂电池凭啥能充这么多次？/锂电池为何能反复充电_短视频/锂电池为何能反复充电_短视频.mp4",
+  "cover_title": "锂离子在搬家",
+  "cover_headline": "锂离子在搬家",
+  "cover_subhead": "所以能反复充电",
+  "cover_aspect": "16:9",
+  "background_music": "music/硬核视界_通用BGM_舒缓科普探索_CC0.mp3",
+  "layout": "source",
+  "burn_captions": false,
+  "write_subtitles": true,
+  "mix": { "source_volume": 0.0, "narration_volume": 1.0, "music_volume": 0.45, "music_fade_seconds": 0.0 },
+  "clips": [
+    { "id": "charge-reverse", "source_start": "00:05:12.666", "source_end": "00:05:34.200", "focus_x": 0.50 },
+    { "id": "graphite-storage", "source_start": "00:01:25.066", "source_end": "00:01:48.333", "focus_x": 0.50 },
+    { "id": "discharge-flow", "source_start": "00:04:13.833", "source_end": "00:04:29.600", "focus_x": 0.50 }
+  ],
+  "narration": {
+    "voice": "zh-CN-YunyangNeural",
+    "rate": "+0%",
+    "segments": [
+      { "start": "00:00:00.000", "end": "00:00:04.000", "text": "手机和电车的锂电池，为什么能反复充？" },
+      { "start": "00:00:04.000", "end": "00:00:12.000", "text": "它没有把电烧掉，而是在两边反复搬运锂离子。" },
+      { "start": "00:00:12.000", "end": "00:00:21.534", "text": "充电器会把电子流强行反向，把锂离子从正极推出去。" },
+      { "start": "00:00:21.534", "end": "00:00:31.000", "text": "这些锂离子，会重新钻回负极的石墨层。" },
+      { "start": "00:00:31.000", "end": "00:00:40.000", "text": "石墨就像层层书架，能稳定地把锂塞进空隙里。" },
+      { "start": "00:00:40.000", "end": "00:00:44.801", "text": "这一步，叫做嵌入。" },
+      { "start": "00:00:44.801", "end": "00:00:54.000", "text": "用电时，锂离子再离开石墨，电子走外部电路，给设备供电。" },
+      { "start": "00:00:54.000", "end": "00:01:00.568", "text": "充电就是把这条路线倒过来，所以锂电池能反复使用。" }
+    ]
+  }
+}

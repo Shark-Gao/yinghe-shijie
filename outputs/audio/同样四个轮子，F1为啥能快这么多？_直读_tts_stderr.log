@@ -1,0 +1,2222 @@
+ffmpeg version 8.1-full_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers
+  built with gcc 15.2.0 (Rev11, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-cairo --enable-fontconfig --enable-iconv --enable-gnutls --enable-lcms2 --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-libsnappy --enable-zlib --enable-librist --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-libbluray --enable-libcaca --enable-libdvdnav --enable-libdvdread --enable-sdl2 --enable-libaribb24 --enable-libaribcaption --enable-libdav1d --enable-libdavs2 --enable-libopenjpeg --enable-libquirc --enable-libuavs3d --enable-libxevd --enable-libzvbi --enable-liboapv --enable-libqrencode --enable-librav1e --enable-libsvtav1 --enable-libvvenc --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxavs2 --enable-libxeve --enable-libxvid --enable-libaom --enable-libjxl --enable-libsvtjpegxs --enable-libvpx --enable-mediafoundation --enable-libass --enable-frei0r --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-liblensfun --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-dxva2 --enable-d3d11va --enable-d3d12va --enable-ffnvcodec --enable-libvpl --enable-nvdec --enable-nvenc --enable-vaapi --enable-libshaderc --enable-vulkan --enable-libplacebo --enable-opencl --enable-libcdio --enable-openal --enable-libgme --enable-libmodplug --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libshine --enable-libtheora --enable-libtwolame --enable-libvo-amrwbenc --enable-libcodec2 --enable-libilbc --enable-libgsm --enable-liblc3 --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-ladspa --enable-libbs2b --enable-libflite --enable-libmysofa --enable-librubberband --enable-libsoxr --enable-chromaprint --enable-whisper
+  libavutil      60. 26.100 / 60. 26.100
+  libavcodec     62. 28.100 / 62. 28.100
+  libavformat    62. 12.100 / 62. 12.100
+  libavdevice    62.  3.100 / 62.  3.100
+  libavfilter    11. 14.100 / 11. 14.100
+  libswscale      9.  5.100 /  9.  5.100
+  libswresample   6.  3.100 /  6.  3.100
+-filter_complex_script is deprecated, use -/filter_complex C:\t\xno4lpahf\filter_complex.txt instead
+[in#0/mp3 @ 00000242348f0240] Estimating duration from bitrate, this may be inaccurate
+Input #0, mp3, from 'C:\t\xno4lpahf\subtitle_001.mp3':
+  Duration: 00:00:02.04, start: 0.000000, bitrate: 48 kb/s
+  Stream #0:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#1/mp3 @ 000002423408e300] Estimating duration from bitrate, this may be inaccurate
+Input #1, mp3, from 'C:\t\xno4lpahf\subtitle_002.mp3':
+  Duration: 00:00:01.78, start: 0.000000, bitrate: 48 kb/s
+  Stream #1:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#2/mp3 @ 000002423408ddc0] Estimating duration from bitrate, this may be inaccurate
+Input #2, mp3, from 'C:\t\xno4lpahf\subtitle_003.mp3':
+  Duration: 00:00:03.31, start: 0.000000, bitrate: 48 kb/s
+  Stream #2:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#3/mp3 @ 000002423408e5c0] Estimating duration from bitrate, this may be inaccurate
+Input #3, mp3, from 'C:\t\xno4lpahf\subtitle_004.mp3':
+  Duration: 00:00:02.66, start: 0.000000, bitrate: 48 kb/s
+  Stream #3:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#4/mp3 @ 000002423408e880] Estimating duration from bitrate, this may be inaccurate
+Input #4, mp3, from 'C:\t\xno4lpahf\subtitle_005.mp3':
+  Duration: 00:00:01.90, start: 0.000000, bitrate: 48 kb/s
+  Stream #4:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#5/mp3 @ 000002423408e040] Estimating duration from bitrate, this may be inaccurate
+Input #5, mp3, from 'C:\t\xno4lpahf\subtitle_006.mp3':
+  Duration: 00:00:02.64, start: 0.000000, bitrate: 48 kb/s
+  Stream #5:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#6/mp3 @ 000002423408d580] Estimating duration from bitrate, this may be inaccurate
+Input #6, mp3, from 'C:\t\xno4lpahf\subtitle_007.mp3':
+  Duration: 00:00:03.02, start: 0.000000, bitrate: 48 kb/s
+  Stream #6:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#7/mp3 @ 000002423408eb00] Estimating duration from bitrate, this may be inaccurate
+Input #7, mp3, from 'C:\t\xno4lpahf\subtitle_008.mp3':
+  Duration: 00:00:01.73, start: 0.000000, bitrate: 48 kb/s
+  Stream #7:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#8/mp3 @ 000002423408d040] Estimating duration from bitrate, this may be inaccurate
+Input #8, mp3, from 'C:\t\xno4lpahf\subtitle_009.mp3':
+  Duration: 00:00:02.38, start: 0.000000, bitrate: 48 kb/s
+  Stream #8:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#9/mp3 @ 000002423408d300] Estimating duration from bitrate, this may be inaccurate
+Input #9, mp3, from 'C:\t\xno4lpahf\subtitle_010.mp3':
+  Duration: 00:00:01.49, start: 0.000000, bitrate: 48 kb/s
+  Stream #9:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#10/mp3 @ 000002423408d840] Estimating duration from bitrate, this may be inaccurate
+Input #10, mp3, from 'C:\t\xno4lpahf\subtitle_011.mp3':
+  Duration: 00:00:02.02, start: 0.000000, bitrate: 48 kb/s
+  Stream #10:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#11/mp3 @ 000002423408db00] Estimating duration from bitrate, this may be inaccurate
+Input #11, mp3, from 'C:\t\xno4lpahf\subtitle_012.mp3':
+  Duration: 00:00:03.48, start: 0.000000, bitrate: 48 kb/s
+  Stream #11:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#12/mp3 @ 00000242348ae200] Estimating duration from bitrate, this may be inaccurate
+Input #12, mp3, from 'C:\t\xno4lpahf\subtitle_013.mp3':
+  Duration: 00:00:02.74, start: 0.000000, bitrate: 48 kb/s
+  Stream #12:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#13/mp3 @ 00000242348af200] Estimating duration from bitrate, this may be inaccurate
+Input #13, mp3, from 'C:\t\xno4lpahf\subtitle_014.mp3':
+  Duration: 00:00:01.99, start: 0.000000, bitrate: 48 kb/s
+  Stream #13:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#14/mp3 @ 00000242348af4c0] Estimating duration from bitrate, this may be inaccurate
+Input #14, mp3, from 'C:\t\xno4lpahf\subtitle_015.mp3':
+  Duration: 00:00:01.78, start: 0.000000, bitrate: 48 kb/s
+  Stream #14:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#15/mp3 @ 00000242348b0fc0] Estimating duration from bitrate, this may be inaccurate
+Input #15, mp3, from 'C:\t\xno4lpahf\subtitle_016.mp3':
+  Duration: 00:00:01.82, start: 0.000000, bitrate: 48 kb/s
+  Stream #15:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#16/mp3 @ 00000242348af780] Estimating duration from bitrate, this may be inaccurate
+Input #16, mp3, from 'C:\t\xno4lpahf\subtitle_017.mp3':
+  Duration: 00:00:01.34, start: 0.000000, bitrate: 48 kb/s
+  Stream #16:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#17/mp3 @ 00000242348b0780] Estimating duration from bitrate, this may be inaccurate
+Input #17, mp3, from 'C:\t\xno4lpahf\subtitle_018.mp3':
+  Duration: 00:00:03.00, start: 0.000000, bitrate: 48 kb/s
+  Stream #17:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#18/mp3 @ 00000242348b0500] Estimating duration from bitrate, this may be inaccurate
+Input #18, mp3, from 'C:\t\xno4lpahf\subtitle_019.mp3':
+  Duration: 00:00:01.73, start: 0.000000, bitrate: 48 kb/s
+  Stream #18:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#19/mp3 @ 00000242348afa40] Estimating duration from bitrate, this may be inaccurate
+Input #19, mp3, from 'C:\t\xno4lpahf\subtitle_020.mp3':
+  Duration: 00:00:02.42, start: 0.000000, bitrate: 48 kb/s
+  Stream #19:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#20/mp3 @ 00000242348b17c0] Estimating duration from bitrate, this may be inaccurate
+Input #20, mp3, from 'C:\t\xno4lpahf\subtitle_021.mp3':
+  Duration: 00:00:02.02, start: 0.000000, bitrate: 48 kb/s
+  Stream #20:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#21/mp3 @ 00000242348aecc0] Estimating duration from bitrate, this may be inaccurate
+Input #21, mp3, from 'C:\t\xno4lpahf\subtitle_022.mp3':
+  Duration: 00:00:01.90, start: 0.000000, bitrate: 48 kb/s
+  Stream #21:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#22/mp3 @ 00000242348b1240] Estimating duration from bitrate, this may be inaccurate
+Input #22, mp3, from 'C:\t\xno4lpahf\subtitle_023.mp3':
+  Duration: 00:00:01.85, start: 0.000000, bitrate: 48 kb/s
+  Stream #22:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#23/mp3 @ 00000242348b1500] Estimating duration from bitrate, this may be inaccurate
+Input #23, mp3, from 'C:\t\xno4lpahf\subtitle_024.mp3':
+  Duration: 00:00:01.68, start: 0.000000, bitrate: 48 kb/s
+  Stream #23:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#24/mp3 @ 00000242348b1a80] Estimating duration from bitrate, this may be inaccurate
+Input #24, mp3, from 'C:\t\xno4lpahf\subtitle_025.mp3':
+  Duration: 00:00:01.75, start: 0.000000, bitrate: 48 kb/s
+  Stream #24:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#25/mp3 @ 00000242348afcc0] Estimating duration from bitrate, this may be inaccurate
+Input #25, mp3, from 'C:\t\xno4lpahf\subtitle_026.mp3':
+  Duration: 00:00:03.77, start: 0.000000, bitrate: 48 kb/s
+  Stream #25:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#26/mp3 @ 00000242348ae740] Estimating duration from bitrate, this may be inaccurate
+Input #26, mp3, from 'C:\t\xno4lpahf\subtitle_027.mp3':
+  Duration: 00:00:02.04, start: 0.000000, bitrate: 48 kb/s
+  Stream #26:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#27/mp3 @ 00000242348b1d00] Estimating duration from bitrate, this may be inaccurate
+Input #27, mp3, from 'C:\t\xno4lpahf\subtitle_028.mp3':
+  Duration: 00:00:02.28, start: 0.000000, bitrate: 48 kb/s
+  Stream #27:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#28/mp3 @ 00000242348ae4c0] Estimating duration from bitrate, this may be inaccurate
+Input #28, mp3, from 'C:\t\xno4lpahf\subtitle_029.mp3':
+  Duration: 00:00:01.78, start: 0.000000, bitrate: 48 kb/s
+  Stream #28:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#29/mp3 @ 00000242348aea00] Estimating duration from bitrate, this may be inaccurate
+Input #29, mp3, from 'C:\t\xno4lpahf\subtitle_030.mp3':
+  Duration: 00:00:03.24, start: 0.000000, bitrate: 48 kb/s
+  Stream #29:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#30/mp3 @ 00000242348aff80] Estimating duration from bitrate, this may be inaccurate
+Input #30, mp3, from 'C:\t\xno4lpahf\subtitle_031.mp3':
+  Duration: 00:00:03.26, start: 0.000000, bitrate: 48 kb/s
+  Stream #30:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#31/mp3 @ 00000242348b0240] Estimating duration from bitrate, this may be inaccurate
+Input #31, mp3, from 'C:\t\xno4lpahf\subtitle_032.mp3':
+  Duration: 00:00:03.19, start: 0.000000, bitrate: 48 kb/s
+  Stream #31:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#32/mp3 @ 00000242348aef80] Estimating duration from bitrate, this may be inaccurate
+Input #32, mp3, from 'C:\t\xno4lpahf\subtitle_033.mp3':
+  Duration: 00:00:02.59, start: 0.000000, bitrate: 48 kb/s
+  Stream #32:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#33/mp3 @ 00000242348b0a40] Estimating duration from bitrate, this may be inaccurate
+Input #33, mp3, from 'C:\t\xno4lpahf\subtitle_034.mp3':
+  Duration: 00:00:02.69, start: 0.000000, bitrate: 48 kb/s
+  Stream #33:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#34/mp3 @ 00000242348b0d00] Estimating duration from bitrate, this may be inaccurate
+Input #34, mp3, from 'C:\t\xno4lpahf\subtitle_035.mp3':
+  Duration: 00:00:01.78, start: 0.000000, bitrate: 48 kb/s
+  Stream #34:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#35/mp3 @ 0000024234ac4040] Estimating duration from bitrate, this may be inaccurate
+Input #35, mp3, from 'C:\t\xno4lpahf\subtitle_036.mp3':
+  Duration: 00:00:02.42, start: 0.000000, bitrate: 48 kb/s
+  Stream #35:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#36/mp3 @ 0000024234ac4580] Estimating duration from bitrate, this may be inaccurate
+Input #36, mp3, from 'C:\t\xno4lpahf\subtitle_037.mp3':
+  Duration: 00:00:03.38, start: 0.000000, bitrate: 48 kb/s
+  Stream #36:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#37/mp3 @ 0000024234ac4840] Estimating duration from bitrate, this may be inaccurate
+Input #37, mp3, from 'C:\t\xno4lpahf\subtitle_038.mp3':
+  Duration: 00:00:02.98, start: 0.000000, bitrate: 48 kb/s
+  Stream #37:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#38/mp3 @ 0000024234ac42c0] Estimating duration from bitrate, this may be inaccurate
+Input #38, mp3, from 'C:\t\xno4lpahf\subtitle_039.mp3':
+  Duration: 00:00:02.54, start: 0.000000, bitrate: 48 kb/s
+  Stream #38:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#39/mp3 @ 0000024234ac32c0] Estimating duration from bitrate, this may be inaccurate
+Input #39, mp3, from 'C:\t\xno4lpahf\subtitle_040.mp3':
+  Duration: 00:00:03.05, start: 0.000000, bitrate: 48 kb/s
+  Stream #39:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#40/mp3 @ 0000024234ac4b00] Estimating duration from bitrate, this may be inaccurate
+Input #40, mp3, from 'C:\t\xno4lpahf\subtitle_041.mp3':
+  Duration: 00:00:02.23, start: 0.000000, bitrate: 48 kb/s
+  Stream #40:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#41/mp3 @ 0000024234ac3000] Estimating duration from bitrate, this may be inaccurate
+Input #41, mp3, from 'C:\t\xno4lpahf\subtitle_042.mp3':
+  Duration: 00:00:01.85, start: 0.000000, bitrate: 48 kb/s
+  Stream #41:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#42/mp3 @ 0000024234ac3d80] Estimating duration from bitrate, this may be inaccurate
+Input #42, mp3, from 'C:\t\xno4lpahf\subtitle_043.mp3':
+  Duration: 00:00:02.38, start: 0.000000, bitrate: 48 kb/s
+  Stream #42:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#43/mp3 @ 0000024234ac3580] Estimating duration from bitrate, this may be inaccurate
+Input #43, mp3, from 'C:\t\xno4lpahf\subtitle_044.mp3':
+  Duration: 00:00:01.78, start: 0.000000, bitrate: 48 kb/s
+  Stream #43:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#44/mp3 @ 0000024234ac3800] Estimating duration from bitrate, this may be inaccurate
+Input #44, mp3, from 'C:\t\xno4lpahf\subtitle_045.mp3':
+  Duration: 00:00:02.88, start: 0.000000, bitrate: 48 kb/s
+  Stream #44:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#45/mp3 @ 0000024234ac3ac0] Estimating duration from bitrate, this may be inaccurate
+Input #45, mp3, from 'C:\t\xno4lpahf\subtitle_046.mp3':
+  Duration: 00:00:01.54, start: 0.000000, bitrate: 48 kb/s
+  Stream #45:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#46/mp3 @ 0000024234c6b440] Estimating duration from bitrate, this may be inaccurate
+Input #46, mp3, from 'C:\t\xno4lpahf\subtitle_047.mp3':
+  Duration: 00:00:03.41, start: 0.000000, bitrate: 48 kb/s
+  Stream #46:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#47/mp3 @ 0000024234c6bf00] Estimating duration from bitrate, this may be inaccurate
+Input #47, mp3, from 'C:\t\xno4lpahf\subtitle_048.mp3':
+  Duration: 00:00:03.00, start: 0.000000, bitrate: 48 kb/s
+  Stream #47:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#48/mp3 @ 0000024234c69c00] Estimating duration from bitrate, this may be inaccurate
+Input #48, mp3, from 'C:\t\xno4lpahf\subtitle_049.mp3':
+  Duration: 00:00:01.78, start: 0.000000, bitrate: 48 kb/s
+  Stream #48:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#49/mp3 @ 0000024234c69ec0] Estimating duration from bitrate, this may be inaccurate
+Input #49, mp3, from 'C:\t\xno4lpahf\subtitle_050.mp3':
+  Duration: 00:00:01.99, start: 0.000000, bitrate: 48 kb/s
+  Stream #49:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#50/mp3 @ 0000024234c6bc40] Estimating duration from bitrate, this may be inaccurate
+Input #50, mp3, from 'C:\t\xno4lpahf\subtitle_051.mp3':
+  Duration: 00:00:02.88, start: 0.000000, bitrate: 48 kb/s
+  Stream #50:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#51/mp3 @ 0000024234c6c180] Estimating duration from bitrate, this may be inaccurate
+Input #51, mp3, from 'C:\t\xno4lpahf\subtitle_052.mp3':
+  Duration: 00:00:03.10, start: 0.000000, bitrate: 48 kb/s
+  Stream #51:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#52/mp3 @ 0000024234c6a400] Estimating duration from bitrate, this may be inaccurate
+Input #52, mp3, from 'C:\t\xno4lpahf\subtitle_053.mp3':
+  Duration: 00:00:02.57, start: 0.000000, bitrate: 48 kb/s
+  Stream #52:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#53/mp3 @ 0000024234c69940] Estimating duration from bitrate, this may be inaccurate
+Input #53, mp3, from 'C:\t\xno4lpahf\subtitle_054.mp3':
+  Duration: 00:00:03.19, start: 0.000000, bitrate: 48 kb/s
+  Stream #53:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#54/mp3 @ 0000024234c6c700] Estimating duration from bitrate, this may be inaccurate
+Input #54, mp3, from 'C:\t\xno4lpahf\subtitle_055.mp3':
+  Duration: 00:00:01.75, start: 0.000000, bitrate: 48 kb/s
+  Stream #54:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#55/mp3 @ 0000024234c68bc0] Estimating duration from bitrate, this may be inaccurate
+Input #55, mp3, from 'C:\t\xno4lpahf\subtitle_056.mp3':
+  Duration: 00:00:03.14, start: 0.000000, bitrate: 48 kb/s
+  Stream #55:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#56/mp3 @ 0000024234c6a140] Estimating duration from bitrate, this may be inaccurate
+Input #56, mp3, from 'C:\t\xno4lpahf\subtitle_057.mp3':
+  Duration: 00:00:02.23, start: 0.000000, bitrate: 48 kb/s
+  Stream #56:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#57/mp3 @ 0000024234c6aec0] Estimating duration from bitrate, this may be inaccurate
+Input #57, mp3, from 'C:\t\xno4lpahf\subtitle_058.mp3':
+  Duration: 00:00:03.10, start: 0.000000, bitrate: 48 kb/s
+  Stream #57:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#58/mp3 @ 0000024234c6a6c0] Estimating duration from bitrate, this may be inaccurate
+Input #58, mp3, from 'C:\t\xno4lpahf\subtitle_059.mp3':
+  Duration: 00:00:02.52, start: 0.000000, bitrate: 48 kb/s
+  Stream #58:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#59/mp3 @ 0000024234c6a980] Estimating duration from bitrate, this may be inaccurate
+Input #59, mp3, from 'C:\t\xno4lpahf\subtitle_060.mp3':
+  Duration: 00:00:02.40, start: 0.000000, bitrate: 48 kb/s
+  Stream #59:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#60/mp3 @ 0000024234c68e80] Estimating duration from bitrate, this may be inaccurate
+Input #60, mp3, from 'C:\t\xno4lpahf\subtitle_061.mp3':
+  Duration: 00:00:01.75, start: 0.000000, bitrate: 48 kb/s
+  Stream #60:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#61/mp3 @ 0000024234c6b6c0] Estimating duration from bitrate, this may be inaccurate
+Input #61, mp3, from 'C:\t\xno4lpahf\subtitle_062.mp3':
+  Duration: 00:00:02.66, start: 0.000000, bitrate: 48 kb/s
+  Stream #61:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#62/mp3 @ 0000024234c6c440] Estimating duration from bitrate, this may be inaccurate
+Input #62, mp3, from 'C:\t\xno4lpahf\subtitle_063.mp3':
+  Duration: 00:00:02.28, start: 0.000000, bitrate: 48 kb/s
+  Stream #62:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#63/mp3 @ 0000024234c6b980] Estimating duration from bitrate, this may be inaccurate
+Input #63, mp3, from 'C:\t\xno4lpahf\subtitle_064.mp3':
+  Duration: 00:00:02.26, start: 0.000000, bitrate: 48 kb/s
+  Stream #63:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#64/mp3 @ 0000024234c6ac00] Estimating duration from bitrate, this may be inaccurate
+Input #64, mp3, from 'C:\t\xno4lpahf\subtitle_065.mp3':
+  Duration: 00:00:02.30, start: 0.000000, bitrate: 48 kb/s
+  Stream #64:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#65/mp3 @ 0000024234c69400] Estimating duration from bitrate, this may be inaccurate
+Input #65, mp3, from 'C:\t\xno4lpahf\subtitle_066.mp3':
+  Duration: 00:00:03.14, start: 0.000000, bitrate: 48 kb/s
+  Stream #65:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#66/mp3 @ 0000024234c69140] Estimating duration from bitrate, this may be inaccurate
+Input #66, mp3, from 'C:\t\xno4lpahf\subtitle_067.mp3':
+  Duration: 00:00:01.46, start: 0.000000, bitrate: 48 kb/s
+  Stream #66:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#67/mp3 @ 0000024234c6b180] Estimating duration from bitrate, this may be inaccurate
+Input #67, mp3, from 'C:\t\xno4lpahf\subtitle_068.mp3':
+  Duration: 00:00:02.52, start: 0.000000, bitrate: 48 kb/s
+  Stream #67:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#68/mp3 @ 0000024234c69680] Estimating duration from bitrate, this may be inaccurate
+Input #68, mp3, from 'C:\t\xno4lpahf\subtitle_069.mp3':
+  Duration: 00:00:02.78, start: 0.000000, bitrate: 48 kb/s
+  Stream #68:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#69/mp3 @ 0000024234e15ec0] Estimating duration from bitrate, this may be inaccurate
+Input #69, mp3, from 'C:\t\xno4lpahf\subtitle_070.mp3':
+  Duration: 00:00:03.10, start: 0.000000, bitrate: 48 kb/s
+  Stream #69:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#70/mp3 @ 0000024234e16400] Estimating duration from bitrate, this may be inaccurate
+Input #70, mp3, from 'C:\t\xno4lpahf\subtitle_071.mp3':
+  Duration: 00:00:02.02, start: 0.000000, bitrate: 48 kb/s
+  Stream #70:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#71/mp3 @ 0000024234e18f00] Estimating duration from bitrate, this may be inaccurate
+Input #71, mp3, from 'C:\t\xno4lpahf\subtitle_072.mp3':
+  Duration: 00:00:03.05, start: 0.000000, bitrate: 48 kb/s
+  Stream #71:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#72/mp3 @ 0000024234e19480] Estimating duration from bitrate, this may be inaccurate
+Input #72, mp3, from 'C:\t\xno4lpahf\subtitle_073.mp3':
+  Duration: 00:00:03.29, start: 0.000000, bitrate: 48 kb/s
+  Stream #72:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#73/mp3 @ 0000024234e17980] Estimating duration from bitrate, this may be inaccurate
+Input #73, mp3, from 'C:\t\xno4lpahf\subtitle_074.mp3':
+  Duration: 00:00:02.45, start: 0.000000, bitrate: 48 kb/s
+  Stream #73:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#74/mp3 @ 0000024234e17c40] Estimating duration from bitrate, this may be inaccurate
+Input #74, mp3, from 'C:\t\xno4lpahf\subtitle_075.mp3':
+  Duration: 00:00:02.86, start: 0.000000, bitrate: 48 kb/s
+  Stream #74:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#75/mp3 @ 0000024234e17180] Estimating duration from bitrate, this may be inaccurate
+Input #75, mp3, from 'C:\t\xno4lpahf\subtitle_076.mp3':
+  Duration: 00:00:02.45, start: 0.000000, bitrate: 48 kb/s
+  Stream #75:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#76/mp3 @ 0000024234e19740] Estimating duration from bitrate, this may be inaccurate
+Input #76, mp3, from 'C:\t\xno4lpahf\subtitle_077.mp3':
+  Duration: 00:00:03.74, start: 0.000000, bitrate: 48 kb/s
+  Stream #76:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#77/mp3 @ 0000024234e15c00] Estimating duration from bitrate, this may be inaccurate
+Input #77, mp3, from 'C:\t\xno4lpahf\subtitle_078.mp3':
+  Duration: 00:00:03.10, start: 0.000000, bitrate: 48 kb/s
+  Stream #77:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#78/mp3 @ 0000024234e166c0] Estimating duration from bitrate, this may be inaccurate
+Input #78, mp3, from 'C:\t\xno4lpahf\subtitle_079.mp3':
+  Duration: 00:00:03.19, start: 0.000000, bitrate: 48 kb/s
+  Stream #78:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#79/mp3 @ 0000024234e181c0] Estimating duration from bitrate, this may be inaccurate
+Input #79, mp3, from 'C:\t\xno4lpahf\subtitle_080.mp3':
+  Duration: 00:00:02.42, start: 0.000000, bitrate: 48 kb/s
+  Stream #79:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#80/mp3 @ 0000024234e16980] Estimating duration from bitrate, this may be inaccurate
+Input #80, mp3, from 'C:\t\xno4lpahf\subtitle_081.mp3':
+  Duration: 00:00:02.62, start: 0.000000, bitrate: 48 kb/s
+  Stream #80:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#81/mp3 @ 0000024234e17f00] Estimating duration from bitrate, this may be inaccurate
+Input #81, mp3, from 'C:\t\xno4lpahf\subtitle_082.mp3':
+  Duration: 00:00:02.11, start: 0.000000, bitrate: 48 kb/s
+  Stream #81:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#82/mp3 @ 0000024234e16180] Estimating duration from bitrate, this may be inaccurate
+Input #82, mp3, from 'C:\t\xno4lpahf\subtitle_083.mp3':
+  Duration: 00:00:01.78, start: 0.000000, bitrate: 48 kb/s
+  Stream #82:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#83/mp3 @ 0000024234e191c0] Estimating duration from bitrate, this may be inaccurate
+Input #83, mp3, from 'C:\t\xno4lpahf\subtitle_084.mp3':
+  Duration: 00:00:02.45, start: 0.000000, bitrate: 48 kb/s
+  Stream #83:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#84/mp3 @ 0000024234e17440] Estimating duration from bitrate, this may be inaccurate
+Input #84, mp3, from 'C:\t\xno4lpahf\subtitle_085.mp3':
+  Duration: 00:00:01.78, start: 0.000000, bitrate: 48 kb/s
+  Stream #84:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#85/mp3 @ 0000024234e16c40] Estimating duration from bitrate, this may be inaccurate
+Input #85, mp3, from 'C:\t\xno4lpahf\subtitle_086.mp3':
+  Duration: 00:00:02.86, start: 0.000000, bitrate: 48 kb/s
+  Stream #85:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#86/mp3 @ 0000024234e18c80] Estimating duration from bitrate, this may be inaccurate
+Input #86, mp3, from 'C:\t\xno4lpahf\subtitle_087.mp3':
+  Duration: 00:00:02.98, start: 0.000000, bitrate: 48 kb/s
+  Stream #86:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#87/mp3 @ 0000024234e18700] Estimating duration from bitrate, this may be inaccurate
+Input #87, mp3, from 'C:\t\xno4lpahf\subtitle_088.mp3':
+  Duration: 00:00:02.59, start: 0.000000, bitrate: 48 kb/s
+  Stream #87:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#88/mp3 @ 0000024234e16ec0] Estimating duration from bitrate, this may be inaccurate
+Input #88, mp3, from 'C:\t\xno4lpahf\subtitle_089.mp3':
+  Duration: 00:00:02.98, start: 0.000000, bitrate: 48 kb/s
+  Stream #88:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#89/mp3 @ 0000024234e17700] Estimating duration from bitrate, this may be inaccurate
+Input #89, mp3, from 'C:\t\xno4lpahf\subtitle_090.mp3':
+  Duration: 00:00:01.78, start: 0.000000, bitrate: 48 kb/s
+  Stream #89:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#90/mp3 @ 0000024234e18440] Estimating duration from bitrate, this may be inaccurate
+Input #90, mp3, from 'C:\t\xno4lpahf\subtitle_091.mp3':
+  Duration: 00:00:03.50, start: 0.000000, bitrate: 48 kb/s
+  Stream #90:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#91/mp3 @ 0000024234e189c0] Estimating duration from bitrate, this may be inaccurate
+Input #91, mp3, from 'C:\t\xno4lpahf\subtitle_092.mp3':
+  Duration: 00:00:01.70, start: 0.000000, bitrate: 48 kb/s
+  Stream #91:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#92/mp3 @ 0000024235051240] Estimating duration from bitrate, this may be inaccurate
+Input #92, mp3, from 'C:\t\xno4lpahf\subtitle_093.mp3':
+  Duration: 00:00:03.26, start: 0.000000, bitrate: 48 kb/s
+  Stream #92:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#93/mp3 @ 0000024235051d00] Estimating duration from bitrate, this may be inaccurate
+Input #93, mp3, from 'C:\t\xno4lpahf\subtitle_094.mp3':
+  Duration: 00:00:02.74, start: 0.000000, bitrate: 48 kb/s
+  Stream #93:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#94/mp3 @ 00000242350514c0] Estimating duration from bitrate, this may be inaccurate
+Input #94, mp3, from 'C:\t\xno4lpahf\subtitle_095.mp3':
+  Duration: 00:00:03.14, start: 0.000000, bitrate: 48 kb/s
+  Stream #94:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#95/mp3 @ 00000242350527c0] Estimating duration from bitrate, this may be inaccurate
+Input #95, mp3, from 'C:\t\xno4lpahf\subtitle_096.mp3':
+  Duration: 00:00:02.38, start: 0.000000, bitrate: 48 kb/s
+  Stream #95:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#96/mp3 @ 0000024235052a40] Estimating duration from bitrate, this may be inaccurate
+Input #96, mp3, from 'C:\t\xno4lpahf\subtitle_097.mp3':
+  Duration: 00:00:01.97, start: 0.000000, bitrate: 48 kb/s
+  Stream #96:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#97/mp3 @ 0000024235051780] Estimating duration from bitrate, this may be inaccurate
+Input #97, mp3, from 'C:\t\xno4lpahf\subtitle_098.mp3':
+  Duration: 00:00:03.31, start: 0.000000, bitrate: 48 kb/s
+  Stream #97:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#98/mp3 @ 0000024235053fc0] Estimating duration from bitrate, this may be inaccurate
+Input #98, mp3, from 'C:\t\xno4lpahf\subtitle_099.mp3':
+  Duration: 00:00:02.88, start: 0.000000, bitrate: 48 kb/s
+  Stream #98:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#99/mp3 @ 0000024235054280] Estimating duration from bitrate, this may be inaccurate
+Input #99, mp3, from 'C:\t\xno4lpahf\subtitle_100.mp3':
+  Duration: 00:00:01.78, start: 0.000000, bitrate: 48 kb/s
+  Stream #99:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#100/mp3 @ 0000024235053280] Estimating duration from bitrate, this may be inaccurate
+Input #100, mp3, from 'C:\t\xno4lpahf\subtitle_101.mp3':
+  Duration: 00:00:02.33, start: 0.000000, bitrate: 48 kb/s
+  Stream #100:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#101/mp3 @ 0000024235051a40] Estimating duration from bitrate, this may be inaccurate
+Input #101, mp3, from 'C:\t\xno4lpahf\subtitle_102.mp3':
+  Duration: 00:00:03.10, start: 0.000000, bitrate: 48 kb/s
+  Stream #101:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#102/mp3 @ 0000024235052d00] Estimating duration from bitrate, this may be inaccurate
+Input #102, mp3, from 'C:\t\xno4lpahf\subtitle_103.mp3':
+  Duration: 00:00:01.25, start: 0.000000, bitrate: 48 kb/s
+  Stream #102:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#103/mp3 @ 0000024235054540] Estimating duration from bitrate, this may be inaccurate
+Input #103, mp3, from 'C:\t\xno4lpahf\subtitle_104.mp3':
+  Duration: 00:00:02.28, start: 0.000000, bitrate: 48 kb/s
+  Stream #103:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#104/mp3 @ 0000024235052fc0] Estimating duration from bitrate, this may be inaccurate
+Input #104, mp3, from 'C:\t\xno4lpahf\subtitle_105.mp3':
+  Duration: 00:00:01.85, start: 0.000000, bitrate: 48 kb/s
+  Stream #104:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#105/mp3 @ 0000024235053500] Estimating duration from bitrate, this may be inaccurate
+Input #105, mp3, from 'C:\t\xno4lpahf\subtitle_106.mp3':
+  Duration: 00:00:02.54, start: 0.000000, bitrate: 48 kb/s
+  Stream #105:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#106/mp3 @ 00000242350537c0] Estimating duration from bitrate, this may be inaccurate
+Input #106, mp3, from 'C:\t\xno4lpahf\subtitle_107.mp3':
+  Duration: 00:00:02.57, start: 0.000000, bitrate: 48 kb/s
+  Stream #106:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#107/mp3 @ 0000024235051f80] Estimating duration from bitrate, this may be inaccurate
+Input #107, mp3, from 'C:\t\xno4lpahf\subtitle_108.mp3':
+  Duration: 00:00:02.50, start: 0.000000, bitrate: 48 kb/s
+  Stream #107:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#108/mp3 @ 0000024235054800] Estimating duration from bitrate, this may be inaccurate
+Input #108, mp3, from 'C:\t\xno4lpahf\subtitle_109.mp3':
+  Duration: 00:00:02.62, start: 0.000000, bitrate: 48 kb/s
+  Stream #108:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#109/mp3 @ 0000024235052240] Estimating duration from bitrate, this may be inaccurate
+Input #109, mp3, from 'C:\t\xno4lpahf\subtitle_110.mp3':
+  Duration: 00:00:03.07, start: 0.000000, bitrate: 48 kb/s
+  Stream #109:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#110/mp3 @ 0000024235050cc0] Estimating duration from bitrate, this may be inaccurate
+Input #110, mp3, from 'C:\t\xno4lpahf\subtitle_111.mp3':
+  Duration: 00:00:01.94, start: 0.000000, bitrate: 48 kb/s
+  Stream #110:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#111/mp3 @ 0000024235053a80] Estimating duration from bitrate, this may be inaccurate
+Input #111, mp3, from 'C:\t\xno4lpahf\subtitle_112.mp3':
+  Duration: 00:00:03.34, start: 0.000000, bitrate: 48 kb/s
+  Stream #111:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#112/mp3 @ 0000024235050f80] Estimating duration from bitrate, this may be inaccurate
+Input #112, mp3, from 'C:\t\xno4lpahf\subtitle_113.mp3':
+  Duration: 00:00:02.35, start: 0.000000, bitrate: 48 kb/s
+  Stream #112:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#113/mp3 @ 0000024235053d40] Estimating duration from bitrate, this may be inaccurate
+Input #113, mp3, from 'C:\t\xno4lpahf\subtitle_114.mp3':
+  Duration: 00:00:01.82, start: 0.000000, bitrate: 48 kb/s
+  Stream #113:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#114/mp3 @ 0000024235052500] Estimating duration from bitrate, this may be inaccurate
+Input #114, mp3, from 'C:\t\xno4lpahf\subtitle_115.mp3':
+  Duration: 00:00:01.78, start: 0.000000, bitrate: 48 kb/s
+  Stream #114:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#115/mp3 @ 00000242353e0500] Estimating duration from bitrate, this may be inaccurate
+Input #115, mp3, from 'C:\t\xno4lpahf\subtitle_116.mp3':
+  Duration: 00:00:02.88, start: 0.000000, bitrate: 48 kb/s
+  Stream #115:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#116/mp3 @ 00000242353e2540] Estimating duration from bitrate, this may be inaccurate
+Input #116, mp3, from 'C:\t\xno4lpahf\subtitle_117.mp3':
+  Duration: 00:00:02.54, start: 0.000000, bitrate: 48 kb/s
+  Stream #116:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#117/mp3 @ 00000242353df240] Estimating duration from bitrate, this may be inaccurate
+Input #117, mp3, from 'C:\t\xno4lpahf\subtitle_118.mp3':
+  Duration: 00:00:02.47, start: 0.000000, bitrate: 48 kb/s
+  Stream #117:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#118/mp3 @ 00000242353dfd00] Estimating duration from bitrate, this may be inaccurate
+Input #118, mp3, from 'C:\t\xno4lpahf\subtitle_119.mp3':
+  Duration: 00:00:01.85, start: 0.000000, bitrate: 48 kb/s
+  Stream #118:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#119/mp3 @ 00000242353e0d00] Estimating duration from bitrate, this may be inaccurate
+Input #119, mp3, from 'C:\t\xno4lpahf\subtitle_120.mp3':
+  Duration: 00:00:01.18, start: 0.000000, bitrate: 48 kb/s
+  Stream #119:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#120/mp3 @ 00000242353df500] Estimating duration from bitrate, this may be inaccurate
+Input #120, mp3, from 'C:\t\xno4lpahf\subtitle_121.mp3':
+  Duration: 00:00:02.78, start: 0.000000, bitrate: 48 kb/s
+  Stream #120:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#121/mp3 @ 00000242353e2800] Estimating duration from bitrate, this may be inaccurate
+Input #121, mp3, from 'C:\t\xno4lpahf\subtitle_122.mp3':
+  Duration: 00:00:02.93, start: 0.000000, bitrate: 48 kb/s
+  Stream #121:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#122/mp3 @ 00000242353dfa40] Estimating duration from bitrate, this may be inaccurate
+Input #122, mp3, from 'C:\t\xno4lpahf\subtitle_123.mp3':
+  Duration: 00:00:02.28, start: 0.000000, bitrate: 48 kb/s
+  Stream #122:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#123/mp3 @ 00000242353df780] Estimating duration from bitrate, this may be inaccurate
+Input #123, mp3, from 'C:\t\xno4lpahf\subtitle_124.mp3':
+  Duration: 00:00:03.29, start: 0.000000, bitrate: 48 kb/s
+  Stream #123:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#124/mp3 @ 00000242353e1280] Estimating duration from bitrate, this may be inaccurate
+Input #124, mp3, from 'C:\t\xno4lpahf\subtitle_125.mp3':
+  Duration: 00:00:01.92, start: 0.000000, bitrate: 48 kb/s
+  Stream #124:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#125/mp3 @ 00000242353e2000] Estimating duration from bitrate, this may be inaccurate
+Input #125, mp3, from 'C:\t\xno4lpahf\subtitle_126.mp3':
+  Duration: 00:00:01.94, start: 0.000000, bitrate: 48 kb/s
+  Stream #125:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#126/mp3 @ 00000242353def80] Estimating duration from bitrate, this may be inaccurate
+Input #126, mp3, from 'C:\t\xno4lpahf\subtitle_127.mp3':
+  Duration: 00:00:01.78, start: 0.000000, bitrate: 48 kb/s
+  Stream #126:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#127/mp3 @ 00000242353dffc0] Estimating duration from bitrate, this may be inaccurate
+Input #127, mp3, from 'C:\t\xno4lpahf\subtitle_128.mp3':
+  Duration: 00:00:02.35, start: 0.000000, bitrate: 48 kb/s
+  Stream #127:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#128/mp3 @ 00000242353e0a80] Estimating duration from bitrate, this may be inaccurate
+Input #128, mp3, from 'C:\t\xno4lpahf\subtitle_129.mp3':
+  Duration: 00:00:03.07, start: 0.000000, bitrate: 48 kb/s
+  Stream #128:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#129/mp3 @ 00000242353e1540] Estimating duration from bitrate, this may be inaccurate
+Input #129, mp3, from 'C:\t\xno4lpahf\subtitle_130.mp3':
+  Duration: 00:00:01.94, start: 0.000000, bitrate: 48 kb/s
+  Stream #129:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#130/mp3 @ 00000242353e2280] Estimating duration from bitrate, this may be inaccurate
+Input #130, mp3, from 'C:\t\xno4lpahf\subtitle_131.mp3':
+  Duration: 00:00:02.69, start: 0.000000, bitrate: 48 kb/s
+  Stream #130:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#131/mp3 @ 00000242353e07c0] Estimating duration from bitrate, this may be inaccurate
+Input #131, mp3, from 'C:\t\xno4lpahf\subtitle_132.mp3':
+  Duration: 00:00:02.74, start: 0.000000, bitrate: 48 kb/s
+  Stream #131:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#132/mp3 @ 00000242353e17c0] Estimating duration from bitrate, this may be inaccurate
+Input #132, mp3, from 'C:\t\xno4lpahf\subtitle_133.mp3':
+  Duration: 00:00:03.50, start: 0.000000, bitrate: 48 kb/s
+  Stream #132:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#133/mp3 @ 00000242353e2ac0] Estimating duration from bitrate, this may be inaccurate
+Input #133, mp3, from 'C:\t\xno4lpahf\subtitle_134.mp3':
+  Duration: 00:00:03.91, start: 0.000000, bitrate: 48 kb/s
+  Stream #133:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#134/mp3 @ 00000242353e0fc0] Estimating duration from bitrate, this may be inaccurate
+Input #134, mp3, from 'C:\t\xno4lpahf\subtitle_135.mp3':
+  Duration: 00:00:03.22, start: 0.000000, bitrate: 48 kb/s
+  Stream #134:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#135/mp3 @ 00000242353e1a80] Estimating duration from bitrate, this may be inaccurate
+Input #135, mp3, from 'C:\t\xno4lpahf\subtitle_136.mp3':
+  Duration: 00:00:02.71, start: 0.000000, bitrate: 48 kb/s
+  Stream #135:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#136/mp3 @ 00000242353e0240] Estimating duration from bitrate, this may be inaccurate
+Input #136, mp3, from 'C:\t\xno4lpahf\subtitle_137.mp3':
+  Duration: 00:00:02.74, start: 0.000000, bitrate: 48 kb/s
+  Stream #136:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#137/mp3 @ 00000242353e1d40] Estimating duration from bitrate, this may be inaccurate
+Input #137, mp3, from 'C:\t\xno4lpahf\subtitle_138.mp3':
+  Duration: 00:00:03.67, start: 0.000000, bitrate: 48 kb/s
+  Stream #137:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#138/mp3 @ 0000024235752a40] Estimating duration from bitrate, this may be inaccurate
+Input #138, mp3, from 'C:\t\xno4lpahf\subtitle_139.mp3':
+  Duration: 00:00:01.63, start: 0.000000, bitrate: 48 kb/s
+  Stream #138:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#139/mp3 @ 0000024235751cc0] Estimating duration from bitrate, this may be inaccurate
+Input #139, mp3, from 'C:\t\xno4lpahf\subtitle_140.mp3':
+  Duration: 00:00:02.42, start: 0.000000, bitrate: 48 kb/s
+  Stream #139:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#140/mp3 @ 0000024235752d00] Estimating duration from bitrate, this may be inaccurate
+Input #140, mp3, from 'C:\t\xno4lpahf\subtitle_141.mp3':
+  Duration: 00:00:03.31, start: 0.000000, bitrate: 48 kb/s
+  Stream #140:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#141/mp3 @ 0000024235752fc0] Estimating duration from bitrate, this may be inaccurate
+Input #141, mp3, from 'C:\t\xno4lpahf\subtitle_142.mp3':
+  Duration: 00:00:03.48, start: 0.000000, bitrate: 48 kb/s
+  Stream #141:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#142/mp3 @ 0000024235753240] Estimating duration from bitrate, this may be inaccurate
+Input #142, mp3, from 'C:\t\xno4lpahf\subtitle_143.mp3':
+  Duration: 00:00:02.02, start: 0.000000, bitrate: 48 kb/s
+  Stream #142:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#143/mp3 @ 00000242357514c0] Estimating duration from bitrate, this may be inaccurate
+Input #143, mp3, from 'C:\t\xno4lpahf\subtitle_144.mp3':
+  Duration: 00:00:02.28, start: 0.000000, bitrate: 48 kb/s
+  Stream #143:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#144/mp3 @ 0000024235753500] Estimating duration from bitrate, this may be inaccurate
+Input #144, mp3, from 'C:\t\xno4lpahf\subtitle_145.mp3':
+  Duration: 00:00:01.58, start: 0.000000, bitrate: 48 kb/s
+  Stream #144:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#145/mp3 @ 0000024235751780] Estimating duration from bitrate, this may be inaccurate
+Input #145, mp3, from 'C:\t\xno4lpahf\subtitle_146.mp3':
+  Duration: 00:00:02.50, start: 0.000000, bitrate: 48 kb/s
+  Stream #145:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#146/mp3 @ 00000242357537c0] Estimating duration from bitrate, this may be inaccurate
+Input #146, mp3, from 'C:\t\xno4lpahf\subtitle_147.mp3':
+  Duration: 00:00:04.15, start: 0.000000, bitrate: 48 kb/s
+  Stream #146:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#147/mp3 @ 0000024235753a80] Estimating duration from bitrate, this may be inaccurate
+Input #147, mp3, from 'C:\t\xno4lpahf\subtitle_148.mp3':
+  Duration: 00:00:02.23, start: 0.000000, bitrate: 48 kb/s
+  Stream #147:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#148/mp3 @ 0000024235754280] Estimating duration from bitrate, this may be inaccurate
+Input #148, mp3, from 'C:\t\xno4lpahf\subtitle_149.mp3':
+  Duration: 00:00:02.62, start: 0.000000, bitrate: 48 kb/s
+  Stream #148:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#149/mp3 @ 0000024235754a80] Estimating duration from bitrate, this may be inaccurate
+Input #149, mp3, from 'C:\t\xno4lpahf\subtitle_150.mp3':
+  Duration: 00:00:02.62, start: 0.000000, bitrate: 48 kb/s
+  Stream #149:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#150/mp3 @ 0000024235753d00] Estimating duration from bitrate, this may be inaccurate
+Input #150, mp3, from 'C:\t\xno4lpahf\subtitle_151.mp3':
+  Duration: 00:00:03.22, start: 0.000000, bitrate: 48 kb/s
+  Stream #150:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#151/mp3 @ 0000024235753fc0] Estimating duration from bitrate, this may be inaccurate
+Input #151, mp3, from 'C:\t\xno4lpahf\subtitle_152.mp3':
+  Duration: 00:00:01.78, start: 0.000000, bitrate: 48 kb/s
+  Stream #151:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#152/mp3 @ 0000024235751a40] Estimating duration from bitrate, this may be inaccurate
+Input #152, mp3, from 'C:\t\xno4lpahf\subtitle_153.mp3':
+  Duration: 00:00:02.16, start: 0.000000, bitrate: 48 kb/s
+  Stream #152:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#153/mp3 @ 0000024235754540] Estimating duration from bitrate, this may be inaccurate
+Input #153, mp3, from 'C:\t\xno4lpahf\subtitle_154.mp3':
+  Duration: 00:00:02.66, start: 0.000000, bitrate: 48 kb/s
+  Stream #153:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#154/mp3 @ 00000242357547c0] Estimating duration from bitrate, this may be inaccurate
+Input #154, mp3, from 'C:\t\xno4lpahf\subtitle_155.mp3':
+  Duration: 00:00:01.90, start: 0.000000, bitrate: 48 kb/s
+  Stream #154:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#155/mp3 @ 0000024235754d40] Estimating duration from bitrate, this may be inaccurate
+Input #155, mp3, from 'C:\t\xno4lpahf\subtitle_156.mp3':
+  Duration: 00:00:01.78, start: 0.000000, bitrate: 48 kb/s
+  Stream #155:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#156/mp3 @ 0000024235755000] Estimating duration from bitrate, this may be inaccurate
+Input #156, mp3, from 'C:\t\xno4lpahf\subtitle_157.mp3':
+  Duration: 00:00:02.21, start: 0.000000, bitrate: 48 kb/s
+  Stream #156:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#157/mp3 @ 0000024235751f80] Estimating duration from bitrate, this may be inaccurate
+Input #157, mp3, from 'C:\t\xno4lpahf\subtitle_158.mp3':
+  Duration: 00:00:01.90, start: 0.000000, bitrate: 48 kb/s
+  Stream #157:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#158/mp3 @ 0000024235752240] Estimating duration from bitrate, this may be inaccurate
+Input #158, mp3, from 'C:\t\xno4lpahf\subtitle_159.mp3':
+  Duration: 00:00:01.80, start: 0.000000, bitrate: 48 kb/s
+  Stream #158:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#159/mp3 @ 0000024235752500] Estimating duration from bitrate, this may be inaccurate
+Input #159, mp3, from 'C:\t\xno4lpahf\subtitle_160.mp3':
+  Duration: 00:00:02.18, start: 0.000000, bitrate: 48 kb/s
+  Stream #159:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#160/mp3 @ 0000024235752780] Estimating duration from bitrate, this may be inaccurate
+Input #160, mp3, from 'C:\t\xno4lpahf\subtitle_161.mp3':
+  Duration: 00:00:03.53, start: 0.000000, bitrate: 48 kb/s
+  Stream #160:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#161/mp3 @ 00000242358d3a00] Estimating duration from bitrate, this may be inaccurate
+Input #161, mp3, from 'C:\t\xno4lpahf\subtitle_162.mp3':
+  Duration: 00:00:02.78, start: 0.000000, bitrate: 48 kb/s
+  Stream #161:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#162/mp3 @ 00000242358d5f80] Estimating duration from bitrate, this may be inaccurate
+Input #162, mp3, from 'C:\t\xno4lpahf\subtitle_163.mp3':
+  Duration: 00:00:01.54, start: 0.000000, bitrate: 48 kb/s
+  Stream #162:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#163/mp3 @ 00000242358d5780] Estimating duration from bitrate, this may be inaccurate
+Input #163, mp3, from 'C:\t\xno4lpahf\subtitle_164.mp3':
+  Duration: 00:00:01.78, start: 0.000000, bitrate: 48 kb/s
+  Stream #163:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#164/mp3 @ 00000242358d4cc0] Estimating duration from bitrate, this may be inaccurate
+Input #164, mp3, from 'C:\t\xno4lpahf\subtitle_165.mp3':
+  Duration: 00:00:02.98, start: 0.000000, bitrate: 48 kb/s
+  Stream #164:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#165/mp3 @ 00000242358d6a40] Estimating duration from bitrate, this may be inaccurate
+Input #165, mp3, from 'C:\t\xno4lpahf\subtitle_166.mp3':
+  Duration: 00:00:02.40, start: 0.000000, bitrate: 48 kb/s
+  Stream #165:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#166/mp3 @ 00000242358d5a40] Estimating duration from bitrate, this may be inaccurate
+Input #166, mp3, from 'C:\t\xno4lpahf\subtitle_167.mp3':
+  Duration: 00:00:01.49, start: 0.000000, bitrate: 48 kb/s
+  Stream #166:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#167/mp3 @ 00000242358d3c80] Estimating duration from bitrate, this may be inaccurate
+Input #167, mp3, from 'C:\t\xno4lpahf\subtitle_168.mp3':
+  Duration: 00:00:01.99, start: 0.000000, bitrate: 48 kb/s
+  Stream #167:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#168/mp3 @ 00000242358d4f80] Estimating duration from bitrate, this may be inaccurate
+Input #168, mp3, from 'C:\t\xno4lpahf\subtitle_169.mp3':
+  Duration: 00:00:03.41, start: 0.000000, bitrate: 48 kb/s
+  Stream #168:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#169/mp3 @ 00000242358d44c0] Estimating duration from bitrate, this may be inaccurate
+Input #169, mp3, from 'C:\t\xno4lpahf\subtitle_170.mp3':
+  Duration: 00:00:02.57, start: 0.000000, bitrate: 48 kb/s
+  Stream #169:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#170/mp3 @ 00000242358d4740] Estimating duration from bitrate, this may be inaccurate
+Input #170, mp3, from 'C:\t\xno4lpahf\subtitle_171.mp3':
+  Duration: 00:00:01.99, start: 0.000000, bitrate: 48 kb/s
+  Stream #170:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#171/mp3 @ 00000242358d31c0] Estimating duration from bitrate, this may be inaccurate
+Input #171, mp3, from 'C:\t\xno4lpahf\subtitle_172.mp3':
+  Duration: 00:00:02.35, start: 0.000000, bitrate: 48 kb/s
+  Stream #171:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#172/mp3 @ 00000242358d3740] Estimating duration from bitrate, this may be inaccurate
+Input #172, mp3, from 'C:\t\xno4lpahf\subtitle_173.mp3':
+  Duration: 00:00:03.05, start: 0.000000, bitrate: 48 kb/s
+  Stream #172:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#173/mp3 @ 00000242358d6780] Estimating duration from bitrate, this may be inaccurate
+Input #173, mp3, from 'C:\t\xno4lpahf\subtitle_174.mp3':
+  Duration: 00:00:03.07, start: 0.000000, bitrate: 48 kb/s
+  Stream #173:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#174/mp3 @ 00000242358d5cc0] Estimating duration from bitrate, this may be inaccurate
+Input #174, mp3, from 'C:\t\xno4lpahf\subtitle_175.mp3':
+  Duration: 00:00:03.02, start: 0.000000, bitrate: 48 kb/s
+  Stream #174:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#175/mp3 @ 00000242358d5200] Estimating duration from bitrate, this may be inaccurate
+Input #175, mp3, from 'C:\t\xno4lpahf\subtitle_176.mp3':
+  Duration: 00:00:02.14, start: 0.000000, bitrate: 48 kb/s
+  Stream #175:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#176/mp3 @ 00000242358d54c0] Estimating duration from bitrate, this may be inaccurate
+Input #176, mp3, from 'C:\t\xno4lpahf\subtitle_177.mp3':
+  Duration: 00:00:01.97, start: 0.000000, bitrate: 48 kb/s
+  Stream #176:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#177/mp3 @ 00000242358d6d00] Estimating duration from bitrate, this may be inaccurate
+Input #177, mp3, from 'C:\t\xno4lpahf\subtitle_178.mp3':
+  Duration: 00:00:01.49, start: 0.000000, bitrate: 48 kb/s
+  Stream #177:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#178/mp3 @ 00000242358d6500] Estimating duration from bitrate, this may be inaccurate
+Input #178, mp3, from 'C:\t\xno4lpahf\subtitle_179.mp3':
+  Duration: 00:00:04.01, start: 0.000000, bitrate: 48 kb/s
+  Stream #178:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#179/mp3 @ 00000242358d3f40] Estimating duration from bitrate, this may be inaccurate
+Input #179, mp3, from 'C:\t\xno4lpahf\subtitle_180.mp3':
+  Duration: 00:00:02.93, start: 0.000000, bitrate: 48 kb/s
+  Stream #179:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#180/mp3 @ 00000242358d3480] Estimating duration from bitrate, this may be inaccurate
+Input #180, mp3, from 'C:\t\xno4lpahf\subtitle_181.mp3':
+  Duration: 00:00:01.78, start: 0.000000, bitrate: 48 kb/s
+  Stream #180:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#181/mp3 @ 00000242358d6240] Estimating duration from bitrate, this may be inaccurate
+Input #181, mp3, from 'C:\t\xno4lpahf\subtitle_182.mp3':
+  Duration: 00:00:01.70, start: 0.000000, bitrate: 48 kb/s
+  Stream #181:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#182/mp3 @ 00000242358d4200] Estimating duration from bitrate, this may be inaccurate
+Input #182, mp3, from 'C:\t\xno4lpahf\subtitle_183.mp3':
+  Duration: 00:00:02.98, start: 0.000000, bitrate: 48 kb/s
+  Stream #182:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#183/mp3 @ 00000242358d4a00] Estimating duration from bitrate, this may be inaccurate
+Input #183, mp3, from 'C:\t\xno4lpahf\subtitle_184.mp3':
+  Duration: 00:00:03.41, start: 0.000000, bitrate: 48 kb/s
+  Stream #183:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#184/mp3 @ 000002423581ca40] Estimating duration from bitrate, this may be inaccurate
+Input #184, mp3, from 'C:\t\xno4lpahf\subtitle_185.mp3':
+  Duration: 00:00:02.38, start: 0.000000, bitrate: 48 kb/s
+  Stream #184:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#185/mp3 @ 000002423581a740] Estimating duration from bitrate, this may be inaccurate
+Input #185, mp3, from 'C:\t\xno4lpahf\subtitle_186.mp3':
+  Duration: 00:00:01.18, start: 0.000000, bitrate: 48 kb/s
+  Stream #185:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#186/mp3 @ 0000024235819740] Estimating duration from bitrate, this may be inaccurate
+Input #186, mp3, from 'C:\t\xno4lpahf\subtitle_187.mp3':
+  Duration: 00:00:03.24, start: 0.000000, bitrate: 48 kb/s
+  Stream #186:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#187/mp3 @ 000002423581aa00] Estimating duration from bitrate, this may be inaccurate
+Input #187, mp3, from 'C:\t\xno4lpahf\subtitle_188.mp3':
+  Duration: 00:00:02.09, start: 0.000000, bitrate: 48 kb/s
+  Stream #187:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#188/mp3 @ 000002423581cd00] Estimating duration from bitrate, this may be inaccurate
+Input #188, mp3, from 'C:\t\xno4lpahf\subtitle_189.mp3':
+  Duration: 00:00:01.30, start: 0.000000, bitrate: 48 kb/s
+  Stream #188:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#189/mp3 @ 000002423581b780] Estimating duration from bitrate, this may be inaccurate
+Input #189, mp3, from 'C:\t\xno4lpahf\subtitle_190.mp3':
+  Duration: 00:00:02.06, start: 0.000000, bitrate: 48 kb/s
+  Stream #189:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#190/mp3 @ 0000024235819f40] Estimating duration from bitrate, this may be inaccurate
+Input #190, mp3, from 'C:\t\xno4lpahf\subtitle_191.mp3':
+  Duration: 00:00:02.11, start: 0.000000, bitrate: 48 kb/s
+  Stream #190:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#191/mp3 @ 0000024235819a00] Estimating duration from bitrate, this may be inaccurate
+Input #191, mp3, from 'C:\t\xno4lpahf\subtitle_192.mp3':
+  Duration: 00:00:01.80, start: 0.000000, bitrate: 48 kb/s
+  Stream #191:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#192/mp3 @ 0000024235819c80] Estimating duration from bitrate, this may be inaccurate
+Input #192, mp3, from 'C:\t\xno4lpahf\subtitle_193.mp3':
+  Duration: 00:00:02.66, start: 0.000000, bitrate: 48 kb/s
+  Stream #192:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#193/mp3 @ 0000024235819480] Estimating duration from bitrate, this may be inaccurate
+Input #193, mp3, from 'C:\t\xno4lpahf\subtitle_194.mp3':
+  Duration: 00:00:02.11, start: 0.000000, bitrate: 48 kb/s
+  Stream #193:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#194/mp3 @ 000002423581ba40] Estimating duration from bitrate, this may be inaccurate
+Input #194, mp3, from 'C:\t\xno4lpahf\subtitle_195.mp3':
+  Duration: 00:00:01.44, start: 0.000000, bitrate: 48 kb/s
+  Stream #194:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#195/mp3 @ 000002423581a4c0] Estimating duration from bitrate, this may be inaccurate
+Input #195, mp3, from 'C:\t\xno4lpahf\subtitle_196.mp3':
+  Duration: 00:00:02.81, start: 0.000000, bitrate: 48 kb/s
+  Stream #195:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#196/mp3 @ 000002423581bf80] Estimating duration from bitrate, this may be inaccurate
+Input #196, mp3, from 'C:\t\xno4lpahf\subtitle_197.mp3':
+  Duration: 00:00:02.14, start: 0.000000, bitrate: 48 kb/s
+  Stream #196:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#197/mp3 @ 000002423581c240] Estimating duration from bitrate, this may be inaccurate
+Input #197, mp3, from 'C:\t\xno4lpahf\subtitle_198.mp3':
+  Duration: 00:00:02.11, start: 0.000000, bitrate: 48 kb/s
+  Stream #197:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#198/mp3 @ 000002423581acc0] Estimating duration from bitrate, this may be inaccurate
+Input #198, mp3, from 'C:\t\xno4lpahf\subtitle_199.mp3':
+  Duration: 00:00:02.50, start: 0.000000, bitrate: 48 kb/s
+  Stream #198:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#199/mp3 @ 000002423581bcc0] Estimating duration from bitrate, this may be inaccurate
+Input #199, mp3, from 'C:\t\xno4lpahf\subtitle_200.mp3':
+  Duration: 00:00:02.95, start: 0.000000, bitrate: 48 kb/s
+  Stream #199:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#200/mp3 @ 000002423581c500] Estimating duration from bitrate, this may be inaccurate
+Input #200, mp3, from 'C:\t\xno4lpahf\subtitle_201.mp3':
+  Duration: 00:00:02.47, start: 0.000000, bitrate: 48 kb/s
+  Stream #200:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#201/mp3 @ 000002423581c780] Estimating duration from bitrate, this may be inaccurate
+Input #201, mp3, from 'C:\t\xno4lpahf\subtitle_202.mp3':
+  Duration: 00:00:01.46, start: 0.000000, bitrate: 48 kb/s
+  Stream #201:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#202/mp3 @ 00000242358191c0] Estimating duration from bitrate, this may be inaccurate
+Input #202, mp3, from 'C:\t\xno4lpahf\subtitle_203.mp3':
+  Duration: 00:00:02.93, start: 0.000000, bitrate: 48 kb/s
+  Stream #202:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#203/mp3 @ 000002423581a200] Estimating duration from bitrate, this may be inaccurate
+Input #203, mp3, from 'C:\t\xno4lpahf\subtitle_204.mp3':
+  Duration: 00:00:01.99, start: 0.000000, bitrate: 48 kb/s
+  Stream #203:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#204/mp3 @ 000002423581af80] Estimating duration from bitrate, this may be inaccurate
+Input #204, mp3, from 'C:\t\xno4lpahf\subtitle_205.mp3':
+  Duration: 00:00:02.14, start: 0.000000, bitrate: 48 kb/s
+  Stream #204:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#205/mp3 @ 000002423581b200] Estimating duration from bitrate, this may be inaccurate
+Input #205, mp3, from 'C:\t\xno4lpahf\subtitle_206.mp3':
+  Duration: 00:00:02.21, start: 0.000000, bitrate: 48 kb/s
+  Stream #205:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#206/mp3 @ 000002423581b4c0] Estimating duration from bitrate, this may be inaccurate
+Input #206, mp3, from 'C:\t\xno4lpahf\subtitle_207.mp3':
+  Duration: 00:00:02.45, start: 0.000000, bitrate: 48 kb/s
+  Stream #206:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#207/mp3 @ 0000024235ee1680] Estimating duration from bitrate, this may be inaccurate
+Input #207, mp3, from 'C:\t\xno4lpahf\subtitle_208.mp3':
+  Duration: 00:00:03.05, start: 0.000000, bitrate: 48 kb/s
+  Stream #207:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#208/mp3 @ 0000024235ee2c00] Estimating duration from bitrate, this may be inaccurate
+Input #208, mp3, from 'C:\t\xno4lpahf\subtitle_209.mp3':
+  Duration: 00:00:03.34, start: 0.000000, bitrate: 48 kb/s
+  Stream #208:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#209/mp3 @ 0000024235ee1940] Estimating duration from bitrate, this may be inaccurate
+Input #209, mp3, from 'C:\t\xno4lpahf\subtitle_210.mp3':
+  Duration: 00:00:02.33, start: 0.000000, bitrate: 48 kb/s
+  Stream #209:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#210/mp3 @ 0000024235ee7740] Estimating duration from bitrate, this may be inaccurate
+Input #210, mp3, from 'C:\t\xno4lpahf\subtitle_211.mp3':
+  Duration: 00:00:01.78, start: 0.000000, bitrate: 48 kb/s
+  Stream #210:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#211/mp3 @ 0000024235ee6c80] Estimating duration from bitrate, this may be inaccurate
+Input #211, mp3, from 'C:\t\xno4lpahf\subtitle_212.mp3':
+  Duration: 00:00:03.12, start: 0.000000, bitrate: 48 kb/s
+  Stream #211:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#212/mp3 @ 0000024235ee3ec0] Estimating duration from bitrate, this may be inaccurate
+Input #212, mp3, from 'C:\t\xno4lpahf\subtitle_213.mp3':
+  Duration: 00:00:02.38, start: 0.000000, bitrate: 48 kb/s
+  Stream #212:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#213/mp3 @ 0000024235ee3c00] Estimating duration from bitrate, this may be inaccurate
+Input #213, mp3, from 'C:\t\xno4lpahf\subtitle_214.mp3':
+  Duration: 00:00:03.00, start: 0.000000, bitrate: 48 kb/s
+  Stream #213:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#214/mp3 @ 0000024235ee8740] Estimating duration from bitrate, this may be inaccurate
+Input #214, mp3, from 'C:\t\xno4lpahf\subtitle_215.mp3':
+  Duration: 00:00:02.28, start: 0.000000, bitrate: 48 kb/s
+  Stream #214:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#215/mp3 @ 0000024235ee36c0] Estimating duration from bitrate, this may be inaccurate
+Input #215, mp3, from 'C:\t\xno4lpahf\subtitle_216.mp3':
+  Duration: 00:00:03.10, start: 0.000000, bitrate: 48 kb/s
+  Stream #215:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#216/mp3 @ 0000024235ee7480] Estimating duration from bitrate, this may be inaccurate
+Input #216, mp3, from 'C:\t\xno4lpahf\subtitle_217.mp3':
+  Duration: 00:00:02.23, start: 0.000000, bitrate: 48 kb/s
+  Stream #216:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#217/mp3 @ 0000024235ee5f00] Estimating duration from bitrate, this may be inaccurate
+Input #217, mp3, from 'C:\t\xno4lpahf\subtitle_218.mp3':
+  Duration: 00:00:02.35, start: 0.000000, bitrate: 48 kb/s
+  Stream #217:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#218/mp3 @ 0000024235ee13c0] Estimating duration from bitrate, this may be inaccurate
+Input #218, mp3, from 'C:\t\xno4lpahf\subtitle_219.mp3':
+  Duration: 00:00:01.58, start: 0.000000, bitrate: 48 kb/s
+  Stream #218:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#219/mp3 @ 0000024235ee4c40] Estimating duration from bitrate, this may be inaccurate
+Input #219, mp3, from 'C:\t\xno4lpahf\subtitle_220.mp3':
+  Duration: 00:00:03.34, start: 0.000000, bitrate: 48 kb/s
+  Stream #219:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#220/mp3 @ 0000024235ee4980] Estimating duration from bitrate, this may be inaccurate
+Input #220, mp3, from 'C:\t\xno4lpahf\subtitle_221.mp3':
+  Duration: 00:00:01.97, start: 0.000000, bitrate: 48 kb/s
+  Stream #220:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#221/mp3 @ 0000024235ee1bc0] Estimating duration from bitrate, this may be inaccurate
+Input #221, mp3, from 'C:\t\xno4lpahf\subtitle_222.mp3':
+  Duration: 00:00:03.48, start: 0.000000, bitrate: 48 kb/s
+  Stream #221:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#222/mp3 @ 0000024235ee8a00] Estimating duration from bitrate, this may be inaccurate
+Input #222, mp3, from 'C:\t\xno4lpahf\subtitle_223.mp3':
+  Duration: 00:00:03.65, start: 0.000000, bitrate: 48 kb/s
+  Stream #222:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#223/mp3 @ 0000024235ee2680] Estimating duration from bitrate, this may be inaccurate
+Input #223, mp3, from 'C:\t\xno4lpahf\subtitle_224.mp3':
+  Duration: 00:00:02.57, start: 0.000000, bitrate: 48 kb/s
+  Stream #223:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#224/mp3 @ 0000024235ee6f40] Estimating duration from bitrate, this may be inaccurate
+Input #224, mp3, from 'C:\t\xno4lpahf\subtitle_225.mp3':
+  Duration: 00:00:02.83, start: 0.000000, bitrate: 48 kb/s
+  Stream #224:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#225/mp3 @ 0000024235ee7a00] Estimating duration from bitrate, this may be inaccurate
+Input #225, mp3, from 'C:\t\xno4lpahf\subtitle_226.mp3':
+  Duration: 00:00:02.40, start: 0.000000, bitrate: 48 kb/s
+  Stream #225:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#226/mp3 @ 0000024235ee46c0] Estimating duration from bitrate, this may be inaccurate
+Input #226, mp3, from 'C:\t\xno4lpahf\subtitle_227.mp3':
+  Duration: 00:00:01.78, start: 0.000000, bitrate: 48 kb/s
+  Stream #226:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#227/mp3 @ 0000024235ee1e80] Estimating duration from bitrate, this may be inaccurate
+Input #227, mp3, from 'C:\t\xno4lpahf\subtitle_228.mp3':
+  Duration: 00:00:03.12, start: 0.000000, bitrate: 48 kb/s
+  Stream #227:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#228/mp3 @ 0000024235ee2140] Estimating duration from bitrate, this may be inaccurate
+Input #228, mp3, from 'C:\t\xno4lpahf\subtitle_229.mp3':
+  Duration: 00:00:03.70, start: 0.000000, bitrate: 48 kb/s
+  Stream #228:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#229/mp3 @ 0000024235ee5440] Estimating duration from bitrate, this may be inaccurate
+Input #229, mp3, from 'C:\t\xno4lpahf\subtitle_230.mp3':
+  Duration: 00:00:02.59, start: 0.000000, bitrate: 48 kb/s
+  Stream #229:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#230/mp3 @ 0000024235ee2400] Estimating duration from bitrate, this may be inaccurate
+Input #230, mp3, from 'C:\t\xno4lpahf\subtitle_231.mp3':
+  Duration: 00:00:03.17, start: 0.000000, bitrate: 48 kb/s
+  Stream #230:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#231/mp3 @ 0000024235ee2940] Estimating duration from bitrate, this may be inaccurate
+Input #231, mp3, from 'C:\t\xno4lpahf\subtitle_232.mp3':
+  Duration: 00:00:01.97, start: 0.000000, bitrate: 48 kb/s
+  Stream #231:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#232/mp3 @ 0000024235ee69c0] Estimating duration from bitrate, this may be inaccurate
+Input #232, mp3, from 'C:\t\xno4lpahf\subtitle_233.mp3':
+  Duration: 00:00:02.52, start: 0.000000, bitrate: 48 kb/s
+  Stream #232:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#233/mp3 @ 0000024235ee8cc0] Estimating duration from bitrate, this may be inaccurate
+Input #233, mp3, from 'C:\t\xno4lpahf\subtitle_234.mp3':
+  Duration: 00:00:03.29, start: 0.000000, bitrate: 48 kb/s
+  Stream #233:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#234/mp3 @ 0000024235ee4f00] Estimating duration from bitrate, this may be inaccurate
+Input #234, mp3, from 'C:\t\xno4lpahf\subtitle_235.mp3':
+  Duration: 00:00:03.53, start: 0.000000, bitrate: 48 kb/s
+  Stream #234:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#235/mp3 @ 0000024235ee8f80] Estimating duration from bitrate, this may be inaccurate
+Input #235, mp3, from 'C:\t\xno4lpahf\subtitle_236.mp3':
+  Duration: 00:00:02.52, start: 0.000000, bitrate: 48 kb/s
+  Stream #235:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#236/mp3 @ 0000024235ee71c0] Estimating duration from bitrate, this may be inaccurate
+Input #236, mp3, from 'C:\t\xno4lpahf\subtitle_237.mp3':
+  Duration: 00:00:01.99, start: 0.000000, bitrate: 48 kb/s
+  Stream #236:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#237/mp3 @ 0000024235ee3400] Estimating duration from bitrate, this may be inaccurate
+Input #237, mp3, from 'C:\t\xno4lpahf\subtitle_238.mp3':
+  Duration: 00:00:02.42, start: 0.000000, bitrate: 48 kb/s
+  Stream #237:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#238/mp3 @ 0000024235ee7c80] Estimating duration from bitrate, this may be inaccurate
+Input #238, mp3, from 'C:\t\xno4lpahf\subtitle_239.mp3':
+  Duration: 00:00:02.18, start: 0.000000, bitrate: 48 kb/s
+  Stream #238:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#239/mp3 @ 0000024235ee7f40] Estimating duration from bitrate, this may be inaccurate
+Input #239, mp3, from 'C:\t\xno4lpahf\subtitle_240.mp3':
+  Duration: 00:00:01.66, start: 0.000000, bitrate: 48 kb/s
+  Stream #239:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#240/mp3 @ 0000024235ee8200] Estimating duration from bitrate, this may be inaccurate
+Input #240, mp3, from 'C:\t\xno4lpahf\subtitle_241.mp3':
+  Duration: 00:00:02.33, start: 0.000000, bitrate: 48 kb/s
+  Stream #240:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#241/mp3 @ 0000024235ee6480] Estimating duration from bitrate, this may be inaccurate
+Input #241, mp3, from 'C:\t\xno4lpahf\subtitle_242.mp3':
+  Duration: 00:00:01.78, start: 0.000000, bitrate: 48 kb/s
+  Stream #241:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#242/mp3 @ 0000024235ee5700] Estimating duration from bitrate, this may be inaccurate
+Input #242, mp3, from 'C:\t\xno4lpahf\subtitle_243.mp3':
+  Duration: 00:00:02.62, start: 0.000000, bitrate: 48 kb/s
+  Stream #242:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#243/mp3 @ 0000024235ee84c0] Estimating duration from bitrate, this may be inaccurate
+Input #243, mp3, from 'C:\t\xno4lpahf\subtitle_244.mp3':
+  Duration: 00:00:03.53, start: 0.000000, bitrate: 48 kb/s
+  Stream #243:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#244/mp3 @ 0000024235ee2ec0] Estimating duration from bitrate, this may be inaccurate
+Input #244, mp3, from 'C:\t\xno4lpahf\subtitle_245.mp3':
+  Duration: 00:00:03.22, start: 0.000000, bitrate: 48 kb/s
+  Stream #244:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#245/mp3 @ 0000024235ee6700] Estimating duration from bitrate, this may be inaccurate
+Input #245, mp3, from 'C:\t\xno4lpahf\subtitle_246.mp3':
+  Duration: 00:00:02.66, start: 0.000000, bitrate: 48 kb/s
+  Stream #245:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#246/mp3 @ 0000024235ee3980] Estimating duration from bitrate, this may be inaccurate
+Input #246, mp3, from 'C:\t\xno4lpahf\subtitle_247.mp3':
+  Duration: 00:00:01.49, start: 0.000000, bitrate: 48 kb/s
+  Stream #246:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#247/mp3 @ 0000024235ee3140] Estimating duration from bitrate, this may be inaccurate
+Input #247, mp3, from 'C:\t\xno4lpahf\subtitle_248.mp3':
+  Duration: 00:00:02.38, start: 0.000000, bitrate: 48 kb/s
+  Stream #247:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#248/mp3 @ 0000024235ee4180] Estimating duration from bitrate, this may be inaccurate
+Input #248, mp3, from 'C:\t\xno4lpahf\subtitle_249.mp3':
+  Duration: 00:00:01.94, start: 0.000000, bitrate: 48 kb/s
+  Stream #248:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#249/mp3 @ 0000024235ee59c0] Estimating duration from bitrate, this may be inaccurate
+Input #249, mp3, from 'C:\t\xno4lpahf\subtitle_250.mp3':
+  Duration: 00:00:02.11, start: 0.000000, bitrate: 48 kb/s
+  Stream #249:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#250/mp3 @ 0000024235ee5c40] Estimating duration from bitrate, this may be inaccurate
+Input #250, mp3, from 'C:\t\xno4lpahf\subtitle_251.mp3':
+  Duration: 00:00:02.81, start: 0.000000, bitrate: 48 kb/s
+  Stream #250:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#251/mp3 @ 0000024235ee4440] Estimating duration from bitrate, this may be inaccurate
+Input #251, mp3, from 'C:\t\xno4lpahf\subtitle_252.mp3':
+  Duration: 00:00:02.52, start: 0.000000, bitrate: 48 kb/s
+  Stream #251:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#252/mp3 @ 0000024235ee5180] Estimating duration from bitrate, this may be inaccurate
+Input #252, mp3, from 'C:\t\xno4lpahf\subtitle_253.mp3':
+  Duration: 00:00:01.78, start: 0.000000, bitrate: 48 kb/s
+  Stream #252:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#253/mp3 @ 0000024235ee61c0] Estimating duration from bitrate, this may be inaccurate
+Input #253, mp3, from 'C:\t\xno4lpahf\subtitle_254.mp3':
+  Duration: 00:00:02.18, start: 0.000000, bitrate: 48 kb/s
+  Stream #253:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#254/mp3 @ 00000242348c7580] Estimating duration from bitrate, this may be inaccurate
+Input #254, mp3, from 'C:\t\xno4lpahf\subtitle_255.mp3':
+  Duration: 00:00:02.64, start: 0.000000, bitrate: 48 kb/s
+  Stream #254:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#255/mp3 @ 00000242348c9880] Estimating duration from bitrate, this may be inaccurate
+Input #255, mp3, from 'C:\t\xno4lpahf\subtitle_256.mp3':
+  Duration: 00:00:02.88, start: 0.000000, bitrate: 48 kb/s
+  Stream #255:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#256/mp3 @ 00000242348c8300] Estimating duration from bitrate, this may be inaccurate
+Input #256, mp3, from 'C:\t\xno4lpahf\subtitle_257.mp3':
+  Duration: 00:00:02.28, start: 0.000000, bitrate: 48 kb/s
+  Stream #256:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#257/mp3 @ 00000242348c6d80] Estimating duration from bitrate, this may be inaccurate
+Input #257, mp3, from 'C:\t\xno4lpahf\subtitle_258.mp3':
+  Duration: 00:00:02.78, start: 0.000000, bitrate: 48 kb/s
+  Stream #257:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#258/mp3 @ 00000242348c3500] Estimating duration from bitrate, this may be inaccurate
+Input #258, mp3, from 'C:\t\xno4lpahf\subtitle_259.mp3':
+  Duration: 00:00:02.21, start: 0.000000, bitrate: 48 kb/s
+  Stream #258:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#259/mp3 @ 00000242348c37c0] Estimating duration from bitrate, this may be inaccurate
+Input #259, mp3, from 'C:\t\xno4lpahf\subtitle_260.mp3':
+  Duration: 00:00:01.82, start: 0.000000, bitrate: 48 kb/s
+  Stream #259:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#260/mp3 @ 00000242348c6000] Estimating duration from bitrate, this may be inaccurate
+Input #260, mp3, from 'C:\t\xno4lpahf\subtitle_261.mp3':
+  Duration: 00:00:02.93, start: 0.000000, bitrate: 48 kb/s
+  Stream #260:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#261/mp3 @ 00000242348c3a40] Estimating duration from bitrate, this may be inaccurate
+Input #261, mp3, from 'C:\t\xno4lpahf\subtitle_262.mp3':
+  Duration: 00:00:03.82, start: 0.000000, bitrate: 48 kb/s
+  Stream #261:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#262/mp3 @ 00000242348c3d00] Estimating duration from bitrate, this may be inaccurate
+Input #262, mp3, from 'C:\t\xno4lpahf\subtitle_263.mp3':
+  Duration: 00:00:02.98, start: 0.000000, bitrate: 48 kb/s
+  Stream #262:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#263/mp3 @ 00000242348c2240] Estimating duration from bitrate, this may be inaccurate
+Input #263, mp3, from 'C:\t\xno4lpahf\subtitle_264.mp3':
+  Duration: 00:00:01.75, start: 0.000000, bitrate: 48 kb/s
+  Stream #263:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#264/mp3 @ 00000242348c3fc0] Estimating duration from bitrate, this may be inaccurate
+Input #264, mp3, from 'C:\t\xno4lpahf\subtitle_265.mp3':
+  Duration: 00:00:03.53, start: 0.000000, bitrate: 48 kb/s
+  Stream #264:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#265/mp3 @ 00000242348c4280] Estimating duration from bitrate, this may be inaccurate
+Input #265, mp3, from 'C:\t\xno4lpahf\subtitle_266.mp3':
+  Duration: 00:00:02.23, start: 0.000000, bitrate: 48 kb/s
+  Stream #265:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#266/mp3 @ 00000242348c5d40] Estimating duration from bitrate, this may be inaccurate
+Input #266, mp3, from 'C:\t\xno4lpahf\subtitle_267.mp3':
+  Duration: 00:00:01.63, start: 0.000000, bitrate: 48 kb/s
+  Stream #266:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#267/mp3 @ 00000242348c4a80] Estimating duration from bitrate, this may be inaccurate
+Input #267, mp3, from 'C:\t\xno4lpahf\subtitle_268.mp3':
+  Duration: 00:00:03.19, start: 0.000000, bitrate: 48 kb/s
+  Stream #267:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#268/mp3 @ 00000242348c8dc0] Estimating duration from bitrate, this may be inaccurate
+Input #268, mp3, from 'C:\t\xno4lpahf\subtitle_269.mp3':
+  Duration: 00:00:01.78, start: 0.000000, bitrate: 48 kb/s
+  Stream #268:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#269/mp3 @ 00000242348c7ac0] Estimating duration from bitrate, this may be inaccurate
+Input #269, mp3, from 'C:\t\xno4lpahf\subtitle_270.mp3':
+  Duration: 00:00:03.55, start: 0.000000, bitrate: 48 kb/s
+  Stream #269:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#270/mp3 @ 00000242348c7840] Estimating duration from bitrate, this may be inaccurate
+Input #270, mp3, from 'C:\t\xno4lpahf\subtitle_271.mp3':
+  Duration: 00:00:02.78, start: 0.000000, bitrate: 48 kb/s
+  Stream #270:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#271/mp3 @ 00000242348c7000] Estimating duration from bitrate, this may be inaccurate
+Input #271, mp3, from 'C:\t\xno4lpahf\subtitle_272.mp3':
+  Duration: 00:00:02.02, start: 0.000000, bitrate: 48 kb/s
+  Stream #271:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#272/mp3 @ 00000242348c4500] Estimating duration from bitrate, this may be inaccurate
+Input #272, mp3, from 'C:\t\xno4lpahf\subtitle_273.mp3':
+  Duration: 00:00:02.62, start: 0.000000, bitrate: 48 kb/s
+  Stream #272:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#273/mp3 @ 00000242348c47c0] Estimating duration from bitrate, this may be inaccurate
+Input #273, mp3, from 'C:\t\xno4lpahf\subtitle_274.mp3':
+  Duration: 00:00:01.46, start: 0.000000, bitrate: 48 kb/s
+  Stream #273:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#274/mp3 @ 00000242348c62c0] Estimating duration from bitrate, this may be inaccurate
+Input #274, mp3, from 'C:\t\xno4lpahf\subtitle_275.mp3':
+  Duration: 00:00:02.18, start: 0.000000, bitrate: 48 kb/s
+  Stream #274:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#275/mp3 @ 00000242348c5280] Estimating duration from bitrate, this may be inaccurate
+Input #275, mp3, from 'C:\t\xno4lpahf\subtitle_276.mp3':
+  Duration: 00:00:02.18, start: 0.000000, bitrate: 48 kb/s
+  Stream #275:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#276/mp3 @ 00000242348c9dc0] Estimating duration from bitrate, this may be inaccurate
+Input #276, mp3, from 'C:\t\xno4lpahf\subtitle_277.mp3':
+  Duration: 00:00:02.88, start: 0.000000, bitrate: 48 kb/s
+  Stream #276:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#277/mp3 @ 00000242348c9040] Estimating duration from bitrate, this may be inaccurate
+Input #277, mp3, from 'C:\t\xno4lpahf\subtitle_278.mp3':
+  Duration: 00:00:01.78, start: 0.000000, bitrate: 48 kb/s
+  Stream #277:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#278/mp3 @ 00000242348c8b00] Estimating duration from bitrate, this may be inaccurate
+Input #278, mp3, from 'C:\t\xno4lpahf\subtitle_279.mp3':
+  Duration: 00:00:01.73, start: 0.000000, bitrate: 48 kb/s
+  Stream #278:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#279/mp3 @ 00000242348c4d40] Estimating duration from bitrate, this may be inaccurate
+Input #279, mp3, from 'C:\t\xno4lpahf\subtitle_280.mp3':
+  Duration: 00:00:03.43, start: 0.000000, bitrate: 48 kb/s
+  Stream #279:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#280/mp3 @ 00000242348c9300] Estimating duration from bitrate, this may be inaccurate
+Input #280, mp3, from 'C:\t\xno4lpahf\subtitle_281.mp3':
+  Duration: 00:00:03.38, start: 0.000000, bitrate: 48 kb/s
+  Stream #280:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#281/mp3 @ 00000242348c8580] Estimating duration from bitrate, this may be inaccurate
+Input #281, mp3, from 'C:\t\xno4lpahf\subtitle_282.mp3':
+  Duration: 00:00:01.75, start: 0.000000, bitrate: 48 kb/s
+  Stream #281:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#282/mp3 @ 00000242348c2f80] Estimating duration from bitrate, this may be inaccurate
+Input #282, mp3, from 'C:\t\xno4lpahf\subtitle_283.mp3':
+  Duration: 00:00:02.33, start: 0.000000, bitrate: 48 kb/s
+  Stream #282:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#283/mp3 @ 00000242348c24c0] Estimating duration from bitrate, this may be inaccurate
+Input #283, mp3, from 'C:\t\xno4lpahf\subtitle_284.mp3':
+  Duration: 00:00:02.74, start: 0.000000, bitrate: 48 kb/s
+  Stream #283:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#284/mp3 @ 00000242348c7d80] Estimating duration from bitrate, this may be inaccurate
+Input #284, mp3, from 'C:\t\xno4lpahf\subtitle_285.mp3':
+  Duration: 00:00:02.28, start: 0.000000, bitrate: 48 kb/s
+  Stream #284:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#285/mp3 @ 00000242348c4fc0] Estimating duration from bitrate, this may be inaccurate
+Input #285, mp3, from 'C:\t\xno4lpahf\subtitle_286.mp3':
+  Duration: 00:00:01.97, start: 0.000000, bitrate: 48 kb/s
+  Stream #285:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#286/mp3 @ 00000242348c8040] Estimating duration from bitrate, this may be inaccurate
+Input #286, mp3, from 'C:\t\xno4lpahf\subtitle_287.mp3':
+  Duration: 00:00:03.89, start: 0.000000, bitrate: 48 kb/s
+  Stream #286:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#287/mp3 @ 00000242348c2a40] Estimating duration from bitrate, this may be inaccurate
+Input #287, mp3, from 'C:\t\xno4lpahf\subtitle_288.mp3':
+  Duration: 00:00:01.18, start: 0.000000, bitrate: 48 kb/s
+  Stream #287:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#288/mp3 @ 00000242348c5540] Estimating duration from bitrate, this may be inaccurate
+Input #288, mp3, from 'C:\t\xno4lpahf\subtitle_289.mp3':
+  Duration: 00:00:02.59, start: 0.000000, bitrate: 48 kb/s
+  Stream #288:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#289/mp3 @ 00000242348c3240] Estimating duration from bitrate, this may be inaccurate
+Input #289, mp3, from 'C:\t\xno4lpahf\subtitle_290.mp3':
+  Duration: 00:00:03.31, start: 0.000000, bitrate: 48 kb/s
+  Stream #289:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#290/mp3 @ 00000242348c5800] Estimating duration from bitrate, this may be inaccurate
+Input #290, mp3, from 'C:\t\xno4lpahf\subtitle_291.mp3':
+  Duration: 00:00:01.78, start: 0.000000, bitrate: 48 kb/s
+  Stream #290:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#291/mp3 @ 00000242348c6800] Estimating duration from bitrate, this may be inaccurate
+Input #291, mp3, from 'C:\t\xno4lpahf\subtitle_292.mp3':
+  Duration: 00:00:03.65, start: 0.000000, bitrate: 48 kb/s
+  Stream #291:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#292/mp3 @ 00000242348c5a80] Estimating duration from bitrate, this may be inaccurate
+Input #292, mp3, from 'C:\t\xno4lpahf\subtitle_293.mp3':
+  Duration: 00:00:01.78, start: 0.000000, bitrate: 48 kb/s
+  Stream #292:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#293/mp3 @ 00000242348c2780] Estimating duration from bitrate, this may be inaccurate
+Input #293, mp3, from 'C:\t\xno4lpahf\subtitle_294.mp3':
+  Duration: 00:00:02.40, start: 0.000000, bitrate: 48 kb/s
+  Stream #293:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#294/mp3 @ 00000242348c6540] Estimating duration from bitrate, this may be inaccurate
+Input #294, mp3, from 'C:\t\xno4lpahf\subtitle_295.mp3':
+  Duration: 00:00:05.18, start: 0.000000, bitrate: 48 kb/s
+  Stream #294:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#295/mp3 @ 00000242348c95c0] Estimating duration from bitrate, this may be inaccurate
+Input #295, mp3, from 'C:\t\xno4lpahf\subtitle_296.mp3':
+  Duration: 00:00:01.20, start: 0.000000, bitrate: 48 kb/s
+  Stream #295:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#296/mp3 @ 00000242348c72c0] Estimating duration from bitrate, this may be inaccurate
+Input #296, mp3, from 'C:\t\xno4lpahf\subtitle_297.mp3':
+  Duration: 00:00:01.87, start: 0.000000, bitrate: 48 kb/s
+  Stream #296:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#297/mp3 @ 00000242348c8840] Estimating duration from bitrate, this may be inaccurate
+Input #297, mp3, from 'C:\t\xno4lpahf\subtitle_298.mp3':
+  Duration: 00:00:02.78, start: 0.000000, bitrate: 48 kb/s
+  Stream #297:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#298/mp3 @ 00000242348c6ac0] Estimating duration from bitrate, this may be inaccurate
+Input #298, mp3, from 'C:\t\xno4lpahf\subtitle_299.mp3':
+  Duration: 00:00:01.78, start: 0.000000, bitrate: 48 kb/s
+  Stream #298:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#299/mp3 @ 00000242348c9b00] Estimating duration from bitrate, this may be inaccurate
+Input #299, mp3, from 'C:\t\xno4lpahf\subtitle_300.mp3':
+  Duration: 00:00:03.43, start: 0.000000, bitrate: 48 kb/s
+  Stream #299:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#300/mp3 @ 00000242348c2d00] Estimating duration from bitrate, this may be inaccurate
+Input #300, mp3, from 'C:\t\xno4lpahf\subtitle_301.mp3':
+  Duration: 00:00:02.57, start: 0.000000, bitrate: 48 kb/s
+  Stream #300:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#301/mp3 @ 00000242366b06c0] Estimating duration from bitrate, this may be inaccurate
+Input #301, mp3, from 'C:\t\xno4lpahf\subtitle_302.mp3':
+  Duration: 00:00:01.63, start: 0.000000, bitrate: 48 kb/s
+  Stream #301:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#302/mp3 @ 00000242366ae940] Estimating duration from bitrate, this may be inaccurate
+Input #302, mp3, from 'C:\t\xno4lpahf\subtitle_303.mp3':
+  Duration: 00:00:02.06, start: 0.000000, bitrate: 48 kb/s
+  Stream #302:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#303/mp3 @ 00000242366ab600] Estimating duration from bitrate, this may be inaccurate
+Input #303, mp3, from 'C:\t\xno4lpahf\subtitle_304.mp3':
+  Duration: 00:00:02.69, start: 0.000000, bitrate: 48 kb/s
+  Stream #303:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#304/mp3 @ 00000242366afec0] Estimating duration from bitrate, this may be inaccurate
+Input #304, mp3, from 'C:\t\xno4lpahf\subtitle_305.mp3':
+  Duration: 00:00:01.22, start: 0.000000, bitrate: 48 kb/s
+  Stream #304:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#305/mp3 @ 00000242366b0980] Estimating duration from bitrate, this may be inaccurate
+Input #305, mp3, from 'C:\t\xno4lpahf\subtitle_306.mp3':
+  Duration: 00:00:03.14, start: 0.000000, bitrate: 48 kb/s
+  Stream #305:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#306/mp3 @ 00000242366aa600] Estimating duration from bitrate, this may be inaccurate
+Input #306, mp3, from 'C:\t\xno4lpahf\subtitle_307.mp3':
+  Duration: 00:00:03.14, start: 0.000000, bitrate: 48 kb/s
+  Stream #306:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#307/mp3 @ 00000242366b0400] Estimating duration from bitrate, this may be inaccurate
+Input #307, mp3, from 'C:\t\xno4lpahf\subtitle_308.mp3':
+  Duration: 00:00:03.02, start: 0.000000, bitrate: 48 kb/s
+  Stream #307:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#308/mp3 @ 00000242366af400] Estimating duration from bitrate, this may be inaccurate
+Input #308, mp3, from 'C:\t\xno4lpahf\subtitle_309.mp3':
+  Duration: 00:00:01.85, start: 0.000000, bitrate: 48 kb/s
+  Stream #308:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#309/mp3 @ 00000242366ac640] Estimating duration from bitrate, this may be inaccurate
+Input #309, mp3, from 'C:\t\xno4lpahf\subtitle_310.mp3':
+  Duration: 00:00:01.34, start: 0.000000, bitrate: 48 kb/s
+  Stream #309:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#310/mp3 @ 00000242366b0140] Estimating duration from bitrate, this may be inaccurate
+Input #310, mp3, from 'C:\t\xno4lpahf\subtitle_311.mp3':
+  Duration: 00:00:03.29, start: 0.000000, bitrate: 48 kb/s
+  Stream #310:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#311/mp3 @ 00000242366ad100] Estimating duration from bitrate, this may be inaccurate
+Input #311, mp3, from 'C:\t\xno4lpahf\subtitle_312.mp3':
+  Duration: 00:00:02.98, start: 0.000000, bitrate: 48 kb/s
+  Stream #311:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#312/mp3 @ 00000242366b0c00] Estimating duration from bitrate, this may be inaccurate
+Input #312, mp3, from 'C:\t\xno4lpahf\subtitle_313.mp3':
+  Duration: 00:00:03.00, start: 0.000000, bitrate: 48 kb/s
+  Stream #312:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#313/mp3 @ 00000242366ad900] Estimating duration from bitrate, this may be inaccurate
+Input #313, mp3, from 'C:\t\xno4lpahf\subtitle_314.mp3':
+  Duration: 00:00:02.54, start: 0.000000, bitrate: 48 kb/s
+  Stream #313:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#314/mp3 @ 00000242366ac0c0] Estimating duration from bitrate, this may be inaccurate
+Input #314, mp3, from 'C:\t\xno4lpahf\subtitle_315.mp3':
+  Duration: 00:00:02.18, start: 0.000000, bitrate: 48 kb/s
+  Stream #314:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#315/mp3 @ 00000242366aae00] Estimating duration from bitrate, this may be inaccurate
+Input #315, mp3, from 'C:\t\xno4lpahf\subtitle_316.mp3':
+  Duration: 00:00:02.09, start: 0.000000, bitrate: 48 kb/s
+  Stream #315:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#316/mp3 @ 00000242366b0ec0] Estimating duration from bitrate, this may be inaccurate
+Input #316, mp3, from 'C:\t\xno4lpahf\subtitle_317.mp3':
+  Duration: 00:00:01.49, start: 0.000000, bitrate: 48 kb/s
+  Stream #316:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#317/mp3 @ 00000242366ace40] Estimating duration from bitrate, this may be inaccurate
+Input #317, mp3, from 'C:\t\xno4lpahf\subtitle_318.mp3':
+  Duration: 00:00:03.34, start: 0.000000, bitrate: 48 kb/s
+  Stream #317:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#318/mp3 @ 00000242366afc00] Estimating duration from bitrate, this may be inaccurate
+Input #318, mp3, from 'C:\t\xno4lpahf\subtitle_319.mp3':
+  Duration: 00:00:02.88, start: 0.000000, bitrate: 48 kb/s
+  Stream #318:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#319/mp3 @ 00000242366ade80] Estimating duration from bitrate, this may be inaccurate
+Input #319, mp3, from 'C:\t\xno4lpahf\subtitle_320.mp3':
+  Duration: 00:00:01.63, start: 0.000000, bitrate: 48 kb/s
+  Stream #319:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#320/mp3 @ 00000242366abe40] Estimating duration from bitrate, this may be inaccurate
+Input #320, mp3, from 'C:\t\xno4lpahf\subtitle_321.mp3':
+  Duration: 00:00:03.07, start: 0.000000, bitrate: 48 kb/s
+  Stream #320:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#321/mp3 @ 00000242366aebc0] Estimating duration from bitrate, this may be inaccurate
+Input #321, mp3, from 'C:\t\xno4lpahf\subtitle_322.mp3':
+  Duration: 00:00:03.22, start: 0.000000, bitrate: 48 kb/s
+  Stream #321:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#322/mp3 @ 00000242366b1180] Estimating duration from bitrate, this may be inaccurate
+Input #322, mp3, from 'C:\t\xno4lpahf\subtitle_323.mp3':
+  Duration: 00:00:02.62, start: 0.000000, bitrate: 48 kb/s
+  Stream #322:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#323/mp3 @ 00000242366aee80] Estimating duration from bitrate, this may be inaccurate
+Input #323, mp3, from 'C:\t\xno4lpahf\subtitle_324.mp3':
+  Duration: 00:00:03.05, start: 0.000000, bitrate: 48 kb/s
+  Stream #323:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#324/mp3 @ 00000242366ac380] Estimating duration from bitrate, this may be inaccurate
+Input #324, mp3, from 'C:\t\xno4lpahf\subtitle_325.mp3':
+  Duration: 00:00:01.85, start: 0.000000, bitrate: 48 kb/s
+  Stream #324:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#325/mp3 @ 00000242366adbc0] Estimating duration from bitrate, this may be inaccurate
+Input #325, mp3, from 'C:\t\xno4lpahf\subtitle_326.mp3':
+  Duration: 00:00:02.74, start: 0.000000, bitrate: 48 kb/s
+  Stream #325:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#326/mp3 @ 00000242366ac900] Estimating duration from bitrate, this may be inaccurate
+Input #326, mp3, from 'C:\t\xno4lpahf\subtitle_327.mp3':
+  Duration: 00:00:02.42, start: 0.000000, bitrate: 48 kb/s
+  Stream #326:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#327/mp3 @ 00000242366ad640] Estimating duration from bitrate, this may be inaccurate
+Input #327, mp3, from 'C:\t\xno4lpahf\subtitle_328.mp3':
+  Duration: 00:00:01.66, start: 0.000000, bitrate: 48 kb/s
+  Stream #327:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#328/mp3 @ 00000242366b1440] Estimating duration from bitrate, this may be inaccurate
+Input #328, mp3, from 'C:\t\xno4lpahf\subtitle_329.mp3':
+  Duration: 00:00:01.73, start: 0.000000, bitrate: 48 kb/s
+  Stream #328:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#329/mp3 @ 00000242366b16c0] Estimating duration from bitrate, this may be inaccurate
+Input #329, mp3, from 'C:\t\xno4lpahf\subtitle_330.mp3':
+  Duration: 00:00:01.78, start: 0.000000, bitrate: 48 kb/s
+  Stream #329:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#330/mp3 @ 00000242366aa340] Estimating duration from bitrate, this may be inaccurate
+Input #330, mp3, from 'C:\t\xno4lpahf\subtitle_331.mp3':
+  Duration: 00:00:03.05, start: 0.000000, bitrate: 48 kb/s
+  Stream #330:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#331/mp3 @ 00000242366aab40] Estimating duration from bitrate, this may be inaccurate
+Input #331, mp3, from 'C:\t\xno4lpahf\subtitle_332.mp3':
+  Duration: 00:00:01.94, start: 0.000000, bitrate: 48 kb/s
+  Stream #331:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#332/mp3 @ 00000242366af680] Estimating duration from bitrate, this may be inaccurate
+Input #332, mp3, from 'C:\t\xno4lpahf\subtitle_333.mp3':
+  Duration: 00:00:01.99, start: 0.000000, bitrate: 48 kb/s
+  Stream #332:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#333/mp3 @ 00000242366ab0c0] Estimating duration from bitrate, this may be inaccurate
+Input #333, mp3, from 'C:\t\xno4lpahf\subtitle_334.mp3':
+  Duration: 00:00:01.78, start: 0.000000, bitrate: 48 kb/s
+  Stream #333:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#334/mp3 @ 00000242366b1980] Estimating duration from bitrate, this may be inaccurate
+Input #334, mp3, from 'C:\t\xno4lpahf\subtitle_335.mp3':
+  Duration: 00:00:03.12, start: 0.000000, bitrate: 48 kb/s
+  Stream #334:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#335/mp3 @ 00000242366ad3c0] Estimating duration from bitrate, this may be inaccurate
+Input #335, mp3, from 'C:\t\xno4lpahf\subtitle_336.mp3':
+  Duration: 00:00:02.38, start: 0.000000, bitrate: 48 kb/s
+  Stream #335:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#336/mp3 @ 00000242366b1c40] Estimating duration from bitrate, this may be inaccurate
+Input #336, mp3, from 'C:\t\xno4lpahf\subtitle_337.mp3':
+  Duration: 00:00:02.52, start: 0.000000, bitrate: 48 kb/s
+  Stream #336:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#337/mp3 @ 00000242366aa080] Estimating duration from bitrate, this may be inaccurate
+Input #337, mp3, from 'C:\t\xno4lpahf\subtitle_338.mp3':
+  Duration: 00:00:02.74, start: 0.000000, bitrate: 48 kb/s
+  Stream #337:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#338/mp3 @ 00000242366aa8c0] Estimating duration from bitrate, this may be inaccurate
+Input #338, mp3, from 'C:\t\xno4lpahf\subtitle_339.mp3':
+  Duration: 00:00:03.74, start: 0.000000, bitrate: 48 kb/s
+  Stream #338:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#339/mp3 @ 00000242366ab380] Estimating duration from bitrate, this may be inaccurate
+Input #339, mp3, from 'C:\t\xno4lpahf\subtitle_340.mp3':
+  Duration: 00:00:01.78, start: 0.000000, bitrate: 48 kb/s
+  Stream #339:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#340/mp3 @ 00000242366ae100] Estimating duration from bitrate, this may be inaccurate
+Input #340, mp3, from 'C:\t\xno4lpahf\subtitle_341.mp3':
+  Duration: 00:00:02.57, start: 0.000000, bitrate: 48 kb/s
+  Stream #340:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#341/mp3 @ 00000242366ab8c0] Estimating duration from bitrate, this may be inaccurate
+Input #341, mp3, from 'C:\t\xno4lpahf\subtitle_342.mp3':
+  Duration: 00:00:02.59, start: 0.000000, bitrate: 48 kb/s
+  Stream #341:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#342/mp3 @ 00000242366acb80] Estimating duration from bitrate, this may be inaccurate
+Input #342, mp3, from 'C:\t\xno4lpahf\subtitle_343.mp3':
+  Duration: 00:00:02.42, start: 0.000000, bitrate: 48 kb/s
+  Stream #342:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#343/mp3 @ 00000242366af940] Estimating duration from bitrate, this may be inaccurate
+Input #343, mp3, from 'C:\t\xno4lpahf\subtitle_344.mp3':
+  Duration: 00:00:02.71, start: 0.000000, bitrate: 48 kb/s
+  Stream #343:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#344/mp3 @ 00000242366abb80] Estimating duration from bitrate, this may be inaccurate
+Input #344, mp3, from 'C:\t\xno4lpahf\subtitle_345.mp3':
+  Duration: 00:00:03.24, start: 0.000000, bitrate: 48 kb/s
+  Stream #344:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#345/mp3 @ 00000242366ae3c0] Estimating duration from bitrate, this may be inaccurate
+Input #345, mp3, from 'C:\t\xno4lpahf\subtitle_346.mp3':
+  Duration: 00:00:03.00, start: 0.000000, bitrate: 48 kb/s
+  Stream #345:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#346/mp3 @ 00000242366ae680] Estimating duration from bitrate, this may be inaccurate
+Input #346, mp3, from 'C:\t\xno4lpahf\subtitle_347.mp3':
+  Duration: 00:00:01.44, start: 0.000000, bitrate: 48 kb/s
+  Stream #346:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#347/mp3 @ 00000242366af140] Estimating duration from bitrate, this may be inaccurate
+Input #347, mp3, from 'C:\t\xno4lpahf\subtitle_348.mp3':
+  Duration: 00:00:01.15, start: 0.000000, bitrate: 48 kb/s
+  Stream #347:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#348/mp3 @ 0000024236e961c0] Estimating duration from bitrate, this may be inaccurate
+Input #348, mp3, from 'C:\t\xno4lpahf\subtitle_349.mp3':
+  Duration: 00:00:02.83, start: 0.000000, bitrate: 48 kb/s
+  Stream #348:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#349/mp3 @ 0000024236e94c40] Estimating duration from bitrate, this may be inaccurate
+Input #349, mp3, from 'C:\t\xno4lpahf\subtitle_350.mp3':
+  Duration: 00:00:02.33, start: 0.000000, bitrate: 48 kb/s
+  Stream #349:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#350/mp3 @ 0000024236e96480] Estimating duration from bitrate, this may be inaccurate
+Input #350, mp3, from 'C:\t\xno4lpahf\subtitle_351.mp3':
+  Duration: 00:00:02.98, start: 0.000000, bitrate: 48 kb/s
+  Stream #350:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#351/mp3 @ 0000024236e92c00] Estimating duration from bitrate, this may be inaccurate
+Input #351, mp3, from 'C:\t\xno4lpahf\subtitle_352.mp3':
+  Duration: 00:00:02.98, start: 0.000000, bitrate: 48 kb/s
+  Stream #351:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#352/mp3 @ 0000024236e92940] Estimating duration from bitrate, this may be inaccurate
+Input #352, mp3, from 'C:\t\xno4lpahf\subtitle_353.mp3':
+  Duration: 00:00:01.90, start: 0.000000, bitrate: 48 kb/s
+  Stream #352:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#353/mp3 @ 0000024236e92680] Estimating duration from bitrate, this may be inaccurate
+Input #353, mp3, from 'C:\t\xno4lpahf\subtitle_354.mp3':
+  Duration: 00:00:02.42, start: 0.000000, bitrate: 48 kb/s
+  Stream #353:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#354/mp3 @ 0000024236e97480] Estimating duration from bitrate, this may be inaccurate
+Input #354, mp3, from 'C:\t\xno4lpahf\subtitle_355.mp3':
+  Duration: 00:00:02.54, start: 0.000000, bitrate: 48 kb/s
+  Stream #354:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#355/mp3 @ 0000024236e92400] Estimating duration from bitrate, this may be inaccurate
+Input #355, mp3, from 'C:\t\xno4lpahf\subtitle_356.mp3':
+  Duration: 00:00:01.90, start: 0.000000, bitrate: 48 kb/s
+  Stream #355:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#356/mp3 @ 0000024236e93400] Estimating duration from bitrate, this may be inaccurate
+Input #356, mp3, from 'C:\t\xno4lpahf\subtitle_357.mp3':
+  Duration: 00:00:02.40, start: 0.000000, bitrate: 48 kb/s
+  Stream #356:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#357/mp3 @ 0000024236e98740] Estimating duration from bitrate, this may be inaccurate
+Input #357, mp3, from 'C:\t\xno4lpahf\subtitle_358.mp3':
+  Duration: 00:00:03.14, start: 0.000000, bitrate: 48 kb/s
+  Stream #357:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#358/mp3 @ 0000024236e94f00] Estimating duration from bitrate, this may be inaccurate
+Input #358, mp3, from 'C:\t\xno4lpahf\subtitle_359.mp3':
+  Duration: 00:00:03.38, start: 0.000000, bitrate: 48 kb/s
+  Stream #358:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#359/mp3 @ 0000024236e95180] Estimating duration from bitrate, this may be inaccurate
+Input #359, mp3, from 'C:\t\xno4lpahf\subtitle_360.mp3':
+  Duration: 00:00:01.44, start: 0.000000, bitrate: 48 kb/s
+  Stream #359:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#360/mp3 @ 0000024236e92ec0] Estimating duration from bitrate, this may be inaccurate
+Input #360, mp3, from 'C:\t\xno4lpahf\subtitle_361.mp3':
+  Duration: 00:00:02.35, start: 0.000000, bitrate: 48 kb/s
+  Stream #360:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#361/mp3 @ 0000024236e95f00] Estimating duration from bitrate, this may be inaccurate
+Input #361, mp3, from 'C:\t\xno4lpahf\subtitle_362.mp3':
+  Duration: 00:00:01.82, start: 0.000000, bitrate: 48 kb/s
+  Stream #361:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#362/mp3 @ 0000024236e91100] Estimating duration from bitrate, this may be inaccurate
+Input #362, mp3, from 'C:\t\xno4lpahf\subtitle_363.mp3':
+  Duration: 00:00:02.81, start: 0.000000, bitrate: 48 kb/s
+  Stream #362:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#363/mp3 @ 0000024236e94980] Estimating duration from bitrate, this may be inaccurate
+Input #363, mp3, from 'C:\t\xno4lpahf\subtitle_364.mp3':
+  Duration: 00:00:01.68, start: 0.000000, bitrate: 48 kb/s
+  Stream #363:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#364/mp3 @ 0000024236e94440] Estimating duration from bitrate, this may be inaccurate
+Input #364, mp3, from 'C:\t\xno4lpahf\subtitle_365.mp3':
+  Duration: 00:00:01.78, start: 0.000000, bitrate: 48 kb/s
+  Stream #364:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#365/mp3 @ 0000024236e96700] Estimating duration from bitrate, this may be inaccurate
+Input #365, mp3, from 'C:\t\xno4lpahf\subtitle_366.mp3':
+  Duration: 00:00:03.02, start: 0.000000, bitrate: 48 kb/s
+  Stream #365:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#366/mp3 @ 0000024236e936c0] Estimating duration from bitrate, this may be inaccurate
+Input #366, mp3, from 'C:\t\xno4lpahf\subtitle_367.mp3':
+  Duration: 00:00:01.18, start: 0.000000, bitrate: 48 kb/s
+  Stream #366:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#367/mp3 @ 0000024236e95700] Estimating duration from bitrate, this may be inaccurate
+Input #367, mp3, from 'C:\t\xno4lpahf\subtitle_368.mp3':
+  Duration: 00:00:03.58, start: 0.000000, bitrate: 48 kb/s
+  Stream #367:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#368/mp3 @ 0000024236e93140] Estimating duration from bitrate, this may be inaccurate
+Input #368, mp3, from 'C:\t\xno4lpahf\subtitle_369.mp3':
+  Duration: 00:00:03.48, start: 0.000000, bitrate: 48 kb/s
+  Stream #368:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#369/mp3 @ 0000024236e92140] Estimating duration from bitrate, this may be inaccurate
+Input #369, mp3, from 'C:\t\xno4lpahf\subtitle_370.mp3':
+  Duration: 00:00:02.21, start: 0.000000, bitrate: 48 kb/s
+  Stream #369:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#370/mp3 @ 0000024236e93980] Estimating duration from bitrate, this may be inaccurate
+Input #370, mp3, from 'C:\t\xno4lpahf\subtitle_371.mp3':
+  Duration: 00:00:02.86, start: 0.000000, bitrate: 48 kb/s
+  Stream #370:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#371/mp3 @ 0000024236e96c80] Estimating duration from bitrate, this may be inaccurate
+Input #371, mp3, from 'C:\t\xno4lpahf\subtitle_372.mp3':
+  Duration: 00:00:02.14, start: 0.000000, bitrate: 48 kb/s
+  Stream #371:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#372/mp3 @ 0000024236e97c80] Estimating duration from bitrate, this may be inaccurate
+Input #372, mp3, from 'C:\t\xno4lpahf\subtitle_373.mp3':
+  Duration: 00:00:03.10, start: 0.000000, bitrate: 48 kb/s
+  Stream #372:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#373/mp3 @ 0000024236e93c00] Estimating duration from bitrate, this may be inaccurate
+Input #373, mp3, from 'C:\t\xno4lpahf\subtitle_374.mp3':
+  Duration: 00:00:02.33, start: 0.000000, bitrate: 48 kb/s
+  Stream #373:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#374/mp3 @ 0000024236e93ec0] Estimating duration from bitrate, this may be inaccurate
+Input #374, mp3, from 'C:\t\xno4lpahf\subtitle_375.mp3':
+  Duration: 00:00:02.06, start: 0.000000, bitrate: 48 kb/s
+  Stream #374:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#375/mp3 @ 0000024236e94180] Estimating duration from bitrate, this may be inaccurate
+Input #375, mp3, from 'C:\t\xno4lpahf\subtitle_376.mp3':
+  Duration: 00:00:03.19, start: 0.000000, bitrate: 48 kb/s
+  Stream #375:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#376/mp3 @ 0000024236e98200] Estimating duration from bitrate, this may be inaccurate
+Input #376, mp3, from 'C:\t\xno4lpahf\subtitle_377.mp3':
+  Duration: 00:00:02.50, start: 0.000000, bitrate: 48 kb/s
+  Stream #376:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#377/mp3 @ 0000024236e95c40] Estimating duration from bitrate, this may be inaccurate
+Input #377, mp3, from 'C:\t\xno4lpahf\subtitle_378.mp3':
+  Duration: 00:00:02.62, start: 0.000000, bitrate: 48 kb/s
+  Stream #377:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#378/mp3 @ 0000024236e969c0] Estimating duration from bitrate, this may be inaccurate
+Input #378, mp3, from 'C:\t\xno4lpahf\subtitle_379.mp3':
+  Duration: 00:00:02.69, start: 0.000000, bitrate: 48 kb/s
+  Stream #378:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#379/mp3 @ 0000024236e946c0] Estimating duration from bitrate, this may be inaccurate
+Input #379, mp3, from 'C:\t\xno4lpahf\subtitle_380.mp3':
+  Duration: 00:00:02.54, start: 0.000000, bitrate: 48 kb/s
+  Stream #379:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#380/mp3 @ 0000024236e959c0] Estimating duration from bitrate, this may be inaccurate
+Input #380, mp3, from 'C:\t\xno4lpahf\subtitle_381.mp3':
+  Duration: 00:00:02.28, start: 0.000000, bitrate: 48 kb/s
+  Stream #380:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#381/mp3 @ 0000024236e95440] Estimating duration from bitrate, this may be inaccurate
+Input #381, mp3, from 'C:\t\xno4lpahf\subtitle_382.mp3':
+  Duration: 00:00:03.43, start: 0.000000, bitrate: 48 kb/s
+  Stream #381:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#382/mp3 @ 0000024236e913c0] Estimating duration from bitrate, this may be inaccurate
+Input #382, mp3, from 'C:\t\xno4lpahf\subtitle_383.mp3':
+  Duration: 00:00:03.26, start: 0.000000, bitrate: 48 kb/s
+  Stream #382:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#383/mp3 @ 0000024236e96f40] Estimating duration from bitrate, this may be inaccurate
+Input #383, mp3, from 'C:\t\xno4lpahf\subtitle_384.mp3':
+  Duration: 00:00:02.90, start: 0.000000, bitrate: 48 kb/s
+  Stream #383:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#384/mp3 @ 0000024236e971c0] Estimating duration from bitrate, this may be inaccurate
+Input #384, mp3, from 'C:\t\xno4lpahf\subtitle_385.mp3':
+  Duration: 00:00:03.41, start: 0.000000, bitrate: 48 kb/s
+  Stream #384:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#385/mp3 @ 0000024236e97740] Estimating duration from bitrate, this may be inaccurate
+Input #385, mp3, from 'C:\t\xno4lpahf\subtitle_386.mp3':
+  Duration: 00:00:01.94, start: 0.000000, bitrate: 48 kb/s
+  Stream #385:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#386/mp3 @ 0000024236e97a00] Estimating duration from bitrate, this may be inaccurate
+Input #386, mp3, from 'C:\t\xno4lpahf\subtitle_387.mp3':
+  Duration: 00:00:03.65, start: 0.000000, bitrate: 48 kb/s
+  Stream #386:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#387/mp3 @ 0000024236e97f40] Estimating duration from bitrate, this may be inaccurate
+Input #387, mp3, from 'C:\t\xno4lpahf\subtitle_388.mp3':
+  Duration: 00:00:02.98, start: 0.000000, bitrate: 48 kb/s
+  Stream #387:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#388/mp3 @ 0000024236e984c0] Estimating duration from bitrate, this may be inaccurate
+Input #388, mp3, from 'C:\t\xno4lpahf\subtitle_389.mp3':
+  Duration: 00:00:02.02, start: 0.000000, bitrate: 48 kb/s
+  Stream #388:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#389/mp3 @ 0000024236e98a00] Estimating duration from bitrate, this may be inaccurate
+Input #389, mp3, from 'C:\t\xno4lpahf\subtitle_390.mp3':
+  Duration: 00:00:01.99, start: 0.000000, bitrate: 48 kb/s
+  Stream #389:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#390/mp3 @ 0000024236e90e80] Estimating duration from bitrate, this may be inaccurate
+Input #390, mp3, from 'C:\t\xno4lpahf\subtitle_391.mp3':
+  Duration: 00:00:03.34, start: 0.000000, bitrate: 48 kb/s
+  Stream #390:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#391/mp3 @ 0000024236e91680] Estimating duration from bitrate, this may be inaccurate
+Input #391, mp3, from 'C:\t\xno4lpahf\subtitle_392.mp3':
+  Duration: 00:00:02.26, start: 0.000000, bitrate: 48 kb/s
+  Stream #391:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#392/mp3 @ 0000024236e91940] Estimating duration from bitrate, this may be inaccurate
+Input #392, mp3, from 'C:\t\xno4lpahf\subtitle_393.mp3':
+  Duration: 00:00:02.38, start: 0.000000, bitrate: 48 kb/s
+  Stream #392:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#393/mp3 @ 0000024236e91e80] Estimating duration from bitrate, this may be inaccurate
+Input #393, mp3, from 'C:\t\xno4lpahf\subtitle_394.mp3':
+  Duration: 00:00:02.33, start: 0.000000, bitrate: 48 kb/s
+  Stream #393:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#394/mp3 @ 0000024236e91bc0] Estimating duration from bitrate, this may be inaccurate
+Input #394, mp3, from 'C:\t\xno4lpahf\subtitle_395.mp3':
+  Duration: 00:00:03.17, start: 0.000000, bitrate: 48 kb/s
+  Stream #394:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#395/mp3 @ 00000242374cbac0] Estimating duration from bitrate, this may be inaccurate
+Input #395, mp3, from 'C:\t\xno4lpahf\subtitle_396.mp3':
+  Duration: 00:00:03.94, start: 0.000000, bitrate: 48 kb/s
+  Stream #395:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#396/mp3 @ 00000242374cc040] Estimating duration from bitrate, this may be inaccurate
+Input #396, mp3, from 'C:\t\xno4lpahf\subtitle_397.mp3':
+  Duration: 00:00:01.97, start: 0.000000, bitrate: 48 kb/s
+  Stream #396:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#397/mp3 @ 00000242374c4740] Estimating duration from bitrate, this may be inaccurate
+Input #397, mp3, from 'C:\t\xno4lpahf\subtitle_398.mp3':
+  Duration: 00:00:02.21, start: 0.000000, bitrate: 48 kb/s
+  Stream #397:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#398/mp3 @ 00000242374c7500] Estimating duration from bitrate, this may be inaccurate
+Input #398, mp3, from 'C:\t\xno4lpahf\subtitle_399.mp3':
+  Duration: 00:00:03.14, start: 0.000000, bitrate: 48 kb/s
+  Stream #398:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#399/mp3 @ 00000242374c9280] Estimating duration from bitrate, this may be inaccurate
+Input #399, mp3, from 'C:\t\xno4lpahf\subtitle_400.mp3':
+  Duration: 00:00:01.78, start: 0.000000, bitrate: 48 kb/s
+  Stream #399:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#400/mp3 @ 00000242374c4a00] Estimating duration from bitrate, this may be inaccurate
+Input #400, mp3, from 'C:\t\xno4lpahf\subtitle_401.mp3':
+  Duration: 00:00:03.74, start: 0.000000, bitrate: 48 kb/s
+  Stream #400:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#401/mp3 @ 00000242374ca280] Estimating duration from bitrate, this may be inaccurate
+Input #401, mp3, from 'C:\t\xno4lpahf\subtitle_402.mp3':
+  Duration: 00:00:01.85, start: 0.000000, bitrate: 48 kb/s
+  Stream #401:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#402/mp3 @ 00000242374c4c80] Estimating duration from bitrate, this may be inaccurate
+Input #402, mp3, from 'C:\t\xno4lpahf\subtitle_403.mp3':
+  Duration: 00:00:02.88, start: 0.000000, bitrate: 48 kb/s
+  Stream #402:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#403/mp3 @ 00000242374c5f80] Estimating duration from bitrate, this may be inaccurate
+Input #403, mp3, from 'C:\t\xno4lpahf\subtitle_404.mp3':
+  Duration: 00:00:02.74, start: 0.000000, bitrate: 48 kb/s
+  Stream #403:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#404/mp3 @ 00000242374c7240] Estimating duration from bitrate, this may be inaccurate
+Input #404, mp3, from 'C:\t\xno4lpahf\subtitle_405.mp3':
+  Duration: 00:00:01.94, start: 0.000000, bitrate: 48 kb/s
+  Stream #404:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#405/mp3 @ 00000242374c7d00] Estimating duration from bitrate, this may be inaccurate
+Input #405, mp3, from 'C:\t\xno4lpahf\subtitle_406.mp3':
+  Duration: 00:00:01.78, start: 0.000000, bitrate: 48 kb/s
+  Stream #405:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#406/mp3 @ 00000242374ca800] Estimating duration from bitrate, this may be inaccurate
+Input #406, mp3, from 'C:\t\xno4lpahf\subtitle_407.mp3':
+  Duration: 00:00:02.64, start: 0.000000, bitrate: 48 kb/s
+  Stream #406:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#407/mp3 @ 00000242374c7780] Estimating duration from bitrate, this may be inaccurate
+Input #407, mp3, from 'C:\t\xno4lpahf\subtitle_408.mp3':
+  Duration: 00:00:02.40, start: 0.000000, bitrate: 48 kb/s
+  Stream #407:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#408/mp3 @ 00000242374c4f40] Estimating duration from bitrate, this may be inaccurate
+Input #408, mp3, from 'C:\t\xno4lpahf\subtitle_409.mp3':
+  Duration: 00:00:02.42, start: 0.000000, bitrate: 48 kb/s
+  Stream #408:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#409/mp3 @ 00000242374c5200] Estimating duration from bitrate, this may be inaccurate
+Input #409, mp3, from 'C:\t\xno4lpahf\subtitle_410.mp3':
+  Duration: 00:00:01.58, start: 0.000000, bitrate: 48 kb/s
+  Stream #409:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#410/mp3 @ 00000242374c41c0] Estimating duration from bitrate, this may be inaccurate
+Input #410, mp3, from 'C:\t\xno4lpahf\subtitle_411.mp3':
+  Duration: 00:00:03.24, start: 0.000000, bitrate: 48 kb/s
+  Stream #410:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#411/mp3 @ 00000242374c7a40] Estimating duration from bitrate, this may be inaccurate
+Input #411, mp3, from 'C:\t\xno4lpahf\subtitle_412.mp3':
+  Duration: 00:00:01.78, start: 0.000000, bitrate: 48 kb/s
+  Stream #411:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#412/mp3 @ 00000242374c54c0] Estimating duration from bitrate, this may be inaccurate
+Input #412, mp3, from 'C:\t\xno4lpahf\subtitle_413.mp3':
+  Duration: 00:00:02.81, start: 0.000000, bitrate: 48 kb/s
+  Stream #412:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#413/mp3 @ 00000242374c8500] Estimating duration from bitrate, this may be inaccurate
+Input #413, mp3, from 'C:\t\xno4lpahf\subtitle_414.mp3':
+  Duration: 00:00:03.34, start: 0.000000, bitrate: 48 kb/s
+  Stream #413:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#414/mp3 @ 00000242374ca000] Estimating duration from bitrate, this may be inaccurate
+Input #414, mp3, from 'C:\t\xno4lpahf\subtitle_415.mp3':
+  Duration: 00:00:02.66, start: 0.000000, bitrate: 48 kb/s
+  Stream #414:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#415/mp3 @ 00000242374cc2c0] Estimating duration from bitrate, this may be inaccurate
+Input #415, mp3, from 'C:\t\xno4lpahf\subtitle_416.mp3':
+  Duration: 00:00:03.38, start: 0.000000, bitrate: 48 kb/s
+  Stream #415:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#416/mp3 @ 00000242374ca540] Estimating duration from bitrate, this may be inaccurate
+Input #416, mp3, from 'C:\t\xno4lpahf\subtitle_417.mp3':
+  Duration: 00:00:01.46, start: 0.000000, bitrate: 48 kb/s
+  Stream #416:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#417/mp3 @ 00000242374c7fc0] Estimating duration from bitrate, this may be inaccurate
+Input #417, mp3, from 'C:\t\xno4lpahf\subtitle_418.mp3':
+  Duration: 00:00:02.14, start: 0.000000, bitrate: 48 kb/s
+  Stream #417:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#418/mp3 @ 00000242374c4480] Estimating duration from bitrate, this may be inaccurate
+Input #418, mp3, from 'C:\t\xno4lpahf\subtitle_419.mp3':
+  Duration: 00:00:03.19, start: 0.000000, bitrate: 48 kb/s
+  Stream #418:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#419/mp3 @ 00000242374cd040] Estimating duration from bitrate, this may be inaccurate
+Input #419, mp3, from 'C:\t\xno4lpahf\subtitle_420.mp3':
+  Duration: 00:00:02.59, start: 0.000000, bitrate: 48 kb/s
+  Stream #419:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#420/mp3 @ 00000242374c6cc0] Estimating duration from bitrate, this may be inaccurate
+Input #420, mp3, from 'C:\t\xno4lpahf\subtitle_421.mp3':
+  Duration: 00:00:02.50, start: 0.000000, bitrate: 48 kb/s
+  Stream #420:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#421/mp3 @ 00000242374cc580] Estimating duration from bitrate, this may be inaccurate
+Input #421, mp3, from 'C:\t\xno4lpahf\subtitle_422.mp3':
+  Duration: 00:00:02.47, start: 0.000000, bitrate: 48 kb/s
+  Stream #421:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#422/mp3 @ 00000242374caac0] Estimating duration from bitrate, this may be inaccurate
+Input #422, mp3, from 'C:\t\xno4lpahf\subtitle_423.mp3':
+  Duration: 00:00:01.78, start: 0.000000, bitrate: 48 kb/s
+  Stream #422:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#423/mp3 @ 00000242374cad40] Estimating duration from bitrate, this may be inaccurate
+Input #423, mp3, from 'C:\t\xno4lpahf\subtitle_424.mp3':
+  Duration: 00:00:02.81, start: 0.000000, bitrate: 48 kb/s
+  Stream #423:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#424/mp3 @ 00000242374cb800] Estimating duration from bitrate, this may be inaccurate
+Input #424, mp3, from 'C:\t\xno4lpahf\subtitle_425.mp3':
+  Duration: 00:00:01.78, start: 0.000000, bitrate: 48 kb/s
+  Stream #424:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#425/mp3 @ 00000242374cb000] Estimating duration from bitrate, this may be inaccurate
+Input #425, mp3, from 'C:\t\xno4lpahf\subtitle_426.mp3':
+  Duration: 00:00:03.02, start: 0.000000, bitrate: 48 kb/s
+  Stream #425:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#426/mp3 @ 00000242374c8fc0] Estimating duration from bitrate, this may be inaccurate
+Input #426, mp3, from 'C:\t\xno4lpahf\subtitle_427.mp3':
+  Duration: 00:00:02.40, start: 0.000000, bitrate: 48 kb/s
+  Stream #426:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#427/mp3 @ 00000242374c5a00] Estimating duration from bitrate, this may be inaccurate
+Input #427, mp3, from 'C:\t\xno4lpahf\subtitle_428.mp3':
+  Duration: 00:00:03.29, start: 0.000000, bitrate: 48 kb/s
+  Stream #427:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#428/mp3 @ 00000242374cd5c0] Estimating duration from bitrate, this may be inaccurate
+Input #428, mp3, from 'C:\t\xno4lpahf\subtitle_429.mp3':
+  Duration: 00:00:01.94, start: 0.000000, bitrate: 48 kb/s
+  Stream #428:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#429/mp3 @ 00000242374ccd80] Estimating duration from bitrate, this may be inaccurate
+Input #429, mp3, from 'C:\t\xno4lpahf\subtitle_430.mp3':
+  Duration: 00:00:01.80, start: 0.000000, bitrate: 48 kb/s
+  Stream #429:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#430/mp3 @ 00000242374cbd80] Estimating duration from bitrate, this may be inaccurate
+Input #430, mp3, from 'C:\t\xno4lpahf\subtitle_431.mp3':
+  Duration: 00:00:01.87, start: 0.000000, bitrate: 48 kb/s
+  Stream #430:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#431/mp3 @ 00000242374c8240] Estimating duration from bitrate, this may be inaccurate
+Input #431, mp3, from 'C:\t\xno4lpahf\subtitle_432.mp3':
+  Duration: 00:00:03.17, start: 0.000000, bitrate: 48 kb/s
+  Stream #431:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#432/mp3 @ 00000242374c8a80] Estimating duration from bitrate, this may be inaccurate
+Input #432, mp3, from 'C:\t\xno4lpahf\subtitle_433.mp3':
+  Duration: 00:00:03.02, start: 0.000000, bitrate: 48 kb/s
+  Stream #432:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#433/mp3 @ 00000242374c87c0] Estimating duration from bitrate, this may be inaccurate
+Input #433, mp3, from 'C:\t\xno4lpahf\subtitle_434.mp3':
+  Duration: 00:00:02.45, start: 0.000000, bitrate: 48 kb/s
+  Stream #433:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#434/mp3 @ 00000242374c8d00] Estimating duration from bitrate, this may be inaccurate
+Input #434, mp3, from 'C:\t\xno4lpahf\subtitle_435.mp3':
+  Duration: 00:00:01.92, start: 0.000000, bitrate: 48 kb/s
+  Stream #434:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#435/mp3 @ 00000242374cb2c0] Estimating duration from bitrate, this may be inaccurate
+Input #435, mp3, from 'C:\t\xno4lpahf\subtitle_436.mp3':
+  Duration: 00:00:02.09, start: 0.000000, bitrate: 48 kb/s
+  Stream #435:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#436/mp3 @ 00000242374cc840] Estimating duration from bitrate, this may be inaccurate
+Input #436, mp3, from 'C:\t\xno4lpahf\subtitle_437.mp3':
+  Duration: 00:00:02.69, start: 0.000000, bitrate: 48 kb/s
+  Stream #436:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#437/mp3 @ 00000242374c9a80] Estimating duration from bitrate, this may be inaccurate
+Input #437, mp3, from 'C:\t\xno4lpahf\subtitle_438.mp3':
+  Duration: 00:00:03.96, start: 0.000000, bitrate: 48 kb/s
+  Stream #437:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#438/mp3 @ 00000242374c6200] Estimating duration from bitrate, this may be inaccurate
+Input #438, mp3, from 'C:\t\xno4lpahf\subtitle_439.mp3':
+  Duration: 00:00:03.41, start: 0.000000, bitrate: 48 kb/s
+  Stream #438:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#439/mp3 @ 00000242374cb580] Estimating duration from bitrate, this may be inaccurate
+Input #439, mp3, from 'C:\t\xno4lpahf\subtitle_440.mp3':
+  Duration: 00:00:02.76, start: 0.000000, bitrate: 48 kb/s
+  Stream #439:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+Stream mapping:
+  Stream #0:0 (mp3float) -> adelay:default
+  Stream #1:0 (mp3float) -> adelay:default
+  Stream #2:0 (mp3float) -> adelay:default
+  Stream #3:0 (mp3float) -> adelay:default
+  Stream #4:0 (mp3float) -> adelay:default
+  Stream #5:0 (mp3float) -> adelay:default
+  Stream #6:0 (mp3float) -> adelay:default
+  Stream #7:0 (mp3float) -> adelay:default
+  Stream #8:0 (mp3float) -> adelay:default
+  Stream #9:0 (mp3float) -> adelay:default
+  Stream #10:0 (mp3float) -> adelay:default
+  Stream #11:0 (mp3float) -> adelay:default
+  Stream #12:0 (mp3float) -> adelay:default
+  Stream #13:0 (mp3float) -> adelay:default
+  Stream #14:0 (mp3float) -> adelay:default
+  Stream #15:0 (mp3float) -> adelay:default
+  Stream #16:0 (mp3float) -> adelay:default
+  Stream #17:0 (mp3float) -> adelay:default
+  Stream #18:0 (mp3float) -> adelay:default
+  Stream #19:0 (mp3float) -> adelay:default
+  Stream #20:0 (mp3float) -> adelay:default
+  Stream #21:0 (mp3float) -> adelay:default
+  Stream #22:0 (mp3float) -> adelay:default
+  Stream #23:0 (mp3float) -> adelay:default
+  Stream #24:0 (mp3float) -> adelay:default
+  Stream #25:0 (mp3float) -> adelay:default
+  Stream #26:0 (mp3float) -> adelay:default
+  Stream #27:0 (mp3float) -> adelay:default
+  Stream #28:0 (mp3float) -> adelay:default
+  Stream #29:0 (mp3float) -> adelay:default
+  Stream #30:0 (mp3float) -> adelay:default
+  Stream #31:0 (mp3float) -> adelay:default
+  Stream #32:0 (mp3float) -> adelay:default
+  Stream #33:0 (mp3float) -> adelay:default
+  Stream #34:0 (mp3float) -> adelay:default
+  Stream #35:0 (mp3float) -> adelay:default
+  Stream #36:0 (mp3float) -> adelay:default
+  Stream #37:0 (mp3float) -> adelay:default
+  Stream #38:0 (mp3float) -> adelay:default
+  Stream #39:0 (mp3float) -> adelay:default
+  Stream #40:0 (mp3float) -> adelay:default
+  Stream #41:0 (mp3float) -> adelay:default
+  Stream #42:0 (mp3float) -> adelay:default
+  Stream #43:0 (mp3float) -> adelay:default
+  Stream #44:0 (mp3float) -> adelay:default
+  Stream #45:0 (mp3float) -> adelay:default
+  Stream #46:0 (mp3float) -> adelay:default
+  Stream #47:0 (mp3float) -> adelay:default
+  Stream #48:0 (mp3float) -> adelay:default
+  Stream #49:0 (mp3float) -> adelay:default
+  Stream #50:0 (mp3float) -> adelay:default
+  Stream #51:0 (mp3float) -> adelay:default
+  Stream #52:0 (mp3float) -> adelay:default
+  Stream #53:0 (mp3float) -> adelay:default
+  Stream #54:0 (mp3float) -> adelay:default
+  Stream #55:0 (mp3float) -> adelay:default
+  Stream #56:0 (mp3float) -> adelay:default
+  Stream #57:0 (mp3float) -> adelay:default
+  Stream #58:0 (mp3float) -> adelay:default
+  Stream #59:0 (mp3float) -> adelay:default
+  Stream #60:0 (mp3float) -> adelay:default
+  Stream #61:0 (mp3float) -> adelay:default
+  Stream #62:0 (mp3float) -> adelay:default
+  Stream #63:0 (mp3float) -> adelay:default
+  Stream #64:0 (mp3float) -> adelay:default
+  Stream #65:0 (mp3float) -> adelay:default
+  Stream #66:0 (mp3float) -> adelay:default
+  Stream #67:0 (mp3float) -> adelay:default
+  Stream #68:0 (mp3float) -> adelay:default
+  Stream #69:0 (mp3float) -> adelay:default
+  Stream #70:0 (mp3float) -> adelay:default
+  Stream #71:0 (mp3float) -> adelay:default
+  Stream #72:0 (mp3float) -> adelay:default
+  Stream #73:0 (mp3float) -> adelay:default
+  Stream #74:0 (mp3float) -> adelay:default
+  Stream #75:0 (mp3float) -> adelay:default
+  Stream #76:0 (mp3float) -> adelay:default
+  Stream #77:0 (mp3float) -> adelay:default
+  Stream #78:0 (mp3float) -> adelay:default
+  Stream #79:0 (mp3float) -> adelay:default
+  Stream #80:0 (mp3float) -> adelay:default
+  Stream #81:0 (mp3float) -> adelay:default
+  Stream #82:0 (mp3float) -> adelay:default
+  Stream #83:0 (mp3float) -> adelay:default
+  Stream #84:0 (mp3float) -> adelay:default
+  Stream #85:0 (mp3float) -> adelay:default
+  Stream #86:0 (mp3float) -> adelay:default
+  Stream #87:0 (mp3float) -> adelay:default
+  Stream #88:0 (mp3float) -> adelay:default
+  Stream #89:0 (mp3float) -> adelay:default
+  Stream #90:0 (mp3float) -> adelay:default
+  Stream #91:0 (mp3float) -> adelay:default
+  Stream #92:0 (mp3float) -> adelay:default
+  Stream #93:0 (mp3float) -> adelay:default
+  Stream #94:0 (mp3float) -> adelay:default
+  Stream #95:0 (mp3float) -> adelay:default
+  Stream #96:0 (mp3float) -> adelay:default
+  Stream #97:0 (mp3float) -> adelay:default
+  Stream #98:0 (mp3float) -> adelay:default
+  Stream #99:0 (mp3float) -> adelay:default
+  Stream #100:0 (mp3float) -> adelay:default
+  Stream #101:0 (mp3float) -> adelay:default
+  Stream #102:0 (mp3float) -> adelay:default
+  Stream #103:0 (mp3float) -> adelay:default
+  Stream #104:0 (mp3float) -> adelay:default
+  Stream #105:0 (mp3float) -> adelay:default
+  Stream #106:0 (mp3float) -> adelay:default
+  Stream #107:0 (mp3float) -> adelay:default
+  Stream #108:0 (mp3float) -> adelay:default
+  Stream #109:0 (mp3float) -> adelay:default
+  Stream #110:0 (mp3float) -> adelay:default
+  Stream #111:0 (mp3float) -> adelay:default
+  Stream #112:0 (mp3float) -> adelay:default
+  Stream #113:0 (mp3float) -> adelay:default
+  Stream #114:0 (mp3float) -> adelay:default
+  Stream #115:0 (mp3float) -> adelay:default
+  Stream #116:0 (mp3float) -> adelay:default
+  Stream #117:0 (mp3float) -> adelay:default
+  Stream #118:0 (mp3float) -> adelay:default
+  Stream #119:0 (mp3float) -> adelay:default
+  Stream #120:0 (mp3float) -> adelay:default
+  Stream #121:0 (mp3float) -> adelay:default
+  Stream #122:0 (mp3float) -> adelay:default
+  Stream #123:0 (mp3float) -> adelay:default
+  Stream #124:0 (mp3float) -> adelay:default
+  Stream #125:0 (mp3float) -> adelay:default
+  Stream #126:0 (mp3float) -> adelay:default
+  Stream #127:0 (mp3float) -> adelay:default
+  Stream #128:0 (mp3float) -> adelay:default
+  Stream #129:0 (mp3float) -> adelay:default
+  Stream #130:0 (mp3float) -> adelay:default
+  Stream #131:0 (mp3float) -> adelay:default
+  Stream #132:0 (mp3float) -> adelay:default
+  Stream #133:0 (mp3float) -> adelay:default
+  Stream #134:0 (mp3float) -> adelay:default
+  Stream #135:0 (mp3float) -> adelay:default
+  Stream #136:0 (mp3float) -> adelay:default
+  Stream #137:0 (mp3float) -> adelay:default
+  Stream #138:0 (mp3float) -> adelay:default
+  Stream #139:0 (mp3float) -> adelay:default
+  Stream #140:0 (mp3float) -> adelay:default
+  Stream #141:0 (mp3float) -> adelay:default
+  Stream #142:0 (mp3float) -> adelay:default
+  Stream #143:0 (mp3float) -> adelay:default
+  Stream #144:0 (mp3float) -> adelay:default
+  Stream #145:0 (mp3float) -> adelay:default
+  Stream #146:0 (mp3float) -> adelay:default
+  Stream #147:0 (mp3float) -> adelay:default
+  Stream #148:0 (mp3float) -> adelay:default
+  Stream #149:0 (mp3float) -> adelay:default
+  Stream #150:0 (mp3float) -> adelay:default
+  Stream #151:0 (mp3float) -> adelay:default
+  Stream #152:0 (mp3float) -> adelay:default
+  Stream #153:0 (mp3float) -> adelay:default
+  Stream #154:0 (mp3float) -> adelay:default
+  Stream #155:0 (mp3float) -> adelay:default
+  Stream #156:0 (mp3float) -> adelay:default
+  Stream #157:0 (mp3float) -> adelay:default
+  Stream #158:0 (mp3float) -> adelay:default
+  Stream #159:0 (mp3float) -> adelay:default
+  Stream #160:0 (mp3float) -> adelay:default
+  Stream #161:0 (mp3float) -> adelay:default
+  Stream #162:0 (mp3float) -> adelay:default
+  Stream #163:0 (mp3float) -> adelay:default
+  Stream #164:0 (mp3float) -> adelay:default
+  Stream #165:0 (mp3float) -> adelay:default
+  Stream #166:0 (mp3float) -> adelay:default
+  Stream #167:0 (mp3float) -> adelay:default
+  Stream #168:0 (mp3float) -> adelay:default
+  Stream #169:0 (mp3float) -> adelay:default
+  Stream #170:0 (mp3float) -> adelay:default
+  Stream #171:0 (mp3float) -> adelay:default
+  Stream #172:0 (mp3float) -> adelay:default
+  Stream #173:0 (mp3float) -> adelay:default
+  Stream #174:0 (mp3float) -> adelay:default
+  Stream #175:0 (mp3float) -> adelay:default
+  Stream #176:0 (mp3float) -> adelay:default
+  Stream #177:0 (mp3float) -> adelay:default
+  Stream #178:0 (mp3float) -> adelay:default
+  Stream #179:0 (mp3float) -> adelay:default
+  Stream #180:0 (mp3float) -> adelay:default
+  Stream #181:0 (mp3float) -> adelay:default
+  Stream #182:0 (mp3float) -> adelay:default
+  Stream #183:0 (mp3float) -> adelay:default
+  Stream #184:0 (mp3float) -> adelay:default
+  Stream #185:0 (mp3float) -> adelay:default
+  Stream #186:0 (mp3float) -> adelay:default
+  Stream #187:0 (mp3float) -> adelay:default
+  Stream #188:0 (mp3float) -> adelay:default
+  Stream #189:0 (mp3float) -> adelay:default
+  Stream #190:0 (mp3float) -> adelay:default
+  Stream #191:0 (mp3float) -> adelay:default
+  Stream #192:0 (mp3float) -> adelay:default
+  Stream #193:0 (mp3float) -> adelay:default
+  Stream #194:0 (mp3float) -> adelay:default
+  Stream #195:0 (mp3float) -> adelay:default
+  Stream #196:0 (mp3float) -> adelay:default
+  Stream #197:0 (mp3float) -> adelay:default
+  Stream #198:0 (mp3float) -> adelay:default
+  Stream #199:0 (mp3float) -> adelay:default
+  Stream #200:0 (mp3float) -> adelay:default
+  Stream #201:0 (mp3float) -> adelay:default
+  Stream #202:0 (mp3float) -> adelay:default
+  Stream #203:0 (mp3float) -> adelay:default
+  Stream #204:0 (mp3float) -> adelay:default
+  Stream #205:0 (mp3float) -> adelay:default
+  Stream #206:0 (mp3float) -> adelay:default
+  Stream #207:0 (mp3float) -> adelay:default
+  Stream #208:0 (mp3float) -> adelay:default
+  Stream #209:0 (mp3float) -> adelay:default
+  Stream #210:0 (mp3float) -> adelay:default
+  Stream #211:0 (mp3float) -> adelay:default
+  Stream #212:0 (mp3float) -> adelay:default
+  Stream #213:0 (mp3float) -> adelay:default
+  Stream #214:0 (mp3float) -> adelay:default
+  Stream #215:0 (mp3float) -> adelay:default
+  Stream #216:0 (mp3float) -> adelay:default
+  Stream #217:0 (mp3float) -> adelay:default
+  Stream #218:0 (mp3float) -> adelay:default
+  Stream #219:0 (mp3float) -> adelay:default
+  Stream #220:0 (mp3float) -> adelay:default
+  Stream #221:0 (mp3float) -> adelay:default
+  Stream #222:0 (mp3float) -> adelay:default
+  Stream #223:0 (mp3float) -> adelay:default
+  Stream #224:0 (mp3float) -> adelay:default
+  Stream #225:0 (mp3float) -> adelay:default
+  Stream #226:0 (mp3float) -> adelay:default
+  Stream #227:0 (mp3float) -> adelay:default
+  Stream #228:0 (mp3float) -> adelay:default
+  Stream #229:0 (mp3float) -> adelay:default
+  Stream #230:0 (mp3float) -> adelay:default
+  Stream #231:0 (mp3float) -> adelay:default
+  Stream #232:0 (mp3float) -> adelay:default
+  Stream #233:0 (mp3float) -> adelay:default
+  Stream #234:0 (mp3float) -> adelay:default
+  Stream #235:0 (mp3float) -> adelay:default
+  Stream #236:0 (mp3float) -> adelay:default
+  Stream #237:0 (mp3float) -> adelay:default
+  Stream #238:0 (mp3float) -> adelay:default
+  Stream #239:0 (mp3float) -> adelay:default
+  Stream #240:0 (mp3float) -> adelay:default
+  Stream #241:0 (mp3float) -> adelay:default
+  Stream #242:0 (mp3float) -> adelay:default
+  Stream #243:0 (mp3float) -> adelay:default
+  Stream #244:0 (mp3float) -> adelay:default
+  Stream #245:0 (mp3float) -> adelay:default
+  Stream #246:0 (mp3float) -> adelay:default
+  Stream #247:0 (mp3float) -> adelay:default
+  Stream #248:0 (mp3float) -> adelay:default
+  Stream #249:0 (mp3float) -> adelay:default
+  Stream #250:0 (mp3float) -> adelay:default
+  Stream #251:0 (mp3float) -> adelay:default
+  Stream #252:0 (mp3float) -> adelay:default
+  Stream #253:0 (mp3float) -> adelay:default
+  Stream #254:0 (mp3float) -> adelay:default
+  Stream #255:0 (mp3float) -> adelay:default
+  Stream #256:0 (mp3float) -> adelay:default
+  Stream #257:0 (mp3float) -> adelay:default
+  Stream #258:0 (mp3float) -> adelay:default
+  Stream #259:0 (mp3float) -> adelay:default
+  Stream #260:0 (mp3float) -> adelay:default
+  Stream #261:0 (mp3float) -> adelay:default
+  Stream #262:0 (mp3float) -> adelay:default
+  Stream #263:0 (mp3float) -> adelay:default
+  Stream #264:0 (mp3float) -> adelay:default
+  Stream #265:0 (mp3float) -> adelay:default
+  Stream #266:0 (mp3float) -> adelay:default
+  Stream #267:0 (mp3float) -> adelay:default
+  Stream #268:0 (mp3float) -> adelay:default
+  Stream #269:0 (mp3float) -> adelay:default
+  Stream #270:0 (mp3float) -> adelay:default
+  Stream #271:0 (mp3float) -> adelay:default
+  Stream #272:0 (mp3float) -> adelay:default
+  Stream #273:0 (mp3float) -> adelay:default
+  Stream #274:0 (mp3float) -> adelay:default
+  Stream #275:0 (mp3float) -> adelay:default
+  Stream #276:0 (mp3float) -> adelay:default
+  Stream #277:0 (mp3float) -> adelay:default
+  Stream #278:0 (mp3float) -> adelay:default
+  Stream #279:0 (mp3float) -> adelay:default
+  Stream #280:0 (mp3float) -> adelay:default
+  Stream #281:0 (mp3float) -> adelay:default
+  Stream #282:0 (mp3float) -> adelay:default
+  Stream #283:0 (mp3float) -> adelay:default
+  Stream #284:0 (mp3float) -> adelay:default
+  Stream #285:0 (mp3float) -> adelay:default
+  Stream #286:0 (mp3float) -> adelay:default
+  Stream #287:0 (mp3float) -> adelay:default
+  Stream #288:0 (mp3float) -> adelay:default
+  Stream #289:0 (mp3float) -> adelay:default
+  Stream #290:0 (mp3float) -> adelay:default
+  Stream #291:0 (mp3float) -> adelay:default
+  Stream #292:0 (mp3float) -> adelay:default
+  Stream #293:0 (mp3float) -> adelay:default
+  Stream #294:0 (mp3float) -> adelay:default
+  Stream #295:0 (mp3float) -> adelay:default
+  Stream #296:0 (mp3float) -> adelay:default
+  Stream #297:0 (mp3float) -> adelay:default
+  Stream #298:0 (mp3float) -> adelay:default
+  Stream #299:0 (mp3float) -> adelay:default
+  Stream #300:0 (mp3float) -> adelay:default
+  Stream #301:0 (mp3float) -> adelay:default
+  Stream #302:0 (mp3float) -> adelay:default
+  Stream #303:0 (mp3float) -> adelay:default
+  Stream #304:0 (mp3float) -> adelay:default
+  Stream #305:0 (mp3float) -> adelay:default
+  Stream #306:0 (mp3float) -> adelay:default
+  Stream #307:0 (mp3float) -> adelay:default
+  Stream #308:0 (mp3float) -> adelay:default
+  Stream #309:0 (mp3float) -> adelay:default
+  Stream #310:0 (mp3float) -> adelay:default
+  Stream #311:0 (mp3float) -> adelay:default
+  Stream #312:0 (mp3float) -> adelay:default
+  Stream #313:0 (mp3float) -> adelay:default
+  Stream #314:0 (mp3float) -> adelay:default
+  Stream #315:0 (mp3float) -> adelay:default
+  Stream #316:0 (mp3float) -> adelay:default
+  Stream #317:0 (mp3float) -> adelay:default
+  Stream #318:0 (mp3float) -> adelay:default
+  Stream #319:0 (mp3float) -> adelay:default
+  Stream #320:0 (mp3float) -> adelay:default
+  Stream #321:0 (mp3float) -> adelay:default
+  Stream #322:0 (mp3float) -> adelay:default
+  Stream #323:0 (mp3float) -> adelay:default
+  Stream #324:0 (mp3float) -> adelay:default
+  Stream #325:0 (mp3float) -> adelay:default
+  Stream #326:0 (mp3float) -> adelay:default
+  Stream #327:0 (mp3float) -> adelay:default
+  Stream #328:0 (mp3float) -> adelay:default
+  Stream #329:0 (mp3float) -> adelay:default
+  Stream #330:0 (mp3float) -> adelay:default
+  Stream #331:0 (mp3float) -> adelay:default
+  Stream #332:0 (mp3float) -> adelay:default
+  Stream #333:0 (mp3float) -> adelay:default
+  Stream #334:0 (mp3float) -> adelay:default
+  Stream #335:0 (mp3float) -> adelay:default
+  Stream #336:0 (mp3float) -> adelay:default
+  Stream #337:0 (mp3float) -> adelay:default
+  Stream #338:0 (mp3float) -> adelay:default
+  Stream #339:0 (mp3float) -> adelay:default
+  Stream #340:0 (mp3float) -> adelay:default
+  Stream #341:0 (mp3float) -> adelay:default
+  Stream #342:0 (mp3float) -> adelay:default
+  Stream #343:0 (mp3float) -> adelay:default
+  Stream #344:0 (mp3float) -> adelay:default
+  Stream #345:0 (mp3float) -> adelay:default
+  Stream #346:0 (mp3float) -> adelay:default
+  Stream #347:0 (mp3float) -> adelay:default
+  Stream #348:0 (mp3float) -> adelay:default
+  Stream #349:0 (mp3float) -> adelay:default
+  Stream #350:0 (mp3float) -> adelay:default
+  Stream #351:0 (mp3float) -> adelay:default
+  Stream #352:0 (mp3float) -> adelay:default
+  Stream #353:0 (mp3float) -> adelay:default
+  Stream #354:0 (mp3float) -> adelay:default
+  Stream #355:0 (mp3float) -> adelay:default
+  Stream #356:0 (mp3float) -> adelay:default
+  Stream #357:0 (mp3float) -> adelay:default
+  Stream #358:0 (mp3float) -> adelay:default
+  Stream #359:0 (mp3float) -> adelay:default
+  Stream #360:0 (mp3float) -> adelay:default
+  Stream #361:0 (mp3float) -> adelay:default
+  Stream #362:0 (mp3float) -> adelay:default
+  Stream #363:0 (mp3float) -> adelay:default
+  Stream #364:0 (mp3float) -> adelay:default
+  Stream #365:0 (mp3float) -> adelay:default
+  Stream #366:0 (mp3float) -> adelay:default
+  Stream #367:0 (mp3float) -> adelay:default
+  Stream #368:0 (mp3float) -> adelay:default
+  Stream #369:0 (mp3float) -> adelay:default
+  Stream #370:0 (mp3float) -> adelay:default
+  Stream #371:0 (mp3float) -> adelay:default
+  Stream #372:0 (mp3float) -> adelay:default
+  Stream #373:0 (mp3float) -> adelay:default
+  Stream #374:0 (mp3float) -> adelay:default
+  Stream #375:0 (mp3float) -> adelay:default
+  Stream #376:0 (mp3float) -> adelay:default
+  Stream #377:0 (mp3float) -> adelay:default
+  Stream #378:0 (mp3float) -> adelay:default
+  Stream #379:0 (mp3float) -> adelay:default
+  Stream #380:0 (mp3float) -> adelay:default
+  Stream #381:0 (mp3float) -> adelay:default
+  Stream #382:0 (mp3float) -> adelay:default
+  Stream #383:0 (mp3float) -> adelay:default
+  Stream #384:0 (mp3float) -> adelay:default
+  Stream #385:0 (mp3float) -> adelay:default
+  Stream #386:0 (mp3float) -> adelay:default
+  Stream #387:0 (mp3float) -> adelay:default
+  Stream #388:0 (mp3float) -> adelay:default
+  Stream #389:0 (mp3float) -> adelay:default
+  Stream #390:0 (mp3float) -> adelay:default
+  Stream #391:0 (mp3float) -> adelay:default
+  Stream #392:0 (mp3float) -> adelay:default
+  Stream #393:0 (mp3float) -> adelay:default
+  Stream #394:0 (mp3float) -> adelay:default
+  Stream #395:0 (mp3float) -> adelay:default
+  Stream #396:0 (mp3float) -> adelay:default
+  Stream #397:0 (mp3float) -> adelay:default
+  Stream #398:0 (mp3float) -> adelay:default
+  Stream #399:0 (mp3float) -> adelay:default
+  Stream #400:0 (mp3float) -> adelay:default
+  Stream #401:0 (mp3float) -> adelay:default
+  Stream #402:0 (mp3float) -> adelay:default
+  Stream #403:0 (mp3float) -> adelay:default
+  Stream #404:0 (mp3float) -> adelay:default
+  Stream #405:0 (mp3float) -> adelay:default
+  Stream #406:0 (mp3float) -> adelay:default
+  Stream #407:0 (mp3float) -> adelay:default
+  Stream #408:0 (mp3float) -> adelay:default
+  Stream #409:0 (mp3float) -> adelay:default
+  Stream #410:0 (mp3float) -> adelay:default
+  Stream #411:0 (mp3float) -> adelay:default
+  Stream #412:0 (mp3float) -> adelay:default
+  Stream #413:0 (mp3float) -> adelay:default
+  Stream #414:0 (mp3float) -> adelay:default
+  Stream #415:0 (mp3float) -> adelay:default
+  Stream #416:0 (mp3float) -> adelay:default
+  Stream #417:0 (mp3float) -> adelay:default
+  Stream #418:0 (mp3float) -> adelay:default
+  Stream #419:0 (mp3float) -> adelay:default
+  Stream #420:0 (mp3float) -> adelay:default
+  Stream #421:0 (mp3float) -> adelay:default
+  Stream #422:0 (mp3float) -> adelay:default
+  Stream #423:0 (mp3float) -> adelay:default
+  Stream #424:0 (mp3float) -> adelay:default
+  Stream #425:0 (mp3float) -> adelay:default
+  Stream #426:0 (mp3float) -> adelay:default
+  Stream #427:0 (mp3float) -> adelay:default
+  Stream #428:0 (mp3float) -> adelay:default
+  Stream #429:0 (mp3float) -> adelay:default
+  Stream #430:0 (mp3float) -> adelay:default
+  Stream #431:0 (mp3float) -> adelay:default
+  Stream #432:0 (mp3float) -> adelay:default
+  Stream #433:0 (mp3float) -> adelay:default
+  Stream #434:0 (mp3float) -> adelay:default
+  Stream #435:0 (mp3float) -> adelay:default
+  Stream #436:0 (mp3float) -> adelay:default
+  Stream #437:0 (mp3float) -> adelay:default
+  Stream #438:0 (mp3float) -> adelay:default
+  Stream #439:0 (mp3float) -> adelay:default
+  apad:default -> Stream #0:0 (libmp3lame)
+Press [q] to stop, [?] for help
+Output #0, mp3, to 'G:\workspace\yinghe-shijie\outputs\audio\同样四个轮子，F1为啥能快这么多？_时间线01_中文字幕直读_Yunyang.mp3':
+  Metadata:
+    TSSE            : Lavf62.12.100
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 192 kb/s
+    Metadata:
+      encoder         : Lavc62.28.100 libmp3lame
+size=      75KiB time=00:00:03.16 bitrate= 193.6kbits/s speed=   6x elapsed=0:00:00.52    size=     176KiB time=00:00:07.49 bitrate= 192.7kbits/s speed=7.16x elapsed=0:00:01.04    size=     255KiB time=00:00:10.84 bitrate= 192.5kbits/s speed=6.91x elapsed=0:00:01.56    size=     256KiB time=00:00:14.34 bitrate= 146.2kbits/s speed=6.89x elapsed=0:00:02.08    size=     256KiB time=00:00:18.18 bitrate= 115.3kbits/s speed=6.99x elapsed=0:00:02.60    size=     256KiB time=00:00:21.08 bitrate=  99.5kbits/s speed=6.76x elapsed=0:00:03.12    size=     512KiB time=00:00:24.32 bitrate= 172.5kbits/s speed=6.68x elapsed=0:00:03.64    size=     512KiB time=00:00:27.22 bitrate= 154.1kbits/s speed=6.54x elapsed=0:00:04.16    size=     512KiB time=00:00:30.32 bitrate= 138.3kbits/s speed=6.48x elapsed=0:00:04.68    size=     768KiB time=00:00:33.62 bitrate= 187.1kbits/s speed=6.48x elapsed=0:00:05.18    size=     768KiB time=00:00:38.06 bitrate= 165.3kbits/s speed=6.67x elapsed=0:00:05.70    size=     768KiB time=00:00:41.56 bitrate= 151.4kbits/s speed=6.68x elapsed=0:00:06.22    size=    1024KiB time=00:00:43.93 bitrate= 190.9kbits/s speed=6.52x elapsed=0:00:06.74    size=    1024KiB time=00:00:47.51 bitrate= 176.5kbits/s speed=6.55x elapsed=0:00:07.24    size=    1024KiB time=00:00:50.41 bitrate= 166.4kbits/s speed=6.49x elapsed=0:00:07.76    size=    1024KiB time=00:00:54.02 bitrate= 155.3kbits/s speed=6.52x elapsed=0:00:08.28    size=    1280KiB time=00:00:57.65 bitrate= 181.9kbits/s speed=6.55x elapsed=0:00:08.80    size=    1280KiB time=00:01:01.25 bitrate= 171.2kbits/s speed=6.58x elapsed=0:00:09.31    size=    1280KiB time=00:01:05.07 bitrate= 161.1kbits/s speed=6.61x elapsed=0:00:09.83    size=    1536KiB time=00:01:08.85 bitrate= 182.7kbits/s speed=6.65x elapsed=0:00:10.35    size=    1536KiB time=00:01:12.28 bitrate= 174.1kbits/s speed=6.65x elapsed=0:00:10.87    size=    1536KiB time=00:01:16.27 bitrate= 165.0kbits/s speed=6.69x elapsed=0:00:11.39    size=    1792KiB time=00:01:19.96 bitrate= 183.6kbits/s speed=6.71x elapsed=0:00:11.91    size=    1792KiB time=00:01:23.88 bitrate= 175.0kbits/s speed=6.74x elapsed=0:00:12.43    size=    2048KiB time=00:01:29.78 bitrate= 186.9kbits/s speed=6.93x elapsed=0:00:12.96    size=    2048KiB time=00:01:33.25 bitrate= 179.9kbits/s speed=6.92x elapsed=0:00:13.48    size=    2048KiB time=00:01:36.75 bitrate= 173.4kbits/s speed=6.91x elapsed=0:00:14.00    size=    2304KiB time=00:01:39.65 bitrate= 189.4kbits/s speed=6.86x elapsed=0:00:14.52    size=    2304KiB time=00:01:43.41 bitrate= 182.5kbits/s speed=6.88x elapsed=0:00:15.04    size=    2304KiB time=00:01:46.65 bitrate= 177.0kbits/s speed=6.85x elapsed=0:00:15.57    size=    2560KiB time=00:01:51.77 bitrate= 187.6kbits/s speed=6.94x elapsed=0:00:16.09    size=    2560KiB time=00:01:54.67 bitrate= 182.9kbits/s speed= 6.9x elapsed=0:00:16.61    size=    2560KiB time=00:01:58.77 bitrate= 176.6kbits/s speed=6.93x elapsed=0:00:17.13    size=    2816KiB time=00:02:02.95 bitrate= 187.6kbits/s speed=6.97x elapsed=0:00:17.65    size=    2816KiB time=00:02:06.98 bitrate= 181.7kbits/s speed=6.99x elapsed=0:00:18.15    size=    2816KiB time=00:02:10.03 bitrate= 177.4kbits/s speed=6.96x elapsed=0:00:18.67    size=    3072KiB time=00:02:12.59 bitrate= 189.8kbits/s speed=6.91x elapsed=0:00:19.19    size=    3072KiB time=00:02:15.08 bitrate= 186.3kbits/s speed=6.85x elapsed=0:00:19.71    size=    3072KiB time=00:02:17.64 bitrate= 182.8kbits/s speed=6.81x elapsed=0:00:20.21    size=    3072KiB time=00:02:20.98 bitrate= 178.5kbits/s speed= 6.8x elapsed=0:00:20.73    size=    3328KiB time=00:02:25.99 bitrate= 186.7kbits/s speed=6.87x elapsed=0:00:21.25    size=    3328KiB time=00:02:29.65 bitrate= 182.2kbits/s speed=6.87x elapsed=0:00:21.77    size=    3584KiB time=00:02:34.43 bitrate= 190.1kbits/s speed=6.93x elapsed=0:00:22.27    size=    3584KiB time=00:02:37.59 bitrate= 186.3kbits/s speed=6.91x elapsed=0:00:22.80    size=    3584KiB time=00:02:41.01 bitrate= 182.3kbits/s speed= 6.9x elapsed=0:00:23.31    size=    3840KiB time=00:02:45.80 bitrate= 189.7kbits/s speed=6.96x elapsed=0:00:23.83    size=    3840KiB time=00:02:50.24 bitrate= 184.8kbits/s speed=6.99x elapsed=0:00:24.35    size=    3840KiB time=00:02:53.89 bitrate= 180.9kbits/s speed=6.99x elapsed=0:00:24.87    size=    4096KiB time=00:02:57.47 bitrate= 189.1kbits/s speed=6.98x elapsed=0:00:25.41    size=    4096KiB time=00:03:02.93 bitrate= 183.4kbits/s speed=7.05x elapsed=0:00:25.94    size=    4352KiB time=00:03:06.69 bitrate= 191.0kbits/s speed=7.06x elapsed=0:00:26.46    size=    4352KiB time=00:03:10.79 bitrate= 186.9kbits/s speed=7.07x elapsed=0:00:26.98    size=    4352KiB time=00:03:14.29 bitrate= 183.5kbits/s speed=7.06x elapsed=0:00:27.50    size=    4608KiB time=00:03:18.66 bitrate= 190.0kbits/s speed=7.09x elapsed=0:00:28.02    size=    4608KiB time=00:03:22.13 bitrate= 186.7kbits/s speed=7.08x elapsed=0:00:28.54    size=    4608KiB time=00:03:25.55 bitrate= 183.6kbits/s speed=7.08x elapsed=0:00:29.05    size=    4864KiB time=00:03:30.93 bitrate= 188.9kbits/s speed=7.13x elapsed=0:00:29.57    size=    4864KiB time=00:03:34.51 bitrate= 185.7kbits/s speed=7.13x elapsed=0:00:30.08    size=    4864KiB time=00:03:38.14 bitrate= 182.7kbits/s speed=7.13x elapsed=0:00:30.60    size=    5120KiB time=00:03:41.44 bitrate= 189.4kbits/s speed=7.11x elapsed=0:00:31.12    size=    5120KiB time=00:03:45.54 bitrate= 186.0kbits/s speed=7.13x elapsed=0:00:31.64    size=    5376KiB time=00:03:49.77 bitrate= 191.7kbits/s speed=7.14x elapsed=0:00:32.16    size=    5376KiB time=00:03:54.68 bitrate= 187.7kbits/s speed=7.18x elapsed=0:00:32.67    size=    5376KiB time=00:03:58.42 bitrate= 184.7kbits/s speed=7.18x elapsed=0:00:33.19    size=    5632KiB time=00:04:03.01 bitrate= 189.9kbits/s speed=7.21x elapsed=0:00:33.70    size=    5632KiB time=00:04:07.30 bitrate= 186.6kbits/s speed=7.23x elapsed=0:00:34.22    size=    5632KiB time=00:04:11.03 bitrate= 183.8kbits/s speed=7.23x elapsed=0:00:34.74    size=    5888KiB time=00:04:14.53 bitrate= 189.5kbits/s speed=7.22x elapsed=0:00:35.25    size=    5888KiB time=00:04:18.90 bitrate= 186.3kbits/s speed=7.24x elapsed=0:00:35.77    size=    6144KiB time=00:04:23.41 bitrate= 191.1kbits/s speed=7.26x elapsed=0:00:36.29    size=    6144KiB time=00:04:27.07 bitrate= 188.5kbits/s speed=7.25x elapsed=0:00:36.81    size=    6144KiB time=00:04:30.68 bitrate= 185.9kbits/s speed=7.25x elapsed=0:00:37.33    size=    6400KiB time=00:04:33.99 bitrate= 191.3kbits/s speed=7.24x elapsed=0:00:37.86    size=    6400KiB time=00:04:37.91 bitrate= 188.6kbits/s speed=7.24x elapsed=0:00:38.38    size=    6400KiB time=00:04:41.60 bitrate= 186.2kbits/s speed=7.24x elapsed=0:00:38.90    size=    6656KiB time=00:04:44.94 bitrate= 191.4kbits/s speed=7.23x elapsed=0:00:39.42    size=    6656KiB time=00:04:48.94 bitrate= 188.7kbits/s speed=7.23x elapsed=0:00:39.94    size=    6656KiB time=00:04:53.04 bitrate= 186.1kbits/s speed=7.24x elapsed=0:00:40.45    size=    6912KiB time=00:04:56.77 bitrate= 190.8kbits/s speed=7.24x elapsed=0:00:40.98    size=    6912KiB time=00:05:00.80 bitrate= 188.2kbits/s speed=7.25x elapsed=0:00:41.50    size=    6912KiB time=00:05:04.90 bitrate= 185.7kbits/s speed=7.26x elapsed=0:00:42.01    size=    7168KiB time=00:05:09.57 bitrate= 189.7kbits/s speed=7.28x elapsed=0:00:42.54    size=    7168KiB time=00:05:14.43 bitrate= 186.7kbits/s speed= 7.3x elapsed=0:00:43.06    size=    7424KiB time=00:05:19.06 bitrate= 190.6kbits/s speed=7.32x elapsed=0:00:43.58    size=    7424KiB time=00:05:22.90 bitrate= 188.3kbits/s speed=7.32x elapsed=0:00:44.09    size=    7424KiB time=00:05:27.41 bitrate= 185.7kbits/s speed=7.34x elapsed=0:00:44.61    size=    7680KiB time=00:05:31.52 bitrate= 189.8kbits/s speed=7.35x elapsed=0:00:45.13    size=    7680KiB time=00:05:35.77 bitrate= 187.4kbits/s speed=7.36x elapsed=0:00:45.65    size=    7936KiB time=00:05:39.69 bitrate= 191.4kbits/s speed=7.36x elapsed=0:00:46.17    size=    7936KiB time=00:05:44.39 bitrate= 188.8kbits/s speed=7.38x elapsed=0:00:46.68    size=    7936KiB time=00:05:48.50 bitrate= 186.5kbits/s speed=7.38x elapsed=0:00:47.20    size=    8192KiB time=00:05:52.68 bitrate= 190.3kbits/s speed=7.39x elapsed=0:00:47.72    size=    8192KiB time=00:05:56.78 bitrate= 188.1kbits/s speed= 7.4x elapsed=0:00:48.23    size=    8448KiB time=00:06:00.51 bitrate= 192.0kbits/s speed=7.39x elapsed=0:00:48.76    size=    8448KiB time=00:06:04.46 bitrate= 189.9kbits/s speed= 7.4x elapsed=0:00:49.28    size=    8448KiB time=00:06:07.96 bitrate= 188.1kbits/s speed=7.39x elapsed=0:00:49.80    size=    8704KiB time=00:06:11.88 bitrate= 191.7kbits/s speed=7.39x elapsed=0:00:50.32    size=    8704KiB time=00:06:17.07 bitrate= 189.1kbits/s speed=7.42x elapsed=0:00:50.83    size=    8704KiB time=00:06:22.04 bitrate= 186.6kbits/s speed=7.44x elapsed=0:00:51.34    size=    8960KiB time=00:06:26.56 bitrate= 189.9kbits/s speed=7.45x elapsed=0:00:51.86    size=    8960KiB time=00:06:29.72 bitrate= 188.3kbits/s speed=7.44x elapsed=0:00:52.39    size=    9216KiB time=00:06:34.92 bitrate= 191.2kbits/s speed=7.46x elapsed=0:00:52.91    size=    9216KiB time=00:06:39.09 bitrate= 189.2kbits/s speed=7.47x elapsed=0:00:53.43    size=    9216KiB time=00:06:43.69 bitrate= 187.0kbits/s speed=7.48x elapsed=0:00:53.95    size=    9472KiB time=00:06:48.21 bitrate= 190.1kbits/s speed=7.49x elapsed=0:00:54.46    size=    9472KiB time=00:06:52.78 bitrate= 188.0kbits/s speed=7.51x elapsed=0:00:54.98    size=    9728KiB time=00:06:57.85 bitrate= 190.7kbits/s speed=7.53x elapsed=0:00:55.50    size=    9728KiB time=00:07:03.34 bitrate= 188.2kbits/s speed=7.56x elapsed=0:00:56.01    size=    9984KiB time=00:07:08.12 bitrate= 191.0kbits/s speed=7.57x elapsed=0:00:56.54    size=    9984KiB time=00:07:12.11 bitrate= 189.3kbits/s speed=7.57x elapsed=0:00:57.04    size=    9984KiB time=00:07:16.37 bitrate= 187.4kbits/s speed=7.58x elapsed=0:00:57.56    size=   10240KiB time=00:07:20.66 bitrate= 190.4kbits/s speed=7.59x elapsed=0:00:58.08    size=   10240KiB time=00:07:25.12 bitrate= 188.5kbits/s speed= 7.6x elapsed=0:00:58.60    size=   10496KiB time=00:07:29.28 bitrate= 191.4kbits/s speed= 7.6x elapsed=0:00:59.12    size=   10496KiB time=00:07:33.53 bitrate= 189.6kbits/s speed= 7.6x elapsed=0:00:59.65    size=   10496KiB time=00:07:37.79 bitrate= 187.8kbits/s speed=7.61x elapsed=0:01:00.17    size=   10752KiB time=00:07:42.34 bitrate= 190.5kbits/s speed=7.62x elapsed=0:01:00.69    size=   10752KiB time=00:07:47.01 bitrate= 188.6kbits/s speed=7.63x elapsed=0:01:01.20    size=   11008KiB time=00:07:52.13 bitrate= 191.0kbits/s speed=7.65x elapsed=0:01:01.72    size=   11008KiB time=00:07:57.25 bitrate= 188.9kbits/s speed=7.67x elapsed=0:01:02.23    size=   11264KiB time=00:08:02.43 bitrate= 191.3kbits/s speed=7.69x elapsed=0:01:02.75    size=   11264KiB time=00:08:07.57 bitrate= 189.3kbits/s speed=7.71x elapsed=0:01:03.27    size=   11520KiB time=00:08:12.87 bitrate= 191.5kbits/s speed=7.73x elapsed=0:01:03.79    size=   11520KiB time=00:08:18.07 bitrate= 189.5kbits/s speed=7.74x elapsed=0:01:04.31    size=   11776KiB time=00:08:23.04 bitrate= 191.8kbits/s speed=7.76x elapsed=0:01:04.83    size=   11776KiB time=00:08:28.31 bitrate= 189.8kbits/s speed=7.78x elapsed=0:01:05.35    size=   11776KiB time=00:08:32.94 bitrate= 188.1kbits/s speed=7.79x elapsed=0:01:05.86    size=   12032KiB time=00:08:37.95 bitrate= 190.3kbits/s speed= 7.8x elapsed=0:01:06.38    size=   12032KiB time=00:08:42.73 bitrate= 188.6kbits/s speed=7.81x elapsed=0:01:06.90    size=   12288KiB time=00:08:47.77 bitrate= 190.7kbits/s speed=7.83x elapsed=0:01:07.42    size=   12288KiB time=00:08:52.21 bitrate= 189.1kbits/s speed=7.83x elapsed=0:01:07.94    size=   12544KiB time=00:08:57.49 bitrate= 191.2kbits/s speed=7.85x elapsed=0:01:08.46    size=   12544KiB time=00:09:03.06 bitrate= 189.2kbits/s speed=7.87x elapsed=0:01:08.98    size=   12800KiB time=00:09:07.91 bitrate= 191.4kbits/s speed=7.88x elapsed=0:01:09.50    size=   12800KiB time=00:09:14.24 bitrate= 189.2kbits/s speed=7.92x elapsed=0:01:10.02    size=   13056KiB time=00:09:19.02 bitrate= 191.3kbits/s speed=7.93x elapsed=0:01:10.53    size=   13056KiB time=00:09:24.63 bitrate= 189.4kbits/s speed=7.95x elapsed=0:01:11.05    size=   13312KiB time=00:09:29.75 bitrate= 191.4kbits/s speed=7.96x elapsed=0:01:11.57    size=   13312KiB time=00:09:35.13 bitrate= 189.6kbits/s speed=7.98x elapsed=0:01:12.09    size=   13568KiB time=00:09:40.67 bitrate= 191.4kbits/s speed=   8x elapsed=0:01:12.61    size=   13568KiB time=00:09:46.58 bitrate= 189.5kbits/s speed=8.02x elapsed=0:01:13.14    size=   13824KiB time=00:09:51.96 bitrate= 191.3kbits/s speed=8.04x elapsed=0:01:13.66    size=   13824KiB time=00:09:56.82 bitrate= 189.7kbits/s speed=8.04x elapsed=0:01:14.18    size=   14080KiB time=00:10:01.33 bitrate= 191.8kbits/s speed=8.05x elapsed=0:01:14.71    size=   14080KiB time=00:10:05.85 bitrate= 190.4kbits/s speed=8.05x elapsed=0:01:15.22    size=   14080KiB time=00:10:09.69 bitrate= 189.2kbits/s speed=8.05x elapsed=0:01:15.73    size=   14336KiB time=00:10:13.51 bitrate= 191.4kbits/s speed=8.05x elapsed=0:01:16.25    size=   14336KiB time=00:10:17.71 bitrate= 190.1kbits/s speed=8.05x elapsed=0:01:16.76    size=   14592KiB time=00:10:23.85 bitrate= 191.6kbits/s speed=8.07x elapsed=0:01:17.28    size=   14592KiB time=00:10:29.81 bitrate= 189.8kbits/s speed= 8.1x elapsed=0:01:17.79    size=   14848KiB time=00:10:35.56 bitrate= 191.4kbits/s speed=8.11x elapsed=0:01:18.32    size=   14848KiB time=00:10:42.03 bitrate= 189.5kbits/s speed=8.14x elapsed=0:01:18.82    size=   15104KiB time=00:10:47.23 bitrate= 191.2kbits/s speed=8.16x elapsed=0:01:19.34    size=   15104KiB time=00:10:50.99 bitrate= 190.1kbits/s speed=8.15x elapsed=0:01:19.86    size=   15360KiB time=00:10:56.19 bitrate= 191.8kbits/s speed=8.16x elapsed=0:01:20.38    size=   15360KiB time=00:11:03.64 bitrate= 189.6kbits/s speed= 8.2x elapsed=0:01:20.90    size=   15616KiB time=00:11:10.61 bitrate= 190.8kbits/s speed=8.24x elapsed=0:01:21.42    size=   15616KiB time=00:11:16.52 bitrate= 189.1kbits/s speed=8.26x elapsed=0:01:21.94    size=   15872KiB time=00:11:23.07 bitrate= 190.3kbits/s speed=8.28x elapsed=0:01:22.45    size=   16128KiB time=00:11:29.13 bitrate= 191.7kbits/s speed=8.31x elapsed=0:01:22.97    size=   16128KiB time=00:11:35.53 bitrate= 190.0kbits/s speed=8.33x elapsed=0:01:23.48    size=   16384KiB time=00:11:42.19 bitrate= 191.1kbits/s speed=8.36x elapsed=0:01:24.00    size=   16384KiB time=00:11:48.67 bitrate= 189.4kbits/s speed=8.38x elapsed=0:01:24.51    size=   16640KiB time=00:11:55.25 bitrate= 190.6kbits/s speed=8.41x elapsed=0:01:25.04    size=   16896KiB time=00:12:02.73 bitrate= 191.5kbits/s speed=8.45x elapsed=0:01:25.56    size=   16896KiB time=00:12:09.67 bitrate= 189.7kbits/s speed=8.48x elapsed=0:01:26.08    size=   17152KiB time=00:12:16.34 bitrate= 190.8kbits/s speed= 8.5x elapsed=0:01:26.59    size=   17152KiB time=00:12:22.66 bitrate= 189.2kbits/s speed=8.52x elapsed=0:01:27.12    size=   17408KiB time=00:12:28.12 bitrate= 190.6kbits/s speed=8.54x elapsed=0:01:27.62    size=   17408KiB time=00:12:33.18 bitrate= 189.3kbits/s speed=8.54x elapsed=0:01:28.14    size=   17664KiB time=00:12:39.53 bitrate= 190.5kbits/s speed=8.57x elapsed=0:01:28.66    size=   17920KiB time=00:12:45.44 bitrate= 191.8kbits/s speed=8.58x elapsed=0:01:29.17    size=   17920KiB time=00:12:52.15 bitrate= 190.1kbits/s speed=8.61x elapsed=0:01:29.69    size=   18176KiB time=00:12:58.13 bitrate= 191.4kbits/s speed=8.63x elapsed=0:01:30.21    size=   18176KiB time=00:13:05.13 bitrate= 189.6kbits/s speed=8.65x elapsed=0:01:30.73    size=   18432KiB time=00:13:11.51 bitrate= 190.8kbits/s speed=8.67x elapsed=0:01:31.25    size=   18688KiB time=00:13:17.44 bitrate= 192.0kbits/s speed=8.69x elapsed=0:01:31.77    size=   18688KiB time=00:13:24.52 bitrate= 190.3kbits/s speed=8.72x elapsed=0:01:32.29    size=   18944KiB time=00:13:30.84 bitrate= 191.4kbits/s speed=8.74x elapsed=0:01:32.81    size=   18944KiB time=00:13:37.73 bitrate= 189.8kbits/s speed=8.76x elapsed=0:01:33.33    size=   19200KiB time=00:13:45.00 bitrate= 190.7kbits/s speed=8.79x elapsed=0:01:33.87    size=   19456KiB time=00:13:52.49 bitrate= 191.5kbits/s speed=8.82x elapsed=0:01:34.39    size=   19456KiB time=00:13:59.52 bitrate= 189.8kbits/s speed=8.85x elapsed=0:01:34.91    size=   19712KiB time=00:14:07.62 bitrate= 190.5kbits/s speed=8.88x elapsed=0:01:35.43    size=   19968KiB time=00:14:14.93 bitrate= 191.3kbits/s speed=8.91x elapsed=0:01:35.95    size=   19968KiB time=00:14:22.61 bitrate= 189.6kbits/s speed=8.94x elapsed=0:01:36.47    size=   20224KiB time=00:14:29.80 bitrate= 190.5kbits/s speed=8.97x elapsed=0:01:36.99    size=   20480KiB time=00:14:36.87 bitrate= 191.3kbits/s speed=8.99x elapsed=0:01:37.51    size=   20480KiB time=00:14:44.48 bitrate= 189.7kbits/s speed=9.02x elapsed=0:01:38.04    size=   20736KiB time=00:14:52.23 bitrate= 190.4kbits/s speed=9.05x elapsed=0:01:38.55    size=   20992KiB time=00:15:01.01 bitrate= 190.9kbits/s speed=9.09x elapsed=0:01:39.06    size=   21248KiB time=00:15:09.89 bitrate= 191.3kbits/s speed=9.14x elapsed=0:01:39.59    size=   21504KiB time=00:15:18.25 bitrate= 191.8kbits/s speed=9.17x elapsed=0:01:40.10    size=   21504KiB time=00:15:26.30 bitrate= 190.2kbits/s speed= 9.2x elapsed=0:01:40.63    size=   21760KiB time=00:15:35.41 bitrate= 190.6kbits/s speed=9.25x elapsed=0:01:41.15    size=   22016KiB time=00:15:44.64 bitrate= 190.9kbits/s speed=9.29x elapsed=0:01:41.66    size=   22272KiB time=00:15:54.20 bitrate= 191.2kbits/s speed=9.34x elapsed=0:01:42.19    size=   22528KiB time=00:16:02.56 bitrate= 191.7kbits/s speed=9.37x elapsed=0:01:42.71    size=   22528KiB time=00:16:11.59 bitrate= 189.9kbits/s speed=9.41x elapsed=0:01:43.21    size=   22784KiB time=00:16:18.67 bitrate= 190.7kbits/s speed=9.43x elapsed=0:01:43.74    size=   23040KiB time=00:16:25.41 bitrate= 191.5kbits/s speed=9.45x elapsed=0:01:44.25    size=   23040KiB time=00:16:32.94 bitrate= 190.1kbits/s speed=9.48x elapsed=0:01:44.76    size=   23296KiB time=00:16:41.97 bitrate= 190.5kbits/s speed=9.52x elapsed=0:01:45.28    size=   23552KiB time=00:16:54.51 bitrate= 190.2kbits/s speed=9.59x elapsed=0:01:45.80    size=   23808KiB time=00:17:05.43 bitrate= 190.2kbits/s speed=9.65x elapsed=0:01:46.31    size=   24064KiB time=00:17:17.14 bitrate= 190.1kbits/s speed=9.71x elapsed=0:01:46.83    size=   24576KiB time=00:17:30.35 bitrate= 191.7kbits/s speed=9.78x elapsed=0:01:47.35    size=   24832KiB time=00:17:41.80 bitrate= 191.6kbits/s speed=9.84x elapsed=0:01:47.87    size=   25088KiB time=00:17:53.32 bitrate= 191.5kbits/s speed= 9.9x elapsed=0:01:48.39    size=   25344KiB time=00:18:07.06 bitrate= 191.0kbits/s speed=9.98x elapsed=0:01:48.91    size=   25600KiB time=00:18:21.74 bitrate= 190.3kbits/s speed=10.1x elapsed=0:01:49.45    size=   26112KiB time=00:18:37.78 bitrate= 191.4kbits/s speed=10.2x elapsed=0:01:49.97    size=   26368KiB time=00:18:53.55 bitrate= 190.6kbits/s speed=10.3x elapsed=0:01:50.49    size=   26880KiB time=00:19:11.73 bitrate= 191.2kbits/s speed=10.4x elapsed=0:01:51.01    size=   27136KiB time=00:19:28.45 bitrate= 190.2kbits/s speed=10.5x elapsed=0:01:51.53    size=   27648KiB time=00:19:44.68 bitrate= 191.2kbits/s speed=10.6x elapsed=0:01:52.04    size=   28160KiB time=00:20:04.40 bitrate= 191.5kbits/s speed=10.7x elapsed=0:01:52.56    size=   28672KiB time=00:20:23.68 bitrate= 191.9kbits/s speed=10.8x elapsed=0:01:53.08    size=   29184KiB time=00:20:46.61 bitrate= 191.8kbits/s speed=  11x elapsed=0:01:53.59    size=   29696KiB time=00:21:14.04 bitrate= 190.9kbits/s speed=11.2x elapsed=0:01:54.11    size=   30464KiB time=00:21:42.49 bitrate= 191.6kbits/s speed=11.4x elapsed=0:01:54.63    size=   31232KiB time=00:22:19.01 bitrate= 191.1kbits/s speed=11.6x elapsed=0:01:55.14    size=   32256KiB time=00:23:00.05 bitrate= 191.5kbits/s speed=11.9x elapsed=0:01:55.66    [out#0/mp3 @ 00000242370c8ec0] video:0KiB audio:32630KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.002008%
+size=   32631KiB time=00:23:12.17 bitrate= 192.0kbits/s speed=  12x elapsed=0:01:55.78    

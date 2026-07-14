@@ -1,0 +1,732 @@
+1
+00:00:00,000 --> 00:00:07,360
+I'm Jake O'Neill, creator of Animographs, and this is how a Formula One race car works.
+
+2
+00:00:13,680 --> 00:00:19,840
+Let's start with aerodynamics, which is how the car interacts with and moves through the air
+
+3
+00:00:19,840 --> 00:00:27,920
+around it. It's best to focus on overall theory here to avoid getting lost in the absolute maze
+
+4
+00:00:28,000 --> 00:00:35,200
+of individual aerodynamic features. The front wing curves upward, forcing air to move around it
+
+5
+00:00:35,200 --> 00:00:41,040
+in such a way that a high-pressure area forms above the wing with lower pressure beneath.
+
+6
+00:00:42,960 --> 00:00:48,160
+This pressure difference contributes to a kind of suction force called downforce
+
+7
+00:00:48,880 --> 00:00:51,280
+that pushes or sticks the car to the track.
+
+8
+00:00:51,920 --> 00:00:59,200
+Where the wing ends and these different pressure zones meet, the air crashes into itself,
+
+9
+00:01:00,000 --> 00:01:01,760
+creating a spiraling vortex.
+
+10
+00:01:03,920 --> 00:01:11,040
+Vortices cause drag, which tugs at the car, slowing it down. A cap on the wing tip
+
+11
+00:01:11,040 --> 00:01:14,640
+interrupts vortex formation for a less intense effect.
+
+12
+00:01:14,960 --> 00:01:22,480
+In contrast, the pointed, curved end surfaces on the inside edge of the wing intentionally shape
+
+13
+00:01:22,480 --> 00:01:28,720
+and directive vortex around the floor of the car, sealing in the clean air that passes beneath.
+
+14
+00:01:31,760 --> 00:01:38,800
+So, while vortices do cause drag, they're also a useful tool to separate and seal in different
+
+15
+00:01:39,680 --> 00:01:47,040
+areas of airflow. As a matter of tradition, F1 cars don't have fenders, and the open,
+
+16
+00:01:47,040 --> 00:01:52,400
+spinning wheel and tire combination is a major source of dirty turbulent air.
+
+17
+00:01:55,200 --> 00:02:00,320
+Turbulent air is unpredictable and not very useful for aerodynamic goals,
+
+18
+00:02:00,880 --> 00:02:08,160
+like generating downforce. Directly behind the tires, the bargeboards condition or clean up
+
+19
+00:02:08,160 --> 00:02:13,520
+some of this airflow, while also pushing lots of dirty air away from the body.
+
+20
+00:02:20,160 --> 00:02:26,080
+The narrow gap between the car floor and the track turns the entire floor into a giant
+
+21
+00:02:26,080 --> 00:02:33,040
+downforce generator, as air squeezes, thins, and rushes beneath the car at a different rate
+
+22
+00:02:33,040 --> 00:02:41,280
+and pressure than overhead air. The floor has a forward tilt or rake that creates very low
+
+23
+00:02:41,280 --> 00:02:46,880
+pressure at its narrowest point, but allows air to more smoothly rejoin ambient air pressure as
+
+24
+00:02:46,880 --> 00:02:54,000
+it flows out the back. A diffuser at the rear amplifies this goal, with its more pronounced
+
+25
+00:02:54,000 --> 00:03:00,800
+upward curvature. The diffuser has vertical veins to control and direct the massive vortices that
+
+26
+00:03:00,800 --> 00:03:04,320
+form behind the car, as air pours out from underneath.
+
+27
+00:03:10,480 --> 00:03:16,880
+Clean air is directed into the side pods for cooling purposes. This stream passes through
+
+28
+00:03:16,880 --> 00:03:23,840
+the car and out the back beneath the rear wing. The smoothly contoured body guides
+
+29
+00:03:23,840 --> 00:03:28,960
+air streams gracefully around bodywork for predictable handling under extreme conditions.
+
+30
+00:03:32,960 --> 00:03:37,200
+The upward curved rear wing, which is another critical downforce generator,
+
+31
+00:03:37,920 --> 00:03:43,760
+has notched end caps with gaps and louvers to allow some air to combine early,
+
+32
+00:03:44,400 --> 00:03:50,800
+altering and shaping rear wing vortex characteristics. It's also where in wet conditions,
+
+33
+00:03:50,800 --> 00:03:55,440
+the noticeable misty wing tip vortices sometimes appear in plain sight.
+
+34
+00:03:59,920 --> 00:04:05,200
+A hydraulic actuator tilts a section of the rear wing when the drag reduction system or
+
+35
+00:04:05,200 --> 00:04:11,840
+DRS is engaged, generating less rear downforce, but allowing higher overall speed.
+
+36
+00:04:11,840 --> 00:04:21,760
+The massive area of dirty air behind the car can make it difficult for other cars to approach
+
+37
+00:04:21,760 --> 00:04:28,320
+and overtake. It's worth noting here that in coming years, the aerodynamic design regulations
+
+38
+00:04:28,320 --> 00:04:34,240
+for F1 cars are set for major changes to encourage closer racing and overtaking.
+
+39
+00:04:34,800 --> 00:04:40,320
+The airflow pattern might look more like this than the current wide dirty wake.
+
+40
+00:04:42,320 --> 00:04:49,120
+Now let's go underneath this exterior bodywork, starting with the core support structure.
+
+41
+00:04:51,600 --> 00:04:59,520
+A carbon fiber shell called a monocock. The engine heads and block and the gearbox enclosure
+
+42
+00:04:59,520 --> 00:05:06,400
+form the main structural support for all other systems. There's no additional frame or chassis
+
+43
+00:05:06,480 --> 00:05:12,320
+underneath.
+
+44
+00:05:19,200 --> 00:05:19,920
+Suspension.
+
+45
+00:05:22,160 --> 00:05:27,440
+Both front and back suspension setups share similar components, upper and lower
+
+46
+00:05:27,440 --> 00:05:34,080
+wishbone arms with a push or pole rod. The wishbones are rigid structural supports
+
+47
+00:05:34,080 --> 00:05:39,040
+with limited vertical travel. At the front where heat isn't an issue,
+
+48
+00:05:39,680 --> 00:05:46,080
+wishbones are directly attached to the monocock and have simple flexure joints designed to bend
+
+49
+00:05:46,080 --> 00:05:53,280
+under load. At the rear where engine heat can be intense, spherical bearings are used.
+
+50
+00:05:56,480 --> 00:06:03,520
+The push or pole rod is where the action happens. Our model has push rods in the front and pull
+
+51
+00:06:03,520 --> 00:06:07,840
+rods in the back, which simplified just indicates how the system is mounted,
+
+52
+00:06:08,560 --> 00:06:14,800
+to push or pull connected suspension parts. If parts can be mounted down low for a lower
+
+53
+00:06:14,800 --> 00:06:21,360
+center of gravity, all the better. The pull rod connects to a rocker and damper,
+
+54
+00:06:22,000 --> 00:06:28,320
+which we call shock absorbers in normal cars. But instead of large coiled springs,
+
+55
+00:06:28,960 --> 00:06:34,640
+F1 suspension uses a small metal rod called a torsion bar that twists under load.
+
+56
+00:06:35,840 --> 00:06:42,320
+One side of the torsion bar moves with the outer cylindrical shaft, while the other side is stationary.
+
+57
+00:06:47,680 --> 00:06:54,000
+Both independent suspension sides are linked to a central roll bar that twists to limit body roll.
+
+58
+00:06:59,200 --> 00:07:05,680
+Heave is the vertical position of the car, which is critically important for proper aerodynamics.
+
+59
+00:07:06,960 --> 00:07:13,200
+The heave spring and damper cleverly come into play when both sides move up or down together,
+
+60
+00:07:13,200 --> 00:07:20,080
+for example, during acceleration or braking, but are mostly inactive for other movements.
+
+61
+00:07:21,840 --> 00:07:27,120
+The heave spring in our model is a stack of flexible, cone shaped washers that compress
+
+62
+00:07:27,120 --> 00:07:34,400
+together under load. Washes can be added or subtracted for fine adjustments.
+
+63
+00:07:43,840 --> 00:07:48,080
+The front suspension handles similar tasks to the rear but with different techniques.
+
+64
+00:07:52,800 --> 00:07:56,320
+The steering system is closely packaged with front suspension.
+
+65
+00:07:57,360 --> 00:08:03,120
+A track rod links each tire to a fairly standard hydraulic rack and pinion setup,
+
+66
+00:08:03,840 --> 00:08:06,320
+with the steering column extending into the cockpit.
+
+67
+00:08:07,760 --> 00:08:12,560
+The rear suspension has a track rod as well for vertical tire angle adjustment.
+
+68
+00:08:19,520 --> 00:08:25,440
+All wheels must be attached to the car with wheel tethers. These are strong cables that keep
+
+69
+00:08:25,440 --> 00:08:30,960
+wheels connected to the car in the event of an accident. They're required to pass through
+
+70
+00:08:30,960 --> 00:08:39,840
+more than one suspension element for increased safety. With few exceptions, most exposed suspension
+
+71
+00:08:39,840 --> 00:08:45,600
+elements are either made from or bonded with carbon fiber for better aerodynamic forms.
+
+72
+00:08:47,040 --> 00:08:53,680
+This is another major reason suspension parts are packaged inside bodywork away from outside air
+
+73
+00:08:53,680 --> 00:08:58,000
+wherever possible. Breaking System
+
+74
+00:09:02,720 --> 00:09:07,840
+A master cylinder and reservoir controls and stores hydraulic fluid for braking.
+
+75
+00:09:09,920 --> 00:09:16,160
+F1 cars have two master cylinders and accompanying reservoirs for front and rear brakes respectively.
+
+76
+00:09:16,880 --> 00:09:22,880
+The cylinders are mounted to the brake pedal on one end and a threaded brake bias screw on the other.
+
+77
+00:09:24,560 --> 00:09:29,600
+This bias screw is electronically controlled and can be adjusted on the fly as directed by
+
+78
+00:09:29,600 --> 00:09:35,600
+the driver. The screw position allows different pressure to the front or rear brakes.
+
+79
+00:09:37,280 --> 00:09:42,000
+Brake lines sneak through suspension elements to the brake caliper and shoe assembly.
+
+80
+00:09:43,120 --> 00:09:49,520
+Intense brake heat must be precisely managed so the entire inner wheel assembly is covered
+
+81
+00:09:49,520 --> 00:09:56,000
+by a ducted carbon fiber shroud. The front wing helps direct air into the brake ducts
+
+82
+00:09:56,000 --> 00:10:01,760
+and through the inner wheel for cooling. The calipers are mounted at the lowest possible
+
+83
+00:10:01,760 --> 00:10:08,160
+position for proper brake bleed. That is ensuring troublesome air bubbles can escape hydraulic
+
+84
+00:10:08,160 --> 00:10:16,720
+brake lines while maintaining a low center of gravity. The brake discs and shoes are made from
+
+85
+00:10:16,720 --> 00:10:23,840
+a carbon-based material. The disc has thousands of small holes extending from the center outwards
+
+86
+00:10:23,840 --> 00:10:32,720
+from maximum cooling effects. The rear brakes have a similar design strategy that have become
+
+87
+00:10:32,720 --> 00:10:38,960
+smaller in recent years with the addition of the MGUK or motor generator unit kinetic.
+
+88
+00:10:39,760 --> 00:10:47,440
+The MGUK is geared to the crankshaft and functions as an electrical power generator
+
+89
+00:10:47,440 --> 00:10:52,320
+to charge an on-board battery as driven by a portion of rear braking forces.
+
+90
+00:10:54,400 --> 00:11:01,360
+A computer mounted inside the gearbox enclosure manages and balances this complex braking system.
+
+91
+00:11:09,600 --> 00:11:16,560
+The wheels are secured to the hub with a single wheel nut.
+
+92
+00:11:17,680 --> 00:11:24,080
+Metal retention pins keep the nut securely in place. A specially designed wheel gun pushes
+
+93
+00:11:24,080 --> 00:11:34,000
+these pins down when removing the nut. Engine and associated systems.
+
+94
+00:11:39,680 --> 00:11:48,400
+F1 cars use six cylinders in a V configuration. The pistons are somewhat flat and small to suit
+
+95
+00:11:48,400 --> 00:11:56,800
+the high-reving engine. Intricate exhaust headers feed a comparatively massive turbine at the rear
+
+96
+00:11:56,800 --> 00:12:02,960
+of the engine which is part of a split turbocharger design that separates these normally stacked
+
+97
+00:12:03,040 --> 00:12:09,760
+turbo components. Red hot exhaust gases drive the turbine wheel
+
+98
+00:12:12,640 --> 00:12:18,560
+which in turn spins the front mounted compressor wheel drawing in and compressing
+
+99
+00:12:18,560 --> 00:12:27,200
+huge quantities of air. All this pressure adds unwanted heat to the incoming air
+
+100
+00:12:28,000 --> 00:12:35,680
+so one entire side pod is dedicated to the intercooler. The path of incoming air looks like this.
+
+101
+00:12:36,320 --> 00:12:42,640
+The compressor draws air in through an intake duct mounted in the roll hoop above and behind
+
+102
+00:12:42,640 --> 00:12:52,240
+the driver's head. Hot air leaves the compressor towards the intercooler. Side pod air rushes by
+
+103
+00:12:52,240 --> 00:12:56,560
+the intercoolers tubes and fins cooling the compressor air inside.
+
+104
+00:13:00,960 --> 00:13:07,200
+The now cooled air passes through the special split ducting that feeds separate intake plenums.
+
+105
+00:13:09,120 --> 00:13:14,080
+These are chambers designed to keep air pressure balanced between cylinders.
+
+106
+00:13:14,400 --> 00:13:24,000
+Intake trumpets extend into the plenums for specially tuned air delivery to each cylinder.
+
+107
+00:13:28,800 --> 00:13:34,480
+The side pod air flows by and cools the engine and other internal parts on its way out the back
+
+108
+00:13:34,480 --> 00:13:43,520
+of the car. The exhaust section of the turbo has dual waste gates corresponding to each
+
+109
+00:13:43,520 --> 00:13:50,400
+exhaust input. To vent off excess gases when needed, waste gate pipes follow the main exhaust
+
+110
+00:13:50,400 --> 00:13:58,640
+pipe out the back. A high-tech heat recovery unit sits between these turbo compartments
+
+111
+00:13:58,640 --> 00:14:08,400
+called the MGUH or motor generator unit heat. Excess heat from turbo gases drives this unit
+
+112
+00:14:08,400 --> 00:14:16,400
+to act as an electric generator to charge the onboard battery. Energy recovery system.
+
+113
+00:14:19,520 --> 00:14:27,200
+The MGUH and the previously shown MGUK together make up the hybrid functionality of the modern F1
+
+114
+00:14:27,200 --> 00:14:34,480
+car. Both units generate electrical charge for the battery. Once sufficiently charged,
+
+115
+00:14:34,480 --> 00:14:40,800
+the battery can send power back through the MGUK unit, which again is geared to the crankshaft.
+
+116
+00:14:41,840 --> 00:14:50,240
+In this way, the MGUK can generate an additional maximum 160 horsepower or as much as a small
+
+117
+00:14:50,240 --> 00:15:01,360
+separate car engine. Cooling. Various additional radiators for cooling occupy the opposing side pod.
+
+118
+00:15:02,000 --> 00:15:10,400
+This includes the main engine cooling radiator, an oil cooler, and a battery cooler. An additional
+
+119
+00:15:10,400 --> 00:15:17,680
+bank of radiators sits in the path of a separate roll hoop air duct to cool hydraulic oil, gearbox
+
+120
+00:15:17,680 --> 00:15:25,600
+oil, and the MGUH and K-systems. F1 teams may locate specific radiators in different positions
+
+121
+00:15:25,600 --> 00:15:32,240
+than I've shown here, though the general available spaces will be similar. They may also use water
+
+122
+00:15:32,240 --> 00:15:38,080
+driven intercooling for turbo air, in contrast to the simpler air-to-air setup I've chosen.
+
+123
+00:15:39,440 --> 00:15:48,320
+Fuel tank. The fuel tank, also called a fuel cell, is a nearly puncture-proof Kevlar bladder
+
+124
+00:15:48,320 --> 00:15:54,800
+lined with rubber. It occupies an isolated compartment in the carbon fiber monocoque
+
+125
+00:15:54,800 --> 00:16:04,240
+shell and fills all available space. F1 fuel cells can hold an incredible 30 to 40 gallons
+
+126
+00:16:04,240 --> 00:16:10,560
+of fuel, which is just enough for a single race as pit stop refueling is not allowed.
+
+127
+00:16:10,880 --> 00:16:19,440
+These cars get an estimated 4 to 6 miles per gallon of fuel. The tank has various internal
+
+128
+00:16:19,440 --> 00:16:26,400
+baffles with one-way valves to tame the sloshing liquid under incredible racing forces. The goal
+
+129
+00:16:26,400 --> 00:16:32,960
+is to keep the large fuel mass centered and low, and also to prevent foaming and fuel pump starvation.
+
+130
+00:16:33,520 --> 00:16:38,880
+The engine oil tank is placed between the engine and fuel cell.
+
+131
+00:16:41,840 --> 00:16:50,240
+Gearbox. The 8-speed gearbox, 7-forward plus one reverse, sits behind the engine in its own
+
+132
+00:16:50,240 --> 00:16:57,440
+aluminum cartridge. The rear differential gears connect to rear axles with special tripod joints
+
+133
+00:16:57,440 --> 00:17:01,120
+that allow spinning axles to tilt with the rear suspension movement.
+
+134
+00:17:03,680 --> 00:17:12,560
+Safety systems. F1 cars have robust safety systems. The rear crash structure protects against rear
+
+135
+00:17:12,560 --> 00:17:21,120
+impact. Side crash structures are concealed within the aerodynamic bodywork. The removable
+
+136
+00:17:21,120 --> 00:17:27,120
+front-nose section handles front impact, and the all-important monocoque forms a protective
+
+137
+00:17:27,120 --> 00:17:34,880
+cocoon around the driver. Also attached to the monocoque, a halo device which was implemented in
+
+138
+00:17:34,880 --> 00:17:44,080
+2018 for additional driver safety and a roll hoop. The driver's helmet is kept within a specific
+
+139
+00:17:44,080 --> 00:17:49,120
+angle from the roll hoop to the body, for maximum protection in the event of a rollover.
+
+140
+00:17:49,840 --> 00:17:58,640
+Cockpit. F1 racing seats are crafted from molds taken from a specific driver's body.
+
+141
+00:17:59,360 --> 00:18:06,640
+The driver sits in a reclined position, almost like laying semi-upright in a hammock. A six-point
+
+142
+00:18:06,640 --> 00:18:13,760
+harness keeps the driver in place. The seat wraps around the driver's body wherever possible,
+
+143
+00:18:13,760 --> 00:18:21,040
+and safety structures surround the helmet area. Drivers wear a special brace,
+
+144
+00:18:21,040 --> 00:18:27,280
+called the Hans or head and neck device, to limit head movement in adverse conditions.
+
+145
+00:18:28,320 --> 00:18:33,520
+A connected strap clips to either side of the helmet, and the shoulder harness straps keep the
+
+146
+00:18:33,520 --> 00:18:41,120
+device pressed against the driver. A drinks tube extends over the shoulder. It's connected to a
+
+147
+00:18:41,120 --> 00:18:48,560
+small fluid reservoir to keep drivers hydrated while racing. Drivers use different helmet front
+
+148
+00:18:48,560 --> 00:18:54,400
+and rear spoiler designs to keep their helmets from lifting or moving around with sometimes
+
+149
+00:18:54,400 --> 00:19:01,120
+dramatically shifting air pressures. In recent years, the visor opening has further narrowed
+
+150
+00:19:01,120 --> 00:19:08,160
+to protect the more fragile visor area from puncture or breakage. Cockpit design makes
+
+151
+00:19:08,160 --> 00:19:14,560
+efficient use of all available space, such that drivers must remove the steering wheel to exit the car.
+
+152
+00:19:18,000 --> 00:19:26,160
+Steering wheel. This is the famed Formula One steering wheel. Drivers mostly don't need to
+
+153
+00:19:26,160 --> 00:19:33,280
+remove their hands from the wheel for steering, so the wheel doesn't need to be round. A customizable
+
+154
+00:19:33,280 --> 00:19:38,960
+display at the center shows the current gear as the largest item, along with things like lap
+
+155
+00:19:38,960 --> 00:19:46,640
+times, tire and brake temperatures, average speed, and so on. The daunting array of knobs,
+
+156
+00:19:46,640 --> 00:19:52,880
+dials, and LEDs gives drivers and teams fine controls that can be adjusted on the fly during
+
+157
+00:19:52,880 --> 00:20:00,240
+a race. Clockwise from the upper left, there's the energy recovery system dial to control the
+
+158
+00:20:00,240 --> 00:20:08,640
+MDU-H and K, left and right menu navigation buttons, a push to talk radio switch for team
+
+159
+00:20:08,640 --> 00:20:15,680
+communication, LED warning lights for critical systems, a row of LEDs across the top of the
+
+160
+00:20:15,680 --> 00:20:22,400
+display acts as a rev counter and shift light system, the launch control switch which is turned
+
+161
+00:20:22,400 --> 00:20:28,880
+on for race starts and off when racing, the brake balance dial for front and rear brake bias,
+
+162
+00:20:29,680 --> 00:20:35,200
+a pit limits button to automatically impose things like pit lane speed and acceleration
+
+163
+00:20:35,200 --> 00:20:40,720
+restrictions, an engine mapping dial to alter engine performance characteristics,
+
+164
+00:20:41,920 --> 00:20:49,520
+DRS toggle button, rear differential lock open or closed adjustment with separate turn entry and
+
+165
+00:20:49,520 --> 00:20:57,280
+turn exit adjusters, the drinks dispenser button, more settings navigation buttons,
+
+166
+00:20:58,080 --> 00:21:06,080
+three programmable preset dials for the engine, chassis, or suspension, and a scenario selector
+
+167
+00:21:06,080 --> 00:21:13,920
+for things like wet weather or tire preservation presets. The neutral button is for neutral and
+
+168
+00:21:13,920 --> 00:21:21,280
+reverse gears which can't be selected with rear paddle shifters, a message okay button, an overtake
+
+169
+00:21:21,360 --> 00:21:27,360
+button to instantly apply optimal settings for overtaking, and finally a hydraulic settings
+
+170
+00:21:27,360 --> 00:21:32,720
+dial to control the complex hydraulic components spread throughout the car, for example in the
+
+171
+00:21:32,720 --> 00:21:40,480
+gearbox and suspension systems. Paddles at the back of the steering wheel handle gear shifting up or
+
+172
+00:21:40,480 --> 00:21:47,760
+down, the middle paddles are driver customizable, and both bottom paddles actuate the clutch,
+
+173
+00:21:48,720 --> 00:21:55,840
+only one clutch paddle can be used for race start, once in motion the clutch isn't needed for gear
+
+174
+00:21:55,840 --> 00:22:03,200
+shifting, further down into the cockpit we see the gas pedal with contours to wrap around the
+
+175
+00:22:03,200 --> 00:22:08,880
+driver's foot so as to keep pedals completely separate and the brake pedal on the left,
+
+176
+00:22:09,680 --> 00:22:18,480
+sensors, there are sensors all over these cars, for example a pilot tube at the front measures air
+
+177
+00:22:18,480 --> 00:22:25,360
+speed, the driver's custom molded earplugs have an accelerometer to track head movement,
+
+178
+00:22:26,400 --> 00:22:30,080
+there's a microphone at the rear to pick up exhaust sound,
+
+179
+00:22:30,400 --> 00:22:40,640
+for size comparison here's our average height driver model standing beside an average sized car
+
+180
+00:22:41,680 --> 00:22:43,120
+next to our formula model,
+
+181
+00:22:49,520 --> 00:22:54,480
+it's important to note that even with the level of detail i've strived to attain here,
+
+182
+00:22:54,560 --> 00:23:01,360
+the complexity in f1 cars feels almost endless in a way that truly tested my research abilities
+
+183
+00:23:02,480 --> 00:23:12,080
+they really are incredible racing machines
+

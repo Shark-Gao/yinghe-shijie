@@ -1,0 +1,2340 @@
+1
+00:00:00,033 --> 00:00:03,033
+I'm Jake O'Neill creator of animagraphs
+我是杰克·奥尼尔动画的创造者
+2
+00:00:03,133 --> 00:00:06,633
+and this is how a World War II submarine works
+这就是二战潜艇的工作原理
+3
+00:00:07,833 --> 00:00:11,100
+we've built a generalized teaching model from the era
+我们建立了一个通用的教学模式从那个时代开始
+4
+00:00:11,200 --> 00:00:12,133
+for those interested
+对于那些感兴趣的人
+5
+00:00:12,133 --> 00:00:12,666
+our source
+我们的来源
+6
+00:00:12,666 --> 00:00:16,300
+inspiration comes from Gato and Belayo class boats
+灵感来自Gato和Belayo级船
+7
+00:00:24,000 --> 00:00:27,200
+the submarine consists of a reinforced tube
+潜艇由一根加强管组成
+8
+00:00:27,300 --> 00:00:28,600
+called the pressure hole
+叫做压力孔
+9
+00:00:29,000 --> 00:00:31,000
+running the length of the ship
+运行船的长度
+10
+00:00:33,466 --> 00:00:36,733
+which houses all personnel and sensitive machinery
+容纳所有人员和敏感机械
+11
+00:00:37,700 --> 00:00:38,633
+this inner hull
+这个内壳
+12
+00:00:38,633 --> 00:00:40,100
+is divided into eight
+被分成八个
+13
+00:00:40,100 --> 00:00:42,466
+individually watertight compartments
+单独水密隔间
+14
+00:00:45,033 --> 00:00:48,200
+which are separated by reinforced structural barriers
+被加固的结构屏障隔开
+15
+00:00:48,200 --> 00:00:49,433
+called bulkheads
+称为舱壁
+16
+00:00:50,400 --> 00:00:53,000
+special pressure rated doors separate
+特殊额定压力门分开
+17
+00:00:53,000 --> 00:00:54,800
+and isolate these bulkheads
+隔离这些舱壁
+18
+00:00:54,933 --> 00:00:56,266
+which we'll examine later
+我们稍后会检查。
+19
+00:00:59,400 --> 00:01:02,100
+an additional watertight cylinder above the hole
+孔上方的附加水密圆柱体
+20
+00:01:02,100 --> 00:01:03,666
+forms the conning tower
+形成了指挥塔
+21
+00:01:07,733 --> 00:01:09,633
+wrapped around this core
+围绕着这个核心
+22
+00:01:09,933 --> 00:01:13,266
+there's an outer hole which houses tanks for fuel
+外面有个洞用来装燃料
+23
+00:01:13,333 --> 00:01:15,133
+ballast water air
+压载水空气
+24
+00:01:15,333 --> 00:01:17,933
+and other essential liquids and gases
+以及其他必需的液体和气体
+25
+00:01:19,666 --> 00:01:21,633
+a hollow superstructure extends
+中空的上层建筑延伸
+26
+00:01:21,633 --> 00:01:23,200
+along the top of the boat
+沿着船的顶部
+27
+00:01:23,333 --> 00:01:24,533
+from the main deck
+从主甲板
+28
+00:01:25,133 --> 00:01:28,933
+with limber holes so water can flood or drain as needed
+带有弹性孔，以便水可以根据需要淹没或排出
+29
+00:01:35,466 --> 00:01:37,733
+now let's get into the details
+现在让我们进入细节
+30
+00:01:37,933 --> 00:01:40,300
+starting at the front or bow of the ship
+从船的前部或船头开始
+31
+00:01:41,866 --> 00:01:43,400
+there's a large buoyancy tank
+有一个大浮箱
+32
+00:01:43,400 --> 00:01:45,100
+that's part of the diving system
+那是潜水系统的一部分
+33
+00:01:47,233 --> 00:01:51,666
+shutters on both sides cover six forward torpedo tubes
+两边的百叶窗覆盖了六个前鱼雷发射管
+34
+00:01:54,066 --> 00:01:56,700
+the anchor is perched here connected by 600
+锚栖息在这里由600连接
+35
+00:01:56,933 --> 00:01:58,433
+feet of chain
+链条英尺
+36
+00:01:59,233 --> 00:02:01,833
+the anchor can free fall when released
+锚释放时可以自由落体
+37
+00:02:03,333 --> 00:02:05,833
+a motorized device called a wildcat
+一种叫做野猫的机动装置
+38
+00:02:05,866 --> 00:02:07,533
+hauls the chain back up
+把链条拉回来
+39
+00:02:08,300 --> 00:02:11,233
+storing it in a special chain locker near the bow
+存放在船头附近一个特殊的锁链储物柜里
+40
+00:02:14,600 --> 00:02:16,700
+the bow planes are also nearby
+船头飞机也在附近
+41
+00:02:18,333 --> 00:02:22,400
+a hydraulic ram drives a shaft to tilt the planes
+液压柱塞驱动轴使飞机倾斜
+42
+00:02:22,466 --> 00:02:24,033
+allowing the submarine to
+允许潜艇
+43
+00:02:24,033 --> 00:02:26,000
+in a way fly through the water
+在某种程度上飞过水面
+44
+00:02:26,000 --> 00:02:27,200
+when submerged
+淹没时
+45
+00:02:28,466 --> 00:02:30,666
+the planes fold up while surfaced
+飞机在浮出水面时折叠起来
+46
+00:02:30,666 --> 00:02:32,200
+since they're no longer needed
+因为他们不再需要了
+47
+00:02:32,466 --> 00:02:34,933
+and to protect them from rough seas
+保护它们免受汹涌海洋的伤害
+48
+00:02:39,333 --> 00:02:42,100
+from here we can see the forward torpedo room
+从这里我们可以看到前方鱼雷室
+49
+00:02:45,733 --> 00:02:47,866
+there are 16 torpedoes here
+这里有16枚鱼雷
+50
+00:02:49,000 --> 00:02:51,666
+with six in the tubes ready to fire
+管子里有六个准备开火
+51
+00:02:52,666 --> 00:02:55,300
+and 10 reloads stored in the compartment
+和10个储存在隔间里的重装
+52
+00:02:57,033 --> 00:03:00,800
+they're 20 plus feet long and 21 inches in diameter
+它们长20多英尺直径21英寸
+53
+00:03:01,133 --> 00:03:03,666
+weighing about 3,000 pounds each
+每个重约3000磅
+54
+00:03:05,533 --> 00:03:08,700
+between the tubes there's the Gyro Angle Setter
+管子之间是陀螺仪角度设置器
+55
+00:03:09,200 --> 00:03:11,533
+which continuously updates the angle setting
+它不断更新角度设置
+56
+00:03:11,533 --> 00:03:13,200
+inside the torpedoes
+在鱼雷里面
+57
+00:03:13,400 --> 00:03:16,133
+for firing at a different angle or course
+以不同的角度或路线射击
+58
+00:03:16,133 --> 00:03:17,600
+than the submarine itself
+而不是潜艇本身
+59
+00:03:18,033 --> 00:03:19,933
+resulting in a curved shot
+导致弯曲的镜头
+60
+00:03:20,700 --> 00:03:23,833
+these analog computers are one of many such devices
+这些模拟计算机是许多这样的设备之一
+61
+00:03:23,833 --> 00:03:26,333
+on board which we'll examine in more detail
+在船上，我们将更详细地检查
+62
+00:03:26,333 --> 00:03:27,500
+as we encounter them
+当我们遇到他们时
+63
+00:03:30,633 --> 00:03:33,200
+the torpedoes themselves are expensive
+鱼雷本身很贵
+64
+00:03:33,400 --> 00:03:35,533
+technically advanced machines
+技术先进的机器
+65
+00:03:36,866 --> 00:03:40,033
+the gyro angle setting from the computer is translated
+来自计算机的陀螺仪角度设置被翻译
+66
+00:03:40,033 --> 00:03:42,300
+through a rotating shaft on the tube
+通过管子上的转轴
+67
+00:03:42,400 --> 00:03:44,400
+to set the torpedoes inner gyro
+设置鱼雷内陀螺仪
+68
+00:03:45,933 --> 00:03:50,000
+rods extend from the gyro rearward to rudder
+杆从陀螺仪向后延伸到方向舵
+69
+00:03:52,066 --> 00:03:54,900
+every torpedo has its own adjusted setting
+每个鱼雷都有自己的调整设置
+70
+00:03:54,900 --> 00:03:57,100
+based on its location in the submarine
+根据它在潜艇里的位置
+71
+00:03:59,400 --> 00:04:02,066
+torpedo depth and speed are set by hand
+鱼雷深度和速度由人工设定
+72
+00:04:02,066 --> 00:04:04,133
+from controls on the side of the tube
+从管子侧面的控件
+73
+00:04:04,866 --> 00:04:07,933
+the gyro angle can also be set by hand if needed
+如果需要，陀螺仪角度也可以手动设置
+74
+00:04:11,033 --> 00:04:14,233
+there are six movable bunks suspended from the ceiling
+天花板上悬挂着六个可移动的床铺
+75
+00:04:14,600 --> 00:04:17,666
+but this compartment could accommodate up to 15 beds
+但这个隔间最多可容纳15张床
+76
+00:04:20,433 --> 00:04:22,466
+there's a crew's head or toilet here
+这里有一个船员的头或厕所
+77
+00:04:23,600 --> 00:04:26,466
+and a shower that's mostly used by officers
+还有军官常用的淋浴间
+78
+00:04:28,900 --> 00:04:32,066
+a hatch overhead provides access to the escape trunk
+头顶的舱门提供了逃生通道
+79
+00:04:34,266 --> 00:04:36,433
+which in turn leads to the bridge
+这反过来又通向桥
+80
+00:04:39,100 --> 00:04:41,466
+the escape trunk can be individually sealed
+逃生箱可以单独密封
+81
+00:04:41,466 --> 00:04:43,233
+and either flooded or drained
+要么被淹没，要么被抽干
+82
+00:04:44,033 --> 00:04:45,433
+flooding may be necessary
+洪水可能是必要的
+83
+00:04:45,433 --> 00:04:48,100
+to equalize inside and outside pressure
+平衡内外压力
+84
+00:04:48,200 --> 00:04:51,433
+for safe human passage in adverse conditions
+在恶劣条件下的安全通行
+85
+00:04:54,400 --> 00:04:58,033
+the underwater log is attached to the port side hole
+水下原木附在左舷孔上
+86
+00:05:02,500 --> 00:05:06,200
+with a rod that extends 3 feet beyond the outer hole
+用一根延伸到外孔3英尺的棍子
+87
+00:05:08,033 --> 00:05:10,133
+the rod has openings at the tip
+杆子尖端有开口
+88
+00:05:10,200 --> 00:05:11,833
+through which seawater flows
+海水流经的地方
+89
+00:05:11,833 --> 00:05:13,500
+to measure pressure differences
+测量压力差异
+90
+00:05:15,633 --> 00:05:18,833
+and thereby derive speed and distance traveled
+从而推导出行驶的速度和距离
+91
+00:05:24,266 --> 00:05:26,133
+heading aft or rearward
+向后或向后航行
+92
+00:05:26,300 --> 00:05:29,233
+we pass through a bulkhead with its watertight door
+我们穿过有水密门的舱壁
+93
+00:05:29,933 --> 00:05:32,733
+we've now moved into officers quarters
+我们现在搬进了军官宿舍
+94
+00:05:34,500 --> 00:05:35,700
+there's a small pantry here
+这里有个小储藏室
+95
+00:05:35,700 --> 00:05:37,433
+for serving food to officers
+为军官提供食物
+96
+00:05:37,433 --> 00:05:37,666
+though
+虽然
+97
+00:05:37,666 --> 00:05:40,600
+only coffee and toast are actually prepared here
+这里其实只准备了咖啡和吐司
+98
+00:05:41,300 --> 00:05:43,900
+with food itself coming from the cruise galley
+食物本身来自游轮厨房
+99
+00:05:45,666 --> 00:05:49,033
+the adjacent officers'wardroom serves as a mess hall
+邻近的军官室用作食堂
+100
+00:05:49,233 --> 00:05:52,200
+recreation room workspace and meeting room
+娱乐室工作区和会议室
+101
+00:05:56,933 --> 00:05:59,266
+there are four bunks at the other side
+另一边有四个铺位
+102
+00:06:02,400 --> 00:06:05,000
+with an additional six bunks down the hall
+走廊另加六个床位
+103
+00:06:08,066 --> 00:06:11,300
+the rooms are partitioned with textile curtains
+房间用纺织窗帘隔开
+104
+00:06:13,866 --> 00:06:16,400
+the captain's room is separate from the rest
+船长的房间和其他房间是分开的
+105
+00:06:18,300 --> 00:06:21,000
+with redundant course indicator and depth gauges
+带有冗余的航向指示器和深度计
+106
+00:06:21,000 --> 00:06:22,333
+mounted on the wall
+挂在墙上
+107
+00:06:24,533 --> 00:06:25,700
+a writing desk
+写字台
+108
+00:06:28,000 --> 00:06:29,466
+and wall mounted components
+和壁挂式组件
+109
+00:06:29,466 --> 00:06:32,266
+for access to the ship's communication systems
+进入飞船的通讯系统
+110
+00:06:35,233 --> 00:06:35,633
+there would be
+会有
+111
+00:06:35,633 --> 00:06:38,100
+anywhere from six to eight officers on board
+船上有6到8名军官
+112
+00:06:41,600 --> 00:06:44,266
+there's a small office at the end of the hall
+大厅尽头有个小办公室
+113
+00:06:44,300 --> 00:06:46,133
+with a typewriter for record keeping
+用打字机保存记录
+114
+00:06:51,066 --> 00:06:52,333
+from office to country
+从办公室到国家
+115
+00:06:52,333 --> 00:06:55,300
+we pass through another bulkhead into the control room
+我们通过另一个舱壁进入控制室
+116
+00:06:55,466 --> 00:06:58,400
+which is packed to the last square inch
+包装到最后一平方英寸
+117
+00:06:58,433 --> 00:07:00,900
+with state of the art technology for its time
+拥有当时最先进的技术
+118
+00:07:04,066 --> 00:07:05,066
+at the center
+在中心
+119
+00:07:05,333 --> 00:07:07,100
+there's a dead reckoning tracer
+有一个死亡推算追踪器
+120
+00:07:07,466 --> 00:07:09,866
+which takes input from the previously shown
+它从前面显示的输入中获取输入
+121
+00:07:09,866 --> 00:07:11,633
+underwater log device
+水下测井仪
+122
+00:07:11,800 --> 00:07:13,933
+and the nearby master compass
+和附近的主指南针
+123
+00:07:14,266 --> 00:07:16,600
+to automatically move a pencil
+自动移动铅笔
+124
+00:07:16,666 --> 00:07:20,000
+which draws the ship's course on a map or chart
+在地图或海图上画出船的航线
+125
+00:07:20,000 --> 00:07:20,833
+underneath
+下面
+126
+00:07:21,933 --> 00:07:23,900
+it has knobs to make adjustments
+它有旋钮可以进行调整
+127
+00:07:24,200 --> 00:07:27,600
+or recalibrate the device when maps are swapped out
+或在更换地图时重新校准设备
+128
+00:07:29,200 --> 00:07:32,500
+the Master Gyrocompass occupies a large case
+罗盘大师占据了一个大箱子
+129
+00:07:32,500 --> 00:07:34,266
+underneath a central table
+在中央桌子下面
+130
+00:07:34,433 --> 00:07:37,133
+with a shatterproof glass viewing port
+带防碎玻璃观察口
+131
+00:07:38,333 --> 00:07:41,866
+it uses gyroscopic forces to find true north
+它利用陀螺力来寻找真正的北方
+132
+00:07:42,100 --> 00:07:44,033
+instead of magnetic north
+而不是磁北
+133
+00:07:45,533 --> 00:07:46,400
+magnetic compass
+磁罗盘
+134
+00:07:46,400 --> 00:07:47,000
+accuracy
+精度
+135
+00:07:47,000 --> 00:07:49,633
+can be negatively affected by other electrical
+会受到其他电气的负面影响
+136
+00:07:49,633 --> 00:07:50,833
+or metal objects
+或金属物体
+137
+00:07:50,833 --> 00:07:52,333
+including the ship's hull
+包括船体
+138
+00:07:54,633 --> 00:07:56,533
+at the heart of the gyrocompass
+在陀螺罗盘的中心
+139
+00:07:56,600 --> 00:07:59,933
+a spinning element sits suspended in a cup
+一个旋转的元素悬浮在杯子里
+140
+00:07:59,933 --> 00:08:01,600
+partially filled with mercury
+部分充满汞
+141
+00:08:02,400 --> 00:08:05,300
+this element's rotation is electrically driven
+这个元件的旋转是电动的
+142
+00:08:06,333 --> 00:08:09,233
+the cup is part of a hollow metal sphere
+杯子是中空金属球的一部分
+143
+00:08:09,466 --> 00:08:12,066
+that is itself suspended in mercury
+它本身悬浮在水银中
+144
+00:08:13,100 --> 00:08:15,533
+encased by an outer supporting sphere
+由外支撑球体包裹
+145
+00:08:17,300 --> 00:08:21,133
+the core apparatus is held and isolated from shocks
+核心设备被保持并与冲击隔离
+146
+00:08:21,133 --> 00:08:23,233
+by a ring of soft springs
+一圈柔软的弹簧
+147
+00:08:23,233 --> 00:08:25,900
+and flexible metal bumpers with felt tips
+和带毡尖的柔性金属保险杠
+148
+00:08:26,733 --> 00:08:29,466
+which extend from an inner gimbal ring
+从内万向节环延伸
+149
+00:08:29,933 --> 00:08:32,333
+through connection to an outer gimbal ring
+通过连接到外部万向节环
+150
+00:08:32,866 --> 00:08:36,433
+the compass maintains its own specific orientation
+指南针保持自己特定的方向
+151
+00:08:36,500 --> 00:08:38,433
+apart from the submarine's movement
+除了潜艇的移动
+152
+00:08:39,266 --> 00:08:40,300
+the highly sensitive
+高度敏感
+153
+00:08:40,300 --> 00:08:41,033
+spinning core
+纺丝芯
+154
+00:08:41,033 --> 00:08:43,800
+maintains its relationship to Earth's gravity
+维持它与地球引力的关系
+155
+00:08:44,100 --> 00:08:45,100
+allowing finite
+允许有限
+156
+00:08:45,100 --> 00:08:47,866
+directional changes to be continuously tracked
+持续跟踪方向变化
+157
+00:08:50,933 --> 00:08:54,233
+above this central table there's a bathy thermograph
+在这张中央桌子的上方有一个恒温仪。
+158
+00:08:54,700 --> 00:08:57,800
+that charts water temperature at various depths
+绘制不同深度的水温
+159
+00:08:57,800 --> 00:08:59,100
+on paper cards
+在纸质卡片上
+160
+00:08:59,833 --> 00:09:01,066
+water temperature affects
+水温影响
+161
+00:09:01,066 --> 00:09:04,300
+among other things sonar range and accuracy
+声纳的范围和精度
+162
+00:09:05,133 --> 00:09:08,533
+including avoiding sonar detection from other vessels
+包括避免其他船只的声纳探测
+163
+00:09:09,633 --> 00:09:10,866
+there's a fathometer
+有一个测深仪
+164
+00:09:10,933 --> 00:09:12,800
+which displays the result of pings
+显示ping的结果
+165
+00:09:12,800 --> 00:09:15,266
+to determine the depth of water below the keel
+来确定龙骨下面的水深
+166
+00:09:17,233 --> 00:09:20,733
+there are repeating gauges for target bearing and range
+目标方位和射程有重复的仪表
+167
+00:09:24,066 --> 00:09:25,400
+along the port side wall
+沿左舷壁
+168
+00:09:25,400 --> 00:09:27,066
+which would be the left side of the submarine
+也就是潜艇的左侧
+169
+00:09:27,066 --> 00:09:28,433
+looking towards the front
+朝前看
+170
+00:09:28,733 --> 00:09:30,200
+there's the diving station
+那是潜水站
+171
+00:09:31,266 --> 00:09:32,300
+with separate wheels
+有单独的轮子
+172
+00:09:32,300 --> 00:09:34,133
+to control the previously shown bow
+控制前面显示的弓
+173
+00:09:34,133 --> 00:09:35,333
+plane angle
+平面角
+174
+00:09:36,033 --> 00:09:38,400
+and a similar plane at the stern
+船尾还有一架类似的飞机
+175
+00:09:39,233 --> 00:09:42,400
+each wheel has its own water depth to keel gauge
+每个轮子都有自己的水深到龙骨量规
+176
+00:09:43,133 --> 00:09:44,700
+plane angle indicator
+平面角度指示器
+177
+00:09:45,500 --> 00:09:46,533
+an inclinometer
+测斜仪
+178
+00:09:46,533 --> 00:09:48,933
+that works something like a construction level
+这就像一个建筑水平
+179
+00:09:48,933 --> 00:09:50,800
+using an air bubble in a liquid
+利用液体中的气泡
+180
+00:09:50,800 --> 00:09:52,133
+to track boat angle
+跟踪船角度
+181
+00:09:53,500 --> 00:09:55,300
+with separate glass tubes
+带有单独的玻璃管
+182
+00:09:55,733 --> 00:09:57,800
+for coarse and fine readings
+用于粗略和精细读数
+183
+00:09:58,666 --> 00:10:01,500
+in the center there's a deep depth gauge
+在中心有一个深度测量仪
+184
+00:10:02,200 --> 00:10:05,033
+and a barometer to measure internal air pressure
+和一个气压计来测量内部气压
+185
+00:10:07,066 --> 00:10:07,833
+moving forward
+前进
+186
+00:10:07,833 --> 00:10:11,200
+on this side there's the whole opening indicator panel
+在这边有整个打开指示器面板
+187
+00:10:11,833 --> 00:10:12,900
+with status lights
+带状态灯
+188
+00:10:12,900 --> 00:10:15,933
+which show red for open or green for closed
+打开显示红色，关闭显示绿色
+189
+00:10:16,100 --> 00:10:18,100
+corresponding to the many vents
+对应许多通风口
+190
+00:10:18,133 --> 00:10:20,666
+exhaust ports hatches and so on
+排气口舱口等
+191
+00:10:20,833 --> 00:10:22,666
+through which seawater may enter
+海水可以通过它进入
+192
+00:10:23,433 --> 00:10:26,933
+the boat is ready to dive when all lights are green
+船准备下潜当所有的灯都是绿色的
+193
+00:10:27,700 --> 00:10:31,000
+even then some air is pumped into the boat
+即使这样，也有一些空气被泵入船中
+194
+00:10:31,133 --> 00:10:32,800
+and the barometer gauge is checked
+并且检查了气压计
+195
+00:10:32,800 --> 00:10:35,266
+to verify increased internal pressure
+以验证增加的内部压力
+196
+00:10:35,900 --> 00:10:38,000
+ensuring water tightness
+确保水密性
+197
+00:10:38,933 --> 00:10:41,833
+below that the main hydraulic controls
+下面是主要的液压控制
+198
+00:10:42,066 --> 00:10:43,133
+which control vents
+哪个控制通风口
+199
+00:10:43,133 --> 00:10:46,266
+valves and many other crucial hydraulic systems
+阀门和许多其他关键的液压系统
+200
+00:10:48,266 --> 00:10:49,933
+at the back of this side
+在这一边的后面
+201
+00:10:50,033 --> 00:10:51,400
+there's the trim manifold
+这是修剪歧管
+202
+00:10:51,400 --> 00:10:53,500
+which is used to pump water from
+它是用来抽水的
+203
+00:10:53,533 --> 00:10:55,066
+and to the sea
+和大海
+204
+00:10:55,500 --> 00:10:57,066
+or between tanks
+或坦克之间
+205
+00:10:59,133 --> 00:11:02,100
+on the opposite or starboard side of the control room
+在控制室的对面或右舷
+206
+00:11:02,400 --> 00:11:03,700
+starting from the rear
+从后面开始
+207
+00:11:04,133 --> 00:11:06,533
+we see the air manifolds and gauges
+我们看到了空气歧管和仪表
+208
+00:11:07,000 --> 00:11:09,433
+this station manages air throughout the boat
+这个气站管理着船上的空气
+209
+00:11:10,200 --> 00:11:12,500
+air is used in ballast tanks
+压载舱使用空气
+210
+00:11:13,033 --> 00:11:14,533
+for firing torpedoes
+发射鱼雷
+211
+00:11:15,066 --> 00:11:17,666
+to run many gauges and instruments on board
+在船上运行许多仪表和仪器
+212
+00:11:18,300 --> 00:11:20,833
+for ventilation and breathing and so on
+用于通风和呼吸等等
+213
+00:11:22,000 --> 00:11:22,933
+in front of that
+在那前面
+214
+00:11:22,933 --> 00:11:25,133
+there's the gyrocompass control panel
+这是罗盘控制面板
+215
+00:11:25,233 --> 00:11:26,833
+with metal twist knobs
+带金属旋钮
+216
+00:11:27,000 --> 00:11:27,900
+indicator lights
+指示灯
+217
+00:11:27,900 --> 00:11:30,700
+and gauges to oversee gyrocompass function
+和仪表来监督陀螺罗盘的功能
+218
+00:11:31,066 --> 00:11:33,466
+and relay readings to various repeating gauges
+并将读数继电器到各种重复仪表
+219
+00:11:33,466 --> 00:11:34,666
+at other locations
+在其他地方
+220
+00:11:34,666 --> 00:11:35,600
+aboard the vessel
+在船上
+221
+00:11:36,700 --> 00:11:38,866
+next to that there's a large switchboard
+旁边有一个大的总机
+222
+00:11:38,866 --> 00:11:39,466
+to monitor
+监视
+223
+00:11:39,466 --> 00:11:42,100
+and configure the many electrical systems on board
+并配置船上的许多电气系统
+224
+00:11:42,400 --> 00:11:45,000
+and also indicate the status of machinery
+并指出机器的状态
+225
+00:11:45,000 --> 00:11:46,600
+to other parts of the ship
+到船的其他部分
+226
+00:11:48,000 --> 00:11:49,533
+at the front of the control room
+在控制室的前面
+227
+00:11:49,533 --> 00:11:51,666
+there's an auxiliary steering station
+有一个辅助转向站
+228
+00:11:52,466 --> 00:11:55,233
+the boat's main steering wheel is in the conning tower
+船的主方向盘在指挥塔里
+229
+00:11:57,266 --> 00:12:00,000
+an auxiliary gyrocompass sits behind this wheel
+辅助罗盘位于这个轮子后面
+230
+00:12:01,833 --> 00:12:04,466
+there are repeater gauges for the underwater log
+水下日志有中继器仪表
+231
+00:12:05,200 --> 00:12:06,066
+compass
+罗盘
+232
+00:12:06,733 --> 00:12:07,733
+rudder angle
+舵角
+233
+00:12:08,500 --> 00:12:10,333
+and motor order telegraph
+和电机订单电报
+234
+00:12:10,333 --> 00:12:11,300
+which is used
+使用哪个
+235
+00:12:11,300 --> 00:12:14,033
+to send motor orders to other parts of the ship
+将发动机订单发送到船的其他部分
+236
+00:12:16,133 --> 00:12:17,033
+there's a ladder here
+这里有个梯子
+237
+00:12:17,033 --> 00:12:19,500
+which leads to a hatch on the main deck
+通向主甲板的舱门
+238
+00:12:22,466 --> 00:12:24,666
+at the back of the control room
+在控制室的后面
+239
+00:12:25,733 --> 00:12:28,600
+we see two large periscope well tubes
+我们看到两个大的潜望镜井管
+240
+00:12:28,600 --> 00:12:30,933
+that pass completely through the control room
+完全通过控制室
+241
+00:12:31,133 --> 00:12:34,300
+with various equipment control boxes attached
+附有各种设备控制箱
+242
+00:12:35,033 --> 00:12:38,433
+near the ceiling there are three colored alarms
+天花板附近有三个彩色警报器
+243
+00:12:39,633 --> 00:12:41,433
+green is the diving alarm
+绿色是潜水报警器
+244
+00:12:41,466 --> 00:12:42,900
+whose alert meant sailors had
+他的警报意味着水手们
+245
+00:12:42,900 --> 00:12:44,833
+10 seconds to get below decks
+10秒到达甲板以下
+246
+00:12:44,866 --> 00:12:46,933
+secure hatches and begin the dive
+打开舱门开始下潜
+247
+00:12:48,000 --> 00:12:50,633
+the yellow alarm is for general quarters
+黄色警报器是一般宿舍用的
+248
+00:12:50,833 --> 00:12:52,933
+meaning sailors would race to battle stations
+意味着水手们会奔向战斗岗位
+249
+00:12:52,933 --> 00:12:54,333
+and prepare for combat
+并准备战斗
+250
+00:12:55,433 --> 00:12:57,433
+the red is the collision alarm
+红色是碰撞警报
+251
+00:12:58,000 --> 00:12:59,266
+when this alarm sounded
+当警报响起时
+252
+00:12:59,266 --> 00:13:01,666
+sailors closed all watertight doors
+水手们关上了所有的水密门
+253
+00:13:01,666 --> 00:13:03,100
+among other protocols
+在其他协议中
+254
+00:13:04,833 --> 00:13:05,800
+there's a ladder here
+这里有个梯子
+255
+00:13:05,800 --> 00:13:08,100
+which takes us into the conning tower
+带我们进入控制塔
+256
+00:13:08,833 --> 00:13:12,300
+the conning tower gets its name from the root word con
+控制塔的名字来源于词根con
+257
+00:13:13,133 --> 00:13:15,300
+meaning to conduct or steer
+意为指挥或引导
+258
+00:13:16,633 --> 00:13:18,600
+this is the main attack
+这是主攻
+259
+00:13:18,600 --> 00:13:20,633
+and navigation center for the ship
+和船的导航中心
+260
+00:13:22,066 --> 00:13:24,466
+at the center there are two periscopes
+在中心有两个潜望镜
+261
+00:13:24,900 --> 00:13:26,933
+let's zoom out and get the full view
+让我们缩小并获得完整的视图
+262
+00:13:28,000 --> 00:13:31,633
+periscopes extend upwards through periscope shears
+潜望镜通过潜望镜剪刀向上延伸
+263
+00:13:32,600 --> 00:13:34,333
+which are visible at the exterior
+从外部可以看到
+264
+00:13:34,400 --> 00:13:35,800
+when the boat is surfaced
+当船浮出水面时
+265
+00:13:38,633 --> 00:13:42,200
+Max effective periscope depth is 65 feet
+潜望镜最大有效深度65英尺
+266
+00:13:42,333 --> 00:13:45,100
+which the submarine can reach in an incredible
+潜艇可以以难以置信的速度到达
+267
+00:13:45,200 --> 00:13:48,333
+35 seconds Wells extend from the shears
+35秒后，井从剪刀延伸出来
+268
+00:13:48,333 --> 00:13:50,533
+all the way to the bottom of the pressure hole
+一直到压力孔的底部
+269
+00:13:51,633 --> 00:13:54,266
+with rubber bump stops at the end of their travel
+在旅行结束时有橡胶缓冲站
+270
+00:13:58,400 --> 00:13:59,400
+the forward scope
+正向范围
+271
+00:13:59,400 --> 00:14:02,033
+is the observation or search periscope
+是观察还是搜索潜望镜
+272
+00:14:04,633 --> 00:14:07,133
+it's shorter but thicker in circumference
+它更短，但周长更厚
+273
+00:14:07,300 --> 00:14:09,466
+making it easier for the enemy to see
+让敌人更容易看到
+274
+00:14:12,200 --> 00:14:15,433
+it has superior capabilities in low light conditions
+它在弱光条件下具有卓越的能力
+275
+00:14:16,100 --> 00:14:19,133
+below the main viewport there's a radar installation
+在主视口下方有一个雷达装置
+276
+00:14:20,933 --> 00:14:23,600
+the rear scope is the ATAK Periscope
+后瞄准镜是ATAK潜望镜
+277
+00:14:24,333 --> 00:14:27,700
+it's much thinner profile makes it harder to spot
+它的轮廓更薄更难辨认
+278
+00:14:28,500 --> 00:14:30,866
+it's also about 4 feet longer
+它也长了大约4英尺
+279
+00:14:31,200 --> 00:14:33,000
+allowing deeper dive depth
+允许更深的潜水深度
+280
+00:14:34,133 --> 00:14:35,900
+back in the conning tower
+回到指挥塔
+281
+00:14:37,133 --> 00:14:40,400
+handles are unfolded to rotate the periscope
+把手展开以旋转潜望镜
+282
+00:14:42,733 --> 00:14:44,300
+handles also twist
+把手也会扭动
+283
+00:14:44,300 --> 00:14:47,333
+to control other available periscope features
+控制其他可用的潜望镜功能
+284
+00:14:47,700 --> 00:14:50,700
+the attack scope has an optical range finder
+攻击瞄准镜有光学测距仪
+285
+00:14:50,800 --> 00:14:52,633
+to determine distance to target
+确定到目标的距离
+286
+00:14:53,333 --> 00:14:55,033
+with a supporting statometer
+带支撑定位器
+287
+00:14:55,733 --> 00:14:57,700
+which helps derive target distance
+这有助于推导目标距离
+288
+00:14:57,700 --> 00:15:00,500
+by comparing viewing angles top to bottom
+通过从上到下比较视角
+289
+00:15:00,633 --> 00:15:02,800
+for objects with a known height
+对于已知高度的物体
+290
+00:15:03,733 --> 00:15:06,400
+turning towards the starboard or right side of the ship
+转向船的右舷或右侧
+291
+00:15:06,400 --> 00:15:07,466
+looking forward
+向前看
+292
+00:15:07,533 --> 00:15:08,833
+there's an inclinometer
+有一个倾角计
+293
+00:15:10,033 --> 00:15:11,633
+there's also indicator gauges
+还有指示器
+294
+00:15:11,633 --> 00:15:15,000
+and controls for various types of onboard radar
+和控制各种类型的机载雷达
+295
+00:15:16,266 --> 00:15:17,233
+in front of that
+在那前面
+296
+00:15:17,300 --> 00:15:20,466
+there's the sonar control panel with gauges and knobs
+这是声纳控制面板，带有仪表和旋钮
+297
+00:15:20,466 --> 00:15:23,433
+to remotely direct various sonar projectors
+遥控各种声纳投影仪
+298
+00:15:26,466 --> 00:15:29,900
+visible sonar components include a rotating hydrophone
+可见声纳组件包括旋转水听器
+299
+00:15:29,900 --> 00:15:31,800
+at the starboard side of the bridge
+在桥的右舷
+300
+00:15:31,800 --> 00:15:33,700
+for standard sonar capability
+标准声纳能力
+301
+00:15:35,433 --> 00:15:39,000
+and two retractable sonar projectors under the hole
+和两个可伸缩的声纳投影仪在洞下
+302
+00:15:39,100 --> 00:15:40,433
+near the front of the boat
+在船的前面
+303
+00:15:40,800 --> 00:15:42,433
+for supersonic sounds
+对于超音速声音
+304
+00:15:42,800 --> 00:15:44,933
+that is sound that humans can't hear
+那是人类听不见的声音
+305
+00:15:44,933 --> 00:15:46,300
+without the aid of equipment
+没有设备的帮助
+306
+00:15:49,866 --> 00:15:51,433
+back in the conning tower
+回到指挥塔
+307
+00:15:51,666 --> 00:15:53,733
+there's a ladder which leads outside
+有一个梯子通向外面
+308
+00:15:54,200 --> 00:15:56,000
+to the lookout platform above
+到上面的瞭望平台
+309
+00:15:58,700 --> 00:16:01,466
+the main steering station is at the forward wall
+主转向站在前方的墙上
+310
+00:16:01,733 --> 00:16:03,466
+with a ship's main steering wheel
+用船的主方向盘
+311
+00:16:03,866 --> 00:16:06,900
+and familiar gauges for speed and distance traveled
+以及熟悉的速度和行驶距离的仪表
+312
+00:16:07,066 --> 00:16:09,000
+rudder angle compass repeater
+舵角罗经中继器
+313
+00:16:09,200 --> 00:16:11,066
+and a motor order telegraph
+和一个汽车订单电报
+314
+00:16:13,333 --> 00:16:15,066
+moving to the port side wall
+移动到左舷侧壁
+315
+00:16:15,066 --> 00:16:17,000
+we see the torpedo firing panel
+我们看到鱼雷发射面板
+316
+00:16:17,300 --> 00:16:19,266
+with status indicator lights
+带状态指示灯
+317
+00:16:19,266 --> 00:16:21,633
+and firing switches for each tube
+每个管子的点火开关
+318
+00:16:23,033 --> 00:16:26,000
+behind that the Torpedo Data computer
+后面是鱼雷数据计算机
+319
+00:16:26,733 --> 00:16:30,700
+this is an analog computer weighing in at about 1500
+这是一台模拟计算机，重约1500磅。
+320
+00:16:31,000 --> 00:16:34,800
+pounds instead of circuit boards and chips
+磅而不是电路板和芯片
+321
+00:16:34,833 --> 00:16:37,900
+it uses electrically driven physical gears
+它使用电动物理齿轮
+322
+00:16:38,000 --> 00:16:40,533
+wheels levers and so on
+车轮杠杆等
+323
+00:16:40,700 --> 00:16:43,466
+to make complex trigonometry calculations
+进行复杂的三角计算
+324
+00:16:43,533 --> 00:16:44,666
+for accurate torpedo
+精确鱼雷
+325
+00:16:44,666 --> 00:16:47,133
+firing between the constantly moving submarine
+在不断移动的潜艇之间开火
+326
+00:16:47,133 --> 00:16:51,200
+and targets at ranges up to 9000 yards
+目标射程可达9000码
+327
+00:16:52,100 --> 00:16:55,700
+and angle shots up to 90 degrees right or left
+和90度左右的角度拍摄
+328
+00:16:57,900 --> 00:17:01,333
+calculation results are sent to other systems on board
+计算结果发送到船上的其他系统
+329
+00:17:05,300 --> 00:17:06,600
+against the back wall
+靠着后墙
+330
+00:17:06,600 --> 00:17:07,933
+there's a dead reckoning tracer
+有一个死亡推算追踪器
+331
+00:17:07,933 --> 00:17:09,833
+like the one found in the control room
+就像在控制室发现的那个
+332
+00:17:12,833 --> 00:17:14,400
+let's head back down the ladder
+让我们回到梯子上
+333
+00:17:17,600 --> 00:17:19,200
+at the rear of the control room
+在控制室的后面
+334
+00:17:20,233 --> 00:17:21,666
+there's a separate radio room
+有一个单独的无线电室
+335
+00:17:21,666 --> 00:17:23,866
+which is filled with communication equipment
+里面装满了通讯设备
+336
+00:17:25,266 --> 00:17:28,100
+near the door there's a special cipher machine
+门附近有一台特殊的密码机器
+337
+00:17:28,233 --> 00:17:30,933
+for receiving and transmitting coded messages
+用于接收和发送编码消息
+338
+00:17:35,500 --> 00:17:37,000
+traveling aft or rearward
+向后或向后行驶
+339
+00:17:37,000 --> 00:17:38,633
+through another pressure bulkhead
+通过另一个压力舱壁
+340
+00:17:38,933 --> 00:17:41,033
+we enter the main crew areas
+我们进入主船员区
+341
+00:17:41,466 --> 00:17:44,400
+where the ship's 60 to 70 crew members eat
+船上60到70名船员在那里吃饭
+342
+00:17:44,400 --> 00:17:47,333
+sleep and congregate during off duty hours
+下班时间睡觉和集合
+343
+00:17:49,266 --> 00:17:51,133
+all the food for the crew and officers
+船员和军官的所有食物
+344
+00:17:51,133 --> 00:17:53,033
+is prepared in this small galley
+是在这个小厨房里准备的
+345
+00:17:55,433 --> 00:17:58,533
+a large distinctive coffee urn or percolator
+一个大的独特的咖啡瓮或渗滤壶
+346
+00:17:58,533 --> 00:18:00,000
+is at the open end of the galley
+在厨房的开口端
+347
+00:18:00,000 --> 00:18:01,800
+for easy access to crew
+便于接近船员
+348
+00:18:03,266 --> 00:18:06,100
+there's a floor hatch for food storage in the hold
+货舱里有一个储存食物的舱口
+349
+00:18:07,500 --> 00:18:09,700
+the mess area has various tables
+食堂区有各种桌子
+350
+00:18:10,600 --> 00:18:13,200
+with benches that double as storage chests
+长椅兼作储物箱
+351
+00:18:14,266 --> 00:18:16,900
+apart from meals the crew could relax here
+除了吃饭，船员们可以在这里放松
+352
+00:18:16,900 --> 00:18:20,000
+listen to the radio or play board or card games
+听收音机或玩棋盘或纸牌游戏
+353
+00:18:21,033 --> 00:18:22,800
+there's a bookcase at one end
+一端有个书架
+354
+00:18:23,833 --> 00:18:25,933
+and a drinking fountain over the sink
+还有水槽上的饮水机
+355
+00:18:26,900 --> 00:18:30,333
+among various food storage and preparation compartments
+在各种食物储存和准备室之间
+356
+00:18:31,433 --> 00:18:34,333
+a ladder near the back leads out to the main deck
+后面的梯子通向主甲板
+357
+00:18:36,933 --> 00:18:39,400
+passing through the curtain at the end of the mess room
+穿过餐厅尽头的窗帘
+358
+00:18:39,400 --> 00:18:41,500
+leads us into the crew's quarters
+带我们进入船员的住处
+359
+00:18:42,533 --> 00:18:44,733
+there are 36 bunks for sleeping
+有36个床铺睡觉
+360
+00:18:45,900 --> 00:18:47,533
+with individual storage bags
+带单独的储物袋
+361
+00:18:47,533 --> 00:18:49,333
+suspended from the bunk rails
+悬挂在铺位栏杆上
+362
+00:18:50,333 --> 00:18:52,500
+bunks were used in a shared rotation
+床铺是共用的
+363
+00:18:52,500 --> 00:18:53,633
+between crew members
+船员之间
+364
+00:18:53,633 --> 00:18:56,066
+with some sleeping while others were on duty
+一些人在睡觉，而另一些人在值班
+365
+00:18:57,866 --> 00:19:00,066
+there's a dedicated ice cream storage freezer
+有一个专用的冰淇淋储存冰箱
+366
+00:19:00,066 --> 00:19:01,400
+at the Starver side
+在Starver一边
+367
+00:19:01,733 --> 00:19:04,733
+dangerous and stressful conditions aboard submarines
+潜艇上的危险和紧张条件
+368
+00:19:04,733 --> 00:19:04,933
+meant
+意味着
+369
+00:19:04,933 --> 00:19:07,400
+these sailors were afforded the best food in the Navy
+这些水手得到了海军里最好的食物
+370
+00:19:07,400 --> 00:19:08,533
+to keep up morale
+保持士气
+371
+00:19:11,133 --> 00:19:13,833
+at the back there are two restrooms
+后面有两个洗手间
+372
+00:19:15,733 --> 00:19:17,000
+two showers
+两次淋浴
+373
+00:19:18,000 --> 00:19:19,400
+and a washing machine
+和洗衣机
+374
+00:19:24,900 --> 00:19:26,266
+we continue rearward
+我们继续向后
+375
+00:19:26,633 --> 00:19:29,300
+heading through a pressure door into the engine room
+穿过压力门进入机舱
+376
+00:19:30,466 --> 00:19:31,333
+four huge
+四个巨大的
+377
+00:19:31,333 --> 00:19:33,900
+diesel engines provide power for the submarine
+柴油发动机为潜艇提供动力
+378
+00:19:35,100 --> 00:19:37,600
+a few different types were common for the era
+在那个时代有几种不同的类型很常见
+379
+00:19:38,400 --> 00:19:40,233
+I've chosen to feature the 10 cylinder
+我选择了10缸
+380
+00:19:40,233 --> 00:19:41,700
+opposed piston model
+对置活塞模型
+381
+00:19:42,866 --> 00:19:46,733
+each engine is individually rated for 1600 horsepower
+每台发动机单独额定功率为1600马力
+382
+00:19:48,000 --> 00:19:50,000
+the engines extend between decks
+引擎在甲板之间延伸
+383
+00:19:50,000 --> 00:19:52,466
+from the bottom to the top of the pressure hole
+从压力孔底部到顶部
+384
+00:19:52,466 --> 00:19:53,533
+at the sides
+在边上
+385
+00:19:56,000 --> 00:19:58,666
+they rotate opposite one another for balance
+它们相对旋转以保持平衡
+386
+00:20:02,800 --> 00:20:04,500
+all are supercharged
+全部增压
+387
+00:20:08,466 --> 00:20:11,200
+the air intake has an attached silencer
+进气口有一个附加的消音器
+388
+00:20:11,200 --> 00:20:12,500
+to mitigate noise
+减轻噪音
+389
+00:20:12,500 --> 00:20:14,300
+which would otherwise be deafening
+否则会震耳欲聋
+390
+00:20:15,800 --> 00:20:18,666
+even so the running engines were so loud
+即便如此，运转的引擎还是如此响亮
+391
+00:20:18,666 --> 00:20:21,600
+that operators used hand signals for communication
+操作员使用手势进行通信
+392
+00:20:22,866 --> 00:20:23,833
+air intake
+进气口
+393
+00:20:23,833 --> 00:20:26,533
+caused a strong breeze through the engine room
+导致引擎室刮起一阵强风
+394
+00:20:29,933 --> 00:20:31,633
+air arrives at the engine room
+空气到达机舱
+395
+00:20:31,633 --> 00:20:33,633
+from the main air induction valve
+从主空气感应阀
+396
+00:20:33,633 --> 00:20:35,533
+just aft of the conning tower
+就在指挥塔的尾部
+397
+00:20:36,333 --> 00:20:39,466
+its high position helped prevent flooding when surfaced
+它的高位置有助于防止浮出水面时的洪水
+398
+00:20:41,466 --> 00:20:44,833
+engines are cooled with both a closed fresh water
+发动机用封闭的淡水冷却
+399
+00:20:44,866 --> 00:20:47,233
+and an open seawater system
+和开放的海水系统
+400
+00:20:48,300 --> 00:20:50,233
+seawater is sprayed into mufflers
+海水喷到消声器里
+401
+00:20:50,233 --> 00:20:52,000
+to act as a spark arrester
+充当火花避雷器
+402
+00:20:52,933 --> 00:20:55,433
+the engines exhaust out through side ports
+引擎通过侧孔排气
+403
+00:20:55,433 --> 00:20:57,266
+beneath the bridge superstructure
+桥下上层建筑
+404
+00:21:00,666 --> 00:21:02,133
+there's an additional smaller
+还有一个更小的
+405
+00:21:02,133 --> 00:21:03,933
+7 cylinder auxiliary engine
+7缸辅助发动机
+406
+00:21:03,933 --> 00:21:05,733
+at the bottom of the pressure hole
+在压力孔的底部
+407
+00:21:06,866 --> 00:21:08,633
+there's a ladder at the back of the engine room
+机舱后面有个梯子
+408
+00:21:08,633 --> 00:21:10,400
+for access to the main deck
+进入主甲板
+409
+00:21:13,833 --> 00:21:17,200
+there are three special fuel ballast tanks with vents
+有三个带通风口的特殊燃料压载舱
+410
+00:21:17,466 --> 00:21:19,000
+water flood valves
+注水阀
+411
+00:21:19,133 --> 00:21:20,433
+and air blowers
+和鼓风机
+412
+00:21:20,433 --> 00:21:23,800
+that can be used as part of the main ballast system
+可以作为主压载系统的一部分
+413
+00:21:24,300 --> 00:21:26,400
+water fuel air
+水燃料空气
+414
+00:21:26,400 --> 00:21:28,333
+or a combination of any of these
+或这些中的任何一个的组合
+415
+00:21:28,333 --> 00:21:31,100
+can be distributed to these tanks as needed
+可以根据需要分配给这些坦克
+416
+00:21:32,300 --> 00:21:35,933
+these are supplemented by four normal fuel tanks
+这些由四个普通油箱补充
+417
+00:21:36,000 --> 00:21:38,866
+with valves for compensating seawater to enter
+带有补偿海水进入的阀门
+418
+00:21:39,100 --> 00:21:42,266
+so the ship can maintain enough weight to submerge
+这样船才能保持足够的重量下沉
+419
+00:21:43,033 --> 00:21:45,900
+saltwater is heavier than the submarine's fuel
+海水比潜艇的燃料重
+420
+00:21:46,066 --> 00:21:48,666
+so seawater is pumped into the tank
+所以海水被泵入水箱
+421
+00:21:48,700 --> 00:21:51,500
+but settles to the bottom as fuel is consumed
+但随着燃料的消耗沉降到底部
+422
+00:21:53,033 --> 00:21:55,666
+heading further aft we enter the motor room
+再往后走，我们进入机动室
+423
+00:21:56,500 --> 00:21:59,233
+the submarine uses a diesel electric setup
+潜艇使用柴油电力装置
+424
+00:22:00,300 --> 00:22:01,866
+where each diesel engine
+每个柴油发动机
+425
+00:22:01,866 --> 00:22:04,066
+has an attached electrical generator
+有一个附加的发电机
+426
+00:22:07,233 --> 00:22:10,933
+power from these generators runs for electric motors
+来自这些发电机的电力用于电动机
+427
+00:22:14,233 --> 00:22:17,466
+when submerged the diesel engines are shut off
+当潜入水中时，柴油发动机就会关闭
+428
+00:22:17,700 --> 00:22:20,500
+and power from the motors comes from battery banks
+电机的动力来自电池组
+429
+00:22:20,500 --> 00:22:23,033
+that take up a large portion of the submarine's
+占据了潜艇的很大一部分
+430
+00:22:23,033 --> 00:22:24,866
+lower deck or hold area
+下层甲板或货舱区
+431
+00:22:26,033 --> 00:22:29,100
+there are forward and aft battery compartments
+有前后电池舱
+432
+00:22:29,733 --> 00:22:33,633
+with 126 battery cells in each compartment
+每个隔间有126个电池
+433
+00:22:35,866 --> 00:22:37,000
+a single battery
+单节电池
+434
+00:22:37,000 --> 00:22:39,533
+is about the size of an outdoor trash can
+大约有一个户外垃圾桶那么大
+435
+00:22:39,900 --> 00:22:43,233
+these compartments have complex air and water systems
+这些隔间有复杂的空气和水系统
+436
+00:22:43,233 --> 00:22:45,300
+for both ventilation and cooling
+用于通风和冷却
+437
+00:22:46,333 --> 00:22:47,333
+when surfaced
+浮出水面时
+438
+00:22:47,333 --> 00:22:48,633
+some of the generators
+一些发电机
+439
+00:22:48,633 --> 00:22:51,233
+power is used to charge the batteries
+电源用于为电池充电
+440
+00:22:52,933 --> 00:22:54,733
+now let's return to the motor room
+现在让我们回到马达室
+441
+00:22:56,033 --> 00:22:58,333
+the ship has four electrical motors
+这艘船有四个电动机
+442
+00:22:58,333 --> 00:23:00,733
+that operate best at high speeds
+在高速下运行最好
+443
+00:23:01,866 --> 00:23:04,666
+motor shafts pass through a reduction gear
+电机轴通过减速齿轮
+444
+00:23:04,800 --> 00:23:07,300
+since the propellers operate best at moderate
+由于螺旋桨在中等条件下运行最佳
+445
+00:23:07,300 --> 00:23:08,666
+to slower speeds
+速度变慢
+446
+00:23:09,100 --> 00:23:10,633
+noise from this reduction gear
+这个减速装置发出的噪音
+447
+00:23:10,633 --> 00:23:13,200
+was the loudest sound produced underwater
+是水下产生的最大声音
+448
+00:23:13,700 --> 00:23:16,800
+so much effort went into designing quieter gear
+花了这么多精力设计更安静的齿轮
+449
+00:23:16,800 --> 00:23:17,633
+assemblies
+装配体
+450
+00:23:19,433 --> 00:23:20,800
+from the reduction gear
+从减速齿轮
+451
+00:23:20,900 --> 00:23:24,033
+two main propeller shafts extend outside the ship
+两个主螺旋桨轴延伸到船外
+452
+00:23:24,033 --> 00:23:25,066
+on each side
+在每一边
+453
+00:23:30,733 --> 00:23:32,466
+Max speeds on the surface
+地表最高速度
+454
+00:23:32,466 --> 00:23:34,800
+using all available propulsion sources
+使用所有可用的推进源
+455
+00:23:34,800 --> 00:23:36,200
+is 21 knots
+是21节
+456
+00:23:36,433 --> 00:23:38,000
+while max submerged speed
+当最大淹没速度
+457
+00:23:38,000 --> 00:23:40,266
+under battery power is 9 knots
+电池电量不足9节
+458
+00:23:41,433 --> 00:23:43,066
+at max underwater speeds
+以最大水下速度
+459
+00:23:43,066 --> 00:23:45,666
+the batteries only lasted about 30 minutes
+电池只能持续大约30分钟
+460
+00:23:46,533 --> 00:23:50,666
+maximum underwater range is around 100 miles at 3 knots
+最大水下航程约100英里时速3节
+461
+00:23:51,666 --> 00:23:54,233
+in practice most dives were short
+实际上大多数潜水都很短
+462
+00:23:54,400 --> 00:23:55,866
+and any dive over
+以及任何潜水
+463
+00:23:56,000 --> 00:23:59,033
+16 to 18 hours was considered dangerous
+16到18小时被认为是危险的
+464
+00:24:02,200 --> 00:24:04,066
+located just above the motor room
+位于机房的正上方
+465
+00:24:04,066 --> 00:24:05,100
+the maneuvering room
+机动室
+466
+00:24:05,100 --> 00:24:08,266
+is the control center for this complex power plant
+是这个复杂发电厂的控制中心
+467
+00:24:08,266 --> 00:24:09,700
+and propulsion system
+和推进系统
+468
+00:24:10,833 --> 00:24:14,333
+the stand and its various levers control for example
+例如，支架及其各种杠杆控制
+469
+00:24:14,333 --> 00:24:17,200
+electrical motor speed and rotation direction
+电动机转速和旋转方向
+470
+00:24:17,533 --> 00:24:20,000
+they can remotely control the diesel engines
+他们可以远程控制柴油机
+471
+00:24:20,866 --> 00:24:23,400
+there are gauges for propeller shaft speed
+有螺旋桨轴速度的仪表
+472
+00:24:24,100 --> 00:24:26,533
+motor order telegraph repeater gauges
+电机订单电报中继器仪表
+473
+00:24:26,900 --> 00:24:29,433
+and many smaller gauges to track the complex
+和许多较小的仪表来跟踪建筑群
+474
+00:24:29,433 --> 00:24:31,100
+electrical circuitry throughout
+整个电路
+475
+00:24:32,033 --> 00:24:33,666
+the system is highly flexible
+系统高度灵活
+476
+00:24:33,666 --> 00:24:35,733
+for many combinations of both diesel
+对于两种柴油的许多组合
+477
+00:24:35,733 --> 00:24:37,500
+engine and battery power
+发动机和电池电源
+478
+00:24:37,533 --> 00:24:41,033
+for powering onboard systems and the propeller shafts
+为机载系统和螺旋桨轴提供动力
+479
+00:24:42,600 --> 00:24:45,600
+there's also a fully functional metal working lathe
+还有一个功能齐全的金属加工车床
+480
+00:24:45,700 --> 00:24:47,066
+at the starboard side
+在右舷
+481
+00:24:48,833 --> 00:24:51,666
+the cubicle in the center is packed with components
+中间的隔间堆满了组件
+482
+00:24:51,666 --> 00:24:52,666
+that link gauges
+那个链接仪表
+483
+00:24:52,666 --> 00:24:55,000
+and levers to their functional counterparts
+以及功能对应物的杠杆
+484
+00:24:56,300 --> 00:24:57,100
+there's a small
+有一个小
+485
+00:24:57,100 --> 00:24:59,433
+engineers office at the back of the room
+工程师办公室在房间后面
+486
+00:25:01,133 --> 00:25:02,033
+from here
+从这里
+487
+00:25:02,033 --> 00:25:04,866
+we pass through the final pressure door into the aft
+我们通过最后的压力门进入船尾
+488
+00:25:04,866 --> 00:25:06,000
+torpedo room
+鱼雷室
+489
+00:25:07,066 --> 00:25:08,800
+there are eight torpedoes here
+这里有八枚鱼雷
+490
+00:25:09,666 --> 00:25:10,833
+four in the tubes
+管子里有四个
+491
+00:25:11,533 --> 00:25:14,266
+and four reloads on skids just behind
+在后面的滑道上再装四次子弹
+492
+00:25:16,033 --> 00:25:17,400
+I've shown six bunks
+我已经展示了六个铺位
+493
+00:25:17,400 --> 00:25:20,066
+though up to 15 could be deployed in this room
+尽管这个房间里可以部署多达15个
+494
+00:25:22,433 --> 00:25:24,700
+there's another head here as well
+这里还有一个头
+495
+00:25:27,300 --> 00:25:28,800
+as for the inside of the boat
+至于船的内部
+496
+00:25:28,800 --> 00:25:31,100
+the only remaining compartment we haven't seen
+我们唯一没见过的隔间
+497
+00:25:31,100 --> 00:25:32,266
+is the pump room
+是泵房
+498
+00:25:32,700 --> 00:25:34,466
+which is beneath the control room
+在控制室下面
+499
+00:25:35,533 --> 00:25:39,100
+it houses various air water and hydraulic pumps
+它容纳各种空气水泵和液压泵
+500
+00:25:40,066 --> 00:25:42,600
+behind that and beneath the cruise galley and mess
+在那后面，在游轮厨房和混乱的下面
+501
+00:25:42,600 --> 00:25:45,466
+is a storage space for food and ammunition
+是储存食物和弹药的地方
+502
+00:25:48,733 --> 00:25:51,800
+submarines had various gun configurations
+潜艇有各种火炮配置
+503
+00:25:52,033 --> 00:25:53,466
+our model features two
+我们的模型有两个特点
+504
+00:25:53,466 --> 00:25:56,700
+40 millimeter guns for and aft of the conning tower
+指挥塔后方的40毫米口径火炮
+505
+00:25:56,900 --> 00:25:58,300
+with a shorter range
+射程更短
+506
+00:25:59,900 --> 00:26:03,100
+and one gun at the front for longer range targets
+还有一把枪在前面瞄准远程目标
+507
+00:26:05,000 --> 00:26:05,933
+there are watertight
+有防水的
+508
+00:26:05,933 --> 00:26:09,000
+pressure proof canisters mounted nearby with ammunition
+装有弹药的耐压罐安装在附近
+509
+00:26:09,000 --> 00:26:10,600
+and replacement gun barrels
+和更换枪管
+510
+00:26:12,033 --> 00:26:14,600
+all of these guns were used for anti aircraft
+这些枪都是用来防空的
+511
+00:26:14,600 --> 00:26:16,333
+and some surface targets
+和一些地表目标
+512
+00:26:17,433 --> 00:26:20,033
+the main deck has teak wood planks at the center
+主甲板中央是柚木木板
+513
+00:26:20,033 --> 00:26:22,866
+painted black like the rest of the deck to camouflage
+像甲板的其他部分一样涂成黑色以伪装
+514
+00:26:23,200 --> 00:26:25,633
+she could be completely invisible to human eyes
+人类的眼睛完全看不见她
+515
+00:26:25,633 --> 00:26:26,633
+from overhead craft
+从头顶上的飞行器
+516
+00:26:26,633 --> 00:26:27,666
+when submerged
+淹没时
+517
+00:26:30,733 --> 00:26:33,266
+the raised portion at the center is the Fairwater
+中间凸起的部分是费尔沃特
+518
+00:26:33,266 --> 00:26:36,600
+or sail which wraps around the conning tower cylinder
+或者绕着控制塔圆柱体的帆
+519
+00:26:38,400 --> 00:26:41,033
+there are two target bearing transmitters
+有两个目标方位发射机
+520
+00:26:41,233 --> 00:26:44,100
+which are optical devices to track enemy targets
+用来追踪敌方目标的光学设备
+521
+00:26:50,500 --> 00:26:52,466
+there's a button to Mark the bearing
+有一个按钮可以标记轴承
+522
+00:26:52,466 --> 00:26:56,000
+or angle of the target relative to the submarine
+或目标相对于潜艇的角度
+523
+00:26:56,200 --> 00:26:57,000
+and automatically
+并自动
+524
+00:26:57,000 --> 00:26:59,666
+send this information to the torpedo data computer
+将此信息发送到鱼雷数据计算机
+525
+00:26:59,666 --> 00:27:01,133
+for use throughout the system
+在整个系统中使用
+526
+00:27:02,933 --> 00:27:04,133
+there's a Searchlight
+有个探照灯
+527
+00:27:05,866 --> 00:27:07,300
+and radar masts
+和雷达桅杆
+528
+00:27:10,866 --> 00:27:11,666
+air
+空气
+529
+00:27:12,300 --> 00:27:12,666
+air
+空气
+530
+00:27:12,666 --> 00:27:16,200
+is used in many critical submarine functions and tasks
+用于许多关键的潜艇功能和任务
+531
+00:27:17,266 --> 00:27:19,600
+there are canisters that supply pressurized air
+有供应加压空气的罐子
+532
+00:27:19,600 --> 00:27:21,866
+to eject torpedoes from tubes
+从管子里发射鱼雷
+533
+00:27:22,866 --> 00:27:24,400
+other tanks supply air
+其他储罐供气
+534
+00:27:24,400 --> 00:27:26,666
+for expelling water from ballast tanks
+用于从压载舱中排出水
+535
+00:27:26,666 --> 00:27:30,100
+to resurface also called blowing the tanks
+重新浮出水面也称为炸毁坦克
+536
+00:27:31,233 --> 00:27:33,933
+there's air supply for many components on board
+船上的许多部件都有空气供应
+537
+00:27:33,933 --> 00:27:36,200
+and air for breathing when necessary
+必要时呼吸空气
+538
+00:27:37,600 --> 00:27:38,833
+the ship had about
+这艘船大约
+539
+00:27:38,900 --> 00:27:42,033
+15 hours of breathable oxygen at dive time
+潜水时可呼吸15小时氧气
+540
+00:27:42,833 --> 00:27:44,866
+fresh air could be added from stores
+可以从商店添加新鲜空气
+541
+00:27:44,866 --> 00:27:47,333
+but would increase internal boat pressure
+但会增加船内压力
+542
+00:27:47,933 --> 00:27:52,100
+releasing emissions of any kind including air bubbles
+释放任何种类的排放物，包括气泡
+543
+00:27:52,200 --> 00:27:55,633
+might be dangerous in close quarters with enemy craft
+与敌机近距离接触可能会很危险
+544
+00:27:56,033 --> 00:27:58,033
+diving to dive
+潜水
+545
+00:27:58,066 --> 00:27:59,533
+all engine and ventilation
+所有发动机和通风
+546
+00:27:59,533 --> 00:28:01,933
+intake and exhaust ports are closed
+进排气口关闭
+547
+00:28:02,933 --> 00:28:05,233
+ballasted tank vents are opened
+有压载的油箱通风口打开
+548
+00:28:05,233 --> 00:28:08,333
+to allow air to escape and water to enter
+让空气逸出让水进入
+549
+00:28:08,333 --> 00:28:10,866
+inducing a state of negative buoyancy
+引起负浮力状态
+550
+00:28:15,400 --> 00:28:18,433
+the bow planes are rotated to guide the ship
+船首平面旋转来引导船
+551
+00:28:18,433 --> 00:28:19,600
+into a dive
+俯冲
+552
+00:28:22,633 --> 00:28:24,900
+driven by the ship's forward movement
+由船的前进驱动
+553
+00:28:31,933 --> 00:28:33,800
+rotating stern planes
+旋转尾翼飞机
+554
+00:28:37,533 --> 00:28:39,700
+adjust the dive angle
+调整俯冲角度
+555
+00:28:42,933 --> 00:28:44,933
+once the desired depth is reached
+一旦达到所需深度
+556
+00:28:45,233 --> 00:28:48,933
+some air is pumped back into ballast tanks to achieve
+一些空气被抽回压载舱以实现
+557
+00:28:48,933 --> 00:28:50,266
+neutral buoyancy
+中性浮力
+558
+00:28:51,400 --> 00:28:56,000
+water is also moved between tanks for a balanced trim
+水也在水箱之间移动，以实现平衡
+559
+00:28:56,133 --> 00:28:58,400
+meaning the angle of the boat should be level
+意思是船的角度应该是水平的
+560
+00:28:58,400 --> 00:29:00,666
+without excessive help from the planes
+没有飞机的过度帮助
+561
+00:29:01,833 --> 00:29:02,733
+at depth
+在深处
+562
+00:29:03,000 --> 00:29:06,066
+bow planes are now used to alter the ship's depth
+船首平面现在被用来改变船的深度
+563
+00:29:07,333 --> 00:29:09,333
+doors individual
+门个体
+564
+00:29:09,333 --> 00:29:10,600
+watertight compartments
+水密舱
+565
+00:29:10,600 --> 00:29:13,266
+can serve to isolate damaged areas of the hull
+可以用来隔离船体的受损区域
+566
+00:29:13,533 --> 00:29:15,066
+so the ship can remain afloat
+这样船才能保持漂浮
+567
+00:29:15,066 --> 00:29:17,100
+even if one section is flooded
+即使有一段被淹了
+568
+00:29:18,266 --> 00:29:20,066
+as such special doors
+就像这样的特殊门
+569
+00:29:20,066 --> 00:29:23,000
+are designed to withstand high pressure conditions
+设计用于承受高压条件
+570
+00:29:25,066 --> 00:29:27,866
+they're installed into the reinforced bulkheads
+它们被安装在加固的舱壁上
+571
+00:29:31,066 --> 00:29:31,733
+there are sturdy
+有坚固的
+572
+00:29:31,733 --> 00:29:35,300
+rotating levers at the edges of the door called dogs
+门边缘的旋转杠杆叫做狗
+573
+00:29:39,233 --> 00:29:41,666
+with a couple turns of a central handle
+有几个中央手柄
+574
+00:29:42,300 --> 00:29:46,466
+a worm gear actuates parts connected to individual dogs
+蜗轮驱动连接到单个狗的零件
+575
+00:29:51,133 --> 00:29:53,433
+rotating these levers into place
+将这些杠杆旋转到位
+576
+00:29:56,533 --> 00:29:58,433
+the inherent leverage in the system
+系统中的固有杠杆
+577
+00:29:58,433 --> 00:30:00,033
+makes for a tight seal
+使密封紧密
+578
+00:30:04,833 --> 00:30:06,433
+as the rubber door gasket
+作为橡胶门垫圈
+579
+00:30:08,033 --> 00:30:11,200
+presses against an exposed metal part of the door frame
+按压门框外露的金属部分
+580
+00:30:11,333 --> 00:30:12,733
+called the knife edge
+叫做刀刃
+581
+00:30:16,466 --> 00:30:19,900
+these submarines are sea going works of art
+这些潜艇是海上艺术品
+582
+00:30:20,266 --> 00:30:22,400
+and even with the detail I've shown
+即使我展示了这些细节
+583
+00:30:22,500 --> 00:30:25,200
+there's so much more to them than I could cover here
+他们比我在这里描述的要多得多
+584
+00:30:25,233 --> 00:30:26,066
+I'm in awe
+我很敬畏
+585
+00:30:26,066 --> 00:30:28,700
+of the skilled folks who built these machines
+制造这些机器的技术人员

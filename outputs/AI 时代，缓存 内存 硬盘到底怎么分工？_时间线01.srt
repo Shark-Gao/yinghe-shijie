@@ -1,0 +1,2524 @@
+1
+00:00:00,100 --> 00:00:01,900
+inside your desktop computer
+在你的台式电脑里
+2
+00:00:01,900 --> 00:00:03,800
+are more than a dozen different memory
+有十几个不同的记忆
+3
+00:00:03,800 --> 00:00:05,133
+and storage locations
+和存储位置
+4
+00:00:05,133 --> 00:00:06,500
+where data can be found
+在哪里可以找到数据
+5
+00:00:06,500 --> 00:00:08,800
+specifically all your video games
+特别是你所有的电子游戏
+6
+00:00:08,800 --> 00:00:10,666
+applications and files
+应用程序和文件
+7
+00:00:10,666 --> 00:00:13,200
+are stored in the SSD and hard drive
+存储在SSD和硬盘中
+8
+00:00:13,300 --> 00:00:16,200
+however when you load an application or video game
+但是，当您加载应用程序或视频游戏时
+9
+00:00:16,300 --> 00:00:18,300
+gigabytes of data are transferred
+千兆字节的数据被传输
+10
+00:00:18,300 --> 00:00:19,333
+to the sticks of DRAM
+到DRAM的棍子
+11
+00:00:19,333 --> 00:00:21,866
+the VRAM in the graphics card
+显卡中的VRAM
+12
+00:00:21,866 --> 00:00:23,800
+and many other memory locations
+和许多其他内存位置
+13
+00:00:23,800 --> 00:00:26,033
+throughout the CPU and GPU
+整个CPU和GPU
+14
+00:00:26,033 --> 00:00:29,833
+thereby enabling you to smoothly explore massive
+从而使您能够顺利地探索大规模
+15
+00:00:29,866 --> 00:00:32,633
+3D worlds and immersive environments
+3D世界和沉浸式环境
+16
+00:00:32,933 --> 00:00:34,066
+in contrast
+相比之下
+17
+00:00:34,100 --> 00:00:36,933
+if your computer only used a few of these memory
+如果您的计算机只使用了其中的一些内存
+18
+00:00:36,933 --> 00:00:40,700
+locations then the game would either take days to load
+然后游戏需要几天才能加载
+19
+00:00:40,700 --> 00:00:42,533
+and run at a snail's pace
+以蜗牛的速度奔跑
+20
+00:00:42,600 --> 00:00:45,200
+or be limited to the simplest of graphics
+或仅限于最简单的图形
+21
+00:00:45,300 --> 00:00:47,633
+the science and engineering behind how data
+数据背后的科学和工程
+22
+00:00:47,633 --> 00:00:49,100
+and files are stored
+并存储文件
+23
+00:00:49,100 --> 00:00:50,933
+is incredibly complicated
+非常复杂
+24
+00:00:51,000 --> 00:00:54,000
+so we've divided this video into three parts
+所以我们把这个视频分成三个部分
+25
+00:00:54,000 --> 00:00:56,000
+first we'll build a visual
+首先我们要建立一个视觉
+26
+00:00:56,000 --> 00:00:57,866
+to demonstrate the fundamental reason
+证明根本原因
+27
+00:00:57,866 --> 00:01:00,300
+why computers need so many different data
+为什么计算机需要这么多不同的数据
+28
+00:01:00,300 --> 00:01:01,900
+storage locations
+存储位置
+29
+00:01:01,900 --> 00:01:05,800
+second we'll investigate the nanoscopic structures
+其次，我们将研究纳米结构
+30
+00:01:05,800 --> 00:01:08,200
+physical designs and limitations of
+物理设计和限制
+31
+00:01:08,200 --> 00:01:10,200
+each device and location
+每个设备和位置
+32
+00:01:10,200 --> 00:01:11,600
+and see how they work
+看看它们是如何工作的
+33
+00:01:11,600 --> 00:01:12,733
+and then third
+然后第三个
+34
+00:01:12,866 --> 00:01:14,333
+we'll look into the cutting edge
+我们会研究最前沿的
+35
+00:01:14,333 --> 00:01:17,633
+memory and data storage systems used inside AI
+AI内部使用的内存和数据存储系统
+36
+00:01:17,633 --> 00:01:19,500
+servers and data centers
+服务器和数据中心
+37
+00:01:19,600 --> 00:01:23,300
+essentially we'll explore every aspect of cache
+本质上，我们将探索缓存的各个方面
+38
+00:01:23,466 --> 00:01:24,066
+memory
+记忆
+39
+00:01:24,066 --> 00:01:28,033
+and storage inside desktop computers and AI servers
+以及台式电脑和AI服务器内的存储
+40
+00:01:28,033 --> 00:01:29,933
+and show you how it all works
+并向您展示这一切是如何运作的
+41
+00:01:29,933 --> 00:01:31,866
+so let's jump right in
+所以让我们开始吧
+42
+00:01:39,033 --> 00:01:41,466
+this video is sponsored by Micron
+本视频由美光赞助
+43
+00:01:41,733 --> 00:01:44,133
+a leading producer of advanced memory
+高级内存的领先生产商
+44
+00:01:44,133 --> 00:01:45,700
+and storage solutions
+和存储解决方案
+45
+00:01:45,700 --> 00:01:50,266
+including DRAM and 3D Nan flash SSD technologies
+包括DRAM和3D楠闪存SSD技术
+46
+00:01:50,266 --> 00:01:51,900
+which we'll be featuring
+我们将以它为特色
+47
+00:01:52,066 --> 00:01:55,133
+that said all the facts and details presented
+上面写着所有的事实和细节
+48
+00:01:55,133 --> 00:01:57,100
+have been independently researched
+已独立研究
+49
+00:01:57,100 --> 00:01:58,733
+written and animated
+书面和动画
+50
+00:01:59,133 --> 00:02:02,266
+over a dozen different memory and storage locations
+超过十几个不同的内存和存储位置
+51
+00:02:02,266 --> 00:02:03,333
+seem like a lot
+看起来很多
+52
+00:02:03,333 --> 00:02:05,733
+so why does your computer need them all
+那么为什么您的计算机需要它们呢？
+53
+00:02:05,733 --> 00:02:09,066
+well the main idea is that each type of memory
+主要的想法是每种类型的记忆
+54
+00:02:09,066 --> 00:02:10,433
+has vastly different
+有很大的不同
+55
+00:02:10,433 --> 00:02:11,833
+storage capacity
+存储容量
+56
+00:02:11,833 --> 00:02:14,500
+access time bandwidth and cost
+接入时间带宽和成本
+57
+00:02:14,500 --> 00:02:15,433
+for example
+例如
+58
+00:02:15,500 --> 00:02:19,600
+hard drives and SSDs have a ton of storage capacity
+硬盘驱动器和SSD有大量的存储容量
+59
+00:02:19,600 --> 00:02:20,433
+and are cheap
+而且很便宜。
+60
+00:02:20,433 --> 00:02:23,266
+but have horrible access times and bandwidth
+但访问时间和带宽都很糟糕
+61
+00:02:23,400 --> 00:02:25,500
+in contrast CPU cache
+相比之下，CPU缓存
+62
+00:02:25,500 --> 00:02:26,066
+memory
+记忆
+63
+00:02:26,066 --> 00:02:29,600
+has lightning fast access times and high bandwidth
+具有闪电般的快速访问时间和高带宽
+64
+00:02:29,600 --> 00:02:32,300
+but is expensive and doesn't store much data
+但很昂贵并且存储的数据不多
+65
+00:02:32,466 --> 00:02:34,733
+essentially no single memory
+基本上没有单一内存
+66
+00:02:34,733 --> 00:02:38,000
+each location has five stars in all these attributes
+每个位置在所有这些属性上都有五颗星
+67
+00:02:38,000 --> 00:02:40,266
+however by connecting them all together
+然而，通过将它们连接在一起
+68
+00:02:40,266 --> 00:02:42,000
+and using memory controllers
+并使用内存控制器
+69
+00:02:42,000 --> 00:02:44,233
+and sophisticated algorithms to move
+和复杂的算法来移动
+70
+00:02:44,233 --> 00:02:46,100
+data between locations
+位置间数据
+71
+00:02:46,233 --> 00:02:49,500
+your computer can run with a combined 5 stars
+您的计算机可以运行组合5星
+72
+00:02:49,500 --> 00:02:50,800
+across the board
+一刀切
+73
+00:02:50,866 --> 00:02:54,100
+here are the specs for each of these memory locations
+以下是每个内存位置的规格
+74
+00:02:54,233 --> 00:02:54,800
+however
+然而
+75
+00:02:54,800 --> 00:02:58,200
+these numbers are rather boring and easily forgotten
+这些数字相当无聊，很容易忘记
+76
+00:02:58,233 --> 00:03:01,233
+so instead let's use a visualization
+所以让我们使用可视化
+77
+00:03:01,233 --> 00:03:04,033
+to illustrate the massive differences between them
+来说明他们之间的巨大差异
+78
+00:03:04,066 --> 00:03:06,433
+we'll start with the first two attributes
+我们将从前两个属性开始
+79
+00:03:06,433 --> 00:03:09,133
+which are storage capacity and access time
+即存储容量和访问时间
+80
+00:03:09,233 --> 00:03:12,533
+for storage we'll represent 1 megabyte of data
+对于存储，我们将表示1兆字节的数据
+81
+00:03:12,600 --> 00:03:14,633
+as a 400 page book
+作为一本400页的书
+82
+00:03:14,700 --> 00:03:17,066
+and interestingly with each letter
+有趣的是，每封信
+83
+00:03:17,066 --> 00:03:20,400
+punctuation Mark and space equal to an 8 bit
+标点符号标记和空格等于8位
+84
+00:03:20,400 --> 00:03:21,666
+ASCII character
+ASCII字符
+85
+00:03:22,000 --> 00:03:25,833
+400 pages of text is very close to 1 megabyte
+400页的文本非常接近1兆字节
+86
+00:03:25,933 --> 00:03:27,833
+so it's a fitting comparison
+所以这是一个合适的比较
+87
+00:03:28,100 --> 00:03:29,833
+next is access time
+接下来是访问时间
+88
+00:03:29,833 --> 00:03:33,033
+which is the time between sending a request for data
+这是发送数据请求之间的时间
+89
+00:03:33,033 --> 00:03:34,500
+or a specific book
+或特定的书
+90
+00:03:34,533 --> 00:03:37,333
+and that book traveling back to the requester
+那本书会被送回请求者那里
+91
+00:03:37,500 --> 00:03:40,333
+we'll depict access time by the distance between data
+我们将通过数据之间的距离来描述访问时间
+92
+00:03:40,333 --> 00:03:41,866
+storage locations
+存储位置
+93
+00:03:41,866 --> 00:03:45,133
+with 20 centimeters equal to 1 nanosecond
+20厘米等于1纳秒
+94
+00:03:45,266 --> 00:03:47,333
+with these two attributes in mind
+考虑到这两个属性
+95
+00:03:47,433 --> 00:03:49,400
+let's begin with a CPU
+让我们从CPU开始
+96
+00:03:49,400 --> 00:03:52,466
+which will represent as a table in a library
+它将表示为库中的表
+97
+00:03:52,500 --> 00:03:53,900
+within the CPU
+在CPU内
+98
+00:03:54,000 --> 00:03:56,600
+data is stored as open spaces for books
+数据存储为书籍的开放空间
+99
+00:03:56,600 --> 00:03:58,133
+and individual pages
+和单个页面
+100
+00:03:58,133 --> 00:04:01,633
+inside three levels of cache memory and registers
+在三级缓存和寄存器内
+101
+00:04:01,666 --> 00:04:05,833
+the CPU is divided into eight performance cores and 16
+CPU分为八个性能核心和16个
+102
+00:04:06,033 --> 00:04:07,433
+efficient cores
+有效核心
+103
+00:04:07,533 --> 00:04:10,733
+with the registers L1 and L2 cache
+使用寄存器L1和L2缓存
+104
+00:04:10,866 --> 00:04:13,033
+divided between each of the cores
+在每个核心之间划分
+105
+00:04:13,033 --> 00:04:16,866
+whereas the L3 cache is shared among all of the cores
+而L3缓存在所有内核之间共享
+106
+00:04:16,933 --> 00:04:18,533
+all these memory locations
+所有这些内存位置
+107
+00:04:18,533 --> 00:04:21,200
+take up approximately 30 percent of the area
+占据了大约百分之三十的面积
+108
+00:04:21,200 --> 00:04:23,100
+of the actual CPU die
+实际的CPU芯片
+109
+00:04:23,266 --> 00:04:28,033
+and in total 68 megabytes or books can be stored
+总共可以存储68兆字节或书籍
+110
+00:04:28,100 --> 00:04:31,866
+as well as sundry pages for the registers and L1 caches
+以及寄存器和L1缓存的各种页面
+111
+00:04:32,133 --> 00:04:33,066
+the remaining
+剩余的
+112
+00:04:33,066 --> 00:04:36,433
+70 percent of the CPU is taken up by each core's
+70%的CPU被每个内核占用
+113
+00:04:36,433 --> 00:04:37,666
+functional logic
+功能逻辑
+114
+00:04:37,666 --> 00:04:41,500
+device and memory controllers and many other sections
+设备和内存控制器以及许多其他部分
+115
+00:04:41,666 --> 00:04:43,666
+to clearly depict access time
+清楚地描述访问时间
+116
+00:04:43,733 --> 00:04:45,600
+we'll rearrange the CPU
+我们会重新安排CPU
+117
+00:04:45,600 --> 00:04:46,533
+with the ALU
+用ALU
+118
+00:04:46,533 --> 00:04:49,700
+calculators and execution units on one side
+一边是计算器和执行单元
+119
+00:04:49,800 --> 00:04:52,666
+and the registers and caches spread across the table
+寄存器和缓存分布在桌子上
+120
+00:04:52,666 --> 00:04:53,633
+as you can see
+如你所见
+121
+00:04:53,633 --> 00:04:56,466
+the registers are a third of a nanosecond away
+寄存器在三分之一纳秒之外
+122
+00:04:56,466 --> 00:04:58,466
+from the ALU calculators
+从ALU计算器
+123
+00:04:58,500 --> 00:05:00,466
+in contrast the shared
+相比之下，共享
+124
+00:05:00,533 --> 00:05:02,466
+36 megabytes or books
+36兆字节或书籍
+125
+00:05:02,466 --> 00:05:03,400
+and the L3
+还有L3
+126
+00:05:03,400 --> 00:05:06,266
+caches are on the other side of the table at
+缓存在桌子的另一边
+127
+00:05:06,500 --> 00:05:07,933
+75 nanoseconds away
+75纳秒的距离
+128
+00:05:08,700 --> 00:05:10,533
+let's move on to the DRAM
+让我们继续DRAM
+129
+00:05:10,533 --> 00:05:13,533
+which will represent the short library carts
+这将代表短图书馆推车
+130
+00:05:13,533 --> 00:05:14,833
+next to the table
+在桌子旁边
+131
+00:05:14,866 --> 00:05:18,033
+with two sticks of 16 gigabyte DRAM
+用两根16 GB的DRAM
+132
+00:05:18,033 --> 00:05:21,000
+all these carts can hold the equivalent of
+所有这些手推车能装相当于
+133
+00:05:21,233 --> 00:05:22,633
+32 thousand books
+3.20万书
+134
+00:05:22,633 --> 00:05:26,933
+which is 470 times the capacity of the CPU
+是CPU容量的470倍
+135
+00:05:27,066 --> 00:05:28,033
+the trade off is that
+权衡是
+136
+00:05:28,033 --> 00:05:30,800
+moving data from the CPU to the DRAM
+将数据从CPU移动到DRAM
+137
+00:05:30,900 --> 00:05:33,433
+takes around 45 nanoseconds
+大约需要45纳秒
+138
+00:05:33,433 --> 00:05:34,800
+so most of the DRAM
+所以大部分DRAM
+139
+00:05:34,800 --> 00:05:38,700
+carts are positioned 9 meters away from the CPU table
+推车距离CPU工作台9米
+140
+00:05:38,800 --> 00:05:41,000
+next up is the graphics card
+接下来是显卡
+141
+00:05:41,000 --> 00:05:44,500
+which contains the GPU and VRAM chips
+其中包含GPU和VRAM芯片
+142
+00:05:44,533 --> 00:05:48,266
+the GPU table can hold approximately 37 MB
+GPU表可以容纳大约37 MB
+143
+00:05:48,400 --> 00:05:51,800
+across its registers L1 and L2 caches
+通过其寄存器L1和L2缓存
+144
+00:05:51,800 --> 00:05:54,433
+which together take up a third of the die
+它们一起占据了三分之一的模具
+145
+00:05:54,433 --> 00:05:56,700
+with the rest being functional logic
+其余的是功能逻辑
+146
+00:05:56,800 --> 00:05:57,600
+however
+然而
+147
+00:05:57,666 --> 00:06:02,000
+because the GPU has 10,000 ish individual cores
+因为GPU有10,000个左右的独立内核
+148
+00:06:02,200 --> 00:06:04,733
+the distribution of memory is a little different
+内存的分布有点不同
+149
+00:06:04,733 --> 00:06:06,266
+from that on the CPU
+从CPU上的那个
+150
+00:06:06,333 --> 00:06:10,900
+next to the GPU table are the VRAM chip library carts
+GPU表旁边是VRAM芯片库推车
+151
+00:06:10,900 --> 00:06:13,866
+which hold 24 gigabytes and are
+它可以容纳24 GB并且是
+152
+00:06:14,633 --> 00:06:17,400
+250 nanoseconds away from the GPU
+距离GPU 250纳秒
+153
+00:06:17,400 --> 00:06:20,766
+this additional distance is due to the VRAM's design
+这个额外的距离是由于VRAM的设计
+154
+00:06:20,766 --> 00:06:23,300
+which prioritizes higher bandwidth
+优先考虑更高的带宽
+155
+00:06:23,300 --> 00:06:26,033
+using wider buses and deep pipelines
+使用更宽的总线和深管道
+156
+00:06:26,033 --> 00:06:28,666
+rather than single request access time
+而不是单个请求访问时间
+157
+00:06:29,066 --> 00:06:31,600
+additionally it takes an average of
+此外，它需要平均
+158
+00:06:31,900 --> 00:06:34,933
+300 nanoseconds to request and send data
+300纳秒请求和发送数据
+159
+00:06:34,933 --> 00:06:37,200
+from the CPU to the GPU
+从CPU到GPU
+160
+00:06:37,400 --> 00:06:41,333
+thereby placing the two devices 60 meters apart
+从而将两个设备相距60米
+161
+00:06:42,500 --> 00:06:46,600
+with the CPU GPU and both types of main memory covered
+涵盖CPU GPU和两种类型的主存储器
+162
+00:06:46,600 --> 00:06:49,433
+let's move on to the storage devices
+让我们继续讨论存储设备
+163
+00:06:49,433 --> 00:06:51,666
+which are the two solid state drives
+哪两个是固态硬盘
+164
+00:06:51,666 --> 00:06:54,233
+or SSDs and the hard drive
+或者SSD和硬盘
+165
+00:06:54,633 --> 00:06:57,866
+the first NVME solid state drive
+第一款NVME固态硬盘
+166
+00:06:57,966 --> 00:07:02,600
+holds 2 million books on an array of 2,000 bookshelves
+在2000个书架上放着200万本书
+167
+00:07:02,666 --> 00:07:05,800
+with each bookshelf holding a gigabyte of data
+每个书架都有千兆字节的数据
+168
+00:07:05,900 --> 00:07:08,000
+the next SATA SSD
+下一个SATA SSD
+169
+00:07:08,000 --> 00:07:12,066
+holds 4 million books across 4,000 bookshelves
+可容纳4000个书架上的400万本书
+170
+00:07:12,066 --> 00:07:14,866
+and the hard disk drive holds a whopping
+硬盘驱动器的容量非常大
+171
+00:07:14,866 --> 00:07:16,300
+8 million books
+800万书
+172
+00:07:17,266 --> 00:07:17,600
+although
+虽然
+173
+00:07:17,600 --> 00:07:21,066
+these locations store thousands of times more data
+这些位置存储了数千倍的数据
+174
+00:07:21,100 --> 00:07:23,500
+when we consider their access time
+当我们考虑他们的访问时间时
+175
+00:07:23,633 --> 00:07:26,533
+the NVME and SATA SSDs
+NVME和SATA SSD
+176
+00:07:26,700 --> 00:07:30,833
+are positioned at 80 and 120 microseconds away
+位于80和120微秒之外
+177
+00:07:30,866 --> 00:07:33,533
+which is analogous to 16 and
+这类似于16和
+178
+00:07:33,533 --> 00:07:35,400
+24 kilometers respectively
+分别24公里
+179
+00:07:35,500 --> 00:07:39,100
+and then way further out is the hard drive
+然后更远的地方是硬盘
+180
+00:07:39,266 --> 00:07:41,866
+with a 10 millisecond access time or
+具有10毫秒的访问时间或
+181
+00:07:42,300 --> 00:07:43,833
+2000 kilometers away
+2000公里以外
+182
+00:07:44,200 --> 00:07:46,433
+as you can see with this visualization
+正如你在这个可视化中看到的
+183
+00:07:46,433 --> 00:07:48,900
+there's a staggeringly large trade off
+有一个惊人的巨大的权衡
+184
+00:07:48,900 --> 00:07:52,033
+in the magnitudes of differences in storage capacity
+存储容量差异的大小
+185
+00:07:52,033 --> 00:07:53,233
+and access time
+和访问时间
+186
+00:07:53,233 --> 00:07:55,333
+among all these locations
+在所有这些地点中
+187
+00:07:55,400 --> 00:07:57,066
+one important thing to note
+需要注意的一件重要事情
+188
+00:07:57,066 --> 00:07:58,800
+is that in a university level
+这是大学水平的吗？
+189
+00:07:58,800 --> 00:08:00,466
+computer architecture course
+计算机架构课程
+190
+00:08:00,466 --> 00:08:02,633
+discussions on memory and storage
+关于内存和存储的讨论
+191
+00:08:02,633 --> 00:08:05,466
+would typically be organized into a pyramid
+通常会被组织成金字塔
+192
+00:08:05,466 --> 00:08:07,300
+called the memory hierarchy
+称为内存层次结构
+193
+00:08:07,433 --> 00:08:09,633
+with registers and cash at the top
+上面有收银机和现金
+194
+00:08:09,900 --> 00:08:14,033
+DRAM in the middle and SSDs and hard drives below that
+DRAM在中间，SSD和硬盘在下面
+195
+00:08:14,266 --> 00:08:15,433
+along with arrows
+还有箭
+196
+00:08:15,433 --> 00:08:18,433
+to depict the trends and the various attributes
+描绘趋势和各种属性
+197
+00:08:18,466 --> 00:08:20,866
+additionally there's another layer at the bottom
+另外底部还有一层
+198
+00:08:20,866 --> 00:08:23,000
+for the internet and other devices
+用于互联网和其他设备
+199
+00:08:23,500 --> 00:08:26,866
+so let's incorporate the internet and cloud storage
+所以让我们结合互联网和云存储
+200
+00:08:26,866 --> 00:08:28,600
+into our visualization
+进入我们的可视化
+201
+00:08:29,033 --> 00:08:29,833
+to start
+开始
+202
+00:08:29,866 --> 00:08:33,200
+the internet holds absurdly large amounts of data
+互联网拥有荒谬的大量数据
+203
+00:08:33,433 --> 00:08:36,300
+at approximately 500 exabytes
+大约500艾字节
+204
+00:08:36,333 --> 00:08:37,666
+latency varies
+延迟各不相同
+205
+00:08:37,733 --> 00:08:39,100
+depending on the distance
+取决于距离
+206
+00:08:39,100 --> 00:08:41,733
+the request and return data need to travel
+请求和返回数据需要旅行
+207
+00:08:41,900 --> 00:08:44,833
+therefore getting data from a nearby city
+因此从附近的城市获取数据
+208
+00:08:44,866 --> 00:08:46,266
+takes approximately
+大约需要
+209
+00:08:46,400 --> 00:08:47,666
+12 milliseconds
+12毫秒
+210
+00:08:48,200 --> 00:08:49,800
+in contrast sending
+对比发送
+211
+00:08:49,800 --> 00:08:52,633
+and receiving data to the other side of the earth
+并将数据接收到地球的另一边
+212
+00:08:52,633 --> 00:08:55,466
+takes on average a quarter of a second
+平均需要四分之一秒
+213
+00:08:55,500 --> 00:08:57,233
+which interestingly
+有趣的是
+214
+00:08:57,233 --> 00:08:58,700
+is about twice as long as
+大约是
+215
+00:08:58,700 --> 00:09:01,200
+if light were to travel the same distance
+如果光传播相同的距离
+216
+00:09:01,400 --> 00:09:03,100
+that is of course
+那是当然
+217
+00:09:03,200 --> 00:09:06,033
+as long as you're not using a dial up toaster
+只要你不用拨号烤面包机
+218
+00:09:06,033 --> 00:09:06,866
+as a modem
+作为调制解调器
+219
+00:09:09,000 --> 00:09:09,733
+let's next
+我们接下来
+220
+00:09:09,733 --> 00:09:12,433
+explore and correlate the physical structure
+探索和关联物理结构
+221
+00:09:12,433 --> 00:09:15,100
+inside these memory and storage locations
+在这些内存和存储位置内
+222
+00:09:15,133 --> 00:09:17,066
+with each of their attributes
+他们的每一个属性
+223
+00:09:17,200 --> 00:09:21,033
+we'll start with a 2 terabyte NVME solid state drive
+我们将从2TB的NVME固态硬盘开始
+224
+00:09:21,200 --> 00:09:23,633
+mounted to the SSD's circuit board
+安装到SSD的电路板上
+225
+00:09:23,666 --> 00:09:26,033
+are a memory controller DRAM
+是内存控制器DRAM
+226
+00:09:26,100 --> 00:09:27,066
+and a pair of
+和一双
+227
+00:09:27,100 --> 00:09:29,266
+3D NAND flash chip packages
+3D NAND闪存芯片封装
+228
+00:09:29,266 --> 00:09:31,400
+where all the files are stored
+所有文件的存储位置
+229
+00:09:31,433 --> 00:09:33,066
+so let's open it up
+所以让我们打开它
+230
+00:09:33,300 --> 00:09:36,400
+inside we find a stack of eight dies
+在里面我们找到了一叠八个模具
+231
+00:09:36,400 --> 00:09:39,300
+with wires connecting each one to a substrate
+用电线将每一个连接到基板
+232
+00:09:39,300 --> 00:09:43,266
+at the bottom a single die contains multiple planes
+在底部，单个模具包含多个平面
+233
+00:09:43,333 --> 00:09:46,033
+and when we zoom in on one of the planes
+当我们放大其中一架飞机时
+234
+00:09:46,033 --> 00:09:48,733
+we see a massive array of memory cells
+我们看到大量的记忆细胞
+235
+00:09:48,733 --> 00:09:50,633
+40,000 strings wide
+40,000弦宽
+236
+00:09:50,800 --> 00:09:56,433
+60,000 rows deep and stacked around 200 layers tall
+60,000排深，大约200层高
+237
+00:09:56,466 --> 00:09:59,266
+in total this array of memory cells can store
+总的来说，这个存储单元阵列可以存储
+238
+00:09:59,266 --> 00:10:01,400
+more than 100 gigabytes of data
+超过100 GB的数据
+239
+00:10:01,400 --> 00:10:04,000
+in a volume smaller than a grain of rice
+体积小于一粒米
+240
+00:10:04,000 --> 00:10:06,933
+while costing only 7 cents per gigabyte
+而每GB仅需7美分
+241
+00:10:07,300 --> 00:10:09,833
+but how does it physically store data
+但是它如何物理存储数据呢？
+242
+00:10:09,933 --> 00:10:14,100
+well let's zoom in to see a single memory cell called
+好吧，让我们放大看看一个名为
+243
+00:10:14,200 --> 00:10:16,266
+charge trap flash or CTF
+电荷陷阱闪存或CTF
+244
+00:10:16,266 --> 00:10:17,333
+which stores data
+存储数据
+245
+00:10:17,333 --> 00:10:20,133
+by trapping eight distinct amounts of charge
+通过捕获八个不同数量的电荷
+246
+00:10:20,133 --> 00:10:23,100
+or electrons corresponding to three bits of data
+或对应于三位数据的电子
+247
+00:10:23,300 --> 00:10:25,333
+the electrons are held in a charge trap
+电子被保持在电荷阱中
+248
+00:10:25,333 --> 00:10:27,933
+surrounded by an insulating dielectric
+被绝缘电介质包围
+249
+00:10:28,133 --> 00:10:30,400
+enabling data to be stored for years
+使数据能够存储数年
+250
+00:10:30,400 --> 00:10:31,800
+without external power
+无外力
+251
+00:10:31,900 --> 00:10:33,100
+the trade off is that
+权衡是
+252
+00:10:33,100 --> 00:10:35,600
+due to the lack of a direct electrical connection
+由于缺乏直接的电气连接
+253
+00:10:35,666 --> 00:10:38,800
+writing or moving electrons into the charge trap
+将电子写入或移动到电荷阱中
+254
+00:10:38,800 --> 00:10:41,300
+and reading or measuring the stored charge
+并读取或测量存储的电荷
+255
+00:10:41,300 --> 00:10:44,833
+requires applying a complex sequence of voltage steps
+需要施加一系列复杂的电压步骤
+256
+00:10:44,833 --> 00:10:47,400
+that take dozens of microseconds to complete
+需要几十微秒才能完成
+257
+00:10:47,400 --> 00:10:50,733
+resulting in a read time of around 80 microseconds
+导致读取时间约为80微秒
+258
+00:10:50,800 --> 00:10:53,900
+a write time closer to 500 microseconds
+接近500微秒的写入时间
+259
+00:10:53,900 --> 00:10:56,666
+and 5 gigabytes per second of bandwidth
+和每秒5 GB的带宽
+260
+00:10:56,933 --> 00:10:58,433
+it's important to note that
+重要的是要注意
+261
+00:10:58,433 --> 00:11:00,533
+even if a CPU core were placed
+即使放置了CPU内核
+262
+00:11:00,533 --> 00:11:02,633
+directly next to the array of CTF
+直接在CTF阵列旁边
+263
+00:11:02,633 --> 00:11:06,800
+memory cells the access time would still be close to
+访问时间仍将接近
+264
+00:11:06,800 --> 00:11:07,600
+80 microseconds
+80微秒
+265
+00:11:07,600 --> 00:11:08,400
+therefore
+因此
+266
+00:11:08,433 --> 00:11:11,733
+it's important to clarify that in our visualization
+在我们的可视化中澄清这一点很重要
+267
+00:11:11,866 --> 00:11:13,666
+the distance between objects
+物体之间的距离
+268
+00:11:13,666 --> 00:11:16,400
+isn't the time it takes electricity to travel
+不是需要电力才能旅行的时间吗？
+269
+00:11:16,500 --> 00:11:17,900
+but rather access time
+而是访问时间
+270
+00:11:17,900 --> 00:11:20,733
+is determined by the limitations of the storage medium
+是由存储介质的限制决定的
+271
+00:11:20,733 --> 00:11:22,700
+itself and in a way
+本身和在某种程度上
+272
+00:11:22,833 --> 00:11:23,633
+you can think of it
+你能想到的
+273
+00:11:23,633 --> 00:11:26,533
+like the time and effort required in reaching books
+就像看书所需的时间和精力一样
+274
+00:11:26,533 --> 00:11:28,433
+on a very tall bookshelf
+在一个非常高的书架上
+275
+00:11:28,533 --> 00:11:30,233
+another note is that SATA
+另一个注意事项是SATA
+276
+00:11:30,233 --> 00:11:32,900
+SSDs use a similar set of chips
+SSD使用一组类似的芯片
+277
+00:11:33,000 --> 00:11:35,900
+including the same 3D NAND flash
+包括相同的3D NAND闪光灯
+278
+00:11:35,933 --> 00:11:37,933
+resulting in comparable costs
+导致可比成本
+279
+00:11:37,933 --> 00:11:40,433
+however they have longer access times
+但是他们有更长的访问时间
+280
+00:11:40,466 --> 00:11:42,800
+and substantially lower bandwidth
+和显着降低的带宽
+281
+00:11:42,866 --> 00:11:45,033
+due to limitations in the older SATA
+由于旧SATA的限制
+282
+00:11:45,033 --> 00:11:46,533
+data transfer protocol
+数据搬迁协议
+283
+00:11:46,533 --> 00:11:48,300
+so take that into consideration
+所以考虑到这一点
+284
+00:11:48,300 --> 00:11:50,400
+when you build or buy your next computer
+当您构建或购买下一台计算机时
+285
+00:11:50,700 --> 00:11:53,633
+let's move on and explore the hard disk drive
+让我们继续探索硬盘驱动器
+286
+00:11:53,800 --> 00:11:57,133
+inside it we find a stack of four platters with eight
+在里面，我们发现了一叠四个盘子和八个
+287
+00:11:57,133 --> 00:12:00,100
+read right heads controlled by a voice coil motor
+读右头由音圈电机控制
+288
+00:12:00,266 --> 00:12:02,233
+data is stored across the platter
+数据存储在整个盘片中
+289
+00:12:02,233 --> 00:12:04,733
+in half a million concentric circles
+在50万个同心圆中
+290
+00:12:04,733 --> 00:12:05,900
+called tracks
+称为轨道
+291
+00:12:06,000 --> 00:12:08,866
+zooming in we see individual sectors
+放大我们看到单个扇区
+292
+00:12:08,866 --> 00:12:11,700
+each with a preamble or synchronization zone
+每个都有一个前导或同步区
+293
+00:12:11,833 --> 00:12:14,533
+an address 4 kilobytes of data
+一个地址4 KB的数据
+294
+00:12:14,733 --> 00:12:18,500
+an error correcting code and gaps between sectors
+纠错码和扇区之间的间隙
+295
+00:12:18,533 --> 00:12:21,133
+when we zoom into a nanoscopic view
+当我们放大纳米视图时
+296
+00:12:21,200 --> 00:12:23,733
+we see that data is written using focused
+我们看到数据是使用聚焦写入的
+297
+00:12:23,733 --> 00:12:27,066
+magnetic fields to manipulate the magnetic domains
+磁场来操纵磁畴
+298
+00:12:27,066 --> 00:12:30,300
+inside a nanometer sized volume within the platter
+在盘子内的纳米大小的体积内
+299
+00:12:30,466 --> 00:12:31,733
+at the same time
+同时
+300
+00:12:31,833 --> 00:12:34,700
+the readhead senses a change in magnetic fields
+读数头感应到磁场的变化
+301
+00:12:34,700 --> 00:12:35,833
+between domains
+域间
+302
+00:12:35,833 --> 00:12:38,800
+as one and no change as zero
+为一，不变为零
+303
+00:12:38,866 --> 00:12:39,866
+as a result
+结果
+304
+00:12:40,000 --> 00:12:43,133
+trillions of bits can fit across the platters area
+数万亿比特可以穿过盘片区域
+305
+00:12:43,133 --> 00:12:46,666
+yielding terabytes of storage in a single hard drive
+在单个硬盘驱动器中产生TB的存储空间
+306
+00:12:46,700 --> 00:12:49,433
+hard drives cost only ￠1 or 2 per gigabyte
+硬盘成本仅为每GB 1或2美分
+307
+00:12:49,433 --> 00:12:52,233
+because the platters are simply layers of material
+因为拼盘只是一层层的材料
+308
+00:12:52,233 --> 00:12:56,033
+on a disk rather than complex semiconductor structures
+而不是复杂的半导体结构
+309
+00:12:56,200 --> 00:12:56,633
+however
+然而
+310
+00:12:56,633 --> 00:12:59,700
+there are considerable costs in the Reed right heads
+Reed家的右脑要付出相当大的代价
+311
+00:12:59,700 --> 00:13:02,466
+which must be engineered to fly only
+它必须设计成只能飞行
+312
+00:13:02,466 --> 00:13:04,800
+nanometers above the spinning surface
+在旋转表面上方纳米
+313
+00:13:04,866 --> 00:13:07,066
+the main trade off of hard drives
+硬盘驱动器的主要权衡
+314
+00:13:07,066 --> 00:13:10,233
+is that they have long access times and low bandwidth
+它们的访问时间长，带宽低
+315
+00:13:10,500 --> 00:13:13,900
+because the read write head must physically move to
+因为读写头必须物理移动到
+316
+00:13:14,000 --> 00:13:16,533
+or seek the correct location on the platter
+或者寻找拼盘上的正确位置
+317
+00:13:16,533 --> 00:13:19,800
+while it spins around at 7200 RPM
+当它以每1k7200展现的收入
+318
+00:13:20,066 --> 00:13:22,433
+while this may seem incredibly fast
+虽然这看起来快得难以置信
+319
+00:13:22,466 --> 00:13:24,900
+it equates to one rotation every
+它等于每旋转一次
+320
+00:13:25,066 --> 00:13:29,066
+83 milliseconds yielding an access time in that range
+83毫秒产生该范围内的访问时间
+321
+00:13:29,300 --> 00:13:32,533
+with storage covered let's discuss main memory
+有了存储，让我们讨论主存储器
+322
+00:13:32,533 --> 00:13:34,133
+in these sticks of DRAM
+在这些DRAM棒中
+323
+00:13:34,666 --> 00:13:35,866
+each one contains
+每一个都包含
+324
+00:13:35,866 --> 00:13:39,066
+eight chips that directly connect to the CPU
+八个直接连接CPU的芯片
+325
+00:13:39,133 --> 00:13:41,466
+via the motherboard's memory channels
+通过主板的内存通道
+326
+00:13:41,466 --> 00:13:44,800
+and are all managed by the CPU's memory controller
+并且都由CPU的内存控制器管理
+327
+00:13:45,000 --> 00:13:47,833
+upon opening one of these DRAM chips
+打开这些DRAM芯片之一时
+328
+00:13:47,833 --> 00:13:49,633
+we find a set of interconnected
+我们找到一组相互关联的
+329
+00:13:49,633 --> 00:13:53,400
+layers and an integrated circuit containing 32 banks
+层和包含32组的集成电路
+330
+00:13:53,400 --> 00:13:54,133
+with each one
+每一个
+331
+00:13:54,133 --> 00:13:58,066
+consisting of an array of approximately 65,000
+由大约65,000个阵列组成
+332
+00:13:58,100 --> 00:14:00,300
+by 8,000 memory cells
+8,000个记忆单元
+333
+00:14:00,400 --> 00:14:01,600
+when we zoom in
+当我们放大时
+334
+00:14:01,633 --> 00:14:03,933
+we can see individual memory cells
+我们可以看到单个的记忆细胞
+335
+00:14:03,933 --> 00:14:06,933
+built from one transistor and one capacitor
+由一个晶体管和一个电容器组成
+336
+00:14:07,133 --> 00:14:09,100
+hence the name 1t 1c
+因此得名1t 1c
+337
+00:14:09,533 --> 00:14:13,033
+one bit is stored as charge in each capacitor
+一个位作为电荷存储在每个电容器中
+338
+00:14:13,033 --> 00:14:15,866
+and the transistor is used to access that data
+晶体管用于访问该数据
+339
+00:14:16,100 --> 00:14:17,633
+to read or write data
+读取或写入数据
+340
+00:14:17,633 --> 00:14:21,466
+the CPU sends an address for a specific bank and row
+CPU发送特定银行和行的地址
+341
+00:14:21,466 --> 00:14:24,666
+thereby turning on all the transistors in that row
+从而打开该行中的所有晶体管
+342
+00:14:24,666 --> 00:14:26,933
+and directly connecting each capacitor to a
+并将每个电容器直接连接到
+343
+00:14:26,933 --> 00:14:28,133
+sense amplifier
+读出放大器
+344
+00:14:28,333 --> 00:14:30,666
+the sense amplifiers measure the voltage
+读出放大器测量电压
+345
+00:14:30,666 --> 00:14:32,033
+in each capacitor
+在每个电容器中
+346
+00:14:32,033 --> 00:14:34,400
+and then a set of eight sense amplifiers
+然后是一组八个读出放大器
+347
+00:14:34,400 --> 00:14:37,466
+is connected to either the read or write drivers
+连接到读取或写入驱动程序
+348
+00:14:37,466 --> 00:14:40,600
+which relay data to and from the CPU
+它将数据中继到CPU和从CPU中继数据
+349
+00:14:40,666 --> 00:14:43,700
+in total taking around 45 nanoseconds
+总共需要大约45纳秒
+350
+00:14:43,833 --> 00:14:47,033
+additionally DRAM has a much higher bandwidth
+此外，DRAM具有更高的带宽
+351
+00:14:47,033 --> 00:14:49,666
+typically around 48 gigabytes per second
+通常大约每秒48 GB
+352
+00:14:49,666 --> 00:14:53,133
+which allows the operating system to quickly context
+它允许操作系统快速上下文
+353
+00:14:53,133 --> 00:14:55,200
+switch between processes
+进程间切换
+354
+00:14:55,266 --> 00:14:56,533
+the trade off is that
+权衡是
+355
+00:14:56,533 --> 00:14:58,933
+due to the physical size of the capacitor
+由于电容器的物理尺寸
+356
+00:14:59,033 --> 00:15:03,833
+the 1t 1C array is typically confined to a 2d plane
+1t 1C阵列通常仅限于二维平面
+357
+00:15:03,866 --> 00:15:05,633
+resulting in a lower bit density
+导致较低的位密度
+358
+00:15:05,633 --> 00:15:07,300
+and higher cost per bit
+和更高的每比特成本
+359
+00:15:07,500 --> 00:15:11,300
+additionally each capacitor quickly loses its charge
+此外，每个电容器很快就会失去电荷
+360
+00:15:11,333 --> 00:15:12,033
+therefore
+因此
+361
+00:15:12,033 --> 00:15:15,033
+every memory cell must be frequently refreshed
+每个存储单元都必须经常刷新
+362
+00:15:15,100 --> 00:15:16,300
+and without power
+而且没有权力
+363
+00:15:16,433 --> 00:15:19,833
+DRAM would lose all its data in a tenth of a second
+DRAM会在十分之一秒内丢失所有数据
+364
+00:15:20,000 --> 00:15:23,533
+finally let's move on to the structure of cache memory
+最后让我们继续讨论缓存的结构
+365
+00:15:23,533 --> 00:15:25,933
+and registers inside the CPU
+并在CPU内注册
+366
+00:15:25,933 --> 00:15:27,866
+they're both made of transistors
+它们都是用晶体管做的
+367
+00:15:27,900 --> 00:15:30,933
+resulting in incredibly fast access times
+导致令人难以置信的快速访问时间
+368
+00:15:30,933 --> 00:15:32,066
+and high bandwidth
+和高带宽
+369
+00:15:32,066 --> 00:15:35,033
+cache memory uses six transistors per bit
+高速缓冲存储器每比特使用六个晶体管
+370
+00:15:35,033 --> 00:15:37,300
+assembled into an SRAM cell
+组装成SRAM单元
+371
+00:15:37,433 --> 00:15:39,866
+while six transistors may seem small
+虽然六个晶体管看起来很小
+372
+00:15:39,866 --> 00:15:41,833
+when we multiply this by
+当我们把这个乘以
+373
+00:15:41,933 --> 00:15:44,333
+36 megabytes in the L3 cache
+L3缓存中的36兆字节
+374
+00:15:44,400 --> 00:15:45,200
+we get
+我们得到
+375
+00:15:45,900 --> 00:15:47,833
+18 billion transistors
+180亿晶体管
+376
+00:15:48,200 --> 00:15:50,500
+adding in the other two levels of caches
+添加其他两个级别的缓存
+377
+00:15:50,533 --> 00:15:53,066
+along with the space for each address
+以及每个地址的空间
+378
+00:15:53,100 --> 00:15:56,400
+results in approximately a third of the CPU's
+导致大约三分之一的CPU
+379
+00:15:56,500 --> 00:16:00,133
+26 billion transistors being dedicated to cash
+260亿晶体管专用于现金
+380
+00:16:00,133 --> 00:16:02,500
+factoring in the cost of a CPU
+考虑CPU的成本
+381
+00:16:02,533 --> 00:16:05,866
+and extrapolating the cash to a gigabyte of storage
+并将现金推断为千兆字节的存储空间
+382
+00:16:05,866 --> 00:16:09,500
+yields absurdly high prices and transistor counts
+产生荒谬的高价格和晶体管数量
+383
+00:16:09,500 --> 00:16:12,533
+which is why the capacity of cash is so small
+这就是为什么现金容量如此之小
+384
+00:16:13,133 --> 00:16:14,433
+as for registers
+至于寄存器
+385
+00:16:14,500 --> 00:16:17,300
+they store bits in d flip flops
+他们将比特存储在d触发器中
+386
+00:16:17,400 --> 00:16:20,100
+using around 16 transistors per bit
+每比特使用大约16个晶体管
+387
+00:16:20,200 --> 00:16:23,200
+each register is typically 64 bits wide
+每个寄存器通常为64位宽
+388
+00:16:23,233 --> 00:16:25,533
+and each processing core contains
+每个处理核心都包含
+389
+00:16:25,833 --> 00:16:29,266
+32 registers or entries in a register file
+寄存器文件中的32个寄存器或条目
+390
+00:16:29,500 --> 00:16:30,800
+there are two reasons why
+有两个原因
+391
+00:16:30,800 --> 00:16:33,033
+register files are rather small
+寄存器文件相当小
+392
+00:16:33,066 --> 00:16:36,066
+first registers are designed to be accessed
+第一个寄存器旨在访问
+393
+00:16:36,066 --> 00:16:37,800
+in a single clock cycle
+在一个时钟周期内
+394
+00:16:37,800 --> 00:16:39,633
+or 1/3 of an nanosecond
+或者1/3纳秒
+395
+00:16:39,666 --> 00:16:41,533
+and increasing the number of entries
+并增加参赛人数
+396
+00:16:41,533 --> 00:16:44,066
+would require larger decoder circuitry
+需要更大的解码器电路
+397
+00:16:44,200 --> 00:16:47,600
+and more ports needed to access all the registers
+以及访问所有寄存器所需的更多端口
+398
+00:16:47,733 --> 00:16:49,200
+this additional circuitry
+这个附加电路
+399
+00:16:49,266 --> 00:16:51,466
+would require a slower clock speed
+需要较慢的时钟速度
+400
+00:16:51,500 --> 00:16:53,533
+thereby slowing down your computer
+从而减慢您的计算机速度
+401
+00:16:53,733 --> 00:16:54,933
+second 32
+第二个32
+402
+00:16:54,933 --> 00:16:57,633
+registers are addressed using five bits
+寄存器使用五位寻址
+403
+00:16:57,633 --> 00:16:59,733
+within the instructions themselves
+在说明本身内
+404
+00:16:59,800 --> 00:17:00,800
+and therefore
+因此
+405
+00:17:00,833 --> 00:17:02,800
+increasing the number of registers
+增加寄存器数量
+406
+00:17:02,800 --> 00:17:05,200
+would require longer instructions
+需要更长的说明
+407
+00:17:06,000 --> 00:17:06,933
+in essence
+本质上
+408
+00:17:07,066 --> 00:17:10,400
+registers sit directly next to the execution units
+寄存器直接位于执行单元旁边
+409
+00:17:10,400 --> 00:17:12,300
+and the arithmetic logic unit
+和算术逻辑单元
+410
+00:17:12,300 --> 00:17:14,066
+where the cores calculations
+核心计算的地方
+411
+00:17:14,066 --> 00:17:15,833
+and logic operations occur
+并发生逻辑运算
+412
+00:17:16,400 --> 00:17:16,866
+and then
+然后
+413
+00:17:16,866 --> 00:17:19,433
+spread across the table are the different cache
+分布在表中的是不同的缓存
+414
+00:17:19,433 --> 00:17:20,833
+levels and sizes
+级别和大小
+415
+00:17:22,000 --> 00:17:23,933
+this visualization is useful
+这种可视化很有用
+416
+00:17:23,933 --> 00:17:26,900
+because execution units can only work on data
+因为执行单元只能处理数据
+417
+00:17:26,900 --> 00:17:28,933
+that's already in the registers
+已经登记在案了
+418
+00:17:29,133 --> 00:17:31,100
+so if the data is not there
+所以如果数据不在那里
+419
+00:17:31,200 --> 00:17:33,933
+it must be fetched from the cache hierarchy
+它必须从缓存层次结构中获取
+420
+00:17:34,100 --> 00:17:35,233
+main memory
+主存储器
+421
+00:17:35,233 --> 00:17:38,933
+or even storage and gradually moved into the registers
+甚至存储并逐渐进入寄存器
+422
+00:17:40,200 --> 00:17:43,466
+having covered the physical design of registers caches
+涵盖了寄存器缓存的物理设计
+423
+00:17:43,466 --> 00:17:46,633
+DRAM hard disk drives and solid state drives
+DRAM硬盘驱动器和固态驱动器
+424
+00:17:46,800 --> 00:17:48,200
+it's important to note that
+重要的是要注意
+425
+00:17:48,200 --> 00:17:51,666
+the sizes and access times we used are approximate
+我们使用的尺寸和访问时间是近似的
+426
+00:17:51,866 --> 00:17:54,466
+because manufacturers rarely publish
+因为制造商很少发布
+427
+00:17:54,466 --> 00:17:56,333
+all of their internal specs
+他们所有的内部规格
+428
+00:17:56,733 --> 00:17:59,433
+for example our SSD model
+例如我们的SSD型号
+429
+00:17:59,433 --> 00:18:04,733
+with roughly 40 by 60,000 by 200 CTF cells per plane
+每架飞机大约有40 x 60,000 x 200个CTF细胞
+430
+00:18:04,833 --> 00:18:06,666
+and two planes per die
+每个模具两架飞机
+431
+00:18:06,933 --> 00:18:10,100
+is intended to be in the realistic ballpark
+目的是在现实的棒球场
+432
+00:18:10,133 --> 00:18:12,300
+rather than an exact blueprint
+而不是确切的蓝图
+433
+00:18:12,466 --> 00:18:15,700
+in practice there are hundreds of different designs
+实际上有数百种不同的设计
+434
+00:18:15,700 --> 00:18:16,800
+and architectures
+和架构
+435
+00:18:16,800 --> 00:18:18,633
+for each type of storage
+对于每种类型的存储
+436
+00:18:18,666 --> 00:18:21,666
+and technology is continually improving
+技术在不断进步
+437
+00:18:21,733 --> 00:18:23,133
+so in a decade
+所以十年后
+438
+00:18:23,300 --> 00:18:26,633
+these devices will likely be many times larger
+这些设备可能会大很多倍
+439
+00:18:26,633 --> 00:18:29,033
+and offer much faster access times
+并提供更快的访问时间
+440
+00:18:29,033 --> 00:18:30,433
+and higher bandwidth
+和更高的带宽
+441
+00:18:30,600 --> 00:18:31,466
+furthermore
+更进一步
+442
+00:18:31,666 --> 00:18:35,033
+there are also other memory technologies such as
+还有其他内存技术，例如
+443
+00:18:35,033 --> 00:18:38,233
+magnetic RAM and phase change memory
+磁性RAM和相变存储器
+444
+00:18:38,433 --> 00:18:38,800
+plus
+加
+445
+00:18:38,800 --> 00:18:42,333
+many emerging variants for each level of the hierarchy
+层次结构的每个级别都有许多新兴变体
+446
+00:18:42,533 --> 00:18:45,633
+but covering those would take an entire separate
+但是覆盖这些需要一个单独的
+447
+00:18:45,633 --> 00:18:46,933
+hour long video
+一小时长的视频
+448
+00:18:47,066 --> 00:18:49,500
+so for now let's move on
+所以现在让我们继续前进
+449
+00:18:51,666 --> 00:18:53,500
+the final topic we'll explore
+我们将探讨的最后一个主题
+450
+00:18:53,500 --> 00:18:56,733
+is the cutting edge memory and storage systems
+是最前沿的内存和存储系统
+451
+00:18:56,733 --> 00:18:59,900
+used inside AI servers and data centers
+在AI服务器和数据中心内使用
+452
+00:19:00,100 --> 00:19:03,533
+AI runs on incredibly advanced AI accelerators
+人工智能运行在非常先进的人工智能加速器上
+453
+00:19:03,533 --> 00:19:05,200
+and AI processors
+和人工智能处理器
+454
+00:19:05,266 --> 00:19:08,300
+that execute pedophops of calculations
+执行恋童癖的计算
+455
+00:19:08,333 --> 00:19:10,866
+and require two orders of magnitude
+并且需要两个数量级
+456
+00:19:10,866 --> 00:19:14,400
+more memory and storage than a typical desktop computer
+比典型的台式计算机更多的内存和存储空间
+457
+00:19:14,533 --> 00:19:17,900
+specifically inside a single AI server
+特别是在单个AI服务器内
+458
+00:19:18,000 --> 00:19:20,000
+there can be terabytes of memory
+可以有TB的内存
+459
+00:19:20,000 --> 00:19:22,500
+and hundreds of terabytes of storage
+和数百TB的存储空间
+460
+00:19:22,666 --> 00:19:25,100
+however this raises the question
+然而，这提出了一个问题
+461
+00:19:25,633 --> 00:19:27,466
+if a paragraph's text
+如果一段文字
+462
+00:19:27,466 --> 00:19:30,266
+when converted to binary using ASCII
+使用ASCII转换为二进制时
+463
+00:19:30,333 --> 00:19:33,133
+occupies only a few hundred bytes
+只占用几百个字节
+464
+00:19:33,133 --> 00:19:34,200
+why does AI
+为什么人工智能
+465
+00:19:34,200 --> 00:19:37,400
+need such large amounts of memory and storage
+需要如此大量的内存和存储空间
+466
+00:19:37,700 --> 00:19:39,066
+well essentially
+基本上
+467
+00:19:39,066 --> 00:19:42,733
+AI needs to build an understanding of the input text
+人工智能需要建立对输入文本的理解
+468
+00:19:42,833 --> 00:19:46,533
+and it does this by using roughly between 2 and 8
+它大约使用2到8之间来做到这一点
+469
+00:19:46,800 --> 00:19:49,433
+thousand dimensions or values per word
+每个单词的千个维度或值
+470
+00:19:49,700 --> 00:19:51,800
+each one byte in size
+每个字节的大小
+471
+00:19:52,133 --> 00:19:54,833
+technically an AI uses tokens
+从技术上讲，人工智能使用代币
+472
+00:19:55,000 --> 00:19:57,600
+which can sometimes be a part of a word
+有时是单词的一部分
+473
+00:19:57,633 --> 00:20:01,900
+but for simplicity we'll say one word equals one token
+但是为了简单起见，我们说一个词等于一个标记。
+474
+00:20:02,066 --> 00:20:05,500
+and that each token uses 8,000 dimensions
+每个代币使用8,000个维度
+475
+00:20:05,600 --> 00:20:06,333
+we're planning
+我们正在计划
+476
+00:20:06,333 --> 00:20:09,833
+many more videos that will dive deeper into AI
+更多视频将更深入地了解人工智能
+477
+00:20:09,900 --> 00:20:13,500
+but for now we'll provide a high level explanation
+但现在我们会提供一个高层次的解释
+478
+00:20:14,466 --> 00:20:18,233
+so then what are these 8,000 dimensions or values
+那么这8000个维度或值是什么？
+479
+00:20:18,300 --> 00:20:21,133
+well a simplified way of thinking about it
+嗯，一种简化的思考方式
+480
+00:20:21,200 --> 00:20:23,600
+is that the word dog for example
+例如，这是狗这个词吗？
+481
+00:20:23,733 --> 00:20:26,500
+is Learned and understood by the AI
+被人工智能学习和理解
+482
+00:20:26,700 --> 00:20:28,666
+by assigning different values
+通过分配不同的值
+483
+00:20:28,666 --> 00:20:31,200
+for a subset of the 8,000 dimensions
+对于8,000个维度的子集
+484
+00:20:31,266 --> 00:20:33,300
+relating to certain attributes
+与某些属性有关
+485
+00:20:33,300 --> 00:20:34,600
+in order to embed
+为了嵌入
+486
+00:20:34,600 --> 00:20:37,100
+or establish an understanding of that word
+或者建立对这个词的理解
+487
+00:20:37,266 --> 00:20:40,600
+for example some dimensions are used to represent
+例如，一些维度用于表示
+488
+00:20:40,600 --> 00:20:42,000
+attributes of the word
+词的属性
+489
+00:20:42,000 --> 00:20:45,900
+such as temperature and how hot or cold the word is
+比如温度和这个词有多热或多冷
+490
+00:20:46,000 --> 00:20:50,333
+or size and how big or small the word or token is
+或大小以及单词或标记的大小
+491
+00:20:50,466 --> 00:20:55,600
+as a result each token has 8000 dimensions or values
+因此，每个令牌都有8000个维度或值
+492
+00:20:55,700 --> 00:21:00,266
+each one byte in size resulting in 8 kilobytes of data
+每个字节的大小导致8 KB的数据
+493
+00:21:00,533 --> 00:21:04,466
+however the AI needs to work with paragraphs of text
+然而，人工智能需要处理文本段落
+494
+00:21:04,466 --> 00:21:06,833
+which yields much more data
+这产生了更多的数据
+495
+00:21:06,933 --> 00:21:08,066
+specifically
+具体地说
+496
+00:21:08,066 --> 00:21:11,400
+the maximum number of tokens in AI can handle
+AI中可以处理的最大代币数量
+497
+00:21:11,433 --> 00:21:13,466
+is called a context window
+称为上下文窗口
+498
+00:21:13,633 --> 00:21:15,533
+and for cutting edge models
+对于尖端型号
+499
+00:21:15,533 --> 00:21:19,733
+is around 100,000 to a couple of million tokens
+大约是10万到几百万个代币
+500
+00:21:19,900 --> 00:21:24,033
+the context window includes not only the input text
+上下文窗口不仅包括输入文本
+501
+00:21:24,100 --> 00:21:28,833
+but also prior conversations the answer or output text
+但之前的对话也是答案或输出文本
+502
+00:21:28,900 --> 00:21:31,733
+other reference text and much more
+其他参考文本等等
+503
+00:21:31,900 --> 00:21:35,800
+therefore a context window of 1 million tokens
+因此100万标记的上下文窗口
+504
+00:21:35,800 --> 00:21:38,100
+each with 8,000 dimensions
+每个都有8000个维度
+505
+00:21:38,200 --> 00:21:40,700
+results in 8 gigabytes of data
+产生8 GB的数据
+506
+00:21:41,866 --> 00:21:43,333
+to generate a response
+生成响应
+507
+00:21:43,333 --> 00:21:46,866
+the AI must feed the million token context window
+AI必须提供百万令牌上下文窗口
+508
+00:21:46,866 --> 00:21:49,266
+through hundreds of transformer blocks
+通过数百个变压器块
+509
+00:21:49,300 --> 00:21:52,300
+these blocks include attention sublayers
+这些块包括注意力子层
+510
+00:21:52,300 --> 00:21:55,800
+feed forward or multi layer perceptron blocks
+前馈或多层感知器块
+511
+00:21:55,900 --> 00:21:58,800
+variations of mixture of experts blocks
+混合专家块的变体
+512
+00:21:58,833 --> 00:22:01,000
+and many other components
+和许多其他组件
+513
+00:22:01,033 --> 00:22:04,233
+each block is made from tens of millions of learn
+每个区块都是由数千万个学习组成的
+514
+00:22:04,233 --> 00:22:06,233
+parameters and therefore
+参数，因此
+515
+00:22:06,233 --> 00:22:08,200
+state of the art AI models
+最先进的人工智能模型
+516
+00:22:08,200 --> 00:22:11,733
+are built from hundreds of billions of parameters
+是由数千亿个参数构建的
+517
+00:22:11,900 --> 00:22:14,133
+while the context window passes through
+当上下文窗口通过时
+518
+00:22:14,133 --> 00:22:15,533
+each of these blocks
+这些块中的每一个
+519
+00:22:15,533 --> 00:22:18,333
+and billions of parameters of the AI model
+以及AI模型的数十亿参数
+520
+00:22:18,400 --> 00:22:21,333
+all these numbers must be stored in memory
+所有这些数字都必须存储在内存中
+521
+00:22:21,333 --> 00:22:25,633
+and continuously fed to and from the AI processors
+并不断输入和输出AI处理器
+522
+00:22:25,900 --> 00:22:28,933
+resulting in tremendous amounts of data movement
+导致大量数据移动
+523
+00:22:29,000 --> 00:22:32,400
+and the need for AI to have enormous amounts of memory
+以及人工智能需要拥有大量内存
+524
+00:22:32,466 --> 00:22:33,500
+as a result
+结果
+525
+00:22:33,600 --> 00:22:38,333
+AI also uses a memory hierarchy but dialed up to 11
+AI也使用内存层次结构，但最多拨打11
+526
+00:22:38,466 --> 00:22:41,933
+and that's where this video's sponsor Micron operates
+这就是该视频的赞助商美光运营的地方
+527
+00:22:42,133 --> 00:22:45,466
+Micron has pioneered a new memory hierarchy for AI
+美光开创了人工智能的新内存层次结构
+528
+00:22:45,466 --> 00:22:49,066
+processors that divides memory into near memory
+将内存划分为近内存的处理器
+529
+00:22:49,066 --> 00:22:52,033
+called high Bandwidth Memory or HBM
+称为高带宽存储器或HBM
+530
+00:22:52,500 --> 00:22:56,133
+this tier uses HBM 3e and HBM 4
+此层使用HBM 3e和HBM 4
+531
+00:22:56,600 --> 00:22:59,433
+located next to the AI chip itself
+位于AI芯片本身旁边
+532
+00:23:00,233 --> 00:23:05,266
+the AI memory hierarchy also includes DDR5 server RDIM
+AI内存层次结构还包括DDR5服务器RDIM
+533
+00:23:05,266 --> 00:23:07,033
+sticks as main memory
+记忆棒作为主存储器
+534
+00:23:07,100 --> 00:23:10,333
+and even more expansion memory using CXL
+甚至更多使用CXL的扩展内存
+535
+00:23:10,333 --> 00:23:12,466
+or compute Expresslink protocol
+或计算Expresslink协议
+536
+00:23:12,466 --> 00:23:15,266
+to further increase server memory capacity
+进一步增加服务器内存容量
+537
+00:23:15,433 --> 00:23:19,066
+this is all before we even touch the storage layers
+这都是在我们接触存储层之前
+538
+00:23:19,566 --> 00:23:22,866
+so let's explore each of these layers
+所以让我们探索每一层
+539
+00:23:22,900 --> 00:23:27,066
+closest to each AI processor is the HBM 3e
+离每个AI处理器最近的是HBM 3e
+540
+00:23:27,500 --> 00:23:28,333
+built from a 12
+由12建造
+541
+00:23:28,600 --> 00:23:31,000
+high stack of DRAM dies
+高堆叠DRAM模具
+542
+00:23:31,066 --> 00:23:34,433
+that use through silicon vias or TSVs to
+通过硅通孔或TSV
+543
+00:23:34,633 --> 00:23:36,466
+connect all the layers
+连接所有层
+544
+00:23:36,466 --> 00:23:38,200
+thereby building a compact
+从而建立一个契约
+545
+00:23:38,200 --> 00:23:41,100
+memory dense cube into a single package
+内存密集立方体成一个包
+546
+00:23:41,200 --> 00:23:44,233
+six of these packages are mounted to an interposer
+其中六个包安装在一个内插器上
+547
+00:23:44,400 --> 00:23:46,833
+which is a thin silicon substrate
+它是一种薄硅衬底
+548
+00:23:46,833 --> 00:23:48,866
+that sits under the HBM stacks
+位于HBM书库下方
+549
+00:23:48,866 --> 00:23:50,133
+in AI processor
+在AI处理器中
+550
+00:23:50,733 --> 00:23:54,400
+this interposer acts like a mini motherboard or bridge
+这个中介就像一个迷你主板或桥接器
+551
+00:23:54,433 --> 00:23:57,400
+providing ultra dense wiring between the AI
+在AI之间提供超密集的布线
+552
+00:23:57,400 --> 00:23:58,900
+processor in the center
+中心处理器
+553
+00:23:59,000 --> 00:24:02,700
+and the surrounding 141 gigabytes of HBM
+以及周围141 GB的HBM
+554
+00:24:03,033 --> 00:24:05,133
+short yet incredibly wide
+短而宽
+555
+00:24:05,133 --> 00:24:08,433
+routes between the AI processor and HPM
+AI处理器和HPM之间的路由
+556
+00:24:08,600 --> 00:24:10,300
+deliver an impressive
+发表令人印象深刻的
+557
+00:24:10,800 --> 00:24:13,100
+12 terabytes per second of bandwidth
+每秒12 TB的带宽
+558
+00:24:13,100 --> 00:24:15,000
+with very low latency
+延迟非常低
+559
+00:24:16,066 --> 00:24:19,133
+the next layer down in the AI memory hierarchy
+AI内存层次结构中的下一层
+560
+00:24:19,333 --> 00:24:21,466
+is the DDR5 RDIM
+是DDR5 RDIM
+561
+00:24:21,800 --> 00:24:25,900
+and 32 sticks each containing 128 gigabytes
+和32根每根包含128 GB的棍子
+562
+00:24:25,933 --> 00:24:28,433
+resulting in 4 terabytes of memory
+产生4 TB的内存
+563
+00:24:28,500 --> 00:24:32,200
+notably some AI systems use LP DDR
+值得注意的是，一些AI系统使用LP DDR
+564
+00:24:32,333 --> 00:24:34,433
+similar to the memory in your phone
+类似于手机中的内存
+565
+00:24:34,633 --> 00:24:36,533
+thereby enabling higher bandwidth
+从而实现更高的带宽
+566
+00:24:36,533 --> 00:24:39,600
+while delivering low power and efficient performance
+同时提供低功耗和高效性能
+567
+00:24:40,833 --> 00:24:42,200
+in addition to memory
+除了内存
+568
+00:24:42,333 --> 00:24:45,133
+Micron has pioneered an even more impressive
+美光开创了一个更令人印象深刻的
+569
+00:24:45,133 --> 00:24:46,933
+hierarchy for storage
+存储层次结构
+570
+00:24:47,000 --> 00:24:49,933
+and pushed the science and engineering inside
+并将科学和工程推入其中
+571
+00:24:49,933 --> 00:24:51,933
+SSDs and flash storage
+SSD和闪存
+572
+00:24:51,933 --> 00:24:55,133
+in order to fit more data into a single package
+为了将更多数据放入一个包中
+573
+00:24:55,433 --> 00:24:56,466
+specifically
+具体地说
+574
+00:24:56,600 --> 00:25:01,400
+within the AI chassis are Micron's 9650 series SSDs
+AI机箱内是美光的9650系列SSD
+575
+00:25:01,666 --> 00:25:05,133
+each with 8 to 30 terabytes of storage
+每个都有8到30 TB的存储空间
+576
+00:25:05,400 --> 00:25:08,733
+which take advantage of the cutting edge Pcie
+利用尖端Pcie
+577
+00:25:08,733 --> 00:25:10,200
+Gen 6 protocol
+第6代协议
+578
+00:25:10,433 --> 00:25:13,533
+and are engineered to support the extreme throughput
+并且旨在支持极端的吞吐量
+579
+00:25:13,533 --> 00:25:14,733
+demands of training
+培训需求
+580
+00:25:14,733 --> 00:25:16,633
+and inference pipelines
+和推理管道
+581
+00:25:17,300 --> 00:25:18,133
+furthermore
+更进一步
+582
+00:25:18,233 --> 00:25:21,233
+in a separate rack are networked data lakes
+在一个单独的机架中是联网的数据湖
+583
+00:25:21,233 --> 00:25:25,666
+using Micron's 6600 ion NVME Ssds
+使用美光的6600 ion NVME Ssds
+584
+00:25:25,733 --> 00:25:27,533
+with each module shown
+每个模块都显示
+585
+00:25:27,533 --> 00:25:31,933
+containing up to 122 terabytes of storage
+包含高达122 TB的存储空间
+586
+00:25:32,100 --> 00:25:34,866
+with other form factors reaching as much as
+其他外形尺寸高达
+587
+00:25:35,033 --> 00:25:37,333
+246 terabytes
+246 TB
+588
+00:25:37,533 --> 00:25:40,933
+as a result a full rack can store dozens
+因此，一个完整的机架可以存储几十个
+589
+00:25:40,933 --> 00:25:43,233
+to hundreds of petabytes of data
+数百PB的数据
+590
+00:25:43,400 --> 00:25:46,433
+depending on the chassis and SSD density
+取决于机箱和SSD密度
+591
+00:25:46,533 --> 00:25:49,466
+making it perfect for storing training data sets
+非常适合存储训练数据集
+592
+00:25:49,466 --> 00:25:51,433
+with billions of examples
+有数十亿个例子
+593
+00:25:52,233 --> 00:25:53,866
+AI is the most data
+人工智能是最多的数据
+594
+00:25:53,866 --> 00:25:56,233
+intensive workload in modern computing
+现代计算中的密集工作负载
+595
+00:25:56,233 --> 00:25:59,233
+which is why data center architecture must tightly
+这就是为什么数据中心架构必须紧密
+596
+00:25:59,233 --> 00:26:02,266
+integrate multiple layers of memory and storage
+集成多层内存和存储
+597
+00:26:02,600 --> 00:26:05,833
+as systems grow more complex and sophisticated
+随着系统变得越来越复杂和精密
+598
+00:26:05,866 --> 00:26:07,233
+their memory and storage
+他们的记忆和存储
+599
+00:26:07,233 --> 00:26:10,066
+solutions need to become increasingly diverse
+解决方案需要变得越来越多样化
+600
+00:26:10,066 --> 00:26:11,333
+and specialized
+专业
+601
+00:26:11,733 --> 00:26:15,433
+if you're curious about Micron's AI memory hierarchy
+如果您对美光的AI内存层次结构感到好奇
+602
+00:26:15,533 --> 00:26:19,266
+high bandwidth memory or any of Micron's products
+高带宽存储器或美光的任何产品
+603
+00:26:19,333 --> 00:26:22,266
+take a look at one of these links in the description
+看看描述中的这些链接之一
+604
+00:26:22,433 --> 00:26:23,466
+alternatively
+可选择地
+605
+00:26:23,600 --> 00:26:24,500
+if pioneering
+如果开拓
+606
+00:26:24,500 --> 00:26:27,333
+the next generation of memory and storage chips
+下一代内存和存储芯片
+607
+00:26:27,333 --> 00:26:28,266
+interests you
+使你感兴趣
+608
+00:26:28,533 --> 00:26:31,800
+Micron is always looking for talented scientists
+美光一直在寻找有才华的科学家
+609
+00:26:31,800 --> 00:26:32,866
+and engineers
+和工程师
+610
+00:26:32,866 --> 00:26:35,633
+to help innovate on cutting edge chips
+帮助创新尖端芯片
+611
+00:26:35,900 --> 00:26:38,733
+you can find out more about working for Micron using
+您可以使用以下方法了解更多关于为美光工作的信息
+612
+00:26:38,733 --> 00:26:39,633
+this link
+此链接
+613
+00:26:40,700 --> 00:26:44,033
+this video is only a glimpse of all the science
+这段视频只是所有科学的一瞥
+614
+00:26:44,033 --> 00:26:44,866
+engineering
+工程学
+615
+00:26:44,866 --> 00:26:47,833
+and technical details involved in modern memory
+以及现代记忆所涉及的技术细节
+616
+00:26:47,833 --> 00:26:52,233
+hierarchies and there's a ton of research development
+等级制度，有大量的研究发展
+617
+00:26:52,266 --> 00:26:53,666
+and plenty of careers
+和大量的职业
+618
+00:26:53,666 --> 00:26:56,866
+focused entirely on the exciting world of data
+完全专注于令人兴奋的数据世界
+619
+00:26:57,633 --> 00:26:59,933
+we're thankful to all our Patreon
+我们感谢我们所有的赞助人
+620
+00:26:59,933 --> 00:27:01,100
+and YouTube membership
+和YouTube会员
+621
+00:27:01,100 --> 00:27:03,633
+sponsors for supporting our videos
+支持我们视频的赞助商
+622
+00:27:03,633 --> 00:27:06,066
+if you want to financially support our work
+如果你想资助我们的工作
+623
+00:27:06,233 --> 00:27:09,100
+you can find the links in the description below
+您可以在下面的描述中找到链接
+624
+00:27:09,300 --> 00:27:11,033
+this is Branch Education
+这是分支教育
+625
+00:27:11,233 --> 00:27:12,466
+and we create
+我们创造
+626
+00:27:12,600 --> 00:27:16,100
+3d animations that dive deeply into the technology
+深入研究这项技术的3d动画
+627
+00:27:16,100 --> 00:27:18,200
+that drives our modern world
+驱动着我们的现代世界
+628
+00:27:18,266 --> 00:27:19,633
+watch another branch video
+观看另一个分支视频
+629
+00:27:19,633 --> 00:27:21,633
+by clicking one of these cards
+通过点击其中一张卡片
+630
+00:27:21,633 --> 00:27:23,533
+or click here to subscribe
+或点击这里订阅
+631
+00:27:23,633 --> 00:27:25,633
+thanks for watching to the end
+感谢收看到最后

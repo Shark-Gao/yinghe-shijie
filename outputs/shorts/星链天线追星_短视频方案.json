@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "title": "一块天线，怎么追上高速飞过的卫星？",
+  "source_video": "G:/workspace/yinghe-shijie/videos/raw/星链如何把网络送到全球.mp4",
+  "output_video": "G:/workspace/yinghe-shijie/videos/exports/星链天线追星_短视频/星链天线追星_短视频.mp4",
+  "cover_title": "天线会追星",
+  "cover_headline": "天线会追星",
+  "cover_subhead": "550公里精准对准",
+  "cover_aspect": "16:9",
+  "background_music": "music/硬核视界_通用BGM_舒缓科普探索_CC0.mp3",
+  "layout": "source",
+  "burn_captions": false,
+  "write_subtitles": true,
+  "mix": {
+    "source_volume": 0.0,
+    "narration_volume": 1.0,
+    "music_volume": 0.45,
+    "music_fade_seconds": 0.0
+  },
+  "clips": [
+    { "id": "home_dish", "source_start": "00:00:00.000", "source_end": "00:00:04.750", "focus_x": 0.5 },
+    { "id": "orbiting_satellite", "source_start": "00:00:04.750", "source_end": "00:00:12.750", "focus_x": 0.5 },
+    { "id": "fast_satellite", "source_start": "00:00:19.000", "source_end": "00:00:26.750", "focus_x": 0.5 },
+    { "id": "dishy_link", "source_start": "00:02:20.000", "source_end": "00:02:26.500", "focus_x": 0.5 },
+    { "id": "narrow_beam", "source_start": "00:02:26.500", "source_end": "00:02:33.250", "focus_x": 0.5 },
+    { "id": "handoff", "source_start": "00:00:39.500", "source_end": "00:00:45.500", "focus_x": 0.5 },
+    { "id": "constellation", "source_start": "00:03:16.000", "source_end": "00:03:24.250", "focus_x": 0.5 }
+  ],
+  "narration": {
+    "voice": "zh-CN-YunyangNeural",
+    "rate": "+0%",
+    "segments": [
+      { "start": "00:00:00.000", "end": "00:00:04.750", "text": "一块比披萨还大的天线，怎么给偏远地区接上网？" },
+      { "start": "00:00:04.750", "end": "00:00:12.750", "text": "关键不是把信号粗暴地打向太空，而是持续追踪一颗从头顶高速掠过的低轨卫星。" },
+      { "start": "00:00:12.750", "end": "00:00:20.500", "text": "星链卫星运行在约五百五十公里高的近地轨道，速度可达每小时约两万七千公里。" },
+      { "start": "00:00:20.500", "end": "00:00:27.000", "text": "距离虽然比传统电视卫星近得多，信号仍要在天地之间跨越数百公里。" },
+      { "start": "00:00:27.000", "end": "00:00:33.750", "text": "所以终端会把能量集中成窄波束，始终把数据指向卫星的当前位置。" },
+      { "start": "00:00:33.750", "end": "00:00:39.750", "text": "卫星飞出视野后，天线大约每四分钟就要切换一次目标卫星。" },
+      { "start": "00:00:39.750", "end": "00:00:48.000", "text": "它靠的不是一颗卫星，而是一整张不断移动的空中网络。这才是低轨卫星互联网的核心。" }
+    ]
+  }
+}

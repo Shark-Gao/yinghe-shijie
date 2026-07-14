@@ -1,0 +1,578 @@
+{
+  "version": 1,
+  "source_subtitle": "手机电车都在用，锂电池凭啥能充这么多次？_时间线01.srt",
+  "target_video": "videos\\raw\\手机电车都在用，锂电池凭啥能充这么多次？.mp4",
+  "notes": "等长全程版视频文字注释，由解说时间线自动生成，可按画面微调。",
+  "annotations": [
+    {
+      "id": "anno_001",
+      "start": "00:00:00.000",
+      "end": "00:00:04.000",
+      "type": "chapter",
+      "text": "手机和电车里",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的赛车结构、气流或运动画面中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_002",
+      "start": "00:00:12.100",
+      "end": "00:00:16.100",
+      "type": "chapter",
+      "text": "问题是",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的赛车结构、气流或运动画面中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_003",
+      "start": "00:00:24.733",
+      "end": "00:00:28.733",
+      "type": "principle",
+      "text": "答案藏在电池内部的三条通道里",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的赛车结构、气流或运动画面中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_004",
+      "start": "00:00:43.700",
+      "end": "00:00:47.700",
+      "type": "principle",
+      "text": "先从最熟悉的电流说起",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的赛车结构、气流或运动画面中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_005",
+      "start": "00:00:58.000",
+      "end": "00:01:02.000",
+      "type": "principle",
+      "text": "在锂离子电池里",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的赛车结构、气流或运动画面中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_006",
+      "start": "00:01:15.700",
+      "end": "00:01:19.700",
+      "type": "principle",
+      "text": "当电池开始放电",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的赛车结构、气流或运动画面中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_007",
+      "start": "00:01:32.133",
+      "end": "00:01:36.133",
+      "type": "principle",
+      "text": "大量锂原子同时释放电子",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的赛车结构、气流或运动画面中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_008",
+      "start": "00:01:49.300",
+      "end": "00:01:53.300",
+      "type": "principle",
+      "text": "所以",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的赛车结构、气流或运动画面中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_009",
+      "start": "00:02:09.000",
+      "end": "00:02:13.000",
+      "type": "principle",
+      "text": "这就是锂电池最巧妙的分工",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的赛车结构、气流或运动画面中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_010",
+      "start": "00:02:30.466",
+      "end": "00:02:34.466",
+      "type": "principle",
+      "text": "到了正极一侧",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的赛车结构、气流或运动画面中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_011",
+      "start": "00:02:49.100",
+      "end": "00:02:53.100",
+      "type": "chapter",
+      "text": "注意",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的赛车结构、气流或运动画面中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_012",
+      "start": "00:03:10.400",
+      "end": "00:03:14.400",
+      "type": "principle",
+      "text": "于是放电过程可以概括成一句话",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的赛车结构、气流或运动画面中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_013",
+      "start": "00:03:30.466",
+      "end": "00:03:34.466",
+      "type": "principle",
+      "text": "电解液因此很特殊",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的赛车结构、气流或运动画面中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_014",
+      "start": "00:03:49.833",
+      "end": "00:03:53.833",
+      "type": "principle",
+      "text": "到一天结束",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的赛车结构、气流或运动画面中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_015",
+      "start": "00:04:09.133",
+      "end": "00:04:13.133",
+      "type": "principle",
+      "text": "充电",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的赛车结构、气流或运动画面中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_016",
+      "start": "00:04:32.800",
+      "end": "00:04:36.800",
+      "type": "principle",
+      "text": "电子回到石墨",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的赛车结构、气流或运动画面中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_017",
+      "start": "00:04:53.433",
+      "end": "00:04:57.433",
+      "type": "principle",
+      "text": "所以锂电池能反复充电",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的赛车结构、气流或运动画面中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_018",
+      "start": "00:05:21.066",
+      "end": "00:05:25.066",
+      "type": "principle",
+      "text": "这套往返听起来简单",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的赛车结构、气流或运动画面中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_019",
+      "start": "00:05:41.800",
+      "end": "00:05:45.800",
+      "type": "chapter",
+      "text": "正极和负极一旦接触",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的赛车结构、气流或运动画面中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_020",
+      "start": "00:06:00.433",
+      "end": "00:06:04.433",
+      "type": "principle",
+      "text": "中间的隔膜",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的赛车结构、气流或运动画面中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_021",
+      "start": "00:06:16.300",
+      "end": "00:06:20.300",
+      "type": "principle",
+      "text": "石墨和正极活性材料本身",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的赛车结构、气流或运动画面中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_022",
+      "start": "00:06:30.466",
+      "end": "00:06:34.466",
+      "type": "principle",
+      "text": "为了在狭小空间里塞进更多容量",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的赛车结构、气流或运动画面中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_023",
+      "start": "00:06:48.433",
+      "end": "00:06:52.433",
+      "type": "principle",
+      "text": "你看到的动画",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的赛车结构、气流或运动画面中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_024",
+      "start": "00:07:05.466",
+      "end": "00:07:09.466",
+      "type": "chapter",
+      "text": "电池顶部的管理电路也很重要",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的赛车结构、气流或运动画面中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_025",
+      "start": "00:07:23.733",
+      "end": "00:07:27.733",
+      "type": "principle",
+      "text": "这也解释了另一个问题",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的赛车结构、气流或运动画面中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_026",
+      "start": "00:07:43.466",
+      "end": "00:07:47.466",
+      "type": "principle",
+      "text": "其中一部分锂和电解液会发生副",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的赛车结构、气流或运动画面中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_027",
+      "start": "00:08:02.700",
+      "end": "00:08:06.700",
+      "type": "principle",
+      "text": "随着循环增加",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的赛车结构、气流或运动画面中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_028",
+      "start": "00:08:20.900",
+      "end": "00:08:24.900",
+      "type": "principle",
+      "text": "过度放电同样不友好",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的赛车结构、气流或运动画面中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_029",
+      "start": "00:08:41.633",
+      "end": "00:08:45.633",
+      "type": "principle",
+      "text": "从手机到电动车",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的赛车结构、气流或运动画面中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_030",
+      "start": "00:09:02.266",
+      "end": "00:09:06.266",
+      "type": "principle",
+      "text": "锂电池能充很多次",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的赛车结构、气流或运动画面中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,901 @@
+{
+  "version": 1,
+  "source_subtitle": "同样四个轮子，F1为啥能快这么多？_时间线01.srt",
+  "target_video": "G:\\workspace\\yinghe-shijie\\videos\\raw\\同样四个轮子，F1为啥能快这么多？.mp4",
+  "notes": "等长全程版视频文字注释，由解说时间线自动生成，可按画面微调。",
+  "annotations": [
+    {
+      "id": "anno_001",
+      "start": "00:00:00.000",
+      "end": "00:00:04.000",
+      "type": "chapter",
+      "text": "同样是四个轮子",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的赛车结构、气流或运动画面中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_002",
+      "start": "00:00:30.000",
+      "end": "00:00:34.000",
+      "type": "chapter",
+      "text": "先看最关键的空气动力学",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的赛车结构、气流或运动画面中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_003",
+      "start": "00:01:00.000",
+      "end": "00:01:04.000",
+      "type": "principle",
+      "text": "下压力越大",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的赛车结构、气流或运动画面中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_004",
+      "start": "00:01:30.000",
+      "end": "00:01:34.000",
+      "type": "principle",
+      "text": "翼尖附近会产生涡流",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的赛车结构、气流或运动画面中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_005",
+      "start": "00:02:00.000",
+      "end": "00:02:04.000",
+      "type": "principle",
+      "text": "真正的大招藏在车底",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的赛车结构、气流或运动画面中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_006",
+      "start": "00:02:30.000",
+      "end": "00:02:34.000",
+      "type": "principle",
+      "text": "所以 F1 的底板本身",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的赛车结构、气流或运动画面中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_007",
+      "start": "00:03:00.000",
+      "end": "00:03:04.000",
+      "type": "principle",
+      "text": "侧箱并不只是外壳",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的赛车结构、气流或运动画面中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_008",
+      "start": "00:03:30.000",
+      "end": "00:03:34.000",
+      "type": "principle",
+      "text": "尾翼同样制造下压力",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的赛车结构、气流或运动画面中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_009",
+      "start": "00:04:00.000",
+      "end": "00:04:04.000",
+      "type": "principle",
+      "text": "直道上想更快",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的赛车结构、气流或运动画面中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_010",
+      "start": "00:04:30.000",
+      "end": "00:04:34.000",
+      "type": "principle",
+      "text": "这也解释了为何跟车很难",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的赛车结构、气流或运动画面中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_011",
+      "start": "00:05:00.000",
+      "end": "00:05:04.000",
+      "type": "chapter",
+      "text": "掀开外壳",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的赛车结构、气流或运动画面中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_012",
+      "start": "00:05:30.000",
+      "end": "00:05:34.000",
+      "type": "principle",
+      "text": "发动机和变速箱也承担结构作用",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的赛车结构、气流或运动画面中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_013",
+      "start": "00:06:00.000",
+      "end": "00:06:04.000",
+      "type": "principle",
+      "text": "悬架看起来像细细的连杆",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的赛车结构、气流或运动画面中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_014",
+      "start": "00:06:30.000",
+      "end": "00:06:34.000",
+      "type": "principle",
+      "text": "推杆或拉杆把车轮的运动传进车",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的赛车结构、气流或运动画面中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_015",
+      "start": "00:07:00.000",
+      "end": "00:07:04.000",
+      "type": "principle",
+      "text": "F1 不用普通的大弹簧",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的赛车结构、气流或运动画面中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_016",
+      "start": "00:07:30.000",
+      "end": "00:07:34.000",
+      "type": "principle",
+      "text": "加速",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的赛车结构、气流或运动画面中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_017",
+      "start": "00:08:00.000",
+      "end": "00:08:04.000",
+      "type": "principle",
+      "text": "悬架还要兼顾转向",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的赛车结构、气流或运动画面中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_018",
+      "start": "00:08:30.000",
+      "end": "00:08:34.000",
+      "type": "principle",
+      "text": "暴露在外的连杆大多采用碳纤维",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的赛车结构、气流或运动画面中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_019",
+      "start": "00:09:00.000",
+      "end": "00:09:04.000",
+      "type": "chapter",
+      "text": "接下来是制动",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的赛车结构、气流或运动画面中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_020",
+      "start": "00:09:30.000",
+      "end": "00:09:34.000",
+      "type": "principle",
+      "text": "前后制动各有独立的液压回路",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的赛车结构、气流或运动画面中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_021",
+      "start": "00:10:00.000",
+      "end": "00:10:04.000",
+      "type": "principle",
+      "text": "碳基刹车盘内部布满散热孔",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的赛车结构、气流或运动画面中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_022",
+      "start": "00:10:30.000",
+      "end": "00:10:34.000",
+      "type": "principle",
+      "text": "制动并不只靠摩擦",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的赛车结构、气流或运动画面中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_023",
+      "start": "00:11:00.000",
+      "end": "00:11:04.000",
+      "type": "principle",
+      "text": "这套制动需要电脑持续协调",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的赛车结构、气流或运动画面中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_024",
+      "start": "00:11:30.000",
+      "end": "00:11:34.000",
+      "type": "chapter",
+      "text": "动力总成被紧紧塞在车尾",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的赛车结构、气流或运动画面中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_025",
+      "start": "00:12:00.000",
+      "end": "00:12:04.000",
+      "type": "principle",
+      "text": "涡轮把更多空气压进发动机",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的赛车结构、气流或运动画面中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_026",
+      "start": "00:12:30.000",
+      "end": "00:12:34.000",
+      "type": "principle",
+      "text": "F1 的发动机转速极高",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的赛车结构、气流或运动画面中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_027",
+      "start": "00:13:00.000",
+      "end": "00:13:04.000",
+      "type": "principle",
+      "text": "空气通过侧箱后还要继续工作",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的赛车结构、气流或运动画面中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_028",
+      "start": "00:13:30.000",
+      "end": "00:13:34.000",
+      "type": "principle",
+      "text": "现代 F1 还是一台混合动力",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的赛车结构、气流或运动画面中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_029",
+      "start": "00:14:00.000",
+      "end": "00:14:04.000",
+      "type": "principle",
+      "text": "这就是为什么出弯后的爆发不只",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的赛车结构、气流或运动画面中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_030",
+      "start": "00:14:30.000",
+      "end": "00:14:34.000",
+      "type": "principle",
+      "text": "电池释放到 MGU-K 的额",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的赛车结构、气流或运动画面中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_031",
+      "start": "00:15:00.000",
+      "end": "00:15:04.000",
+      "type": "chapter",
+      "text": "为了让这些系统活下来",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的赛车结构、气流或运动画面中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_032",
+      "start": "00:15:30.000",
+      "end": "00:15:34.000",
+      "type": "principle",
+      "text": "油箱其实是高强度防刺穿的燃油",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的赛车结构、气流或运动画面中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_033",
+      "start": "00:16:00.000",
+      "end": "00:16:04.000",
+      "type": "principle",
+      "text": "一场比赛的燃油只有几十加仑",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的赛车结构、气流或运动画面中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_034",
+      "start": "00:16:30.000",
+      "end": "00:16:34.000",
+      "type": "principle",
+      "text": "发动机后方是八速变速箱和差速",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的赛车结构、气流或运动画面中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_035",
+      "start": "00:17:00.000",
+      "end": "00:17:04.000",
+      "type": "chapter",
+      "text": "速度越高",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的赛车结构、气流或运动画面中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_036",
+      "start": "00:17:30.000",
+      "end": "00:17:34.000",
+      "type": "principle",
+      "text": "Halo 和防滚架看似简单",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的赛车结构、气流或运动画面中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_037",
+      "start": "00:18:00.000",
+      "end": "00:18:04.000",
+      "type": "principle",
+      "text": "驾驶员几乎是躺进座舱的",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的赛车结构、气流或运动画面中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_038",
+      "start": "00:18:30.000",
+      "end": "00:18:34.000",
+      "type": "principle",
+      "text": "头颈保护装置限制头部在撞击时",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的赛车结构、气流或运动画面中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_039",
+      "start": "00:19:00.000",
+      "end": "00:19:04.000",
+      "type": "chapter",
+      "text": "狭窄座舱里",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的赛车结构、气流或运动画面中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_040",
+      "start": "00:19:30.000",
+      "end": "00:19:34.000",
+      "type": "principle",
+      "text": "中间屏幕显示挡位",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的赛车结构、气流或运动画面中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_041",
+      "start": "00:20:00.000",
+      "end": "00:20:04.000",
+      "type": "principle",
+      "text": "方向盘上的旋钮和按键",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的赛车结构、气流或运动画面中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_042",
+      "start": "00:20:30.000",
+      "end": "00:20:34.000",
+      "type": "principle",
+      "text": "超车",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的赛车结构、气流或运动画面中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_043",
+      "start": "00:21:00.000",
+      "end": "00:21:04.000",
+      "type": "principle",
+      "text": "换挡拨片让车手在转弯中也能快",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的赛车结构、气流或运动画面中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_044",
+      "start": "00:21:30.000",
+      "end": "00:21:34.000",
+      "type": "principle",
+      "text": "脚下的油门和刹车踏板同样经过",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的赛车结构、气流或运动画面中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_045",
+      "start": "00:22:00.000",
+      "end": "00:22:04.000",
+      "type": "chapter",
+      "text": "赛车全身布满传感器",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的赛车结构、气流或运动画面中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_046",
+      "start": "00:22:30.000",
+      "end": "00:22:34.000",
+      "type": "principle",
+      "text": "所以",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的赛车结构、气流或运动画面中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_047",
+      "start": "00:23:00.000",
+      "end": "00:23:04.000",
+      "type": "principle",
+      "text": "它不是一辆更快的汽车",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的赛车结构、气流或运动画面中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    }
+  ]
+}

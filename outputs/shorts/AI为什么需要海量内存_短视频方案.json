@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "title": "AI 为什么需要海量内存？",
+  "source_video": "G:/workspace/yinghe-shijie/videos/raw/AI 时代，缓存 内存 硬盘到底怎么分工？.mp4",
+  "output_video": "G:/workspace/yinghe-shijie/videos/exports/短视频/AI 时代，缓存 内存 硬盘到底怎么分工？/AI为什么需要海量内存_短视频/AI为什么需要海量内存_短视频.mp4",
+  "cover_title": "AI 为何吞掉几 TB 内存",
+  "cover_headline": "AI吞掉内存",
+  "cover_subhead": "数据洪流远超文字",
+  "cover_aspect": "16:9", "background_music": "music/硬核视界_通用BGM_舒缓科普探索_CC0.mp3",
+  "layout": "source", "burn_captions": false, "write_subtitles": true,
+  "mix": { "source_volume": 0.0, "narration_volume": 1.0, "music_volume": 0.45, "music_fade_seconds": 0.0 },
+  "clips": [
+    { "id": "ai_server", "source_start": "00:19:00.000", "source_end": "00:19:09.000", "focus_x": 0.5 },
+    { "id": "scale", "source_start": "00:19:10.000", "source_end": "00:19:20.000", "focus_x": 0.5 },
+    { "id": "vectors", "source_start": "00:19:37.000", "source_end": "00:19:47.000", "focus_x": 0.5 },
+    { "id": "token", "source_start": "00:20:21.000", "source_end": "00:20:31.000", "focus_x": 0.5 },
+    { "id": "context", "source_start": "00:21:31.000", "source_end": "00:21:41.000", "focus_x": 0.5 },
+    { "id": "movement", "source_start": "00:22:11.000", "source_end": "00:22:21.000", "focus_x": 0.5 }
+  ],
+  "narration": { "voice": "zh-CN-YunyangNeural", "rate": "+0%", "segments": [
+    { "start": "00:00:00.000", "end": "00:00:09.000", "text": "一段文字明明只有几百字节，为什么 AI 服务器却要配几 TB 内存？" },
+    { "start": "00:00:09.000", "end": "00:00:19.000", "text": "因为模型不是把词当文字看，而是把每个 token 变成成千上万个数字，组成向量。" },
+    { "start": "00:00:19.000", "end": "00:00:29.000", "text": "一个 token 只要八千个维度，单独看不大；可上下文一长，数据量会立刻膨胀。" },
+    { "start": "00:00:29.000", "end": "00:00:39.000", "text": "百万 token 的上下文，光这些表示就可能达到数 GB，而且输入、历史和输出都要一起保留。" },
+    { "start": "00:00:39.000", "end": "00:00:49.000", "text": "生成回答时，这些数据还得穿过数百层网络，并持续和海量模型参数来回交换。" },
+    { "start": "00:00:49.000", "end": "00:00:59.000", "text": "AI 真正吞掉的不是文字本身，而是理解文字、保留上下文和反复计算产生的数据洪流。" }
+  ] }
+}

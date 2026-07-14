@@ -1,0 +1,863 @@
+{
+  "version": 1,
+  "source_subtitle": "神经网络到底在算什么，AI为什么能认出一张手写数字？_时间线01.srt",
+  "target_video": "F:\\f_raw\\神经网络到底在算什么，AI为什么能认出一张手写数字？.mp4",
+  "notes": "等长全程版视频文字注释，由解说时间线自动生成，可按画面微调。",
+  "annotations": [
+    {
+      "id": "anno_001",
+      "start": "00:00:00.000",
+      "end": "00:00:04.000",
+      "type": "chapter",
+      "text": "眼前这个潦草的三",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_002",
+      "start": "00:00:11.000",
+      "end": "00:00:14.500",
+      "type": "callout",
+      "text": "只有二十八乘二十八个像素",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_003",
+      "start": "00:00:22.000",
+      "end": "00:00:26.000",
+      "type": "chapter",
+      "text": "问题是",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_004",
+      "start": "00:00:33.500",
+      "end": "00:00:37.000",
+      "type": "callout",
+      "text": "换成程序就没这么简单",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_005",
+      "start": "00:00:45.000",
+      "end": "00:00:49.000",
+      "type": "principle",
+      "text": "把一张二十八乘二十八的灰度图",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_006",
+      "start": "00:00:57.500",
+      "end": "00:01:01.000",
+      "type": "callout",
+      "text": "再要求它从零到九里选出答案",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_007",
+      "start": "00:01:10.000",
+      "end": "00:01:14.000",
+      "type": "principle",
+      "text": "这一期不讲营销词",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_008",
+      "start": "00:01:23.000",
+      "end": "00:01:26.500",
+      "type": "callout",
+      "text": "也先不钻进复杂公式",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_009",
+      "start": "00:01:36.000",
+      "end": "00:01:40.000",
+      "type": "principle",
+      "text": "接下来搭建的是最基础的一类网",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_010",
+      "start": "00:01:50.500",
+      "end": "00:01:54.000",
+      "type": "callout",
+      "text": "它不代表今天最强的模型",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_011",
+      "start": "00:02:05.000",
+      "end": "00:02:09.000",
+      "type": "principle",
+      "text": "神经网络的变体很多",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_012",
+      "start": "00:02:19.500",
+      "end": "00:02:23.000",
+      "type": "callout",
+      "text": "但先把它想成一组会保存数字的",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_013",
+      "start": "00:02:34.000",
+      "end": "00:02:38.000",
+      "type": "principle",
+      "text": "输入图像有二十八乘二十八个像",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_014",
+      "start": "00:02:49.500",
+      "end": "00:02:53.000",
+      "type": "callout",
+      "text": "也就是七百八十四个输入节点",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_015",
+      "start": "00:03:05.000",
+      "end": "00:03:09.000",
+      "type": "principle",
+      "text": "黑色可以看作零",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_016",
+      "start": "00:03:23.500",
+      "end": "00:03:27.000",
+      "type": "callout",
+      "text": "白色可以看作一",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_017",
+      "start": "00:03:42.000",
+      "end": "00:03:46.000",
+      "type": "principle",
+      "text": "最右边的输出层只有十个节点",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_018",
+      "start": "00:03:57.000",
+      "end": "00:04:00.500",
+      "type": "callout",
+      "text": "分别代表零到九",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_019",
+      "start": "00:04:12.000",
+      "end": "00:04:16.000",
+      "type": "principle",
+      "text": "输入层和输出层之间",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_020",
+      "start": "00:04:45.000",
+      "end": "00:04:49.000",
+      "type": "chapter",
+      "text": "在这套示例网络里",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_021",
+      "start": "00:05:16.000",
+      "end": "00:05:20.000",
+      "type": "principle",
+      "text": "当一张数字图像输入后",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_022",
+      "start": "00:05:46.000",
+      "end": "00:05:50.000",
+      "type": "principle",
+      "text": "为什么分层会有用",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_023",
+      "start": "00:06:18.000",
+      "end": "00:06:22.000",
+      "type": "principle",
+      "text": "理想情况下",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_024",
+      "start": "00:06:50.000",
+      "end": "00:06:54.000",
+      "type": "principle",
+      "text": "不过",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_025",
+      "start": "00:07:22.000",
+      "end": "00:07:26.000",
+      "type": "principle",
+      "text": "先从最简单的一条连接看起",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_026",
+      "start": "00:07:54.000",
+      "end": "00:07:58.000",
+      "type": "principle",
+      "text": "权重可以理解为这条连接的重要",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_027",
+      "start": "00:08:24.000",
+      "end": "00:08:28.000",
+      "type": "principle",
+      "text": "一个节点不会只听一条线的意见",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_028",
+      "start": "00:08:57.000",
+      "end": "00:09:01.000",
+      "type": "chapter",
+      "text": "但加总还不够",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_029",
+      "start": "00:09:28.000",
+      "end": "00:09:32.000",
+      "type": "principle",
+      "text": "加权和再经过激活函数",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_030",
+      "start": "00:09:58.000",
+      "end": "00:10:02.000",
+      "type": "principle",
+      "text": "所以一层网络的计算",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_031",
+      "start": "00:10:30.000",
+      "end": "00:10:34.000",
+      "type": "principle",
+      "text": "这些数一旦确定",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_032",
+      "start": "00:11:04.000",
+      "end": "00:11:08.000",
+      "type": "principle",
+      "text": "训练的本质",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_033",
+      "start": "00:11:38.000",
+      "end": "00:11:42.000",
+      "type": "chapter",
+      "text": "从这个角度看",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_034",
+      "start": "00:12:10.000",
+      "end": "00:12:14.000",
+      "type": "principle",
+      "text": "当然",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_035",
+      "start": "00:12:42.000",
+      "end": "00:12:46.000",
+      "type": "principle",
+      "text": "理解权重和偏置",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_036",
+      "start": "00:13:14.000",
+      "end": "00:13:18.000",
+      "type": "principle",
+      "text": "当节点和连接数量越来越多",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_037",
+      "start": "00:13:47.000",
+      "end": "00:13:51.000",
+      "type": "principle",
+      "text": "矩阵的每一行",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_038",
+      "start": "00:14:18.000",
+      "end": "00:14:22.000",
+      "type": "principle",
+      "text": "一次矩阵乘法",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_039",
+      "start": "00:14:50.000",
+      "end": "00:14:54.000",
+      "type": "principle",
+      "text": "这也是为什么线性代数是机器学",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_040",
+      "start": "00:15:22.000",
+      "end": "00:15:26.000",
+      "type": "chapter",
+      "text": "严格来说",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_041",
+      "start": "00:15:54.000",
+      "end": "00:15:58.000",
+      "type": "principle",
+      "text": "整张网络也是一个函数",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_042",
+      "start": "00:16:24.000",
+      "end": "00:16:28.000",
+      "type": "principle",
+      "text": "这个示例网络大约有一万三千个",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_043",
+      "start": "00:16:55.000",
+      "end": "00:16:59.000",
+      "type": "principle",
+      "text": "至于这些权重和偏置究竟怎样从",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_044",
+      "start": "00:17:24.000",
+      "end": "00:17:28.000",
+      "type": "chapter",
+      "text": "这里用的 sigmoid",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_045",
+      "start": "00:17:56.000",
+      "end": "00:18:00.000",
+      "type": "principle",
+      "text": "但现代深层网络常用 ReLU",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    }
+  ]
+}

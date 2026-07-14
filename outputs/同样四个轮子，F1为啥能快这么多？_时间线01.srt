@@ -1,0 +1,1764 @@
+1
+00:00:00,100 --> 00:00:01,433
+I'm Jake O'Neill
+我是杰克·奥尼尔
+2
+00:00:01,833 --> 00:00:03,933
+creator of animagraphs
+动画创作者
+3
+00:00:04,200 --> 00:00:07,933
+and this is how a Formula 1 race car works
+这就是一级方程式赛车的工作原理
+4
+00:00:13,800 --> 00:00:15,533
+let's start with aerodynamics
+让我们从空气动力学开始
+5
+00:00:16,533 --> 00:00:18,466
+which is how the car interacts with
+这就是汽车与
+6
+00:00:18,533 --> 00:00:20,833
+and moves through the air around it
+并在它周围的空气中移动
+7
+00:00:22,033 --> 00:00:24,833
+it's best to focus on overall theory here
+在这里最好专注于整体理论
+8
+00:00:25,066 --> 00:00:26,600
+to avoid getting lost
+以避免迷路
+9
+00:00:26,600 --> 00:00:29,133
+in the absolute maze of individual
+在个人的绝对迷宫中
+10
+00:00:29,233 --> 00:00:30,733
+aerodynamic features
+气动特性
+11
+00:00:31,700 --> 00:00:33,633
+the front wing curves upward
+前翼向上弯曲
+12
+00:00:33,633 --> 00:00:36,333
+forcing air to move around it in such a way
+迫使空气以这种方式在它周围移动
+13
+00:00:36,633 --> 00:00:39,533
+that a high pressure area forms above the wing
+机翼上方形成一个高压区
+14
+00:00:39,633 --> 00:00:41,466
+with lower pressure beneath
+下面的压力较低
+15
+00:00:43,100 --> 00:00:44,400
+this pressure difference
+这个压差
+16
+00:00:44,400 --> 00:00:47,000
+contributes to a kind of suction force
+产生一种吸力
+17
+00:00:47,000 --> 00:00:48,633
+called down force
+调降力
+18
+00:00:49,000 --> 00:00:51,733
+that pushes or sticks the car to the track
+将汽车推或粘在轨道上
+19
+00:00:54,066 --> 00:00:55,333
+where the wing ends
+翅膀的末端
+20
+00:00:55,333 --> 00:00:57,300
+and these different pressure zones meet
+这些不同的压力区相遇
+21
+00:00:57,666 --> 00:00:59,733
+the air crashes into itself
+空气撞击自己
+22
+00:01:00,133 --> 00:01:02,266
+creating a spiraling vortex
+形成螺旋漩涡
+23
+00:01:04,033 --> 00:01:05,933
+vortices cause drag
+涡流导致阻力
+24
+00:01:05,933 --> 00:01:08,400
+which tugs at the car slowing it down
+拖着车减速
+25
+00:01:09,233 --> 00:01:10,866
+a cap on the wingtip
+翼尖上的帽子
+26
+00:01:11,133 --> 00:01:15,100
+interrupts vortex formation for a less intense effect
+中断漩涡形成以获得不太强烈的效果
+27
+00:01:16,600 --> 00:01:18,800
+in contrast the pointed
+相比之下，尖的
+28
+00:01:18,833 --> 00:01:22,133
+curved in surfaces on the inside edge of the wing
+机翼内侧边缘的曲面
+29
+00:01:22,266 --> 00:01:23,666
+intentionally shape
+有意塑造
+30
+00:01:23,666 --> 00:01:26,333
+and direct a vortex around the floor of the car
+并在汽车地板周围引导漩涡
+31
+00:01:26,600 --> 00:01:29,500
+sealing in the clean air that passes beneath
+密封在下面经过的干净空气中
+32
+00:01:32,833 --> 00:01:35,733
+so while vortices do cause drag
+所以虽然漩涡确实会产生阻力
+33
+00:01:36,033 --> 00:01:38,633
+they're also a useful tool to separate
+它们也是分离的有用工具
+34
+00:01:38,633 --> 00:01:41,233
+and seal in different areas of air flow
+并密封在不同的气流区域
+35
+00:01:42,266 --> 00:01:43,800
+as a matter of tradition
+作为传统
+36
+00:01:43,933 --> 00:01:46,233
+F1 cars don't have fenders
+F1赛车没有挡泥板
+37
+00:01:46,300 --> 00:01:49,466
+and the open spinning wheel and tire combination
+还有开放式纺车轮和轮胎组合
+38
+00:01:49,800 --> 00:01:52,833
+is a major source of dirty turbulent air
+是肮脏湍流空气的主要来源
+39
+00:01:55,300 --> 00:01:57,533
+turbulent air is unpredictable
+湍流的空气变幻莫测
+40
+00:01:57,866 --> 00:02:00,833
+and not very useful for aerodynamic goals
+对空气动力学目标不是很有用
+41
+00:02:01,066 --> 00:02:02,866
+like generating downforce
+就像产生下压力一样
+42
+00:02:03,700 --> 00:02:05,433
+directly behind the tires
+就在轮胎后面
+43
+00:02:05,466 --> 00:02:08,266
+the barge boards condition or clean up
+驳船板保养或清理
+44
+00:02:08,266 --> 00:02:09,666
+some of this air flow
+一些气流
+45
+00:02:09,800 --> 00:02:12,433
+while also pushing lots of dirty air
+同时也推动了大量的脏空气
+46
+00:02:12,500 --> 00:02:13,933
+away from the body
+远离身体
+47
+00:02:20,300 --> 00:02:23,600
+the narrow gap between the car floor and the track
+汽车地板和轨道之间的狭窄缝隙
+48
+00:02:23,733 --> 00:02:26,266
+turns the entire floor into a giant
+把整个地板变成一个巨大的
+49
+00:02:26,266 --> 00:02:27,600
+downforce generator
+下压力发生器
+50
+00:02:27,833 --> 00:02:29,333
+as air squeezes
+随着空气的挤压
+51
+00:02:29,500 --> 00:02:32,066
+thins and rushes beneath the car
+在汽车下面变薄和匆忙
+52
+00:02:32,133 --> 00:02:35,266
+at a different rate and pressure than overhead air
+以不同于头顶空气的速度和压力
+53
+00:02:37,200 --> 00:02:39,900
+the floor has a forward tilt or Rake
+地板有向前倾斜或耙
+54
+00:02:40,233 --> 00:02:43,100
+that creates very low pressure at its narrowest point
+在最窄处产生非常低的气压
+55
+00:02:43,433 --> 00:02:44,400
+but allows air to
+但允许空气
+56
+00:02:44,400 --> 00:02:46,800
+more smoothly rejoin ambient air pressure
+更平稳地重新加入环境气压
+57
+00:02:46,800 --> 00:02:48,433
+as it flows out the back
+当它从后面流出时
+58
+00:02:49,500 --> 00:02:52,433
+a diffuser at the rear amplifies this goal
+后部的扩散器放大了这一目标
+59
+00:02:52,900 --> 00:02:55,233
+with its more pronounced upward curvature
+具有更明显的向上曲率
+60
+00:02:56,033 --> 00:02:58,100
+the diffuser has vertical veins
+扩散器有垂直静脉
+61
+00:02:58,100 --> 00:02:59,500
+to control and direct
+控制和指挥
+62
+00:02:59,500 --> 00:03:02,300
+the massive vortices that form behind the car
+汽车后面形成的巨大漩涡
+63
+00:03:02,533 --> 00:03:04,733
+as air pours out from underneath
+当空气从下面涌出
+64
+00:03:10,533 --> 00:03:12,066
+clean air is directed
+清洁空气是直接的
+65
+00:03:12,066 --> 00:03:14,700
+into the side pods for cooling purposes
+放入侧舱以供冷却
+66
+00:03:15,300 --> 00:03:18,800
+this stream passes through the car and out the back
+这条小溪穿过汽车从后面流出
+67
+00:03:18,800 --> 00:03:20,066
+beneath the rear wing
+尾翼下方
+68
+00:03:21,500 --> 00:03:24,066
+the smoothly contoured body guides
+轮廓流畅的车身导轨
+69
+00:03:24,066 --> 00:03:26,400
+air streams gracefully around bodywork
+气流优雅地围绕车身流动
+70
+00:03:26,433 --> 00:03:29,466
+for predictable handling under extreme conditions
+在极端条件下可预测的处理
+71
+00:03:33,066 --> 00:03:35,033
+the upward curved rear wing
+向上弯曲的尾翼
+72
+00:03:35,033 --> 00:03:37,533
+which is another critical downforce generator
+这是另一个关键的下压力发生器
+73
+00:03:38,033 --> 00:03:41,800
+has notched end caps with gaps and louvers
+具有带间隙和百叶窗的缺口端盖
+74
+00:03:41,900 --> 00:03:44,100
+to allow some air to combine early
+让一些空气提前结合
+75
+00:03:44,500 --> 00:03:48,000
+altering and shaping rear wing vortex characteristics
+改变和塑造后翼涡流特性
+76
+00:03:48,700 --> 00:03:51,900
+it's also where in wet conditions the noticeable
+它也是在潮湿的条件下
+77
+00:03:52,100 --> 00:03:55,866
+Misty wingtip vortices sometimes appear in plain sight
+模糊的翼尖漩涡有时会出现在视线中
+78
+00:04:00,033 --> 00:04:03,333
+a hydraulic actuator tilts a section of the rear wing
+液压执行器倾斜尾翼的一部分
+79
+00:04:03,466 --> 00:04:06,933
+when the drag reduction system or Drs is engaged
+当减阻系统或Drs启动时
+80
+00:04:07,900 --> 00:04:09,866
+generating less rear downforce
+产生更少的后下压力
+81
+00:04:09,866 --> 00:04:12,266
+but allowing higher overall speed
+但允许更高的整体速度
+82
+00:04:16,866 --> 00:04:18,700
+the massive area of dirty air
+大片肮脏的空气
+83
+00:04:18,700 --> 00:04:19,433
+behind the car
+在车后面
+84
+00:04:19,433 --> 00:04:21,866
+can make it difficult for other cars to approach
+会让其他车很难靠近
+85
+00:04:21,866 --> 00:04:22,866
+and overtake
+并超车
+86
+00:04:23,533 --> 00:04:26,300
+it's worth noting here that in coming years
+值得注意的是，在未来几年
+87
+00:04:26,400 --> 00:04:28,933
+the aerodynamic design regulations for F1
+F1的空气动力学设计规定
+88
+00:04:28,933 --> 00:04:31,333
+cars are set for major changes
+汽车将迎来重大变革
+89
+00:04:31,500 --> 00:04:34,600
+to encourage closer racing and overtaking
+鼓励更近距离的比赛和超车
+90
+00:04:34,866 --> 00:04:36,133
+the airflow pattern
+气流模式
+91
+00:04:36,266 --> 00:04:39,700
+might look more like this than the current wide
+可能看起来更像这样，而不是现在的宽
+92
+00:04:39,700 --> 00:04:40,733
+dirty wake
+肮脏的尾流
+93
+00:04:44,000 --> 00:04:47,133
+now let's go underneath this exterior bodywork
+现在让我们看看这个外部车身下面
+94
+00:04:47,233 --> 00:04:49,533
+starting with the core support structure
+从核心支撑结构开始
+95
+00:04:51,733 --> 00:04:54,833
+a carbon fiber shell called a monocoque
+一种叫做硬壳的碳纤维外壳
+96
+00:04:55,600 --> 00:04:57,400
+the engine heads and block
+发动机头和发动机座
+97
+00:04:57,833 --> 00:04:59,466
+and the gearbox enclosure
+和变速箱外壳
+98
+00:04:59,600 --> 00:05:03,400
+form the main structural support for all other systems
+形成所有其他系统的主要结构支撑
+99
+00:05:04,033 --> 00:05:07,200
+there's no additional frame or chassis underneath
+下面没有额外的框架或底盘
+100
+00:05:19,233 --> 00:05:20,300
+suspension
+悬架
+101
+00:05:22,233 --> 00:05:25,466
+both front and back suspension setups share similar
+前后悬架设置相似
+102
+00:05:26,633 --> 00:05:30,200
+upper and lower wishbone arms with a push or pull rod
+带推杆或拉杆的上下叉骨臂
+103
+00:05:31,100 --> 00:05:32,266
+the wishbones
+叉骨
+104
+00:05:32,266 --> 00:05:34,233
+are rigid structural supports
+是刚性的结构支撑
+105
+00:05:34,233 --> 00:05:35,900
+with limited vertical travel
+垂直行程有限
+106
+00:05:36,833 --> 00:05:39,466
+at the front where heat isn't an issue
+在前面，热量不是问题
+107
+00:05:39,866 --> 00:05:42,733
+wishbones are directly attached to the monocock
+叉骨直接连接到旋钮上
+108
+00:05:42,733 --> 00:05:44,700
+and have simple flexure joints
+并有简单的柔性接头
+109
+00:05:44,733 --> 00:05:47,033
+designed to bend under load
+设计用于在负载下弯曲
+110
+00:05:48,900 --> 00:05:51,700
+at the rear where engine heat can be intense
+在后部，发动机的热量会很高
+111
+00:05:51,733 --> 00:05:53,666
+spherical bearings are used
+使用球面轴承
+112
+00:05:56,600 --> 00:06:00,200
+the push or pull rod is where the action happens
+推杆或拉杆是动作发生的地方
+113
+00:06:00,733 --> 00:06:03,233
+our model has push rods in the front
+我们的型号前面有推杆
+114
+00:06:03,233 --> 00:06:04,733
+and pull rods in the back
+并在后面拉杆
+115
+00:06:04,800 --> 00:06:05,866
+which simplified
+这简化了
+116
+00:06:05,866 --> 00:06:08,266
+just indicates how the system is mounted
+只是指示系统是如何安装的
+117
+00:06:08,666 --> 00:06:11,533
+to push or pull connected suspension parts
+推或拉连接的悬挂部件
+118
+00:06:12,433 --> 00:06:14,133
+if parts can be mounted down low
+如果零件可以安装得很低
+119
+00:06:14,133 --> 00:06:16,100
+for a lower center of gravity
+为了降低重心
+120
+00:06:16,300 --> 00:06:17,133
+all the better
+更好
+121
+00:06:18,533 --> 00:06:21,800
+the pull rod connects to a rocker and damper
+拉杆连接到摇杆和阻尼器
+122
+00:06:22,133 --> 00:06:25,133
+which we call shock absorbers in normal cars
+我们称之为普通汽车的减震器
+123
+00:06:25,666 --> 00:06:28,733
+but instead of large coiled springs
+但不是大螺旋弹簧
+124
+00:06:29,200 --> 00:06:29,466
+F1
+F1
+125
+00:06:29,466 --> 00:06:33,500
+suspension uses a small metal rod called a torsion bar
+悬架使用称为扭杆的小型金属杆
+126
+00:06:33,500 --> 00:06:35,000
+that twists under load
+在负载下扭曲
+127
+00:06:35,933 --> 00:06:38,133
+one side of the torsion bar moves
+扭杆的一侧移动
+128
+00:06:38,133 --> 00:06:40,333
+with the outer cylindrical shaft
+带外圆柱轴
+129
+00:06:40,500 --> 00:06:42,633
+while the other side is stationary
+而另一边是静止的
+130
+00:06:47,700 --> 00:06:50,600
+both independent suspension sides are linked
+两个独立的悬挂侧是相连的
+131
+00:06:50,600 --> 00:06:52,033
+to a central roll bar
+到中央滚动杆
+132
+00:06:52,033 --> 00:06:54,300
+that twists to limit body roll
+扭曲以限制身体滚动
+133
+00:07:00,866 --> 00:07:03,100
+heave is the vertical position of the car
+升沉是汽车的垂直位置
+134
+00:07:03,100 --> 00:07:06,133
+which is critically important for proper aerodynamics
+这对正确的空气动力学至关重要
+135
+00:07:07,100 --> 00:07:10,266
+the heave spring and damper cleverly come into play
+升降弹簧和阻尼器巧妙地发挥了作用
+136
+00:07:10,266 --> 00:07:13,133
+when both sides move up or down together
+当双方一起向上或向下移动时
+137
+00:07:13,400 --> 00:07:16,600
+for example during acceleration or braking
+例如在加速或制动时
+138
+00:07:17,400 --> 00:07:20,600
+but are mostly inactive for other movements
+但对其他运动大多不活跃
+139
+00:07:22,033 --> 00:07:25,000
+the heave spring in our model is a stack of flexible
+我们模型中的升降弹簧是一堆柔性的
+140
+00:07:25,000 --> 00:07:26,466
+cone shaped washers
+锥形垫圈
+141
+00:07:26,533 --> 00:07:28,600
+that compress together under load
+在负载下压缩在一起
+142
+00:07:29,533 --> 00:07:32,900
+washers can be added or subtracted for fine adjustments
+可以增加或减少垫圈以进行微调
+143
+00:07:43,933 --> 00:07:46,900
+the front suspension handle similar tasks to the rear
+前悬架处理与后悬架类似的任务
+144
+00:07:46,900 --> 00:07:48,600
+but with different techniques
+但使用不同的技术
+145
+00:07:52,900 --> 00:07:55,400
+the steering system is closely packaged
+转向系统包装严密
+146
+00:07:55,400 --> 00:07:56,666
+with front suspension
+带前悬架
+147
+00:07:57,500 --> 00:07:59,800
+a track rod links each tire
+履带杆连接每个轮胎
+148
+00:07:59,833 --> 00:08:03,400
+to a fairly standard hydraulic rack and pinion setup
+一个相当标准的液压齿条和小齿轮装置
+149
+00:08:04,033 --> 00:08:06,666
+with the steering column extending into the cockpit
+转向柱伸入驾驶舱
+150
+00:08:07,933 --> 00:08:10,433
+the rear suspension has a track rod as well
+后悬架也有一个跟踪杆
+151
+00:08:10,600 --> 00:08:13,000
+for vertical tire angle adjustment
+用于垂直轮胎角度调整
+152
+00:08:19,666 --> 00:08:22,066
+all wheels must be attached to the car
+所有的轮子都必须连接到汽车上
+153
+00:08:22,066 --> 00:08:23,300
+with wheel tethers
+带车轮系绳
+154
+00:08:23,500 --> 00:08:25,100
+these are strong cables
+这些是坚固的电缆
+155
+00:08:25,100 --> 00:08:26,933
+that keep wheels connected to the car
+使车轮与汽车保持连接
+156
+00:08:26,933 --> 00:08:28,500
+in the event of an accident
+一旦发生事故
+157
+00:08:29,633 --> 00:08:30,466
+they're required
+他们是必需的
+158
+00:08:30,466 --> 00:08:32,700
+to pass through more than one suspension element
+通过多个悬挂元件
+159
+00:08:32,700 --> 00:08:34,100
+for increased safety
+为了提高安全性
+160
+00:08:36,400 --> 00:08:37,933
+with few exceptions
+除了少数例外
+161
+00:08:38,000 --> 00:08:40,700
+most exposed suspension elements
+最暴露的悬挂元件
+162
+00:08:40,900 --> 00:08:43,666
+are either made from or bonded with carbon fiber
+由碳纤维制成或用碳纤维粘合
+163
+00:08:43,866 --> 00:08:46,100
+for better aerodynamic forms
+为了更好的空气动力学形式
+164
+00:08:47,200 --> 00:08:48,066
+this is another
+这是另一个
+165
+00:08:48,066 --> 00:08:48,933
+major reason
+主要原因
+166
+00:08:48,933 --> 00:08:51,833
+suspension parts are packaged inside bodywork
+悬挂部件包装在车身内部
+167
+00:08:51,900 --> 00:08:54,933
+away from outside air wherever possible
+尽可能远离外界空气
+168
+00:08:57,266 --> 00:08:58,400
+braking system
+制动系统
+169
+00:09:02,866 --> 00:09:04,733
+a master cylinder and reservoir
+主缸和储液器
+170
+00:09:04,733 --> 00:09:08,133
+controls and stores hydraulic fluid for braking
+控制和储存用于制动的液压油
+171
+00:09:10,100 --> 00:09:12,500
+F1 cars have two master cylinders
+F1赛车有两个主缸
+172
+00:09:12,500 --> 00:09:14,000
+and accompanying reservoirs
+以及伴随的水库
+173
+00:09:14,133 --> 00:09:16,500
+for front and rear brakes respectively
+分别用于前后刹车
+174
+00:09:17,066 --> 00:09:20,133
+the cylinders are mounted to the brake pedal on one end
+气缸安装在制动踏板的一端
+175
+00:09:20,433 --> 00:09:23,233
+and a threaded brake bias screw on the other
+另一个上有螺纹制动偏置螺丝
+176
+00:09:24,700 --> 00:09:27,266
+this bias screw is electronically controlled
+这个偏置螺丝是电子控制的
+177
+00:09:27,266 --> 00:09:28,866
+and can be adjusted on the fly
+并且可以即时调整
+178
+00:09:28,866 --> 00:09:30,500
+as directed by the driver
+按照司机的指示
+179
+00:09:31,200 --> 00:09:32,533
+the screw position
+螺丝位置
+180
+00:09:32,533 --> 00:09:36,100
+allows different pressure to the front or rear brakes
+允许对前刹车或后刹车施加不同的压力
+181
+00:09:37,333 --> 00:09:40,000
+brake lines snake through suspension elements
+刹车线蜿蜒穿过悬挂元件
+182
+00:09:40,000 --> 00:09:41,200
+to the brake caliper
+到制动卡钳
+183
+00:09:41,200 --> 00:09:42,266
+and shoe assembly
+和鞋组装
+184
+00:09:43,133 --> 00:09:46,200
+intense brake heat must be precisely managed
+必须精确控制强烈的制动热
+185
+00:09:46,833 --> 00:09:49,600
+so the entire inner wheel assembly is covered
+所以整个内轮组件都被覆盖了
+186
+00:09:49,600 --> 00:09:51,866
+by a ducted carbon fiber shroud
+通过管道碳纤维护罩
+187
+00:09:52,866 --> 00:09:53,866
+the front wing
+前翼
+188
+00:09:53,933 --> 00:09:56,100
+helps direct air into the brake ducts
+有助于引导空气进入制动管道
+189
+00:09:56,100 --> 00:09:58,033
+and through the inner wheel for cooling
+并通过内轮冷却
+190
+00:09:58,933 --> 00:09:59,933
+the calipers
+卡钳
+191
+00:10:00,033 --> 00:10:02,400
+are mounted at the lowest possible position
+安装在最低的位置
+192
+00:10:02,400 --> 00:10:03,900
+for proper brake bleed
+适当的制动出血
+193
+00:10:04,433 --> 00:10:06,633
+that is ensuring troublesome
+这肯定很麻烦。
+194
+00:10:06,633 --> 00:10:09,233
+air bubbles can escape hydraulic brake lines
+气泡可以逃出液压制动线
+195
+00:10:09,933 --> 00:10:12,600
+while maintaining a low center of gravity
+同时保持低重心
+196
+00:10:14,633 --> 00:10:15,500
+the brake discs
+刹车盘
+197
+00:10:15,500 --> 00:10:18,600
+and shoes are made from a carbon based material
+鞋子是由碳基材料制成的
+198
+00:10:19,200 --> 00:10:21,733
+the disc has thousands of small holes
+圆盘有数千个小孔
+199
+00:10:21,733 --> 00:10:23,666
+extending from the center outwards
+从中心向外延伸
+200
+00:10:24,000 --> 00:10:25,800
+for maximum cooling effects
+以获得最大的冷却效果
+201
+00:10:29,333 --> 00:10:32,100
+the rear brakes have a similar design strategy
+后刹车有类似的设计策略
+202
+00:10:32,233 --> 00:10:34,100
+that have become smaller in recent years
+近年来变得越来越小
+203
+00:10:34,100 --> 00:10:36,500
+with the addition of the mguk
+加上mguk
+204
+00:10:36,500 --> 00:10:39,300
+or motor generator unit kinetic
+或电动发电机单元动力学
+205
+00:10:41,866 --> 00:10:44,800
+the mguk is geared to the crankshaft
+mguk面向曲轴
+206
+00:10:44,800 --> 00:10:47,500
+and functions as an electrical power generator
+并起到发电机的作用
+207
+00:10:47,633 --> 00:10:49,633
+to charge an onboard battery
+为车载电池充电
+208
+00:10:49,833 --> 00:10:52,800
+as driven by a portion of rear braking forces
+由一部分后制动力驱动
+209
+00:10:54,600 --> 00:10:58,000
+a computer mounted inside the gearbox enclosure
+安装在变速箱外壳内的计算机
+210
+00:10:58,100 --> 00:11:01,733
+manages and balances this complex braking system
+管理和平衡这个复杂的制动系统
+211
+00:11:13,266 --> 00:11:15,400
+the wheels are secured to the hub
+轮子固定在轮毂上
+212
+00:11:15,433 --> 00:11:16,900
+with a single wheel nut
+带单轮螺母
+213
+00:11:17,800 --> 00:11:20,933
+metal retention pins keep the nut securely in place
+金属固定销将螺母固定到位
+214
+00:11:21,833 --> 00:11:23,700
+a specially designed wheel gun
+一种专门设计的轮枪
+215
+00:11:23,800 --> 00:11:26,300
+pushes these pins down when removing the nut
+卸下螺母时将这些销向下推
+216
+00:11:32,266 --> 00:11:34,466
+engine and associated systems
+发动机和相关系统
+217
+00:11:40,333 --> 00:11:44,266
+F1 cars use six cylinders in a V configuration
+F1赛车使用六个V型气缸
+218
+00:11:45,700 --> 00:11:48,100
+the pistons are somewhat flat and small
+活塞有些扁平和小
+219
+00:11:48,100 --> 00:11:50,000
+to suit the high revving engine
+以适应高转速发动机
+220
+00:11:53,000 --> 00:11:53,466
+intricate
+错综复杂
+221
+00:11:53,466 --> 00:11:56,466
+exhaust headers feed a comparatively massive turbine
+排气头供给一个相对较大的涡轮机
+222
+00:11:56,466 --> 00:11:57,800
+at the rear of the engine
+在发动机的后部
+223
+00:11:57,800 --> 00:12:00,533
+which is part of a split turbocharger design
+这是分体式涡轮增压器设计的一部分
+224
+00:12:00,633 --> 00:12:04,433
+that separates these normally stacked turbo components
+将这些通常堆叠的涡轮增压组件分开
+225
+00:12:06,866 --> 00:12:10,100
+red hot exhaust gases drive the turbine wheel
+炽热的废气驱动涡轮
+226
+00:12:12,733 --> 00:12:16,466
+which in turn spins the front mounted compressor wheel
+进而旋转前置压缩机轮
+227
+00:12:16,866 --> 00:12:20,233
+drawing in and compressing huge quantities of air
+吸入并压缩大量空气
+228
+00:12:23,800 --> 00:12:25,033
+all this pressure
+所有这些压力
+229
+00:12:25,066 --> 00:12:27,600
+adds unwanted heat to the incoming air
+给进入的空气增加不需要的热量
+230
+00:12:28,033 --> 00:12:32,133
+so one entire side pod is dedicated to the intercooler
+所以整个侧吊舱都专用于中冷器
+231
+00:12:33,666 --> 00:12:36,200
+the path of incoming air looks like this
+进入空气的路径是这样的
+232
+00:12:36,500 --> 00:12:40,000
+the compressor draws air in through an intake duct
+压缩机通过进气管道吸入空气
+233
+00:12:40,000 --> 00:12:41,633
+mounted in the roll hoop
+安装在滚圈中
+234
+00:12:41,666 --> 00:12:43,866
+above and behind the driver's head
+司机头部上方和后面
+235
+00:12:44,933 --> 00:12:48,333
+hot air leaves the compressor towards the intercooler
+热空气离开压缩机进入中冷器
+236
+00:12:50,133 --> 00:12:54,633
+side pod air rushes by the intercooler's tubes and fins
+侧舱空气通过中冷器的管和翅片
+237
+00:12:54,700 --> 00:12:57,000
+cooling the compressor air inside
+冷却内部的压缩机空气
+238
+00:13:01,100 --> 00:13:02,500
+the now cooled air
+现在冷却的空气
+239
+00:13:02,500 --> 00:13:04,933
+passes through the special split ducting
+通过特殊的分体管道
+240
+00:13:05,000 --> 00:13:07,633
+that feeds separate intake plenums
+供给单独的进气室
+241
+00:13:09,233 --> 00:13:10,833
+these are chambers
+这些是房间
+242
+00:13:10,866 --> 00:13:13,266
+designed to keep air pressure balanced
+旨在保持气压平衡
+243
+00:13:13,266 --> 00:13:14,466
+between cylinders
+气缸间
+244
+00:13:17,933 --> 00:13:21,100
+intake trumpets extend into the plenums
+入口喇叭延伸到全会
+245
+00:13:21,266 --> 00:13:24,333
+for specially tuned air delivery to each cylinder
+用于特别调整空气输送到每个气缸
+246
+00:13:29,000 --> 00:13:32,133
+the sidepod air flows by and cools the engine and
+侧舱空气流过并冷却发动机
+247
+00:13:32,133 --> 00:13:34,233
+other internal parts on its way out
+其他内部零件正在退出
+248
+00:13:34,233 --> 00:13:35,433
+the back of the car
+汽车后部
+249
+00:13:39,100 --> 00:13:40,900
+the exhaust section of the turbo
+涡轮增压的排气部分
+250
+00:13:40,900 --> 00:13:42,300
+has dual wastegates
+有双重废物门
+251
+00:13:42,300 --> 00:13:44,833
+corresponding to each exhaust input
+对应每个排气输入
+252
+00:13:45,233 --> 00:13:47,666
+to vent off excess gases when needed
+在需要时排出多余的气体
+253
+00:13:48,133 --> 00:13:51,033
+wastegate pipes follow the main exhaust pipe
+排水管顺着主排气管
+254
+00:13:51,033 --> 00:13:51,900
+out the back
+从后面
+255
+00:13:54,200 --> 00:13:56,266
+a high tech heat recovery unit
+高科技热回收装置
+256
+00:13:56,433 --> 00:13:59,333
+sits between these turbo compartments called
+坐在这些涡轮增压舱之间
+257
+00:13:59,400 --> 00:14:03,400
+the mguh or motor generator unit heat
+mguh或电动发电机组热量
+258
+00:14:05,233 --> 00:14:07,400
+excess heat from turbo gasses
+涡轮气体的多余热量
+259
+00:14:07,533 --> 00:14:10,666
+drives this unit to act as an electric generator
+驱动这个单元充当发电机
+260
+00:14:10,666 --> 00:14:12,466
+to charge the onboard battery
+为车载电池充电
+261
+00:14:15,000 --> 00:14:16,833
+energy recovery system
+能量回收系统
+262
+00:14:19,666 --> 00:14:24,333
+the mguh and the previously shown mguk together
+mguh和之前显示的mguk在一起
+263
+00:14:24,500 --> 00:14:27,800
+make up the hybrid functionality of the modern F1 car
+构成现代F1赛车的混合动力功能
+264
+00:14:28,733 --> 00:14:31,600
+both units generate electrical charge for the battery
+两个单元都为电池产生电荷
+265
+00:14:32,433 --> 00:14:34,433
+once sufficiently charged
+一旦充满电
+266
+00:14:34,633 --> 00:14:38,200
+the battery can send power back through the mguk unit
+电池可以通过mguk单元将电力送回
+267
+00:14:38,400 --> 00:14:41,200
+which again is geared to the crankshaft
+它同样与曲轴传动
+268
+00:14:41,900 --> 00:14:42,900
+in this way
+以这种方式
+269
+00:14:43,000 --> 00:14:46,700
+the mg UK can generate an additional maximum
+mg UK可以产生额外的最大值
+270
+00:14:47,033 --> 00:14:48,400
+160 horsepower
+160马力
+271
+00:14:49,133 --> 00:14:51,533
+or as much as a small separate car engine
+或者像一个小型独立的汽车引擎一样
+272
+00:14:57,100 --> 00:14:59,666
+various additional radiators for cooling
+用于冷却的各种附加散热器
+273
+00:14:59,733 --> 00:15:01,533
+occupy the opposing sidepod
+占据对方的侧翼
+274
+00:15:02,633 --> 00:15:05,433
+this includes the main engine cooling radiator
+这包括主机冷却散热器
+275
+00:15:05,833 --> 00:15:06,933
+an oil cooler
+油冷却器
+276
+00:15:07,400 --> 00:15:08,700
+and a battery cooler
+和一个电池冷却器
+277
+00:15:09,900 --> 00:15:11,666
+an additional bank of radiators
+一排额外的散热器
+278
+00:15:11,666 --> 00:15:13,933
+sits in the path of a separate roll hoop
+坐在一个单独的滚圈的路径上
+279
+00:15:13,933 --> 00:15:14,733
+air duct
+风管
+280
+00:15:15,533 --> 00:15:17,066
+to cool hydraulic oil
+冷却液压油
+281
+00:15:17,300 --> 00:15:21,133
+gearbox oil and the MGU H&K systems
+变速箱油和MGU H&K系统
+282
+00:15:22,433 --> 00:15:24,833
+F1 teams may locate specific radiators
+F1车队可能会找到特定的散热器
+283
+00:15:24,833 --> 00:15:25,733
+in different positions
+在不同的位置
+284
+00:15:25,733 --> 00:15:27,033
+than I've shown here
+比我在这里展示的要多
+285
+00:15:27,266 --> 00:15:30,000
+though the general available spaces will be similar
+虽然一般可用空间会相似
+286
+00:15:30,800 --> 00:15:32,800
+they may also use water driven
+他们也可能使用水驱动
+287
+00:15:32,800 --> 00:15:34,433
+intercooling for turbo air
+涡轮空气中冷
+288
+00:15:34,533 --> 00:15:38,400
+in contrast to the simpler air to air setup I've chosen
+与我选择的更简单的空气对空气设置相比
+289
+00:15:39,500 --> 00:15:40,466
+fuel tank
+油箱
+290
+00:15:41,933 --> 00:15:44,833
+the fuel tank also called a fuel cell
+油箱也称为燃料电池
+291
+00:15:45,233 --> 00:15:48,233
+is a nearly puncture proof Kevlar bladder
+是一个几乎可以穿刺的凯夫拉尔膀胱
+292
+00:15:48,433 --> 00:15:49,533
+lined with rubber
+内衬橡胶
+293
+00:15:51,033 --> 00:15:54,233
+it occupies an isolated compartment in the carbon fiber
+它在碳纤维中占据了一个独立的隔间
+294
+00:15:54,233 --> 00:15:55,466
+monocoque shell
+硬壳
+295
+00:15:55,666 --> 00:15:57,900
+and fills all available space
+并填满所有可用空间
+296
+00:15:59,433 --> 00:16:04,300
+F1 fuel cells can hold an incredible 30 to 40 gallons
+F1燃料电池可以容纳令人难以置信的30到40加仑
+297
+00:16:04,400 --> 00:16:05,200
+of fuel
+燃料
+298
+00:16:05,833 --> 00:16:08,300
+which is just enough for a single race
+这只够一场比赛
+299
+00:16:08,400 --> 00:16:11,033
+as pit stop refueling is not allowed
+因为进站加油是不允许的
+300
+00:16:12,600 --> 00:16:13,533
+these cars
+这些车
+301
+00:16:13,533 --> 00:16:16,633
+get an estimated 4 to 6 miles per gallon of fuel
+估计每加仑燃料能跑4到6英里
+302
+00:16:17,666 --> 00:16:20,066
+the tank has various internal baffles
+水箱有各种内部挡板
+303
+00:16:20,066 --> 00:16:21,400
+with one way valves
+带单向阀
+304
+00:16:21,400 --> 00:16:23,200
+to tame the sloshing liquid
+驯服晃动的液体
+305
+00:16:23,200 --> 00:16:25,333
+under incredible racing forces
+在难以置信的赛车力量下
+306
+00:16:25,700 --> 00:16:26,500
+the goal
+目标
+307
+00:16:26,500 --> 00:16:29,666
+is to keep the large fuel mass centered and low
+就是保持大燃料质量居中和低
+308
+00:16:29,733 --> 00:16:33,300
+and also to prevent foaming and fuel pump starvation
+还可以防止发泡和燃油泵饥饿
+309
+00:16:35,200 --> 00:16:38,200
+the engine oil tank is placed between the engine
+发动机油箱放置在发动机之间
+310
+00:16:38,200 --> 00:16:39,233
+and fuel cell
+和燃料电池
+311
+00:16:41,933 --> 00:16:42,933
+gearbox
+变速箱
+312
+00:16:43,733 --> 00:16:48,000
+the 8 speed gearbox 7 forward plus 1 reverse
+8速变速箱7前进加1后退
+313
+00:16:48,400 --> 00:16:51,733
+sits behind the engine in its own aluminum cartridge
+坐在发动机后面的铝制墨盒里
+314
+00:16:52,466 --> 00:16:55,433
+the rear differential gears connect to rear axles
+后差速器齿轮连接到后桥
+315
+00:16:55,433 --> 00:16:57,533
+with special tripod joints
+带有特殊的三脚架接头
+316
+00:16:57,666 --> 00:16:59,700
+that allow spinning axles to tilt
+允许旋转轴倾斜
+317
+00:16:59,700 --> 00:17:01,533
+with the rear suspension movement
+随着后悬挂运动
+318
+00:17:03,666 --> 00:17:05,066
+safety systems
+安全系统
+319
+00:17:06,100 --> 00:17:09,533
+f1 cars have robust safety systems
+F1赛车拥有强大的安全系统
+320
+00:17:10,066 --> 00:17:13,466
+the rear crash structure protects against rear impact
+后碰撞结构可防止后碰撞
+321
+00:17:14,700 --> 00:17:16,100
+side crash structures
+侧撞结构
+322
+00:17:16,100 --> 00:17:18,933
+are concealed within the aerodynamic bodywork
+隐藏在空气动力学车身中
+323
+00:17:20,300 --> 00:17:24,066
+the removable front nose section handles front impact
+可拆卸的前鼻部分处理前冲击
+324
+00:17:24,300 --> 00:17:26,133
+and the all important mono cock
+还有最重要的单声道鸡巴
+325
+00:17:26,133 --> 00:17:28,833
+forms a protective cocoon around the driver
+在司机周围形成一个保护茧
+326
+00:17:30,200 --> 00:17:32,233
+also attached to the monocoque
+也附在硬壳上
+327
+00:17:32,666 --> 00:17:36,200
+a Halo device which was implemented in 2018
+2018年实施的Halo设备
+328
+00:17:36,333 --> 00:17:38,066
+for additional driver safety
+为了额外的驾驶员安全
+329
+00:17:38,433 --> 00:17:39,700
+and a roll hoop
+和一个滚圈
+330
+00:17:41,266 --> 00:17:42,400
+the driver's helmet
+司机的头盔
+331
+00:17:42,400 --> 00:17:43,100
+is kept
+被保存
+332
+00:17:43,100 --> 00:17:46,266
+within a specific angle from the roll hoop to the body
+从滚圈到身体的特定角度内
+333
+00:17:46,500 --> 00:17:48,066
+for maximum Protection
+最大限度的保护
+334
+00:17:48,200 --> 00:17:49,433
+in the event of a rollover
+在翻转的情况下
+335
+00:17:51,933 --> 00:17:52,733
+cockpit
+驾驶舱
+336
+00:17:54,000 --> 00:17:56,633
+F1 racing seats are crafted from molds
+F1赛车座椅由模具制成
+337
+00:17:56,633 --> 00:17:59,000
+taken from a specific driver's body
+取自特定驾驶员的身体
+338
+00:17:59,500 --> 00:18:02,033
+the driver sits in a reclined position
+司机坐在倾斜的位置
+339
+00:18:02,133 --> 00:18:05,200
+almost like laying semi upright in a hammock
+就像半直立躺在吊床里
+340
+00:18:06,033 --> 00:18:09,233
+a 6 point harness keeps the driver in place
+6点安全带将驾驶员固定在适当的位置
+341
+00:18:09,800 --> 00:18:10,600
+the seat
+座位
+342
+00:18:10,633 --> 00:18:13,733
+wraps around the driver's body wherever possible
+尽可能缠绕在司机身上
+343
+00:18:13,866 --> 00:18:17,100
+and safety structures surround the helmet area
+和头盔周围的安全结构
+344
+00:18:18,866 --> 00:18:21,100
+drivers wear a special brace
+司机戴着特殊的支架
+345
+00:18:21,133 --> 00:18:24,433
+called the Hans or head and neck device
+叫做汉斯或头颈装置
+346
+00:18:24,600 --> 00:18:27,800
+to limit head movement in adverse conditions
+在不利条件下限制头部运动
+347
+00:18:28,500 --> 00:18:31,500
+a connected strap clips to either side of the helmet
+连接的带子夹在头盔的两侧
+348
+00:18:31,600 --> 00:18:32,266
+and the shoulder
+还有肩膀
+349
+00:18:32,266 --> 00:18:33,266
+harness straps
+背带
+350
+00:18:33,266 --> 00:18:35,633
+keep the device pressed against the driver
+保持设备压在驱动程序上
+351
+00:18:37,400 --> 00:18:39,900
+a drinks tube extends over the shoulder
+饮料管延伸到肩上
+352
+00:18:40,300 --> 00:18:42,433
+it's connected to a small fluid reservoir
+它连接到一个小的流体储存器
+353
+00:18:42,433 --> 00:18:44,600
+to keep drivers hydrated while racing
+让车手在比赛时保持水分
+354
+00:18:46,600 --> 00:18:47,900
+drivers use different
+司机使用不同的
+355
+00:18:47,900 --> 00:18:50,266
+helmet front and rear spoiler designs
+头盔前后扰流板设计
+356
+00:18:50,466 --> 00:18:52,466
+to keep their helmets from lifting
+以防他们的头盔抬起来
+357
+00:18:52,533 --> 00:18:53,500
+or moving around
+或者四处走动
+358
+00:18:53,500 --> 00:18:56,633
+with sometimes dramatically shifting air pressures
+有时气压会急剧变化
+359
+00:18:57,800 --> 00:19:01,100
+in recent years the visor opening has further narrowed
+近年来，遮阳板开口进一步缩小
+360
+00:19:01,300 --> 00:19:04,266
+to protect the more fragile visor area from puncture
+以保护更脆弱的面罩区域不被刺穿
+361
+00:19:04,266 --> 00:19:05,266
+or breakage
+或破损
+362
+00:19:07,033 --> 00:19:09,533
+cockpit design makes efficient use of
+驾驶舱设计有效利用
+363
+00:19:09,533 --> 00:19:11,266
+all available space
+所有可用空间
+364
+00:19:11,333 --> 00:19:13,733
+such that drivers must remove the steering wheel
+这样司机必须移除方向盘
+365
+00:19:13,733 --> 00:19:14,900
+to exit the car
+从车里出来
+366
+00:19:17,933 --> 00:19:19,000
+steering wheel
+方向盘
+367
+00:19:20,266 --> 00:19:23,800
+this is the famed Formula 1 steering wheel
+这是著名的一级方程式方向盘
+368
+00:19:24,633 --> 00:19:25,233
+drivers
+司机
+369
+00:19:25,233 --> 00:19:27,700
+mostly don't need to remove their hands from the wheel
+大多数人不需要把手从方向盘上移开
+370
+00:19:27,700 --> 00:19:31,400
+for steering so the wheel doesn't need to be round
+用于转向，这样轮子就不需要是圆的
+371
+00:19:32,500 --> 00:19:34,733
+a customizable display at the center
+中心可定制的显示
+372
+00:19:34,733 --> 00:19:37,133
+shows the current gear as the largest item
+显示当前齿轮为最大项目
+373
+00:19:37,333 --> 00:19:39,833
+along with things like lap times
+还有圈速之类的东西
+374
+00:19:39,900 --> 00:19:43,300
+tire and brake temperatures average speed and so on
+轮胎和刹车温度平均速度等等
+375
+00:19:44,866 --> 00:19:46,700
+the daunting array of knobs
+令人生畏的旋钮阵列
+376
+00:19:46,700 --> 00:19:48,433
+dials and LEDs
+表盘和LED
+377
+00:19:48,466 --> 00:19:51,133
+gives drivers and teams fine controls
+为车手和车队提供良好的控制
+378
+00:19:51,133 --> 00:19:53,800
+that can be adjusted on the fly during a race
+可以在比赛中即时调整
+379
+00:19:55,233 --> 00:19:57,133
+clockwise from the upper left
+从左上角顺时针方向
+380
+00:19:57,500 --> 00:19:59,500
+there's the Energy Recovery System dial
+这是能量回收系统的表盘
+381
+00:19:59,500 --> 00:20:02,066
+to control the MGU H&K
+控制MGU H&K
+382
+00:20:02,800 --> 00:20:05,266
+left and right menu navigation buttons
+左右菜单导航按钮
+383
+00:20:06,533 --> 00:20:09,700
+a push to talk radio switch for team communication
+用于团队沟通的一键通无线电开关
+384
+00:20:10,600 --> 00:20:13,133
+LED warning lights for critical systems
+用于关键系统的LED警示灯
+385
+00:20:13,633 --> 00:20:16,333
+a row of LEDs across the top of the display
+显示屏顶部的一排LED
+386
+00:20:16,333 --> 00:20:19,133
+acts as a Rev counter and shift light system
+充当转速计数器和换档灯系统
+387
+00:20:20,333 --> 00:20:21,666
+the launch control switch
+发射控制开关
+388
+00:20:21,666 --> 00:20:24,633
+which is turned on for race starts and off when racing
+它在比赛开始时打开，在比赛时关闭
+389
+00:20:26,033 --> 00:20:29,333
+the brake balance dial for front and rear brake bias
+前后制动偏置的制动平衡盘
+390
+00:20:29,800 --> 00:20:31,066
+a pit limits button
+一个坑限制按钮
+391
+00:20:31,200 --> 00:20:33,466
+to automatically impose things like
+自动强加诸如
+392
+00:20:33,466 --> 00:20:36,266
+pit lane speed and acceleration restrictions
+维修站车道速度和加速度限制
+393
+00:20:37,466 --> 00:20:38,700
+an engine mapping dial
+发动机映射表盘
+394
+00:20:38,700 --> 00:20:41,233
+to alter engine performance characteristics
+改变发动机性能特性
+395
+00:20:42,133 --> 00:20:43,533
+Drs toggle button
+Drs切换按钮
+396
+00:20:44,500 --> 00:20:47,600
+rear differential lock open or closed adjustment
+后差速器锁打开或关闭调节
+397
+00:20:47,900 --> 00:20:51,200
+with separate turn entry and turn exit adjusters
+带有单独的转弯入口和转弯出口调节器
+398
+00:20:53,133 --> 00:20:54,733
+the drinks dispenser button
+饮料分配器按钮
+399
+00:20:55,666 --> 00:20:57,700
+more settings navigation buttons
+更多设置导航按钮
+400
+00:20:58,666 --> 00:21:02,066
+three programmable preset dials for the engine
+发动机的三个可编程预设转盘
+401
+00:21:02,200 --> 00:21:04,233
+chassis or suspension
+底盘或悬架
+402
+00:21:04,600 --> 00:21:08,100
+and a scenario selector for things like wet weather or
+和场景选择器，用于潮湿的天气或
+403
+00:21:08,233 --> 00:21:10,100
+tire preservation presets
+轮胎保护预设
+404
+00:21:12,133 --> 00:21:14,933
+the neutral button is for neutral and reverse gears
+空档按钮用于空档和倒档
+405
+00:21:14,933 --> 00:21:17,833
+which can't be selected with rear paddle shifters
+无法使用后换档器选择
+406
+00:21:18,800 --> 00:21:20,466
+a message OK button
+消息确定按钮
+407
+00:21:20,633 --> 00:21:21,733
+an overtake button
+超车按钮
+408
+00:21:21,733 --> 00:21:24,933
+to instantly apply optimal settings for overtaking
+立即应用最佳超车设置
+409
+00:21:25,400 --> 00:21:27,800
+and finally a hydraulic settings dial
+最后是液压设置表盘
+410
+00:21:27,800 --> 00:21:30,433
+to control the complex hydraulic components
+控制复杂的液压元件
+411
+00:21:30,533 --> 00:21:31,866
+spread throughout the car
+遍布全车
+412
+00:21:31,866 --> 00:21:34,933
+for example in the gearbox and suspension systems
+例如在变速箱和悬挂系统中
+413
+00:21:37,066 --> 00:21:38,200
+paddles at the back
+后面的桨
+414
+00:21:38,200 --> 00:21:41,066
+of the steering wheel handle gear shifting up or down
+方向盘手柄的上下换挡
+415
+00:21:41,900 --> 00:21:44,933
+the middle paddles are driver customizable
+中间的桨是驱动程序可定制的
+416
+00:21:45,433 --> 00:21:48,133
+and both bottom paddles actuate the clutch
+两个底部桨启动离合器
+417
+00:21:48,933 --> 00:21:52,333
+only one clutch paddle can be used for race start
+只有一个离合器桨可以用于比赛开始
+418
+00:21:53,233 --> 00:21:54,200
+once in motion
+一旦运动
+419
+00:21:54,200 --> 00:21:56,533
+the clutch isn't needed for gear shifting
+换档不需要离合器
+420
+00:21:58,100 --> 00:22:00,833
+further down into the cockpit we see the gas pedal
+深入驾驶舱，我们看到油门踏板
+421
+00:22:01,033 --> 00:22:04,200
+with contours to wrap around the driver's foot
+有轮廓包裹在司机的脚上
+422
+00:22:04,533 --> 00:22:06,800
+so as to keep pedals completely separate
+以保持踏板完全分开
+423
+00:22:07,300 --> 00:22:09,333
+and the brake pedal on the left
+还有左边的刹车踏板
+424
+00:22:11,266 --> 00:22:12,233
+sensors
+传感器
+425
+00:22:13,300 --> 00:22:15,866
+there are sensors all over these cars
+这些车上到处都是传感器
+426
+00:22:16,133 --> 00:22:17,066
+for example
+例如
+427
+00:22:17,100 --> 00:22:19,700
+a pilot tube at the front measures air speed
+前端的导向管测量空气速度
+428
+00:22:21,133 --> 00:22:23,533
+the driver's custom molded ear plugs
+驾驶员定制模压耳塞
+429
+00:22:23,533 --> 00:22:25,833
+have an accelerometer to track head movement
+有一个加速度计来跟踪头部运动
+430
+00:22:27,300 --> 00:22:28,900
+there's a microphone at the rear
+后面有麦克风
+431
+00:22:28,900 --> 00:22:30,600
+to pick up exhaust sound
+拾取排气声
+432
+00:22:34,066 --> 00:22:35,433
+for size comparison
+用于尺寸比较
+433
+00:22:35,633 --> 00:22:38,500
+here's our average height driver model
+这是我们的平均身高驾驶员模型
+434
+00:22:38,666 --> 00:22:41,100
+standing beside an average sized car
+站在一辆普通大小的汽车旁边
+435
+00:22:41,833 --> 00:22:43,400
+next to our formula model
+在我们的公式模型旁边
+436
+00:22:49,666 --> 00:22:51,000
+it's important to note that
+重要的是要注意
+437
+00:22:51,000 --> 00:22:52,500
+even with the level of detail
+即使有详细级别
+438
+00:22:52,500 --> 00:22:54,500
+I've strived to attain here
+我一直在努力达到这个目标
+439
+00:22:54,700 --> 00:22:58,400
+the complexity in F1 cars feels almost endless
+F1赛车的复杂性感觉几乎是无穷无尽的
+440
+00:22:58,866 --> 00:23:01,800
+in a way that truly tested my research abilities
+以一种真正考验我研究能力的方式
+441
+00:23:02,533 --> 00:23:05,600
+they really are incredible racing machines
+它们真的是不可思议的赛车

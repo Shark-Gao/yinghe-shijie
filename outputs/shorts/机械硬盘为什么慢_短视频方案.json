@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "title": "机械硬盘为什么这么慢？",
+  "source_video": "G:/workspace/yinghe-shijie/videos/raw/AI 时代，缓存 内存 硬盘到底怎么分工？.mp4",
+  "output_video": "G:/workspace/yinghe-shijie/videos/exports/短视频/AI 时代，缓存 内存 硬盘到底怎么分工？/机械硬盘为什么慢_短视频/机械硬盘为什么慢_短视频.mp4",
+  "cover_title": "机械硬盘为何这么慢",
+  "cover_headline": "硬盘为何慢",
+  "cover_subhead": "磁头要找轨道",
+  "cover_aspect": "16:9", "background_music": "music/硬核视界_通用BGM_舒缓科普探索_CC0.mp3",
+  "layout": "source", "burn_captions": false, "write_subtitles": true,
+  "mix": { "source_volume": 0.0, "narration_volume": 1.0, "music_volume": 0.45, "music_fade_seconds": 0.0 },
+  "clips": [
+    { "id": "hdd", "source_start": "00:11:50.000", "source_end": "00:11:58.000", "focus_x": 0.5 },
+    { "id": "tracks", "source_start": "00:12:00.000", "source_end": "00:12:09.000", "focus_x": 0.5 },
+    { "id": "sectors", "source_start": "00:12:09.000", "source_end": "00:12:18.000", "focus_x": 0.5 },
+    { "id": "magnetism", "source_start": "00:12:20.000", "source_end": "00:12:30.000", "focus_x": 0.5 },
+    { "id": "capacity", "source_start": "00:12:31.000", "source_end": "00:12:40.000", "focus_x": 0.5 },
+    { "id": "seek", "source_start": "00:13:10.000", "source_end": "00:13:23.000", "focus_x": 0.5 }
+  ],
+  "narration": { "voice": "zh-CN-YunyangNeural", "rate": "+0%", "segments": [
+    { "start": "00:00:00.000", "end": "00:00:08.000", "text": "机械硬盘今天还没淘汰，因为它依然能用很低成本塞进海量数据。" },
+    { "start": "00:00:08.000", "end": "00:00:17.000", "text": "它把信息写在高速旋转的盘片上，数据分布成数十万条同心轨道。" },
+    { "start": "00:00:17.000", "end": "00:00:26.000", "text": "每条轨道又切成扇区，磁头靠磁场变化读出零和一。" },
+    { "start": "00:00:26.000", "end": "00:00:36.000", "text": "这种结构能把数万亿比特塞进几张盘片，所以每 GB 的成本非常低。" },
+    { "start": "00:00:36.000", "end": "00:00:45.000", "text": "但读取前，磁头必须真的移动到正确轨道，再等盘片转到正确位置。" },
+    { "start": "00:00:45.000", "end": "00:00:58.000", "text": "SSD 只等电子通过，硬盘却要等机械运动，这就是两者速度差巨大的根源。" }
+  ] }
+}

@@ -1,0 +1,9 @@
+{
+  "video": "G:\\workspace\\yinghe-shijie\\videos\\raw\\M1 坦克内部到底长什么样.mp4",
+  "subtitle": "G:\\workspace\\yinghe-shijie\\outputs\\M1 坦克内部到底长什么样_时间线01.srt",
+  "duration_seconds": 588.138231,
+  "interval_seconds": 5.0,
+  "grid": "4x4",
+  "sheet_count": 8,
+  "note": "Each tile advances by interval_seconds, left-to-right then top-to-bottom. Use as a visual index; confirm selected timecodes against source video."
+}

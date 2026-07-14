@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "title": "手机电池没坏，为什么容量却越来越低？",
+  "platform_titles": {
+    "bilibili": "手机电池没坏，为什么容量却越来越低？",
+    "douyin": "电池没坏，电量怎么越来越不经用？",
+    "kuaishou": "手机电池为啥越用越不耐用？",
+    "xiaohongshu": "锂电池衰减原理图解：看懂容量为何会下降"
+  },
+  "source_video": "G:/workspace/yinghe-shijie/videos/raw/手机电车都在用，锂电池凭啥能充这么多次？.mp4",
+  "output_video": "G:/workspace/yinghe-shijie/videos/exports/短视频/手机电车都在用，锂电池凭啥能充这么多次？/电池容量为何越来越低_短视频/电池容量为何越来越低_短视频.mp4",
+  "cover_title": "容量去哪了",
+  "cover_headline": "容量去哪了",
+  "cover_subhead": "一部分锂回不来",
+  "cover_aspect": "16:9",
+  "background_music": "music/硬核视界_通用BGM_舒缓科普探索_CC0.mp3",
+  "layout": "source",
+  "burn_captions": false,
+  "write_subtitles": true,
+  "mix": { "source_volume": 0.0, "narration_volume": 1.0, "music_volume": 0.45, "music_fade_seconds": 0.0 },
+  "clips": [
+    { "id": "capacity-fade", "source_start": "00:07:19.733", "source_end": "00:08:19.533", "focus_x": 0.50 }
+  ],
+  "narration": {
+    "voice": "zh-CN-YunyangNeural",
+    "rate": "+0%",
+    "segments": [
+      { "start": "00:00:00.000", "end": "00:00:04.000", "text": "明明没坏，手机电池为什么越来越不耐用？" },
+      { "start": "00:00:04.000", "end": "00:00:12.000", "text": "问题在于，每次充放电，都不是百分之百回到原点。" },
+      { "start": "00:00:12.000", "end": "00:00:22.000", "text": "一部分锂离子会和电解液发生副反应，形成一层叫 SEI 的界面膜。" },
+      { "start": "00:00:22.000", "end": "00:00:31.000", "text": "这层膜会消耗可用的锂，也让锂离子更难自由往返。" },
+      { "start": "00:00:31.000", "end": "00:00:40.000", "text": "深度放电，还会让部分材料陷入难以逆转的状态。" },
+      { "start": "00:00:40.000", "end": "00:00:49.000", "text": "能参与搬家的锂越来越少，容量自然就一点点掉下去。" },
+      { "start": "00:00:49.000", "end": "00:00:59.800", "text": "所以别经常耗到自动关机，三四成电量时充电，会比彻底耗尽更友好。" }
+    ]
+  }
+}

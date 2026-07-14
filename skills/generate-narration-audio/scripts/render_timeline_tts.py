@@ -38,16 +38,30 @@ def hms_to_ms(value: str) -> int:
 async def generate_segments(data: dict, build_dir: Path) -> list[Path]:
     voice = data.get("voice") or "zh-CN-YunyangNeural"
     rate = data.get("rate") or "-8%"
-    paths: list[Path] = []
-    for segment in data["segments"]:
+    # Longer subtitle tracks can contain hundreds of small cues. A modest
+    # concurrency limit plus retries is kinder to the remote Edge TTS service
+    # and prevents one transient websocket timeout from losing the whole job.
+    semaphore = asyncio.Semaphore(4)
+
+    async def generate_one(segment: dict) -> Path | None:
         text = segment["text"].strip()
         if not text:
-            continue
+            return None
         path = build_dir / f"{segment['id']}.mp3"
-        communicate = edge_tts.Communicate(text=text, voice=voice, rate=rate, volume="+0%")
-        await communicate.save(str(path))
-        paths.append(path)
-    return paths
+        async with semaphore:
+            for attempt in range(3):
+                try:
+                    communicate = edge_tts.Communicate(text=text, voice=voice, rate=rate, volume="+0%")
+                    await communicate.save(str(path))
+                    break
+                except Exception:
+                    if attempt == 2:
+                        raise
+                    await asyncio.sleep(1.5 * (2 ** attempt))
+        return path
+
+    rendered = await asyncio.gather(*(generate_one(segment) for segment in data["segments"]))
+    return [path for path in rendered if path is not None]
 
 
 def validate_timeline(data: dict) -> None:
@@ -91,12 +105,17 @@ def render(data: dict, timeline_path: Path, output_override: str | None, build_d
 
     filter_complex = ";".join(filters) + ";" + "".join(labels)
     filter_complex += f"amix=inputs={len(labels)}:duration=longest:normalize=0,apad[mix]"
+    # A full subtitle track can have hundreds of cues. Passing both all input
+    # paths and a giant filter expression on the Windows command line exceeds
+    # CreateProcess's command-length limit, so keep the filter graph in a file.
+    filter_script = build_dir / "filter_complex.txt"
+    filter_script.write_text(filter_complex, encoding="utf-8")
     cmd = [
         "ffmpeg",
         "-y",
         *inputs,
-        "-filter_complex",
-        filter_complex,
+        "-filter_complex_script",
+        str(filter_script),
         "-map",
         "[mix]",
         "-t",
@@ -120,7 +139,11 @@ def main() -> None:
     timeline_path = Path(args.timeline)
     data = json.loads(timeline_path.read_text(encoding="utf-8"))
     validate_timeline(data)
-    build_dir = Path(tempfile.mkdtemp(prefix="timeline_tts_"))
+    # Keep temporary paths short: full subtitle tracks may pass hundreds of
+    # segment files to ffmpeg, and Windows limits the total command length.
+    short_temp_root = Path("C:/t")
+    short_temp_root.mkdir(parents=True, exist_ok=True)
+    build_dir = Path(tempfile.mkdtemp(prefix="x", dir=short_temp_root))
     try:
         asyncio.run(generate_segments(data, build_dir))
         print(render(data, timeline_path, args.output, build_dir))

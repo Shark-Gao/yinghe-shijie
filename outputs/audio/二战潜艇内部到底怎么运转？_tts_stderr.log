@@ -1,0 +1,176 @@
+ffmpeg version 8.1-full_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers
+  built with gcc 15.2.0 (Rev11, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-cairo --enable-fontconfig --enable-iconv --enable-gnutls --enable-lcms2 --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-libsnappy --enable-zlib --enable-librist --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-libbluray --enable-libcaca --enable-libdvdnav --enable-libdvdread --enable-sdl2 --enable-libaribb24 --enable-libaribcaption --enable-libdav1d --enable-libdavs2 --enable-libopenjpeg --enable-libquirc --enable-libuavs3d --enable-libxevd --enable-libzvbi --enable-liboapv --enable-libqrencode --enable-librav1e --enable-libsvtav1 --enable-libvvenc --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxavs2 --enable-libxeve --enable-libxvid --enable-libaom --enable-libjxl --enable-libsvtjpegxs --enable-libvpx --enable-mediafoundation --enable-libass --enable-frei0r --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-liblensfun --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-dxva2 --enable-d3d11va --enable-d3d12va --enable-ffnvcodec --enable-libvpl --enable-nvdec --enable-nvenc --enable-vaapi --enable-libshaderc --enable-vulkan --enable-libplacebo --enable-opencl --enable-libcdio --enable-openal --enable-libgme --enable-libmodplug --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libshine --enable-libtheora --enable-libtwolame --enable-libvo-amrwbenc --enable-libcodec2 --enable-libilbc --enable-libgsm --enable-liblc3 --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-ladspa --enable-libbs2b --enable-libflite --enable-libmysofa --enable-librubberband --enable-libsoxr --enable-chromaprint --enable-whisper
+  libavutil      60. 26.100 / 60. 26.100
+  libavcodec     62. 28.100 / 62. 28.100
+  libavformat    62. 12.100 / 62. 12.100
+  libavdevice    62.  3.100 / 62.  3.100
+  libavfilter    11. 14.100 / 11. 14.100
+  libswscale      9.  5.100 /  9.  5.100
+  libswresample   6.  3.100 /  6.  3.100
+[in#0/mp3 @ 0000025f30cde880] Estimating duration from bitrate, this may be inaccurate
+Input #0, mp3, from 'C:\Users\SHARKG~1.SHA\AppData\Local\Temp\timeline_tts_kgmpxv_8\seg_001.mp3':
+  Duration: 00:00:46.99, start: 0.000000, bitrate: 48 kb/s
+  Stream #0:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#1/mp3 @ 0000025f30cd9a80] Estimating duration from bitrate, this may be inaccurate
+Input #1, mp3, from 'C:\Users\SHARKG~1.SHA\AppData\Local\Temp\timeline_tts_kgmpxv_8\seg_002.mp3':
+  Duration: 00:00:37.37, start: 0.000000, bitrate: 48 kb/s
+  Stream #1:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#2/mp3 @ 0000025f30d07ac0] Estimating duration from bitrate, this may be inaccurate
+Input #2, mp3, from 'C:\Users\SHARKG~1.SHA\AppData\Local\Temp\timeline_tts_kgmpxv_8\seg_003.mp3':
+  Duration: 00:00:34.94, start: 0.000000, bitrate: 48 kb/s
+  Stream #2:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#3/mp3 @ 0000025f30ce5ac0] Estimating duration from bitrate, this may be inaccurate
+Input #3, mp3, from 'C:\Users\SHARKG~1.SHA\AppData\Local\Temp\timeline_tts_kgmpxv_8\seg_004.mp3':
+  Duration: 00:00:41.18, start: 0.000000, bitrate: 48 kb/s
+  Stream #3:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#4/mp3 @ 0000025f30d57700] Estimating duration from bitrate, this may be inaccurate
+Input #4, mp3, from 'C:\Users\SHARKG~1.SHA\AppData\Local\Temp\timeline_tts_kgmpxv_8\seg_005.mp3':
+  Duration: 00:00:44.16, start: 0.000000, bitrate: 48 kb/s
+  Stream #4:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#5/mp3 @ 0000025f30ce6f80] Estimating duration from bitrate, this may be inaccurate
+Input #5, mp3, from 'C:\Users\SHARKG~1.SHA\AppData\Local\Temp\timeline_tts_kgmpxv_8\seg_006.mp3':
+  Duration: 00:00:39.17, start: 0.000000, bitrate: 48 kb/s
+  Stream #5:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#6/mp3 @ 0000025f31332f00] Estimating duration from bitrate, this may be inaccurate
+Input #6, mp3, from 'C:\Users\SHARKG~1.SHA\AppData\Local\Temp\timeline_tts_kgmpxv_8\seg_007.mp3':
+  Duration: 00:00:38.88, start: 0.000000, bitrate: 48 kb/s
+  Stream #6:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#7/mp3 @ 0000025f3134c340] Estimating duration from bitrate, this may be inaccurate
+Input #7, mp3, from 'C:\Users\SHARKG~1.SHA\AppData\Local\Temp\timeline_tts_kgmpxv_8\seg_008.mp3':
+  Duration: 00:00:42.50, start: 0.000000, bitrate: 48 kb/s
+  Stream #7:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#8/mp3 @ 0000025f313844c0] Estimating duration from bitrate, this may be inaccurate
+Input #8, mp3, from 'C:\Users\SHARKG~1.SHA\AppData\Local\Temp\timeline_tts_kgmpxv_8\seg_009.mp3':
+  Duration: 00:00:42.58, start: 0.000000, bitrate: 48 kb/s
+  Stream #8:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#9/mp3 @ 0000025f313a8b80] Estimating duration from bitrate, this may be inaccurate
+Input #9, mp3, from 'C:\Users\SHARKG~1.SHA\AppData\Local\Temp\timeline_tts_kgmpxv_8\seg_010.mp3':
+  Duration: 00:00:47.59, start: 0.000000, bitrate: 48 kb/s
+  Stream #9:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#10/mp3 @ 0000025f313a8640] Estimating duration from bitrate, this may be inaccurate
+Input #10, mp3, from 'C:\Users\SHARKG~1.SHA\AppData\Local\Temp\timeline_tts_kgmpxv_8\seg_011.mp3':
+  Duration: 00:00:43.20, start: 0.000000, bitrate: 48 kb/s
+  Stream #10:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#11/mp3 @ 0000025f3131efc0] Estimating duration from bitrate, this may be inaccurate
+Input #11, mp3, from 'C:\Users\SHARKG~1.SHA\AppData\Local\Temp\timeline_tts_kgmpxv_8\seg_012.mp3':
+  Duration: 00:00:43.34, start: 0.000000, bitrate: 48 kb/s
+  Stream #11:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#12/mp3 @ 0000025f3131e100] Estimating duration from bitrate, this may be inaccurate
+Input #12, mp3, from 'C:\Users\SHARKG~1.SHA\AppData\Local\Temp\timeline_tts_kgmpxv_8\seg_013.mp3':
+  Duration: 00:00:41.95, start: 0.000000, bitrate: 48 kb/s
+  Stream #12:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#13/mp3 @ 0000025f3131fe80] Estimating duration from bitrate, this may be inaccurate
+Input #13, mp3, from 'C:\Users\SHARKG~1.SHA\AppData\Local\Temp\timeline_tts_kgmpxv_8\seg_014.mp3':
+  Duration: 00:00:41.81, start: 0.000000, bitrate: 48 kb/s
+  Stream #13:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#14/mp3 @ 0000025f31435e40] Estimating duration from bitrate, this may be inaccurate
+Input #14, mp3, from 'C:\Users\SHARKG~1.SHA\AppData\Local\Temp\timeline_tts_kgmpxv_8\seg_015.mp3':
+  Duration: 00:00:40.46, start: 0.000000, bitrate: 48 kb/s
+  Stream #14:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#15/mp3 @ 0000025f3141d340] Estimating duration from bitrate, this may be inaccurate
+Input #15, mp3, from 'C:\Users\SHARKG~1.SHA\AppData\Local\Temp\timeline_tts_kgmpxv_8\seg_016.mp3':
+  Duration: 00:00:43.18, start: 0.000000, bitrate: 48 kb/s
+  Stream #15:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#16/mp3 @ 0000025f31436a40] Estimating duration from bitrate, this may be inaccurate
+Input #16, mp3, from 'C:\Users\SHARKG~1.SHA\AppData\Local\Temp\timeline_tts_kgmpxv_8\seg_017.mp3':
+  Duration: 00:00:39.48, start: 0.000000, bitrate: 48 kb/s
+  Stream #16:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#17/mp3 @ 0000025f314b3780] Estimating duration from bitrate, this may be inaccurate
+Input #17, mp3, from 'C:\Users\SHARKG~1.SHA\AppData\Local\Temp\timeline_tts_kgmpxv_8\seg_018.mp3':
+  Duration: 00:00:43.01, start: 0.000000, bitrate: 48 kb/s
+  Stream #17:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#18/mp3 @ 0000025f314b2cc0] Estimating duration from bitrate, this may be inaccurate
+Input #18, mp3, from 'C:\Users\SHARKG~1.SHA\AppData\Local\Temp\timeline_tts_kgmpxv_8\seg_019.mp3':
+  Duration: 00:00:39.24, start: 0.000000, bitrate: 48 kb/s
+  Stream #18:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#19/mp3 @ 0000025f314b2200] Estimating duration from bitrate, this may be inaccurate
+Input #19, mp3, from 'C:\Users\SHARKG~1.SHA\AppData\Local\Temp\timeline_tts_kgmpxv_8\seg_020.mp3':
+  Duration: 00:00:43.94, start: 0.000000, bitrate: 48 kb/s
+  Stream #19:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#20/mp3 @ 0000025f314b34c0] Estimating duration from bitrate, this may be inaccurate
+Input #20, mp3, from 'C:\Users\SHARKG~1.SHA\AppData\Local\Temp\timeline_tts_kgmpxv_8\seg_021.mp3':
+  Duration: 00:00:42.58, start: 0.000000, bitrate: 48 kb/s
+  Stream #20:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#21/mp3 @ 0000025f314b2480] Estimating duration from bitrate, this may be inaccurate
+Input #21, mp3, from 'C:\Users\SHARKG~1.SHA\AppData\Local\Temp\timeline_tts_kgmpxv_8\seg_022.mp3':
+  Duration: 00:00:42.05, start: 0.000000, bitrate: 48 kb/s
+  Stream #21:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#22/mp3 @ 0000025f314b2f40] Estimating duration from bitrate, this may be inaccurate
+Input #22, mp3, from 'C:\Users\SHARKG~1.SHA\AppData\Local\Temp\timeline_tts_kgmpxv_8\seg_023.mp3':
+  Duration: 00:00:44.09, start: 0.000000, bitrate: 48 kb/s
+  Stream #22:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#23/mp3 @ 0000025f314b3200] Estimating duration from bitrate, this may be inaccurate
+Input #23, mp3, from 'C:\Users\SHARKG~1.SHA\AppData\Local\Temp\timeline_tts_kgmpxv_8\seg_024.mp3':
+  Duration: 00:00:41.52, start: 0.000000, bitrate: 48 kb/s
+  Stream #23:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#24/mp3 @ 0000025f314b1f40] Estimating duration from bitrate, this may be inaccurate
+Input #24, mp3, from 'C:\Users\SHARKG~1.SHA\AppData\Local\Temp\timeline_tts_kgmpxv_8\seg_025.mp3':
+  Duration: 00:00:39.02, start: 0.000000, bitrate: 48 kb/s
+  Stream #24:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#25/mp3 @ 0000025f314b2a00] Estimating duration from bitrate, this may be inaccurate
+Input #25, mp3, from 'C:\Users\SHARKG~1.SHA\AppData\Local\Temp\timeline_tts_kgmpxv_8\seg_026.mp3':
+  Duration: 00:00:40.70, start: 0.000000, bitrate: 48 kb/s
+  Stream #25:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#26/mp3 @ 0000025f314b2740] Estimating duration from bitrate, this may be inaccurate
+Input #26, mp3, from 'C:\Users\SHARKG~1.SHA\AppData\Local\Temp\timeline_tts_kgmpxv_8\seg_027.mp3':
+  Duration: 00:00:42.77, start: 0.000000, bitrate: 48 kb/s
+  Stream #26:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#27/mp3 @ 0000025f314b1c80] Estimating duration from bitrate, this may be inaccurate
+Input #27, mp3, from 'C:\Users\SHARKG~1.SHA\AppData\Local\Temp\timeline_tts_kgmpxv_8\seg_028.mp3':
+  Duration: 00:00:38.62, start: 0.000000, bitrate: 48 kb/s
+  Stream #27:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#28/mp3 @ 0000025f315a1600] Estimating duration from bitrate, this may be inaccurate
+Input #28, mp3, from 'C:\Users\SHARKG~1.SHA\AppData\Local\Temp\timeline_tts_kgmpxv_8\seg_029.mp3':
+  Duration: 00:00:38.86, start: 0.000000, bitrate: 48 kb/s
+  Stream #28:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#29/mp3 @ 0000025f3159edc0] Estimating duration from bitrate, this may be inaccurate
+Input #29, mp3, from 'C:\Users\SHARKG~1.SHA\AppData\Local\Temp\timeline_tts_kgmpxv_8\seg_030.mp3':
+  Duration: 00:00:38.95, start: 0.000000, bitrate: 48 kb/s
+  Stream #29:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+[in#30/mp3 @ 0000025f315a10c0] Estimating duration from bitrate, this may be inaccurate
+Input #30, mp3, from 'C:\Users\SHARKG~1.SHA\AppData\Local\Temp\timeline_tts_kgmpxv_8\seg_031.mp3':
+  Duration: 00:00:37.22, start: 0.000000, bitrate: 48 kb/s
+  Stream #30:0: Audio: mp3 (mp3float), 24000 Hz, mono, fltp, 48 kb/s
+Stream mapping:
+  Stream #0:0 (mp3float) -> adelay:default
+  Stream #1:0 (mp3float) -> adelay:default
+  Stream #2:0 (mp3float) -> adelay:default
+  Stream #3:0 (mp3float) -> adelay:default
+  Stream #4:0 (mp3float) -> adelay:default
+  Stream #5:0 (mp3float) -> adelay:default
+  Stream #6:0 (mp3float) -> adelay:default
+  Stream #7:0 (mp3float) -> adelay:default
+  Stream #8:0 (mp3float) -> adelay:default
+  Stream #9:0 (mp3float) -> adelay:default
+  Stream #10:0 (mp3float) -> adelay:default
+  Stream #11:0 (mp3float) -> adelay:default
+  Stream #12:0 (mp3float) -> adelay:default
+  Stream #13:0 (mp3float) -> adelay:default
+  Stream #14:0 (mp3float) -> adelay:default
+  Stream #15:0 (mp3float) -> adelay:default
+  Stream #16:0 (mp3float) -> adelay:default
+  Stream #17:0 (mp3float) -> adelay:default
+  Stream #18:0 (mp3float) -> adelay:default
+  Stream #19:0 (mp3float) -> adelay:default
+  Stream #20:0 (mp3float) -> adelay:default
+  Stream #21:0 (mp3float) -> adelay:default
+  Stream #22:0 (mp3float) -> adelay:default
+  Stream #23:0 (mp3float) -> adelay:default
+  Stream #24:0 (mp3float) -> adelay:default
+  Stream #25:0 (mp3float) -> adelay:default
+  Stream #26:0 (mp3float) -> adelay:default
+  Stream #27:0 (mp3float) -> adelay:default
+  Stream #28:0 (mp3float) -> adelay:default
+  Stream #29:0 (mp3float) -> adelay:default
+  Stream #30:0 (mp3float) -> adelay:default
+  apad:default -> Stream #0:0 (libmp3lame)
+Press [q] to stop, [?] for help
+Output #0, mp3, to 'G:\workspace\yinghe-shijie\outputs\audio\二战潜艇内部到底怎么运转？_时间线01_等长_Yunyang.mp3':
+  Metadata:
+    TSSE            : Lavf62.12.100
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 192 kb/s
+    Metadata:
+      encoder         : Lavc62.28.100 libmp3lame
+size=     768KiB time=00:00:30.12 bitrate= 208.9kbits/s speed=59.1x elapsed=0:00:00.50    size=    2048KiB time=00:01:32.39 bitrate= 181.6kbits/s speed=87.1x elapsed=0:00:01.06    size=    3840KiB time=00:02:49.09 bitrate= 186.0kbits/s speed= 106x elapsed=0:00:01.59    size=    5632KiB time=00:04:09.52 bitrate= 184.9kbits/s speed= 118x elapsed=0:00:02.11    size=    7424KiB time=00:05:18.25 bitrate= 191.1kbits/s speed= 121x elapsed=0:00:02.63    size=    8960KiB time=00:06:27.94 bitrate= 189.2kbits/s speed= 123x elapsed=0:00:03.15    size=   10496KiB time=00:07:37.32 bitrate= 188.0kbits/s speed= 125x elapsed=0:00:03.67    size=   12032KiB time=00:08:43.57 bitrate= 188.3kbits/s speed= 125x elapsed=0:00:04.19    size=   14080KiB time=00:10:01.02 bitrate= 191.9kbits/s speed= 128x elapsed=0:00:04.70    size=   15872KiB time=00:11:16.99 bitrate= 192.1kbits/s speed= 129x elapsed=0:00:05.22    size=   17152KiB time=00:12:15.29 bitrate= 191.1kbits/s speed= 128x elapsed=0:00:05.75    size=   17920KiB time=00:12:41.10 bitrate= 192.9kbits/s speed= 121x elapsed=0:00:06.31    size=   18432KiB time=00:13:09.76 bitrate= 191.2kbits/s speed= 114x elapsed=0:00:06.95    size=   18688KiB time=00:13:25.56 bitrate= 190.0kbits/s speed= 106x elapsed=0:00:07.58    size=   19712KiB time=00:14:02.68 bitrate= 191.6kbits/s speed= 104x elapsed=0:00:08.12    size=   20224KiB time=00:14:27.99 bitrate= 190.9kbits/s speed= 100x elapsed=0:00:08.65    size=   21248KiB time=00:15:06.71 bitrate= 192.0kbits/s speed=98.8x elapsed=0:00:09.17    size=   21504KiB time=00:15:17.99 bitrate= 191.9kbits/s speed=94.7x elapsed=0:00:09.69    size=   21760KiB time=00:15:37.90 bitrate= 190.1kbits/s speed=91.7x elapsed=0:00:10.22    size=   22272KiB time=00:15:51.64 bitrate= 191.7kbits/s speed=88.2x elapsed=0:00:10.78    size=   22784KiB time=00:16:17.52 bitrate= 190.9kbits/s speed=86.2x elapsed=0:00:11.34    size=   23296KiB time=00:16:40.90 bitrate= 190.7kbits/s speed=84.2x elapsed=0:00:11.89    size=   24320KiB time=00:17:17.34 bitrate= 192.1kbits/s speed=83.3x elapsed=0:00:12.44    size=   25088KiB time=00:17:52.11 bitrate= 191.7kbits/s speed=82.5x elapsed=0:00:12.99    size=   25856KiB time=00:18:30.25 bitrate= 190.8kbits/s speed=82.2x elapsed=0:00:13.51    size=   27392KiB time=00:19:31.88 bitrate= 191.5kbits/s speed=83.6x elapsed=0:00:14.01    size=   28672KiB time=00:20:32.64 bitrate= 190.6kbits/s speed=84.8x elapsed=0:00:14.53    size=   30208KiB time=00:21:32.04 bitrate= 191.5kbits/s speed=85.8x elapsed=0:00:15.06    size=   31488KiB time=00:22:27.65 bitrate= 191.4kbits/s speed=86.5x elapsed=0:00:15.58    size=   32768KiB time=00:23:26.48 bitrate= 190.9kbits/s speed=87.3x elapsed=0:00:16.10    size=   34304KiB time=00:24:28.16 bitrate= 191.4kbits/s speed=88.3x elapsed=0:00:16.62    size=   35840KiB time=00:25:32.23 bitrate= 191.6kbits/s speed=89.3x elapsed=0:00:17.15    size=   37120KiB time=00:26:33.49 bitrate= 190.8kbits/s speed=90.2x elapsed=0:00:17.65    size=   38656KiB time=00:27:34.98 bitrate= 191.3kbits/s speed=  91x elapsed=0:00:18.17    size=   40448KiB time=00:28:52.96 bitrate= 191.2kbits/s speed=92.7x elapsed=0:00:18.69    size=   42240KiB time=00:30:04.90 bitrate= 191.7kbits/s speed=93.9x elapsed=0:00:19.21    [out#0/mp3 @ 0000025f315298c0] video:0KiB audio:43403KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.001510%
+size=   43403KiB time=00:30:51.81 bitrate= 192.0kbits/s speed=94.6x elapsed=0:00:19.57    

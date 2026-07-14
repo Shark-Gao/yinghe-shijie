@@ -1,0 +1,149 @@
+1
+00:00:00,000 --> 00:00:12,100
+手机和电车里，看似安静的锂电池，其实每一秒都在进行化学反应。它没有齿轮，却能把储存的能量，持续变成电流。
+Inside phones and EVs, lithium batteries quietly run chemical reactions every second, turning stored energy into electric current.
+
+2
+00:00:12,100 --> 00:00:24,733
+问题是，电池到底怎样给设备供电？插上充电器后，里面又发生了什么？更关键的是，为什么它能反复充电，却还是会慢慢衰减？
+How does a battery power a device, what changes while charging, and why does it eventually lose capacity?
+
+3
+00:00:24,733 --> 00:00:43,700
+答案藏在电池内部的三条通道里：电子走外部电路，锂离子走电池内部。它们分开行动，却必须始终保持配合。
+The answer lies in two coordinated paths: electrons use the external circuit while lithium ions travel inside the battery.
+
+4
+00:00:43,700 --> 00:00:58,000
+先从最熟悉的电流说起。电子从负极出发，流过手机的芯片、屏幕和扬声器，最后抵达正极。这个流动，就是设备工作的直接来源。
+Electrons leave the negative terminal, power the phone's components, and arrive at the positive terminal. That flow runs the device.
+
+5
+00:00:58,000 --> 00:01:15,700
+在锂离子电池里，负极通常是石墨。石墨像一本层层叠起的书，锂原子可以被安稳地夹在这些碳层之间。
+The negative electrode is usually graphite. Its stacked carbon layers can safely host lithium atoms.
+
+6
+00:01:15,700 --> 00:01:32,133
+当电池开始放电，石墨层里的锂会离开原位。它失去一个电子，自己变成带正电的锂离子。电子则被送进外部电路。
+During discharge, lithium leaves the graphite, becomes a positively charged ion, and releases an electron into the external circuit.
+
+7
+00:01:32,133 --> 00:01:49,300
+大量锂原子同时释放电子，就形成了持续的电流。不过，电子不能只跑一边。否则正负电荷越积越多，反而会把后续电子挡住。
+Many lithium atoms releasing electrons create current, but charge cannot keep accumulating on either side or the flow will stop.
+
+8
+00:01:49,300 --> 00:02:09,000
+所以，电池还需要另一条路。锂离子穿过电解液，从负极迁移到正极；电子却不能穿过这里，只能老老实实绕外部电路走一圈。
+Lithium ions cross the electrolyte from negative to positive, while electrons are blocked and must travel through the external circuit.
+
+9
+00:02:09,000 --> 00:02:30,466
+这就是锂电池最巧妙的分工：电子负责对外做功，锂离子负责在内部平衡电荷。两条路同时畅通，反应才能持续。
+This is the key division of labor: electrons do external work while lithium ions balance charge inside the cell.
+
+10
+00:02:30,466 --> 00:02:49,100
+到了正极一侧，材料会接收电子，锂离子也嵌入其中。原本分散在石墨里的锂，逐步转移到另一边，电池的电量也就一点点被用掉。
+At the positive electrode, the material accepts electrons and lithium ions insert into it, gradually consuming the battery's stored charge.
+
+11
+00:02:49,100 --> 00:03:10,400
+注意，锂离子并不是在搬运电流。真正穿过手机电路的是电子。锂离子的任务，是让两端不至于因为电荷失衡而立刻罢工。
+Lithium ions do not carry current through the phone. Their job is to prevent charge imbalance from stopping the reaction.
+
+12
+00:03:10,400 --> 00:03:30,466
+于是放电过程可以概括成一句话：电子从负极绕外面一圈，为设备供电；锂离子从里面穿过去，给整套反应维持秩序。
+In discharge, electrons take the outside route to power the device, while lithium ions cross the inside route to keep the reaction balanced.
+
+13
+00:03:30,466 --> 00:03:49,833
+电解液因此很特殊。它允许锂离子通过，却不让电子直接穿过去。要是电子走了捷径，外部设备就拿不到电，这块电池也等于短路。
+The electrolyte passes lithium ions but blocks electrons. If electrons took that shortcut, the device would get no usable power and the cell could short circuit.
+
+14
+00:03:49,833 --> 00:04:09,133
+到一天结束，更多锂离子已经来到正极，负极石墨里的可用锂减少，电压也跟着下降。我们看到的，就是手机提示电量不足。
+By the end of discharge, more lithium has moved to the positive side, leaving less usable lithium in graphite and lowering the voltage.
+
+15
+00:04:09,133 --> 00:04:32,800
+充电，就是把这套过程反过来。充电器施加更高的电压，强行把电子从正极拉走，再推回负极的石墨层。
+Charging reverses the process. The charger applies a higher voltage, pulling electrons from the positive side and pushing them back to graphite.
+
+16
+00:04:32,800 --> 00:04:53,433
+电子回到石墨，就像在另一端拉起了绳子。锂离子也会穿过电解液，重新钻回石墨层的空位。储能状态，就这样被恢复。
+As electrons return to graphite, lithium ions follow through the electrolyte and reinsert into graphite, restoring the stored-energy state.
+
+17
+00:04:53,433 --> 00:05:21,066
+所以锂电池能反复充电，不是因为材料凭空制造能量，而是因为锂离子可以在两种材料之间来回嵌入和脱出。放电去一边，充电再回来。
+Rechargeability comes from lithium ions repeatedly moving between two host materials, not from creating energy out of nothing.
+
+18
+00:05:21,066 --> 00:05:41,800
+这套往返听起来简单，实际却极其精密。每一层材料都必须恰到好处：既能让离子进出，又不能让两极直接相碰。
+The back-and-forth motion sounds simple, but every layer must be precisely designed to host ions while keeping the electrodes apart.
+
+19
+00:05:41,800 --> 00:06:00,433
+正极和负极一旦接触，电子会在电池内部直接冲过去，反应可能失控，产生大量热量，严重时就会起火。
+If the electrodes touch, electrons can rush directly inside the cell, causing uncontrolled heat and potentially a fire.
+
+20
+00:06:00,433 --> 00:06:16,300
+中间的隔膜，就是这道安全闸门。它不导电，却布满能让锂离子通过的微孔，把电子和两极材料牢牢隔开。
+The separator is the safety gate: it is electrically insulating but porous enough for lithium ions to pass.
+
+21
+00:06:16,300 --> 00:06:30,466
+石墨和正极活性材料本身，也不擅长把电子快速分配到整块电极。因此电池里还有铜箔和铝箔，专门负责收集和输送电流。
+Because the active materials do not distribute electrons efficiently on their own, copper and aluminum foils collect and carry current.
+
+22
+00:06:30,466 --> 00:06:48,433
+为了在狭小空间里塞进更多容量，这些材料不是平铺一层就结束，而是像千层饼一样反复叠放、卷绕，再装进电池外壳。
+To fit more capacity into a small space, these layers are repeatedly stacked or wound before being sealed in the cell casing.
+
+23
+00:06:48,433 --> 00:07:05,466
+你看到的动画，仿佛锂离子每次都能百分之百回到原处。但现实里，总会有一部分锂被困在途中，回不来了。
+Animations make lithium appear to return perfectly, but in reality some lithium is always trapped and cannot come back.
+
+24
+00:07:05,466 --> 00:07:23,733
+电池顶部的管理电路也很重要。它会限制过充、过放和异常电流，因为这些情况都会加快材料损伤，甚至带来安全风险。
+Battery management circuitry limits overcharge, overdischarge, and abnormal current because each can accelerate damage and create safety risks.
+
+25
+00:07:23,733 --> 00:07:43,466
+这也解释了另一个问题：既然能来回移动，为什么电池用久了还是不耐用？核心原因，是这条锂离子通道会在每次循环中留下损耗。
+If ions can travel back and forth, why do batteries age? Each cycle leaves losses along the lithium-ion pathway.
+
+26
+00:07:43,466 --> 00:08:02,700
+其中一部分锂和电解液会发生副反应，形成固态电解质界面，也就是常说的SEI膜。它并非全是坏事，却会消耗一部分可用锂。
+Some lithium reacts with the electrolyte to form the SEI layer. It is not entirely harmful, but it consumes some usable lithium.
+
+27
+00:08:02,700 --> 00:08:20,900
+随着循环增加，被固定住的锂越来越多，能在两极之间往返的锂越来越少。可搬运的能量变少，最大容量自然就下降了。
+As cycles accumulate, more lithium becomes immobilized. Less lithium can shuttle between electrodes, so maximum capacity falls.
+
+28
+00:08:20,900 --> 00:08:41,633
+过度放电同样不友好。电量长期耗到极低，会让一些材料进入难以逆转的状态。所以日常使用时，别总等到彻底关机才充电。
+Deep discharge is also harmful because it can push materials into hard-to-reverse states. Avoid routinely waiting for complete shutdown before charging.
+
+29
+00:08:41,633 --> 00:09:02,266
+从手机到电动车，具体配方可以不同，但底层逻辑相同：一边愿意放出电子，一边愿意接收电子，中间再给锂离子留出一条通道。
+From phones to EVs, chemistries vary but the core logic is the same: one side releases electrons, the other accepts them, and lithium ions get an internal path.
+
+30
+00:09:02,266 --> 00:09:29,957
+锂电池能充很多次，靠的是可逆的离子迁移；电池会老化，则因为这种可逆从来不是百分之百。原理并不复杂，真正难的是让它在数百次循环里，依然安全、稳定又高效。
+Lithium batteries survive many charges because ion migration is reversible, yet they age because reversibility is never perfect. The challenge is staying safe, stable, and efficient for hundreds of cycles.

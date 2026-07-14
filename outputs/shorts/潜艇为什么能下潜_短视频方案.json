@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "title": "潜艇为什么能下潜？",
+  "source_video": "G:/workspace/yinghe-shijie/videos/raw/二战潜艇内部到底怎么运转？.mp4",
+  "output_video": "G:/workspace/yinghe-shijie/videos/exports/短视频/二战潜艇内部到底怎么运转？/潜艇为什么能下潜_短视频/潜艇为什么能下潜_短视频.mp4",
+  "cover_title": "潜艇为什么能下潜？",
+  "cover_headline": "压载舱灌水",
+  "cover_subhead": "潜艇才能下潜",
+  "cover_aspect": "16:9",
+  "background_music": "music/硬核视界_通用BGM_舒缓科普探索_CC0.mp3",
+  "layout": "source",
+  "burn_captions": false,
+  "write_subtitles": true,
+  "mix": { "source_volume": 0.0, "narration_volume": 1.0, "music_volume": 0.45, "music_fade_seconds": 0.0 },
+  "clips": [
+    { "id": "water-enters-hook", "source_start": "00:28:02.933", "source_end": "00:28:10.866", "focus_x": 0.5 },
+    { "id": "negative-buoyancy", "source_start": "00:28:15.400", "source_end": "00:28:24.900", "focus_x": 0.5 },
+    { "id": "neutral-buoyancy", "source_start": "00:28:42.933", "source_end": "00:28:50.266", "focus_x": 0.5 },
+    { "id": "trim-and-planes", "source_start": "00:28:51.400", "source_end": "00:29:06.066", "focus_x": 0.5 },
+    { "id": "blow-the-tanks", "source_start": "00:27:17.266", "source_end": "00:27:30.100", "focus_x": 0.5 }
+  ],
+  "narration": {
+    "voice": "zh-CN-YunyangNeural",
+    "rate": "+0%",
+    "segments": [
+      { "start": "00:00:00.000", "end": "00:00:07.933", "text": "潜艇下潜，不是把船头往下扎，而是先让整艘船变重。" },
+      { "start": "00:00:07.933", "end": "00:00:17.433", "text": "所有进排气口关闭后，压载舱打开通气阀，空气排出，海水灌进来，潜艇就获得了负浮力。" },
+      { "start": "00:00:17.433", "end": "00:00:24.766", "text": "到达目标深度，再往压载舱补一部分空气，让它刚好悬在水里，这叫中性浮力。" },
+      { "start": "00:00:24.766", "end": "00:00:39.432", "text": "接着，水会在不同舱室之间移动，修正前后平衡；船首舵和船尾舵，才负责改变下潜角度和深度。" },
+      { "start": "00:00:39.432", "end": "00:00:52.266", "text": "上浮则反过来，用高压空气把水顶出压载舱。看似一艘钢铁巨兽，真正控制它体重的，其实是空气和海水。" }
+    ]
+  }
+}

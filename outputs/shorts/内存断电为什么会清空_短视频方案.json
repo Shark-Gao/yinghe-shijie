@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "title": "内存断电为什么会清空？",
+  "source_video": "G:/workspace/yinghe-shijie/videos/raw/AI 时代，缓存 内存 硬盘到底怎么分工？.mp4",
+  "output_video": "G:/workspace/yinghe-shijie/videos/exports/短视频/AI 时代，缓存 内存 硬盘到底怎么分工？/内存断电为什么会清空_短视频/内存断电为什么会清空_短视频.mp4",
+  "cover_title": "内存断电为何清空",
+  "cover_headline": "内存断电清空",
+  "cover_subhead": "电荷泄漏太快",
+  "cover_aspect": "16:9", "background_music": "music/硬核视界_通用BGM_舒缓科普探索_CC0.mp3",
+  "layout": "source", "burn_captions": false, "write_subtitles": true,
+  "mix": { "source_volume": 0.0, "narration_volume": 1.0, "music_volume": 0.45, "music_fade_seconds": 0.0 },
+  "clips": [
+    { "id": "dram", "source_start": "00:13:29.000", "source_end": "00:13:37.000", "focus_x": 0.5 },
+    { "id": "banks", "source_start": "00:13:45.000", "source_end": "00:13:54.000", "focus_x": 0.5 },
+    { "id": "cell", "source_start": "00:14:00.000", "source_end": "00:14:09.000", "focus_x": 0.5 },
+    { "id": "charge", "source_start": "00:14:09.000", "source_end": "00:14:19.000", "focus_x": 0.5 },
+    { "id": "read", "source_start": "00:14:20.000", "source_end": "00:14:30.000", "focus_x": 0.5 },
+    { "id": "refresh", "source_start": "00:15:07.000", "source_end": "00:15:16.000", "focus_x": 0.5 }
+  ],
+  "narration": { "voice": "zh-CN-YunyangNeural", "rate": "+0%", "segments": [
+    { "start": "00:00:00.000", "end": "00:00:08.000", "text": "电脑内存断电后，为什么会瞬间清空？答案藏在每个 DRAM 单元里。" },
+    { "start": "00:00:08.000", "end": "00:00:17.000", "text": "一根内存条上的芯片，被拆成大量独立 Bank，每个 Bank 里又有海量存储单元。" },
+    { "start": "00:00:17.000", "end": "00:00:26.000", "text": "最基本的单元只有一个晶体管和一个电容：电容里有没有电，就代表零或一。" },
+    { "start": "00:00:26.000", "end": "00:00:36.000", "text": "读写时，CPU 选中一整行单元，再让感测放大器判断每个电容里的电压。" },
+    { "start": "00:00:36.000", "end": "00:00:46.000", "text": "这种设计让 DRAM 能做到大容量、高带宽，但每一位都依赖极微弱的电荷。" },
+    { "start": "00:00:46.000", "end": "00:00:55.000", "text": "电荷会自然泄漏，所以内存必须不断刷新；一旦断电，数据很快全部消失。" }
+  ] }
+}

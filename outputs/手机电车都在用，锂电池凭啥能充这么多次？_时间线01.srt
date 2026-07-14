@@ -1,0 +1,952 @@
+1
+00:00:01,133 --> 00:00:04,033
+it's crazy that every second you use your smartphone
+你使用智能手机的每一秒都很疯狂
+2
+00:00:04,033 --> 00:00:05,733
+there is a chemical reaction
+有化学反应
+3
+00:00:05,733 --> 00:00:08,800
+like a baking soda volcano happening inside of it
+就像里面发生的小苏打火山
+4
+00:00:09,266 --> 00:00:12,100
+it looks like a solid device without many moving parts
+它看起来像一个没有许多活动部件的固体设备
+5
+00:00:12,100 --> 00:00:13,133
+but it's true
+但这是真的
+6
+00:00:13,800 --> 00:00:14,866
+inside the battery
+电池内部
+7
+00:00:14,866 --> 00:00:16,266
+there is a chemical reaction
+有化学反应
+8
+00:00:16,266 --> 00:00:18,233
+that is continuously running
+持续运行的
+9
+00:00:18,600 --> 00:00:21,033
+and without it your phone would just be dead
+没有它，你的手机就会没电。
+10
+00:00:21,233 --> 00:00:23,500
+which is something we're all familiar with
+这是我们都很熟悉的
+11
+00:00:24,733 --> 00:00:27,666
+let's investigate this lithium ion battery
+让我们调查一下这个锂离子电池
+12
+00:00:27,866 --> 00:00:29,733
+how does it power your smartphone
+它如何为您的智能手机供电？
+13
+00:00:30,000 --> 00:00:31,666
+what happens when you recharge it
+充电时会发生什么？
+14
+00:00:31,666 --> 00:00:33,733
+and probably what we're all wondering
+也许我们都想知道
+15
+00:00:33,933 --> 00:00:35,466
+why does your battery die
+为什么你的电池没电了？
+16
+00:00:35,466 --> 00:00:37,333
+earlier and earlier in the day
+一天中越来越早
+17
+00:00:37,600 --> 00:00:39,000
+to answer these questions
+来回答这些问题
+18
+00:00:39,000 --> 00:00:41,733
+let's open up this battery and look inside
+让我们打开这个电池看看里面
+19
+00:00:43,700 --> 00:00:47,066
+so first how does your battery power your smartphone
+那么首先，您的电池如何为智能手机供电？
+20
+00:00:47,866 --> 00:00:49,866
+let's start from what we know
+让我们从我们知道的开始
+21
+00:00:50,733 --> 00:00:52,800
+all batteries have a positive terminal
+所有电池都有正极端子
+22
+00:00:52,800 --> 00:00:53,866
+and a negative terminal
+和一个负终端
+23
+00:00:53,866 --> 00:00:55,933
+and supply power or electricity
+并提供电力或电力
+24
+00:00:55,933 --> 00:00:57,800
+to our portable devices
+到我们的便携式设备
+25
+00:00:58,000 --> 00:01:00,733
+so electricity is essentially a flow of electrons
+所以电本质上是电子的流动
+26
+00:01:00,733 --> 00:01:01,833
+in our smartphone
+在我们的智能手机中
+27
+00:01:02,266 --> 00:01:04,600
+electrons which are negatively charged
+带负电荷的电子
+28
+00:01:04,600 --> 00:01:06,333
+flow from the negative terminal
+从负极流出
+29
+00:01:06,333 --> 00:01:09,133
+and run things like the speakers or the display
+并运行扬声器或显示器之类的东西
+30
+00:01:09,133 --> 00:01:11,666
+and then end up in the positive terminal
+最后到达正极
+31
+00:01:12,266 --> 00:01:15,333
+so then where does this flow of electrons come from
+那么这些电子流是从哪里来的呢？
+32
+00:01:15,700 --> 00:01:18,100
+well this is a lithium ion battery
+嗯，这是锂离子电池。
+33
+00:01:18,100 --> 00:01:21,033
+so the electrons come from the element lithium
+所以电子来自锂元素
+34
+00:01:21,600 --> 00:01:22,733
+at the negative terminal
+在负端
+35
+00:01:22,733 --> 00:01:25,000
+which is technically called the anode
+技术上称为阳极
+36
+00:01:25,066 --> 00:01:28,300
+lithium is stored between layers of carbon graphite
+锂储存在碳石墨层之间
+37
+00:01:28,300 --> 00:01:30,433
+similar to the graphite in your pencil
+类似于你铅笔里的石墨
+38
+00:01:30,900 --> 00:01:32,133
+graphite has a nifty
+石墨有一种俏皮
+39
+00:01:32,133 --> 00:01:34,266
+crystal structure of layered planes
+层状平面的晶体结构
+40
+00:01:34,266 --> 00:01:35,800
+that allows the lithium
+允许锂
+41
+00:01:35,800 --> 00:01:38,666
+to be wedged in between each of the layers
+楔入每一层之间
+42
+00:01:38,833 --> 00:01:42,466
+the technical term for this is intercalation
+技术术语叫做嵌入
+43
+00:01:43,066 --> 00:01:44,933
+graphite functions as a kind of like
+石墨的功能有点像
+44
+00:01:44,933 --> 00:01:48,333
+stable storage space for lithium atoms
+锂原子的稳定存储空间
+45
+00:01:49,300 --> 00:01:50,733
+okay moving on
+好吧继续
+46
+00:01:51,233 --> 00:01:53,633
+one inherent property of the element lithium
+锂元素的一个固有特性
+47
+00:01:53,633 --> 00:01:54,933
+is that it doesn't like its
+它不喜欢它的
+48
+00:01:54,933 --> 00:01:56,400
+outermost electron
+最外层电子
+49
+00:01:56,500 --> 00:01:58,433
+and it wants to give it up
+它想放弃它
+50
+00:01:59,133 --> 00:02:00,700
+when there is an available path
+当有可用路径时
+51
+00:02:00,700 --> 00:02:01,933
+from the negative terminal
+从负端
+52
+00:02:01,933 --> 00:02:03,466
+to the positive terminal
+到正极
+53
+00:02:03,600 --> 00:02:06,033
+this electron separates from the lithium
+这个电子与锂原子分离
+54
+00:02:06,033 --> 00:02:08,233
+and starts heading to the other side
+并开始前往另一边
+55
+00:02:09,000 --> 00:02:09,900
+at the same time
+同时
+56
+00:02:09,900 --> 00:02:13,266
+the lithium leaves the graphite and becomes positively
+锂离开石墨变成正极
+57
+00:02:13,266 --> 00:02:17,133
+or 1 charged and is now called a lithium ion
+或1充电，现在称为锂离子
+58
+00:02:17,666 --> 00:02:21,000
+FYI an ion is just a fancy word for an atom
+仅供参考离子只是原子的花哨说法
+59
+00:02:21,000 --> 00:02:22,933
+who has lost or gained an electron
+谁失去或获得了一个电子
+60
+00:02:22,933 --> 00:02:24,500
+and thus is charged
+因此被收费
+61
+00:02:24,800 --> 00:02:27,100
+when a lot of lithium atoms leave the graphite
+当大量锂原子离开石墨
+62
+00:02:27,100 --> 00:02:28,400
+at the same time
+同时
+63
+00:02:28,466 --> 00:02:30,666
+a flow of electrons is built up
+形成了一股电子流
+64
+00:02:31,500 --> 00:02:34,266
+so let's now jump to the positive terminal
+现在让我们跳到正极
+65
+00:02:34,266 --> 00:02:36,733
+which is technically called the cathode
+技术上称为阴极
+66
+00:02:37,300 --> 00:02:39,033
+here we have cobalt
+这里有钴
+67
+00:02:39,100 --> 00:02:41,466
+which has lost some electrons to oxygen
+因为氧气而失去了一些电子
+68
+00:02:41,466 --> 00:02:43,866
+thus making the cobalt positive or
+从而使钴呈阳性或
+69
+00:02:44,033 --> 00:02:48,833
+4 charged as a result it wants to gain back an electron
+4带电，结果它想重获一个电子
+70
+00:02:49,100 --> 00:02:51,700
+so when we connect the negative and positive terminals
+所以当我们连接负极和正极端子时
+71
+00:02:51,700 --> 00:02:53,000
+to our smartphone
+到我们的智能手机
+72
+00:02:53,100 --> 00:02:55,200
+the electrons flow from the lithium
+电子从锂中流出
+73
+00:02:55,200 --> 00:02:57,500
+which wants to give up an electron
+它想放弃一个电子
+74
+00:02:57,600 --> 00:03:00,266
+through the circuits and components in the smartphone
+通过智能手机中的电路和组件
+75
+00:03:00,400 --> 00:03:03,833
+and to the cobalt which wants to gain an electron
+对于想要获得电子的钴
+76
+00:03:04,400 --> 00:03:06,633
+now here we run into a small issue
+现在我们遇到了一个小问题
+77
+00:03:06,800 --> 00:03:08,033
+with the flow of electrons
+随着电子的流动
+78
+00:03:08,033 --> 00:03:10,333
+from the negative to the positive terminal
+从负极到正极
+79
+00:03:10,400 --> 00:03:11,266
+the cobalt side
+钴的一面
+80
+00:03:11,266 --> 00:03:13,866
+grows more and more negatively charged
+越来越带负电荷
+81
+00:03:13,866 --> 00:03:16,433
+and the other side positively charged
+另一边带正电
+82
+00:03:16,533 --> 00:03:19,266
+yes the electrons do want to flow in this direction
+是的，电子确实想朝这个方向流动
+83
+00:03:19,300 --> 00:03:20,233
+but at the same time
+但同时
+84
+00:03:20,233 --> 00:03:22,600
+electrons don't like to flow to an area
+电子不喜欢流向一个区域
+85
+00:03:22,600 --> 00:03:25,266
+that is growing more and more negatively charged
+这是越来越多的负电荷
+86
+00:03:25,533 --> 00:03:27,700
+this is because opposite charges attract
+这是因为相反的电荷吸引
+87
+00:03:27,700 --> 00:03:29,433
+and similar charges repel
+和类似的指控相斥
+88
+00:03:30,466 --> 00:03:31,533
+so to fix this
+所以为了解决这个问题
+89
+00:03:31,533 --> 00:03:34,833
+we give the now positively charged lithium ions
+我们给现在带正电荷的锂离子
+90
+00:03:34,833 --> 00:03:36,533
+that recently left the graphite
+最近离开石墨的
+91
+00:03:36,733 --> 00:03:39,000
+a path to move to the other side
+一条通往另一边的道路
+92
+00:03:39,300 --> 00:03:41,466
+this path is called an electrolyte
+这条路称为电解质
+93
+00:03:41,500 --> 00:03:42,333
+and its function
+及其功能
+94
+00:03:42,333 --> 00:03:44,633
+allows for the lithium ions to migrate
+允许锂离子迁移
+95
+00:03:44,633 --> 00:03:46,200
+over from one side
+从一边过来
+96
+00:03:46,233 --> 00:03:47,300
+to the other
+到另一个
+97
+00:03:47,466 --> 00:03:49,833
+while not allowing the electrons to move through it
+同时不允许电子穿过它
+98
+00:03:50,466 --> 00:03:52,833
+when lithium gets to the cobalt side
+当锂元素到达钴元素一侧时
+99
+00:03:52,866 --> 00:03:55,833
+it again wedges itself or intercalates
+它再次楔入或插入
+100
+00:03:55,833 --> 00:03:58,833
+with the cobalt and oxygen to become lithium cobalt
+用钴和氧变成锂钴
+101
+00:03:58,833 --> 00:04:02,533
+oxide the lithium isn't regaining its electron
+氧化锂无法重新获得电子
+102
+00:04:02,600 --> 00:04:04,666
+that electron went to the cobalt
+那个电子去了钴
+103
+00:04:04,700 --> 00:04:07,033
+it's just balancing out the charge buildup
+它只是平衡电荷堆积
+104
+00:04:09,133 --> 00:04:10,633
+let's quickly recap
+让我们快速总结一下
+105
+00:04:11,033 --> 00:04:12,866
+here is a full battery
+这是一个完整的电池
+106
+00:04:13,033 --> 00:04:13,833
+throughout the day
+全天
+107
+00:04:13,833 --> 00:04:16,200
+lithium atoms leave the graphite layers
+锂原子离开石墨层
+108
+00:04:16,200 --> 00:04:18,000
+and separate from their electrons
+并与它们的电子分离
+109
+00:04:18,000 --> 00:04:20,000
+to become lithium ions
+变成锂离子
+110
+00:04:20,033 --> 00:04:22,633
+the electrons flow from the negative terminal
+电子从负极流出
+111
+00:04:22,633 --> 00:04:25,500
+through the circuits and components in the smartphone
+通过智能手机中的电路和组件
+112
+00:04:25,566 --> 00:04:27,666
+and into the positive terminal
+并进入正终端
+113
+00:04:27,666 --> 00:04:29,600
+to join the cobalt atoms
+加入钴原子
+114
+00:04:29,700 --> 00:04:30,866
+at the same time
+同时
+115
+00:04:30,866 --> 00:04:33,666
+the lithium ions travel through the electrolyte
+锂离子穿过电解质
+116
+00:04:33,666 --> 00:04:36,200
+in order to neutralize the charge buildup
+为了中和电荷堆积
+117
+00:04:36,200 --> 00:04:38,066
+and keep the reaction going
+并保持反应
+118
+00:04:38,200 --> 00:04:41,000
+here's the chemical formula for the reaction
+这是反应的化学式
+119
+00:04:41,200 --> 00:04:42,800
+thus at the end of the day
+因此在一天结束时
+120
+00:04:42,800 --> 00:04:46,266
+almost all of the lithium has left the graphite layers
+几乎所有的锂都离开了石墨层
+121
+00:04:46,266 --> 00:04:49,800
+and joined the cobalt to become lithium cobalt oxide
+并加入钴成为锂钴氧化物
+122
+00:04:49,866 --> 00:04:52,200
+and your battery is now running on empty
+你的电池现在空了。
+123
+00:04:53,433 --> 00:04:56,133
+now that the battery is empty let's recharge it
+现在电池没电了，让我们给它充电。
+124
+00:04:56,133 --> 00:04:58,700
+we plug in our smartphone and when we do this
+我们插入智能手机，当我们这样做时
+125
+00:04:58,700 --> 00:05:01,333
+the USB charger applies a higher force
+USB充电器施加更大的力
+126
+00:05:01,333 --> 00:05:02,500
+on a flow of electrons
+在电子流上
+127
+00:05:02,500 --> 00:05:04,500
+in the opposite direction
+在相反的方向
+128
+00:05:04,866 --> 00:05:07,200
+electrons are pulled out of the cobalt
+电子从钴中被拉出
+129
+00:05:07,200 --> 00:05:09,066
+thus returning cobalt to its
+从而将钴返回其
+130
+00:05:09,233 --> 00:05:12,333
+4 state and kicking out the lithium ions
+4种状态并踢出锂离子
+131
+00:05:12,666 --> 00:05:13,600
+on the other side
+在另一边
+132
+00:05:13,600 --> 00:05:16,100
+electrons are forced onto the graphite
+电子被压在石墨上
+133
+00:05:16,100 --> 00:05:18,733
+which pulls the lithium through the electrolyte
+它将锂拉过电解质
+134
+00:05:18,900 --> 00:05:20,900
+and back into the layers of graphite
+回到石墨层
+135
+00:05:21,066 --> 00:05:21,833
+as you see
+如你所见
+136
+00:05:21,833 --> 00:05:24,800
+it's the exact opposite of the earlier reaction
+这和之前的反应完全相反
+137
+00:05:24,800 --> 00:05:27,200
+which is why this battery is rechargeable
+这就是为什么这个电池是可充电的
+138
+00:05:27,800 --> 00:05:30,300
+the lithium and its electrons move in one direction
+锂和它的电子向一个方向移动
+139
+00:05:30,300 --> 00:05:31,700
+when you use the phone
+当你使用电话时
+140
+00:05:31,700 --> 00:05:34,200
+and the opposite when you charge it back up
+当你重新充电时，情况正好相反
+141
+00:05:36,333 --> 00:05:37,033
+okay
+好吧
+142
+00:05:37,033 --> 00:05:40,833
+so now let's rewind and add a few more details of note
+所以现在让我们倒带并添加更多的注意细节
+143
+00:05:41,800 --> 00:05:44,833
+first these two sides can't touch
+首先这两面不能碰
+144
+00:05:44,833 --> 00:05:47,300
+if the anode and cathode were to touch
+如果阳极和阴极接触
+145
+00:05:47,300 --> 00:05:49,800
+and if there were any lithium left in the graphite
+如果石墨里还有锂
+146
+00:05:50,000 --> 00:05:53,300
+the chemical reaction would accelerate uncontrollably
+化学反应会不受控制地加速
+147
+00:05:53,333 --> 00:05:57,000
+and cause a fire or often a small explosion
+并引起火灾或通常是小爆炸
+148
+00:05:57,400 --> 00:06:00,433
+thus a non conductive semi permeable separator
+因此是一种不导电的半渗透隔板
+149
+00:06:00,433 --> 00:06:02,933
+that allows the lithium ions to pass through
+允许锂离子通过
+150
+00:06:02,933 --> 00:06:04,266
+is placed in the middle
+被放在中间
+151
+00:06:04,433 --> 00:06:05,600
+and this electrolyte
+这种电解质
+152
+00:06:05,600 --> 00:06:08,500
+isn't an effective barrier because it's a liquid
+不是有效的屏障因为它是液体
+153
+00:06:09,266 --> 00:06:11,433
+the second thing to note is that the graphite
+第二件要注意的是石墨
+154
+00:06:11,433 --> 00:06:12,800
+and cobalt peroxide
+和过氧化钴
+155
+00:06:12,800 --> 00:06:14,066
+aren't good at collecting
+不擅长收集
+156
+00:06:14,066 --> 00:06:16,000
+or distributing the electrons
+或者分配电子
+157
+00:06:16,300 --> 00:06:19,033
+thus a conductive copper layer is added next to the
+因此，导电铜层被添加到旁边
+158
+00:06:19,033 --> 00:06:21,700
+graphite and a conductive aluminum layer
+石墨和导电铝层
+159
+00:06:21,700 --> 00:06:23,666
+next to the cobalt peroxide
+在过氧化钴旁边
+160
+00:06:23,733 --> 00:06:27,233
+these two layers or sheets are called collectors
+这两层或片材称为收集器
+161
+00:06:27,233 --> 00:06:28,700
+okay on to third
+好的到第三个
+162
+00:06:28,866 --> 00:06:30,533
+these animations are showing
+这些动画正在展示
+163
+00:06:31,000 --> 00:06:33,900
+100 percent of the lithium moving from the anode
+100%的锂从阳极移动
+164
+00:06:33,900 --> 00:06:35,733
+to the cathode and back
+到阴极再回来
+165
+00:06:36,000 --> 00:06:37,300
+but in reality
+但实际上
+166
+00:06:37,300 --> 00:06:40,066
+there will always be some percentage of lithium
+总会有一定比例的锂
+167
+00:06:40,066 --> 00:06:41,600
+that remains in the anode
+仍然在阳极中
+168
+00:06:41,600 --> 00:06:43,333
+cathode and electrolyte
+阴极和电解质
+169
+00:06:43,533 --> 00:06:46,666
+despite the battery being fully charged or discharged
+尽管电池充满电或放电
+170
+00:06:46,666 --> 00:06:47,700
+respectively
+分别
+171
+00:06:48,433 --> 00:06:49,900
+continuing to fourth
+继续到第四
+172
+00:06:49,900 --> 00:06:52,900
+in order to maximize the capacity of the battery
+为了最大限度地提高电池的容量
+173
+00:06:52,900 --> 00:06:55,400
+and allow the battery to fit in your smartphone
+并让电池适合您的智能手机
+174
+00:06:55,500 --> 00:06:57,233
+all these layers are folded
+所有这些层都折叠了
+175
+00:06:57,233 --> 00:07:00,333
+and wrapped into a rectangular prism package
+并包裹成长方形棱镜包装
+176
+00:07:01,700 --> 00:07:01,800
+ugh
+唉
+177
+00:07:01,800 --> 00:07:05,133
+I know this is a lot but 5th and final
+我知道这是很多，但第五名也是最后一名。
+178
+00:07:05,466 --> 00:07:08,100
+in order to regulate the flow of electricity
+为了调节电流
+179
+00:07:08,200 --> 00:07:09,733
+additional circuitry is added
+添加了额外的电路
+180
+00:07:09,733 --> 00:07:11,533
+to the top of the battery
+到电池顶部
+181
+00:07:11,866 --> 00:07:14,133
+this circuitry prevents overcharging
+该电路可防止过度充电
+182
+00:07:14,133 --> 00:07:16,000
+and damage to the battery
+和电池损坏
+183
+00:07:17,600 --> 00:07:18,733
+so then the final
+那么决赛
+184
+00:07:19,733 --> 00:07:23,600
+why does your battery's max capacity reduce over time
+为什么电池的最大容量会随着时间的推移而减少？
+185
+00:07:24,233 --> 00:07:26,033
+there are several reasons
+有几个原因
+186
+00:07:26,433 --> 00:07:28,000
+one of which is that sometimes
+其中之一就是有时候
+187
+00:07:28,000 --> 00:07:30,700
+lithium and the incoming electron
+锂和入射电子
+188
+00:07:30,800 --> 00:07:34,000
+react with the electrolyte and organic solvent to form
+与电解质和有机溶剂反应形成
+189
+00:07:34,000 --> 00:07:35,000
+compounds
+化合物
+190
+00:07:35,066 --> 00:07:39,000
+that are called solid electrolyte interface or Sei
+被称为固体电解质界面或Sei
+191
+00:07:39,266 --> 00:07:43,266
+SEIS irreversibly consume lithium and the electrolyte
+SEIS不可逆地消耗锂和电解质
+192
+00:07:43,466 --> 00:07:46,533
+thus reducing the overall quantity of lithium
+从而减少锂的总量
+193
+00:07:46,700 --> 00:07:50,233
+and thereby reducing the max capacity of your battery
+从而降低电池的最大容量
+194
+00:07:50,500 --> 00:07:51,633
+another reason is that
+另一个原因是
+195
+00:07:51,633 --> 00:07:53,333
+when you fully discharge your battery
+当您将电池完全放电时
+196
+00:07:53,333 --> 00:07:54,400
+until it's dead
+直到它死了
+197
+00:07:54,433 --> 00:07:57,866
+it can result in too much lithium on the cobalt side
+它会导致钴侧有太多的锂
+198
+00:07:57,866 --> 00:08:01,033
+which causes the irreversible generation of lithium
+导致锂的不可逆生成
+199
+00:08:01,033 --> 00:08:02,633
+oxide and cobalt
+氧化物和钴
+200
+00:08:02,700 --> 00:08:06,200
+2 oxide these compounds are stuck in that state
+2氧化物这些化合物停留在那个状态
+201
+00:08:06,200 --> 00:08:06,866
+which thereby
+从而
+202
+00:08:06,866 --> 00:08:09,533
+reduces the amount of lithium and cobalt
+减少锂和钴的量
+203
+00:08:09,533 --> 00:08:10,900
+for future use
+供将来使用
+204
+00:08:10,933 --> 00:08:13,233
+so one tip is to not let your battery run
+所以一个提示是不要让你的电池运行
+205
+00:08:13,233 --> 00:08:14,400
+until it's empty
+直到它空了
+206
+00:08:14,600 --> 00:08:16,600
+it's better to recharge your battery at
+最好给电池充电
+207
+00:08:16,600 --> 00:08:19,533
+30 or 40 percent than to let it run until it's dead
+30%或40%比让它一直运行到死
+208
+00:08:20,900 --> 00:08:22,400
+that about wraps it up
+那就差不多结束了
+209
+00:08:22,833 --> 00:08:24,033
+when it comes to batteries
+说到电池
+210
+00:08:24,033 --> 00:08:26,033
+there are hundreds of different chemistry
+有数百种不同的化学物质
+211
+00:08:26,033 --> 00:08:28,233
+and compounds that allow them to work
+以及让它们发挥作用的化合物
+212
+00:08:28,233 --> 00:08:30,666
+but they all work on similar principles
+但它们都遵循相似的原理
+213
+00:08:30,933 --> 00:08:33,200
+you just need three materials
+你只需要三种材料
+214
+00:08:33,266 --> 00:08:35,033
+one that wants electrons
+想要电子的人
+215
+00:08:35,033 --> 00:08:37,433
+one that wants to give up electrons
+一个想放弃电子的人
+216
+00:08:37,433 --> 00:08:39,500
+and then a path for the buildup of charge
+然后是电荷积累的路径
+217
+00:08:39,500 --> 00:08:40,900
+to neutralize
+中和
+218
+00:08:41,633 --> 00:08:42,700
+thanks for watching
+感谢收看
+219
+00:08:42,700 --> 00:08:45,133
+here are 3 questions I'm going to leave you with
+这里有三个问题我将留给你们
+220
+00:08:45,400 --> 00:08:47,066
+discuss them in the comments
+在评论中讨论它们
+221
+00:08:47,300 --> 00:08:50,066
+also ask questions in the comments
+也在评论中提问
+222
+00:08:50,100 --> 00:08:51,000
+if you do it
+如果你做了
+223
+00:08:51,000 --> 00:08:54,000
+I will pin the top questions for further discussion
+我将确定首要问题以供进一步讨论
+224
+00:08:54,300 --> 00:08:55,666
+don't forget to subscribe
+别忘了订阅
+225
+00:08:55,666 --> 00:08:57,700
+and tell your friends and family about something
+告诉你的朋友和家人一些事情
+226
+00:08:57,700 --> 00:08:58,600
+you Learned today
+你今天学到了
+227
+00:08:58,866 --> 00:09:02,266
+this episode is about lithium ion smartphone batteries
+这一集是关于锂离子智能手机电池的
+228
+00:09:02,266 --> 00:09:03,466
+and it branches
+它的分支
+229
+00:09:03,466 --> 00:09:05,233
+to electric vehicle batteries
+到电动汽车电池
+230
+00:09:05,233 --> 00:09:07,200
+discussed by Learn Engineering
+学习工程讨论
+231
+00:09:07,266 --> 00:09:08,800
+we recommend you take a look
+我们建议您看看
+232
+00:09:10,033 --> 00:09:13,200
+it also connects to galvanic and voltaic cells
+它还连接到原电池和伏打电池
+233
+00:09:14,266 --> 00:09:17,033
+chemical bonds and electro negativity
+化学键和电负性
+234
+00:09:17,100 --> 00:09:18,500
+and lemon batteries
+和柠檬电池
+235
+00:09:18,833 --> 00:09:20,833
+post your comments with further questions
+发表您的评论并提出进一步的问题
+236
+00:09:20,833 --> 00:09:22,300
+answers and thoughts
+答案和想法
+237
+00:09:22,600 --> 00:09:23,666
+and remember
+并记住
+238
+00:09:23,866 --> 00:09:27,266
+conceptual simplicity and structural complexity
+概念简单性和结构复杂性

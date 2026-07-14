@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "title": "CPU 缓存为什么只有几十 MB？",
+  "source_video": "G:/workspace/yinghe-shijie/videos/raw/AI 时代，缓存 内存 硬盘到底怎么分工？.mp4",
+  "output_video": "G:/workspace/yinghe-shijie/videos/exports/短视频/AI 时代，缓存 内存 硬盘到底怎么分工？/CPU缓存为什么只有几十MB_短视频/CPU缓存为什么只有几十MB_短视频.mp4",
+  "cover_title": "缓存为何只有几十 MB",
+  "cover_headline": "缓存为何很小",
+  "cover_subhead": "一位要六晶体管",
+  "cover_aspect": "16:9", "background_music": "music/硬核视界_通用BGM_舒缓科普探索_CC0.mp3",
+  "layout": "source", "burn_captions": false, "write_subtitles": true,
+  "mix": { "source_volume": 0.0, "narration_volume": 1.0, "music_volume": 0.45, "music_fade_seconds": 0.0 },
+  "clips": [
+    { "id": "cache", "source_start": "00:15:20.000", "source_end": "00:15:29.000", "focus_x": 0.5 },
+    { "id": "sram", "source_start": "00:15:30.000", "source_end": "00:15:39.000", "focus_x": 0.5 },
+    { "id": "billions", "source_start": "00:15:41.000", "source_end": "00:15:50.000", "focus_x": 0.5 },
+    { "id": "cost", "source_start": "00:15:50.000", "source_end": "00:16:00.000", "focus_x": 0.5 },
+    { "id": "tradeoff", "source_start": "00:16:00.000", "source_end": "00:16:10.000", "focus_x": 0.5 },
+    { "id": "execution", "source_start": "00:17:22.000", "source_end": "00:17:31.000", "focus_x": 0.5 }
+  ],
+  "narration": { "voice": "zh-CN-YunyangNeural", "rate": "+0%", "segments": [
+    { "start": "00:00:00.000", "end": "00:00:09.000", "text": "CPU 缓存为什么只有几十 MB，却能占掉芯片这么大一块面积？" },
+    { "start": "00:00:09.000", "end": "00:00:18.000", "text": "因为缓存用的是 SRAM：每存一位数据，就要用六个晶体管把状态锁住。" },
+    { "start": "00:00:18.000", "end": "00:00:27.000", "text": "单看六个晶体管不多，但把它扩展到几十 MB 缓存，晶体管数量会飙到数十亿。" },
+    { "start": "00:00:27.000", "end": "00:00:37.000", "text": "缓存容量一旦继续变大，芯片面积、功耗和成本都会迅速失控。" },
+    { "start": "00:00:37.000", "end": "00:00:47.000", "text": "更关键的是，缓存必须离执行单元足够近，才能把常用数据在极短时间内送到核心。" },
+    { "start": "00:00:47.000", "end": "00:00:56.000", "text": "所以缓存不是越大越好，而是在速度、容量和成本之间做最昂贵的取舍。" }
+  ] }
+}

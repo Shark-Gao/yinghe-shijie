@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "title": "电脑为什么不能只装一种内存？",
+  "source_video": "G:/workspace/yinghe-shijie/videos/raw/AI 时代，缓存 内存 硬盘到底怎么分工？.mp4",
+  "output_video": "G:/workspace/yinghe-shijie/videos/exports/短视频/AI 时代，缓存 内存 硬盘到底怎么分工？/电脑为什么需要内存层级_短视频/电脑为什么需要内存层级_短视频.mp4",
+  "cover_title": "电脑为何要分层存储",
+  "cover_headline": "存储为何分层",
+  "cover_subhead": "快容量价格难兼顾",
+  "cover_aspect": "16:9",
+  "background_music": "music/硬核视界_通用BGM_舒缓科普探索_CC0.mp3",
+  "layout": "source", "burn_captions": false, "write_subtitles": true,
+  "mix": { "source_volume": 0.0, "narration_volume": 1.0, "music_volume": 0.45, "music_fade_seconds": 0.0 },
+  "clips": [
+    { "id": "overview", "source_start": "00:02:00.000", "source_end": "00:02:06.000", "focus_x": 0.5 },
+    { "id": "tradeoff", "source_start": "00:02:06.000", "source_end": "00:02:14.000", "focus_x": 0.5 },
+    { "id": "ssd_cache", "source_start": "00:02:15.000", "source_end": "00:02:23.000", "focus_x": 0.5 },
+    { "id": "combine", "source_start": "00:02:23.000", "source_end": "00:02:32.000", "focus_x": 0.5 },
+    { "id": "visualization", "source_start": "00:02:32.000", "source_end": "00:02:40.000", "focus_x": 0.5 },
+    { "id": "hierarchy", "source_start": "00:08:00.000", "source_end": "00:08:07.000", "focus_x": 0.5 }
+  ],
+  "narration": { "voice": "zh-CN-YunyangNeural", "rate": "+0%", "segments": [
+    { "start": "00:00:00.000", "end": "00:00:06.000", "text": "电脑里为什么同时塞着缓存、内存、SSD 和硬盘？" },
+    { "start": "00:00:06.000", "end": "00:00:14.000", "text": "因为存得多、读得快、价格低，这三件事没法同时满足。" },
+    { "start": "00:00:14.000", "end": "00:00:22.000", "text": "SSD 和硬盘容量大也便宜，访问却慢。CPU 缓存相反，快但贵、容量也小。" },
+    { "start": "00:00:22.000", "end": "00:00:31.000", "text": "没有任何一种存储能通吃，所以系统把数据拆到不同层级，再不断把常用内容往前搬。" },
+    { "start": "00:00:31.000", "end": "00:00:39.000", "text": "离处理器越近，速度越快，容量和成本却越难兼顾。" },
+    { "start": "00:00:39.000", "end": "00:00:46.000", "text": "这就是电脑必须拥有整套内存层级的原因。" }
+  ] }
+}
