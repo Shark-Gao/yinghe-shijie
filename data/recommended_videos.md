@@ -4,6 +4,9 @@
 
 | 日期 | 视频标题 | YouTube链接 | 频道 | 类型 | 状态 |
 |---|---|---|---|---|---|
+| 2026-07-16 | How do Smartphone CPUs Work? \|\| Inside the System on a Chip | https://www.youtube.com/watch?v=NKfW8ijmRQ4 | Branch Education | #AI #AI硬件 #手机芯片 #3D动画 | 已推荐 |
+| 2026-07-16 | What are PCBs? \|\| How do PCBs Work? | https://www.youtube.com/watch?v=Z2LgmIGE2nI | Branch Education | #科技纪录片 #芯片制造 #PCB #3D动画 | 已推荐 |
+| 2026-07-16 | How do Electron Microscopes Work? 🔬🛠🔬 Taking Pictures of Atoms | https://www.youtube.com/watch?v=9DnnxvS6BBQ | Branch Education | #科技纪录片 #芯片制造 #电子显微镜 #3D动画 | 已推荐 |
 | 2026-07-14 | But what is a Neural Network? \| Deep learning chapter 1 | https://www.youtube.com/watch?v=aircAruvnKk | 3Blue1Brown | #AI #神经网络 #深度学习 #数据可视化 | 已推荐 |
 | 2026-07-14 | How does Computer Hardware Work? [3D Animated Teardown] | https://www.youtube.com/watch?v=d86ws7mQYIg | Branch Education | #AI #AI硬件 #电脑硬件 #3D动画 | 已推荐 |
 | 2026-07-14 | How does a Spacesuit work? (NASA) | https://www.youtube.com/watch?v=VRpHuznm0j0 | Jared Owen | #科技纪录片 #航天工程 #宇航服 #3D动画 | 已推荐 |

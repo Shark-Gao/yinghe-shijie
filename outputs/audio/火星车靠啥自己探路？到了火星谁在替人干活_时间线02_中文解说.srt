@@ -1,0 +1,164 @@
+1
+00:00:00,000 --> 00:00:30,000
+这台看上去像一辆小车的机器，是 NASA 的毅力号火星车。它不是遥控玩具，而是一台被送往另一颗星球的移动实验室。它要自己着陆、自己探路，还要替人类寻找火星曾经存在生命的证据。
+This vehicle is NASA's Perseverance rover. It is not a remote-controlled toy, but a mobile laboratory sent to another planet to land, navigate, and search for evidence of past life.
+
+2
+00:00:30,000 --> 00:01:00,000
+二零二一年二月，毅力号成功抵达火星。整个任务耗资约二十五亿美元，搭载了大量科学仪器。它的目标不仅是研究火星表面，更是为未来人类探索者先打前站。
+In February 2021, Perseverance reached Mars. The mission cost about 2.5 billion dollars and carries many instruments to study the surface and prepare for future human explorers.
+
+3
+00:01:00,000 --> 00:01:30,000
+在它之前，NASA 已经派出过旅居者、勇气号、机遇号和好奇号。毅力号和好奇号体量接近一辆汽车，但技术更先进。它不是第一台火星车，却是当时功能最全面的一台。
+NASA had already sent Sojourner, Spirit, Opportunity, and Curiosity. Perseverance is about car-sized like Curiosity, but more advanced. It was not the first Mars rover, but among the most capable.
+
+4
+00:01:30,000 --> 00:02:00,000
+这台火星车在加州喷气推进实验室设计、制造和测试，前后用了大约八年。它必须在洁净室里完成组装，因为任何灰尘或污染，都可能给未来寻找生命的实验带来干扰。
+The rover was designed, built, and tested at NASA's Jet Propulsion Laboratory over about eight years. It was assembled in a clean room so contamination would not interfere with future life-searching experiments.
+
+5
+00:02:00,000 --> 00:02:30,000
+火星和地球的大气、重力都不同，那里更没有维修站。它既要足够坚固，独自在火星工作多年；又得足够轻巧，能被塞进运载火箭的整流罩。每一克重量，都要和可靠性反复权衡。
+Mars has different air and gravity, and no repair station. The rover must work alone for years yet remain light enough to fit inside a rocket fairing. Every gram is balanced against reliability.
+
+6
+00:02:30,000 --> 00:03:00,000
+准备就绪后，火星车被运到佛罗里达的肯尼迪航天中心，连同其他巡航和着陆组件一起装入整流罩，再被送上阿特拉斯五号火箭。发射时，火星车其实是倒着固定在里面的。
+Once ready, the rover went to Kennedy Space Center and was packed with its cruise and landing components inside a fairing atop an Atlas V rocket. It was mounted upside down for launch.
+
+7
+00:03:00,000 --> 00:03:30,000
+去火星不是想飞就能飞。地球绕太阳一圈是一年，火星接近两年。只有两颗行星的位置恰好合适，飞船才能用较少燃料切入那条轨道。这种发射窗口，大约二十六个月才出现一次。
+You cannot launch to Mars at any time. Earth orbits in a year and Mars in nearly two. Only when their positions align can a spacecraft use an efficient transfer orbit, about once every twenty-six months.
+
+8
+00:03:30,000 --> 00:04:00,000
+二零二零年七月，毅力号升空。起飞后，四枚固体助推器最先耗尽燃料并分离；随后整流罩抛掉，露出飞船。主级燃料耗尽后，半人马级接手，把任务继续送向地球轨道。
+Perseverance launched in July 2020. Its four solid boosters separated first, then the fairing was discarded. After the main stage ran out of fuel, the Centaur stage carried the mission onward to Earth orbit.
+
+9
+00:04:00,000 --> 00:04:30,000
+进入近地轨道后，火箭先滑行一段时间，检查系统状态。接着发动机再次点火，完成逃逸燃烧。飞船以每小时约四万一千公里的速度离开地球，开始长达七个月的火星之旅。
+After reaching Earth orbit, the rocket coasted while systems were checked. A second burn then sent the spacecraft away from Earth at about forty-one thousand kilometers per hour on a seven-month trip to Mars.
+
+10
+00:04:30,000 --> 00:05:00,000
+巡航途中，毅力号被包在一整套保护结构里：下降级带着八台发动机，隔热罩负责穿越大气，背壳保护内部设备，巡航级提供电力、燃料和对地通信。这些部件会一直陪它飞到火星附近。
+During cruise, Perseverance is enclosed in a full landing system: a descent stage with eight engines, a heat shield, a backshell, and a cruise stage that supplies power, fuel, and communications.
+
+11
+00:05:00,000 --> 00:05:30,000
+飞往火星不是一条一成不变的直线。途中会进行多次轨道修正，巡航级侧面的推进器轻轻点火，把航向拉回正确位置。对跨越数亿公里的飞行来说，极小的偏差也可能让落点相差很远。
+The route to Mars is not a fixed straight line. Small thruster burns make repeated trajectory corrections, because tiny errors over hundreds of millions of kilometers can shift the landing point enormously.
+
+12
+00:05:30,000 --> 00:06:00,000
+真正紧张的部分，是抵达火星后的进入、下降与着陆，也就是 EDL。它常被称为“恐怖七分钟”：信号传到地球需要时间，地面无法实时操控，整套流程只能由飞船自己完成。
+The tense part is entry, descent, and landing, or EDL. It is called the seven minutes of terror because signal delay prevents real-time control from Earth, so the spacecraft must complete it autonomously.
+
+13
+00:06:00,000 --> 00:06:30,000
+接近火星时，巡航级分离，飞船以极高速度扎进稀薄大气。隔热罩承受剧烈加热和减速，随后超音速降落伞打开。这里的每一步都必须卡在准确的时间点，稍有失误，任务就会直接终止。
+Near Mars, the cruise stage separates and the craft enters the thin atmosphere at high speed. The heat shield absorbs fierce heating, then a supersonic parachute deploys. Every step must happen at exactly the right time.
+
+14
+00:06:30,000 --> 00:07:00,000
+降落伞能减速，却不能决定你落在什么地方。毅力号会抛掉隔热罩，用摄像头观察脚下地形，并和火星地图比对。这套地形相对导航，让它能主动避开危险区域，朝目标着陆点修正。
+A parachute slows the craft but cannot choose where it lands. Perseverance drops its heat shield, photographs terrain below, and compares it with Mars maps. Terrain-relative navigation helps it avoid hazards and steer toward the target.
+
+15
+00:07:00,000 --> 00:07:30,000
+接下来背壳分离，只剩下降级和火星车。八台反推发动机点火，在接近地面时继续刹车。最后，火星车不会直接坐在发动机上落地，而是采用一种很特别的方式：空中吊车。
+Next the backshell separates, leaving only the descent stage and rover. Eight retro rockets slow the system near the ground. The rover does not land on the engines; it uses the distinctive sky-crane maneuver.
+
+16
+00:07:30,000 --> 00:08:00,000
+下降级悬停在上方，用缆绳把毅力号缓缓放到地面。车轮触地后，缆绳自动切断，下降级飞向远处坠毁。这个看似大胆的方案，能避免火箭尾焰和扬尘伤害火星车。
+The descent stage hovers above and lowers Perseverance by cables. Once the wheels touch down, the cables cut and the stage flies away to crash at a safe distance, avoiding rocket exhaust and dust near the rover.
+
+17
+00:08:00,000 --> 00:08:30,000
+成功着陆后，火星车先展开桅杆和前方机械臂。毅力号落在杰泽罗陨石坑，这里在数十亿年前可能曾是一个有水的湖盆。有水，就意味着这里曾经具备孕育生命或保存生命痕迹的条件。
+After landing, the rover deploys its mast and robotic arm. It landed in Jezero Crater, which may have been a water-filled lake basin billions of years ago, a promising place to preserve signs of past life.
+
+18
+00:08:30,000 --> 00:09:00,000
+毅力号大约一辆车那么大，主体是温控电子舱。它有六个铝制车轮，每侧三个，前后轮都能转向，因此既能原地掉头，也能在崎岖地面上缓慢穿行。它的速度不快，但每一步都极其谨慎。
+Perseverance is roughly car-sized, with electronics protected inside a warm box. Its six aluminum wheels and steerable front and rear wheels allow tight turns and careful travel across rough ground.
+
+19
+00:09:00,000 --> 00:09:30,000
+火星车的最高速度只有大约每小时零点一公里。慢不是因为它没劲，而是因为在遥远的火星上，撞上一块石头都可能造成无法修复的损伤。它必须先观察、判断，再用最稳妥的路线前进。
+The rover's top speed is only about 0.1 kilometers per hour. It is slow not from weakness, but because even striking a rock on Mars could cause irreparable damage. It must observe, decide, and move safely.
+
+20
+00:09:30,000 --> 00:10:00,000
+桅杆就像火星车的眼睛和脖子，位置接近人的视角。上面装着主相机、导航相机和环境传感器。超级相机还能用激光分析七米外岩石的化学成分，让火星车不用靠近就能先判断目标值不值得研究。
+The mast acts like the rover's eyes and neck at a human-like height. It holds main and navigation cameras plus sensors. SuperCam uses a laser to analyze rock chemistry from up to seven meters away.
+
+21
+00:10:00,000 --> 00:10:30,000
+Mastcam-Z 能拍摄高分辨率影像，导航相机负责规划安全路线，前后危险规避相机专门盯着石块、陡坡和坑洼。火星车所谓“自己探路”，靠的不是一个传感器，而是一套不断交叉验证的视觉系统。
+Mastcam-Z records high-resolution imagery, navigation cameras plan safe routes, and front and rear hazard cameras watch rocks, slopes, and holes. Self-navigation depends on a whole vision system, not one sensor.
+
+22
+00:10:30,000 --> 00:11:00,000
+它的电力来自放射性同位素热电机。放射性元素衰变产生热量，再转化成电能。相比太阳能板，这套系统不怕夜晚，也不那么怕尘暴遮住阳光，因此能给长期任务更稳定的供电。
+Its power comes from a radioisotope thermoelectric generator. Radioactive decay produces heat that becomes electricity. Compared with solar panels, it works through nights and dust, giving long missions steadier power.
+
+23
+00:11:00,000 --> 00:11:30,000
+车身里还有不少看不见的实验室。RIMFAX 用雷达探测地表以下最深约九米的结构；MOXIE 则尝试把火星大气中的二氧化碳制成氧气。这项实验，是未来载人火星任务的关键预演。
+The rover also carries hidden laboratories. RIMFAX uses radar to study structures up to about nine meters underground, while MOXIE tests making oxygen from Martian carbon dioxide for future human missions.
+
+24
+00:11:30,000 --> 00:12:00,000
+前方机械臂像一套野外地质工具箱。PIXL 能分析岩石细微区域的元素成分，WATSON 负责近距离拍摄，SHERLOC 用精细成像和光谱寻找有机物线索。它们让火星车能像地质学家一样检查岩石。
+The front robotic arm is a field geology toolkit. PIXL analyzes elemental composition, WATSON takes close images, and SHERLOC searches for organic clues with imaging and spectroscopy, letting the rover inspect rocks like a geologist.
+
+25
+00:12:00,000 --> 00:12:30,000
+机械臂末端还有取芯钻。它会从有价值的岩石中钻取样本，装进密封管并保存在车内。未来任务计划把这些样本带回地球，因为最精密的实验设备，仍然在我们这颗星球上。
+A coring drill at the arm's end collects valuable rock samples, seals them in tubes, and stores them aboard. Future missions aim to return them to Earth, where the most precise laboratories still exist.
+
+26
+00:12:30,000 --> 00:13:00,000
+火星车和地球之间并不是直接打电话。大部分数据先发给环绕火星的中继卫星，再由卫星传回地球。这样既能传输更多科学数据，也能让火星表面的多个任务共用这条深空通信链路。
+The rover does not simply call Earth directly. Most data goes first to relay satellites orbiting Mars, then back to Earth. This carries more science data and lets multiple surface missions share the deep-space link.
+
+27
+00:13:00,000 --> 00:13:30,000
+地球端的深空网络，在美国加州、西班牙马德里和澳大利亚堪培拉布置了三组大型天线。三地分布在不同经度，无论地球怎么自转，总会有一座天线能接住来自火星和更远处的信号。
+On Earth, the Deep Space Network has large antenna sites in California, Madrid, and Canberra. Their spread across longitudes ensures that one station can always receive signals from Mars and beyond.
+
+28
+00:13:30,000 --> 00:14:00,000
+毅力号本身也有三类天线：超高频天线负责和头顶卫星高速传输，高增益天线可直接对准地球，低增益天线主要接收指令。它们共同构成了这台火星机器人与人类之间的神经系统。
+Perseverance has three antenna types: UHF for high-speed relay links, a high-gain antenna for direct Earth links, and a low-gain antenna for receiving commands. Together they form its nervous system to humanity.
+
+29
+00:14:00,000 --> 00:14:30,000
+别忘了，毅力号还带去了一位小伙伴：机智号直升机。它被收在车底一个不起眼的舱位里，着陆约两个月后才被缓慢放到地面。火星车开走后，这架小直升机开始靠太阳能独立工作。
+Perseverance also carried a companion: the Ingenuity helicopter. Stored in a small compartment beneath the rover, it was lowered to the ground about two months after landing and began operating independently on solar power.
+
+30
+00:14:30,000 --> 00:15:00,000
+机智号有两副反向旋转的桨叶。火星大气极其稀薄，想获得足够升力，旋翼必须比地球直升机转得快得多。它证明了在人类从未飞过的另一颗行星上，旋翼飞行同样可以实现。
+Ingenuity has two counter-rotating rotors. Mars's extremely thin air requires much faster rotation than Earth helicopters. It proved powered rotor flight can work on another planet.
+
+31
+00:15:00,000 --> 00:15:30,000
+首次试飞发生在抵达火星大约两个月后。这是人类第一次让飞行器在另一颗星球的天空中受控起飞、悬停和降落。它最初只是技术验证，却很快展示出为空中侦察提供帮助的价值。
+Its first test flight came about two months after Mars arrival. It was humanity's first controlled takeoff, hover, and landing in another planet's sky. A technology demonstration soon showed the value of aerial scouting.
+
+32
+00:15:30,000 --> 00:16:00,000
+毅力号的意义，不只在于今天拍了多少照片、钻了多少岩石。它在验证一整套未来能力：自主着陆、火星导航、样本缓存、原位制氧，以及空中侦察。每一项，都是把人类送往火星前必须先回答的问题。
+Perseverance matters beyond its photos and drilled rocks. It validates autonomous landing, Mars navigation, sample caching, oxygen production, and aerial scouting—capabilities required before sending humans to Mars.
+
+33
+00:16:00,000 --> 00:16:31,376
+这台火星车替人类在陌生世界里看路、取样、判断和通信。未来，我们也许会把它留下的样本带回地球，甚至沿着它探索过的路线，迈出人类登陆火星的下一步。
+This rover sees, samples, judges, and communicates for humanity in an unfamiliar world. One day we may return its samples to Earth and perhaps follow the routes it explored with human footsteps on Mars.

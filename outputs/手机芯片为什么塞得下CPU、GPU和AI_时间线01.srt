@@ -1,0 +1,2140 @@
+1
+00:00:00,600 --> 00:00:03,333
+your smartphone has a variety of components
+您的智能手机有多种组件
+2
+00:00:03,333 --> 00:00:05,733
+that can do dozens of different things
+可以做几十种不同的事情
+3
+00:00:05,733 --> 00:00:06,533
+and the brain
+和大脑
+4
+00:00:06,533 --> 00:00:09,266
+at the center of all these components and functions
+在所有这些组件和功能的中心
+5
+00:00:09,266 --> 00:00:11,033
+is the system on a chip
+是芯片上的系统吗？
+6
+00:00:11,066 --> 00:00:13,266
+or Soc for short
+或简称Soc
+7
+00:00:13,300 --> 00:00:15,800
+when you watch a video such as this one
+当你看这样的视频时
+8
+00:00:15,933 --> 00:00:17,500
+phone a friend across the country
+给全国各地的朋友打电话
+9
+00:00:17,500 --> 00:00:20,433
+or navigate through a city using GPS
+或使用GPS在城市中导航
+10
+00:00:20,466 --> 00:00:24,000
+it may seem like magic or alien tech
+它可能看起来像魔法或外星科技
+11
+00:00:24,300 --> 00:00:25,266
+but in reality
+但实际上
+12
+00:00:25,266 --> 00:00:28,200
+these feats of technology are all performed
+这些技术的壮举都是通过
+13
+00:00:28,200 --> 00:00:30,133
+inside this Soc
+在这个Soc里面
+14
+00:00:30,133 --> 00:00:32,233
+which is designed and manufactured
+它是设计和制造的
+15
+00:00:32,233 --> 00:00:35,133
+through the hard work of countless scientists
+通过无数科学家的辛勤工作
+16
+00:00:35,133 --> 00:00:36,400
+and engineers
+和工程师
+17
+00:00:36,600 --> 00:00:37,800
+in this episode
+在这一集里
+18
+00:00:37,900 --> 00:00:41,400
+we're going to explore each section of this Soc
+我们将探索这个Soc的每个部分
+19
+00:00:41,466 --> 00:00:43,633
+and then piece together the processes
+然后拼凑这些过程
+20
+00:00:43,633 --> 00:00:45,333
+this system on a chip goes through
+这个芯片上的系统通过
+21
+00:00:45,333 --> 00:00:47,433
+when you do something as routine
+当你例行公事地做某事时
+22
+00:00:47,466 --> 00:00:49,866
+as snap a photo and post it online
+拍张照片并发布到网上
+23
+00:00:50,033 --> 00:00:53,033
+these chips are unfathomably complex
+这些芯片极其复杂
+24
+00:00:53,066 --> 00:00:56,700
+as there are between 5 and 10 billion transistors
+因为有5到100亿晶体管
+25
+00:00:56,700 --> 00:00:58,466
+that make up the Soc
+组成Soc
+26
+00:00:58,500 --> 00:01:00,833
+and they all need to fit into an area
+它们都需要适应一个区域
+27
+00:01:00,833 --> 00:01:02,466
+the size of a penny
+一便士大小
+28
+00:01:02,733 --> 00:01:04,300
+this is a complex topic
+这是一个复杂的话题
+29
+00:01:04,300 --> 00:01:06,866
+and there are many avenues that we could explore
+我们可以探索许多途径
+30
+00:01:07,433 --> 00:01:11,000
+but in order not to overload your brain with details
+但为了不让你的大脑因细节而超负荷
+31
+00:01:11,000 --> 00:01:14,000
+we've decided to focus on the following aspects
+我们决定专注于以下方面
+32
+00:01:14,533 --> 00:01:17,900
+first we'll start with a few notes and caveats
+首先，我们将从一些注释和警告开始
+33
+00:01:17,900 --> 00:01:19,900
+and then we'll dive into the layout
+然后我们将深入布局
+34
+00:01:19,900 --> 00:01:22,433
+and key sections of the system on a chip
+和芯片系统的关键部分
+35
+00:01:22,733 --> 00:01:26,866
+next we'll explore how data flows through the Soc
+接下来我们将探讨数据如何流经Soc
+36
+00:01:27,066 --> 00:01:28,400
+using the example of
+使用的例子
+37
+00:01:28,400 --> 00:01:30,533
+what happens when you take a picture
+当你拍照时会发生什么？
+38
+00:01:30,833 --> 00:01:34,000
+then we'll look at some of the complexity inside
+然后我们来看看其中的复杂性
+39
+00:01:34,000 --> 00:01:36,233
+the central processing unit or
+中央处理器或者
+40
+00:01:36,233 --> 00:01:38,600
+CPU block of the Soc
+Soc的CPU块
+41
+00:01:38,633 --> 00:01:40,933
+and stick around until the end
+并坚持到最后
+42
+00:01:40,933 --> 00:01:43,000
+where we'll discuss how scientists
+我们将讨论科学家如何
+43
+00:01:43,000 --> 00:01:46,500
+and engineers design and manufacture these microchips
+工程师设计和制造这些微芯片
+44
+00:01:46,500 --> 00:01:47,666
+and we'll explore
+我们将探索
+45
+00:01:47,666 --> 00:01:50,100
+what a nanoscopic view of the Soc
+Soc的纳米视图
+46
+00:01:50,100 --> 00:01:51,600
+would actually look like
+实际上看起来像
+47
+00:01:51,666 --> 00:01:53,800
+compared to this visualization
+与这个可视化相比
+48
+00:01:53,966 --> 00:01:56,866
+so for this video grab a snack
+所以在这个视频中，吃点零食。
+49
+00:01:56,866 --> 00:02:00,800
+sit down and maybe take some notes if you feel like it
+如果你愿意可以坐下来记笔记
+50
+00:02:00,933 --> 00:02:02,433
+because this is going to be one
+因为这将是一个
+51
+00:02:02,433 --> 00:02:05,933
+very thorough and incredibly detailed video
+非常彻底和非常详细的视频
+52
+00:02:07,033 --> 00:02:10,733
+to start this video is sponsored by Gerber Labs
+这个视频是由格柏实验室赞助的
+53
+00:02:10,733 --> 00:02:12,400
+a quick reliable
+快速可靠
+54
+00:02:12,433 --> 00:02:15,866
+and user friendly provider of printed circuit boards
+和用户友好的印刷电路板供应商
+55
+00:02:16,000 --> 00:02:16,633
+next
+下一个
+56
+00:02:16,633 --> 00:02:20,866
+this microchip is actually composed of two key parts
+这个微芯片实际上由两个关键部分组成
+57
+00:02:21,066 --> 00:02:22,700
+on top is the DRAM
+上面是DRAM
+58
+00:02:22,700 --> 00:02:25,500
+or the dynamic Random Access memory
+或动态随机存取存储器
+59
+00:02:25,500 --> 00:02:28,100
+which is the working memory of your smartphone
+这是您智能手机的工作内存
+60
+00:02:28,100 --> 00:02:30,633
+and on the bottom is the Soc the
+底部是Soc
+61
+00:02:30,733 --> 00:02:32,700
+brains of your smartphone
+智能手机的大脑
+62
+00:02:32,800 --> 00:02:36,900
+FYI the long term memory where all your music
+仅供参考你所有音乐的长期记忆
+63
+00:02:36,900 --> 00:02:40,100
+apps files and the operating system are saved
+应用程序文件和操作系统被保存
+64
+00:02:40,200 --> 00:02:42,800
+is over here in the flash storage
+在闪存里
+65
+00:02:42,800 --> 00:02:45,266
+we have a separate episode on that microchip
+我们在那个芯片上有单独的插曲
+66
+00:02:45,266 --> 00:02:46,833
+and you can find it here
+你可以在这里找到它
+67
+00:02:46,833 --> 00:02:50,500
+but in this episode we're going to focus on the Soc
+但是在这一集里，我们将关注Soc
+68
+00:02:50,633 --> 00:02:53,866
+this setup is called a package on package microchip
+这种设置称为封装微芯片上的封装
+69
+00:02:53,866 --> 00:02:57,866
+or pop technically this is the microchip
+或者从技术上讲，这是微芯片
+70
+00:02:58,000 --> 00:03:01,233
+and the separate layers of the DRAM and Soc
+以及DRAM和Soc的单独层
+71
+00:03:01,233 --> 00:03:02,900
+are each called a die
+每个都被称为模具
+72
+00:03:03,200 --> 00:03:03,666
+however
+然而
+73
+00:03:03,666 --> 00:03:07,700
+the word chip has evolved to mean a variety of things
+芯片这个词已经演变成意味着各种各样的东西
+74
+00:03:07,833 --> 00:03:11,033
+so while all of these rectangular components are
+所以当所有这些矩形组件
+75
+00:03:11,033 --> 00:03:13,066
+microchips or chips
+微芯片或芯片
+76
+00:03:13,100 --> 00:03:15,800
+both the DRAM and system on a chip
+DRAM和片上系统
+77
+00:03:15,800 --> 00:03:17,500
+are also called chips
+也被称为芯片
+78
+00:03:17,600 --> 00:03:20,433
+even though they're just half of the overall package
+即使它们只是整个包裹的一半
+79
+00:03:20,433 --> 00:03:21,833
+on package microchip
+封装微芯片
+80
+00:03:22,266 --> 00:03:25,233
+moving on we may make comparisons
+继续前进，我们可以进行比较
+81
+00:03:25,233 --> 00:03:28,333
+or analogies between smartphones and humans
+或者智能手机和人类之间的类比
+82
+00:03:28,500 --> 00:03:31,666
+for example we call the Soc the brain
+例如，我们称Soc为大脑
+83
+00:03:31,900 --> 00:03:35,266
+or the camera can be considered similar to a human eye
+或者相机可以被认为类似于人眼
+84
+00:03:35,533 --> 00:03:39,666
+however these are two very very different systems
+然而，这是两个非常非常不同的系统
+85
+00:03:39,666 --> 00:03:43,100
+and while the analogies may be useful conceptual tools
+虽然类比可能是有用的概念工具
+86
+00:03:43,200 --> 00:03:47,466
+the underlying principles behind Socs in human brains
+人类大脑中SOC背后的基本原理
+87
+00:03:47,466 --> 00:03:48,900
+and how they work
+以及它们是如何工作的
+88
+00:03:48,933 --> 00:03:50,700
+are entirely different
+完全不同
+89
+00:03:50,933 --> 00:03:54,033
+finally the companies that design these Socs
+最后，设计这些SOC的公司
+90
+00:03:54,033 --> 00:03:55,633
+are incredibly secretive
+非常隐秘
+91
+00:03:55,633 --> 00:03:57,833
+about the specifics of how they work
+关于它们如何工作的细节
+92
+00:03:57,900 --> 00:04:00,600
+and what the actual designs look like
+以及实际设计是什么样子的
+93
+00:04:00,833 --> 00:04:03,600
+it takes dozens of different companies to design
+需要数十家不同的公司来设计
+94
+00:04:03,600 --> 00:04:04,933
+the optimal layout
+最优布局
+95
+00:04:04,933 --> 00:04:06,933
+for billions of transistors
+数十亿晶体管
+96
+00:04:06,933 --> 00:04:10,033
+to perfectly execute the functions of a phone
+完美执行手机功能
+97
+00:04:10,133 --> 00:04:11,866
+and a separate set of companies
+和一组单独的公司
+98
+00:04:11,866 --> 00:04:14,333
+to manufacture the billions of chips
+制造数十亿芯片
+99
+00:04:14,333 --> 00:04:16,300
+used by all our phones
+被我们所有的手机使用
+100
+00:04:16,466 --> 00:04:17,933
+so in this video
+所以在这个视频中
+101
+00:04:17,933 --> 00:04:20,900
+we'll provide you with the best information we can
+我们会向你提供最好的信息
+102
+00:04:21,033 --> 00:04:22,900
+considering the company's secrecy
+考虑到公司的保密性
+103
+00:04:22,900 --> 00:04:24,400
+of intellectual property
+知识产权
+104
+00:04:24,400 --> 00:04:25,466
+as a result
+结果
+105
+00:04:25,500 --> 00:04:28,633
+this information will be mixed and woven together
+这些信息将被混合和编织在一起
+106
+00:04:28,633 --> 00:04:30,100
+from different sources
+来自不同的来源
+107
+00:04:30,133 --> 00:04:35,233
+for example this is an LG V10 smartphone from 2015
+例如，这是2015年的LG V10智能手机
+108
+00:04:35,333 --> 00:04:38,833
+and it uses a Qualcomm Snapdragon 808
+而且用的是高通骁龙808
+109
+00:04:38,900 --> 00:04:39,133
+but
+但是
+110
+00:04:39,133 --> 00:04:42,066
+due to the limited availability of information on it
+由于关于它的信息有限
+111
+00:04:42,200 --> 00:04:43,100
+we'll have to use
+我们得用
+112
+00:04:43,100 --> 00:04:45,533
+images and information from the Apple A12
+来自Apple A12的图像和信息
+113
+00:04:45,533 --> 00:04:47,633
+and A13 microchip
+和A13微芯片
+114
+00:04:47,866 --> 00:04:50,333
+in the iPhone 10 and iPhone 11
+在10iPhone和11iPhone
+115
+00:04:50,433 --> 00:04:54,033
+as well as the Qualcomm Snapdragon 865
+还有高通骁龙865
+116
+00:04:54,200 --> 00:04:56,133
+in the Samsung S20
+在三星S20中
+117
+00:04:56,500 --> 00:04:59,066
+all of these microchips have different performance
+所有这些微芯片都有不同的性能
+118
+00:04:59,066 --> 00:05:01,800
+metrics and different capabilities
+指标和不同的能力
+119
+00:05:01,900 --> 00:05:05,200
+but fundamentally they work on similar principles
+但基本上他们的工作原理相似
+120
+00:05:05,400 --> 00:05:08,333
+okay with all of these notes covered
+好吧，覆盖了所有这些笔记
+121
+00:05:08,333 --> 00:05:11,933
+let's move on to understand how this system on a chip
+让我们继续了解这个芯片上的系统是如何
+122
+00:05:11,933 --> 00:05:12,866
+works
+作品
+123
+00:05:15,433 --> 00:05:17,500
+a human brain has different sections
+人脑有不同的部分
+124
+00:05:17,500 --> 00:05:19,033
+for processing information
+用于处理信息
+125
+00:05:19,033 --> 00:05:21,333
+received by your eyes and ears
+你的眼睛和耳朵收到了
+126
+00:05:21,666 --> 00:05:23,700
+a different section for speech
+不同的演讲部分
+127
+00:05:23,700 --> 00:05:26,500
+ones for controlling your taste smell
+用来控制你的味觉气味的
+128
+00:05:26,633 --> 00:05:30,633
+movement balance involuntary functions and so on
+运动平衡无意识功能等等
+129
+00:05:30,833 --> 00:05:32,133
+rather similarly
+相当相似
+130
+00:05:32,300 --> 00:05:33,866
+this system on a chip
+这个芯片上的系统
+131
+00:05:33,866 --> 00:05:37,033
+is divided into different functional areas
+分为不同的功能区域
+132
+00:05:37,266 --> 00:05:39,333
+here's a graphical representation
+这是一个图形表示
+133
+00:05:39,333 --> 00:05:41,000
+called a block diagram
+称为框图
+134
+00:05:41,200 --> 00:05:43,633
+the key areas in the Soc the
+Soc中的关键领域
+135
+00:05:43,900 --> 00:05:46,600
+CPU containing multiple cores
+包含多个内核的CPU
+136
+00:05:46,866 --> 00:05:49,700
+the GPU which renders graphics
+渲染图形的GPU
+137
+00:05:49,800 --> 00:05:52,933
+the shared memory cache which is usually around 4 to
+共享内存缓存通常约为4到
+138
+00:05:52,933 --> 00:05:56,666
+8 megabytes the digital signal processor which
+8兆字节的数字信号处理器
+139
+00:05:56,700 --> 00:05:59,500
+interfaces with things like the speakers
+与扬声器之类的东西的接口
+140
+00:05:59,600 --> 00:06:02,733
+microphones sensors and many other things
+麦克风传感器和许多其他东西
+141
+00:06:02,900 --> 00:06:04,066
+the display engine
+显示引擎
+142
+00:06:04,066 --> 00:06:07,300
+which communicates with the touchscreen display
+它与触摸屏显示器通信
+143
+00:06:07,400 --> 00:06:08,833
+the video processor
+视频处理器
+144
+00:06:08,833 --> 00:06:12,433
+which compresses and decompresses images and video
+压缩和解压缩图像和视频
+145
+00:06:12,533 --> 00:06:16,066
+and enables 4K video recording and playback
+并能4K录像和回放
+146
+00:06:16,133 --> 00:06:18,000
+the image signal processor
+图像信号处理器
+147
+00:06:18,000 --> 00:06:20,266
+which processes pictures and video
+处理图片和视频
+148
+00:06:20,266 --> 00:06:21,800
+taken by the cameras
+被摄像机拍下
+149
+00:06:21,833 --> 00:06:22,600
+the modem
+调制解调器
+150
+00:06:22,600 --> 00:06:25,800
+which interfaces with the various wireless networks
+与各种无线网络接口
+151
+00:06:25,866 --> 00:06:27,333
+the storage controller
+存储控制器
+152
+00:06:27,333 --> 00:06:29,900
+which saves and loads information from the flash
+它从闪存中保存和加载信息
+153
+00:06:29,900 --> 00:06:31,400
+storage microchip
+存储微芯片
+154
+00:06:31,633 --> 00:06:32,933
+the memory controller
+内存控制器
+155
+00:06:32,933 --> 00:06:35,100
+which connects to the DRAM microchip
+它连接到DRAM微芯片
+156
+00:06:35,100 --> 00:06:37,000
+located on top of this one
+位于这个顶部
+157
+00:06:37,233 --> 00:06:40,833
+the security enclave which executes encryption
+执行加密的安全飞地
+158
+00:06:40,866 --> 00:06:43,633
+and manages the public and private keys
+并管理公钥和私钥
+159
+00:06:43,700 --> 00:06:47,133
+a number of peripheral functions such as clocks
+许多外围功能，例如时钟
+160
+00:06:47,266 --> 00:06:48,700
+temperature sensors
+温度传感器
+161
+00:06:48,700 --> 00:06:52,900
+debug ports and general purpose inputs and outputs
+调试端口和通用输入和输出
+162
+00:06:53,233 --> 00:06:57,000
+an always on microcontroller unit and finally
+一个永远在线的微控制器单元，最后
+163
+00:06:57,100 --> 00:06:59,433
+the network on chip or Nock
+片上网络或Nock
+164
+00:06:59,433 --> 00:07:03,633
+which arbitrates or manages data flow through the Soc
+仲裁或管理通过Soc的数据流
+165
+00:07:03,666 --> 00:07:06,233
+the DRAM and other parts of the phone
+DRAM和手机的其他部分
+166
+00:07:06,700 --> 00:07:09,600
+furthermore some Socs may have on board
+此外，一些Socs可能在船上
+167
+00:07:09,600 --> 00:07:11,200
+power management circuits
+电源管理电路
+168
+00:07:11,200 --> 00:07:13,100
+that complement the power management
+补充电源管理
+169
+00:07:13,100 --> 00:07:15,000
+performed by separate chips
+由单独的芯片执行
+170
+00:07:15,100 --> 00:07:16,933
+outside the Soc
+Soc之外
+171
+00:07:17,133 --> 00:07:20,900
+additionally some Socs such as apples
+另外还有一些袜子，比如苹果。
+172
+00:07:21,000 --> 00:07:25,033
+have a neural processing unit or an NPU
+有一个神经处理单元或一个NPU
+173
+00:07:25,233 --> 00:07:26,933
+that is specialized circuitry
+那是专门的电路
+174
+00:07:26,933 --> 00:07:29,733
+that can execute machine learning algorithms
+可以执行机器学习算法
+175
+00:07:29,733 --> 00:07:31,400
+far more efficiently
+更有效
+176
+00:07:31,400 --> 00:07:32,800
+than the CPU
+比CPU
+177
+00:07:33,000 --> 00:07:36,133
+both in terms of speed and more importantly
+无论是速度还是更重要的
+178
+00:07:36,200 --> 00:07:37,433
+power consumption
+耗电量
+179
+00:07:37,666 --> 00:07:39,533
+one confusing detail
+一个令人困惑的细节
+180
+00:07:39,700 --> 00:07:42,300
+is that different generations of Socs
+不同代的Socs
+181
+00:07:42,300 --> 00:07:44,600
+use different marketing names
+使用不同的营销名称
+182
+00:07:44,666 --> 00:07:47,866
+and mix multiple functions into different functional
+并将多种功能混合成不同的功能
+183
+00:07:47,866 --> 00:07:50,000
+blocks for example
+例如块
+184
+00:07:50,200 --> 00:07:52,900
+here's the block diagram of the Snapdragon 808
+这是骁龙808的框图
+185
+00:07:53,400 --> 00:07:57,100
+versus the diagram for the Snapdragon 865
+与骁龙865的图表对比
+186
+00:07:57,466 --> 00:08:01,533
+and here's the block diagram for Apple's A12 chip
+这是苹果A12芯片的框图
+187
+00:08:01,633 --> 00:08:03,300
+each company's marketing team
+每个公司的营销团队
+188
+00:08:03,300 --> 00:08:05,200
+may decide to provide differing
+可能决定提供不同的
+189
+00:08:05,200 --> 00:08:06,666
+block diagrams
+框图
+190
+00:08:06,700 --> 00:08:08,933
+to try to impress the consumers
+试图给消费者留下深刻印象
+191
+00:08:09,000 --> 00:08:12,100
+which at times can certainly be confusing
+这有时肯定会令人困惑
+192
+00:08:12,266 --> 00:08:13,333
+let's move on
+让我们继续前进
+193
+00:08:13,533 --> 00:08:16,066
+and explore a real life example
+并探索一个现实生活中的例子
+194
+00:08:16,066 --> 00:08:18,433
+of how data moves around your smartphone
+数据如何在您的智能手机中移动
+195
+00:08:18,433 --> 00:08:19,833
+when you take a picture
+当你拍照的时候
+196
+00:08:20,066 --> 00:08:22,666
+but before that one quick note
+但在那之前，一个简短的说明
+197
+00:08:23,000 --> 00:08:25,300
+if you enjoy watching this video
+如果你喜欢看这个视频
+198
+00:08:25,333 --> 00:08:28,100
+or if you think it's a useful learning tool
+或者如果你认为这是一个有用的学习工具
+199
+00:08:28,300 --> 00:08:29,666
+make sure to like
+确保喜欢
+200
+00:08:29,666 --> 00:08:31,233
+and comment on this video
+并评论此视频
+201
+00:08:31,233 --> 00:08:33,033
+as well as share it with others
+以及与他人分享
+202
+00:08:33,066 --> 00:08:36,333
+with your help we can get this video to over
+在你的帮助下，我们可以完成这个视频
+203
+00:08:36,433 --> 00:08:40,800
+10,000 comments and more than 100,000 likes
+10,000条评论和超过100,000个赞
+204
+00:08:40,900 --> 00:08:43,666
+but for now let's get back to understanding
+但现在让我们回到理解
+205
+00:08:43,666 --> 00:08:44,466
+what happens
+会发生什么
+206
+00:08:44,466 --> 00:08:46,833
+when you take a picture on your smartphone
+当你在智能手机上拍照时
+207
+00:08:47,800 --> 00:08:48,633
+first
+第一
+208
+00:08:48,800 --> 00:08:52,700
+the photons from the scene enter the camera's lenses
+场景中的光子进入相机的镜头
+209
+00:08:52,866 --> 00:08:55,000
+flow through a color filter array
+流过滤色器阵列
+210
+00:08:55,133 --> 00:08:58,200
+and hit the sensor's photo diode pixels
+并击中传感器的光电二极管像素
+211
+00:08:58,533 --> 00:09:00,833
+these color filtered photons
+这些滤色光子
+212
+00:09:00,900 --> 00:09:03,800
+are then absorbed by each photodiode
+然后被每个光电二极管吸收
+213
+00:09:04,000 --> 00:09:07,300
+and converted into an analog electrical current
+并转换成模拟电流
+214
+00:09:07,300 --> 00:09:09,933
+which is then converted into a digital
+然后将其转换为数字
+215
+00:09:09,933 --> 00:09:11,800
+12 bit binary value
+12位二进制值
+216
+00:09:12,100 --> 00:09:15,466
+a 12 megapixel cameras image has
+一个1200万像素的摄像头图像有
+217
+00:09:15,500 --> 00:09:18,733
+12 million of these 12 bit binary values
+1200万12位二进制值
+218
+00:09:18,900 --> 00:09:23,900
+note that each pixel is either red or green or blue
+请注意，每个像素要么是红色、绿色或蓝色
+219
+00:09:24,133 --> 00:09:27,500
+and thus the overall image is considered raw
+因此整体图像被认为是原始的
+220
+00:09:27,500 --> 00:09:28,100
+and still
+而且仍然
+221
+00:09:28,100 --> 00:09:31,400
+has to undergo a number of image processing steps
+必须经历许多图像处理步骤
+222
+00:09:31,400 --> 00:09:33,466
+to turn it from a raw image
+将其从原始图像转换为原始图像
+223
+00:09:33,466 --> 00:09:36,633
+into a recognizable picture where the pixels
+变成一张可识别的图片，其中像素
+224
+00:09:36,633 --> 00:09:40,066
+each have a red and green and blue value
+每个都有一个红色、绿色和蓝色的值
+225
+00:09:40,333 --> 00:09:43,100
+but before these processes take place
+但是在这些过程发生之前
+226
+00:09:43,100 --> 00:09:46,466
+this image data must be stored somewhere
+这些图像数据必须存储在某个地方
+227
+00:09:46,600 --> 00:09:47,866
+and as a result
+结果是
+228
+00:09:47,866 --> 00:09:50,666
+it's sent to the smartphone's working memory
+它被发送到智能手机的工作内存中
+229
+00:09:50,700 --> 00:09:53,400
+or DRAM to do this
+或DRAM来做到这一点
+230
+00:09:53,400 --> 00:09:57,266
+the data travels from the camera and enters the Soc
+数据从相机传输并进入Soc
+231
+00:09:57,300 --> 00:10:01,100
+through a mobile industry processor interface or MPI
+通过移动工业处理器接口或MPI
+232
+00:10:01,233 --> 00:10:03,200
+which can send or receive data
+可以发送或接收数据
+233
+00:10:03,200 --> 00:10:05,866
+at around 5 to 8 gigabits per second
+大约每秒5到8千兆位
+234
+00:10:06,100 --> 00:10:09,733
+this image data is then routed by the network on chip
+然后，该图像数据由片上网络路由
+235
+00:10:09,733 --> 00:10:12,700
+arbitrator through the Soc
+仲裁员通过Soc
+236
+00:10:12,733 --> 00:10:16,200
+to the memory controller and into the DRAM
+到内存控制器并进入DRAM
+237
+00:10:16,300 --> 00:10:18,400
+which as mentioned before
+如前所述
+238
+00:10:18,433 --> 00:10:21,400
+is located on the die above the Soc
+位于Soc上方的模具上
+239
+00:10:21,933 --> 00:10:24,100
+there are two quick things to note
+有两件事要注意
+240
+00:10:24,300 --> 00:10:28,266
+first the data path between the Soc and the DRAM
+首先是Soc和DRAM之间的数据通路
+241
+00:10:28,266 --> 00:10:30,100
+is shared by everything
+被万物共享
+242
+00:10:30,533 --> 00:10:31,866
+in this scenario
+在这种情况下
+243
+00:10:31,900 --> 00:10:34,100
+it's the job of the network arbitrator
+这是网络仲裁员的工作
+244
+00:10:34,100 --> 00:10:37,000
+to prioritize the incoming sensor data
+优先考虑传入的传感器数据
+245
+00:10:37,033 --> 00:10:39,333
+of the uncompressed raw image
+未压缩的原始图像
+246
+00:10:39,333 --> 00:10:42,233
+so that no data from the camera is lost
+这样就不会丢失相机中的数据
+247
+00:10:42,266 --> 00:10:42,833
+and thus
+因此
+248
+00:10:42,833 --> 00:10:46,866
+the arbitrator streams the raw image directly into the
+仲裁员将原始图像直接流式传输到
+249
+00:10:46,866 --> 00:10:48,333
+DRAM second
+DRAM秒
+250
+00:10:48,433 --> 00:10:49,866
+a 12 megapixel
+1200万像素
+251
+00:10:49,866 --> 00:10:54,266
+uncompressed raw image takes up around 24 megabytes
+未压缩的原始图像占用大约24兆字节
+252
+00:10:54,633 --> 00:10:58,500
+however the memory cache on the Soc is typically
+但是Soc上的内存缓存通常是
+253
+00:10:58,666 --> 00:11:00,400
+4 to 8 megabytes
+4到8兆字节
+254
+00:11:00,466 --> 00:11:04,200
+and is shared among all the processes on the Soc
+并在Soc上的所有进程之间共享
+255
+00:11:04,300 --> 00:11:06,933
+therefore when the image signal processor
+因此当图像信号处理器
+256
+00:11:06,933 --> 00:11:08,666
+or the video processor
+或视频处理器
+257
+00:11:08,666 --> 00:11:11,033
+works on a recently taken picture
+适用于最近拍摄的照片
+258
+00:11:11,100 --> 00:11:13,833
+in order to make it viewable or to compress it
+为了使其可见或压缩它
+259
+00:11:14,100 --> 00:11:14,500
+they can
+他们可以
+260
+00:11:14,500 --> 00:11:18,700
+only work on small subsections of the overall image
+仅适用于整体图像的小部分
+261
+00:11:18,866 --> 00:11:23,100
+leaving the entire image temporarily stored on the DRAM
+将整个图像临时存储在DRAM上
+262
+00:11:23,400 --> 00:11:26,033
+this also happens while watching a video
+看视频时也会发生这种情况
+263
+00:11:26,200 --> 00:11:30,900
+playing a video game or using pretty much any app
+玩电子游戏或使用几乎任何应用程序
+264
+00:11:31,200 --> 00:11:33,933
+okay let's get back to the raw
+好吧，让我们回到原始
+265
+00:11:33,933 --> 00:11:37,533
+image data of the picture that was taken by the camera
+相机拍摄的图片的图像数据
+266
+00:11:37,666 --> 00:11:39,400
+and then sent to the MIPPI
+然后发送到MIPPI
+267
+00:11:39,700 --> 00:11:43,833
+routed through the Soc and stored in the DRAM
+通过Soc路由并存储在DRAM中
+268
+00:11:44,300 --> 00:11:47,400
+the next step is for the image signal processor
+下一步是图像信号处理器
+269
+00:11:47,400 --> 00:11:49,700
+or ISP on the Soc
+或Soc上的ISP
+270
+00:11:49,933 --> 00:11:53,033
+to read the raw uncompressed image data
+读取原始未压缩图像数据
+271
+00:11:53,066 --> 00:11:56,466
+and perform a number of image processing steps
+并执行许多图像处理步骤
+272
+00:11:56,500 --> 00:11:58,466
+these steps involve first
+这些步骤首先涉及
+273
+00:11:58,466 --> 00:12:01,833
+correcting for darker pixels on the edge of the sensor
+校正传感器边缘的较暗像素
+274
+00:12:01,866 --> 00:12:03,266
+due to lens shading
+由于镜头阴影
+275
+00:12:03,300 --> 00:12:07,400
+then the ISP performs the demosaicing process
+然后ISP执行去马赛克过程
+276
+00:12:07,400 --> 00:12:10,066
+which involves taking the image data
+其中涉及获取图像数据
+277
+00:12:10,233 --> 00:12:13,000
+and the pattern on the camera's color filter
+以及相机滤色器上的图案
+278
+00:12:13,066 --> 00:12:14,933
+and calculating a red
+并计算红色
+279
+00:12:15,066 --> 00:12:18,433
+green and blue value for every pixel
+每个像素的绿色和蓝色值
+280
+00:12:18,533 --> 00:12:23,400
+next the image signal processor denoises sharpens
+接下来图像信号处理器去噪锐化
+281
+00:12:23,433 --> 00:12:26,300
+enhances the image and color corrects it
+增强图像和颜色校正它
+282
+00:12:26,633 --> 00:12:29,833
+because the red green and blue filters on the camera
+因为相机上的红绿蓝滤镜
+283
+00:12:30,000 --> 00:12:32,333
+don't directly match the hue of the red
+不要直接匹配红色的色调
+284
+00:12:32,333 --> 00:12:34,700
+green and blue pixels in the display
+显示屏中的绿色和蓝色像素
+285
+00:12:34,900 --> 00:12:35,900
+and finally
+最后
+286
+00:12:35,933 --> 00:12:39,266
+the image signal processor tone maps the image
+图像信号处理器色调映射图像
+287
+00:12:39,600 --> 00:12:44,466
+after all this we have a picture with 12 million pixels
+经过这一切我们有一张1200万像素的图片
+288
+00:12:44,733 --> 00:12:48,700
+each with an 8 bit red green and blue value
+每个都有一个8位的红绿和蓝色值
+289
+00:12:49,266 --> 00:12:52,300
+to get the picture to promptly appear on your screen
+让图片立即出现在您的屏幕上
+290
+00:12:52,500 --> 00:12:55,100
+another series of steps are involved
+涉及到另一系列步骤
+291
+00:12:55,400 --> 00:12:57,433
+the RGB image data
+RGB图像数据
+292
+00:12:57,433 --> 00:13:00,200
+is taken from the image signal processor
+取自图像信号处理器
+293
+00:13:00,233 --> 00:13:01,600
+sent to the GPU
+发送到GPU
+294
+00:13:01,600 --> 00:13:04,466
+where it gets overlaid into the graphics of the camera
+它被叠加到相机的图形中
+295
+00:13:04,466 --> 00:13:07,466
+app and scale to fit the screen
+应用程序和缩放以适应屏幕
+296
+00:13:07,566 --> 00:13:09,900
+the resulting RGB values
+生成的RGB值
+297
+00:13:09,933 --> 00:13:12,266
+get sent to the display processor
+发送到显示处理器
+298
+00:13:12,500 --> 00:13:15,200
+and then the image is routed to the display
+然后图像被路由到显示器
+299
+00:13:15,200 --> 00:13:18,200
+where it's converted into intensities of current
+转化为电流强度
+300
+00:13:18,266 --> 00:13:21,333
+in order to light up the corresponding pattern of red
+为了点亮相应的红色图案
+301
+00:13:21,333 --> 00:13:23,066
+green and blue pixels
+绿色和蓝色像素
+302
+00:13:23,166 --> 00:13:24,266
+and there you go
+给你。
+303
+00:13:24,600 --> 00:13:28,000
+a picture taken by the camera and whoosh
+相机拍的照片嗖的一声
+304
+00:13:28,133 --> 00:13:30,100
+displayed on the screen
+显示在屏幕上
+305
+00:13:30,300 --> 00:13:31,666
+but we're not done yet
+但我们还没完
+306
+00:13:32,133 --> 00:13:35,200
+how is the picture saved on your smartphone
+图片是如何保存在智能手机上的？
+307
+00:13:35,600 --> 00:13:38,833
+well first the picture needs to be compressed
+首先，图片需要压缩
+308
+00:13:38,833 --> 00:13:39,933
+and to do that
+为了做到这一点
+309
+00:13:40,066 --> 00:13:43,733
+the uncompressed image currently residing in DRAM
+当前驻留在DRAM中的未压缩图像
+310
+00:13:43,933 --> 00:13:47,533
+is sent to a dedicated video coding processor
+被发送到专用的视频编码处理器
+311
+00:13:47,533 --> 00:13:50,200
+where it first gets converted from red
+它第一次从红色转换的地方
+312
+00:13:50,200 --> 00:13:52,000
+green and blue values
+绿色和蓝色值
+313
+00:13:52,033 --> 00:13:55,266
+into YUV or luminance
+进入YUV或亮度
+314
+00:13:55,266 --> 00:13:58,500
+blue chrominance and red chrominance values
+蓝色色度和红色色度值
+315
+00:13:58,666 --> 00:14:02,733
+next this data undergoes a series of algorithms
+接下来，这些数据经过一系列算法
+316
+00:14:02,900 --> 00:14:04,666
+in order to remove information
+为了删除信息
+317
+00:14:04,666 --> 00:14:06,933
+that is undetectable to the human eye
+人眼无法察觉的
+318
+00:14:07,100 --> 00:14:08,833
+and compresses the image
+并压缩图像
+319
+00:14:08,833 --> 00:14:11,466
+into approximately a 3 megabyte
+变成大约3兆字节
+320
+00:14:11,466 --> 00:14:12,866
+JPEG format
+JPEG格式
+321
+00:14:13,066 --> 00:14:16,533
+this compressed image is sent back to the DRAM
+此压缩图像被发送回DRAM
+322
+00:14:16,666 --> 00:14:19,800
+and then routed to the smartphone's flash memory
+然后路由到智能手机的闪存
+323
+00:14:19,800 --> 00:14:21,733
+for long term storage
+用于长期存储
+324
+00:14:22,233 --> 00:14:25,466
+now if you were to send this picture to a friend
+现在如果你把这张照片发给朋友
+325
+00:14:25,666 --> 00:14:26,866
+the compressed image
+压缩图像
+326
+00:14:26,866 --> 00:14:29,200
+would get brought back into the DRAM
+会被带回DRAM
+327
+00:14:29,200 --> 00:14:30,700
+and then routed to the modem
+然后路由到调制解调器
+328
+00:14:30,700 --> 00:14:33,533
+where it's divided and assembled into packets
+在那里它被分成并组装成数据包
+329
+00:14:33,700 --> 00:14:35,500
+then sent to the
+然后发送到
+330
+00:14:36,000 --> 00:14:38,133
+4G 5g or Wi-Fi microchip
+4G 5g或Wi-Fi微芯片
+331
+00:14:38,333 --> 00:14:41,033
+converted into electromagnetic waves
+转换成电磁波
+332
+00:14:41,066 --> 00:14:44,300
+and sent to a cellular or Wi Fi network
+并发送到蜂窝或无线网络
+333
+00:14:44,666 --> 00:14:46,333
+one thing we've talked a lot about
+有一件事我们谈了很多
+334
+00:14:46,333 --> 00:14:47,666
+is the movement of data
+是数据的移动
+335
+00:14:47,666 --> 00:14:49,033
+through the Soc
+通过Soc
+336
+00:14:49,333 --> 00:14:52,066
+all of this data movement between the blocks
+所有这些数据在块之间的移动
+337
+00:14:52,100 --> 00:14:53,900
+runs over connecting wires
+绕过连接线
+338
+00:14:53,900 --> 00:14:55,466
+and what is part of the network
+什么是网络的一部分
+339
+00:14:55,466 --> 00:14:58,866
+on a chip this network has routers and switches
+这个网络在芯片上有路由器和交换机
+340
+00:14:58,900 --> 00:15:02,533
+for shared access to routes and targets like the DRAM
+用于共享对DRAM等路由和目标的访问
+341
+00:15:02,933 --> 00:15:06,300
+the routers and switches arbitrate the flow of data
+路由器和交换机仲裁数据流
+342
+00:15:06,400 --> 00:15:08,633
+and act like digital traffic lights
+就像数字交通灯一样
+343
+00:15:08,633 --> 00:15:11,400
+and the pathways act as a digital highway
+这些路径就像一条数字高速公路
+344
+00:15:11,866 --> 00:15:15,000
+these highways have different widths of wires
+这些高速公路有不同宽度的电线
+345
+00:15:15,000 --> 00:15:16,900
+based on what they're talking to
+根据他们的谈话内容
+346
+00:15:17,033 --> 00:15:20,100
+and the amount of information that needs to be sent
+以及需要发送的信息量
+347
+00:15:20,533 --> 00:15:22,900
+depending on required data rates
+取决于所需的数据速率
+348
+00:15:22,900 --> 00:15:25,666
+there are typically 128 or
+通常有128或
+349
+00:15:26,333 --> 00:15:29,300
+256 wires running parallel to one another
+256根线彼此平行
+350
+00:15:29,600 --> 00:15:31,600
+carrying one bit at a time
+一次携带一个位
+351
+00:15:31,666 --> 00:15:36,233
+and operating between 500 and 1500 megahertz
+工作频率在500到1500兆赫之间
+352
+00:15:36,700 --> 00:15:38,666
+in order to avoid wasting power
+为了避免浪费电力
+353
+00:15:38,666 --> 00:15:40,400
+from your smartphone's battery
+来自智能手机的电池
+354
+00:15:40,466 --> 00:15:41,300
+the frequency
+频率
+355
+00:15:41,300 --> 00:15:44,133
+in resulting data transfer rates across the network
+网络数据搬迁率
+356
+00:15:44,133 --> 00:15:46,333
+on a chip ramp up and down
+在芯片斜坡上上下
+357
+00:15:46,333 --> 00:15:48,900
+depending on the requirements of the applications
+根据申请的要求
+358
+00:15:48,900 --> 00:15:49,700
+you're running
+你在跑
+359
+00:15:49,933 --> 00:15:53,633
+and this feature is called dynamic frequency scaling
+这个特性称为动态频率缩放
+360
+00:15:54,400 --> 00:15:56,533
+before we explore the CPU
+在我们探索CPU之前
+361
+00:15:56,533 --> 00:15:58,400
+and see how these chips are designed
+看看这些芯片是如何设计的
+362
+00:15:58,400 --> 00:15:59,633
+and manufactured
+和制造
+363
+00:15:59,866 --> 00:16:01,633
+let's take a quick break
+让我们休息一下
+364
+00:16:01,633 --> 00:16:03,866
+and talk about this video's sponsor
+谈谈这个视频的赞助商
+365
+00:16:03,866 --> 00:16:06,266
+Gerber Labs every Soc
+格柏实验室每个Soc
+366
+00:16:06,266 --> 00:16:09,333
+eventually makes its way onto a printed circuit board
+最终进入印刷电路板
+367
+00:16:09,533 --> 00:16:11,200
+along with other components
+与其他组件一起
+368
+00:16:11,200 --> 00:16:12,133
+that are put together
+放在一起
+369
+00:16:12,133 --> 00:16:15,066
+to create a vast array of different circuits
+创造出大量不同的电路
+370
+00:16:15,200 --> 00:16:17,500
+you can start your own creative circuits
+你可以开始自己的创作循环
+371
+00:16:17,500 --> 00:16:19,633
+by building a printed circuit board
+通过建造印刷电路板
+372
+00:16:19,666 --> 00:16:21,100
+from Gerber Labs
+来自Gerber Labs
+373
+00:16:21,333 --> 00:16:24,466
+Gerber Labs is founded by electrical engineers
+格柏实验室由电气工程师创立
+374
+00:16:24,466 --> 00:16:26,500
+for electrical engineers
+对于电气工程师
+375
+00:16:26,700 --> 00:16:30,133
+they make it easy to get boards with consistent quality
+它们使获得质量一致的电路板变得容易
+376
+00:16:30,266 --> 00:16:33,100
+quick turnaround and reliable shipping
+快速周转和可靠的运输
+377
+00:16:33,133 --> 00:16:35,433
+check them out with the link in the description
+使用描述中的链接查看它们
+378
+00:16:35,633 --> 00:16:37,500
+and stick to the end of this video
+并坚持到这段视频的结尾
+379
+00:16:37,500 --> 00:16:40,133
+to receive a discount code for your order
+接收您订单的折扣码
+380
+00:16:41,133 --> 00:16:41,933
+okay
+好吧
+381
+00:16:42,000 --> 00:16:43,733
+so thus far
+到目前为止
+382
+00:16:43,733 --> 00:16:45,000
+we've glossed over
+我们掩盖了
+383
+00:16:45,000 --> 00:16:47,466
+the functionality of each of these blocks
+这些块中的每一个的功能
+384
+00:16:47,466 --> 00:16:49,533
+in the Soc but now
+在Soc但现在
+385
+00:16:49,600 --> 00:16:51,133
+let's quickly take a look
+我们赶紧来看看
+386
+00:16:51,133 --> 00:16:53,066
+into the central processing unit
+进入中央处理器
+387
+00:16:53,066 --> 00:16:55,633
+or CPU section of the Soc
+或Soc的CPU部分
+388
+00:16:56,000 --> 00:16:58,800
+as you see there are multiple cores
+如您所见，有多个核心
+389
+00:16:58,933 --> 00:17:01,700
+and each core can run part of a program
+每个内核都可以运行程序的一部分
+390
+00:17:01,700 --> 00:17:03,800
+by executing instructions
+通过执行指令
+391
+00:17:04,233 --> 00:17:06,733
+if we focus on just one of these cores
+如果我们只关注其中一个核心
+392
+00:17:06,833 --> 00:17:08,300
+we can see that inside it
+我们可以在里面看到
+393
+00:17:08,300 --> 00:17:12,000
+there is another incredibly complex set of blocks
+还有另一组极其复杂的积木
+394
+00:17:12,000 --> 00:17:14,266
+that depict the different functional sections
+描绘了不同的功能部分
+395
+00:17:14,266 --> 00:17:16,033
+and the data flow between them
+以及它们之间的数据流
+396
+00:17:16,433 --> 00:17:19,733
+there is a ton of information in this block diagram
+这个框图里有很多信息
+397
+00:17:19,833 --> 00:17:22,533
+and we're planning on making an entire series
+我们计划制作一整个系列
+398
+00:17:22,533 --> 00:17:23,833
+to explain it all
+来解释这一切
+399
+00:17:23,866 --> 00:17:27,600
+but for now here are the CPU's memory caches
+但现在这里是CPU的内存缓存
+400
+00:17:28,200 --> 00:17:33,033
+the instructions such as add multiply load store
+添加乘法加载存储等说明
+401
+00:17:33,033 --> 00:17:37,466
+compare jump and many more flow this way
+以这种方式比较跳转和更多流
+402
+00:17:37,666 --> 00:17:42,400
+and the actual data being processed flows this way
+被处理的实际数据是这样流动的
+403
+00:17:42,933 --> 00:17:44,266
+and then over here
+然后在这里
+404
+00:17:44,266 --> 00:17:47,666
+are the blocks that actually execute the arithmetic
+是实际执行算术的块
+405
+00:17:47,666 --> 00:17:50,033
+branching and storing of data
+数据的分支和存储
+406
+00:17:50,400 --> 00:17:53,200
+let's move on to a few additional details
+让我们继续一些额外的细节
+407
+00:17:53,200 --> 00:17:54,600
+about this processor
+关于这个处理器
+408
+00:17:54,833 --> 00:17:58,833
+all smartphones use a reduced instruction set computer
+所有智能手机都使用精简指令集计算机
+409
+00:17:59,100 --> 00:18:01,266
+or risk architecture
+或风险架构
+410
+00:18:01,466 --> 00:18:04,600
+and almost all of these architectures are licensed from
+几乎所有这些架构都从
+411
+00:18:04,600 --> 00:18:06,233
+a company called arm
+一家名为arm的公司
+412
+00:18:06,266 --> 00:18:09,733
+which stands for Advanced Risk Machines
+代表高级风险机器
+413
+00:18:10,033 --> 00:18:11,533
+some companies like apple
+一些像苹果这样的公司
+414
+00:18:11,533 --> 00:18:13,866
+license the instruction set architecture
+授权指令集架构
+415
+00:18:13,866 --> 00:18:15,533
+or ISA
+或ISA
+416
+00:18:15,700 --> 00:18:16,533
+from arm
+从手臂
+417
+00:18:16,533 --> 00:18:20,100
+and use this ISA to design their processor cores
+并使用此ISA来设计他们的处理器内核
+418
+00:18:20,100 --> 00:18:23,800
+in house whereas other companies like Qualcomm
+在内部，而高通等其他公司
+419
+00:18:23,933 --> 00:18:25,700
+license complete blueprints
+许可完整蓝图
+420
+00:18:25,700 --> 00:18:28,333
+which are technically called intellectual property
+技术上称为知识产权
+421
+00:18:28,333 --> 00:18:30,033
+cores from arm
+臂芯
+422
+00:18:30,500 --> 00:18:35,800
+Qualcomm then integrates the arm IP cores into its Socs
+高通然后将arm IP内核集成到其SOC中
+423
+00:18:36,233 --> 00:18:39,466
+sometimes keeping the design of the core as is
+有时保持核心的设计原样
+424
+00:18:39,466 --> 00:18:42,933
+but more often modifying or customizing the arm core
+但更常见的是修改或定制臂芯
+425
+00:18:43,033 --> 00:18:45,533
+to better suit Qualcomm's design needs
+更好地满足高通的设计需求
+426
+00:18:45,533 --> 00:18:47,400
+and in the process
+在这个过程中
+427
+00:18:47,466 --> 00:18:50,500
+Qualcomm rebrands the name of the CPU
+高通重新命名CPU
+428
+00:18:50,733 --> 00:18:51,533
+however
+然而
+429
+00:18:51,600 --> 00:18:55,033
+all this information still begs the question of
+所有这些信息仍然回避了一个问题
+430
+00:18:55,066 --> 00:18:59,066
+how do these Socs get designed and manufactured
+这些SOC是如何设计和制造的？
+431
+00:19:00,466 --> 00:19:03,833
+instead of talking about the entire design process
+而不是谈论整个设计过程
+432
+00:19:03,833 --> 00:19:06,400
+which you can find in the creator's comments
+你可以在创作者的评论中找到。
+433
+00:19:06,600 --> 00:19:10,433
+we're going to discuss two design principles of the Soc
+我们将讨论Soc的两个设计原则
+434
+00:19:10,733 --> 00:19:13,900
+the first principle is called hardware acceleration
+第一个原则叫做硬件加速
+435
+00:19:13,900 --> 00:19:16,100
+and this principle deals with the fact that
+这个原则涉及这样一个事实
+436
+00:19:16,100 --> 00:19:17,666
+instead of having a single
+而不是有一个
+437
+00:19:17,666 --> 00:19:20,800
+very powerful general purpose CPU
+非常强大的通用CPU
+438
+00:19:20,800 --> 00:19:22,466
+with a lot of cores
+有很多核心
+439
+00:19:22,700 --> 00:19:26,133
+this chip has a variety of special purpose blocks
+该芯片具有各种特殊用途块
+440
+00:19:26,266 --> 00:19:29,233
+dedicated to performing specific functions
+致力于执行特定功能
+441
+00:19:29,400 --> 00:19:33,266
+these special function blocks or hardware accelerators
+这些特殊功能块或硬件加速器
+442
+00:19:33,400 --> 00:19:35,433
+compute their tasks faster
+更快地计算他们的任务
+443
+00:19:35,433 --> 00:19:38,400
+while using significantly less power than
+同时使用的功率明显低于
+444
+00:19:38,400 --> 00:19:40,500
+if the same operation were performed by
+如果由执行相同的操作
+445
+00:19:40,500 --> 00:19:42,500
+the general purpose CPU
+通用CPU
+446
+00:19:42,666 --> 00:19:44,733
+for example as we saw with
+例如，正如我们看到的那样
+447
+00:19:44,733 --> 00:19:47,300
+the process is involved in taking a picture
+该过程涉及拍照
+448
+00:19:47,600 --> 00:19:50,533
+there is an entire block of the Soc
+Soc有一整块
+449
+00:19:50,533 --> 00:19:53,200
+that's dedicated to processing the image
+专门用于处理图像
+450
+00:19:53,333 --> 00:19:56,733
+and then a separate block whose job is to encode
+然后是一个单独的块，其工作是编码
+451
+00:19:56,933 --> 00:20:00,533
+decode or compress or decompress the image
+解码或压缩或解压缩图像
+452
+00:20:00,666 --> 00:20:03,866
+and if you're watching this video on your smartphone
+如果你在智能手机上看这段视频
+453
+00:20:04,000 --> 00:20:07,400
+it's actively decompressing this video as you watch it
+当你看的时候，它会主动解压这个视频。
+454
+00:20:08,100 --> 00:20:11,000
+these sections are useful for taking pictures
+这些部分对拍照很有用
+455
+00:20:11,133 --> 00:20:14,133
+but critical for recording 4k video
+但对录制4k视频至关重要
+456
+00:20:14,200 --> 00:20:16,200
+and saving battery life
+并节省电池寿命
+457
+00:20:16,233 --> 00:20:18,533
+hardware accelerators are utilized
+使用硬件加速器
+458
+00:20:18,533 --> 00:20:20,900
+for pretty much all computationally
+几乎所有的计算
+459
+00:20:20,900 --> 00:20:22,333
+intensive tasks
+密集任务
+460
+00:20:22,400 --> 00:20:24,433
+performed by your smartphone
+由您的智能手机执行
+461
+00:20:25,100 --> 00:20:27,300
+the next design principle is that
+下一个设计原则是
+462
+00:20:27,300 --> 00:20:30,633
+because Socs are used in smartphones
+因为Socs用于智能手机
+463
+00:20:30,633 --> 00:20:32,533
+which operate on a battery
+依靠电池运行
+464
+00:20:32,700 --> 00:20:35,466
+there's a huge focus on having the Soc
+人们非常关注拥有Soc
+465
+00:20:35,466 --> 00:20:38,033
+consume as little power as possible
+尽可能少地消耗电力
+466
+00:20:38,466 --> 00:20:41,400
+one example of low power consumption design
+低功耗设计的一个例子
+467
+00:20:41,400 --> 00:20:42,900
+is in the CPU
+在CPU中
+468
+00:20:43,033 --> 00:20:46,200
+instead of having all high performance cores
+而不是拥有所有高性能内核
+469
+00:20:46,433 --> 00:20:48,866
+chip designers often follow a big
+芯片设计师经常遵循一个大的
+470
+00:20:48,866 --> 00:20:50,600
+little design structure
+小设计结构
+471
+00:20:50,866 --> 00:20:53,433
+where there are two or four big cores
+那里有两到四个大核心
+472
+00:20:53,433 --> 00:20:55,300
+that are high performance cores
+是高性能内核
+473
+00:20:55,433 --> 00:20:57,400
+but consume more power
+但消耗更多的电力
+474
+00:20:57,666 --> 00:21:00,866
+and four little cores that are lower performance
+和四个性能较低的小内核
+475
+00:21:00,866 --> 00:21:02,433
+but are energy efficient
+但节能吗？
+476
+00:21:02,633 --> 00:21:05,533
+and your smartphone prioritizes using these
+您的智能手机优先使用这些
+477
+00:21:05,533 --> 00:21:06,633
+lower performance
+低绩效
+478
+00:21:06,633 --> 00:21:08,200
+energy efficient cores
+节能核心
+479
+00:21:08,200 --> 00:21:09,300
+when possible
+在可能的情况下
+480
+00:21:09,400 --> 00:21:12,333
+furthermore the design of the transistor
+此外，晶体管的设计
+481
+00:21:12,333 --> 00:21:13,833
+which is the smallest
+哪个是最小的
+482
+00:21:13,833 --> 00:21:16,700
+and fundamental building block of the Soc
+和Soc的基本组成部分
+483
+00:21:16,800 --> 00:21:20,333
+has had its design evolved to both be smaller
+它的设计已经进化到两者都更小
+484
+00:21:20,433 --> 00:21:23,533
+but more importantly to consume less power
+但更重要的是消耗更少的电力
+485
+00:21:23,900 --> 00:21:25,300
+as of 2020 the
+截至2020年
+486
+00:21:25,500 --> 00:21:28,900
+latest technology of transistors is called a gate
+晶体管的最新技术被称为栅极
+487
+00:21:28,900 --> 00:21:31,700
+all around field effect transistor
+环绕场效应晶体管
+488
+00:21:32,400 --> 00:21:33,200
+let's finally
+让我们最终
+489
+00:21:33,200 --> 00:21:36,200
+move on to how these chips are manufactured
+继续讨论这些芯片是如何制造的
+490
+00:21:36,500 --> 00:21:39,666
+to start the lion's share of all Socs
+开始所有Socs的最大份额
+491
+00:21:39,666 --> 00:21:42,033
+get manufactured by a single company
+由一家公司制造
+492
+00:21:42,100 --> 00:21:43,800
+called TSMC
+叫台积电
+493
+00:21:44,233 --> 00:21:47,666
+or Taiwan Semiconductor Manufacturing Company
+或者台湾半导体制造公司
+494
+00:21:47,900 --> 00:21:51,733
+and a smaller yet increasing proportion of Socs
+Socs的比例越来越小
+495
+00:21:51,900 --> 00:21:53,866
+are manufactured by Samsung
+由三星制造
+496
+00:21:54,200 --> 00:21:56,633
+these microchips are manufactured on 300
+这些微芯片是300制造的
+497
+00:21:56,633 --> 00:21:59,400
+millimeter wide silicon wafers
+毫米宽硅片
+498
+00:21:59,400 --> 00:22:01,600
+in factories called FAB's
+在一个叫FAB的工厂里
+499
+00:22:02,100 --> 00:22:04,700
+in order to manufacture an array of chips
+为了制造芯片阵列
+500
+00:22:04,833 --> 00:22:08,433
+the silicon wafer has to go through a series of 120
+硅片必须通过一系列120
+501
+00:22:08,433 --> 00:22:11,033
+to 160 processes
+到160个进程
+502
+00:22:11,033 --> 00:22:15,033
+or steps performed by dozens of different machines
+或由数十台不同机器执行的步骤
+503
+00:22:15,633 --> 00:22:18,800
+this is the most common sequence of steps
+这是最常见的步骤顺序
+504
+00:22:18,800 --> 00:22:20,900
+for manufacturing microchips
+用于制造微芯片
+505
+00:22:21,500 --> 00:22:25,033
+as you see there are only a dozen or so steps
+如你所见，只有十几个台阶。
+506
+00:22:25,200 --> 00:22:27,200
+but each of these processes
+但这些过程中的每一个
+507
+00:22:27,200 --> 00:22:29,400
+are performed dozens of times
+被执行了几十次
+508
+00:22:29,400 --> 00:22:32,466
+in order to build an incredibly complex layout of
+为了建立一个令人难以置信的复杂布局
+509
+00:22:32,466 --> 00:22:33,533
+transistors
+晶体管
+510
+00:22:34,200 --> 00:22:36,633
+but this video is getting too long
+但是这个视频太长了。
+511
+00:22:36,700 --> 00:22:39,500
+so we'll have to save the details of each step
+所以我们必须保存每一步的细节
+512
+00:22:39,500 --> 00:22:40,933
+for a future video
+对于未来的视频
+513
+00:22:41,066 --> 00:22:42,033
+for now
+暂时
+514
+00:22:42,100 --> 00:22:46,000
+here's what a nanoscopic view of the Soc looks like
+这是Soc的纳米视图
+515
+00:22:46,200 --> 00:22:48,466
+on the bottom is the silicon wafer
+底部是硅片
+516
+00:22:48,533 --> 00:22:51,266
+and the billions of transistors are implanted
+数十亿个晶体管被植入
+517
+00:22:51,266 --> 00:22:52,500
+and built into
+并内置于
+518
+00:22:52,500 --> 00:22:54,633
+and on top of the silicon
+在硅的顶部
+519
+00:22:54,833 --> 00:22:57,033
+on top of the layer of transistors
+在晶体管层之上
+520
+00:22:57,066 --> 00:22:59,633
+are layers of local interconnects
+是本地互连的层
+521
+00:22:59,666 --> 00:23:02,066
+that connect transistors to one another
+将晶体管相互连接
+522
+00:23:02,266 --> 00:23:03,866
+and then on top of that
+然后最重要的是
+523
+00:23:03,866 --> 00:23:05,666
+are the global interconnects
+是全球互联
+524
+00:23:05,666 --> 00:23:08,000
+that connect sections of transistors
+连接晶体管的部分
+525
+00:23:08,066 --> 00:23:12,300
+this is just a small fraction of the entire Soc layout
+这只是整个Soc布局的一小部分
+526
+00:23:12,500 --> 00:23:13,600
+let's zoom out
+让我们缩小
+527
+00:23:13,600 --> 00:23:16,866
+in order to get a sense of the size of these components
+为了了解这些组件的大小
+528
+00:23:17,333 --> 00:23:18,466
+I'm sure you've heard
+你肯定听说了
+529
+00:23:18,466 --> 00:23:21,100
+the transistors are incredibly small
+晶体管非常小
+530
+00:23:21,133 --> 00:23:25,900
+and well here's a single grain of fine table salt
+这里有一粒细食盐
+531
+00:23:26,466 --> 00:23:28,100
+mind blowing right
+令人兴奋的权利
+532
+00:23:28,733 --> 00:23:30,000
+it makes you think
+它让你思考
+533
+00:23:30,266 --> 00:23:32,066
+the potential of humanity
+人类的潜力
+534
+00:23:32,066 --> 00:23:36,133
+to reach incredible levels of science and engineering
+达到令人难以置信的科学和工程水平
+535
+00:23:36,266 --> 00:23:37,833
+is limitless
+是无限的

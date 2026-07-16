@@ -1,0 +1,2328 @@
+1
+00:00:00,033 --> 00:00:02,200
+out the structure of a neural network
+神经网络的结构
+2
+00:00:02,200 --> 00:00:03,433
+I'll give a quick recap here
+我在这里简单总结一下
+3
+00:00:03,433 --> 00:00:05,033
+just so that it's fresh in our minds
+只是为了让我们记忆犹新
+4
+00:00:05,033 --> 00:00:07,433
+and that I have two main goals for this video
+我对这个视频有两个主要目标
+5
+00:00:07,666 --> 00:00:10,533
+the first is to introduce the idea of gradient descent
+首先是引入梯度下降的思想
+6
+00:00:10,533 --> 00:00:13,033
+which underlies not only how neural networks learn
+这不仅是神经网络学习的基础
+7
+00:00:13,033 --> 00:00:15,433
+but how a lot of other machine learning works as well
+但是许多其他机器学习也是如何工作的
+8
+00:00:15,666 --> 00:00:16,233
+then after that
+然后在那之后
+9
+00:00:16,233 --> 00:00:17,300
+we're going to dig in a little more
+我们要再挖一点
+10
+00:00:17,300 --> 00:00:19,600
+to how this particular network performs
+这个特定网络的表现
+11
+00:00:19,633 --> 00:00:21,200
+and what those hidden layers of neurons
+那些隐藏的神经元层
+12
+00:00:21,200 --> 00:00:22,733
+end up actually looking for
+最终真正寻找
+13
+00:00:24,033 --> 00:00:24,933
+as a reminder
+作为提醒
+14
+00:00:24,933 --> 00:00:25,666
+our goal here is
+我们在这里的目标是
+15
+00:00:25,666 --> 00:00:29,000
+the classic example of handwritten digit recognition
+手写数字识别的经典例子
+16
+00:00:29,200 --> 00:00:31,133
+the hello world of neural networks
+神经网络的Hello World
+17
+00:00:31,500 --> 00:00:34,666
+these digits are rendered on a 28 by 28 pixel grid
+这些数字在28 x 28像素的网格上呈现
+18
+00:00:34,800 --> 00:00:38,233
+each pixel with some grayscale value between 0 and 1
+每个像素的灰度值在0到1之间
+19
+00:00:38,466 --> 00:00:41,266
+those are what determine the activations of
+这些是决定激活的
+20
+00:00:41,266 --> 00:00:44,900
+784 neurons in the input layer of the network
+网络输入层的784个神经元
+21
+00:00:45,700 --> 00:00:45,933
+and then
+然后
+22
+00:00:45,933 --> 00:00:48,933
+the activation for each neuron in the following layers
+以下层中每个神经元的激活
+23
+00:00:49,000 --> 00:00:50,700
+is based on a weighted sum
+是基于加权和
+24
+00:00:50,800 --> 00:00:53,466
+of all the activations in the previous layer
+在前一层中的所有激活中
+25
+00:00:53,533 --> 00:00:55,833
+plus some special number called a bias
+加上一些叫做偏差的特殊数字
+26
+00:00:56,700 --> 00:00:59,100
+then you compose that sum with some other function
+然后你用其他函数组成这个总和
+27
+00:00:59,100 --> 00:01:01,900
+like the Sigmoid squishification or array loop
+就像Sigmoid压扁或阵列循环一样
+28
+00:01:02,033 --> 00:01:03,800
+the way that I walked through last video
+我看最后一个视频的方式
+29
+00:01:04,133 --> 00:01:06,500
+in total given the somewhat arbitrary choice of
+总的来说，考虑到有点武断的选择
+30
+00:01:06,500 --> 00:01:07,700
+two hidden layers here
+这里有两个隐藏层
+31
+00:01:07,700 --> 00:01:09,333
+with 16 neurons each
+每个神经元有16个
+32
+00:01:09,466 --> 00:01:10,700
+the network has about
+网络大约有
+33
+00:01:11,433 --> 00:01:13,866
+13 thousand weights and biases that we can adjust
+1.30万我们可以调整的权重和偏差
+34
+00:01:14,066 --> 00:01:16,133
+and it's these values that determine
+正是这些价值观决定了
+35
+00:01:16,133 --> 00:01:17,666
+what exactly the network
+网络到底是什么
+36
+00:01:17,666 --> 00:01:19,300
+you know actually does
+你知道实际上是这样的
+37
+00:01:19,833 --> 00:01:20,600
+then what we mean when
+那么我们的意思是什么时候
+38
+00:01:20,600 --> 00:01:23,200
+we say that this network classifies a given digit
+我们说这个网络对给定的数字进行分类
+39
+00:01:23,266 --> 00:01:24,933
+is that the brightest of those
+那是其中最亮的吗？
+40
+00:01:24,933 --> 00:01:26,533
+10 neurons in the final layer
+最后一层有10个神经元
+41
+00:01:26,533 --> 00:01:28,066
+corresponds to that digit
+对应那个数字
+42
+00:01:28,600 --> 00:01:30,800
+and remember the motivation that we had in mind here
+记住我们心中的动机
+43
+00:01:30,800 --> 00:01:32,233
+for the layered structure
+对于分层结构
+44
+00:01:32,300 --> 00:01:33,800
+was that maybe
+那是不是
+45
+00:01:33,800 --> 00:01:36,300
+the second layer could pick up on the edges
+第二层可能会在边缘拾起
+46
+00:01:36,433 --> 00:01:38,400
+and the third layer might pick up on patterns
+第三层可能会发现模式
+47
+00:01:38,400 --> 00:01:39,833
+like loops and lines
+就像循环和线条
+48
+00:01:40,000 --> 00:01:41,533
+and the last one could just piece together
+最后一个可以拼凑起来
+49
+00:01:41,533 --> 00:01:42,300
+those patterns
+那些图案
+50
+00:01:42,300 --> 00:01:43,733
+to recognize digits
+识别数字
+51
+00:01:44,266 --> 00:01:47,233
+so here we learn how the network learns
+所以在这里我们学习网络是如何学习的
+52
+00:01:47,300 --> 00:01:48,033
+what we want
+我们想要的
+53
+00:01:48,033 --> 00:01:50,466
+is an algorithm where you can show this network
+是一个算法，你可以显示这个网络
+54
+00:01:50,466 --> 00:01:52,100
+a whole bunch of training data
+一大堆训练数据
+55
+00:01:52,100 --> 00:01:54,600
+which comes in the form of a bunch of different images
+它以一堆不同图像的形式出现
+56
+00:01:54,600 --> 00:01:55,900
+of handwritten digits
+手写数字
+57
+00:01:55,900 --> 00:01:58,433
+along with labels for what they're supposed to be
+以及它们应该是什么的标签
+58
+00:01:58,633 --> 00:02:00,133
+and it'll adjust those
+它会调整这些
+59
+00:02:00,600 --> 00:02:01,933
+13 thousand weights and biases
+1.30万权重和偏差
+60
+00:02:01,933 --> 00:02:04,900
+so as to improve its performance on the training data
+从而提高其对训练数据的性能
+61
+00:02:05,300 --> 00:02:06,200
+hopefully
+满怀希望地
+62
+00:02:06,266 --> 00:02:08,466
+this layered structure will mean that what it learns
+这种分层结构意味着它所学习的
+63
+00:02:08,466 --> 00:02:11,700
+generalizes to images beyond that training data
+泛化到训练数据之外的图像
+64
+00:02:12,300 --> 00:02:13,833
+and the way we test that is that
+我们测试的方法是
+65
+00:02:13,833 --> 00:02:15,266
+after you train the network
+在你训练网络之后
+66
+00:02:15,266 --> 00:02:16,833
+you show it more labeled data
+你给它看更多的标记数据
+67
+00:02:16,833 --> 00:02:18,266
+that it's never seen before
+这是前所未有的
+68
+00:02:18,400 --> 00:02:19,633
+and you see how accurately
+你看有多准确
+69
+00:02:19,633 --> 00:02:21,600
+it classifies those new images
+它对那些新图像进行分类
+70
+00:02:25,633 --> 00:02:26,600
+fortunately for us
+对我们来说幸运的是
+71
+00:02:26,600 --> 00:02:28,200
+and what makes this such a common example
+是什么让这成为一个如此常见的例子
+72
+00:02:28,200 --> 00:02:29,033
+to start with
+首先
+73
+00:02:29,033 --> 00:02:31,466
+is that the good people behind the emnis database
+是emennis数据库背后的好人
+74
+00:02:31,466 --> 00:02:32,233
+have put together
+把
+75
+00:02:32,233 --> 00:02:34,900
+a collection of tens of thousands of handwritten
+数以万计的手写收藏
+76
+00:02:34,900 --> 00:02:36,433
+digit images each one
+每个数字图像
+77
+00:02:36,433 --> 00:02:38,900
+labeled with the numbers that they're supposed to be
+标有他们应该是的数字
+78
+00:02:39,600 --> 00:02:40,800
+and as provocative as it is
+虽然很有煽动性
+79
+00:02:40,800 --> 00:02:42,700
+to describe a machine as learning
+将机器描述为学习
+80
+00:02:42,866 --> 00:02:44,433
+once you actually see how it works
+一旦你真正看到它是如何工作的
+81
+00:02:44,433 --> 00:02:47,266
+it feels a lot less like some crazy SCI fi premise
+感觉不像是什么疯狂的科幻小说
+82
+00:02:47,266 --> 00:02:48,666
+and a lot more like
+更像是
+83
+00:02:48,666 --> 00:02:50,500
+well a calculus exercise
+嗯，微积分练习
+84
+00:02:50,700 --> 00:02:53,500
+I mean basically it comes down to finding the minimum
+我的意思是基本上它归结为找到最小值
+85
+00:02:53,500 --> 00:02:54,733
+of a certain function
+具有某种功能
+86
+00:02:56,433 --> 00:02:57,666
+remember conceptually
+概念记忆
+87
+00:02:57,666 --> 00:03:00,400
+we're thinking of each neuron as being connected
+我们认为每个神经元都是相连的
+88
+00:03:00,400 --> 00:03:02,700
+to all of the neurons in the previous layer
+到前一层中的所有神经元
+89
+00:03:02,833 --> 00:03:04,400
+and the weights in the weighted sum
+以及加权和中的权重
+90
+00:03:04,400 --> 00:03:06,000
+defining its activation
+定义其激活
+91
+00:03:06,066 --> 00:03:09,033
+are kind of like the strengths of those connections
+有点像这些联系的力量
+92
+00:03:09,100 --> 00:03:09,666
+and the bias
+和偏见
+93
+00:03:09,666 --> 00:03:12,266
+is some indication of whether that neuron tends to be
+是神经元是否倾向于
+94
+00:03:12,266 --> 00:03:13,900
+active or inactive
+活跃或不活跃
+95
+00:03:14,266 --> 00:03:15,266
+and to start things off
+并开始事情
+96
+00:03:15,266 --> 00:03:17,133
+we're just going to initialize all of those weights
+我们将初始化所有这些权重
+97
+00:03:17,133 --> 00:03:19,266
+and biases totally randomly
+并且完全随机地偏差
+98
+00:03:19,433 --> 00:03:20,333
+needless to say
+不用说
+99
+00:03:20,333 --> 00:03:22,300
+this network is going to perform pretty horribly
+这个网络会表现得非常糟糕
+100
+00:03:22,300 --> 00:03:23,600
+on a given training example
+在给定的训练示例上
+101
+00:03:23,600 --> 00:03:25,600
+since it's just doing something random
+因为它只是随机做一些事情
+102
+00:03:25,700 --> 00:03:27,866
+for example you feed in this image of a 3
+例如，您输入3的这张图片
+103
+00:03:28,133 --> 00:03:30,900
+and the output layer it just looks like a mess
+输出层看起来一团糟
+104
+00:03:31,333 --> 00:03:34,100
+so what you do is you define a cost function
+你要做的就是定义一个代价函数
+105
+00:03:34,133 --> 00:03:36,333
+a way of telling the no
+一种说不的方式
+106
+00:03:36,500 --> 00:03:39,933
+bad computer that output should have activations
+输出的坏电脑应该有激活
+107
+00:03:39,933 --> 00:03:41,833
+which are 0 for most neurons
+对于大多数神经元来说是0
+108
+00:03:41,833 --> 00:03:43,333
+but one for this neuron
+但是这个神经元有一个
+109
+00:03:43,400 --> 00:03:45,700
+what you gave me is utter trash
+你给我的完全是垃圾
+110
+00:03:46,233 --> 00:03:48,200
+to say that a little more mathematically
+从数学的角度来说
+111
+00:03:48,233 --> 00:03:49,433
+what you do is add up
+你所做的就是加起来
+112
+00:03:49,433 --> 00:03:52,300
+the squares of the differences between each of those
+它们之间差异的平方
+113
+00:03:52,300 --> 00:03:54,066
+trash output activations
+垃圾输出激活
+114
+00:03:54,066 --> 00:03:56,100
+and the value that you want them to have
+以及你希望他们拥有的价值
+115
+00:03:56,400 --> 00:03:58,033
+and this is what we'll call the cost
+这就是我们所说的成本。
+116
+00:03:58,033 --> 00:03:59,900
+of a single training example
+单个训练示例
+117
+00:04:00,533 --> 00:04:02,433
+notice this sum is small
+请注意，这个金额很小。
+118
+00:04:02,433 --> 00:04:04,866
+when the network confidently classifies the image
+当网络自信地对图像进行分类时
+119
+00:04:04,866 --> 00:04:05,700
+correctly
+正确地
+120
+00:04:07,200 --> 00:04:08,100
+but it's large
+但它很大。
+121
+00:04:08,100 --> 00:04:08,266
+when
+什么时候
+122
+00:04:08,266 --> 00:04:10,033
+the network seems like it doesn't really know what
+网络似乎真的不知道是什么
+123
+00:04:10,033 --> 00:04:10,833
+it's doing
+它正在做
+124
+00:04:13,266 --> 00:04:16,066
+so then what you do is consider the average cost
+所以你要做的是考虑平均成本
+125
+00:04:16,066 --> 00:04:19,333
+over all of the tens of thousands of training examples
+在数以万计的训练示例中
+126
+00:04:19,333 --> 00:04:20,333
+at your disposal
+任你处置
+127
+00:04:22,066 --> 00:04:23,066
+this average cost
+这个平均成本
+128
+00:04:23,066 --> 00:04:25,600
+is our measure for how lousy the network is
+是我们衡量网络有多糟糕的标准
+129
+00:04:25,600 --> 00:04:27,600
+and how bad the computer should feel
+以及电脑应该感觉有多糟糕
+130
+00:04:27,933 --> 00:04:29,466
+and that's a complicated thing
+这是一件复杂的事情
+131
+00:04:29,600 --> 00:04:30,133
+remember how
+记得如何
+132
+00:04:30,133 --> 00:04:32,666
+the network itself was basically a function
+网络本身基本上是一个功能
+133
+00:04:32,700 --> 00:04:36,000
+one that takes in 784 numbers as inputs
+输入784个数字作为输入的数字
+134
+00:04:36,000 --> 00:04:37,133
+the pixel values
+像素值
+135
+00:04:37,300 --> 00:04:39,633
+and spits out 10 numbers as its output
+并吐出10个数字作为输出
+136
+00:04:39,800 --> 00:04:40,533
+and in a sense
+从某种意义上说
+137
+00:04:40,533 --> 00:04:43,833
+it's parameterized by all these weights and biases
+它被所有这些权重和偏差参数化了
+138
+00:04:44,200 --> 00:04:46,533
+well the cost function is a layer of complexity
+代价函数是一层复杂性
+139
+00:04:46,533 --> 00:04:47,633
+on top of that
+除此之外
+140
+00:04:47,833 --> 00:04:49,433
+it takes as its input
+它将其作为输入
+141
+00:04:49,433 --> 00:04:52,066
+those 13,000 or so weights and biases
+那一万三千左右的权重和偏差
+142
+00:04:52,133 --> 00:04:53,933
+and it spits out a single number
+它吐出一个数字
+143
+00:04:53,933 --> 00:04:56,833
+describing how bad those weights and biases are
+描述这些权重和偏见有多糟糕
+144
+00:04:57,200 --> 00:04:58,633
+and the way it's defined
+以及它的定义方式
+145
+00:04:58,633 --> 00:05:00,300
+depends on the network's behavior
+取决于网络的行为
+146
+00:05:00,300 --> 00:05:03,200
+over all the tens of thousands of pieces of training
+在数以万计的训练中
+147
+00:05:03,200 --> 00:05:04,000
+data
+数据
+148
+00:05:04,100 --> 00:05:05,466
+that's a lot to think about
+要考虑的事情太多了
+149
+00:05:06,933 --> 00:05:08,066
+but just telling the computer
+但只是告诉电脑
+150
+00:05:08,066 --> 00:05:09,433
+what a crappy job it's doing
+这是多么糟糕的工作
+151
+00:05:09,433 --> 00:05:10,700
+isn't very helpful
+不是很有帮助
+152
+00:05:10,900 --> 00:05:11,500
+you want to tell it
+你想说出来
+153
+00:05:11,500 --> 00:05:13,666
+how to change those weights and biases
+如何改变这些权重和偏见
+154
+00:05:13,666 --> 00:05:14,900
+so that it gets better
+这样就会好起来
+155
+00:05:15,833 --> 00:05:16,633
+to make it easier
+让它更容易
+156
+00:05:16,633 --> 00:05:17,500
+rather than struggling
+而不是挣扎
+157
+00:05:17,500 --> 00:05:20,133
+to imagine a function with 13,000 inputs
+想象一个有13,000个输入的函数
+158
+00:05:20,200 --> 00:05:21,900
+just imagine a simple function
+想象一个简单的函数
+159
+00:05:21,900 --> 00:05:23,733
+that has one number as an input
+有一个数字作为输入
+160
+00:05:23,733 --> 00:05:25,300
+and one number as an output
+和一个数字作为输出
+161
+00:05:25,900 --> 00:05:27,666
+how do you find an input
+你如何找到输入？
+162
+00:05:27,666 --> 00:05:30,200
+that minimizes the value of this function
+最小化此函数的值
+163
+00:05:30,933 --> 00:05:32,300
+calculus students will know that
+微积分学生会知道的
+164
+00:05:32,300 --> 00:05:34,900
+you can sometimes figure out that minimum explicitly
+你有时可以明确地算出最小值
+165
+00:05:35,233 --> 00:05:37,000
+but that's not always feasible
+但这并不总是可行的
+166
+00:05:37,000 --> 00:05:38,900
+for really complicated functions
+对于非常复杂的功能
+167
+00:05:38,933 --> 00:05:39,433
+certainly
+当然
+168
+00:05:39,433 --> 00:05:42,600
+not in the 13,000 input version of this situation
+不在这种情况的13,000输入版本中
+169
+00:05:42,600 --> 00:05:45,933
+for our crazy complicated neural network cost function
+我们疯狂复杂的神经网络代价函数
+170
+00:05:46,233 --> 00:05:49,666
+a more flexible tactic is to start at any all input
+更灵活的策略是从任何所有输入开始
+171
+00:05:49,866 --> 00:05:52,500
+and figure out which direction you should step
+并弄清楚你应该走哪个方向
+172
+00:05:52,500 --> 00:05:54,100
+to make that output lower
+降低输出
+173
+00:05:54,633 --> 00:05:55,466
+specifically
+具体地说
+174
+00:05:55,466 --> 00:05:57,800
+if you can figure out the slope of the function
+如果你能算出函数的斜率
+175
+00:05:57,800 --> 00:05:58,733
+where you are
+你所在的地方
+176
+00:05:59,033 --> 00:06:01,800
+then shift to the left if that slope is positive
+如果斜率为正，则向左移动
+177
+00:06:01,800 --> 00:06:03,300
+and shift the input to the right
+并将输入向右移动
+178
+00:06:03,300 --> 00:06:04,866
+if that slope is negative
+如果斜率是负的
+179
+00:06:07,233 --> 00:06:08,700
+if you do this repeatedly
+如果你反复这样做
+180
+00:06:08,700 --> 00:06:09,233
+at each point
+在每一点
+181
+00:06:09,233 --> 00:06:11,733
+checking the new slope and taking the appropriate step
+检查新斜坡并采取适当的步骤
+182
+00:06:11,733 --> 00:06:12,700
+you're going to approach
+你要接近
+183
+00:06:12,700 --> 00:06:14,800
+some local minimum of the function
+函数的一些局部最小值
+184
+00:06:15,200 --> 00:06:17,466
+and the image you might have in mind here is a ball
+你们可能会想到一个球
+185
+00:06:17,466 --> 00:06:18,666
+rolling down a hill
+滚下山坡
+186
+00:06:19,100 --> 00:06:19,866
+and notice
+并注意到
+187
+00:06:19,866 --> 00:06:22,666
+even for this really simplified single input function
+即使对于这个真正简化的单输入函数
+188
+00:06:22,733 --> 00:06:25,833
+there are many possible valleys that you might land in
+你可能会在许多山谷着陆
+189
+00:06:25,900 --> 00:06:28,300
+depending on which random input you start at
+取决于您从哪个随机输入开始
+190
+00:06:28,466 --> 00:06:29,500
+and there's no guarantee
+也不能保证
+191
+00:06:29,500 --> 00:06:31,333
+that the local minimum you land in is
+你降落的当地最低限度是
+192
+00:06:31,333 --> 00:06:33,633
+gonna be the smallest possible value of the cost
+将是成本的最小值
+193
+00:06:33,633 --> 00:06:34,433
+function
+函数
+194
+00:06:34,633 --> 00:06:36,666
+that's gonna carry over to our neural network case
+这将延续到我们的神经网络案例中
+195
+00:06:36,666 --> 00:06:39,200
+as well and I also want you to notice how
+我也想让你注意到
+196
+00:06:39,200 --> 00:06:42,400
+if you make your step sizes proportional to the slope
+如果你让步长与斜率成正比
+197
+00:06:42,633 --> 00:06:42,866
+then
+然后
+198
+00:06:42,866 --> 00:06:45,300
+when the slope is flattening out towards the minimum
+当斜率向最小值变平时
+199
+00:06:45,466 --> 00:06:47,300
+your steps get smaller and smaller
+你的脚步越来越小
+200
+00:06:47,400 --> 00:06:49,466
+and that kind of helps you from overshooting
+这可以帮助你避免过度使用。
+201
+00:06:50,533 --> 00:06:52,266
+bumping up the complexity a bit
+稍微提高一下复杂性
+202
+00:06:52,333 --> 00:06:53,133
+imagine instead
+想象一下
+203
+00:06:53,133 --> 00:06:55,800
+a function with two inputs and one output
+一个有两个输入和一个输出的函数
+204
+00:06:56,133 --> 00:06:58,800
+you might think of the input space as the XY plane
+您可能会将输入空间视为XY平面
+205
+00:06:58,933 --> 00:06:59,500
+and the cost
+和成本
+206
+00:06:59,500 --> 00:07:02,600
+function as being graphed as a surface above it
+作为它上面的表面绘制的功能
+207
+00:07:03,233 --> 00:07:05,800
+now instead of asking about the slope of the function
+现在不要问函数的斜率
+208
+00:07:06,000 --> 00:07:06,800
+you have to ask
+你必须问
+209
+00:07:06,800 --> 00:07:10,200
+which direction should you step in this input space
+你应该在这个输入空间中走哪个方向？
+210
+00:07:10,266 --> 00:07:12,800
+so as to decrease the output of the function
+从而减少函数的输出
+211
+00:07:12,800 --> 00:07:13,833
+most quickly
+最快
+212
+00:07:14,300 --> 00:07:16,633
+in other words what's the downhill direction
+换句话说，下滑的方向是什么？
+213
+00:07:16,866 --> 00:07:17,400
+and again
+又一次
+214
+00:07:17,400 --> 00:07:20,400
+it's helpful to think of a ball rolling down that hill
+想想球从山上滚下来是有帮助的
+215
+00:07:21,233 --> 00:07:23,900
+those of you familiar with multi variable calculus
+熟悉多变量微积分的人
+216
+00:07:23,900 --> 00:07:26,533
+will know that the gradient of a function
+会知道函数的梯度
+217
+00:07:26,600 --> 00:07:29,300
+gives you the direction of steepest ascent
+给你最陡峭的上升方向
+218
+00:07:29,466 --> 00:07:31,333
+basically which direction should you step
+基本上你应该朝哪个方向走
+219
+00:07:31,333 --> 00:07:33,533
+to increase the function most quickly
+以最快的速度增加功能
+220
+00:07:34,033 --> 00:07:37,100
+naturally enough taking the negative of that gradient
+很自然地取梯度的负数
+221
+00:07:37,133 --> 00:07:38,333
+gives you the direction to step
+给你前进的方向
+222
+00:07:38,333 --> 00:07:40,866
+that decreases the function most quickly
+这会最快地降低功能
+223
+00:07:41,833 --> 00:07:42,700
+and even more than that
+甚至更多
+224
+00:07:42,700 --> 00:07:44,500
+the length of this gradient vector
+这个梯度向量的长度
+225
+00:07:44,500 --> 00:07:46,933
+is actually an indication for just how steep
+实际上表明了有多陡峭
+226
+00:07:46,933 --> 00:07:48,500
+that steepest slope is
+最陡的斜坡是
+227
+00:07:49,100 --> 00:07:50,733
+now if you're unfamiliar with multivariate
+如果你不熟悉多元
+228
+00:07:50,733 --> 00:07:52,400
+calculus and you want to learn more
+微积分，你想了解更多
+229
+00:07:52,400 --> 00:07:54,300
+check out some of the work that I did for Khan Academy
+看看我为Khan学院做的一些工作
+230
+00:07:54,300 --> 00:07:56,533
+on the topic honestly though
+老实说，在这个话题上
+231
+00:07:56,600 --> 00:07:58,866
+all that matters for you and me right now
+现在对你我来说最重要的
+232
+00:07:58,900 --> 00:08:00,133
+is that in principle
+原则上是这样吗？
+233
+00:08:00,133 --> 00:08:02,700
+there exists a way to compute this vector
+有一种方法可以计算这个向量
+234
+00:08:02,866 --> 00:08:03,300
+this vector
+这个向量
+235
+00:08:03,300 --> 00:08:05,433
+that tells you what the downhill direction is
+这告诉你下坡的方向是什么
+236
+00:08:05,433 --> 00:08:06,633
+and how steep it is
+以及它有多陡峭
+237
+00:08:06,900 --> 00:08:07,633
+you'll be okay
+你不会有事的
+238
+00:08:07,633 --> 00:08:09,333
+if that's all you know and you're not
+如果你只知道这些而你不是
+239
+00:08:09,333 --> 00:08:11,100
+rock solid on the details
+细节坚如磐石
+240
+00:08:11,733 --> 00:08:13,000
+because if you can get that
+因为如果你能得到那个
+241
+00:08:13,000 --> 00:08:15,333
+the algorithm for minimizing the function
+最小化函数的算法
+242
+00:08:15,433 --> 00:08:17,466
+is to compute this gradient direction
+就是计算这个梯度方向
+243
+00:08:17,600 --> 00:08:19,400
+then take a small step downhill
+然后走下坡路
+244
+00:08:19,500 --> 00:08:21,633
+and just repeat that over and over
+一遍又一遍地重复
+245
+00:08:22,800 --> 00:08:25,066
+it's the same basic idea for a function that has
+这与具有
+246
+00:08:25,066 --> 00:08:27,700
+13,000 inputs instead of two inputs
+13,000个输入而不是两个输入
+247
+00:08:28,000 --> 00:08:29,233
+imagine organizing
+想象组织
+248
+00:08:29,233 --> 00:08:32,333
+all 13,000 weights and biases of our network
+我们网络的所有13,000个权重和偏差
+249
+00:08:32,333 --> 00:08:34,333
+into a giant column vector
+变成一个巨大的列向量
+250
+00:08:34,700 --> 00:08:37,466
+the negative gradient of the cost function
+代价函数的负梯度
+251
+00:08:37,633 --> 00:08:38,866
+is just a vector
+只是一个向量
+252
+00:08:38,866 --> 00:08:40,433
+it's some direction
+这是一个方向
+253
+00:08:40,433 --> 00:08:43,066
+inside this insanely huge input space
+在这个疯狂的巨大输入空间中
+254
+00:08:43,066 --> 00:08:46,100
+that tells you which nudges to all of those numbers
+它会告诉你哪些数字会轻推到所有这些数字
+255
+00:08:46,200 --> 00:08:49,100
+is going to cause the most rapid decrease to the cost
+将导致成本的最快下降
+256
+00:08:49,100 --> 00:08:49,900
+function
+函数
+257
+00:08:50,400 --> 00:08:53,066
+and of course with our specially designed cost function
+当然还有我们特别设计的代价函数
+258
+00:08:53,233 --> 00:08:56,000
+changing the weights and biases to decrease it
+改变权重和偏差以减少它
+259
+00:08:56,266 --> 00:08:58,200
+means making the output of the network
+意味着进行网络的输出
+260
+00:08:58,200 --> 00:08:59,933
+on each piece of training data
+每一份训练数据
+261
+00:09:00,100 --> 00:09:02,733
+look less like a random array of 10 values
+看起来不像10个值的随机数组
+262
+00:09:02,866 --> 00:09:04,433
+and more like an actual decision
+更像是一个实际的决定
+263
+00:09:04,433 --> 00:09:05,666
+that we want it to make
+我们希望它做的
+264
+00:09:06,000 --> 00:09:07,200
+it's important to remember
+记住这一点很重要
+265
+00:09:07,200 --> 00:09:09,233
+this cost function involves an average
+这个代价函数包括一个平均值
+266
+00:09:09,233 --> 00:09:11,200
+over all of the training data
+所有的训练数据
+267
+00:09:11,333 --> 00:09:12,633
+so if you minimize it
+所以如果你最小化它
+268
+00:09:12,633 --> 00:09:13,000
+it means
+它的意思是
+269
+00:09:13,000 --> 00:09:15,900
+it's a better performance on all of those samples
+在所有这些样本上都有更好的表现
+270
+00:09:18,800 --> 00:09:21,800
+the algorithm for computing this gradient efficiently
+有效计算该梯度的算法
+271
+00:09:21,800 --> 00:09:22,633
+which is effectively
+这是有效的
+272
+00:09:22,633 --> 00:09:24,833
+the heart of how a neural network learns
+神经网络学习方式的核心
+273
+00:09:24,866 --> 00:09:26,433
+is called back propagation
+称为反向传播
+274
+00:09:26,533 --> 00:09:28,733
+and it's what I'm going to be talking about next video
+这就是我下一个视频要谈论的
+275
+00:09:29,133 --> 00:09:31,533
+there I really want to take the time to walk through
+在那里我真的很想花时间走过
+276
+00:09:31,533 --> 00:09:34,733
+what exactly happens to each weight and each bias
+每个重量和每个偏差到底会发生什么
+277
+00:09:34,733 --> 00:09:36,433
+for a given piece of training data
+对于给定的训练数据
+278
+00:09:36,700 --> 00:09:39,066
+trying to give an intuitive feel for what's happening
+试图给人一种直观的感受正在发生的事情
+279
+00:09:39,066 --> 00:09:41,933
+beyond the pile of relevant calculus and formulas
+在一堆相关的演算和公式之外
+280
+00:09:42,433 --> 00:09:43,500
+right here right now
+现在就在这里
+281
+00:09:43,500 --> 00:09:45,066
+the main thing I want you to know
+我想让你知道的主要事情
+282
+00:09:45,066 --> 00:09:47,300
+independent of implementation details
+独立于实施细节
+283
+00:09:47,400 --> 00:09:48,533
+is that what we mean
+这就是我们的意思吗？
+284
+00:09:48,533 --> 00:09:50,533
+when we talk about a network learning
+当我们谈论网络学习时
+285
+00:09:50,666 --> 00:09:53,233
+is that it's just minimizing a cost function
+它只是最小化代价函数
+286
+00:09:53,800 --> 00:09:55,733
+and notice one consequence of that is that
+请注意其中的一个后果是
+287
+00:09:55,733 --> 00:09:58,066
+it's important for this cost function to have a nice
+这个代价函数有一个很好的
+288
+00:09:58,066 --> 00:09:59,333
+smooth output
+平滑输出
+289
+00:09:59,333 --> 00:10:01,066
+so that we can find a local minimum
+这样我们就可以找到局部最小值
+290
+00:10:01,066 --> 00:10:03,066
+by taking little steps downhill
+通过走下坡路
+291
+00:10:03,866 --> 00:10:05,033
+this is why by the way
+这就是为什么顺便说一句
+292
+00:10:05,033 --> 00:10:06,100
+artificial neurons
+人工神经元
+293
+00:10:06,100 --> 00:10:08,533
+have continuously ranging activations
+持续激活
+294
+00:10:08,533 --> 00:10:10,600
+rather than simply being active or inactive
+而不是简单地活跃或不活跃
+295
+00:10:10,600 --> 00:10:11,600
+in a binary way
+以二进制方式
+296
+00:10:11,600 --> 00:10:13,533
+the way that biological neurons are
+生物神经元的方式
+297
+00:10:14,900 --> 00:10:16,733
+this process of repeatedly nudging
+这种反复轻推的过程
+298
+00:10:16,733 --> 00:10:17,733
+an input of a function
+函数的输入
+299
+00:10:17,733 --> 00:10:19,933
+by some multiple of the negative gradient
+负梯度的倍数
+300
+00:10:20,000 --> 00:10:21,700
+is called gradient descent
+叫做梯度下降
+301
+00:10:21,900 --> 00:10:24,266
+it's a way to converge towards some local minimum
+这是一种收敛到局部极小值的方法
+302
+00:10:24,266 --> 00:10:25,400
+of a cost function
+代价函数
+303
+00:10:25,400 --> 00:10:26,500
+basically a valley
+基本上是一个山谷
+304
+00:10:26,500 --> 00:10:27,500
+in this graph
+在这张图表中
+305
+00:10:28,000 --> 00:10:29,633
+I'm still showing the picture of a function
+我还在展示一个函数的图片
+306
+00:10:29,633 --> 00:10:30,433
+with two inputs
+有两个输入
+307
+00:10:30,433 --> 00:10:32,633
+of course because nudges in a 13
+当然，因为轻推13
+308
+00:10:32,633 --> 00:10:33,900
+thousand dimensional input space
+千维输入空间
+309
+00:10:33,900 --> 00:10:35,866
+are a little hard to wrap your mind around
+有点难让你放心
+310
+00:10:35,933 --> 00:10:37,000
+but there is actually a nice
+但实际上有一个不错的
+311
+00:10:37,000 --> 00:10:39,066
+non spatial way to think about this
+以非空间的方式思考这个问题
+312
+00:10:39,633 --> 00:10:40,600
+each component
+每个组件
+313
+00:10:40,600 --> 00:10:43,333
+of the negative gradient tells us two things
+负梯度告诉我们两件事
+314
+00:10:43,600 --> 00:10:44,733
+the sine of course
+当然是正弦
+315
+00:10:44,733 --> 00:10:45,200
+tells us
+告诉我们
+316
+00:10:45,200 --> 00:10:48,200
+whether the corresponding component of the input vector
+输入向量的对应分量是否
+317
+00:10:48,200 --> 00:10:49,933
+should be nudged up or down
+应该向上或向下轻推
+318
+00:10:50,300 --> 00:10:51,300
+but importantly
+但重要的是
+319
+00:10:51,300 --> 00:10:54,533
+the relative magnitudes of all these components
+所有这些分量的相对大小
+320
+00:10:54,700 --> 00:10:57,600
+kind of tells you which changes matter more
+告诉你哪个变化更重要
+321
+00:11:00,133 --> 00:11:01,433
+you see in our network
+你看在我们的网络里
+322
+00:11:01,433 --> 00:11:03,266
+an adjustment to one of the weights
+对其中一个权重的调整
+323
+00:11:03,266 --> 00:11:06,133
+might have a much greater impact on the cost function
+可能会对代价函数产生更大的影响
+324
+00:11:06,133 --> 00:11:07,866
+than the adjustment to some other weight
+而不是调整到其他重量
+325
+00:11:09,400 --> 00:11:10,800
+some of these connections just
+其中一些联系只是
+326
+00:11:10,800 --> 00:11:13,000
+matter more for our training data
+对我们的训练数据更重要
+327
+00:11:13,866 --> 00:11:16,200
+so a way that you can think about this gradient vector
+所以你可以考虑这个梯度向量的一种方法
+328
+00:11:16,200 --> 00:11:18,833
+of our mind warpingly massive cost function
+巨大的代价函数
+329
+00:11:19,066 --> 00:11:19,466
+is that
+那是
+330
+00:11:19,466 --> 00:11:22,266
+it encodes the relative importance of each weight
+它编码了每个权重的相对重要性
+331
+00:11:22,266 --> 00:11:23,833
+and bias that is
+偏见就是
+332
+00:11:23,833 --> 00:11:26,000
+which of these changes is going to carry the most
+这些变化中哪一个将带来最大的影响？
+333
+00:11:26,000 --> 00:11:27,300
+bang for your buck
+一报还一报
+334
+00:11:28,533 --> 00:11:30,733
+this really is just another way of thinking about
+这真的只是另一种思考方式
+335
+00:11:30,733 --> 00:11:33,133
+direction to take a simpler example
+方向举个更简单的例子
+336
+00:11:33,133 --> 00:11:35,133
+if you have some function with two variables
+如果你有一些具有两个变量的函数
+337
+00:11:35,133 --> 00:11:37,100
+as an input and you compute
+作为输入，你计算
+338
+00:11:37,133 --> 00:11:39,800
+that its gradient at some particular point
+它在某个特定点的梯度
+339
+00:11:39,866 --> 00:11:41,866
+comes out as 3 1
+显示为3 1
+340
+00:11:42,433 --> 00:11:43,300
+then on the one hand
+那么一方面
+341
+00:11:43,300 --> 00:11:45,100
+you can interpret that as saying that
+你可以理解为说
+342
+00:11:45,100 --> 00:11:46,800
+when you're standing at that input
+当你站在输入端时
+343
+00:11:46,800 --> 00:11:48,333
+moving along this direction
+沿着这个方向移动
+344
+00:11:48,333 --> 00:11:50,266
+increases the function most quickly
+最快增加功能
+345
+00:11:50,466 --> 00:11:52,333
+that when you graph the function above
+当你绘制上面的函数时
+346
+00:11:52,333 --> 00:11:53,933
+the plane of input points
+输入点平面
+347
+00:11:54,033 --> 00:11:56,000
+that vector is what's giving you the straight
+这个向量就是给你直线的东西
+348
+00:11:56,000 --> 00:11:57,133
+uphill direction
+上坡方向
+349
+00:11:57,600 --> 00:11:58,900
+but another way to read that
+但另一种解读方式
+350
+00:11:58,900 --> 00:12:01,666
+is to say that changes to this first variable
+就是说第一个变量的变化
+351
+00:12:01,700 --> 00:12:03,433
+have three times the importance
+有三倍的重要性
+352
+00:12:03,433 --> 00:12:05,300
+as changes to the second variable
+作为对第二个变量的更改
+353
+00:12:05,466 --> 00:12:08,333
+that at least in the neighborhood of the relevant input
+至少在相关输入的附近
+354
+00:12:08,466 --> 00:12:09,633
+nudging the x value
+轻推x值
+355
+00:12:09,633 --> 00:12:11,733
+carries a lot more bang for your buck
+对你来说有更多的好处
+356
+00:12:14,333 --> 00:12:14,633
+all right
+好吧
+357
+00:12:14,633 --> 00:12:17,200
+let's zoom out and sum up where we are so far
+让我们缩小并总结一下我们目前所处的位置
+358
+00:12:17,400 --> 00:12:19,433
+the network itself is this function
+网络本身就是这个功能
+359
+00:12:19,433 --> 00:12:22,400
+with 784 inputs and 10 outputs
+具有784个输入和10个输出
+360
+00:12:22,433 --> 00:12:25,000
+defined in terms of all of these weighted sums
+根据所有这些加权总和定义
+361
+00:12:25,333 --> 00:12:27,600
+the cost function is a layer of complexity
+代价函数是一层复杂性
+362
+00:12:27,600 --> 00:12:28,500
+on top of that
+除此之外
+363
+00:12:28,633 --> 00:12:32,233
+it takes the 13 thousand weights and biases as inputs
+它将1.30万权重和偏差作为输入
+364
+00:12:32,233 --> 00:12:34,866
+and spits out a single measure of lousyness
+然后吐出一个粗鲁的度量
+365
+00:12:34,866 --> 00:12:36,666
+based on the training examples
+基于培训示例
+366
+00:12:37,066 --> 00:12:38,033
+and the gradient
+和梯度
+367
+00:12:38,033 --> 00:12:41,133
+of the cost function is one more layer of complexity
+代价函数的另一层复杂性
+368
+00:12:41,133 --> 00:12:44,666
+still it tells us what nudges to all of these weights
+它仍然告诉我们是什么推动了所有这些权重
+369
+00:12:44,666 --> 00:12:47,266
+and biases cause the fastest change
+偏见导致最快的变化
+370
+00:12:47,266 --> 00:12:48,900
+to the value of the cost function
+代价函数的值
+371
+00:12:48,900 --> 00:12:50,266
+which you might interpret as saying
+你可能会理解为说
+372
+00:12:50,266 --> 00:12:52,833
+which changes to which weights matter the most
+哪个变化对哪个权重最重要
+373
+00:12:57,433 --> 00:13:00,200
+so when you initialize the network with random weights
+所以当你用随机权重初始化网络时
+374
+00:13:00,200 --> 00:13:02,266
+and biases and adjust them many times
+和偏差并多次调整它们
+375
+00:13:02,266 --> 00:13:04,333
+based on this gradient descent process
+基于这个梯度下降过程
+376
+00:13:04,333 --> 00:13:06,000
+how well does it actually perform
+它的实际性能如何？
+377
+00:13:06,000 --> 00:13:08,066
+on images that it's never seen before
+在它从未见过的图像上
+378
+00:13:08,666 --> 00:13:10,033
+well the one that I've described here
+嗯，我在这里描述的那个
+379
+00:13:10,033 --> 00:13:12,266
+with the two hidden layers of 16 neurons
+有16个神经元的两个隐藏层
+380
+00:13:12,266 --> 00:13:14,933
+each chosen mostly for aesthetic reasons
+每一个都主要是出于美学原因而选择的
+381
+00:13:15,533 --> 00:13:16,733
+well it's not bad
+嗯，还不错。
+382
+00:13:16,800 --> 00:13:18,433
+it classifies about 96
+它分类大约96
+383
+00:13:18,433 --> 00:13:20,833
+percent of the new images that it sees correctly
+它正确看到的新图像的百分比
+384
+00:13:21,400 --> 00:13:23,400
+and honestly if you look at some of the examples
+老实说，如果你看看一些例子
+385
+00:13:23,400 --> 00:13:24,666
+that it messes up on
+它搞砸了
+386
+00:13:24,866 --> 00:13:27,400
+you kind of feel compelled to cut it a little slack
+你觉得有必要放松一下
+387
+00:13:30,733 --> 00:13:32,866
+now if you play around with the hidden layer structure
+现在如果你玩弄隐藏层结构
+388
+00:13:32,866 --> 00:13:34,000
+and make a couple tweaks
+并进行一些调整
+389
+00:13:34,000 --> 00:13:36,233
+you can get this up to 98 percent
+你可以把这个提高到98%。
+390
+00:13:36,533 --> 00:13:37,600
+and that's pretty good
+这很好。
+391
+00:13:37,633 --> 00:13:38,733
+it's not the best
+这不是最好的
+392
+00:13:38,733 --> 00:13:40,300
+you can certainly get better performance
+你肯定能得到更好的表现
+393
+00:13:40,300 --> 00:13:42,300
+by getting more sophisticated than this plain
+通过变得比这更复杂
+394
+00:13:42,300 --> 00:13:43,400
+vanilla network
+香草网络
+395
+00:13:43,533 --> 00:13:46,400
+but given how daunting the initial task is
+但考虑到最初的任务有多艰巨
+396
+00:13:46,533 --> 00:13:48,500
+I just think there's something incredible about
+我只是觉得有些不可思议的东西
+397
+00:13:48,500 --> 00:13:49,800
+any network doing this
+任何这样做的网络
+398
+00:13:49,800 --> 00:13:52,100
+well on images that it's never seen before
+在它从未见过的图像上
+399
+00:13:52,266 --> 00:13:54,300
+given that we never specifically told it
+鉴于我们从未明确告知过
+400
+00:13:54,300 --> 00:13:55,900
+what patterns to look for
+要寻找什么模式
+401
+00:13:57,200 --> 00:13:59,633
+originally the way that I motivated this structure
+最初我激发这个结构的方式
+402
+00:13:59,633 --> 00:14:01,066
+was by describing a hope
+是通过描述一个希望
+403
+00:14:01,066 --> 00:14:02,066
+that we might have
+我们可能有
+404
+00:14:02,266 --> 00:14:04,800
+that the second layer might pick up on little edges
+第二层可能会出现小边缘
+405
+00:14:04,800 --> 00:14:05,933
+that the third layer would
+第三层会
+406
+00:14:05,933 --> 00:14:08,033
+piece together those edges to recognize loops
+拼凑这些边缘以识别循环
+407
+00:14:08,033 --> 00:14:09,200
+and longer lines
+和更长的线
+408
+00:14:09,266 --> 00:14:11,333
+and that those might be pieced together to recognize
+这些可以拼凑在一起来识别
+409
+00:14:11,333 --> 00:14:15,333
+digits so is this what our network is actually doing
+数字，这就是我们网络实际在做的吗？
+410
+00:14:15,666 --> 00:14:16,466
+well
+井
+411
+00:14:16,633 --> 00:14:19,266
+for this one at least not at all
+至少这个一点也不
+412
+00:14:19,333 --> 00:14:20,866
+remember how last video we looked at
+还记得我们上次看的视频吗？
+413
+00:14:20,866 --> 00:14:22,666
+how the weights of the connections
+连接的权重如何
+414
+00:14:22,666 --> 00:14:24,900
+from all of the neurons in the first layer
+从第一层的所有神经元中
+415
+00:14:24,933 --> 00:14:26,866
+to a given neuron in the second layer
+到第二层的给定神经元
+416
+00:14:26,933 --> 00:14:29,500
+can be visualized as a given pixel pattern that
+可以可视化为给定的像素图案
+417
+00:14:29,500 --> 00:14:31,800
+that second layer neuron is picking up on
+第二层神经元正在接收
+418
+00:14:32,300 --> 00:14:34,033
+well when we actually do that
+当我们真正这样做的时候
+419
+00:14:34,033 --> 00:14:34,666
+for the weights
+为了重量
+420
+00:14:34,666 --> 00:14:36,633
+associated with these transitions
+与这些转变相关
+421
+00:14:36,633 --> 00:14:38,266
+from the first layer to the next
+从第一层到下一层
+422
+00:14:38,500 --> 00:14:40,800
+instead of picking up on isolated little edges
+而不是捡起孤立的小边缘
+423
+00:14:40,800 --> 00:14:41,733
+here and there
+这里和那里
+424
+00:14:42,033 --> 00:14:43,733
+they look well
+他们看起来不错
+425
+00:14:43,900 --> 00:14:45,200
+almost random
+几乎是随机的
+426
+00:14:45,300 --> 00:14:48,233
+just with some very loose patterns in the middle there
+只是中间有一些非常松散的图案
+427
+00:14:48,700 --> 00:14:49,500
+it would seem that
+似乎
+428
+00:14:49,500 --> 00:14:51,300
+in the unfathomably large
+在深不可测的大
+429
+00:14:51,300 --> 00:14:53,633
+13,000 dimensional space of possible weights
+13,000个可能权重的维度空间
+430
+00:14:53,633 --> 00:14:54,600
+and biases
+和偏见
+431
+00:14:54,700 --> 00:14:57,266
+our network found itself a happy little local minimum
+我们的电视网找到了一个快乐的小地方
+432
+00:14:57,266 --> 00:15:00,300
+that despite successfully classifying most images
+尽管成功地对大多数图像进行了分类
+433
+00:15:00,466 --> 00:15:02,666
+doesn't exactly pick up on the patterns that we might
+并没有完全发现我们可能发现的模式
+434
+00:15:02,666 --> 00:15:03,633
+have hoped for
+希望
+435
+00:15:04,300 --> 00:15:06,033
+and to really drive this point home
+为了真正阐明这一点
+436
+00:15:06,100 --> 00:15:08,733
+watch what happens when you input a random image
+观察输入随机图像时会发生什么
+437
+00:15:09,066 --> 00:15:10,533
+if the system was smart
+如果系统很智能
+438
+00:15:10,533 --> 00:15:12,866
+you might expect it to either feel uncertain
+你可能会期望它要么感到不确定
+439
+00:15:12,866 --> 00:15:13,333
+maybe
+也许吧
+440
+00:15:13,333 --> 00:15:15,933
+not really activating any of those 10 output neurons
+没有真正激活这10个输出神经元中的任何一个
+441
+00:15:15,933 --> 00:15:17,733
+or activating them all evenly
+或者均匀地激活它们
+442
+00:15:18,200 --> 00:15:19,100
+but instead
+但相反
+443
+00:15:19,133 --> 00:15:21,800
+it confidently gives you some nonsense answer
+它自信地给你一些胡说八道的答案
+444
+00:15:21,800 --> 00:15:25,466
+as if it feels as sure that this random noise is a 5
+好像感觉这个随机噪音是5
+445
+00:15:25,533 --> 00:15:28,700
+as it does that an actual image of a 5 is a 5
+因为5的实际图像是5。
+446
+00:15:29,033 --> 00:15:30,133
+phrase differently
+短语不同
+447
+00:15:30,300 --> 00:15:33,200
+even if this network can recognize digits pretty well
+即使这个网络可以很好地识别数字
+448
+00:15:33,233 --> 00:15:35,600
+it has no idea how to draw them
+它不知道如何绘制它们
+449
+00:15:36,400 --> 00:15:37,533
+a lot of this is because
+这在很大程度上是因为
+450
+00:15:37,533 --> 00:15:39,033
+it's such a tightly constrained
+这是一个如此严格的约束
+451
+00:15:39,033 --> 00:15:40,100
+training setup
+培训机构
+452
+00:15:40,333 --> 00:15:42,500
+I mean put yourself in the network's shoes here
+我是说设身处地为电视网着想
+453
+00:15:42,666 --> 00:15:43,866
+from its point of view
+从它的角度来看
+454
+00:15:43,866 --> 00:15:46,333
+the entire universe consists of nothing
+整个宇宙什么也不是
+455
+00:15:46,333 --> 00:15:47,433
+but clearly defined
+但定义明确
+456
+00:15:47,433 --> 00:15:49,866
+unmoving digits centered in a tiny grid
+以小网格为中心的不动数字
+457
+00:15:50,133 --> 00:15:51,066
+and its cost function
+和它的代价函数
+458
+00:15:51,066 --> 00:15:53,633
+just never gave it any incentive to be anything
+只是从来没有给它任何动力去做任何事情
+459
+00:15:53,633 --> 00:15:56,033
+but utterly confident in its decisions
+但对自己的决定充满信心
+460
+00:15:56,666 --> 00:15:58,700
+so if this is the image of what those second layer
+所以如果这是第二层的图像
+461
+00:15:58,700 --> 00:16:00,000
+neurons are really doing
+神经元真的在做
+462
+00:16:00,200 --> 00:16:02,266
+you might wonder why I would introduce this network
+你可能想知道我为什么要介绍这个网络
+463
+00:16:02,266 --> 00:16:04,000
+with the motivation of picking up on edges
+带着拾起边缘的动机
+464
+00:16:04,000 --> 00:16:04,733
+and patterns
+和模式
+465
+00:16:04,733 --> 00:16:07,100
+I mean that's just not at all what it ends up doing
+我的意思是，这根本不是它最终的结果。
+466
+00:16:08,033 --> 00:16:08,500
+well
+井
+467
+00:16:08,500 --> 00:16:10,333
+this is not meant to be our end goal
+这不是我们的最终目标
+468
+00:16:10,333 --> 00:16:11,933
+but instead a starting point
+而是一个起点
+469
+00:16:12,066 --> 00:16:14,100
+frankly this is old technology
+坦率地说，这是旧技术
+470
+00:16:14,100 --> 00:16:16,200
+the kind researched in the 80s and 90s
+80年代和90年代研究的那种
+471
+00:16:16,500 --> 00:16:18,066
+and you do need to understand it
+你确实需要理解它
+472
+00:16:18,066 --> 00:16:19,833
+before you can understand more detailed
+在你能更详细地了解之前
+473
+00:16:19,833 --> 00:16:20,933
+modern variants
+现代变体
+474
+00:16:20,933 --> 00:16:22,700
+and it clearly is capable of solving
+它显然有能力解决
+475
+00:16:22,700 --> 00:16:24,200
+some interesting problems
+一些有趣的问题
+476
+00:16:24,400 --> 00:16:25,833
+but the more you dig into what those
+但是你越深入那些
+477
+00:16:25,833 --> 00:16:27,433
+hidden layers are really doing
+隐藏层真的在做
+478
+00:16:27,433 --> 00:16:29,266
+the less intelligent it seems
+看起来越不聪明
+479
+00:16:33,300 --> 00:16:34,600
+shifting the focus for a moment
+转移一下焦点
+480
+00:16:34,600 --> 00:16:37,400
+from how networks learn to how you learn
+从网络如何学习到您如何学习
+481
+00:16:37,433 --> 00:16:38,266
+that'll only happen
+那只会发生
+482
+00:16:38,266 --> 00:16:41,133
+if you engage actively with the material here somehow
+如果你以某种方式积极参与这里的材料
+483
+00:16:41,600 --> 00:16:43,666
+one pretty simple thing that I want you to do
+我想让你做一件很简单的事
+484
+00:16:43,666 --> 00:16:45,600
+is just pause right now
+现在只是暂停一下
+485
+00:16:45,700 --> 00:16:47,233
+and think deeply for a moment
+深思片刻
+486
+00:16:47,300 --> 00:16:50,200
+about what changes you might make to this system
+关于你可能会对这个系统做什么改变
+487
+00:16:50,200 --> 00:16:52,066
+and how it perceives images
+以及它如何感知图像
+488
+00:16:52,133 --> 00:16:54,466
+if you wanted it to better pick up on things like
+如果你想让它更好地了解诸如
+489
+00:16:54,466 --> 00:16:55,833
+edges and patterns
+边缘和图案
+490
+00:16:56,400 --> 00:16:57,333
+but better than that
+但比这更好
+491
+00:16:57,400 --> 00:16:59,333
+to actually engage with the material
+实际接触材料
+492
+00:16:59,333 --> 00:17:01,933
+I highly recommend the book by Michael Nielsen
+我强烈推荐迈克尔·尼尔森的书
+493
+00:17:01,933 --> 00:17:04,000
+on deep learning and neural networks
+深度学习与神经网络
+494
+00:17:04,233 --> 00:17:06,533
+in it you can find the code and the data
+在里面你可以找到代码和数据
+495
+00:17:06,533 --> 00:17:09,633
+to download and play with for this exact example
+下载并播放此确切示例
+496
+00:17:09,700 --> 00:17:11,666
+and the book will walk you through step by step
+这本书会一步一步地引导你
+497
+00:17:11,666 --> 00:17:13,133
+what that code is doing
+该代码在做什么
+498
+00:17:13,800 --> 00:17:15,800
+what's awesome is that this book is free
+厉害的是这本书是免费的
+499
+00:17:15,800 --> 00:17:17,200
+and publicly available
+并公开提供
+500
+00:17:17,333 --> 00:17:19,000
+so if you do get something out of it
+所以如果你确实从中得到了什么
+501
+00:17:19,000 --> 00:17:20,000
+consider joining me
+考虑加入我
+502
+00:17:20,000 --> 00:17:22,633
+in making a donation towards Nielsen's efforts
+为尼尔森的努力捐款
+503
+00:17:22,933 --> 00:17:25,033
+I've also linked a couple other resources that I like
+我还链接了一些我喜欢的其他资源。
+504
+00:17:25,033 --> 00:17:26,233
+a lot in the description
+描述中有很多
+505
+00:17:26,233 --> 00:17:27,000
+including the
+包括
+506
+00:17:27,000 --> 00:17:29,666
+phenomenal and beautiful blog post by Chris Ola
+克里斯·奥拉的非凡而美丽的博客文章
+507
+00:17:29,666 --> 00:17:31,300
+and the articles in distill
+还有蒸馏中的文章
+508
+00:17:33,233 --> 00:17:35,100
+to close things off here for the last few minutes
+在最后几分钟关闭这里的东西
+509
+00:17:35,100 --> 00:17:37,133
+I want to jump back into a snippet of the interview
+我想回到采访的片段
+510
+00:17:37,133 --> 00:17:38,633
+that I had with Lisha Lee
+我和丽莎·李在一起
+511
+00:17:38,933 --> 00:17:40,533
+you might remember her from the last video
+你可能还记得上一段视频里的她
+512
+00:17:40,533 --> 00:17:42,600
+she did her PhD work in deep learning
+她是深度学习博士
+513
+00:17:42,866 --> 00:17:43,866
+and in this little snippet
+在这个小片段中
+514
+00:17:43,866 --> 00:17:44,533
+she talks about
+她谈到
+515
+00:17:44,533 --> 00:17:45,500
+two recent papers
+最近的两篇论文
+516
+00:17:45,500 --> 00:17:47,700
+that really dig into how some of the more modern
+真正深入研究了一些更现代的
+517
+00:17:47,700 --> 00:17:50,666
+image recognition networks are actually learning
+图像识别网络实际上是在学习
+518
+00:17:50,800 --> 00:17:52,833
+just to set up where we were in the conversation
+只是为了确定我们在谈话中的位置
+519
+00:17:52,833 --> 00:17:54,200
+the first paper took one of these
+第一篇论文拿走了其中一个
+520
+00:17:54,200 --> 00:17:56,133
+particularly deep neural networks
+特别是深度神经网络
+521
+00:17:56,133 --> 00:17:58,133
+that's really good at image recognition
+那真的很擅长图像识别
+522
+00:17:58,233 --> 00:17:58,400
+and
+和
+523
+00:17:58,400 --> 00:18:01,100
+instead of training it on a properly labeled dataset
+而不是在正确标记的数据集上训练它
+524
+00:18:01,133 --> 00:18:03,633
+it shuffled all of the labels around before training
+它在训练前洗牌了所有的标签
+525
+00:18:03,933 --> 00:18:05,000
+obviously the testing
+显然测试
+526
+00:18:05,000 --> 00:18:07,333
+accuracy here was going to be no better than random
+这里的准确性不会比随机的好
+527
+00:18:07,333 --> 00:18:09,533
+since everything's just randomly labeled
+因为所有东西都是随机标记的
+528
+00:18:09,800 --> 00:18:12,466
+but it was still able to achieve the same training
+但它仍然能够达到同样的训练
+529
+00:18:12,466 --> 00:18:15,800
+accuracy as you would on a properly labeled data set
+与在正确标记的数据集上一样准确
+530
+00:18:16,200 --> 00:18:16,733
+basically
+基本上
+531
+00:18:16,733 --> 00:18:19,700
+the millions of weights for this particular network
+这个特定网络的数百万个权重
+532
+00:18:19,700 --> 00:18:22,666
+were enough for it to just memorize the random data
+足以让它记住随机数据
+533
+00:18:22,800 --> 00:18:24,600
+which kind of raises the question for whether
+这就提出了一个问题
+534
+00:18:24,600 --> 00:18:26,233
+minimizing this cost function
+最小化这个代价函数
+535
+00:18:26,233 --> 00:18:27,700
+actually corresponds to any
+实际上对应于任何
+536
+00:18:27,700 --> 00:18:29,400
+sort of structure in the image
+图像中的某种结构
+537
+00:18:29,466 --> 00:18:30,900
+or is it just you know
+还是只是你知道
+538
+00:18:30,933 --> 00:18:32,833
+memorization the entire data set
+记忆整个数据集
+539
+00:18:32,833 --> 00:18:34,600
+of what the correct classification is
+正确的分类是什么
+540
+00:18:34,633 --> 00:18:36,333
+and so a couple of you know
+所以你们中的一些人知道
+541
+00:18:36,333 --> 00:18:38,800
+half a year later at ICML this year
+半年后，今年在ICML
+542
+00:18:39,300 --> 00:18:41,300
+there was not exactly rebuttal paper
+没有确切的反驳文件
+543
+00:18:41,300 --> 00:18:43,466
+paper that addressed some aspects of like
+涉及类似的某些方面的论文
+544
+00:18:43,466 --> 00:18:44,600
+hey actually
+嘿其实
+545
+00:18:44,600 --> 00:18:45,600
+these networks are doing something
+这些网络正在做一些事情
+546
+00:18:45,600 --> 00:18:46,466
+a little bit smarter
+聪明一点
+547
+00:18:46,466 --> 00:18:50,400
+than that if you look at that accuracy curve
+如果你看一下准确度曲线
+548
+00:18:50,433 --> 00:18:52,900
+if you were just training on a
+如果你只是在训练
+549
+00:18:52,933 --> 00:18:56,600
+random data set that curve sort of went down very
+随机数据集的曲线有点下降
+550
+00:18:56,700 --> 00:18:57,133
+you know
+你知道的
+551
+00:18:57,133 --> 00:19:00,100
+very slowly in almost kind of a linear fashion
+非常慢，几乎是线性的。
+552
+00:19:00,100 --> 00:19:03,466
+so you're really struggling to find that local minimum
+所以你真的很难找到当地的最小值
+553
+00:19:03,533 --> 00:19:04,466
+of possible you know
+可能你知道
+554
+00:19:04,466 --> 00:19:06,800
+the right weights that would get you that accuracy
+正确的重量会让你达到这种准确性
+555
+00:19:06,800 --> 00:19:07,100
+whereas
+然而
+556
+00:19:07,100 --> 00:19:09,200
+if you're actually training on a structured data set
+如果您实际上是在结构化数据集上进行训练
+557
+00:19:09,200 --> 00:19:11,033
+one that has the right labels
+有正确标签的
+558
+00:19:11,266 --> 00:19:11,466
+you know
+你知道的
+559
+00:19:11,466 --> 00:19:13,133
+you fiddled around a little bit in the beginning
+你一开始有点胡闹
+560
+00:19:13,133 --> 00:19:16,400
+but then you kind of dropped very fast to get to that
+但后来你很快就学会了
+561
+00:19:16,466 --> 00:19:17,866
+accuracy level
+准确度等级
+562
+00:19:17,866 --> 00:19:19,300
+and so in some sense it was
+所以从某种意义上说，它是
+563
+00:19:19,333 --> 00:19:23,100
+easier to find that local maxima
+更容易找到局部极大值
+564
+00:19:23,100 --> 00:19:25,700
+and so it was also interesting about that is it
+所以这也很有趣，是吗？
+565
+00:19:25,700 --> 00:19:26,500
+brings into
+使陷入
+566
+00:19:26,500 --> 00:19:29,000
+like another paper from actually a couple of years ago
+就像几年前的另一篇论文一样
+567
+00:19:29,133 --> 00:19:32,533
+which has a lot more simplifications
+它有更多的简化
+568
+00:19:32,533 --> 00:19:33,866
+about the network layers
+关于网络层
+569
+00:19:33,866 --> 00:19:35,266
+but one of the results was
+但结果之一是
+570
+00:19:35,266 --> 00:19:37,900
+saying how if you look at the optimization landscape
+说如果你看看优化环境
+571
+00:19:37,900 --> 00:19:41,533
+the local minima that these networks tend to learn
+这些网络倾向于学习的局部最小值
+572
+00:19:41,733 --> 00:19:43,933
+are actually of equal quality
+实际上是同等质量的
+573
+00:19:43,933 --> 00:19:46,633
+so in some sense if your data set is structured
+所以在某种意义上，如果你的数据集是结构化的
+574
+00:19:46,633 --> 00:19:49,100
+you should be able to find that much more easily
+你应该能更容易地找到它
+575
+00:19:53,100 --> 00:19:53,700
+my thanks
+我的感谢
+576
+00:19:53,700 --> 00:19:56,066
+as always to those of you supporting on Patreon
+一如既往地支持帕特隆的人
+577
+00:19:56,066 --> 00:19:58,666
+I've said before just what a game changer on Patreon is
+我之前说过Patreon的游戏规则改变者是什么
+578
+00:19:58,666 --> 00:20:00,833
+but these videos really would not be possible
+但这些视频真的不可能
+579
+00:20:00,833 --> 00:20:01,633
+without you
+没有你
+580
+00:20:02,133 --> 00:20:04,466
+I also want to give a special thanks to the VC firm
+我还要特别感谢风投公司
+581
+00:20:04,466 --> 00:20:05,466
+Amplify Partners
+放大合作伙伴
+582
+00:20:05,466 --> 00:20:08,066
+in their support of these initial videos in the series
+支持该系列的这些初始视频

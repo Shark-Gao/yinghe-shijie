@@ -51,12 +51,25 @@ def minimum_annotation_count(video_duration_ms: int) -> int:
     return 75
 
 
+def select_annotation_segments(segments: list[dict], maximum: int = 120) -> list[dict]:
+    """Keep long subtitle tracks within the annotation schema's hard limit."""
+    if len(segments) <= maximum:
+        return segments
+    last = len(segments) - 1
+    indices = {
+        round(position * last / (maximum - 1))
+        for position in range(maximum)
+    }
+    return [segment for index, segment in enumerate(segments) if index in indices]
+
+
 def main() -> None:
     args = parse_args()
     timeline_path = Path(args.timeline)
     data = json.loads(timeline_path.read_text(encoding="utf-8"))
     annotations = []
-    for index, segment in enumerate(data["segments"], start=1):
+    segments = select_annotation_segments(data["segments"])
+    for index, segment in enumerate(segments, start=1):
         start = to_ms(segment["start"])
         end = min(start + 4_000, to_ms(segment["end"]))
         if end - start < 1_500:
@@ -78,7 +91,7 @@ def main() -> None:
             "avoid": ["subtitle", "core_subject"],
         })
     target_count = minimum_annotation_count(to_ms(data["video_duration"]))
-    for index, segment in enumerate(data["segments"]):
+    for index, segment in enumerate(segments):
         if len(annotations) >= target_count:
             break
         start, end = to_ms(segment["start"]), to_ms(segment["end"])

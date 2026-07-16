@@ -1,0 +1,958 @@
+{
+  "version": 1,
+  "source_subtitle": "手机芯片为什么塞得下CPU、GPU和AI_时间线01.srt",
+  "target_video": "videos\\raw\\手机芯片为什么塞得下CPU、GPU和AI.mp4",
+  "notes": "等长全程版视频文字注释，由解说时间线自动生成，可按画面微调。",
+  "annotations": [
+    {
+      "id": "anno_001",
+      "start": "00:00:00.000",
+      "end": "00:00:04.000",
+      "type": "chapter",
+      "text": "一部手机看起来很简单",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_002",
+      "start": "00:00:30.000",
+      "end": "00:00:34.000",
+      "type": "chapter",
+      "text": "别看它只有指甲盖大小",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_003",
+      "start": "00:01:00.000",
+      "end": "00:01:04.000",
+      "type": "principle",
+      "text": "这期就从手机最常见的拍照动作",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_004",
+      "start": "00:01:30.000",
+      "end": "00:01:34.000",
+      "type": "principle",
+      "text": "先给一个提醒",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_005",
+      "start": "00:02:00.000",
+      "end": "00:02:04.000",
+      "type": "principle",
+      "text": "手机芯片封装里常见上下两层",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_006",
+      "start": "00:02:30.000",
+      "end": "00:02:34.000",
+      "type": "principle",
+      "text": "音乐",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_007",
+      "start": "00:03:00.000",
+      "end": "00:03:04.000",
+      "type": "principle",
+      "text": "人们常把 SoC 比作大脑",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_008",
+      "start": "00:03:30.000",
+      "end": "00:03:34.000",
+      "type": "principle",
+      "text": "芯片公司很少公开全部内部设计",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_009",
+      "start": "00:04:00.000",
+      "end": "00:04:04.000",
+      "type": "principle",
+      "text": "因此",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_010",
+      "start": "00:04:30.000",
+      "end": "00:04:34.000",
+      "type": "principle",
+      "text": "接下来先看 SoC 的总体分",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_011",
+      "start": "00:05:00.000",
+      "end": "00:05:04.000",
+      "type": "chapter",
+      "text": "CPU 负责通用计算和执行程",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_012",
+      "start": "00:05:30.000",
+      "end": "00:05:34.000",
+      "type": "principle",
+      "text": "图像",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_013",
+      "start": "00:06:00.000",
+      "end": "00:06:04.000",
+      "type": "principle",
+      "text": "调制解调器负责和蜂窝网络",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_014",
+      "start": "00:06:30.000",
+      "end": "00:06:34.000",
+      "type": "principle",
+      "text": "真正把这些模块串起来的",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_015",
+      "start": "00:07:00.000",
+      "end": "00:07:04.000",
+      "type": "principle",
+      "text": "有些 SoC 还会集成电源管",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_016",
+      "start": "00:07:30.000",
+      "end": "00:07:34.000",
+      "type": "principle",
+      "text": "不同公司会用不同名称包装这些",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_017",
+      "start": "00:08:00.000",
+      "end": "00:08:04.000",
+      "type": "principle",
+      "text": "现在用拍照来追踪一次完整的数",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_018",
+      "start": "00:08:30.000",
+      "end": "00:08:34.000",
+      "type": "principle",
+      "text": "光线穿过镜头和滤色阵列",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_019",
+      "start": "00:09:00.000",
+      "end": "00:09:04.000",
+      "type": "chapter",
+      "text": "以一千两百万像素相机为例",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_020",
+      "start": "00:09:30.000",
+      "end": "00:09:34.000",
+      "type": "principle",
+      "text": "原始图像先要有地方暂存",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_021",
+      "start": "00:10:00.000",
+      "end": "00:10:04.000",
+      "type": "principle",
+      "text": "摄像头数据的速度可以达到每秒",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_022",
+      "start": "00:10:30.000",
+      "end": "00:10:34.000",
+      "type": "principle",
+      "text": "一张未压缩的一千两百万像素 ",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_023",
+      "start": "00:11:00.000",
+      "end": "00:11:04.000",
+      "type": "principle",
+      "text": "ISP 和视频处理器会从 D",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_024",
+      "start": "00:11:30.000",
+      "end": "00:11:34.000",
+      "type": "chapter",
+      "text": "接下来轮到 ISP 出场",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_025",
+      "start": "00:12:00.000",
+      "end": "00:12:04.000",
+      "type": "principle",
+      "text": "随后是去马赛克",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_026",
+      "start": "00:12:30.000",
+      "end": "00:12:34.000",
+      "type": "principle",
+      "text": "经过色调映射后",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_027",
+      "start": "00:13:00.000",
+      "end": "00:13:04.000",
+      "type": "principle",
+      "text": "GPU 会把照片和相机应用的",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_028",
+      "start": "00:13:30.000",
+      "end": "00:13:34.000",
+      "type": "principle",
+      "text": "显示出来不等于流程结束",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_029",
+      "start": "00:14:00.000",
+      "end": "00:14:04.000",
+      "type": "principle",
+      "text": "最终",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_030",
+      "start": "00:14:30.000",
+      "end": "00:14:34.000",
+      "type": "principle",
+      "text": "调制解调器把图片切成数据包",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_031",
+      "start": "00:15:00.000",
+      "end": "00:15:04.000",
+      "type": "chapter",
+      "text": "这些数据通路可以理解成芯片内",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_032",
+      "start": "00:15:30.000",
+      "end": "00:15:34.000",
+      "type": "principle",
+      "text": "很多通路会并行铺设一百二十八",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_033",
+      "start": "00:16:00.000",
+      "end": "00:16:04.000",
+      "type": "principle",
+      "text": "SoC 最终要焊在电路板上",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_034",
+      "start": "00:16:30.000",
+      "end": "00:16:34.000",
+      "type": "principle",
+      "text": "再把镜头拉近到 CPU",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_035",
+      "start": "00:17:00.000",
+      "end": "00:17:04.000",
+      "type": "chapter",
+      "text": "单个 CPU 核心内部同样复",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_036",
+      "start": "00:17:30.000",
+      "end": "00:17:34.000",
+      "type": "principle",
+      "text": "手机 CPU 普遍使用精简指",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_037",
+      "start": "00:18:00.000",
+      "end": "00:18:04.000",
+      "type": "principle",
+      "text": "许多手机厂商会从 ARM 获",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_038",
+      "start": "00:18:30.000",
+      "end": "00:18:34.000",
+      "type": "principle",
+      "text": "不管核心来自哪里",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_039",
+      "start": "00:19:00.000",
+      "end": "00:19:04.000",
+      "type": "chapter",
+      "text": "第一条叫硬件加速",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_040",
+      "start": "00:19:30.000",
+      "end": "00:19:34.000",
+      "type": "principle",
+      "text": "专用模块不仅更快",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_041",
+      "start": "00:20:00.000",
+      "end": "00:20:04.000",
+      "type": "principle",
+      "text": "第二条原则是低功耗优先",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_042",
+      "start": "00:20:30.000",
+      "end": "00:20:34.000",
+      "type": "principle",
+      "text": "CPU 也会分成大核和小核",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_043",
+      "start": "00:21:00.000",
+      "end": "00:21:04.000",
+      "type": "principle",
+      "text": "晶体管本身也在持续进化",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_044",
+      "start": "00:21:30.000",
+      "end": "00:21:34.000",
+      "type": "principle",
+      "text": "最后看看制造",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_045",
+      "start": "00:22:00.000",
+      "end": "00:22:04.000",
+      "type": "chapter",
+      "text": "一张硅片要经过一百二十到一百",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_046",
+      "start": "00:22:30.000",
+      "end": "00:22:34.000",
+      "type": "principle",
+      "text": "如果把 SoC 放大到纳米尺",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_047",
+      "start": "00:23:00.000",
+      "end": "00:23:04.000",
+      "type": "principle",
+      "text": "更上方还有全局互连层",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_048",
+      "start": "00:23:30.000",
+      "end": "00:23:34.000",
+      "type": "principle",
+      "text": "晶体管到底有多小",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_049",
+      "start": "00:24:00.000",
+      "end": "00:24:04.000",
+      "type": "principle",
+      "text": "所以",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_050",
+      "start": "00:24:30.000",
+      "end": "00:24:34.000",
+      "type": "principle",
+      "text": "从一块硅片到掌心里的手机",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    }
+  ]
+}

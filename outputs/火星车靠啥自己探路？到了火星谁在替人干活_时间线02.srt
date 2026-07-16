@@ -1,0 +1,1468 @@
+1
+00:00:01,500 --> 00:00:04,333
+this is the Mars rover perseverance
+这就是火星漫游者的毅力
+2
+00:00:04,333 --> 00:00:07,533
+the most advanced robot to land on another planet
+登陆另一个星球的最先进的机器人
+3
+00:00:07,900 --> 00:00:10,533
+in this video we'll take a look at how it was built
+在这个视频中，我们将看看它是如何建造的
+4
+00:00:11,033 --> 00:00:12,900
+the Atlas 5 launch
+Atlas 5发布
+5
+00:00:13,233 --> 00:00:14,800
+the journey to Mars
+火星之旅
+6
+00:00:15,066 --> 00:00:16,800
+and the scientific instruments
+和科学仪器
+7
+00:00:16,800 --> 00:00:18,900
+that allow it to study the surface
+让它能够研究表面
+8
+00:00:32,400 --> 00:00:34,200
+on February 2021
+2021年2月
+9
+00:00:34,200 --> 00:00:38,466
+a perseverance rover successfully touched down on Mars
+一辆坚持不懈的漫游者成功登陆火星
+10
+00:00:39,000 --> 00:00:42,466
+it costs a total of 25 billion US dollars
+总共要花250亿美元
+11
+00:00:42,933 --> 00:00:45,900
+it has many scientific instruments to help study Mars
+它有许多科学仪器来帮助研究火星
+12
+00:00:45,900 --> 00:00:47,466
+search for signs of life
+寻找生命迹象
+13
+00:00:47,466 --> 00:00:50,400
+and prepare the way for future human explorers
+并为未来的人类探险家铺平道路
+14
+00:00:51,933 --> 00:00:53,666
+perseverance is of course
+毅力当然是
+15
+00:00:53,666 --> 00:00:55,933
+not the first rover to visit Mars
+不是第一个访问火星的漫游者
+16
+00:00:55,933 --> 00:00:59,333
+sojourner was in 1997 a very small rover
+旅居者在1997年是一个非常小的漫游者
+17
+00:00:59,333 --> 00:01:01,533
+and here's a person for size comparison
+这是一个比较尺寸的人。
+18
+00:01:02,300 --> 00:01:05,000
+spirit and opportunity in 2004
+2004年的精神与机遇
+19
+00:01:05,066 --> 00:01:06,633
+these were identical rovers
+这些是一模一样的漫游者
+20
+00:01:06,633 --> 00:01:08,833
+sent just a few weeks apart from each other
+彼此相隔几周发送
+21
+00:01:09,600 --> 00:01:12,433
+curiosity landed in 2012
+好奇心在2012年登陆
+22
+00:01:13,033 --> 00:01:15,733
+and then perseverance in 2021
+然后在2021年坚持不懈
+23
+00:01:15,733 --> 00:01:17,300
+same size as curiosity
+和好奇心一样大
+24
+00:01:17,300 --> 00:01:19,400
+but much more advanced technology
+但更先进的技术
+25
+00:01:19,466 --> 00:01:20,933
+this is not a complete list
+这不是一个完整的列表
+26
+00:01:20,933 --> 00:01:23,700
+this just shows the most recent rovers sent by NASA
+这只是美国航天局最近发送的漫游者
+27
+00:01:23,700 --> 00:01:25,033
+in the United States
+在美国
+28
+00:01:25,233 --> 00:01:28,500
+for most of this video I'll be focusing on perseverance
+在这个视频的大部分时间里，我会把重点放在毅力上。
+29
+00:01:30,466 --> 00:01:33,400
+NASA designs and builds the rovers in Pasadena
+美国航天局在帕萨迪纳设计和制造漫游者
+30
+00:01:33,400 --> 00:01:34,200
+California
+加利福尼亚州
+31
+00:01:34,200 --> 00:01:37,666
+at the Jet Propulsion Laboratory or JPL for short
+喷气推进实验室或简称喷气推进实验室
+32
+00:01:38,333 --> 00:01:40,600
+this took about eight years of designing
+这花了大约八年的设计时间
+33
+00:01:40,600 --> 00:01:44,000
+building and testing to get perseverance ready to go
+建立和测试，让毅力做好准备
+34
+00:01:44,200 --> 00:01:45,866
+it was built in a clean room
+它是在一个干净的房间里建造的
+35
+00:01:45,866 --> 00:01:48,500
+that's free from dust or other contaminants
+没有灰尘或其他污染物
+36
+00:01:48,533 --> 00:01:50,500
+it's designed to work on another planet
+它被设计成在另一个星球上工作
+37
+00:01:50,500 --> 00:01:52,900
+different atmosphere different gravity
+不同的大气不同的重力
+38
+00:01:52,900 --> 00:01:55,200
+and most of all no repair station
+最重要的是没有维修站
+39
+00:01:55,266 --> 00:01:56,233
+it has to be engineered
+它必须经过设计
+40
+00:01:56,233 --> 00:01:59,300
+so well that it can last for years on its own
+如此之好，以至于它可以自己持续数年
+41
+00:01:59,800 --> 00:02:00,600
+on top of that
+除此之外
+42
+00:02:00,600 --> 00:02:02,400
+it has to be light and compact
+它必须轻巧紧凑
+43
+00:02:02,400 --> 00:02:04,833
+so it can fit inside of the launch vehicle
+所以它可以安装在运载火箭内部
+44
+00:02:06,866 --> 00:02:08,233
+once it was ready to go
+一旦它准备好了
+45
+00:02:08,233 --> 00:02:10,733
+the rover was carefully packaged up
+漫游者被精心包装
+46
+00:02:12,600 --> 00:02:14,833
+and then flown across the United States
+然后飞越美国
+47
+00:02:14,833 --> 00:02:16,100
+to Kennedy Space Center
+到肯尼迪航天中心
+48
+00:02:16,100 --> 00:02:18,933
+in Florida this is where the launch happened
+在佛罗里达州，这是发射发生的地方
+49
+00:02:19,133 --> 00:02:21,600
+the same place that NASA has been launching rockets
+就是美国航天局发射火箭的地方
+50
+00:02:21,600 --> 00:02:23,133
+since the 1960s
+自20世纪60年代以来
+51
+00:02:25,033 --> 00:02:26,533
+perseverance was installed
+毅力被安装
+52
+00:02:26,533 --> 00:02:28,333
+along with several other components
+以及其他几个组件
+53
+00:02:28,333 --> 00:02:30,600
+that went along for the journey to Mars
+一起去火星旅行
+54
+00:02:30,633 --> 00:02:32,300
+we'll talk about each one of these pieces
+我们将讨论这些作品中的每一件
+55
+00:02:32,300 --> 00:02:33,466
+later in the video
+稍后在视频中
+56
+00:02:33,833 --> 00:02:36,633
+this was all put inside of the payload fairing
+这都是放在有效载荷整流罩内的
+57
+00:02:38,333 --> 00:02:39,833
+then taken to the rocket
+然后被带到火箭上
+58
+00:02:39,866 --> 00:02:42,500
+and then lifted up to the very top
+然后上升到最高处
+59
+00:02:43,133 --> 00:02:45,600
+this rocket is called an Atlas 5
+这枚火箭叫做阿特拉斯5号
+60
+00:02:45,933 --> 00:02:47,233
+it's made by a company called
+它是由一家名为
+61
+00:02:47,233 --> 00:02:49,000
+the United Launch Alliance
+联合发射联盟
+62
+00:02:49,000 --> 00:02:50,633
+or ULA for short
+或简称ULA
+63
+00:02:51,866 --> 00:02:52,666
+let me point out
+让我指出
+64
+00:02:52,666 --> 00:02:55,033
+that the rover was actually upside down
+火星车实际上是颠倒的
+65
+00:02:55,033 --> 00:02:56,133
+for the launch
+为了发射
+66
+00:02:58,900 --> 00:03:01,900
+the best time to launch to Mars is about every
+发射到火星的最佳时间大约是每
+67
+00:03:01,933 --> 00:03:05,633
+26 months if we show this with the correct scale
+如果我们用正确的比例显示这个，26个月
+68
+00:03:05,733 --> 00:03:07,833
+you can barely even see the sun
+你几乎看不到太阳
+69
+00:03:09,100 --> 00:03:09,933
+for this animation
+对于这个动画
+70
+00:03:09,933 --> 00:03:10,733
+I'm going to show this
+我来展示一下
+71
+00:03:10,733 --> 00:03:13,066
+out of scale so we can see this a little better
+规模过大，这样我们可以更好地看到这个。
+72
+00:03:13,633 --> 00:03:15,233
+for the earth to get around the sun
+地球绕着太阳转
+73
+00:03:15,233 --> 00:03:17,500
+it takes exactly one year right
+正好需要一年，对吧？
+74
+00:03:17,500 --> 00:03:18,866
+no surprises there
+那里没有惊喜
+75
+00:03:19,266 --> 00:03:20,466
+Mars on the other hand
+另一方面，火星。
+76
+00:03:20,466 --> 00:03:23,200
+takes almost two years to get around the sun
+绕着太阳转几乎要两年
+77
+00:03:23,266 --> 00:03:25,300
+the best time to launch is right before
+发射的最佳时间就在之前
+78
+00:03:25,300 --> 00:03:27,300
+earth and Mars are lined up this
+地球和火星是这样排列的
+79
+00:03:27,300 --> 00:03:30,466
+is called a launch window and it happens about every
+被称为启动窗口，它发生在每个
+80
+00:03:30,500 --> 00:03:31,700
+26 months
+26个月
+81
+00:03:33,200 --> 00:03:36,900
+perseverance was launched on July 2020
+毅力于2020年7月推出
+82
+00:03:45,600 --> 00:03:48,200
+the four solid rocket boosters use up all their fuel
+四个固体火箭助推器耗尽了所有燃料
+83
+00:03:48,200 --> 00:03:49,066
+first
+第一
+84
+00:03:50,633 --> 00:03:52,400
+at 1 minute 49 seconds
+1分49秒
+85
+00:03:52,400 --> 00:03:55,066
+they are jettisoned or separated from the rocket
+它们被抛弃或与火箭分离
+86
+00:03:59,066 --> 00:04:00,900
+at 3 minutes 27 seconds
+3分27秒
+87
+00:04:00,900 --> 00:04:02,533
+the payload fairing is jettisoned
+有效载荷整流罩被丢弃
+88
+00:04:02,533 --> 00:04:04,633
+which exposes the spacecraft
+这暴露了飞船
+89
+00:04:07,266 --> 00:04:09,733
+next up the main booster runs out of fuel
+接下来主助推器燃料耗尽
+90
+00:04:09,733 --> 00:04:13,233
+at 4 minutes 28 seconds the main booster is separated
+4分28秒主助推器分离
+91
+00:04:13,233 --> 00:04:15,000
+and it will fall back to the earth
+它会落回地球
+92
+00:04:16,266 --> 00:04:18,233
+this is called the Centaur stage
+这叫半人马座阶段
+93
+00:04:18,433 --> 00:04:20,266
+its main engine now fires up
+它的主引擎现在启动了
+94
+00:04:21,900 --> 00:04:24,466
+this is what gets us into orbit around the earth
+这就是让我们进入绕地球轨道的原因
+95
+00:04:25,466 --> 00:04:28,733
+at 11 minutes and 30 seconds the engines shut off
+11分30秒时引擎熄火
+96
+00:04:29,300 --> 00:04:31,333
+this is called the coast phase
+这就是所谓的海岸阶段
+97
+00:04:31,800 --> 00:04:33,666
+we'll stay here for about a half hour
+我们会在这里呆半个小时
+98
+00:04:33,666 --> 00:04:35,100
+it's a good time to check things out
+这是检查东西的好时机
+99
+00:04:35,100 --> 00:04:37,300
+and make sure that everything is still working
+并确保一切正常。
+100
+00:04:37,300 --> 00:04:38,200
+as it should
+理所应当
+101
+00:04:39,233 --> 00:04:42,400
+and then we relight the engines for about eight minutes
+然后我们重新点燃引擎大约八分钟
+102
+00:04:42,400 --> 00:04:44,666
+this is called the earth escape burn
+这就是所谓的地球逃生燃烧
+103
+00:04:45,533 --> 00:04:48,100
+this is what gets us on a path towards Mars
+这让我们踏上了通往火星的道路
+104
+00:04:49,133 --> 00:04:51,133
+then the spacecraft separates
+然后飞船分离
+105
+00:04:52,433 --> 00:04:55,733
+it's traveling at 41,000 kilometers per hour
+它以每小时41000公里的速度飞行
+106
+00:04:57,000 --> 00:05:00,066
+and it will take about seven months to reach Mars
+大约需要七个月才能到达火星。
+107
+00:05:05,266 --> 00:05:08,200
+our spacecraft is made up of a few pieces
+我们的飞船由几块组成
+108
+00:05:08,700 --> 00:05:12,600
+here's the rover all folded up inside the descent stage
+这是火星车在降落阶段折叠起来的样子
+109
+00:05:12,600 --> 00:05:14,600
+this has eight rocket engines on it
+这上面有八个火箭引擎
+110
+00:05:14,600 --> 00:05:15,500
+the heat shield
+隔热罩
+111
+00:05:15,500 --> 00:05:17,233
+which slows us down through the atmosphere
+这会减慢我们在大气层中的速度
+112
+00:05:17,233 --> 00:05:18,600
+and protects the rover
+并保护漫游者
+113
+00:05:18,600 --> 00:05:19,500
+the back shell
+后壳
+114
+00:05:19,500 --> 00:05:20,400
+which protects the rover
+保护漫游者
+115
+00:05:20,400 --> 00:05:21,900
+as it descends to the surface of
+当它下降到表面时
+116
+00:05:21,900 --> 00:05:25,433
+Mars this is the cruise stage provides power
+火星这是巡航级提供动力
+117
+00:05:25,433 --> 00:05:27,066
+fuel tanks and thrusters
+油箱和推进器
+118
+00:05:27,066 --> 00:05:29,400
+and also keeps in communication with earth
+并与地球保持联系
+119
+00:05:30,333 --> 00:05:32,133
+this whole assembly stays together
+整个集会都在一起
+120
+00:05:32,133 --> 00:05:34,666
+during the seven month journey to Mars
+在七个月的火星之旅中
+121
+00:05:36,000 --> 00:05:38,400
+we'll need to adjust our path along the way
+一路上我们需要调整路线
+122
+00:05:39,266 --> 00:05:40,833
+we do this with the thrusters
+我们用推进器来做这个
+123
+00:05:40,833 --> 00:05:42,733
+on the side of the cruise stage
+在游轮舞台的一侧
+124
+00:05:46,600 --> 00:05:50,433
+this is called a trajectory correction maneuver or TCM
+这叫做弹道修正机动或TCM
+125
+00:05:50,433 --> 00:05:53,333
+and there are several of them on the way to Mars
+其中有几个正在去火星的路上。
+126
+00:06:02,933 --> 00:06:04,633
+landing on the surface of Mars
+登陆火星表面
+127
+00:06:04,633 --> 00:06:06,333
+is nothing short of intense
+简直就是激烈
+128
+00:06:06,333 --> 00:06:09,700
+they call this EDL or entry descent and landing
+他们称之为EDL或入口下降和着陆
+129
+00:06:09,933 --> 00:06:12,600
+often nicknamed the 7 minutes of terror
+常被戏称为恐怖的7分钟
+130
+00:06:12,600 --> 00:06:14,600
+this is because if anything goes wrong
+这是因为如果出了什么差错
+131
+00:06:14,600 --> 00:06:16,600
+then we'll likely fail to get the rover
+那我们可能就拿不到火星车了
+132
+00:06:16,600 --> 00:06:18,133
+safely to the surface
+安全着陆
+133
+00:06:19,266 --> 00:06:20,333
+at the time of landing
+着陆时
+134
+00:06:20,333 --> 00:06:21,900
+it will take about 11 minutes
+大约需要11分钟
+135
+00:06:21,900 --> 00:06:23,900
+for any signals to reach earth
+任何信号到达地球
+136
+00:06:23,900 --> 00:06:26,333
+this is of course traveling at the speed of light
+这当然是以光速旅行
+137
+00:06:26,333 --> 00:06:28,533
+the fastest that we know how to communicate
+我们知道如何最快地交流
+138
+00:06:31,600 --> 00:06:33,800
+it doesn't seem very fast does it
+它看起来不是很快，是吗？
+139
+00:06:33,933 --> 00:06:36,000
+11 minutes is a long time
+11分钟是很长的一段时间
+140
+00:06:36,033 --> 00:06:38,800
+to put this in perspective from earth to the moon
+从地球到月球的角度来看
+141
+00:06:38,800 --> 00:06:41,633
+light takes just over 1 second to get there
+光只需要1秒钟多一点就可以到达那里
+142
+00:06:43,666 --> 00:06:46,133
+when the Apollo astronauts were landing on the moon
+当Apollo宇航员登陆月球时
+143
+00:06:46,133 --> 00:06:49,400
+NASA could communicate with them almost in real time
+美国航天局几乎可以与他们实时通信
+144
+00:06:49,433 --> 00:06:51,300
+it would take about two and a/2 seconds
+大约需要2.5秒。
+145
+00:06:51,300 --> 00:06:52,733
+to receive a reply
+收到回复
+146
+00:06:54,733 --> 00:06:56,633
+on Mars this is completely
+在火星上这完全是
+147
+00:06:57,233 --> 00:06:59,200
+if something goes wrong during the landing
+如果着陆时出了什么问题
+148
+00:06:59,200 --> 00:07:02,433
+mission control won't hear about it for 11 minutes
+任务控制中心11分钟内不会收到消息
+149
+00:07:02,633 --> 00:07:05,466
+and any reply would take another 11 minutes to get
+任何回复都需要11分钟才能得到。
+150
+00:07:05,466 --> 00:07:06,633
+all the way back
+一路回来
+151
+00:07:07,400 --> 00:07:09,666
+by this point it will already be over
+到这时它已经结束了
+152
+00:07:09,833 --> 00:07:12,433
+either a safe landing or a crash
+不是安全着陆就是坠机
+153
+00:07:12,866 --> 00:07:14,233
+this means the computers
+这意味着电脑
+154
+00:07:14,233 --> 00:07:15,733
+electronics and the software
+电子和软件
+155
+00:07:15,733 --> 00:07:18,800
+must be smart enough to do everything on their own
+必须足够聪明，可以自己做任何事情
+156
+00:07:19,466 --> 00:07:21,933
+EDL entry descent and landing
+EDL入口下降和着陆
+157
+00:07:21,933 --> 00:07:24,000
+let's follow this through step by step
+让我们一步一步来
+158
+00:07:24,133 --> 00:07:26,800
+about 10 minutes before entering the atmosphere
+大约在进入大气层前10分钟
+159
+00:07:26,800 --> 00:07:27,733
+the cruise stage
+巡航阶段
+160
+00:07:27,733 --> 00:07:29,933
+is detached because it's no longer needed
+是分离的，因为它不再需要了。
+161
+00:07:33,600 --> 00:07:35,233
+small thrusters on the backshell
+后壳上的小型推进器
+162
+00:07:35,233 --> 00:07:37,833
+will now be used to steer the spacecraft
+将被用来操纵飞船
+163
+00:07:39,000 --> 00:07:41,266
+next comes atmospheric entry
+接下来是大气进入
+164
+00:07:41,266 --> 00:07:44,400
+the heat shield will protect the rover during this time
+在这段时间里隔热罩会保护漫游者
+165
+00:07:54,266 --> 00:07:57,066
+once we get about 11 kilometers above the ground
+一旦我们到达离地面11公里的地方
+166
+00:07:57,066 --> 00:07:58,900
+then the parachute can deploy
+然后降落伞就可以展开了
+167
+00:07:59,266 --> 00:08:01,800
+it uses a technology called range trigger
+它使用一种称为范围触发的技术
+168
+00:08:01,800 --> 00:08:04,400
+which finds out how close we are from the landing site
+它会发现我们离着陆点有多近
+169
+00:08:04,400 --> 00:08:05,933
+and then deploys the parachute
+然后打开降落伞
+170
+00:08:05,933 --> 00:08:07,500
+at just the right moment
+在适当的时候
+171
+00:08:11,666 --> 00:08:14,133
+next step is heat shield separation
+下一步是隔热罩分离
+172
+00:08:15,533 --> 00:08:16,433
+for the first time
+第一次
+173
+00:08:16,433 --> 00:08:19,233
+the perseverance rover can now see the Martian surface
+毅力漫游者现在可以看到火星表面了
+174
+00:08:19,233 --> 00:08:20,066
+down below
+下面
+175
+00:08:21,000 --> 00:08:23,466
+now we use Terrain Relative Navigation
+现在我们使用地形相对导航
+176
+00:08:23,466 --> 00:08:26,133
+the rover will be taking pictures of the ground beneath
+漫游者将拍摄下面的地面
+177
+00:08:26,133 --> 00:08:28,666
+it and comparing these to maps of Mars
+并将这些与火星地图进行比较
+178
+00:08:28,666 --> 00:08:31,033
+this will be used to safely steer the rover
+这将用于安全驾驶漫游者
+179
+00:08:31,033 --> 00:08:33,000
+towards the intended landing site
+朝着预定的着陆点
+180
+00:08:34,000 --> 00:08:36,300
+next comes backshell separation
+接下来是后壳分离
+181
+00:08:37,466 --> 00:08:40,400
+all that's left is the descent stage and the rover
+剩下的就是降落台和漫游者了
+182
+00:08:42,500 --> 00:08:44,433
+the rockets on the descent stage fire up
+火箭在下降阶段发射
+183
+00:08:44,433 --> 00:08:45,466
+to slow us down
+让我们慢下来
+184
+00:08:45,466 --> 00:08:47,500
+as we get closer to the surface
+当我们接近地表
+185
+00:08:50,600 --> 00:08:51,933
+then the rover separates
+然后漫游者分离
+186
+00:08:51,933 --> 00:08:54,100
+but still attached by some cables
+但仍然由一些电缆连接
+187
+00:08:54,100 --> 00:08:56,466
+they call this the sky crane maneuver
+他们称之为空中吊车机动
+188
+00:08:57,466 --> 00:09:00,600
+the final part everyone is waiting touchdown
+最后一部分每个人都在等待触地得分
+189
+00:09:01,666 --> 00:09:02,666
+the cables are cut
+电缆被切断了
+190
+00:09:02,666 --> 00:09:03,633
+and the descent stage
+和下降阶段
+191
+00:09:03,633 --> 00:09:06,066
+flies off into the distance for a crash landing
+飞向远方迫降
+192
+00:09:06,066 --> 00:09:07,666
+far away from the rover
+远离漫游者
+193
+00:09:08,266 --> 00:09:10,733
+now it's time to check out the rover's systems
+现在是时候检查漫游者的系统了
+194
+00:09:11,033 --> 00:09:12,500
+deploy the mast
+展开桅杆
+195
+00:09:13,000 --> 00:09:15,700
+and then the robotic arm in the very front
+然后是最前面的机械臂
+196
+00:09:15,866 --> 00:09:18,066
+the main purpose of the perseverance Rover
+毅力罗孚的主要目的
+197
+00:09:18,066 --> 00:09:19,900
+is to look for signs of life
+就是寻找生命的迹象
+198
+00:09:20,233 --> 00:09:21,733
+it landed in Jezreel Crater
+它降落在Jezreel陨石坑
+199
+00:09:21,733 --> 00:09:22,333
+which
+哪个
+200
+00:09:22,333 --> 00:09:25,033
+billions of years ago used to be filled with water
+数十亿年前这里曾经充满了水
+201
+00:09:25,033 --> 00:09:25,933
+where there is water
+有水的地方
+202
+00:09:25,933 --> 00:09:27,333
+there is usually life
+通常有生命
+203
+00:09:27,333 --> 00:09:30,466
+or at least signs that life existed in the past
+或者至少是过去存在生命的迹象
+204
+00:09:30,933 --> 00:09:33,200
+Perseverance Rover has an array of advanced
+毅力漫游者有一系列先进的
+205
+00:09:33,200 --> 00:09:36,400
+scientific instruments to study the surface of Mars
+研究火星表面的科学仪器
+206
+00:09:36,500 --> 00:09:39,500
+if you remember from earlier the rover is enormous
+如果你还记得之前的火星车是巨大的
+207
+00:09:39,500 --> 00:09:41,133
+it's about the size of a car
+大概有一辆车那么大
+208
+00:09:42,000 --> 00:09:44,533
+the main body of the rover they call the Web
+漫游者的主体他们称之为网络
+209
+00:09:44,633 --> 00:09:46,500
+Warm Electronics Box
+保暖电子盒
+210
+00:09:47,233 --> 00:09:48,700
+then you've got six wheels
+那你就有六个轮子了
+211
+00:09:48,700 --> 00:09:51,133
+three on each side that are made of aluminum
+两边各三个是铝制的
+212
+00:09:51,600 --> 00:09:53,733
+the front and back wheels can turn
+前后轮都能转
+213
+00:09:53,933 --> 00:09:57,400
+allowing the rover to spin a full 360 degrees
+让漫游者旋转整整360度
+214
+00:09:59,500 --> 00:10:00,733
+the suspension system
+悬挂系统
+215
+00:10:00,733 --> 00:10:03,533
+allows the rover to travel over rough terrain
+可以让漫游者在崎岖的地形上行驶
+216
+00:10:03,700 --> 00:10:05,400
+you never know what kind of obstacles
+你永远不知道什么样的障碍
+217
+00:10:05,400 --> 00:10:07,433
+you're going to come across on Mars
+你会在火星上遇到
+218
+00:10:09,000 --> 00:10:10,533
+but to be more realistic
+但更现实一点
+219
+00:10:10,533 --> 00:10:13,266
+the rover would be going about this fast
+漫游者会开得这么快
+220
+00:10:14,200 --> 00:10:17,433
+it has a top speed of 01 kilometers per hour
+它的最高时速为01公里
+221
+00:10:17,433 --> 00:10:19,533
+the slow speed is mainly for the safety
+速度慢主要是为了安全
+222
+00:10:19,533 --> 00:10:21,266
+and stability of the rover
+和漫游者的稳定性
+223
+00:10:22,333 --> 00:10:24,300
+this is the remote sensing mast
+这是遥感桅杆
+224
+00:10:24,300 --> 00:10:26,700
+this is the place where you'll find some of the cameras
+这是你能找到一些摄像机的地方
+225
+00:10:26,700 --> 00:10:28,233
+and sensors of the rover
+和漫游者的传感器
+226
+00:10:28,433 --> 00:10:30,800
+it's just a little taller than the height of a human
+只是比人类的身高高一点
+227
+00:10:31,133 --> 00:10:31,933
+the idea is
+想法是
+228
+00:10:31,933 --> 00:10:34,800
+to give us a similar view of what a person would see
+让我们对一个人会看到什么有类似的看法
+229
+00:10:34,800 --> 00:10:35,733
+if they were here
+如果他们在这里
+230
+00:10:35,733 --> 00:10:36,633
+on Mars
+在火星上
+231
+00:10:37,133 --> 00:10:39,933
+this big circle up on top is called the Supercam
+最上面的这个大圆圈叫作超级圆环。
+232
+00:10:40,233 --> 00:10:42,633
+it's basically a laser that can identify chemicals
+它基本上是一种激光，可以识别化学物质
+233
+00:10:42,633 --> 00:10:45,233
+in rocks from as much as 7 meters away
+在7米外的岩石中
+234
+00:10:46,666 --> 00:10:48,333
+this is the Mastcam Z
+这是Mastcam Z
+235
+00:10:48,333 --> 00:10:50,066
+these are the main cameras on the rover
+这些是探测器的主摄像头
+236
+00:10:50,066 --> 00:10:52,433
+that can even take high definition video
+甚至可以拍摄高清视频
+237
+00:10:53,200 --> 00:10:53,800
+navigation
+导航
+238
+00:10:53,800 --> 00:10:56,233
+cameras are used to help the rover safely drive
+摄像头是用来帮助漫游者安全行驶的
+239
+00:10:56,233 --> 00:10:57,666
+on the surface of Mars
+在火星表面
+240
+00:10:57,833 --> 00:11:01,300
+right below is the Mars Environmental Dynamics Analyzer
+正下方是火星环境动力学分析仪
+241
+00:11:01,300 --> 00:11:02,100
+or meta
+或元
+242
+00:11:02,100 --> 00:11:05,100
+this is studying the weather and atmosphere on Mars
+这是在研究火星上的天气和大气层
+243
+00:11:05,733 --> 00:11:08,666
+the rover has two microphones one on the mast
+漫游者有两个麦克风，一个在桅杆上
+244
+00:11:10,133 --> 00:11:12,266
+and then another on the side of the rover
+然后另一个在漫游者的侧面
+245
+00:11:14,200 --> 00:11:15,866
+then we have the hascams
+然后我们有hascams
+246
+00:11:15,866 --> 00:11:17,900
+which are short for hazard camera
+这是危险摄像头的缩写
+247
+00:11:17,900 --> 00:11:19,433
+there's some in the front here
+前面有一些
+248
+00:11:19,700 --> 00:11:21,300
+but also in the back
+但也在后面
+249
+00:11:21,300 --> 00:11:22,600
+like the name says
+就像名字说的
+250
+00:11:22,600 --> 00:11:25,433
+these cameras help avoid hazards and obstacles
+这些摄像头有助于避免危险和障碍物
+251
+00:11:25,433 --> 00:11:27,333
+while driving around on Mars
+在火星上开车时
+252
+00:11:27,866 --> 00:11:29,733
+the power source for the rover is called
+漫游者的电源称为
+253
+00:11:29,733 --> 00:11:30,933
+the radioisotope
+放射性同位素
+254
+00:11:30,933 --> 00:11:32,633
+thermoelectric generator
+热电发电机
+255
+00:11:32,633 --> 00:11:34,266
+or RTG for short
+或简称RTG
+256
+00:11:34,266 --> 00:11:35,833
+it's a nuclear power source
+这是一个核动力源
+257
+00:11:35,833 --> 00:11:38,533
+the decay of radioactive elements generates heat
+放射性元素的衰变产生热量
+258
+00:11:38,533 --> 00:11:40,733
+which can then be turned into electricity
+然后可以转化为电能
+259
+00:11:41,833 --> 00:11:44,633
+some of the previous rovers used solar panels
+以前的一些漫游者使用太阳能电池板
+260
+00:11:44,633 --> 00:11:46,500
+to generate power from the sunlight
+利用阳光发电
+261
+00:11:46,500 --> 00:11:47,866
+but this doesn't work at night
+但这在晚上不起作用
+262
+00:11:47,866 --> 00:11:49,666
+and if too much dust gets on it
+如果上面有太多灰尘
+263
+00:11:49,666 --> 00:11:51,333
+well then it's game over
+那么游戏结束了
+264
+00:11:51,600 --> 00:11:54,733
+both curiosity and perseverance used the RTG
+好奇心和毅力都使用了RTG
+265
+00:11:54,733 --> 00:11:58,033
+which means a lot more flexibility in regards to power
+这意味着在权力方面有更多的灵活性
+266
+00:11:59,700 --> 00:12:00,500
+this is
+这是
+267
+00:12:00,500 --> 00:12:04,700
+rimpax or Radar Imager for Mars Subsurface Experiment
+用于火星地下实验的rimpax或雷达成像仪
+268
+00:12:04,700 --> 00:12:07,233
+this uses radar waves to study the ground
+这是利用雷达波来研究地面
+269
+00:12:07,233 --> 00:12:10,300
+up to 9 meters below the surface of Mars
+在火星表面以下9米处
+270
+00:12:11,233 --> 00:12:12,633
+then there's Moxie
+还有莫邪
+271
+00:12:12,633 --> 00:12:16,200
+Mars Oxygen in Situ Resource Utilization Experiment
+火星氧原位资源利用实验
+272
+00:12:16,200 --> 00:12:18,200
+this takes the carbon dioxide on Mars
+这把火星上的二氧化碳
+273
+00:12:18,200 --> 00:12:19,900
+and turns it into oxygen
+并将其转化为氧气
+274
+00:12:19,900 --> 00:12:22,400
+this kind of technology will be very important
+这种技术将非常重要
+275
+00:12:22,400 --> 00:12:24,833
+once we start sending humans to Mars
+一旦我们开始把人类送上火星
+276
+00:12:25,633 --> 00:12:26,400
+and of course
+当然还有
+277
+00:12:26,400 --> 00:12:29,133
+the robot arm in the very front of the rover
+漫游者最前面的机械臂
+278
+00:12:29,133 --> 00:12:30,300
+this has a few tools
+这有几个工具
+279
+00:12:30,300 --> 00:12:32,833
+at the end with some really big NASA acronyms
+最后是美国航天局的缩写
+280
+00:12:32,833 --> 00:12:34,833
+so here we go Pixel
+所以我们开始吧Pixel
+281
+00:12:34,833 --> 00:12:35,000
+this
+这
+282
+00:12:35,000 --> 00:12:37,600
+helps to determine what chemicals make up the rocks
+有助于确定构成岩石的化学物质
+283
+00:12:37,600 --> 00:12:39,266
+on a very small scale
+在非常小的范围内
+284
+00:12:41,133 --> 00:12:43,233
+Watson another powerful camera
+沃森另一个强大的相机
+285
+00:12:43,233 --> 00:12:45,433
+to see the rocks with fine detail
+仔细观察岩石
+286
+00:12:47,000 --> 00:12:50,300
+and then Sherlock this provides fine scale imaging
+然后夏洛克这个提供了精细的成像
+287
+00:12:51,833 --> 00:12:54,600
+at the end of the arm is the coring drill
+臂的末端是取心钻
+288
+00:12:54,933 --> 00:12:57,700
+this is capable of drilling and collecting samples
+这能够钻探和收集样本
+289
+00:12:57,700 --> 00:12:58,666
+that will be stored
+那将被存储
+290
+00:12:58,666 --> 00:13:00,100
+on board the rover
+在漫游者上
+291
+00:13:05,233 --> 00:13:07,300
+then it will take these samples and place them
+然后它会采集这些样本并放置它们
+292
+00:13:07,300 --> 00:13:09,000
+inside of the rover
+漫游者内部
+293
+00:13:09,333 --> 00:13:10,533
+future mission is planned
+未来的任务已计划好
+294
+00:13:10,533 --> 00:13:12,700
+to take these samples from the surface of Mars
+从火星表面采集这些样本
+295
+00:13:12,700 --> 00:13:15,666
+and return them to earth so we can study them further
+并将它们送回地球以便我们进一步研究它们
+296
+00:13:16,900 --> 00:13:19,866
+so how does perseverance communicate back to earth
+那么毅力是如何与地球沟通的呢？
+297
+00:13:19,866 --> 00:13:22,833
+the best way is to use the Mars Relay Network
+最好的办法是使用火星中继网络
+298
+00:13:22,833 --> 00:13:24,900
+which consists of several satellites in
+它由几颗卫星组成
+299
+00:13:24,900 --> 00:13:26,466
+orbit around Mars
+环绕火星的轨道
+300
+00:13:27,066 --> 00:13:28,600
+these were launched long before
+这些是很久以前推出的
+301
+00:13:28,600 --> 00:13:30,300
+perseverance got to Mars
+毅力到达火星
+302
+00:13:30,433 --> 00:13:32,800
+these satellites are also used for science
+这些卫星也用于科学研究
+303
+00:13:32,800 --> 00:13:34,466
+and to communicate with other rovers
+并与其他漫游者交流
+304
+00:13:34,466 --> 00:13:36,100
+that are also on Mars
+也在火星上
+305
+00:13:36,333 --> 00:13:37,233
+for example one of these
+例如其中一个
+306
+00:13:37,233 --> 00:13:40,233
+satellites is called the Mars Reconnaissance Orbiter
+卫星叫做火星侦察轨道器
+307
+00:13:41,000 --> 00:13:43,600
+so perseverance can send data to the satellite
+所以毅力可以向卫星发送数据
+308
+00:13:43,933 --> 00:13:46,700
+which will then send it directly back home to earth
+然后将它直接送回地球
+309
+00:13:47,700 --> 00:13:48,800
+on the surface of Earth
+在地球表面
+310
+00:13:48,800 --> 00:13:51,000
+NASA uses massive satellite dishes
+美国航天局使用大量卫星天线
+311
+00:13:51,000 --> 00:13:52,300
+to communicate with spacecraft
+与飞船通信
+312
+00:13:52,300 --> 00:13:53,666
+throughout the solar system
+整个太阳系
+313
+00:13:53,666 --> 00:13:55,933
+this is part of the Deep Space Network
+这是深空网络的一部分
+314
+00:13:58,633 --> 00:13:59,300
+there are three
+有三个
+315
+00:13:59,300 --> 00:14:01,433
+main locations for these satellite dishes
+这些卫星天线的主要位置
+316
+00:14:01,433 --> 00:14:02,866
+Boldstone California
+加利福尼亚州博尔德斯通
+317
+00:14:04,333 --> 00:14:05,600
+Madrid Spain
+马德里西班牙
+318
+00:14:07,066 --> 00:14:08,800
+in Canberra Australia
+在澳大利亚堪培拉
+319
+00:14:10,666 --> 00:14:12,400
+no matter which way the earth is facing
+无论地球面向哪个方向
+320
+00:14:12,400 --> 00:14:15,033
+it will always be able to receive signals from Mars
+它将永远能够接收来自火星的信号
+321
+00:14:15,033 --> 00:14:17,533
+or other distant places in our solar system
+或者太阳系其他遥远的地方
+322
+00:14:19,300 --> 00:14:21,866
+perseverance has three antennas on board
+毅力号船上有三根天线
+323
+00:14:22,300 --> 00:14:25,633
+the UHF antenna or ultra high frequency antenna
+UHF天线或超高频天线
+324
+00:14:25,633 --> 00:14:27,933
+this communicates directly with satellites above
+这直接与上面的卫星通信
+325
+00:14:27,933 --> 00:14:30,933
+primarily used to send large amounts of information
+主要用于发送大量信息
+326
+00:14:31,466 --> 00:14:32,900
+the high gain antenna
+高增益天线
+327
+00:14:32,900 --> 00:14:35,433
+this transmits directly to and from earth
+这直接传入和传出地球
+328
+00:14:35,633 --> 00:14:37,233
+and then the low gain antenna
+然后是低增益天线
+329
+00:14:37,233 --> 00:14:39,933
+mostly used just to receive data from earth
+主要用于接收来自地球的数据
+330
+00:14:40,300 --> 00:14:42,866
+of course we can't forget about ingenuity
+我们当然不能忘记匠心
+331
+00:14:43,000 --> 00:14:45,133
+this is the helicopter that was sent to Mars
+这是被送往火星的直升机
+332
+00:14:45,133 --> 00:14:46,500
+along with the rover
+和漫游者一起
+333
+00:14:47,033 --> 00:14:49,433
+now where would you put a helicopter on the rover
+现在你会把直升机放在漫游者的哪里？
+334
+00:14:49,933 --> 00:14:50,733
+look closely
+仔细看
+335
+00:14:50,733 --> 00:14:54,000
+you'll see a little tiny black compartment right here
+你会在这里看到一个小小的黑色隔间
+336
+00:14:54,300 --> 00:14:55,900
+this is where it was stored
+这是存放它的地方
+337
+00:14:56,733 --> 00:14:58,333
+about two months after landing
+着陆后大约两个月
+338
+00:14:58,333 --> 00:15:01,433
+the helicopter was finally deployed onto the surface
+直升机最终被部署到地面上
+339
+00:15:01,433 --> 00:15:03,700
+the process took about a week to complete
+这个过程花了大约一周的时间才完成
+340
+00:15:04,333 --> 00:15:07,866
+first the cover is removed and we expose the helicopter
+首先把盖子拆了我们把直升机露出来
+341
+00:15:08,433 --> 00:15:11,800
+then it's unlatched carefully folded down
+然后打开，小心地折叠起来。
+342
+00:15:12,066 --> 00:15:13,200
+the legs come out
+腿出来了
+343
+00:15:13,533 --> 00:15:15,433
+and dropped onto the surface
+并落到表面上
+344
+00:15:15,600 --> 00:15:17,066
+perseverance can drive away
+毅力可以驱赶
+345
+00:15:17,066 --> 00:15:18,933
+and ingenuity can start to absorb the
+独创性可以开始吸收
+346
+00:15:18,933 --> 00:15:21,100
+sunlight on its solar panels
+太阳能电池板上的阳光
+347
+00:15:22,133 --> 00:15:23,900
+the helicopter has two rotors
+直升机有两个旋翼
+348
+00:15:23,900 --> 00:15:26,266
+that rotate in opposite directions
+以相反的方向旋转
+349
+00:15:27,500 --> 00:15:28,233
+on earth
+在地球上
+350
+00:15:28,233 --> 00:15:31,100
+most helicopter blades spin at only a few hundred
+大多数直升机叶片的转速只有几百
+351
+00:15:31,200 --> 00:15:33,666
+rpms or rotations per minute
+每分钟转速
+352
+00:15:34,333 --> 00:15:36,133
+for a helicopter to work on Mars
+让直升机在火星上工作
+353
+00:15:36,133 --> 00:15:38,533
+we have to spin the blades a lot faster
+我们必须把刀片转得更快
+354
+00:15:38,733 --> 00:15:41,300
+this is because the air is much thinner here
+这是因为这里的空气稀薄多了
+355
+00:15:42,000 --> 00:15:43,933
+the first test flight of ingenuity happened
+第一次独创性的试飞发生了
+356
+00:15:43,933 --> 00:15:46,433
+about two months after landing on Mars
+大约在登陆火星两个月后
+357
+00:15:46,433 --> 00:15:48,900
+the first helicopter to fly around on another planet
+第一架在另一个星球上飞行的直升机
+358
+00:15:48,900 --> 00:15:51,333
+and it turned out to be a huge success
+结果是一个巨大的成功
+359
+00:15:51,433 --> 00:15:52,400
+as of this video
+从这个视频开始
+360
+00:15:52,400 --> 00:15:54,000
+there's been a handful of flights
+有几个航班
+361
+00:15:54,000 --> 00:15:56,600
+and ingenuity is still operational
+独创性仍在运作
+362
+00:15:57,700 --> 00:16:00,300
+perseverance paves the way for future missions
+坚持不懈为未来的任务铺平道路
+363
+00:16:00,300 --> 00:16:00,700
+where we will
+我们将在哪里
+364
+00:16:00,700 --> 00:16:01,133
+hopefully
+满怀希望地
+365
+00:16:01,133 --> 00:16:04,233
+be able to return Martian samples back to earth
+能够将火星样本送回地球
+366
+00:16:04,633 --> 00:16:07,133
+and of course the next major milestone
+当然，下一个重要里程碑
+367
+00:16:07,266 --> 00:16:09,200
+sending humans to Mars
+把人类送上火星

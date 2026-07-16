@@ -38,8 +38,9 @@ Default style: calm documentary male narration, tech/engineering focus, natural 
 13. Mix the verbatim Chinese-subtitle MP3 with the default BGM using `scripts/mix_narration_with_bgm.py`. Use the project defaults: `music/硬核视界_通用BGM_舒缓科普探索_CC0.mp3`, music volume `0.45`, narration volume `1.0`, no ducking, no narration boost, no limiter, and no fade.
 14. Generate auto-ducked mixed MP3 with `scripts/auto_mix_audio.py` using the rewritten narration MP3 and the matched `videos/raw/` file. Only skip it when no matching source video exists.
 15. Validate `*_等长文本注释.json` with `scripts/validate_annotations_json.py`.
-16. Delete temporary test/smoke outputs before the final response. Remove files in `outputs/` or `outputs/audio/` whose names contain `_测试版_`, `_test`, or `_smoke`, while preserving formal output files.
-17. Report both timeline JSON files, Chinese narration SRT, annotation JSON, both pure-voice MP3 files, the BGM MP3, mixed MP3, duration, voice, and rate.
+16. Before replying, run a file-presence and content preflight. Do not treat the direct-subtitle branch as a substitute for the 等长解说 branch, and never create an 等长 file by copying, renaming, or re-rendering the unedited direct-subtitle timeline. Confirm that the 等长 JSON uses `mode: source_length_full_narration`, has natural rewritten Chinese `text` plus non-empty `english_text` for every segment, and materially differs from the Chinese cues in the source subtitle. Then confirm that all required files exist: `*_等长解说时间线.json`, `*_等长_Yunyang.mp3`, `*_中文解说.srt`, `*_中文字幕直读时间线.json`, `*_中文字幕直读_Yunyang.mp3`, `*_中文字幕直读_背景音乐_正式版.mp3`, `*_等长文本注释.json`, and, when the source video exists, `*_等长_自动混音_正式版.mp3`. Generate any missing or invalid artifact before the final response.
+17. Delete temporary test/smoke outputs before the final response. Remove files in `outputs/` or `outputs/audio/` whose names contain `_测试版_`, `_test`, or `_smoke`, while preserving formal output files.
+18. Report both timeline JSON files, Chinese narration SRT, annotation JSON, both pure-voice MP3 files, the BGM MP3, mixed MP3, duration, voice, and rate.
 
 ## Script Management
 
@@ -56,6 +57,8 @@ Default style: calm documentary male narration, tech/engineering focus, natural 
 - Convert digits to spoken Chinese when it improves TTS, such as `550` -> `五百五十`.
 - Keep key facts and numbers from the source.
 - Do not invent facts. If adding a simple explanation, keep it faithful to the source and visual context.
+- 默认提高中文解说的信息密度：在不超出时间窗、不遮蔽关键画面节奏的前提下，优先补充“为什么”“数据怎样流动”“这一设计带来的结果”等解释，而不是只复述字幕或画面。
+- 对 20–30 分钟视频，优先使用 50–80 个自然口播段；每 30 秒时间窗通常写 80–110 个中文字符，并根据实际 TTS 时长缩短或拆分。除非画面本身需要留白，不要让长时间窗只剩一两句解说。
 - Prefer "低沉、平稳、纪录片风格男声".
 - Avoid: `家人们`, `震惊`, `太离谱了`, `看到最后`, exaggerated claims, and sales pitch tone.
 

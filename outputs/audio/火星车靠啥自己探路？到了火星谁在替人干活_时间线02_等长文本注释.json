@@ -1,0 +1,863 @@
+{
+  "version": 1,
+  "source_subtitle": "火星车靠啥自己探路？到了火星谁在替人干活_时间线02.srt",
+  "target_video": "videos/raw/火星车靠啥自己探路？到了火星谁在替人干活.mp4",
+  "notes": "等长全程版视频文字注释，由解说时间线自动生成，可按画面微调。",
+  "annotations": [
+    {
+      "id": "anno_001",
+      "start": "00:00:00.000",
+      "end": "00:00:04.000",
+      "type": "chapter",
+      "text": "这台看上去像一辆小车的机器",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_002",
+      "start": "00:00:15.000",
+      "end": "00:00:18.500",
+      "type": "callout",
+      "text": "是 NASA 的毅力号火星车",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_003",
+      "start": "00:00:30.000",
+      "end": "00:00:34.000",
+      "type": "chapter",
+      "text": "二零二一年二月",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_004",
+      "start": "00:00:45.000",
+      "end": "00:00:48.500",
+      "type": "callout",
+      "text": "毅力号成功抵达火星",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_005",
+      "start": "00:01:00.000",
+      "end": "00:01:04.000",
+      "type": "principle",
+      "text": "在它之前",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_006",
+      "start": "00:01:15.000",
+      "end": "00:01:18.500",
+      "type": "callout",
+      "text": "NASA 已经派出过旅居者",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_007",
+      "start": "00:01:30.000",
+      "end": "00:01:34.000",
+      "type": "principle",
+      "text": "这台火星车在加州喷气推进实验",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_008",
+      "start": "00:01:45.000",
+      "end": "00:01:48.500",
+      "type": "callout",
+      "text": "制造和测试",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_009",
+      "start": "00:02:00.000",
+      "end": "00:02:04.000",
+      "type": "principle",
+      "text": "火星和地球的大气",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_010",
+      "start": "00:02:15.000",
+      "end": "00:02:18.500",
+      "type": "callout",
+      "text": "重力都不同",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_011",
+      "start": "00:02:30.000",
+      "end": "00:02:34.000",
+      "type": "principle",
+      "text": "准备就绪后",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_012",
+      "start": "00:02:45.000",
+      "end": "00:02:48.500",
+      "type": "callout",
+      "text": "火星车被运到佛罗里达的肯尼迪",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_013",
+      "start": "00:03:00.000",
+      "end": "00:03:04.000",
+      "type": "principle",
+      "text": "去火星不是想飞就能飞",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_014",
+      "start": "00:03:15.000",
+      "end": "00:03:18.500",
+      "type": "callout",
+      "text": "地球绕太阳一圈是一年",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_015",
+      "start": "00:03:30.000",
+      "end": "00:03:34.000",
+      "type": "principle",
+      "text": "二零二零年七月",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_016",
+      "start": "00:03:45.000",
+      "end": "00:03:48.500",
+      "type": "callout",
+      "text": "毅力号升空",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_017",
+      "start": "00:04:00.000",
+      "end": "00:04:04.000",
+      "type": "principle",
+      "text": "进入近地轨道后",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_018",
+      "start": "00:04:15.000",
+      "end": "00:04:18.500",
+      "type": "callout",
+      "text": "火箭先滑行一段时间",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_019",
+      "start": "00:04:30.000",
+      "end": "00:04:34.000",
+      "type": "principle",
+      "text": "巡航途中",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_020",
+      "start": "00:04:45.000",
+      "end": "00:04:48.500",
+      "type": "callout",
+      "text": "毅力号被包在一整套保护结构里",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_021",
+      "start": "00:05:00.000",
+      "end": "00:05:04.000",
+      "type": "chapter",
+      "text": "飞往火星不是一条一成不变的直",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_022",
+      "start": "00:05:15.000",
+      "end": "00:05:18.500",
+      "type": "callout",
+      "text": "途中会进行多次轨道修正",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_023",
+      "start": "00:05:30.000",
+      "end": "00:05:34.000",
+      "type": "principle",
+      "text": "真正紧张的部分",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_024",
+      "start": "00:05:45.000",
+      "end": "00:05:48.500",
+      "type": "callout",
+      "text": "是抵达火星后的进入",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_025",
+      "start": "00:06:00.000",
+      "end": "00:06:04.000",
+      "type": "principle",
+      "text": "接近火星时",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_026",
+      "start": "00:06:30.000",
+      "end": "00:06:34.000",
+      "type": "principle",
+      "text": "降落伞能减速",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_027",
+      "start": "00:07:00.000",
+      "end": "00:07:04.000",
+      "type": "principle",
+      "text": "接下来背壳分离",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_028",
+      "start": "00:07:30.000",
+      "end": "00:07:34.000",
+      "type": "principle",
+      "text": "下降级悬停在上方",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_029",
+      "start": "00:08:00.000",
+      "end": "00:08:04.000",
+      "type": "principle",
+      "text": "成功着陆后",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_030",
+      "start": "00:08:30.000",
+      "end": "00:08:34.000",
+      "type": "principle",
+      "text": "毅力号大约一辆车那么大",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_031",
+      "start": "00:09:00.000",
+      "end": "00:09:04.000",
+      "type": "chapter",
+      "text": "火星车的最高速度只有大约每小",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_032",
+      "start": "00:09:30.000",
+      "end": "00:09:34.000",
+      "type": "principle",
+      "text": "桅杆就像火星车的眼睛和脖子",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_033",
+      "start": "00:10:00.000",
+      "end": "00:10:04.000",
+      "type": "principle",
+      "text": "Mastcam-Z 能拍摄高",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_034",
+      "start": "00:10:30.000",
+      "end": "00:10:34.000",
+      "type": "principle",
+      "text": "它的电力来自放射性同位素热电",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_035",
+      "start": "00:11:00.000",
+      "end": "00:11:04.000",
+      "type": "principle",
+      "text": "车身里还有不少看不见的实验室",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_036",
+      "start": "00:11:30.000",
+      "end": "00:11:34.000",
+      "type": "chapter",
+      "text": "前方机械臂像一套野外地质工具",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_037",
+      "start": "00:12:00.000",
+      "end": "00:12:04.000",
+      "type": "principle",
+      "text": "机械臂末端还有取芯钻",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_038",
+      "start": "00:12:30.000",
+      "end": "00:12:34.000",
+      "type": "principle",
+      "text": "火星车和地球之间并不是直接打",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_039",
+      "start": "00:13:00.000",
+      "end": "00:13:04.000",
+      "type": "principle",
+      "text": "地球端的深空网络",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_040",
+      "start": "00:13:30.000",
+      "end": "00:13:34.000",
+      "type": "principle",
+      "text": "毅力号本身也有三类天线",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_041",
+      "start": "00:14:00.000",
+      "end": "00:14:04.000",
+      "type": "principle",
+      "text": "别忘了",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_042",
+      "start": "00:14:30.000",
+      "end": "00:14:34.000",
+      "type": "principle",
+      "text": "机智号有两副反向旋转的桨叶",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_043",
+      "start": "00:15:00.000",
+      "end": "00:15:04.000",
+      "type": "chapter",
+      "text": "首次试飞发生在抵达火星大约两",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_044",
+      "start": "00:15:30.000",
+      "end": "00:15:34.000",
+      "type": "principle",
+      "text": "毅力号的意义",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_045",
+      "start": "00:16:00.000",
+      "end": "00:16:04.000",
+      "type": "principle",
+      "text": "这台火星车替人类在陌生世界里",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    }
+  ]
+}

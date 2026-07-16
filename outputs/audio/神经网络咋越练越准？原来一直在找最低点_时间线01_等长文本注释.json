@@ -1,0 +1,863 @@
+{
+  "version": 1,
+  "source_subtitle": "神经网络咋越练越准？原来一直在找最低点_时间线01.srt",
+  "target_video": "",
+  "notes": "等长全程版视频文字注释，由解说时间线自动生成，可按画面微调。",
+  "annotations": [
+    {
+      "id": "anno_001",
+      "start": "00:00:00.000",
+      "end": "00:00:04.000",
+      "type": "chapter",
+      "text": "上一期",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_002",
+      "start": "00:00:15.000",
+      "end": "00:00:18.500",
+      "type": "callout",
+      "text": "我们看到了神经网络怎样把一张",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_003",
+      "start": "00:00:30.000",
+      "end": "00:00:34.000",
+      "type": "chapter",
+      "text": "输入图像由二十八乘二十八个像",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_004",
+      "start": "00:00:45.000",
+      "end": "00:00:48.500",
+      "type": "callout",
+      "text": "每个像素的灰度值会激活输入层",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_005",
+      "start": "00:01:00.000",
+      "end": "00:01:04.000",
+      "type": "principle",
+      "text": "哪怕只放两层隐藏层",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_006",
+      "start": "00:01:15.000",
+      "end": "00:01:18.500",
+      "type": "callout",
+      "text": "每层十六个神经元",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_007",
+      "start": "00:01:30.000",
+      "end": "00:01:34.000",
+      "type": "principle",
+      "text": "训练的目标",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_008",
+      "start": "00:01:45.000",
+      "end": "00:01:48.500",
+      "type": "callout",
+      "text": "是把大量已经标好答案的手写数",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_009",
+      "start": "00:02:00.000",
+      "end": "00:02:04.000",
+      "type": "principle",
+      "text": "这正是 MNIST 数据集成",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_010",
+      "start": "00:02:15.000",
+      "end": "00:02:18.500",
+      "type": "callout",
+      "text": "它提供了数万张带标签的数字图",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_011",
+      "start": "00:02:30.000",
+      "end": "00:02:34.000",
+      "type": "principle",
+      "text": "刚开始时",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_012",
+      "start": "00:03:00.000",
+      "end": "00:03:04.000",
+      "type": "principle",
+      "text": "办法是定义一个代价函数",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_013",
+      "start": "00:03:30.000",
+      "end": "00:03:34.000",
+      "type": "principle",
+      "text": "网络判断得又准又自信",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_014",
+      "start": "00:04:00.000",
+      "end": "00:04:04.000",
+      "type": "principle",
+      "text": "于是问题被改写了",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_015",
+      "start": "00:04:30.000",
+      "end": "00:04:34.000",
+      "type": "principle",
+      "text": "代价函数把所有参数作为输入",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_016",
+      "start": "00:05:00.000",
+      "end": "00:05:04.000",
+      "type": "chapter",
+      "text": "先把超高维空间忘掉",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_017",
+      "start": "00:05:30.000",
+      "end": "00:05:34.000",
+      "type": "principle",
+      "text": "当前位置的斜率",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_018",
+      "start": "00:06:00.000",
+      "end": "00:06:04.000",
+      "type": "principle",
+      "text": "这就是梯度下降最直观的画面",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_019",
+      "start": "00:06:30.000",
+      "end": "00:06:34.000",
+      "type": "principle",
+      "text": "但它未必会到达全局最低点",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_020",
+      "start": "00:07:00.000",
+      "end": "00:07:04.000",
+      "type": "principle",
+      "text": "在高维空间里",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_021",
+      "start": "00:07:30.000",
+      "end": "00:07:34.000",
+      "type": "principle",
+      "text": "这个由所有偏导数组成的方向",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_022",
+      "start": "00:08:00.000",
+      "end": "00:08:04.000",
+      "type": "principle",
+      "text": "学习率太小",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_023",
+      "start": "00:08:30.000",
+      "end": "00:08:34.000",
+      "type": "principle",
+      "text": "理论上",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_024",
+      "start": "00:09:00.000",
+      "end": "00:09:04.000",
+      "type": "chapter",
+      "text": "这叫随机梯度下降",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_025",
+      "start": "00:09:30.000",
+      "end": "00:09:34.000",
+      "type": "principle",
+      "text": "现在还差最后一个难题",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_026",
+      "start": "00:10:00.000",
+      "end": "00:10:04.000",
+      "type": "principle",
+      "text": "先看输出层",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_027",
+      "start": "00:10:30.000",
+      "end": "00:10:34.000",
+      "type": "principle",
+      "text": "输出层的误差可以沿着连接反传",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_028",
+      "start": "00:11:00.000",
+      "end": "00:11:04.000",
+      "type": "principle",
+      "text": "这就是反向传播",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_029",
+      "start": "00:11:30.000",
+      "end": "00:11:34.000",
+      "type": "chapter",
+      "text": "直观地说",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_030",
+      "start": "00:12:00.000",
+      "end": "00:12:04.000",
+      "type": "principle",
+      "text": "当这个过程对一批又一批训练样",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_031",
+      "start": "00:12:30.000",
+      "end": "00:12:34.000",
+      "type": "principle",
+      "text": "训练曲线通常会先快速下降",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_032",
+      "start": "00:13:00.000",
+      "end": "00:13:04.000",
+      "type": "principle",
+      "text": "调整隐藏层结构和训练细节后",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_033",
+      "start": "00:13:30.000",
+      "end": "00:13:34.000",
+      "type": "principle",
+      "text": "最初我们也许会猜想",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_034",
+      "start": "00:14:00.000",
+      "end": "00:14:04.000",
+      "type": "principle",
+      "text": "在这个小网络里",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_035",
+      "start": "00:14:30.000",
+      "end": "00:14:34.000",
+      "type": "principle",
+      "text": "这说明优化找到的",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_036",
+      "start": "00:15:00.000",
+      "end": "00:15:04.000",
+      "type": "chapter",
+      "text": "再输入一张随机噪声图",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_037",
+      "start": "00:15:30.000",
+      "end": "00:15:34.000",
+      "type": "principle",
+      "text": "换句话说",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_038",
+      "start": "00:16:00.000",
+      "end": "00:16:04.000",
+      "type": "principle",
+      "text": "这套基础网络来自较早时期的研",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_039",
+      "start": "00:16:30.000",
+      "end": "00:16:34.000",
+      "type": "principle",
+      "text": "如果希望网络更容易抓住边缘和",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_040",
+      "start": "00:17:00.000",
+      "end": "00:17:04.000",
+      "type": "chapter",
+      "text": "把视角转向更深的网络",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_041",
+      "start": "00:17:30.000",
+      "end": "00:17:34.000",
+      "type": "principle",
+      "text": "这就提出一个问题",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_042",
+      "start": "00:18:00.000",
+      "end": "00:18:04.000",
+      "type": "principle",
+      "text": "面对随机标签",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_043",
+      "start": "00:18:30.000",
+      "end": "00:18:34.000",
+      "type": "principle",
+      "text": "一些研究还提示",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_044",
+      "start": "00:19:00.000",
+      "end": "00:19:04.000",
+      "type": "chapter",
+      "text": "所以",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_045",
+      "start": "00:19:30.000",
+      "end": "00:19:34.000",
+      "type": "principle",
+      "text": "从手写数字到今天的图像识别和",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    }
+  ]
+}

@@ -2,6 +2,66 @@
 
 用于集中保存每条推荐的完整 11 项信息与封面路径，便于后续查阅。
 
+## 2026-07-16 - How do Smartphone CPUs Work? || Inside the System on a Chip
+
+视频链接：https://www.youtube.com/watch?v=NKfW8ijmRQ4
+视频标题：How do Smartphone CPUs Work? || Inside the System on a Chip
+频道：Branch Education
+内容分类：#AI #AI硬件 #手机芯片 #3D动画
+推荐理由：把手机 SoC 的 CPU、GPU、图像处理和数据通路放进同一套 3D 视角，能自然接上已有的 CPU、GPU、内存系列。题目可直接落到“手机为什么装得下这么多算力”，既有 AI 硬件关联，也有强视觉拆解感。
+搬运适合度（★★★★★）：★★★★★
+中文字幕难度：中
+国内受众潜力：高
+B站标题建议：手机芯片为什么塞得下CPU、GPU和AI，3D拆开SoC看懂
+抖音标题建议：手机这么薄，芯片里到底塞了多少东西？
+快手标题建议：手机芯片里CPU和GPU咋挤在一起干活？
+小红书标题建议：手机SoC结构图解，看懂CPU、GPU和AI模块怎么协同
+封面文案：手机芯片 到底怎么跑
+视频简介：一颗手机芯片不只是“CPU”，它把运算、图形、拍照和数据传输塞进极小空间。跟着 3D 拆解视角，看清 SoC 内部有哪些核心模块、数据如何流动，以及手机为何能在掌心完成复杂计算。
+首页推荐封面 4:3：L:/workspace/yinghe-shijie/covers/smartphone-soc/smartphone-soc-cover-4x3.png
+个人空间封面 16:9：L:/workspace/yinghe-shijie/covers/smartphone-soc/smartphone-soc-cover-16x9.png
+状态：已推荐
+
+## 2026-07-16 - What are PCBs? || How do PCBs Work?
+
+视频链接：https://www.youtube.com/watch?v=Z2LgmIGE2nI
+视频标题：What are PCBs? || How do PCBs Work?
+频道：Branch Education
+内容分类：#科技纪录片 #芯片制造 #PCB #3D动画
+推荐理由：PCB 是所有电子设备里最常见、也最容易被忽略的“隐形高速公路”。多层板、铜线、过孔和元件连接能做出很强的分层视觉奇观，适合承接芯片与整机硬件系列，也方便包装成大众熟悉的“主板里为什么像迷宫”。
+搬运适合度（★★★★★）：★★★★★
+中文字幕难度：中
+国内受众潜力：高
+B站标题建议：一块PCB里藏了多少层电路，主板迷宫3D拆开看
+抖音标题建议：一块主板，为什么像几十层立交桥？
+快手标题建议：主板里密密麻麻的线，到底都是干啥的？
+小红书标题建议：PCB电路板结构图解，看懂多层线路怎样连接芯片
+封面文案：一块PCB 藏了多少层
+视频简介：手机和电脑里的元件并不是随便焊在一起，而是通过多层 PCB 上密如城市路网的铜线连接。视频用分层 3D 动画展示线路、过孔和芯片如何协作，让你一眼看懂主板为什么像精密迷宫。
+首页推荐封面 4:3：L:/workspace/yinghe-shijie/covers/pcb-how-it-works/pcb-how-it-works-cover-4x3.png
+个人空间封面 16:9：L:/workspace/yinghe-shijie/covers/pcb-how-it-works/pcb-how-it-works-cover-16x9.png
+状态：已推荐
+
+## 2026-07-16 - How do Electron Microscopes Work? 🔬🛠🔬 Taking Pictures of Atoms
+
+视频链接：https://www.youtube.com/watch?v=9DnnxvS6BBQ
+视频标题：How do Electron Microscopes Work? 🔬🛠🔬 Taking Pictures of Atoms
+频道：Branch Education
+内容分类：#科技纪录片 #芯片制造 #电子显微镜 #3D动画
+推荐理由：电子显微镜把“看见原子”和“芯片线宽如何被检测”两个强大众问题连在一起，画面包含电子束、透镜与纳米结构，几乎没有真人依赖。既适合做科技奇观，也能延展到芯片制造、材料和医学观察系列。
+搬运适合度（★★★★★）：★★★★★
+中文字幕难度：中
+国内受众潜力：高
+B站标题建议：原子真的能拍到吗，电子显微镜如何看清纳米世界
+抖音标题建议：原子看不见，科学家到底怎么给它拍照？
+快手标题建议：显微镜再强也看不到原子？电子显微镜咋办到的
+小红书标题建议：电子显微镜原理图解，看懂人类如何观察纳米世界
+封面文案：原子也能 拍清楚？
+视频简介：普通光学显微镜看不清原子尺度的世界，电子显微镜为何能做到？这条 3D 动画把电子束、磁透镜和样品成像过程拆开，顺带看懂芯片制造为何离不开观察纳米结构的“超级眼睛”。
+首页推荐封面 4:3：L:/workspace/yinghe-shijie/covers/electron-microscopes/electron-microscopes-cover-4x3.png
+个人空间封面 16:9：L:/workspace/yinghe-shijie/covers/electron-microscopes/electron-microscopes-cover-16x9.png
+状态：已推荐
+
 ## 2026-07-14 - But what is a Neural Network? | Deep learning chapter 1
 
 视频链接：https://www.youtube.com/watch?v=aircAruvnKk
