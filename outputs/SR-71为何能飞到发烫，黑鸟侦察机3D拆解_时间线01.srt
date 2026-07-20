@@ -1,0 +1,3352 @@
+1
+00:00:01,400 --> 00:00:02,800
+i'm jake o'neill
+我是杰克·奥尼尔
+2
+00:00:03,066 --> 00:00:04,666
+creator of animagraphs
+动画创作者
+3
+00:00:06,000 --> 00:00:09,900
+and this is the lockheed sr-71 blackbird
+这是洛克希德SR-71黑鸟
+4
+00:00:14,900 --> 00:00:18,900
+the sr-71 entered service in the united states air force
+sr-71进入美国空军服役
+5
+00:00:18,933 --> 00:00:22,366
+in nineteen sixty six as a reconnaissance aircraft
+1966年作为侦察机
+6
+00:00:22,800 --> 00:00:23,733
+or in other words
+或者换句话说
+7
+00:00:23,900 --> 00:00:25,000
+a spy plane
+侦察机
+8
+00:00:27,733 --> 00:00:30,400
+it doesn't carry bombs or have onboard guns
+它不携带炸弹或机载枪支
+9
+00:00:32,000 --> 00:00:33,933
+its main defense against enemy
+它对敌人的主要防御
+10
+00:00:33,966 --> 00:00:36,100
+action is altitude and speed
+动作是高度和速度
+11
+00:00:36,533 --> 00:00:38,866
+which made it essentially invulnerable
+这使得它基本上无懈可击
+12
+00:00:40,766 --> 00:00:42,533
+sustaining Mach three point two
+保持3.2马赫
+13
+00:00:42,866 --> 00:00:45,533
+that is three point two times the speed of sound
+是音速的3.2倍
+14
+00:00:45,866 --> 00:00:48,100
+which roughly correlates to about two
+这大致与大约两个相关
+15
+00:00:48,100 --> 00:00:51,166
+thousand two hundred plus miles per hour at
+每小时一千二百多英里
+16
+00:00:51,166 --> 00:00:53,966
+altitudes up to eighty five thousand feet
+高度高达八万五千英尺
+17
+00:00:57,666 --> 00:01:03,266
+no sr-71 was ever shot down to evade
+没有SR-71被击落以躲避
+18
+00:01:03,300 --> 00:01:04,966
+missiles or hostile aircraft
+导弹或敌机
+19
+00:01:05,166 --> 00:01:07,900
+if they could even reach the sr-71's altitude
+如果他们能到达SR-71的高度
+20
+00:01:08,566 --> 00:01:10,400
+pilots simply outran them
+飞行员只是跑得比他们快
+21
+00:01:14,766 --> 00:01:16,966
+every part of this masterpiece is
+这部杰作的每一部分都是
+22
+00:01:16,966 --> 00:01:18,733
+designed for its mission goals
+为其使命目标而设计
+23
+00:01:19,566 --> 00:01:22,333
+let's have a general look around the plane to get an idea
+让我们看看飞机周围的情况
+24
+00:01:22,333 --> 00:01:25,400
+of how those goals translate into the physical design of
+这些目标如何转化为物理设计
+25
+00:01:25,400 --> 00:01:29,300
+things before we zoom in on the finer details of each system
+在我们放大每个系统的更精细细节之前
+26
+00:01:34,300 --> 00:01:37,500
+the blackbird is a relatively large airplane compared to
+黑鸟是相对较大的飞机相比
+27
+00:01:37,500 --> 00:01:39,966
+other fighter or reconnaissance craft of the era
+时代的其他战斗机或侦察机
+28
+00:01:42,133 --> 00:01:43,900
+flying at untouchable altitudes and
+在不可触及的高度飞行
+29
+00:01:43,900 --> 00:01:47,300
+speeds simply requires a lot of fuel
+速度只是需要大量的燃料
+30
+00:01:50,133 --> 00:01:53,133
+two thirds of the fuselage is occupied by cylindrical
+机身的三分之二被圆柱形占据
+31
+00:01:53,133 --> 00:01:57,400
+fuel tanks and any usable space in the wings for a total
+燃料箱和机翼上的任何可用空间总计
+32
+00:01:57,400 --> 00:02:00,500
+capacity of twelve thousand two hundred and nineteen
+容量一万二千二百一十九
+33
+00:02:00,533 --> 00:02:04,400
+point two gallons weighing in at around eighty thousand
+2加仑重约8万
+34
+00:02:04,666 --> 00:02:06,966
+two hundred and eighty five pounds of fuel
+285磅燃料
+35
+00:02:10,400 --> 00:02:12,600
+a pair of powerful jet engines are
+一对强大的喷气发动机
+36
+00:02:12,666 --> 00:02:14,600
+secured into the wings at both sides
+固定在两侧的机翼上
+37
+00:02:17,900 --> 00:02:20,933
+a substantial portion of this compartment called the
+这个隔间的很大一部分叫做
+38
+00:02:20,933 --> 00:02:24,733
+nacelle is dedicated to large movable inlet cones
+机舱专用于大型可移动入口锥
+39
+00:02:24,733 --> 00:02:28,466
+called spikes which as we'll see later are critical
+叫做尖峰，我们稍后会看到这是至关重要的。
+40
+00:02:28,466 --> 00:02:31,666
+for the sr-71's supersonic speed capabilities
+SR-71的超音速能力
+41
+00:02:34,733 --> 00:02:37,566
+a row of flaps along the back of the wing called
+机翼后面的一排襟翼叫做
+42
+00:02:37,600 --> 00:02:44,266
+ailerons and rudders perched atop each nacelle make
+每个机舱上的副翼和方向舵
+43
+00:02:44,266 --> 00:02:46,866
+up the flight control surfaces for the plane
+在飞机的飞行控制面上
+44
+00:02:51,466 --> 00:02:52,300
+heading to the front
+走向前线
+45
+00:02:52,400 --> 00:02:58,333
+there are two cockpits for the pilot and
+飞行员有两个驾驶舱
+46
+00:02:58,333 --> 00:03:00,766
+reconnaissance systems officer respectively
+侦察系统军官
+47
+00:03:03,566 --> 00:03:06,400
+equipment bays surround the cockpits and can be fitted
+驾驶舱周围有设备舱，可以安装
+48
+00:03:06,400 --> 00:03:08,500
+with an array of components depending on the mission
+根据任务有一系列组件
+49
+00:03:11,466 --> 00:03:13,400
+as well as the removable nose section
+还有可拆卸的鼻子部分
+50
+00:03:18,100 --> 00:03:20,500
+now let's get into the details starting
+现在让我们从细节开始
+51
+00:03:20,500 --> 00:03:22,500
+with the exterior aerodynamics
+与外部空气动力学
+52
+00:03:25,366 --> 00:03:27,133
+the engines appear to be tilted
+引擎似乎倾斜了
+53
+00:03:27,133 --> 00:03:28,766
+slightly downwards on the ground
+在地面上稍微向下
+54
+00:03:31,600 --> 00:03:34,366
+at cruising altitude and speed they're closer to
+在巡航高度和速度下，它们更接近
+55
+00:03:34,366 --> 00:03:38,800
+level with a fuselage and wing designed to sit at six
+与机身和机翼设计成6平
+56
+00:03:38,800 --> 00:03:41,800
+degrees positive rotation or angle of attack
+正旋转或迎角
+57
+00:03:44,666 --> 00:03:46,100
+to carry sufficient fuel
+携带足够的燃料
+58
+00:03:46,100 --> 00:03:47,400
+equipment and personnel
+设备和人员
+59
+00:03:47,700 --> 00:03:51,133
+the fuselage and nose of the plane is quite long
+飞机的机身和机头相当长
+60
+00:03:53,933 --> 00:03:56,066
+the Blackbird has a Delta wing design
+黑鸟有三角翼设计
+61
+00:03:56,166 --> 00:03:58,000
+so called for its triangular shape
+所谓的三角形
+62
+00:03:58,066 --> 00:03:59,466
+like a Greek Delta character
+就像希腊三角洲的角色
+63
+00:04:02,500 --> 00:04:04,666
+exceeding the speed of sound or going
+超过音速的
+64
+00:04:04,700 --> 00:04:08,166
+supersonic as the sr-71 was designed to do
+超音速就像SR-71设计的那样
+65
+00:04:08,500 --> 00:04:11,133
+means pushing hard against air molecules
+意味着用力推空气分子
+66
+00:04:11,900 --> 00:04:14,266
+air molecules are real physical things
+空气分子是真实存在的物质
+67
+00:04:14,800 --> 00:04:17,533
+bonded together in a sort of elastic mesh
+以一种弹性网粘合在一起
+68
+00:04:18,733 --> 00:04:22,766
+and sound happens when those molecules ram into each
+当这些分子撞击每个分子时，就会产生声音
+69
+00:04:22,766 --> 00:04:25,866
+other to eventually physically jiggle your eardrum
+其他最终物理抖动你的耳膜
+70
+00:04:28,400 --> 00:04:30,166
+the spacing of these molecules
+这些分子的行间距
+71
+00:04:30,266 --> 00:04:31,366
+their individual weight
+个体重量
+72
+00:04:31,700 --> 00:04:34,766
+the strength of the elastic bonds between them  and so on
+它们之间弹性键的强度等等
+73
+00:04:35,100 --> 00:04:37,533
+gives this air mesh predictable behavior
+使该气网具有可预测的行为
+74
+00:04:41,933 --> 00:04:44,466
+if you slam through these molecules faster
+如果你能更快地穿过这些分子
+75
+00:04:44,466 --> 00:04:46,266
+than they can crash into themselves
+比他们自己撞到自己还要多
+76
+00:04:46,700 --> 00:04:48,166
+you're exceeding the speed of sound
+你已经超过音速了
+77
+00:04:49,166 --> 00:04:49,966
+on the ground
+在地上
+78
+00:04:50,000 --> 00:04:52,100
+this happens at around seven hundred and sixty
+这发生在大约七百六十岁
+79
+00:04:52,100 --> 00:04:54,366
+miles per hour in relatively normal conditions
+在相对正常的情况下每小时英里
+80
+00:04:57,366 --> 00:04:59,466
+since they can't move out of the way fast enough
+因为他们不能足够快地离开
+81
+00:04:59,800 --> 00:05:01,800
+air molecules bunch up when they hit
+空气分子撞击时聚集在一起
+82
+00:05:01,800 --> 00:05:03,366
+parts of the plane that stick out
+飞机突出的部分
+83
+00:05:06,000 --> 00:05:09,066
+forming shock waves that have predictable characteristics
+形成具有可预测特征的冲击波
+84
+00:05:11,933 --> 00:05:14,400
+like angles that get sharper with increasing
+比如随着增加而变得更锋利的角度
+85
+00:05:14,400 --> 00:05:17,866
+speed eighteen degrees to be precise at
+准确地说是18度
+86
+00:05:17,866 --> 00:05:19,500
+Mach three point two cruising speed
+3.2马赫巡航速度
+87
+00:05:22,366 --> 00:05:24,700
+let's throw a more standard wing into the mix
+让我们在混音中加入一个更标准的翅膀
+88
+00:05:27,966 --> 00:05:31,166
+because these wings have much less sweepback angle
+因为这些翅膀的后掠角要小得多
+89
+00:05:31,533 --> 00:05:33,966
+the nose shockwave blasts into them
+鼻子冲击波冲进他们体内
+90
+00:05:34,000 --> 00:05:36,800
+causing a brick wall of drag to slow the plane down
+造成一堵阻力砖墙使飞机减速
+91
+00:05:42,766 --> 00:05:44,733
+if you try to sweep them back far enough
+如果你想把他们扫到足够远的地方
+92
+00:05:44,733 --> 00:05:47,000
+to tuck into the nose shock wave
+塞进鼻子冲击波
+93
+00:05:47,200 --> 00:05:49,766
+the attachment point at the fuselage gets flimsy
+机身的连接点变得脆弱
+94
+00:05:50,600 --> 00:05:52,900
+notice how the delta wing solves these issues
+请注意三角翼如何解决这些问题
+95
+00:05:58,466 --> 00:06:02,200
+the classic aerodynamic wing profile shape is
+经典的空气动力学机翼轮廓形状是
+96
+00:06:02,300 --> 00:06:04,600
+excellent for generating lift at slower speeds
+非常适合在较慢的速度下产生升力
+97
+00:06:07,333 --> 00:06:09,666
+but as we approach supersonic speed
+但当我们接近超音速时
+98
+00:06:09,933 --> 00:06:13,333
+its thickness and blunt leading edge cause air to bunch
+它的厚度和钝的前缘导致空气聚集
+99
+00:06:13,333 --> 00:06:16,500
+up in front of the wing in a turbulent traffic jam
+在混乱的交通堵塞中出现在机翼前
+100
+00:06:19,066 --> 00:06:21,200
+contributing to what's called the sound barrier
+造成了所谓的音障
+101
+00:06:24,766 --> 00:06:28,500
+in contrast  as pressure builds with increasing speed
+相比之下，随着压力的增加，速度也在增加
+102
+00:06:28,900 --> 00:06:30,866
+the SR71'S sharp
+SR71很锋利
+103
+00:06:31,300 --> 00:06:33,766
+thin wing slices through the air
+薄薄的翅膀在空中划过
+104
+00:06:36,466 --> 00:06:39,866
+the narrow leading edge allows the developing shock wave
+狭窄的前缘允许发展中的冲击波
+105
+00:06:39,866 --> 00:06:43,100
+to eventually attach itself to the front of the wing
+最终附着在机翼的前面
+106
+00:06:51,900 --> 00:06:53,766
+at the speed of sound and above
+以音速及以上
+107
+00:06:54,000 --> 00:06:57,966
+the plane's sharp features comb air into smooth flowing
+飞机的锋利特征将空气梳理成顺畅的流动
+108
+00:06:58,200 --> 00:07:00,333
+well behaved supersonic shock waves
+表现良好的超音速冲击波
+109
+00:07:00,533 --> 00:07:02,700
+at leading and trailing edges
+在前缘和后缘
+110
+00:07:05,566 --> 00:07:08,133
+the twin jet engines and their inlets are
+双喷气发动机和它们的进气口
+111
+00:07:08,133 --> 00:07:11,400
+spaced out from the center to avoid air that
+与中心隔开以避免空气
+112
+00:07:11,400 --> 00:07:13,500
+swirls up from under the fuselage
+从机身下旋起
+113
+00:07:15,100 --> 00:07:16,700
+but are kept within the nose
+但都藏在鼻子里
+114
+00:07:16,766 --> 00:07:19,066
+shockwave even at maximum speeds
+冲击波即使在最高速度下
+115
+00:07:23,800 --> 00:07:25,733
+as we continue observing the exterior
+随着我们继续观察外部
+116
+00:07:25,800 --> 00:07:27,500
+we see the characteristic ridges
+我们看到特征性的脊
+117
+00:07:27,500 --> 00:07:29,266
+at each side of the fuselage
+在机身两侧
+118
+00:07:31,933 --> 00:07:33,500
+in aerodynamic parlance
+用空气动力学的说法
+119
+00:07:33,533 --> 00:07:35,966
+a sharp edge like this is called a chine
+像这样锋利的边缘叫做中国
+120
+00:07:40,166 --> 00:07:42,566
+these chains serve a few critical tasks
+这些链条服务于一些关键任务
+121
+00:07:45,400 --> 00:07:48,200
+they help form more powerful vortices as air
+它们有助于形成更强大的漩涡作为空气
+122
+00:07:48,300 --> 00:07:50,600
+swirls up around them during flight
+在飞行过程中在它们周围盘旋
+123
+00:07:53,366 --> 00:07:56,466
+which causes lower pressure above the sharp thin wings
+这会导致锋利薄翼上方的压力降低
+124
+00:07:56,933 --> 00:07:58,766
+contributing to an impressive twenty
+促成了令人印象深刻的二十年
+125
+00:07:58,800 --> 00:08:00,733
+percent of total lift at speed
+速度总升力的百分比
+126
+00:08:03,500 --> 00:08:06,300
+they act like fins to stabilize the blackbird's
+它们就像鳍一样稳定黑鸟的身体
+127
+00:08:06,300 --> 00:08:08,266
+long nose as it cuts through the air
+长长的鼻子穿过空气
+128
+00:08:13,800 --> 00:08:17,333
+these chines also greatly reduce the radar cross section
+这些中国也大大减少了雷达横截面
+129
+00:08:21,400 --> 00:08:24,700
+radar towers beam signals from a point outwards
+雷达塔从一个点向外发射信号
+130
+00:08:27,700 --> 00:08:31,500
+common rounded plane features will reliably reflect some of
+常见的圆形平面特征将可靠地反映一些
+131
+00:08:31,500 --> 00:08:35,866
+those waves back for easier identification from many angles
+这些波浪更容易从多个角度识别
+132
+00:08:44,666 --> 00:08:47,800
+the blackbird's flatter surfaces reduce the
+黑鸟扁平的表面减少了
+133
+00:08:47,800 --> 00:08:50,266
+likelihood of waves reflecting back to the source
+波反射回震源的可能性
+134
+00:08:53,700 --> 00:08:55,800
+the rudders are also tilted or
+方向舵也倾斜或
+135
+00:08:55,800 --> 00:08:57,733
+canted inwards for the same reason
+出于同样的原因向内倾斜
+136
+00:09:00,700 --> 00:09:02,500
+its radar cross section makes it
+它的雷达横截面使它
+137
+00:09:02,500 --> 00:09:04,066
+look much smaller than it is
+看起来比它小得多
+138
+00:09:07,800 --> 00:09:11,366
+the sr-71 was among the first operational aircraft
+sr-71是首批作战飞机之一
+139
+00:09:11,366 --> 00:09:13,866
+with this kind of intentional stealth shaping
+用这种有意的隐形造型
+140
+00:09:18,400 --> 00:09:20,900
+the blackbird also featured an early radar
+黑鸟还配备了早期雷达
+141
+00:09:20,900 --> 00:09:23,866
+absorbing composite material called plastic
+吸收复合材料称为塑料
+142
+00:09:24,266 --> 00:09:26,333
+though not what we think of as plastic
+虽然不是我们认为的塑料
+143
+00:09:29,133 --> 00:09:31,766
+composite wedges alternate with titanium along the
+复合楔与钛沿
+144
+00:09:31,766 --> 00:09:34,766
+outer rim in a zigzag pattern to allow for expansion
+锯齿形的外缘以允许扩展
+145
+00:09:38,666 --> 00:09:42,266
+this so called plastic also covers inlet cones and rudders
+这种所谓的塑料也包括进气道锥和方向舵
+146
+00:09:46,800 --> 00:09:48,766
+the interior frame called the
+内部框架称为
+147
+00:09:48,766 --> 00:09:51,166
+airframe is mostly made of titanium
+机身主要由钛制成
+148
+00:09:53,766 --> 00:09:56,200
+as well as much of the exterior paneling for its
+以及它的大部分外部镶板
+149
+00:09:56,200 --> 00:09:58,366
+performance under extreme stress and heat
+极端应力和高温下的性能
+150
+00:09:59,733 --> 00:10:02,900
+some surfaces could reach seven hundred plus degrees
+有些表面可以达到700多度
+151
+00:10:03,066 --> 00:10:05,466
+and the entire plane expanded several
+整个飞机扩大了几个
+152
+00:10:05,500 --> 00:10:07,133
+inches when traveling at speed
+高速行驶时的英寸
+153
+00:10:08,800 --> 00:10:11,266
+corrugations along the wing surface also allow
+机翼表面的波纹也允许
+154
+00:10:11,500 --> 00:10:13,133
+expansion while contributing strength
+扩张同时贡献力量
+155
+00:10:18,766 --> 00:10:21,466
+now that we've seen how the exterior shell and
+现在我们已经看到了外壳和
+156
+00:10:21,466 --> 00:10:24,266
+underlying airframe are made for supersonic flight
+下面的机身是为超音速飞行设计的
+157
+00:10:24,766 --> 00:10:26,700
+let's see how the engines get us there
+看看引擎怎么带我们过去
+158
+00:10:29,333 --> 00:10:31,466
+we'll zoom in on just one side
+我们只放大一边
+159
+00:10:34,333 --> 00:10:35,900
+there's the inlet spike at the front
+前面有入口尖峰
+160
+00:10:35,900 --> 00:10:37,133
+which we'll get to in a bit
+我们稍后会讨论这个问题。
+161
+00:10:40,766 --> 00:10:43,700
+the actual jet engine sits behind that and
+真正的喷气发动机坐在后面
+162
+00:10:43,700 --> 00:10:45,766
+has a pretty standard overall design
+具有相当标准的整体设计
+163
+00:10:48,766 --> 00:10:51,500
+air enters the jet engine and is forced backwards
+空气进入喷气发动机被迫向后
+164
+00:10:51,500 --> 00:10:54,400
+by rotating disks with blades called rotors
+通过用称为转子的叶片旋转圆盘
+165
+00:10:58,366 --> 00:11:01,866
+rings of stationary blades called stators make sure
+称为定子的固定叶片环确保
+166
+00:11:01,866 --> 00:11:04,533
+the air flows generally backwards and builds
+空气通常向后流动并形成
+167
+00:11:04,566 --> 00:11:07,166
+pressure instead of just twisting with the rotors
+压力而不仅仅是旋转转子
+168
+00:11:11,133 --> 00:11:12,400
+the passage narrows
+通道变窄了
+169
+00:11:12,900 --> 00:11:15,466
+compressing the air for more powerful combustion
+压缩空气以获得更强大的燃烧
+170
+00:11:18,966 --> 00:11:22,200
+the compressed air now flows through separate nozzles
+压缩空气现在通过单独的喷嘴流动
+171
+00:11:30,000 --> 00:11:31,566
+around a small outer ring
+围绕一个小外环
+172
+00:11:34,300 --> 00:11:36,666
+while fuel is sprayed through the center
+当燃料通过中心喷洒时
+173
+00:11:39,500 --> 00:11:44,166
+the fuel air mixture is ignited in many jet engines igniter
+燃料空气混合物在许多喷气发动机点火器中被点燃
+174
+00:11:44,166 --> 00:11:48,866
+plugs not unlike a car spark plug are used but the sr 71 is
+使用与汽车火花塞不同的插头，但sr 71是
+175
+00:11:48,866 --> 00:11:52,100
+different because of its special fuel that has its own
+不同，因为它的特殊燃料有自己的
+176
+00:11:52,100 --> 00:11:55,066
+ignition requirements we'll look at that a little later
+点火要求我们稍后再讲
+177
+00:11:57,900 --> 00:11:58,700
+once ignited
+一旦点燃
+178
+00:11:58,933 --> 00:12:01,366
+the flame passes through small crossover
+火焰通过小交叉
+179
+00:12:01,400 --> 00:12:03,866
+tubes until all burner cans are lit
+直到所有燃烧器罐都点燃
+180
+00:12:08,533 --> 00:12:10,900
+the powerful exhaust shooting out of these
+强大的排气喷出这些
+181
+00:12:10,900 --> 00:12:14,400
+cans pushes against turbines delivering
+罐头推着交付的涡轮机
+182
+00:12:14,400 --> 00:12:17,000
+something like sixty thousand horsepower
+大概六万马力
+183
+00:12:22,966 --> 00:12:25,733
+turbines are connected to internal gears and
+涡轮机连接到内部齿轮和
+184
+00:12:25,733 --> 00:12:30,500
+shafts to drive those forward compressor rotors
+驱动压缩机转子前进的轴
+185
+00:12:30,933 --> 00:12:33,900
+sucking in more air and continuing the cycle
+吸入更多的空气继续循环
+186
+00:12:36,566 --> 00:12:40,800
+the exiting hot exhaust gas expands creating a fast
+排出的热废气膨胀，形成快速
+187
+00:12:40,800 --> 00:12:43,533
+moving jet of air to push the plane forwards
+推动飞机前进的气流
+188
+00:12:46,300 --> 00:12:48,166
+this setup with compressor
+这个带压缩机的设置
+189
+00:12:48,533 --> 00:12:51,133
+combustor and turbine sections is
+燃烧室和涡轮部分是
+190
+00:12:51,133 --> 00:12:53,266
+the basic turbojet engine design
+基本涡喷发动机设计
+191
+00:12:55,366 --> 00:12:57,733
+animographics has a video about jet engines
+动画学有一个关于喷气发动机的视频
+192
+00:12:57,933 --> 00:13:00,066
+if you want to see how this looks in a big
+如果你想看看这个在大
+193
+00:13:00,066 --> 00:13:03,166
+airliner or a more modern fighter jet
+客机或更现代的战斗机
+194
+00:13:07,733 --> 00:13:10,766
+high performance engines often have an afterburner section
+高性能发动机通常有加力燃烧室部分
+195
+00:13:10,900 --> 00:13:12,866
+and the blackbird does as well
+黑鸟也一样
+196
+00:13:15,933 --> 00:13:17,100
+fuel has been consumed
+燃料已消耗
+197
+00:13:17,500 --> 00:13:19,400
+but there's still burnable air in
+但里面还有可燃空气
+198
+00:13:19,400 --> 00:13:20,933
+the exiting exhaust stream
+排出的废气流
+199
+00:13:23,933 --> 00:13:26,866
+additional fuel is sprayed into this stream
+额外的燃料被喷到这条溪流中
+200
+00:13:29,733 --> 00:13:32,200
+the mixture wraps around v shaped
+混合物包裹在v形周围
+201
+00:13:32,266 --> 00:13:33,733
+rings called flame holders
+叫做火焰支架的戒指
+202
+00:13:36,333 --> 00:13:38,733
+which provide a contained area of
+它提供了一个封闭的区域
+203
+00:13:38,733 --> 00:13:41,366
+turbulence for fuel mixing and combustion
+燃料混合和燃烧的湍流
+204
+00:13:43,966 --> 00:13:45,366
+the mixture is ignited
+混合物被点燃
+205
+00:13:48,333 --> 00:13:49,600
+for most applications
+对于大多数应用程序
+206
+00:13:50,000 --> 00:13:51,766
+afterburner is fuel inefficient
+加力燃烧室燃油效率低
+207
+00:13:51,766 --> 00:13:54,166
+but very powerful  as such
+但本身就很强大
+208
+00:13:54,166 --> 00:13:56,200
+it's limited to short bursts
+它仅限于短脉冲
+209
+00:13:57,700 --> 00:13:58,666
+in contrast
+相比之下
+210
+00:13:58,800 --> 00:14:02,266
+the blackbird is designed to maintain continuous
+黑鸟旨在保持连续
+211
+00:14:02,566 --> 00:14:05,766
+full afterburner at cruising speed for an hour or
+以巡航速度全加力一小时或
+212
+00:14:05,766 --> 00:14:08,200
+so at a time between aerial refuelings
+所以在空中加油之间的时间
+213
+00:14:12,866 --> 00:14:15,166
+all this heat and built up pressure must
+所有这些热量和积聚的压力
+214
+00:14:15,166 --> 00:14:17,933
+now be converted into exhaust velocity
+现在换算成排气速度
+215
+00:14:20,866 --> 00:14:22,700
+there's a special section here called
+这里有一个特殊的部分叫做
+216
+00:14:22,700 --> 00:14:24,933
+a converging diverging nozzle
+会聚发散喷嘴
+217
+00:14:27,766 --> 00:14:31,100
+hot  pressurized jet exhaust speeds up to
+热加压喷射排气速度高达
+218
+00:14:31,100 --> 00:14:32,533
+squeeze through the narrow part
+挤过狭窄的部分
+219
+00:14:35,300 --> 00:14:37,900
+and then expands through the wide exit
+然后通过宽阔的出口扩张
+220
+00:14:40,600 --> 00:14:43,900
+converting all that heat and pressure into velocity
+将所有的热量和压力转化为速度
+221
+00:14:46,566 --> 00:14:49,566
+there's a ring of flaps called the ejector that can
+有一圈叫做弹射器的襟翼可以
+222
+00:14:49,566 --> 00:14:52,466
+alter the size of the exhaust opening for proper
+改变排气口的大小以获得适当的
+223
+00:14:52,700 --> 00:14:54,933
+exhaust acceleration in varying conditions
+不同条件下的排气加速度
+224
+00:14:58,133 --> 00:15:00,400
+accelerating exhaust is something like
+加速排气就像
+225
+00:15:00,400 --> 00:15:02,666
+sticking your thumb over a garden hose
+把你的拇指放在花园软管上
+226
+00:15:04,466 --> 00:15:08,300
+water still in the hose moves slowly and pushes
+软管里的水缓慢移动并推动
+227
+00:15:08,300 --> 00:15:11,066
+harder against hose walls the more you block the
+对软管墙越用力，你就越能阻挡
+228
+00:15:11,066 --> 00:15:13,900
+stream for a stronger spray at the end
+最后流到更强的喷雾
+229
+00:15:15,566 --> 00:15:16,500
+in hard numbers
+以硬数字
+230
+00:15:16,866 --> 00:15:20,066
+if air exiting the turbines is at Mach point four
+如果涡轮机里的空气达到4马赫
+231
+00:15:20,800 --> 00:15:23,800
+air at the ejector flaps has accelerated to Mach
+弹射襟翼处的空气加速到马赫数
+232
+00:15:23,800 --> 00:15:26,666
+three or more to match the plane's traveling speed
+三个或更多以配合飞机的飞行速度
+233
+00:15:28,533 --> 00:15:30,500
+this late nineteen fifties fighter
+这个五十年代末的战士
+234
+00:15:30,500 --> 00:15:32,266
+jet technology is awesome
+喷气技术真棒
+235
+00:15:32,600 --> 00:15:34,533
+but it's not capable of sustaining
+但它无法维持
+236
+00:15:34,533 --> 00:15:37,366
+Mach three point two on its own  in fact
+3.2马赫，事实上。
+237
+00:15:37,600 --> 00:15:40,166
+the jet engine can't even use supersonic
+喷气发动机甚至不能使用超音速
+238
+00:15:40,166 --> 00:15:42,066
+air as it would cause flame outs
+空气会导致火焰熄灭
+239
+00:15:42,300 --> 00:15:44,666
+extinguishing the combustor among other things
+除其他外，熄灭燃烧器
+240
+00:15:49,933 --> 00:15:52,566
+this is where the inlet spike comes into play
+这就是入口尖峰发挥作用的地方
+241
+00:15:56,933 --> 00:16:00,933
+a supersonic shock wave forms at the sharp tip of the spike
+超音速冲击波在尖峰尖端形成
+242
+00:16:02,300 --> 00:16:05,333
+tuning airflow for entry into the inlet chamber
+调整进入入口室的气流
+243
+00:16:06,533 --> 00:16:08,466
+some compression is already
+一些压缩已经
+244
+00:16:08,466 --> 00:16:10,800
+happening here outside of the nacelle
+发生在机舱外面
+245
+00:16:13,700 --> 00:16:15,133
+just at the inlet lip
+就在入口唇处
+246
+00:16:15,500 --> 00:16:16,800
+another shock wave forms
+另一个冲击波形成
+247
+00:16:20,800 --> 00:16:23,266
+bounces or reflects a few times
+反弹或反射几次
+248
+00:16:25,966 --> 00:16:28,700
+and eventually reaches the narrowest part of the
+最终到达最狭窄的地方
+249
+00:16:28,700 --> 00:16:32,133
+inlet passage where its supersonic energy is finally
+入口通道，它的超音速能量最终
+250
+00:16:32,166 --> 00:16:35,566
+converted having slowed to subsonic speeds
+变慢到亚音速
+251
+00:16:38,600 --> 00:16:42,100
+the tremendous exchange of energy that happens as
+巨大的能量交换发生在
+252
+00:16:42,100 --> 00:16:45,933
+supersonic air trades its velocity for increased pressure
+超音速空气以其速度换取压力的增加
+253
+00:16:46,566 --> 00:16:49,266
+density and temperature is key
+密度和温度是关键
+254
+00:16:51,200 --> 00:16:53,766
+you can't use supersonic air in the jet engine
+你不能在喷气发动机中使用超音速空气
+255
+00:16:54,100 --> 00:16:57,900
+but you can use the jet engine like a pump to take in more
+但是你可以用喷气发动机像泵一样吸收更多
+256
+00:16:57,900 --> 00:17:01,566
+and more supersonic air and convert it to pressure
+和更多的超音速空气并将其转化为压力
+257
+00:17:03,500 --> 00:17:05,266
+it's the garden hose in reverse
+这是反向的花园软管
+258
+00:17:05,800 --> 00:17:08,000
+if the fast water stream could be
+如果快速的水流可以
+259
+00:17:08,000 --> 00:17:09,900
+crammed back into the hose
+塞回水管里
+260
+00:17:12,066 --> 00:17:15,300
+to that end  there's an opening just before the inlet's
+在入口前面有一个开口
+261
+00:17:15,300 --> 00:17:18,666
+narrowest point to bleed off some supersonic air
+放出超音速空气的最窄点
+262
+00:17:23,466 --> 00:17:26,933
+it flows through shock traps to slow and pressure rise
+它流过激波陷阱，减慢速度，压力上升
+263
+00:17:30,366 --> 00:17:32,500
+it surrounds and cools the engine
+它包围并冷却发动机
+264
+00:17:37,200 --> 00:17:39,500
+and eventually rejoins the exhaust stream
+并最终重新加入排气流
+265
+00:17:41,933 --> 00:17:43,466
+where it trades pressure for
+它用压力来换取
+266
+00:17:43,466 --> 00:17:45,333
+velocity on its way out the back
+从后面出来的速度
+267
+00:17:48,166 --> 00:17:50,933
+this process is so important that at
+这个过程非常重要
+268
+00:17:50,933 --> 00:17:52,400
+Mach three point two cruise
+3.2马赫巡航
+269
+00:17:52,933 --> 00:17:55,800
+just the pressure recovery alone from the inlet
+仅从入口恢复压力
+270
+00:17:55,800 --> 00:17:59,333
+spike and bypass air is responsible for an
+尖峰和旁路空气负责
+271
+00:17:59,333 --> 00:18:02,266
+incredible fifty eight percent of thrust
+令人难以置信的58%的推力
+272
+00:18:04,133 --> 00:18:07,200
+this clever trick is also possible because there's
+这个巧妙的技巧也是可能的，因为有
+273
+00:18:07,200 --> 00:18:09,366
+less air pressure at eighty thousand feet
+八万英尺处气压更低
+274
+00:18:09,933 --> 00:18:12,933
+so you don't need to hold or build up as much pressure
+所以你不需要保持或积累那么大的压力
+275
+00:18:13,000 --> 00:18:16,466
+inside the engine to release a super fast exhaust jet
+在发动机内部释放出超快的排气射流
+276
+00:18:18,400 --> 00:18:21,133
+at sea level the air is much thicker
+在海平面上，空气要厚得多
+277
+00:18:21,933 --> 00:18:25,133
+imagine that same garden hose but spraying underwater
+想象一下同样的花园软管，但喷在水下
+278
+00:18:29,266 --> 00:18:30,866
+the spike is adjustable
+尖峰是可调节的
+279
+00:18:33,733 --> 00:18:35,533
+with this much thrust coming from the
+有这么大的推力来自
+280
+00:18:35,533 --> 00:18:37,466
+inlet spike at such high speeds
+如此高速的进气尖峰
+281
+00:18:38,133 --> 00:18:41,766
+it's critical that shock waves maintain proper alignment
+冲击波保持正确的排列是至关重要的
+282
+00:18:44,733 --> 00:18:46,133
+at Mach one point six
+以1.6马赫的速度
+283
+00:18:46,200 --> 00:18:49,800
+the spike begins to retract and continues moving backwards
+尖峰开始收缩并继续向后移动
+284
+00:18:52,500 --> 00:18:56,100
+to twenty six inches of rearward travel at its limit
+在它的极限上向后移动26英寸
+285
+00:18:56,266 --> 00:18:58,333
+as speed hits Mach three point two
+当速度达到3.2马赫时
+286
+00:18:58,600 --> 00:19:00,566
+the Blackbird's designed cruising speed
+黑鸟设计的巡航速度
+287
+00:19:01,900 --> 00:19:05,333
+the inlet throat's shape changes as the spike moves
+入口喉部的形状随着尖刺的移动而变化
+288
+00:19:08,200 --> 00:19:12,266
+at cruise  the spike shockwave sits right at the inlet lip
+巡航时，尖峰冲击波正好位于入口边缘
+289
+00:19:15,066 --> 00:19:15,533
+again
+再次
+290
+00:19:15,533 --> 00:19:18,333
+keeping this pre designed shockwave pattern is crucial
+保持这种预先设计的冲击波模式至关重要
+291
+00:19:21,000 --> 00:19:21,800
+for example
+例如
+292
+00:19:22,133 --> 00:19:24,600
+say some kind of internal error causes pressure
+说某种内部错误导致压力
+293
+00:19:24,600 --> 00:19:26,566
+to build up at the mouth of the jet engine
+在喷气发动机口堆积
+294
+00:19:27,000 --> 00:19:29,133
+pushing shock waves out of alignment
+将冲击波推开
+295
+00:19:32,000 --> 00:19:34,066
+all that thrust is immediately lost
+所有的推力都会立即消失
+296
+00:19:34,266 --> 00:19:36,666
+and the plane jerks abruptly to one side
+飞机突然转向一边
+297
+00:19:37,066 --> 00:19:39,400
+slamming pilot's helmets against cockpit windows
+把飞行员的头盔撞到驾驶舱窗户上
+298
+00:19:41,166 --> 00:19:43,366
+this is called an inlet unstart
+这称为入口未启动
+299
+00:19:43,866 --> 00:19:45,933
+unstarts were harrowing experiences for
+开始是痛苦的经历
+300
+00:19:45,933 --> 00:19:49,333
+sr-71 pilots with up to seventy percent of
+SR-71飞行员拥有高达70%的
+301
+00:19:49,333 --> 00:19:51,466
+total thrust disappearing in an instant
+总推力瞬间消失
+302
+00:19:54,466 --> 00:19:56,133
+if an unstart is detected
+如果检测到未启动
+303
+00:19:56,300 --> 00:19:58,366
+the onboard computer moves the spike
+机载计算机移动钉子
+304
+00:19:58,366 --> 00:20:00,666
+forward in an attempt to restart it
+前进以尝试重新启动它
+305
+00:20:05,400 --> 00:20:06,400
+so that's it
+所以就这样了
+306
+00:20:06,966 --> 00:20:09,866
+you've got the famed j fifty eight jet engines for
+你有著名的J58喷气发动机
+307
+00:20:09,866 --> 00:20:12,666
+getting the blackbird off the ground and up to speed
+让黑鸟离开地面并跟上速度
+308
+00:20:15,400 --> 00:20:17,300
+and the inlet spikes for comfortable
+入口尖峰舒适
+309
+00:20:17,566 --> 00:20:19,966
+cruise well into the supersonic realm
+巡航进入超音速领域
+310
+00:20:22,933 --> 00:20:26,166
+this system is so good at capturing the energy in
+这个系统非常擅长捕捉
+311
+00:20:26,166 --> 00:20:29,133
+supersonic airflow that the black bird was known to
+黑鸟已知的超音速气流
+312
+00:20:29,133 --> 00:20:31,933
+get better fuel mileage the faster it went
+越快获得更好的燃油里程
+313
+00:20:39,400 --> 00:20:42,366
+now let's examine a few other components at the engine that
+现在让我们检查一下发动机上的其他一些组件
+314
+00:20:42,366 --> 00:20:45,900
+help keep air flow in check at key points in the system
+帮助控制系统关键点的气流
+315
+00:20:47,766 --> 00:20:51,166
+there are computer controlled forward bypass doors to let
+有电脑控制的前门可以让
+316
+00:20:51,166 --> 00:20:55,066
+off excess air and keep inlet air pressure balanced
+关闭多余的空气并保持入口空气压力平衡
+317
+00:20:56,000 --> 00:20:56,600
+however
+然而
+318
+00:20:56,600 --> 00:21:00,800
+this slow air rejoining the outside flow could cause drag
+这种缓慢的空气重新加入外部流动可能会导致阻力
+319
+00:21:01,933 --> 00:21:04,933
+there's another set of bypass doors just before the
+前面还有一组旁路门
+320
+00:21:04,933 --> 00:21:08,266
+engine that the pilot can manually control which bleed
+飞行员可以手动控制哪个出血的发动机
+321
+00:21:08,266 --> 00:21:10,933
+air into the nacelle bypass chamber instead
+空气进入机舱旁路室
+322
+00:21:15,000 --> 00:21:16,333
+below马赫点5
+below马赫点5
+323
+00:21:16,333 --> 00:21:19,066
+there may not be enough airflow yet for proper cooling
+可能还没有足够的气流来进行适当的冷却
+324
+00:21:20,733 --> 00:21:22,733
+there are suck in doors about halfway
+大约一半的地方有门被吸进去了
+325
+00:21:22,733 --> 00:21:25,133
+down the nacelle that open to help out
+打开来帮忙的机舱
+326
+00:21:29,466 --> 00:21:32,000
+there's a set of flaps at the back of the jet engine to
+喷气发动机后面有一组襟翼
+327
+00:21:32,000 --> 00:21:34,733
+independently control afterburner exhaust pressure
+独立控制加力燃烧室排气压力
+328
+00:21:37,733 --> 00:21:39,666
+and a ring of blown doors
+和一圈被炸毁的门
+329
+00:21:42,366 --> 00:21:45,400
+to help keep the ejector area full at lower speeds and
+以帮助在较低的速度下保持喷射器区域满
+330
+00:21:45,400 --> 00:21:47,933
+avoid dead spots which cause drag in the system
+避免死点导致系统拖累
+331
+00:21:52,600 --> 00:21:56,133
+above Mach two point two there are six bypass tubes
+2.2马赫以上有6个旁路管
+332
+00:21:57,533 --> 00:22:00,100
+that open to divert air from the jet engine's
+打开以将空气从喷气发动机的
+333
+00:22:00,100 --> 00:22:03,066
+compressor section directly to the afterburner
+压缩机部分直接到加力燃烧室
+334
+00:22:04,766 --> 00:22:06,800
+relieving internal engine pressure and
+缓解发动机内部压力和
+335
+00:22:06,800 --> 00:22:08,500
+boosting afterburner performance
+提高加力性能
+336
+00:22:09,566 --> 00:22:12,766
+up to forty percent of the engine intake volume can be
+高达百分之四十的发动机进气量可以
+337
+00:22:12,766 --> 00:22:16,166
+bypassed in this way for a significant thrust increase
+以这种方式绕过以获得显着的推力增加
+338
+00:22:21,300 --> 00:22:24,466
+the inlet spike has rows of small holes
+入口尖峰有一排排小孔
+339
+00:22:28,900 --> 00:22:32,600
+and interior passages that take in cooling air at low speed
+以及低速吸入冷却空气的内部通道
+340
+00:22:37,466 --> 00:22:40,366
+at higher speeds a thin layer of air builds up
+在较高的速度下，一层薄薄的空气
+341
+00:22:40,366 --> 00:22:42,766
+around surfaces called the boundary layer
+在称为边界层的表面周围
+342
+00:22:45,500 --> 00:22:47,766
+boundary layers can do weird things as the
+边界层可以做奇怪的事情
+343
+00:22:47,766 --> 00:22:50,066
+air sticks to and follows the surface
+空气附着并跟随表面
+344
+00:22:52,866 --> 00:22:56,400
+at curves air might separate and clog up the flow
+在弯道处，空气可能会分离并堵塞流动
+345
+00:22:56,766 --> 00:22:58,766
+causing unwanted turbulence downstream
+造成下游不必要的湍流
+346
+00:23:01,733 --> 00:23:04,166
+these holes bleed off boundary air
+这些洞会排出边界空气
+347
+00:23:04,166 --> 00:23:05,966
+to keep flow running smoothly
+保持流动顺畅
+348
+00:23:12,866 --> 00:23:13,933
+for weight reduction
+为了减肥
+349
+00:23:14,066 --> 00:23:15,766
+there's no starter on the airplane
+飞机上没有启动器
+350
+00:23:18,533 --> 00:23:22,133
+start carts were used with two muscle car engines placed
+启动车与两个肌肉车发动机一起使用
+351
+00:23:22,266 --> 00:23:25,600
+side by side without mufflers running full blast
+肩并肩，没有消声器全速运转
+352
+00:23:27,100 --> 00:23:28,733
+crew were said to enjoy the start
+据说船员们喜欢开始
+353
+00:23:28,733 --> 00:23:30,866
+process for its impressive spectacle
+其令人印象深刻的奇观的过程
+354
+00:23:33,700 --> 00:23:36,866
+a shaft with gears extends up and connects with the
+带齿轮的轴向上延伸并与
+355
+00:23:36,866 --> 00:23:39,500
+gearbox at the underside of the jet engine to get
+喷气发动机底部的变速箱
+356
+00:23:39,500 --> 00:23:42,000
+everything spinning and start the combustion process
+一切都在旋转并开始燃烧过程
+357
+00:23:48,600 --> 00:23:50,300
+now let's move away from the engines
+现在让我们离开引擎
+358
+00:23:50,300 --> 00:23:52,066
+for a look at the fuel system
+看看燃料系统
+359
+00:23:54,900 --> 00:23:56,333
+as shown in the intro
+如介绍所示
+360
+00:23:56,733 --> 00:23:59,400
+fuel tanks make up a large portion of the plane
+油箱占了飞机的很大一部分
+361
+00:24:01,000 --> 00:24:04,133
+at takeoff  fuel flow rate could reach seventy four
+起飞时燃油流量可达74
+362
+00:24:04,300 --> 00:24:06,900
+thousand pounds per hour for a single engine
+单引擎每小时一千磅
+363
+00:24:07,400 --> 00:24:09,533
+that's about three gallons of fuel per second
+大约是每秒三加仑燃料
+364
+00:24:10,300 --> 00:24:13,100
+or ten thousand eight hundred gallons per hour
+或者每小时一万八百加仑
+365
+00:24:13,900 --> 00:24:15,766
+at Mach three point one five
+以3.15马赫的速度
+366
+00:24:16,333 --> 00:24:18,400
+fuel flow is more efficient at a little
+燃料流动效率更高
+367
+00:24:18,400 --> 00:24:20,266
+under three thousand gallons per hour
+每小时三千加仑以下
+368
+00:24:23,933 --> 00:24:26,733
+the tank is incorporated into the wing structure
+坦克并入机翼结构
+369
+00:24:26,866 --> 00:24:29,100
+without any additional bladder or barrier
+没有任何额外的膀胱或屏障
+370
+00:24:33,800 --> 00:24:36,166
+since panels were designed to expand
+由于面板旨在扩展
+371
+00:24:36,700 --> 00:24:39,966
+panel gaps meant fuel would leak from the plane when cold
+面板间隙意味着冷时燃料会从飞机上泄漏
+372
+00:24:43,200 --> 00:24:45,133
+maintenance personnel had charts
+维修人员有图表
+373
+00:24:45,166 --> 00:24:47,333
+for allowable drips per hour
+每小时允许点滴
+374
+00:24:47,733 --> 00:24:49,200
+and when that rate was exceeded
+当超过这个速度时
+375
+00:24:49,500 --> 00:24:52,166
+the plane's panels had to have sealant re applied
+飞机的面板必须重新涂上密封剂
+376
+00:24:55,300 --> 00:24:58,900
+surfaces got so hot that normal fuel couldn't be used
+表面变得如此之热以至于普通燃料无法使用
+377
+00:24:58,933 --> 00:25:02,266
+for risk of autoignition from surface heat alone
+仅从表面热量就有自燃的危险
+378
+00:25:03,900 --> 00:25:07,166
+a special fuel called jp seven was developed
+一种叫做jp7的特殊燃料被开发出来
+379
+00:25:07,166 --> 00:25:09,366
+which wouldn't spontaneously ignite below four
+不会在四点以下自燃
+380
+00:25:09,366 --> 00:25:11,300
+hundred and sixty six degrees Fahrenheit
+一百六十六华氏度
+381
+00:25:15,700 --> 00:25:18,600
+to ignite this fuel a special chemical was
+为了点燃这种燃料，一种特殊的化学物质
+382
+00:25:18,600 --> 00:25:22,066
+required called triethylborane or teb for short
+需要称为三乙基硼烷或简称teb
+383
+00:25:25,100 --> 00:25:28,900
+teb in contrast ignites on contact with air alone
+相比之下，TEB仅与空气接触就会点燃
+384
+00:25:31,800 --> 00:25:34,200
+a shot of kerb was injected first to
+首先注射了一针路缘
+385
+00:25:34,200 --> 00:25:35,766
+get the jp seven fuel burning
+让jp 7燃料燃烧
+386
+00:25:36,333 --> 00:25:39,533
+which produced the famous green starting flame blast
+产生了著名的绿色起爆火焰
+387
+00:25:42,866 --> 00:25:45,300
+additives in the fuel made it useful as a lubricant
+燃料中的添加剂使其可用作润滑剂
+388
+00:25:45,300 --> 00:25:47,933
+coolant and hydraulic fluid
+冷却液和液压油
+389
+00:25:48,600 --> 00:25:51,166
+it took on any of these roles throughout the plane
+它在飞机上扮演着这些角色中的任何一个
+390
+00:25:51,500 --> 00:25:53,600
+especially in the engine's mechanical components
+尤其是发动机的机械部件
+391
+00:25:58,466 --> 00:26:01,900
+the sr-71 had to be refueled shortly after takeoff because
+sr-71不得不在起飞后不久加油，因为
+392
+00:26:01,900 --> 00:26:05,366
+the very heavy fuel load would stress the plane's landing
+非常重的燃料负荷会给飞机的着陆带来压力
+393
+00:26:05,366 --> 00:26:08,200
+gear and require too much runway for lift off
+需要太多的跑道才能起飞
+394
+00:26:08,500 --> 00:26:09,466
+among other limitations
+除其他限制外
+395
+00:26:09,900 --> 00:26:11,466
+fueling normally happens at about
+加油通常发生在大约
+396
+00:26:11,466 --> 00:26:12,866
+twenty five thousand feet
+两万五千英尺
+397
+00:26:13,333 --> 00:26:15,300
+where the plane takes on an additional
+飞机承担额外的
+398
+00:26:15,300 --> 00:26:17,200
+sixty thousand pounds of fuel
+六万磅燃料
+399
+00:26:21,700 --> 00:26:23,566
+there are nitrogen containers in the front
+前面有氮气容器
+400
+00:26:23,566 --> 00:26:26,266
+landing gear compartment to inert fuel tanks
+起落架舱到惰性油箱
+401
+00:26:29,400 --> 00:26:33,500
+meaning air is allowed to vent out as nitrogen is pumped in
+这意味着当氮气被泵入时，空气被允许排出
+402
+00:26:35,066 --> 00:26:36,900
+with no oxygen near the fuel
+燃料附近没有氧气
+403
+00:26:36,900 --> 00:26:39,666
+it's considered inert or chemically inactive
+它被认为是惰性的或化学不活跃的
+404
+00:26:40,266 --> 00:26:42,166
+greatly reducing explosion risk in
+大大降低了爆炸风险
+405
+00:26:42,166 --> 00:26:44,100
+conditions of extreme pressure and heat
+极压极热条件
+406
+00:26:49,300 --> 00:26:50,466
+flight control surfaces
+飞行控制面
+407
+00:26:52,266 --> 00:26:55,166
+flight control surfaces are parts of an airplane's body
+飞行控制面是飞机机身的一部分
+408
+00:26:55,200 --> 00:26:58,600
+that influence airflow to change the plane's attitude
+影响气流改变飞机姿态
+409
+00:27:03,533 --> 00:27:04,333
+for example
+例如
+410
+00:27:04,666 --> 00:27:10,000
+a fairly standard airplane has ailerons at each wingtip
+标准的飞机在每个翼尖都有副翼
+411
+00:27:11,566 --> 00:27:14,533
+that move opposite one another to roll the plane
+相对移动以滚动飞机
+412
+00:27:17,466 --> 00:27:20,100
+moving elevators at the tail affects pitch
+移动尾部的电梯会影响音高
+413
+00:27:23,100 --> 00:27:25,666
+and the rudder controls yaw or rotation
+方向舵控制偏航或旋转
+414
+00:27:25,733 --> 00:27:27,666
+about the airplane's vertical axis
+关于飞机的垂直轴
+415
+00:27:31,866 --> 00:27:34,700
+the sr-71 has large dual rudders
+SR-71有大的双舵
+416
+00:27:34,800 --> 00:27:36,200
+one above each engine
+每个引擎上方一个
+417
+00:27:38,766 --> 00:27:42,533
+the Delta wing combines ailerons with elevators into
+三角翼将副翼和升降机组合成
+418
+00:27:42,533 --> 00:27:45,600
+a single row of flaps that handles both tasks
+处理这两个任务的单行襟翼
+419
+00:27:47,566 --> 00:27:49,666
+these are called elevons
+这些被称为十一进制
+420
+00:27:52,533 --> 00:27:55,000
+each side moves as a single unit
+每一边作为一个整体移动
+421
+00:27:57,933 --> 00:27:59,500
+opposite one another for roll
+相对滚动
+422
+00:28:02,533 --> 00:28:04,333
+and together for pitch
+一起投球
+423
+00:28:07,266 --> 00:28:09,866
+or some blended combination of both for maneuvers
+或者两者的混合组合用于机动
+424
+00:28:09,866 --> 00:28:12,933
+that require some roll and pitch at the same time
+同时需要一些滚动和俯仰
+425
+00:28:15,600 --> 00:28:18,066
+to achieve this blended mixed output
+实现这种混合混合输出
+426
+00:28:18,200 --> 00:28:19,866
+there's a mechanical device in the
+里面有一个机械装置
+427
+00:28:19,866 --> 00:28:21,933
+center tail section called a mixer
+中心尾部称为混合器
+428
+00:28:25,666 --> 00:28:28,333
+cables from the flight stick in the cockpit pass
+驾驶舱通行证上飞行棒上的电缆
+429
+00:28:28,333 --> 00:28:31,333
+through pulleys and tubes to arrive at the mixer
+通过滑轮和管道到达搅拌机
+430
+00:28:35,466 --> 00:28:38,266
+there are separate down and back cable runs for stick
+棍子有单独的向下和向后电缆运行
+431
+00:28:38,500 --> 00:28:39,966
+side to side or roll
+左右滚动
+432
+00:28:44,100 --> 00:28:46,566
+and stick front to back or pitch
+并从前到后或投球
+433
+00:28:51,533 --> 00:28:54,900
+at the mixer pitch cables connect to the pitch quadrant
+在混音器处，间距电缆连接到间距象限
+434
+00:28:56,600 --> 00:28:59,600
+which is a partial wheel with channels and attach points
+这是一个带有通道和连接点的部分轮子
+435
+00:29:02,700 --> 00:29:05,533
+roll cables attached to the roll quadrant behind that
+卷缆连接到后面的卷象限
+436
+00:29:09,800 --> 00:29:12,766
+there's a mixed output bell crank at the front
+前面有一个混合输出曲柄
+437
+00:29:15,766 --> 00:29:19,400
+with pushrods that link to the elevons at either side
+推杆连接到两侧的电梯
+438
+00:29:22,266 --> 00:29:26,166
+roll input moves the entire bell crank left or right
+滚动输入向左或向右移动整个钟形曲柄
+439
+00:29:28,000 --> 00:29:30,100
+because linkages are mirrored side to side
+因为链接是左右镜像的
+440
+00:29:30,466 --> 00:29:33,700
+this ends up rotating elevons in opposite directions
+这最终会使电梯向相反的方向旋转
+441
+00:29:35,566 --> 00:29:38,500
+pitch input rotates the bell crank itself
+音高输入旋转钟形曲柄本身
+442
+00:29:40,966 --> 00:29:44,166
+which tilts elevons the same way on both sides
+两边都以同样的方式倾斜
+443
+00:29:46,933 --> 00:29:49,400
+when pitch and roll commands happen together
+当俯仰和滚动命令同时发生时
+444
+00:29:51,066 --> 00:29:53,700
+the bell crank gracefully blends these
+曲柄优雅地混合了这些
+445
+00:29:53,700 --> 00:29:56,666
+commands for a singular output to each side
+每边的奇异输出命令
+446
+00:30:00,933 --> 00:30:03,933
+this beautiful mechanical device is worth a closer look
+这个漂亮的机械装置值得仔细看看
+447
+00:30:07,266 --> 00:30:09,200
+take the roll components for example
+以轧辊组件为例
+448
+00:30:12,000 --> 00:30:14,200
+there's a feel spring that compresses to
+有一个感觉弹簧可以压缩到
+449
+00:30:14,200 --> 00:30:16,666
+give the pilot felt feedback in the stick
+在操纵杆上给飞行员感觉反馈
+450
+00:30:17,100 --> 00:30:19,366
+for the position of parts in the system
+用于系统中零件的位置
+451
+00:30:20,600 --> 00:30:22,000
+because as we'll see in a minute
+因为我们一会儿就会看到
+452
+00:30:22,200 --> 00:30:25,100
+the ailerons themselves are hydraulically controlled
+副翼本身是液压控制的
+453
+00:30:25,666 --> 00:30:27,666
+there's no direct mechanical connection
+没有直接的机械连接
+454
+00:30:30,366 --> 00:30:31,466
+moving down the chain
+向下移动
+455
+00:30:31,500 --> 00:30:32,800
+there's a trim actuator
+有一个修剪执行器
+456
+00:30:35,766 --> 00:30:37,800
+trim adds more permanent adjustment to the
+Trim为
+457
+00:30:37,800 --> 00:30:39,866
+system so the pilot doesn't have to hold the
+这样飞行员就不用拿着
+458
+00:30:39,866 --> 00:30:42,400
+stick in one place for long periods of time
+长时间呆在一个地方
+459
+00:30:42,933 --> 00:30:45,600
+for example to fight against a continuous side wind
+例如对抗持续的侧风
+460
+00:30:48,466 --> 00:30:50,733
+the system still allows moment to moment
+系统仍然允许时刻
+461
+00:30:50,766 --> 00:30:52,900
+input on top of the trim setting
+修剪设置顶部的输入
+462
+00:30:58,366 --> 00:31:01,133
+the pilot controls the trim level from the cockpit
+飞行员从驾驶舱控制配平
+463
+00:31:05,466 --> 00:31:07,600
+pitch components also have these parts
+音高组件也有这些部分
+464
+00:31:10,400 --> 00:31:13,000
+the pitch feel spring is at the bottom of the mixer
+音高感觉弹簧在搅拌机的底部
+465
+00:31:15,600 --> 00:31:17,766
+the pitch trim actuator is at the back
+俯仰修剪执行器在后面
+466
+00:31:21,933 --> 00:31:25,700
+now watch as the bell crank executes blended roll and
+现在看着钟形曲柄执行混合辊和
+467
+00:31:25,700 --> 00:31:28,366
+pitch commands with accompanying trim settings
+带有附带修剪设置的音高命令
+468
+00:31:35,700 --> 00:31:38,333
+also connected to the pitch system there's a stick
+还有一根棍子连接到音高系统
+469
+00:31:38,400 --> 00:31:43,333
+pusher with its own computer controlled actuator
+具有自己的计算机控制执行器的推进器
+470
+00:31:45,100 --> 00:31:48,166
+the stick pusher can shake the stick as a warning
+推棒器可以摇动棍子作为警告
+471
+00:31:50,766 --> 00:31:52,600
+or automatically push the stick
+或者自动推棍子
+472
+00:31:52,600 --> 00:31:54,733
+forward to avoid or counterstall
+向前以避免或阻止
+473
+00:31:56,300 --> 00:31:59,066
+stalls can happen for example if the plane exceeds
+例如，如果飞机超过
+474
+00:31:59,066 --> 00:32:02,133
+certain flight angle limits interrupting lift and
+某些飞行角度限制中断升力和
+475
+00:32:02,133 --> 00:32:04,300
+causing the plane to fall through the air
+导致飞机从空中坠落
+476
+00:32:15,600 --> 00:32:16,533
+from the mixer
+从搅拌机
+477
+00:32:16,866 --> 00:32:18,800
+rods at each side translate
+每边的杆平移
+478
+00:32:18,866 --> 00:32:21,066
+movements to individual servo units
+移动到单个伺服单元
+479
+00:32:23,733 --> 00:32:27,100
+the servo converts this physical movement into hydraulic
+伺服系统将这种物理运动转化为液压运动
+480
+00:32:27,100 --> 00:32:30,900
+pressure to regulate rows of actuators at each aileron
+调节每个副翼上执行器排的压力
+481
+00:32:32,366 --> 00:32:35,466
+it has a sensing rod to monitor aileron position
+它有一个感应杆来监控副翼位置
+482
+00:32:38,166 --> 00:32:41,100
+from this inboard servo a train of rods and
+从这个内侧伺服系统一列杆和
+483
+00:32:41,100 --> 00:32:43,533
+linkages continues to an outboard servo
+连杆继续到舷外伺服
+484
+00:32:46,166 --> 00:32:48,400
+which controls another set of actuators
+控制另一组执行器
+485
+00:32:52,800 --> 00:32:54,366
+there's a separate set of cables
+有一套单独的电缆
+486
+00:32:54,900 --> 00:32:57,966
+pulleys and hydraulic components for each rudder
+每个舵的滑轮和液压元件
+487
+00:33:00,533 --> 00:33:03,900
+a rotating post with an attached actuator extends
+带有附加执行器的旋转柱延伸
+488
+00:33:03,900 --> 00:33:06,566
+from the rudder stub into the rudder frame
+从舵柱到舵架
+489
+00:33:11,466 --> 00:33:12,266
+landing gear
+起落架
+490
+00:33:13,766 --> 00:33:16,333
+there's a single steerable nose wheel at the front
+前面有一个可操纵的前轮
+491
+00:33:20,133 --> 00:33:21,800
+and twin gear at the back
+后面有双齿轮
+492
+00:33:26,533 --> 00:33:29,933
+the peculiar light grey rear tires are made of rubber
+奇特的浅灰色后轮胎由橡胶制成
+493
+00:33:29,933 --> 00:33:33,900
+infused with aluminum powder for a much higher flash point
+注入铝粉以获得更高的闪点
+494
+00:33:34,300 --> 00:33:36,966
+that is the temperature at which they could catch fire
+这是它们可能着火的温度
+495
+00:33:37,800 --> 00:33:41,400
+they're pressurized to an unbelievable four hundred psi
+它们被加压到难以置信的400磅/平方英寸
+496
+00:33:42,066 --> 00:33:43,866
+your average car tire sits at
+你的普通汽车轮胎
+497
+00:33:43,866 --> 00:33:46,100
+around thirty to thirty five psi
+大约30到35 psi
+498
+00:33:47,733 --> 00:33:49,700
+they are also inflated with nitrogen
+它们也充入了氮气
+499
+00:33:49,800 --> 00:33:52,100
+instead of oxygen for fire resistance
+代替氧气防火
+500
+00:33:57,266 --> 00:33:59,500
+the Blackbird's aerodynamic qualities
+黑鸟的空气动力学特性
+501
+00:33:59,600 --> 00:34:01,600
+mean higher landing speeds overall
+总体平均着陆速度更高
+502
+00:34:04,333 --> 00:34:06,166
+to further slow the plane down and
+进一步减慢飞机的速度
+503
+00:34:06,166 --> 00:34:07,500
+take stress off the wheels
+减轻车轮的压力
+504
+00:34:07,700 --> 00:34:09,800
+there's a forty foot diameter drag shoot
+有一个直径40英尺的拖曳射击
+505
+00:34:09,800 --> 00:34:12,866
+which is deployed at main gear touchdown at
+它部署在主齿轮触地处
+506
+00:34:12,866 --> 00:34:15,133
+about one hundred and fifty knots airspeed
+大约一百五十节空速
+507
+00:34:20,566 --> 00:34:22,600
+now let's head to the front of the plane for a
+现在让我们去飞机前面
+508
+00:34:22,600 --> 00:34:25,200
+look inside the blackbird's dual cockpits
+看看黑鸟的双座舱内部
+509
+00:34:27,766 --> 00:34:30,200
+the pilot sits in the forward cockpit to
+飞行员坐在前面的驾驶舱里
+510
+00:34:30,200 --> 00:34:31,866
+fly the plane among other duties
+驾驶飞机
+511
+00:34:34,533 --> 00:34:38,333
+with the reconnaissance systems officer or rso in
+侦察系统官员或rso在
+512
+00:34:38,333 --> 00:34:41,533
+the rear cockpit to run onboard equipment and
+后驾驶舱运行机载设备和
+513
+00:34:41,666 --> 00:34:43,900
+direct navigation along the mission flight path
+沿任务飞行路线直接导航
+514
+00:34:47,500 --> 00:34:48,900
+moving to the pilot's position
+移动到飞行员的位置
+515
+00:34:49,300 --> 00:34:51,533
+let's get into the instruments and controls
+让我们进入仪器和控制
+516
+00:34:54,466 --> 00:34:56,266
+front and center there's a grouping
+前面和中间有一个分组
+517
+00:34:56,266 --> 00:34:57,800
+of main flight instruments
+主要飞行仪表
+518
+00:34:59,600 --> 00:35:01,800
+the attitude indicator shows the plane's
+姿态指示器显示飞机的
+519
+00:35:01,800 --> 00:35:03,533
+position relative to the horizon
+相对于地平线的位置
+520
+00:35:05,666 --> 00:35:08,600
+with a backup attitude indicator nearby for redundancy
+附近有备用姿态指示器以备冗余
+521
+00:35:10,933 --> 00:35:14,900
+below that the HSI or horizontal situation indicator
+低于HSI或水平情况指标
+522
+00:35:15,166 --> 00:35:17,966
+shows the plane's position relative to a heading or
+显示飞机相对于航向或
+523
+00:35:17,966 --> 00:35:22,100
+preset point in space and the plane's relationship to the
+空间中的预设点和平面与
+524
+00:35:22,100 --> 00:35:25,533
+imaginary line from one heading to the next including
+从一个航向到下一个航向的虚线，包括
+525
+00:35:25,566 --> 00:35:29,000
+remaining distance side to side deviation and so on
+剩余距离左右偏差等
+526
+00:35:31,400 --> 00:35:34,333
+below that a map projector which ran on sixteen
+在那下面是一台地图投影仪，它运行在16号
+527
+00:35:34,333 --> 00:35:37,766
+millimeter film and contains the entire flight route
+毫米胶片，包含整个飞行路线
+528
+00:35:40,300 --> 00:35:42,066
+there are a few instruments here which
+这里有一些仪器
+529
+00:35:42,066 --> 00:35:43,866
+are standard to most airplane
+是大多数飞机的标准
+530
+00:35:45,200 --> 00:35:46,933
+the altimeter for altitude
+高度表
+531
+00:35:49,533 --> 00:35:55,266
+airspeed for general forward speed in knots and vertical
+空速，用于以节和垂直为单位的一般前进速度
+532
+00:35:55,266 --> 00:35:58,766
+airspeed for how fast the plane is moving up or down
+空速表示飞机上升或下降的速度
+533
+00:36:00,733 --> 00:36:03,600
+at supersonic speeds and very high altitudes
+以超音速和极高的高度
+534
+00:36:04,200 --> 00:36:07,700
+outside air conditions and supersonic airflow around the
+外部空气条件和周围的超音速气流
+535
+00:36:07,700 --> 00:36:11,000
+plane's exterior components affects instrument accuracy
+飞机外部部件影响仪器精度
+536
+00:36:11,766 --> 00:36:15,400
+as such  sr-71 pilots relied on the triple
+因此sr-71飞行员依赖于三重
+537
+00:36:15,400 --> 00:36:17,066
+display indicator at speed
+速度显示指示器
+538
+00:36:19,000 --> 00:36:22,466
+there's the kts indicator at the top for knots equivalent
+顶部有kts指示器，用于结等效
+539
+00:36:22,466 --> 00:36:27,133
+airspeed which takes into account air compressibility at
+考虑空气压缩率的空速
+540
+00:36:27,133 --> 00:36:30,066
+high altitude for an adjusted speed calculation
+用于调整速度计算的高海拔
+541
+00:36:31,000 --> 00:36:31,800
+for reference
+供参考
+542
+00:36:31,966 --> 00:36:34,200
+there could be up to one hundred knots difference between
+两者之间可能有100海里的差距
+543
+00:36:34,200 --> 00:36:36,866
+the normal airspeed indicator and this adjusted reading
+正常空速指示器和这个调整后的读数
+544
+00:36:38,666 --> 00:36:40,300
+altitude is beneath that
+海拔低于那个
+545
+00:36:41,733 --> 00:36:43,400
+and mock at the bottom
+并在底部模拟
+546
+00:36:47,333 --> 00:36:49,966
+down and to the right there are fuel flow gauges
+下面和右边是燃油流量计
+547
+00:36:50,133 --> 00:36:52,133
+measured in thousands of pounds per hour
+以每小时数千磅计算
+548
+00:36:54,300 --> 00:36:56,100
+oil pressure gauges are nearby
+油压力表就在附近
+549
+00:36:57,333 --> 00:37:00,533
+there are gauges for hydraulic pressure in various systems
+各种系统中都有液压压力表
+550
+00:37:02,166 --> 00:37:04,333
+above that a grouping of instruments related
+上面是一组相关的文书
+551
+00:37:04,333 --> 00:37:07,066
+to exhaust including exhaust nozzle position
+到排气，包括排气喷嘴位置
+552
+00:37:07,200 --> 00:37:10,200
+indicators and exhaust temperature
+指标和排气温度
+553
+00:37:11,266 --> 00:37:13,400
+normal running temperature is eight hundred degrees
+正常运行温度是八百度
+554
+00:37:13,400 --> 00:37:16,766
+Fahrenheit and can be manually adjusted or trimmed by the
+华氏温度，可手动调整或修剪
+555
+00:37:16,766 --> 00:37:20,666
+pilot  there are fire warning lights nearby
+飞行员附近有火警灯
+556
+00:37:22,133 --> 00:37:25,066
+and tachometers to measure engine rotation speed
+和转速计来测量发动机转速
+557
+00:37:26,333 --> 00:37:29,500
+idle is about thirty nine hundred rpm while
+空闲时间约为3900转/分，而
+558
+00:37:29,500 --> 00:37:32,200
+cruise is around seven thousand one hundred rpm
+巡航大约是七千一百转
+559
+00:37:32,900 --> 00:37:35,766
+that's not much difference in engine rotation speed for
+发动机转速相差不大
+560
+00:37:35,766 --> 00:37:37,966
+all the action happening in that part of the plane
+飞机那一部分发生的所有动作
+561
+00:37:40,733 --> 00:37:43,400
+there's an elapsed time gauge which is a sort of
+有一个经过的时间计，这是一种
+562
+00:37:43,400 --> 00:37:46,733
+stopwatch rarely used but a government requirement
+秒表很少使用，但政府要求
+563
+00:37:48,133 --> 00:37:51,300
+moving leftward there's the angle of attack indicator to
+向左移动有迎角指示器
+564
+00:37:51,300 --> 00:37:54,333
+track the plane's angle relative to its direction of travel
+跟踪飞机相对于行驶方向的角度
+565
+00:37:55,100 --> 00:37:57,666
+you'll recall from earlier the plane is designed to
+你会记得早些时候飞机被设计成
+566
+00:37:57,666 --> 00:38:00,933
+sit at about six degrees angle of attack at cruise
+在巡航时以大约6度的迎角坐着
+567
+00:38:02,966 --> 00:38:03,866
+there are gauges
+有仪表
+568
+00:38:04,100 --> 00:38:07,066
+switches and lights related to the previously shown inlets
+与前面显示的入口相关的开关和灯
+569
+00:38:07,300 --> 00:38:08,300
+spikes and engines
+尖峰和引擎
+570
+00:38:08,933 --> 00:38:10,066
+for most of the flight
+在飞行的大部分时间里
+571
+00:38:10,166 --> 00:38:11,766
+the inlets are automatically
+入口是自动的
+572
+00:38:11,766 --> 00:38:13,500
+controlled by onboard computers
+由机载计算机控制
+573
+00:38:14,000 --> 00:38:16,600
+but the pilot can take manual control if needed
+但如果需要飞行员可以手动控制
+574
+00:38:18,333 --> 00:38:21,100
+there are left and right inlet unstart warning lights
+有左右入口不启动警示灯
+575
+00:38:22,933 --> 00:38:25,133
+with restart switches at the bottom left
+左下角有重启开关
+576
+00:38:27,400 --> 00:38:29,166
+there's a spike position gauge with
+有一个尖峰位置计
+577
+00:38:29,166 --> 00:38:31,166
+two indicators one for each side
+两个指示器，每边一个
+578
+00:38:32,866 --> 00:38:34,333
+and position switches
+和位置开关
+579
+00:38:36,166 --> 00:38:40,700
+compressor inlet temperature and pressure gauges
+压缩机入口温度和压力表
+580
+00:38:40,700 --> 00:38:43,866
+to monitor conditions at the compressor face or
+监测压缩机表面的状况或
+581
+00:38:43,866 --> 00:38:45,900
+front of the j fifty eight jet engine
+j58喷气发动机前
+582
+00:38:47,466 --> 00:38:49,133
+with a pair of switches for air
+带一对空气开关
+583
+00:38:49,133 --> 00:38:50,866
+bypass control in this area
+该区域的旁路控制
+584
+00:38:52,400 --> 00:38:55,400
+there's a stick pusher or shaker switch to the left
+左边有一个推杆或摇杆开关
+585
+00:38:56,100 --> 00:38:56,933
+when turned on
+打开时
+586
+00:38:56,933 --> 00:38:58,766
+the stick will shake if the pilot is
+如果飞行员是，棍子会摇晃
+587
+00:38:58,766 --> 00:39:00,333
+approaching angle of attack limits
+接近迎角极限
+588
+00:39:01,000 --> 00:39:03,133
+and forcefully push the stick forward
+并用力将棍子向前推
+589
+00:39:03,200 --> 00:39:05,166
+if the pilot ignores the shaking
+如果飞行员无视震动
+590
+00:39:06,600 --> 00:39:10,166
+the rso bailout switch is used to request bailout
+rso救助开关用于请求救助
+591
+00:39:10,466 --> 00:39:14,533
+since the rso or backseat officer should go first
+因为rso或后座警官应该先走
+592
+00:39:14,533 --> 00:39:17,200
+in emergency bailout conditions to avoid safety
+在紧急救助条件下避免安全
+593
+00:39:17,333 --> 00:39:19,500
+concerns with opening canopies and so on
+对开启檐篷等的担忧
+594
+00:39:20,733 --> 00:39:22,966
+the rso ejected light indicates if
+rso射出的光指示是否
+595
+00:39:22,966 --> 00:39:25,266
+the rso has actually ejected
+rso实际上已经弹出
+596
+00:39:26,600 --> 00:39:28,766
+these are failsafes if the communication
+这些是故障保险，如果通信
+597
+00:39:28,800 --> 00:39:30,700
+system between officers isn't working
+警官之间的系统不起作用
+598
+00:39:32,500 --> 00:39:35,300
+the drag shoot pull handle is up and to the left
+拖射拉手向上向左
+599
+00:39:36,700 --> 00:39:39,300
+at the bottom there are indicator gauges for pitch
+底部有音高指示器
+600
+00:39:39,500 --> 00:39:41,300
+roll and yaw trim levels
+滚动和偏航修剪水平
+601
+00:39:43,400 --> 00:39:46,700
+the roll trim switch is at the left side of the cockpit
+滚动装饰开关在驾驶舱左侧
+602
+00:39:52,466 --> 00:39:54,733
+a combined pitch and yaw trim switch
+组合俯仰和偏航配平开关
+603
+00:39:54,733 --> 00:39:56,400
+is located on the flight stick
+位于飞行棒上
+604
+00:40:00,733 --> 00:40:04,500
+with left to right for yaw and up and down for pitch
+从左到右代表偏航，上下代表俯仰
+605
+00:40:06,333 --> 00:40:07,400
+while we're at the stick
+当我们在棍子上的时候
+606
+00:40:07,566 --> 00:40:09,300
+let's review other controls here
+让我们在这里回顾一下其他控件
+607
+00:40:11,066 --> 00:40:13,400
+there's a button to switch the pilot's microphone
+有一个按钮可以切换飞行员的麦克风
+608
+00:40:13,400 --> 00:40:15,700
+between internal or external communication
+内部或外部沟通之间
+609
+00:40:17,533 --> 00:40:20,100
+the dual purpose button on the right either
+右边的两用按钮
+610
+00:40:20,100 --> 00:40:22,666
+activates control stick command so the pilot can
+激活控制杆命令，以便飞行员可以
+611
+00:40:22,666 --> 00:40:26,166
+use the stick during autopilot or it can activate
+在自动驾驶期间使用棍子，或者它可以激活
+612
+00:40:26,166 --> 00:40:27,900
+nose wheel steering when on the ground
+在地面上时前轮转向
+613
+00:40:31,100 --> 00:40:34,100
+a button towards the front turns on the rain removal system
+前面的按钮打开防雨系统
+614
+00:40:36,333 --> 00:40:39,133
+and a multipurpose trigger at the front can control
+前面的多功能触发器可以控制
+615
+00:40:39,133 --> 00:40:41,966
+things like disconnecting air refueling components
+比如断开空中加油组件
+616
+00:40:43,100 --> 00:40:45,600
+interrupting pitch or yaw trim  and more
+中断俯仰或偏航修剪等
+617
+00:40:50,066 --> 00:40:50,900
+while in flight
+飞行中
+618
+00:40:50,900 --> 00:40:53,466
+the rudder pedals at each side control rudder
+两侧的舵踏板控制方向舵
+619
+00:40:53,466 --> 00:40:55,366
+angle when pressed inwards from the bottom
+从底部向内按压时的角度
+620
+00:40:57,966 --> 00:41:01,066
+moving feet up to rotate the pedals controls wheel
+向上移动脚以旋转踏板控制车轮
+621
+00:41:01,066 --> 00:41:03,166
+braking for each side while on the ground
+在地面上两边都要刹车
+622
+00:41:07,333 --> 00:41:10,133
+moving now to the right or starboard side of the cockpit
+现在向驾驶舱右侧或右舷移动
+623
+00:41:10,366 --> 00:41:12,733
+there are instruments related to fuel management
+有与燃料管理相关的工具
+624
+00:41:15,000 --> 00:41:17,133
+balancing the massive fuel load front to
+平衡大量的燃料负荷
+625
+00:41:17,133 --> 00:41:19,133
+back greatly affects performance
+背部极大地影响性能
+626
+00:41:19,333 --> 00:41:20,666
+since the plane  again
+自从飞机又来了
+627
+00:41:20,866 --> 00:41:23,400
+is designed to sit at a particular angle
+被设计成以特定的角度坐着
+628
+00:41:25,200 --> 00:41:27,466
+there's a main fuel level gauge in pounds
+有一个以磅为单位的主燃料液位计
+629
+00:41:29,766 --> 00:41:32,266
+beneath that the center of gravity indicator
+下面是重心指示器
+630
+00:41:32,966 --> 00:41:34,600
+the fuel system draws from
+燃料系统从
+631
+00:41:34,600 --> 00:41:36,533
+forward tanks and works backwards
+向前坦克，向后工作
+632
+00:41:36,700 --> 00:41:40,300
+so the center of gravity will move aft as fuel is consumed
+所以重心会随着燃料消耗而向船尾移动
+633
+00:41:41,733 --> 00:41:44,600
+at speed  this center of gravity has shifted
+这个重心的移动速度
+634
+00:41:44,600 --> 00:41:46,733
+twenty five percent towards the back
+百分之二十五朝后面
+635
+00:41:48,600 --> 00:41:51,266
+there's a fuel forward transfer switch that moves
+有一个燃料正向转换开关可以移动
+636
+00:41:51,333 --> 00:41:53,866
+fuel back into forward tanks when switched on
+开机后将燃料倒入前进油箱
+637
+00:41:55,333 --> 00:41:58,300
+and a corresponding fuel aft transfer switch which
+以及相应的燃料尾部转换开关
+638
+00:41:58,300 --> 00:42:01,566
+moves fuel rearward and must be held down to operate
+将燃料向后移动，必须按住才能操作
+639
+00:42:03,500 --> 00:42:07,966
+there's a fuel tank pressure gauge at the bottom and gauges
+底部有一个油箱压力表和仪表
+640
+00:42:07,966 --> 00:42:11,466
+to measure nitrogen quantity in various tanks which is used
+测量使用的各种罐中的氮量
+641
+00:42:11,466 --> 00:42:14,266
+for inerting as we saw in the fuel system explanation
+就像我们在燃料系统解释中看到的那样
+642
+00:42:16,133 --> 00:42:17,900
+there's a fuel dump switch to quickly
+有一个快速加油开关
+643
+00:42:17,933 --> 00:42:19,966
+dump thousands of pounds of fuel
+倾倒数千磅燃料
+644
+00:42:20,366 --> 00:42:23,066
+for example to drop weight in an emergency situation
+例如在紧急情况下减肥
+645
+00:42:25,600 --> 00:42:27,933
+emergency fuel shut off switches are nearby
+紧急燃料关闭开关就在附近
+646
+00:42:31,366 --> 00:42:35,133
+now let's head over to the left or port side of the cockpit
+现在我们去驾驶舱左边或者左舷
+647
+00:42:36,900 --> 00:42:38,900
+there's a grouping of dials for environmental
+这里有一组关于环境的表盘
+648
+00:42:39,066 --> 00:42:42,133
+controls such as cockpit temperature  face heat
+驾驶舱温度面热等控制
+649
+00:42:42,133 --> 00:42:43,133
+and suit heat
+和西装热
+650
+00:42:43,366 --> 00:42:45,900
+which control heating in the pilot's helmet and suit
+控制飞行员头盔和防护服的加热
+651
+00:42:47,733 --> 00:42:49,800
+and a nearby temperature gauge with a switch
+和附近带开关的温度计
+652
+00:42:49,800 --> 00:42:51,933
+to select which system it should display
+选择它应该显示的系统
+653
+00:42:57,866 --> 00:43:00,300
+near the bottom there's a cabin altitude gauge
+底部附近有一个船舱高度计
+654
+00:43:01,266 --> 00:43:03,966
+crew could choose cabin pressurization equivalent
+机组人员可以选择客舱增压当量
+655
+00:43:03,966 --> 00:43:06,533
+to ten thousand or twenty six thousand feet
+到一万或二万六千英尺
+656
+00:43:08,800 --> 00:43:11,466
+and a Liquid oxygen level indicator beneath
+和下面的液氧水平指示器
+657
+00:43:11,900 --> 00:43:14,466
+Liquid oxygen is converted to gas and pumped
+液氧被转化为气体并被泵送
+658
+00:43:14,466 --> 00:43:16,166
+into the crew's helmets for breathing
+进入船员的头盔呼吸
+659
+00:43:17,866 --> 00:43:19,733
+the landing gear lever is nearby
+起落架杆就在附近
+660
+00:43:19,733 --> 00:43:21,500
+with associated indicator lights
+带有相关的指示灯
+661
+00:43:21,700 --> 00:43:22,900
+switches and so on
+开关等
+662
+00:43:25,966 --> 00:43:28,466
+as we pivot all the way to the left side wall
+当我们转向左边的墙
+663
+00:43:28,533 --> 00:43:30,000
+we see the dual throttle levers
+我们看到双油门杆
+664
+00:43:31,933 --> 00:43:34,566
+there's a button here to toggle the pilot's microphone
+这里有一个按钮可以切换飞行员的麦克风
+665
+00:43:36,166 --> 00:43:38,566
+and a switch beneath that to manually
+下面有一个手动开关
+666
+00:43:38,566 --> 00:43:41,000
+initiate the inlet spike restart sequence
+启动入口尖峰重启序列
+667
+00:43:43,400 --> 00:43:46,400
+each throttle channel has a tab counter to
+每个节气门通道都有一个标签计数器
+668
+00:43:46,400 --> 00:43:49,366
+track how many shots of tab are used from a
+跟踪从一个
+669
+00:43:49,366 --> 00:43:52,166
+starting total of sixteen shots per side
+每边总共16次投篮
+670
+00:43:53,900 --> 00:43:54,700
+for example
+例如
+671
+00:43:55,100 --> 00:43:57,200
+the throttles move forward up to a limit
+油门向前移动到一个极限
+672
+00:43:57,200 --> 00:43:59,700
+which corresponds to normal engine power
+这对应于正常的发动机功率
+673
+00:44:01,600 --> 00:44:04,200
+the pilot must lift the throttles up over
+飞行员必须把油门抬起来
+674
+00:44:04,200 --> 00:44:06,666
+this detent to engage afterburners
+这个棘爪用于接合加力燃烧室
+675
+00:44:08,600 --> 00:44:12,166
+doing so fires a shot of teb to start the afterburners
+这样做会发射一枪teb来启动加力燃烧室
+676
+00:44:12,566 --> 00:44:15,600
+and the counters tick down each time this happens
+每次发生这种情况时，计数器都会滴答作响
+677
+00:44:17,100 --> 00:44:19,100
+afterburner power is controllable from
+加力功率可从
+678
+00:44:19,100 --> 00:44:21,300
+min to max along the stick travel
+沿着棍子行程的最小到最大值
+679
+00:44:24,366 --> 00:44:27,066
+there's an oxygen settings control panel behind that
+后面有一个氧气设置控制面板
+680
+00:44:28,600 --> 00:44:31,400
+a nearby pull handle will jetison the canopy
+附近的拉手会破坏天篷
+681
+00:44:33,800 --> 00:44:36,333
+other panels here include a radio panel
+这里的其他面板包括无线电面板
+682
+00:44:37,366 --> 00:44:38,866
+standby oxygen panel
+备用氧气板
+683
+00:44:39,533 --> 00:44:42,533
+a panel for various lights such as landing gear lights
+起落架灯等各种灯的面板
+684
+00:44:42,533 --> 00:44:46,533
+and more  controls for the map projector are found
+并找到地图投影仪的更多控件
+685
+00:44:46,666 --> 00:44:48,466
+towards the front of this panel area
+朝向这个面板区域的前面
+686
+00:44:50,000 --> 00:44:52,466
+corresponding banks of controls on the starboard
+右舷相应的控制台
+687
+00:44:52,466 --> 00:44:56,100
+side handle things like internal comms system
+侧面处理内部通信系统之类的东西
+688
+00:44:56,966 --> 00:44:59,066
+computer navigation aids for flying
+用于飞行的计算机导航设备
+689
+00:44:59,366 --> 00:45:00,733
+landing and takeoff
+着陆和起飞
+690
+00:45:01,133 --> 00:45:02,400
+autopilot and more
+自动驾驶仪等
+691
+00:45:08,000 --> 00:45:10,533
+the rear cockpit echoes many of the same gauges
+后驾驶舱与许多相同的仪表相呼应
+692
+00:45:10,700 --> 00:45:13,466
+switches and indicators with some crucial additions
+带有一些关键附加功能的开关和指示器
+693
+00:45:17,300 --> 00:45:20,800
+there's a viewside monitor which lets the rso see directly
+有一个视场监视器可以让rso直接看到
+694
+00:45:20,966 --> 00:45:23,933
+beneath the plane with magnification settings and more
+具有放大倍率设置等的平面下方
+695
+00:45:25,966 --> 00:45:28,066
+a radar display sits beneath that
+雷达显示器位于其下方
+696
+00:45:29,733 --> 00:45:32,000
+and a large map projector plane
+和一个大型地图投影仪飞机
+697
+00:45:34,066 --> 00:45:35,900
+there's a control panel for the
+有一个控制面板
+698
+00:45:35,900 --> 00:45:37,933
+astro inertial navigation device
+天文惯性导航装置
+699
+00:45:37,966 --> 00:45:39,200
+which we'll cover in a bit
+我们稍后会介绍。
+700
+00:45:40,966 --> 00:45:42,666
+there's a panel with controls and
+有一个控制面板和
+701
+00:45:42,700 --> 00:45:44,466
+indicators for reconnaissance equipment
+侦察设备指示器
+702
+00:45:47,766 --> 00:45:51,533
+controls at the left side include a def panel to engage
+左侧的控件包括一个要接合的def面板
+703
+00:45:51,533 --> 00:45:54,766
+onboard defensive systems which could counter any threats
+机载防御系统，可以对抗任何威胁
+704
+00:45:54,766 --> 00:45:57,400
+to the plane from things like surface to air missiles
+从地对空导弹到飞机
+705
+00:45:57,866 --> 00:45:58,866
+air to air missiles
+空对空导弹
+706
+00:45:59,200 --> 00:46:01,666
+hostile fighter intercept attempts  and so on
+敌方战斗机拦截企图等等
+707
+00:46:02,933 --> 00:46:06,300
+there are also radio and intercom controls in this area
+这个区域还有无线电和对讲机控制
+708
+00:46:08,666 --> 00:46:10,400
+as we move away from the controls
+当我们离开控制
+709
+00:46:10,466 --> 00:46:12,733
+we can take in other items in these cockpits
+我们可以在这些驾驶舱里收纳其他物品
+710
+00:46:14,466 --> 00:46:17,266
+the rso has retractable sun shades
+rso有可伸缩的太阳镜
+711
+00:46:21,966 --> 00:46:25,166
+the pilot has a positionable sun visor with Wings
+飞行员有一个带翅膀的可定位遮阳板
+712
+00:46:26,500 --> 00:46:28,600
+sun glare at altitude could make instrument
+高空的太阳眩光可能会使仪器
+713
+00:46:28,600 --> 00:46:31,466
+visibility almost impossible if not blocked
+如果不被封锁，能见度几乎是不可能的
+714
+00:46:33,866 --> 00:46:37,000
+both cockpits have small mirrors to help crew see
+两个驾驶舱都有小镜子，可以帮助船员看到
+715
+00:46:37,066 --> 00:46:39,700
+themselves due to the difficulty of some actions in
+由于某些行动的困难
+716
+00:46:39,700 --> 00:46:42,300
+their bulky flight suits in confined quarters
+他们笨重的飞行服在狭小的空间里
+717
+00:46:44,566 --> 00:46:47,566
+the pilot has a retractable periscope to view the
+飞行员有一个可伸缩的潜望镜来查看
+718
+00:46:47,566 --> 00:46:50,733
+plane looking aft for things like engine fires
+飞机在尾部寻找引擎起火之类的东西
+719
+00:46:51,266 --> 00:46:52,066
+contrailing
+尾迹
+720
+00:46:52,400 --> 00:46:53,200
+fuel dumping
+燃料倾倒
+721
+00:46:53,533 --> 00:46:55,000
+and to check rudder position
+并检查方向舵位置
+722
+00:46:59,266 --> 00:47:02,566
+windows have inner and outer panes with an air gap
+窗户有带气隙的内外窗格
+723
+00:47:03,733 --> 00:47:06,800
+glass at the outside reaches temperatures of four
+外面的玻璃温度达到4度
+724
+00:47:06,800 --> 00:47:09,466
+to five hundred degrees Fahrenheit at cruise
+到华氏五百度
+725
+00:47:10,000 --> 00:47:12,466
+with the interior panes surface in the
+内部窗格表面在
+726
+00:47:12,466 --> 00:47:14,066
+two hundred and fifty degree range
+二百五十度范围
+727
+00:47:16,166 --> 00:47:19,466
+the cockpit had to have air pumped in at negative forty
+驾驶舱必须在零下40度注入空气
+728
+00:47:19,700 --> 00:47:23,300
+degrees to keep interior temps at a comfortable sixty
+将室内温度保持在舒适的60度
+729
+00:47:23,300 --> 00:47:26,966
+degrees for crew who wore their own climate controlled
+穿着自己气候控制的船员的学位
+730
+00:47:27,000 --> 00:47:27,800
+flight suits
+飞行服
+731
+00:47:30,566 --> 00:47:33,300
+the suits themselves have various critical layers
+西装本身有各种临界层
+732
+00:47:34,100 --> 00:47:37,300
+starting with a thin nylon comfort layer against the skin
+从贴在皮肤上的薄尼龙舒适层开始
+733
+00:47:40,466 --> 00:47:42,666
+followed by an inflatable rubber bladder layer
+然后是充气橡胶囊层
+734
+00:47:42,666 --> 00:47:45,700
+for added warmth against cold air or water in the
+以增加对冷空气或水的温暖
+735
+00:47:45,700 --> 00:47:47,966
+event of emergency exit from the cockpit
+紧急情况下离开驾驶舱
+736
+00:47:51,100 --> 00:47:53,133
+a fishnet type layer helps the suit
+渔网型层有助于西装
+737
+00:47:53,133 --> 00:47:55,300
+keep its proper shape when inflated
+充气时保持其应有的形状
+738
+00:47:58,466 --> 00:48:01,300
+and the iconic orange outer layer which is fire
+标志性的橙色外层是火
+739
+00:48:01,466 --> 00:48:03,733
+resistant up to eight hundred degrees Fahrenheit
+可抵抗800华氏度
+740
+00:48:06,600 --> 00:48:09,700
+there are metal rings for glove and helmet attach points
+有手套和头盔连接点的金属环
+741
+00:48:12,700 --> 00:48:15,400
+and connections for climate and breathing air
+以及气候和呼吸空气的联系
+742
+00:48:18,566 --> 00:48:21,200
+there are easily accessible leg zipper pockets
+有容易接近的腿拉链口袋
+743
+00:48:24,566 --> 00:48:27,000
+velcro pads just above the knees for
+尼龙搭扣垫就在膝盖以上
+744
+00:48:27,000 --> 00:48:28,400
+sticking important documents
+粘贴重要文件
+745
+00:48:31,366 --> 00:48:34,200
+the helmet has a face shield with a sun visor
+头盔有一个带遮阳板的面罩
+746
+00:48:36,900 --> 00:48:40,500
+and a feeding port for squeezing food out of tubes
+和一个从管子里挤出食物的进料口
+747
+00:48:43,366 --> 00:48:46,200
+there's a neoprene seal around the face to allow
+面部周围有氯丁橡胶密封
+748
+00:48:46,200 --> 00:48:49,166
+pressurization to sea level for comfortable breathing
+加压至海平面，呼吸舒适
+749
+00:48:49,566 --> 00:48:52,566
+where the rest of the suit matches cockpit pressure levels
+其余部分与驾驶舱压力水平相匹配
+750
+00:48:55,500 --> 00:48:57,800
+the seat has a parachute in the headrest
+座位头枕上有降落伞
+751
+00:49:00,800 --> 00:49:03,300
+and is anchored to a support rack upon which
+并锚定在支撑架上
+752
+00:49:03,300 --> 00:49:05,533
+it slides during the ejection process
+它在弹出过程中滑动
+753
+00:49:08,666 --> 00:49:10,933
+there are cables at the bottom for attachment to
+底部有电缆用于连接
+754
+00:49:10,933 --> 00:49:13,100
+metal brackets at the heel of each boot
+每个靴子后跟的金属支架
+755
+00:49:18,533 --> 00:49:21,566
+these cables pull the pilot's feet tight to the
+这些缆绳把飞行员的脚拉紧
+756
+00:49:21,566 --> 00:49:24,733
+seat frame during ejection to avoid striking
+弹射时的座椅框架以避免撞击
+757
+00:49:24,766 --> 00:49:27,700
+limbs as the seat blasts out of the cockpit
+四肢随着座椅冲出驾驶舱
+758
+00:49:32,766 --> 00:49:37,900
+equipment the nose and side bays at the front of
+装备前面的鼻子和侧舱
+759
+00:49:37,900 --> 00:49:40,566
+the plane have components for both airplane
+这架飞机有两架飞机的组件
+760
+00:49:40,566 --> 00:49:43,733
+functionality and mission specific objectives
+功能和特定任务目标
+761
+00:49:47,000 --> 00:49:49,766
+i'll show you the zoomed in individual units
+我将向您展示放大后的单个单位
+762
+00:49:49,800 --> 00:49:50,933
+and then we'll zoom out
+然后我们会缩小
+763
+00:49:50,933 --> 00:49:53,566
+so you can see their range and capabilities from
+所以你可以从
+764
+00:49:53,566 --> 00:49:56,300
+eighty thousand feet down to the earth's surface
+八万英尺下到地表
+765
+00:49:59,700 --> 00:50:03,366
+the pitot mast is a thin tube with various probes
+皮托管是一根带有各种探针的细管
+766
+00:50:03,366 --> 00:50:06,800
+which feeds air pressure data to onboard computers
+它将气压数据输入机载计算机
+767
+00:50:06,800 --> 00:50:09,166
+and instruments for things like airspeed
+以及诸如空速之类的仪器
+768
+00:50:09,666 --> 00:50:11,200
+angle of attack  and more
+攻角等等
+769
+00:50:15,066 --> 00:50:18,533
+the entire nose section is interchangeable and can be
+整个鼻子部分是可互换的，可以
+770
+00:50:18,533 --> 00:50:21,266
+swapped out between flights to suit mission objectives
+在不同航班之间调换以适应任务目标
+771
+00:50:24,100 --> 00:50:25,266
+there are three noses
+有三个鼻子
+772
+00:50:25,533 --> 00:50:27,066
+two with different radar types
+两个有不同的雷达类型
+773
+00:50:27,400 --> 00:50:30,600
+and an optical bar camera which i featured here
+和我在这里展示的光学条形相机
+774
+00:50:33,500 --> 00:50:37,100
+the Optical bar camera had film reels that carried ten
+光学棒相机有10个胶卷
+775
+00:50:37,100 --> 00:50:40,066
+thousand five hundred feet of five inch wide film
+一千五百英尺五英寸宽的胶片
+776
+00:50:40,766 --> 00:50:41,733
+for comparison
+用于比较
+777
+00:50:41,933 --> 00:50:44,666
+a normal ninety minute movie would use eight thousand
+一部正常的九十分钟电影需要八千美元
+778
+00:50:44,666 --> 00:50:47,400
+one hundred feet of thirty five millimeter film
+一百英尺的三十五毫米胶卷
+779
+00:50:48,700 --> 00:50:50,866
+it could also film in stereo vision to
+它也可以用立体视觉拍摄
+780
+00:50:50,866 --> 00:50:52,800
+help identify objectives easier
+帮助更轻松地确定目标
+781
+00:50:56,900 --> 00:50:59,533
+moving aft there are liquid oxygen supply bottles
+船尾有液氧供应瓶
+782
+00:51:02,933 --> 00:51:05,500
+there are bays which house components for
+有隔间容纳组件
+783
+00:51:05,500 --> 00:51:07,500
+the sr seven one's defensive systems
+sr 7one的防御系统
+784
+00:51:10,766 --> 00:51:13,533
+further AFT there's a Bay with Radar recording equipment
+再往前走，有一个装有雷达记录设备的海湾
+785
+00:51:13,966 --> 00:51:17,500
+the Blackbird's unusual speed and altitude tended to
+黑鸟不同寻常的速度和高度
+786
+00:51:17,500 --> 00:51:20,933
+activate hostile Radar and missile systems along its flight
+启动敌方的雷达和导弹系统
+787
+00:51:20,966 --> 00:51:24,566
+path  these signals could be captured and analyzed
+可以捕获和分析这些信号的路径
+788
+00:51:24,733 --> 00:51:26,666
+to better understand their capabilities
+更好地了解他们的能力
+789
+00:51:28,933 --> 00:51:32,666
+the bays behind that hold technical objective cameras for
+后面的隔间有技术目标摄像机
+790
+00:51:32,666 --> 00:51:36,066
+more detailed photography of smaller specific areas
+更详细地拍摄更小的特定区域
+791
+00:51:39,566 --> 00:51:41,200
+just behind the rear cockpit
+就在后驾驶舱后面
+792
+00:51:41,366 --> 00:51:44,400
+there's the astroinertial navigation system or
+有天体惯性导航系统或
+793
+00:51:44,600 --> 00:51:48,300
+ans to precisely monitor airplane location
+ANS精确监控飞机位置
+794
+00:51:51,366 --> 00:51:54,266
+it would track three star groups within
+它能追踪三个星团
+795
+00:51:54,266 --> 00:51:56,300
+thirty seconds after leaving the hanger
+离开衣架30秒后
+796
+00:51:56,566 --> 00:51:58,100
+no matter the time of day
+无论一天中的什么时候
+797
+00:51:59,300 --> 00:52:03,066
+the sr-71's location could be pinpointed to
+SR-71的位置可以精确定位到
+798
+00:52:03,066 --> 00:52:06,200
+within three hundred feet anywhere in the world
+世界上任何地方三百英尺之内
+799
+00:52:06,500 --> 00:52:07,933
+even at马赫speeds
+even at马赫speeds
+800
+00:52:08,400 --> 00:52:11,566
+this was well before the existence of gps satellites
+这是早在gps卫星出现之前
+801
+00:52:15,600 --> 00:52:18,933
+also in these bays and compartments there are batteries
+在这些海湾和隔间中还有电池
+802
+00:52:19,200 --> 00:52:20,100
+radio equipment
+无线电设备
+803
+00:52:20,133 --> 00:52:22,700
+antennas and computers that run or assist
+运行或协助的天线和计算机
+804
+00:52:22,700 --> 00:52:24,600
+other components related to mission goals
+与任务目标有关的其他组成部分
+805
+00:52:25,066 --> 00:52:26,866
+airplane function and more
+飞机功能等
+806
+00:52:33,333 --> 00:52:35,733
+and here's a zoomed out diagram to
+这是一个缩小的图表
+807
+00:52:35,733 --> 00:52:37,466
+show you what each component sees
+向您展示每个组件看到的内容
+808
+00:52:40,566 --> 00:52:43,666
+the optical bar camera can continuously photograph an
+光条相机可以连续拍摄
+809
+00:52:43,666 --> 00:52:47,366
+eighty two mile wide by two point three miles long patch
+82英里宽2.3英里长
+810
+00:52:50,766 --> 00:52:54,666
+radar can monitor an eleven mile area from twenty three to
+雷达可以监测从23到11英里的区域
+811
+00:52:54,666 --> 00:52:57,333
+one hundred and fifteen miles from the flight path
+距离飞行路线一百一十五英里
+812
+00:53:00,500 --> 00:53:03,600
+signal repeaters can see from horizon to horizon
+信号中继器可以从一个地平线看到另一个地平线
+813
+00:53:07,300 --> 00:53:10,166
+technical objective cameras locate and photograph
+技术物镜相机定位和拍照
+814
+00:53:10,266 --> 00:53:12,866
+hundreds of targets to within six inches of
+数百个目标在六英寸内
+815
+00:53:12,866 --> 00:53:16,266
+resolution within a sixteen mile range side to side
+16英里范围内的分辨率
+816
+00:53:25,000 --> 00:53:28,966
+perhaps what makes the SR71 so special is its rarity
+也许SR71之所以如此特别是因为它的稀有性
+817
+00:53:32,700 --> 00:53:35,333
+to have the right people and talents come together
+让合适的人和人才走到一起
+818
+00:53:35,333 --> 00:53:38,300
+with proper funding and be allowed to flex their
+有适当的资金，并被允许弯曲他们的
+819
+00:53:38,300 --> 00:53:42,900
+talents fully is apparently a very rare thing indeed
+完全的天赋显然是一件非常罕见的事情
+820
+00:53:45,000 --> 00:53:47,900
+and often results in legends that persist
+并经常导致传说持续存在
+821
+00:54:22,266 --> 00:54:24,066
+hey everyone  Jake here
+嘿各位Jake在这里
+822
+00:54:24,266 --> 00:54:25,500
+creator vanamagraphs
+创作者vanamagraph
+823
+00:54:25,766 --> 00:54:26,566
+first of all
+首先
+824
+00:54:26,866 --> 00:54:30,066
+thanks for being on the channel and enjoying my work
+感谢您在频道上并享受我的工作
+825
+00:54:30,133 --> 00:54:32,600
+this project was awesome to create
+这个项目创建起来很棒。
+826
+00:54:33,166 --> 00:54:36,266
+and i'm going to be releasing a behind the scenes video
+我将发布一段幕后视频
+827
+00:54:36,400 --> 00:54:40,333
+shortly after the release of this one detailing everything
+在这个详细说明一切的版本发布后不久
+828
+00:54:40,333 --> 00:54:44,333
+that went into making this project from the research that i
+从我的研究中进入这个项目
+829
+00:54:44,333 --> 00:54:48,766
+had to find and dig deep to get to crafting the model
+必须找到并深入挖掘才能制作模型
+830
+00:54:49,333 --> 00:54:52,400
+and doing the materials and rendering and the rigs
+做材料、渲染和钻机
+831
+00:54:52,466 --> 00:54:54,966
+so building the moving mechanical objects
+所以建造移动的机械物体
+832
+00:54:55,800 --> 00:54:58,533
+the items in these projects many of them
+这些项目中的项目很多
+833
+00:54:58,533 --> 00:55:00,166
+actually work how they would in real life
+实际上他们在现实生活中的工作方式
+834
+00:55:00,166 --> 00:55:01,500
+these are real recreations
+这些都是真正的娱乐
+835
+00:55:02,100 --> 00:55:04,700
+and i want to show you how i do it and bring you into the
+我想向你展示我是如何做到的，并带你进入
+836
+00:55:04,700 --> 00:55:08,000
+magic and the madness of making animographs and i promise i'll
+魔法和制作动画片的疯狂，我保证我会
+837
+00:55:08,000 --> 00:55:11,266
+be entertaining and i might even tell a few light jokes here
+很有趣，我甚至可能在这里讲一些轻松的笑话
+838
+00:55:11,266 --> 00:55:15,800
+and there so something to look forward to anyway later
+反正以后也有值得期待的事情

@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "title": "SR-71飞到三马赫，全靠这根会后退的进气锥",
+  "platform_titles": {
+    "bilibili": "SR-71飞到三马赫，全靠这根会后退的进气锥",
+    "douyin": "三马赫的秘密，藏在这根尖锥里",
+    "kuaishou": "飞机前面这根锥，为啥飞快了还得后退？",
+    "xiaohongshu": "SR-71进气锥图解：看懂三马赫飞机怎样驯服激波"
+  },
+  "source_video": "L:/workspace/yinghe-shijie/videos/raw/SR-71为何能飞到发烫，黑鸟侦察机3D拆解.mp4",
+  "output_video": "L:/workspace/yinghe-shijie/videos/exports/短视频/SR-71为何能飞到发烫，黑鸟侦察机3D拆解/进气锥驯服激波_短视频/进气锥驯服激波_短视频.mp4",
+  "cover_title": "三马赫的秘密",
+  "cover_headline": "三马赫的秘密",
+  "cover_subhead": "进气锥驯服激波",
+  "cover_aspect": "16:9",
+  "background_music": "music/硬核视界_通用BGM_舒缓科普探索_CC0.mp3",
+  "layout": "source",
+  "burn_captions": false,
+  "write_subtitles": true,
+  "mix": {"source_volume": 0.0, "narration_volume": 1.0, "music_volume": 0.45, "music_fade_seconds": 0.0},
+  "clips": [
+    {"id": "spike_moves", "source_start": "00:18:35.533", "source_end": "00:19:00.566", "focus_x": 0.5},
+    {"id": "shock_lock", "source_start": "00:19:01.900", "source_end": "00:19:15.533", "focus_x": 0.5},
+    {"id": "shock_failure", "source_start": "00:19:22.133", "source_end": "00:19:36.666", "focus_x": 0.5}
+  ],
+  "narration": {
+    "voice": "zh-CN-YunyangNeural",
+    "rate": "+0%",
+    "segments": [
+      {"start": "00:00:00.000", "end": "00:00:25.033", "text": "SR-71飞到三马赫，最难的不是发动机够不够大，而是高速空气根本不能直接吞进涡喷发动机。黑鸟靠两侧的进气锥，把激波稳稳锁在进气道里。它从一点六马赫开始后移，到三点二马赫时已经后退二十六英寸。"},
+      {"start": "00:00:25.033", "end": "00:00:38.666", "text": "进气锥一动，进气道喉部形状也跟着改变，激波正好贴在进气口边缘。"},
+      {"start": "00:00:38.666", "end": "00:00:53.199", "text": "一旦激波错位，推力会立刻消失，飞机甚至会猛地偏向一侧。黑鸟的三马赫秘诀，就是驯服这道看不见的激波。"}
+    ]
+  }
+}

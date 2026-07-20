@@ -4,6 +4,14 @@
 
 | 日期 | 视频标题 | YouTube链接 | 频道 | 类型 | 状态 |
 |---|---|---|---|---|---|
+| 2026-07-18 | Still Face Experiment Dr Edward Tronick | https://www.youtube.com/watch?v=YTTSXc6sARg | Mind Your Class | #育儿育己 #亲子关系 #情绪回应 #心理实验 | 已推荐 |
+| 2026-07-18 | Cities at Sea: How Aircraft Carriers Work | https://www.youtube.com/watch?v=c0pS3Zx7Fc8 | Wendover Productions | #军事 #航空母舰 #舰载机 #工程纪录片 | 已推荐 |
+| 2026-07-18 | Liquid Cooling in AI Data Center | https://www.youtube.com/watch?v=vnE5WMwebnE | MEP Academy | #AI #数据中心 #液冷技术 #工程可视化 | 已推荐 |
+| 2026-07-18 | Tunnel Boring Machine (TBM) Explained - 3D Animation | https://www.youtube.com/watch?v=ZPOJxS6nqlo | LifeAda English | #科技纪录片 #超级机械 #盾构机 #3D动画 | 已推荐 |
+| 2026-07-17 | How the Lockheed SR-71 Blackbird Works | https://www.youtube.com/watch?v=gkyVZxtsubM | Animagraffs | #军事机械 #战略侦察机 #航空工程 #3D动画 | 已推荐 |
+| 2026-07-17 | Atlas Goes Hands On | https://www.youtube.com/watch?v=F_7IPm7f1vI | Boston Dynamics | #AI #人形机器人 #智能制造 #工业演示 | 已推荐 |
+| 2026-07-17 | The World's Shortcut: How the Panama Canal Works | https://www.youtube.com/watch?v=KgsxapE27NU | Wendover Productions | #世界冷知识 #全球物流 #巴拿马运河 #地图动画 | 已推荐 |
+| 2026-07-16 | Submarine Nuclear Power \| Engineering behind it Nuclear Reactor How it Works | https://www.youtube.com/watch?v=DkDGFpn_iT0 | SYG DESIGNWORKS | #军事机械 #核潜艇 #核动力 #3D动画 | 已推荐 |
 | 2026-07-16 | How do Smartphone CPUs Work? \|\| Inside the System on a Chip | https://www.youtube.com/watch?v=NKfW8ijmRQ4 | Branch Education | #AI #AI硬件 #手机芯片 #3D动画 | 已推荐 |
 | 2026-07-16 | What are PCBs? \|\| How do PCBs Work? | https://www.youtube.com/watch?v=Z2LgmIGE2nI | Branch Education | #科技纪录片 #芯片制造 #PCB #3D动画 | 已推荐 |
 | 2026-07-16 | How do Electron Microscopes Work? 🔬🛠🔬 Taking Pictures of Atoms | https://www.youtube.com/watch?v=9DnnxvS6BBQ | Branch Education | #科技纪录片 #芯片制造 #电子显微镜 #3D动画 | 已推荐 |

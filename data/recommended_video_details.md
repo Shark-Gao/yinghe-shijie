@@ -2,6 +2,174 @@
 
 用于集中保存每条推荐的完整 11 项信息与封面路径，便于后续查阅。
 
+## 2026-07-18 - Still Face Experiment Dr Edward Tronick
+
+视频链接：https://www.youtube.com/watch?v=YTTSXc6sARg
+视频标题：Still Face Experiment Dr Edward Tronick
+频道：Mind Your Class
+内容分类：#育儿育己 #亲子关系 #情绪回应 #心理实验
+推荐理由：短片用一个极具冲击力的亲子互动实验，直观呈现婴儿如何反复尝试获得照看者的回应，以及持续得不到回应时会如何慌乱。几乎不依赖复杂语言，适合做“孩子闹的不是脾气，可能是在找回应”的高共情短内容；也能自然落到父母先调节自己情绪这一“育儿即育己”的核心。
+搬运适合度（★★★★★）：★★★★☆
+中文字幕难度：低
+国内受众潜力：高
+B站标题建议：孩子为什么最怕父母没反应？一个亲子实验看懂情绪回应
+抖音标题建议：孩子闹的时候，先别急着讲道理
+快手标题建议：孩子为啥越哄越哭？他可能只是在等你回应
+小红书标题建议：亲子情绪回应实验，看懂孩子需要的安全感
+封面文案：先稳住自己 再回应孩子
+视频简介：当父母突然没有表情、没有回应，孩子会发生什么？这个经典亲子实验把“被看见、被回应”拍得非常直观。它提醒我们：育儿不只是纠正孩子的行为，也是在情绪上先稳住自己，再用真实的回应帮孩子重建安全感。
+首页推荐封面 4:3：L:/workspace/yinghe-shijie/covers/still-face-experiment/still-face-experiment-cover-4x3.png
+个人空间封面 16:9：L:/workspace/yinghe-shijie/covers/still-face-experiment/still-face-experiment-cover-16x9.png
+短视频竖版封面 9:16：L:/workspace/yinghe-shijie/covers/still-face-experiment/still-face-experiment-cover-9x16.png
+状态：已推荐
+
+## 2026-07-18 - Cities at Sea: How Aircraft Carriers Work
+
+视频链接：https://www.youtube.com/watch?v=c0pS3Zx7Fc8
+视频标题：Cities at Sea: How Aircraft Carriers Work
+频道：Wendover Productions
+内容分类：#军事 #航空母舰 #舰载机 #工程纪录片
+推荐理由：把航母作为“海上城市”拆开讲：飞行甲板、舰载机起降、机库、电力与补给系统都能被包装成强工程问题。航拍、图解和叙事镜头为主，真人依赖低，适合将“航母为什么能连续起降战机”剪成强钩子短版。
+搬运适合度（★★★★★）：★★★★☆
+中文字幕难度：中
+国内受众潜力：高
+B站标题建议：航母如何变成海上城市，舰载机起降与动力拆解
+抖音标题建议：一艘航母，为什么像一座会移动的城市？
+快手标题建议：航母上飞机咋起飞，船里到底藏着啥？
+小红书标题建议：航母结构图解，看懂舰载机为何能在海上起降
+封面文案：航母如何 变成海上城市
+视频简介：航母不只是“能装飞机的大船”，而是一座把机场、维修厂、仓储、电站和生活区压缩进钢铁船体的海上城市。跟着飞行甲板、机库与补给系统的画面，看懂舰载机为何能在狭窄甲板上持续起降，以及它背后要维持怎样的工程协同。
+首页推荐封面 4:3：L:/workspace/yinghe-shijie/covers/cities-at-sea-aircraft-carriers/cities-at-sea-aircraft-carriers-cover-4x3.png
+个人空间封面 16:9：L:/workspace/yinghe-shijie/covers/cities-at-sea-aircraft-carriers/cities-at-sea-aircraft-carriers-cover-16x9.png
+短视频竖版封面 9:16：L:/workspace/yinghe-shijie/covers/cities-at-sea-aircraft-carriers/cities-at-sea-aircraft-carriers-cover-9x16.png
+状态：已推荐
+
+## 2026-07-18 - Liquid Cooling in AI Data Center
+
+视频链接：https://www.youtube.com/watch?v=vnE5WMwebnE
+视频标题：Liquid Cooling in AI Data Center
+频道：MEP Academy
+内容分类：#AI #数据中心 #液冷技术 #工程可视化
+推荐理由：聚焦 AI 数据中心最直观的瓶颈——GPU 发热。液冷回路、冷板、泵组与热交换的工程关系可视化程度高，基本不依赖真人出镜；可直接转化为“AI 为什么越来越像一座冷却工厂”，贴合算力、能耗与基础设施话题。
+搬运适合度（★★★★★）：★★★★★
+中文字幕难度：中
+国内受众潜力：高
+B站标题建议：AI算力为何用水冷，数据中心液冷系统拆解
+抖音标题建议：AI一算就发烫，GPU为什么要泡进水里？
+快手标题建议：AI服务器这么热，到底咋给它降温？
+小红书标题建议：AI数据中心液冷图解，3分钟看懂GPU散热链路
+封面文案：AI算力 为何用水冷
+视频简介：大模型的算力越集中，散热越像一场不能停的工业工程。视频用液冷回路拆开服务器、冷板、泵组和热交换设备，带你看懂 GPU 热量如何被带走，也理解为什么 AI 数据中心的电力、用水和冷却正成为下一轮基础设施竞争。
+首页推荐封面 4:3：L:/workspace/yinghe-shijie/covers/liquid-cooling-ai-data-center/liquid-cooling-ai-data-center-cover-4x3.png
+个人空间封面 16:9：L:/workspace/yinghe-shijie/covers/liquid-cooling-ai-data-center/liquid-cooling-ai-data-center-cover-16x9.png
+短视频竖版封面 9:16：L:/workspace/yinghe-shijie/covers/liquid-cooling-ai-data-center/liquid-cooling-ai-data-center-cover-9x16.png
+状态：已推荐
+
+## 2026-07-18 - Tunnel Boring Machine (TBM) Explained - 3D Animation
+
+视频链接：https://www.youtube.com/watch?v=ZPOJxS6nqlo
+视频标题：Tunnel Boring Machine (TBM) Explained - 3D Animation
+频道：LifeAda English
+内容分类：#科技纪录片 #超级机械 #盾构机 #3D动画
+推荐理由：用完整 3D 剖面展示盾构机刀盘破岩、液压推进、出渣输送和管片拼装，几乎无真人且结构一眼可懂。可从“地铁隧道为什么能在地下自动长出来”切入，匹配国内大国工程、城市基建与超级机械的稳定受众。
+搬运适合度（★★★★★）：★★★★★
+中文字幕难度：中
+国内受众潜力：高
+B站标题建议：巨型盾构机如何掘穿岩层，地铁隧道3D拆解
+抖音标题建议：地铁隧道不是挖出来的，是这台巨兽啃出来的
+快手标题建议：地下挖隧道靠啥，这台机器咋一边钻一边铺？
+小红书标题建议：盾构机原理图解，3分钟看懂地铁隧道怎么建
+封面文案：巨型盾构机 怎么掘穿岩层
+视频简介：地铁隧道不是靠人工一铲一铲挖出的。盾构机前端刀盘不断破岩，后方同步运走渣土、顶进机身并拼装混凝土管片。跟着 3D 剖面看完整流程，理解这台地下巨兽怎样让一条隧道在岩层里持续“生长”。
+首页推荐封面 4:3：L:/workspace/yinghe-shijie/covers/tunnel-boring-machine-3d/tunnel-boring-machine-3d-cover-4x3.png
+个人空间封面 16:9：L:/workspace/yinghe-shijie/covers/tunnel-boring-machine-3d/tunnel-boring-machine-3d-cover-16x9.png
+短视频竖版封面 9:16：L:/workspace/yinghe-shijie/covers/tunnel-boring-machine-3d/tunnel-boring-machine-3d-cover-9x16.png
+状态：已推荐
+
+## 2026-07-17 - How the Lockheed SR-71 Blackbird Works
+
+视频链接：https://www.youtube.com/watch?v=gkyVZxtsubM
+视频标题：How the Lockheed SR-71 Blackbird Works
+频道：Animagraffs
+内容分类：#军事机械 #战略侦察机 #航空工程 #3D动画
+推荐理由：用高密度 3D 剖面拆开 SR-71 的进气道、J58 发动机、燃油与机体热管理，几乎不依赖真人出镜。可直接包装成“速度越快为什么越烫”，既有军工装备的视觉冲击，也能承接航空发动机系列。
+搬运适合度（★★★★★）：★★★★★
+中文字幕难度：中
+国内受众潜力：高
+B站标题建议：SR-71为何能飞到发烫，黑鸟侦察机3D拆解
+抖音标题建议：飞得越快越烫，SR-71靠什么不散架？
+快手标题建议：这飞机快到发烫，为啥还能飞这么高？
+小红书标题建议：SR-71黑鸟原理图解，看懂高空高速飞行的热难题
+封面文案：SR-71 为何快到发烫
+视频简介：SR-71 “黑鸟”为什么能在高空高速飞行，却不会先把自己烧坏？这条 3D 工程动画从可变进气道、发动机到机体热管理逐层拆开，带你看懂高速侦察机如何把极端速度变成可控工程。
+首页推荐封面 4:3：L:/workspace/yinghe-shijie/covers/lockheed-sr71-blackbird/lockheed-sr71-blackbird-cover-4x3.png
+个人空间封面 16:9：L:/workspace/yinghe-shijie/covers/lockheed-sr71-blackbird/lockheed-sr71-blackbird-cover-16x9.png
+短视频竖版封面 9:16：L:/workspace/yinghe-shijie/covers/lockheed-sr71-blackbird/lockheed-sr71-blackbird-cover-9x16.png
+状态：已推荐
+
+## 2026-07-17 - Atlas Goes Hands On
+
+视频链接：https://www.youtube.com/watch?v=F_7IPm7f1vI
+视频标题：Atlas Goes Hands On
+频道：Boston Dynamics
+内容分类：#AI #人形机器人 #智能制造 #工业演示
+推荐理由：视频直接展示 Atlas 在工厂环境中搬运发动机罩、对接物流容器的连续动作，少语言依赖、画面信息密度很高。它适合做 30—90 秒强钩子短版，聚焦“人形机器人什么时候真正进工厂”。
+搬运适合度（★★★★★）：★★★★☆
+中文字幕难度：低
+国内受众潜力：高
+B站标题建议：人形机器人进工厂，Atlas怎样学会搬运重物
+抖音标题建议：人形机器人已经开始搬发动机了？
+快手标题建议：这机器人进厂以后，到底能干啥活？
+小红书标题建议：人形机器人进工厂实拍，看懂Atlas能做哪些搬运工作
+封面文案：人形机器人 上岗了
+视频简介：人形机器人离量产上岗还有多远？Atlas 在工厂里接过发动机罩、完成取放与转运，画面把“手脚协调”和“适应工位”这些难题直观摆出来。适合用短节奏看懂机器人从演示走向实际制造的关键一步。
+首页推荐封面 4:3：L:/workspace/yinghe-shijie/covers/atlas-goes-hands-on/atlas-goes-hands-on-cover-4x3.png
+个人空间封面 16:9：L:/workspace/yinghe-shijie/covers/atlas-goes-hands-on/atlas-goes-hands-on-cover-16x9.png
+短视频竖版封面 9:16：L:/workspace/yinghe-shijie/covers/atlas-goes-hands-on/atlas-goes-hands-on-cover-9x16.png
+状态：已推荐
+
+## 2026-07-17 - The World's Shortcut: How the Panama Canal Works
+
+视频链接：https://www.youtube.com/watch?v=KgsxapE27NU
+视频标题：The World's Shortcut: How the Panama Canal Works
+频道：Wendover Productions
+内容分类：#世界冷知识 #全球物流 #巴拿马运河 #地图动画
+推荐理由：运河闸门、货轮通行与全球航线被地图动画串起来，能把地理知识落到真实的运输成本和贸易竞争。画面以航拍、图解和地图为主，适合包装为“为什么一条运河能影响全球运价”。
+搬运适合度（★★★★★）：★★★★★
+中文字幕难度：中
+国内受众潜力：高
+B站标题建议：一条运河如何改写全球航线，巴拿马运河全拆解
+抖音标题建议：一条运河堵住，全球货轮要多绕多远？
+快手标题建议：巴拿马运河到底省了多少路，咋影响运费？
+小红书标题建议：巴拿马运河图解，看懂全球航线为何离不开它
+封面文案：一条运河 改写航线
+视频简介：巴拿马运河不是一条简单的水道，而是一套用闸门和水位差“抬起”巨轮的超级工程。跟着航线地图和船闸画面，看懂它怎样缩短两大洋之间的距离，又为何会牵动全球物流时间与成本。
+首页推荐封面 4:3：L:/workspace/yinghe-shijie/covers/panama-canal-works/panama-canal-works-cover-4x3.png
+个人空间封面 16:9：L:/workspace/yinghe-shijie/covers/panama-canal-works/panama-canal-works-cover-16x9.png
+短视频竖版封面 9:16：L:/workspace/yinghe-shijie/covers/panama-canal-works/panama-canal-works-cover-9x16.png
+状态：已推荐
+
+## 2026-07-16 - Submarine Nuclear Power | Engineering behind it Nuclear Reactor How it Works
+
+视频链接：https://www.youtube.com/watch?v=DkDGFpn_iT0
+视频标题：Submarine Nuclear Power | Engineering behind it Nuclear Reactor How it Works
+频道：SYG DESIGNWORKS
+内容分类：#军事机械 #核潜艇 #核动力 #3D动画
+推荐理由：这条片用完整剖面把核潜艇的核反应堆、蒸汽轮机、控制舱、导弹舱和生活保障系统串成一条动力链。没有真人依赖，工程画面密度高，能从“核潜艇为什么不用频繁补给”切入，既有军工装备的规模感，也能做成核动力与深海工程系列。
+搬运适合度（★★★★★）：★★★★★
+中文字幕难度：中
+国内受众潜力：高
+B站标题建议：核潜艇不用加油，为何能在深海潜航数月？
+抖音标题建议：不用加油的核潜艇，靠什么在深海跑几个月？
+快手标题建议：核潜艇为啥不用加油，能在海里待这么久？
+小红书标题建议：核潜艇结构图解，看懂核动力如何让它长时间潜航
+封面文案：核潜艇 为何能久潜
+视频简介：核潜艇为什么能长期潜伏在深海？这条 3D 剖面动画从反应堆发热、蒸汽推动汽轮机，到推进、供氧和舱内系统逐层拆开。看懂它如何把一座微型核电站装进船体，也看清深海长航时背后的工程逻辑。
+首页推荐封面 4:3：L:/workspace/yinghe-shijie/covers/nuclear-submarine-engineering/nuclear-submarine-engineering-cover-4x3.png
+个人空间封面 16:9：L:/workspace/yinghe-shijie/covers/nuclear-submarine-engineering/nuclear-submarine-engineering-cover-16x9.png
+短视频竖版封面 9:16：L:/workspace/yinghe-shijie/covers/nuclear-submarine-engineering/nuclear-submarine-engineering-cover-9x16.png
+状态：已推荐
+
 ## 2026-07-16 - How do Smartphone CPUs Work? || Inside the System on a Chip
 
 视频链接：https://www.youtube.com/watch?v=NKfW8ijmRQ4

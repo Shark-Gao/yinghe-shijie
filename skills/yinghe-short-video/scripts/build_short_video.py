@@ -14,6 +14,7 @@ def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--plan", required=True, help="Edit-plan JSON.")
     parser.add_argument("--narration-audio", help="Override narration_audio in the plan.")
+    parser.add_argument("--narration-timing", help="JSON manifest with the measured duration of each TTS segment.")
     parser.add_argument("--subtitles-only", action="store_true", help="Write the sidecar SRT without rendering video.")
     parser.add_argument("--dry-run", action="store_true")
     return parser.parse_args()
@@ -40,22 +41,54 @@ def esc_filter_path(path: Path) -> str:
     return str(path.resolve()).replace("\\", "/").replace(":", r"\:").replace("'", r"\'")
 
 
-def write_srt(plan: dict, path: Path) -> None:
+TRAILING_SUBTITLE_PUNCTUATION = re.compile(
+    r"[\s，。！？；：、,.!?;:…“”‘’\"'「」『』（）()【】\[\]《》]+$"
+)
+
+
+def subtitle_display_text(text: str) -> str:
+    """Keep subtitle text clean without changing punctuation used by TTS."""
+    return TRAILING_SUBTITLE_PUNCTUATION.sub("", text.strip()).strip()
+
+
+def load_narration_timing(path: Path | None) -> list[dict] | None:
+    if not path:
+        return None
+    if not path.is_file():
+        raise SystemExit(f"Narration timing manifest does not exist: {path}")
+    data = json.loads(path.read_text(encoding="utf-8"))
+    segments = data.get("segments")
+    if not isinstance(segments, list):
+        raise SystemExit("Narration timing manifest needs a segments array.")
+    return segments
+
+
+def write_srt(plan: dict, path: Path, timing_segments: list[dict] | None = None) -> None:
     segments = plan.get("narration", {}).get("segments", [])
     rows = []
     subtitle_id = 1
-    for segment in segments:
+    for segment_index, segment in enumerate(segments):
         text = segment.get("text", "").strip()
         if not text:
             continue
-        pieces = [part.strip() for part in re.split(r"(?<=[。！？；])", text) if part.strip()]
+        pieces = [part.strip() for part in re.split(r"(?<=[。！？；…,.!?;])", text) if part.strip()]
         compact = []
         for piece in pieces:
             if len(piece) <= 22:
                 compact.append(piece)
                 continue
-            compact.extend(part.strip() for part in re.split(r"(?<=[，、：])", piece) if part.strip())
+            compact.extend(part.strip() for part in re.split(r"(?<=[，、：,:])", piece) if part.strip())
+        compact = [subtitle_display_text(part) for part in compact]
+        compact = [part for part in compact if part]
+        if not compact:
+            continue
         start, end = seconds(segment["start"]), seconds(segment["end"])
+        if timing_segments and segment_index < len(timing_segments):
+            measured = float(timing_segments[segment_index].get("audio_duration", 0.0))
+            if measured > 0:
+                end = min(end, start + measured)
+        if end <= start:
+            continue
         weights = [max(1, len(re.sub(r"[，。！？；、：]", "", part))) for part in compact]
         total_weight = sum(weights)
         current = start
@@ -106,6 +139,8 @@ def main() -> None:
     plan = json.loads(plan_path.read_text(encoding="utf-8"))
     source, output, clips, duration = validate(plan, plan_path)
     output.parent.mkdir(parents=True, exist_ok=True)
+    timing_path = Path(args.narration_timing).resolve() if args.narration_timing else None
+    timing_segments = load_narration_timing(timing_path)
     narration = args.narration_audio or plan.get("narration_audio")
     narration_path = Path(narration) if narration else None
     if narration_path and not narration_path.is_absolute():
@@ -122,7 +157,7 @@ def main() -> None:
     srt_path = output.with_suffix(".srt")
     write_subtitles = plan.get("write_subtitles", True) and bool(plan.get("narration", {}).get("segments"))
     if write_subtitles:
-        write_srt(plan, srt_path)
+        write_srt(plan, srt_path, timing_segments)
     if args.subtitles_only:
         if not write_subtitles:
             raise SystemExit("No narration segments are available for subtitle generation.")

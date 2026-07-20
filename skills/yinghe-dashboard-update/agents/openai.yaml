@@ -1,0 +1,4 @@
+interface:
+  display_name: "硬核视界看板更新"
+  short_description: "把各平台后台数据写入复盘看板、完成对比分析并重新发布私有站点"
+  default_prompt: "Use $yinghe-dashboard-update to update the 硬核视界 dashboard with my latest platform analytics screenshots."

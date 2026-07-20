@@ -22,6 +22,7 @@ def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Render timeline TTS segments into one MP3.")
     parser.add_argument("--timeline", required=True, help="Timeline JSON path.")
     parser.add_argument("--output", help="Override output .mp3 path.")
+    parser.add_argument("--segment-manifest", help="Write measured per-segment audio durations to a JSON file.")
     return parser.parse_args()
 
 
@@ -77,7 +78,23 @@ def validate_timeline(data: dict) -> None:
             raise SystemExit(f"Segment has empty text: {segment.get('id')}")
 
 
-def render(data: dict, timeline_path: Path, output_override: str | None, build_dir: Path) -> Path:
+def probe_duration(path: Path) -> float:
+    result = subprocess.run(
+        ["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "default=nw=1:nk=1", str(path)],
+        check=True,
+        capture_output=True,
+        text=True,
+    )
+    return float(result.stdout.strip())
+
+
+def render(
+    data: dict,
+    timeline_path: Path,
+    output_override: str | None,
+    build_dir: Path,
+    segment_manifest: str | None,
+) -> Path:
     output_name = output_override or data.get("output_audio")
     if not output_name:
         output_name = f"{timeline_path.stem}_Yunyang.mp3"
@@ -89,10 +106,17 @@ def render(data: dict, timeline_path: Path, output_override: str | None, build_d
     filters: list[str] = []
     labels: list[str] = []
     used_index = 0
+    measured_segments: list[dict] = []
     for segment in data["segments"]:
         segment_path = build_dir / f"{segment['id']}.mp3"
         if not segment_path.exists():
             continue
+        measured_segments.append({
+            "id": segment["id"],
+            "start": segment["start"],
+            "end": segment.get("end"),
+            "audio_duration": probe_duration(segment_path),
+        })
         inputs.extend(["-i", str(segment_path)])
         delay = hms_to_ms(segment["start"])
         label = f"a{used_index}"
@@ -131,6 +155,24 @@ def render(data: dict, timeline_path: Path, output_override: str | None, build_d
         str(output_path),
     ]
     subprocess.run(cmd, check=True)
+    if segment_manifest:
+        manifest_path = Path(segment_manifest)
+        if not manifest_path.is_absolute():
+            manifest_path = timeline_path.parent / manifest_path
+        manifest_path.parent.mkdir(parents=True, exist_ok=True)
+        manifest_path.write_text(
+            json.dumps(
+                {
+                    "version": 1,
+                    "timeline": str(timeline_path),
+                    "output_audio": str(output_path),
+                    "segments": measured_segments,
+                },
+                ensure_ascii=False,
+                indent=2,
+            ),
+            encoding="utf-8",
+        )
     return output_path
 
 
@@ -146,7 +188,7 @@ def main() -> None:
     build_dir = Path(tempfile.mkdtemp(prefix="x", dir=short_temp_root))
     try:
         asyncio.run(generate_segments(data, build_dir))
-        print(render(data, timeline_path, args.output, build_dir))
+        print(render(data, timeline_path, args.output, build_dir, args.segment_manifest))
     finally:
         shutil.rmtree(build_dir, ignore_errors=True)
 

@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "title": "SR-71停在地上会漏油，为什么反而是正常现象？",
+  "platform_titles": {
+    "bilibili": "SR-71停在地上会漏油，为什么反而是正常现象？",
+    "douyin": "这飞机停着漏油，居然不是故障？",
+    "kuaishou": "黑鸟漏油还算正常？因为飞起来会变大",
+    "xiaohongshu": "SR-71燃油系统图解：看懂黑鸟为何停着会漏油"
+  },
+  "source_video": "L:/workspace/yinghe-shijie/videos/raw/SR-71为何能飞到发烫，黑鸟侦察机3D拆解.mp4",
+  "output_video": "L:/workspace/yinghe-shijie/videos/exports/短视频/SR-71为何能飞到发烫，黑鸟侦察机3D拆解/黑鸟为何会漏油_短视频/黑鸟为何会漏油_短视频.mp4",
+  "cover_title": "停着会漏油",
+  "cover_headline": "停着会漏油",
+  "cover_subhead": "受热后才密封",
+  "cover_aspect": "16:9",
+  "background_music": "music/硬核视界_通用BGM_舒缓科普探索_CC0.mp3",
+  "layout": "source",
+  "burn_captions": false,
+  "write_subtitles": true,
+  "mix": {"source_volume": 0.0, "narration_volume": 1.0, "music_volume": 0.45, "music_fade_seconds": 0.0},
+  "clips": [
+    {"id": "expansion_gap", "source_start": "00:24:33.800", "source_end": "00:24:52.166", "focus_x": 0.5},
+    {"id": "hot_fuel", "source_start": "00:24:55.300", "source_end": "00:25:11.300", "focus_x": 0.5},
+    {"id": "special_ignition", "source_start": "00:25:15.700", "source_end": "00:25:35.766", "focus_x": 0.5}
+  ],
+  "narration": {
+    "voice": "zh-CN-YunyangNeural",
+    "rate": "+0%",
+    "segments": [
+      {"start": "00:00:00.000", "end": "00:00:18.366", "text": "SR-71停在地上时，机翼接缝会往外滴油。对普通飞机这是故障，对黑鸟却是设计的一部分。"},
+      {"start": "00:00:18.366", "end": "00:00:34.366", "text": "因为它飞到三马赫后，钛合金机体会被加热并膨胀。地面留出的缝隙，正是为了让高速飞行时的机身能够严丝合缝。"},
+      {"start": "00:00:34.366", "end": "00:00:54.432", "text": "更麻烦的是，普通燃油会被高温引燃。所以SR-71只能使用JP-7特种燃料，点火还得靠遇空气自燃的三乙基硼烷。它的燃油同时还要负责润滑和冷却。"}
+    ]
+  }
+}

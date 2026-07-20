@@ -46,6 +46,7 @@ def main() -> None:
 
     timeline = output.with_name(f"{output.stem}_中文解说时间线.json")
     audio = output.with_name(f"{output.stem}_中文解说.mp3")
+    timing = output.with_name(f"{output.stem}_中文解说分段时长.json")
     data = {
         "version": 1,
         "source_plan": plan_path.name,
@@ -59,8 +60,24 @@ def main() -> None:
     output.parent.mkdir(parents=True, exist_ok=True)
     timeline.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
     renderer = find_tts_renderer(plan_path, args.tts_renderer)
-    render = [sys.executable, str(renderer), "--timeline", str(timeline)]
-    build = [sys.executable, str(Path(__file__).with_name("build_short_video.py")), "--plan", str(plan_path), "--narration-audio", str(audio)]
+    render = [
+        sys.executable,
+        str(renderer),
+        "--timeline",
+        str(timeline),
+        "--segment-manifest",
+        str(timing),
+    ]
+    build = [
+        sys.executable,
+        str(Path(__file__).with_name("build_short_video.py")),
+        "--plan",
+        str(plan_path),
+        "--narration-audio",
+        str(audio),
+        "--narration-timing",
+        str(timing),
+    ]
     if args.dry_run:
         print(" ".join(render))
         print(" ".join(build))

@@ -1,0 +1,159 @@
+1
+00:00:00,000 --> 00:00:20,000
+巴拿马运河的意义，其实一眼就能看懂。它把绕过南美洲的漫长航程，压缩成了两大洋之间的一条捷径，也让美国东西海岸分别更接近欧洲和亚洲。
+The Panama Canal turns the long voyage around South America into a shortcut between two oceans, bringing the two American coasts closer to Europe and Asia.
+
+2
+00:00:20,000 --> 00:00:40,000
+看上去只是几段狭窄水道和船闸，背后却牵动着全球航运。这条水路不是天然形成的，而是人类用工程手段，重新安排世界贸易路线的结果。
+What looks like a few narrow waterways and locks is an engineered system that reshaped global trade routes.
+
+3
+00:00:40,000 --> 00:01:00,000
+二十世纪初，美国取得施工权后，在巴拿马筑坝、造湖，再向太平洋和大西洋两端开挖航道。工程付出极高代价，最终在一九一四年正式通航。
+In the early twentieth century, the United States built dams, an artificial lake, and two ocean approaches; the canal opened in 1914 at enormous human and financial cost.
+
+4
+00:01:00,000 --> 00:01:20,000
+但它并不是一条从海平面直接切过去的直线。运河中央的加通湖，比海面高约二十六米。巨轮要先被抬上湖面，再从另一边逐级放回海里。
+The canal is not a sea-level cut. Ships are lifted about twenty-six meters to Gatun Lake, then lowered back to the other ocean.
+
+5
+00:01:20,000 --> 00:01:40,000
+关键就在船闸。船被拖轮带入闸室后，下游闸门关闭，上游的水灌进来。水位上升，船也随之浮高；等两边水位相同，下一道门才会打开。
+Inside a lock, downstream gates close and water flows in from upstream. The ship rises with the water until the next gate can open at equal level.
+
+6
+00:01:40,000 --> 00:02:00,000
+这样的过程连续重复三次，才能把货轮送到加通湖高度。也正因为船闸有固定尺寸，巴拿马运河反过来规定了大量集装箱船应该造多长、造多宽。
+Three successive lifts take a vessel to lake level. Because locks have fixed dimensions, the canal also dictates the dimensions of many container ships.
+
+7
+00:02:00,000 --> 00:02:20,000
+能够通过新船闸的船，长度大约不能超过三百六十六米，宽度约五十一米。这类按运河尺度设计的船，被称为新巴拿马型，也就是 Neo-Panamax。
+Ships using the new locks are limited to roughly 366 meters long and 51 meters wide. This canal-sized class is called Neo-Panamax.
+
+8
+00:02:20,000 --> 00:02:40,000
+即使新巴拿马型已经很大，它仍不是海上最大的船。新船闸大约能容纳一万五千个标准箱，而更大的集装箱船，载箱量可以超过两万个标准箱。
+Neo-Panamax is large but not the largest class afloat. New locks handle about 15,000 TEU, while the biggest container ships carry more than 20,000.
+
+9
+00:02:40,000 --> 00:03:00,000
+对这些超大型船来说，东亚到欧洲的主航线更合适，因为它们不必在太平洋和大西洋之间穿越巴拿马。尺寸限制，直接决定了不同航线能否使用这条捷径。
+For ultra-large ships, East Asia to Europe is often a better route because they do not need to cross Panama. Ship size directly determines which routes can use the shortcut.
+
+10
+00:03:00,000 --> 00:03:20,000
+在二零一六年扩建前，运河只能容纳约五千标准箱级别的船。旧船闸宽度更小，却曾经深刻影响造船业，许多货船就是为了卡进这道尺寸而设计的。
+Before the 2016 expansion, the canal handled ships of about 5,000 TEU. Its smaller old locks had long shaped ship design around their dimensions.
+
+11
+00:03:20,000 --> 00:03:40,000
+运河必须扩建，另一个原因是它并不孤单。它的竞争对手包括苏伊士运河、跨美国铁路，以及所有能够把货物更快或更便宜送到目的地的替代方案。
+The canal needed expansion because it competes with the Suez Canal, rail across the United States, and every alternative that can move cargo faster or cheaper.
+
+12
+00:03:40,000 --> 00:04:00,000
+以香港到纽约为例，向东横跨太平洋、通过巴拿马，是一条常见路线。但向西经印度洋、苏伊士运河和地中海，也并没有远到无法竞争。
+From Hong Kong to New York, crossing the Pacific through Panama is common, but going west through the Indian Ocean and Suez is also competitive in distance.
+
+13
+00:04:00,000 --> 00:04:20,000
+更重要的是价格。巴拿马运河按集装箱收费，一艘满载的大船单次通行费可能超过一百万美元。航线长一点，并不一定意味着总成本更高。
+Price matters even more. Panama charges per container, and a full large ship can pay over a million dollars per transit, so a longer route is not always more expensive.
+
+14
+00:04:20,000 --> 00:04:40,000
+苏伊士运河的收费与巴拿马此消彼长。航运公司会把油耗、时间、过路费和港口安排放在同一张账上计算，最后选择对那一船货最划算的路径。
+Suez and Panama compete through changing tolls. Shipping lines weigh fuel, time, canal fees, and port schedules together before choosing the most economical route.
+
+15
+00:04:40,000 --> 00:05:00,000
+还有一位更直接的竞争者：铁路。货物先从东亚抵达洛杉矶，再装上火车横穿美国，通常会贵一点，但能比走巴拿马运河节省大约一周时间。
+Rail is another direct competitor. Cargo can land in Los Angeles and cross the United States by train; it often costs more but saves roughly a week.
+
+16
+00:05:00,000 --> 00:05:20,000
+对高价值或赶时间的货物，这一周很值钱。也正是铁路和苏伊士运河的压力，推动巴拿马投入巨资建设新船闸，争取更多大型货轮继续选择这里。
+For valuable or time-sensitive cargo, a week is valuable. Pressure from rail and Suez helped drive Panama's investment in new locks for larger ships.
+
+17
+00:05:20,000 --> 00:05:40,000
+扩建后的新船闸能服务一万五千标准箱级货轮。船越大，每个集装箱分摊的运输成本越低，这就是规模经济，也是运河想重新获得竞争力的核心。
+The new locks serve ships of about 15,000 TEU. Larger ships lower cost per container through economies of scale, which is central to the canal's competitiveness.
+
+18
+00:05:40,000 --> 00:06:00,000
+一条运河加宽几十米，影响却会扩散到数千公里外。为了让更大货轮靠港，美国东海岸的桥梁、航道和码头，都不得不跟着改造。
+Widening a canal by a few dozen meters has effects thousands of kilometers away: East Coast bridges, channels, and terminals must adapt for larger ships.
+
+19
+00:06:00,000 --> 00:06:20,000
+最典型的是新泽西的贝永大桥。更大的新巴拿马型货轮要进入纽瓦克港，就必须从桥下通过。为了不失去航运业务，当地花巨资把整座桥抬高。
+The Bayonne Bridge in New Jersey is a classic case. To let larger Neo-Panamax ships reach Newark, the bridge was raised at great expense.
+
+20
+00:06:20,000 --> 00:06:40,000
+这不是一座桥的故事。从迈阿密到纽约，港口都在加深航道、升级吊机、扩建堆场。因为大船一旦改变方向，整条港口链都必须同步升级。
+It was not just one bridge. Ports from Miami to New York deepened channels, upgraded cranes, and expanded yards because an entire port chain must adapt to bigger ships.
+
+21
+00:06:40,000 --> 00:07:00,000
+即便如此，不少东海岸港口仍接不下最大的新巴拿马型船。这反而给加勒比海的深水港带来机会：大船先到枢纽港，再把货物分给更小的支线船。
+Even so, many East Coast ports cannot take the largest Neo-Panamax ships. Caribbean deepwater hubs can receive them first and redistribute cargo on smaller feeder ships.
+
+22
+00:07:00,000 --> 00:07:20,000
+这套模式叫转运。大型货轮负责长距离、低成本运输；小型货轮负责最后一段配送。运河扩建后，加勒比地区正在成为连接大船和区域港口的重要中转层。
+This is transshipment: large vessels handle long, low-cost legs, while smaller ships distribute the final leg. Caribbean hubs become a key transfer layer after the expansion.
+
+23
+00:07:20,000 --> 00:07:40,000
+牙买加、多米尼加和巴哈马的港口，都吸引了国际航运和港口运营商投资。它们赌的是同一件事：穿越巴拿马的货流会持续增长，并需要新的分拨中心。
+Ports in Jamaica, the Dominican Republic, and the Bahamas have attracted international investment on the expectation that Panama traffic will keep growing and need new hubs.
+
+24
+00:07:40,000 --> 00:08:00,000
+但运河的下一道难题，可能不是竞争，而是自然条件。巴拿马以北的尼加拉瓜曾多次讨论另一条跨洋运河，不过最近的大型建设计划已经失败。
+The canal's next challenge may be nature rather than competition. Nicaragua has repeatedly considered another interoceanic canal, but its recent major project failed.
+
+25
+00:08:00,000 --> 00:08:20,000
+没有新运河，不代表需求会消失。全球海运持续增长，而太平洋与大西洋之间的通行能力有限。巴拿马可以扩建，但它不可能无限制地扩大。
+No new canal does not mean demand disappears. Global shipping keeps growing, while interoceanic capacity is limited; Panama can expand, but not without limit.
+
+26
+00:08:20,000 --> 00:08:40,000
+真正的硬约束是水。每次船闸运行，都要把大量淡水从加通湖放向海洋。正常雨季，这些水会补回来；干旱时，船闸和航道都会开始承受压力。
+Water is the hard constraint. Every lock operation releases large volumes of freshwater from Gatun Lake to the sea. Rain replenishes it in normal years, but drought puts the system under pressure.
+
+27
+00:08:40,000 --> 00:09:00,000
+当湖水不足，运河就不得不限制通过船只的吃水和载货量。船不能装得太重，否则会在较浅的航道里触底。运力下降，会立刻传导到航运计划。
+When lake water is low, the canal must limit ship draft and cargo weight. Ships cannot load too heavily in shallow channels, and reduced capacity immediately affects schedules.
+
+28
+00:09:00,000 --> 00:09:20,000
+运河正在用节水系统回收部分闸门用水，也在研究上游水库等方案。但气候变化可能让干旱更频繁、更严重，工程升级也无法完全消除这个风险。
+The canal recovers some lock water with saving systems and studies upstream reservoirs, but climate change may make droughts more frequent and severe.
+
+29
+00:09:20,000 --> 00:09:40,000
+这就是为什么巴拿马的降雨，会影响全世界。运河吞吐量一旦受限，船期、运费和货物流向都会调整。航运是全球经济的纽带，而这里正是最关键的连接点之一。
+That is why rainfall in Panama affects the world. If throughput is limited, schedules, freight rates, and cargo flows all adjust. Shipping links the global economy, and Panama is one of its key connectors.
+
+30
+00:09:40,000 --> 00:10:00,000
+一百多年来，这条运河一直在缩短地图上的距离。它改变的不只是船怎么走，更是港口怎么建、船应该多大，以及企业怎样计算时间和成本。
+For more than a century, the canal has shortened distances on the map. It changes not only ship routes, but port construction, vessel size, and how businesses calculate time and cost.
+
+31
+00:10:00,000 --> 00:10:20,000
+所以，巴拿马运河始终是世界的捷径。但这条捷径能否持续高效运行，取决于船闸、水资源、港口网络，以及不断变化的全球贸易。
+The Panama Canal remains a world shortcut, but its efficiency depends on locks, water resources, port networks, and changing global trade.
+
+32
+00:10:20,000 --> 00:10:29,537
+看懂它，也就看懂了为什么一条运河，足以改写全球航线。
+Understanding it shows why one canal can rewrite global shipping routes.

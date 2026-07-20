@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "title": "航母跑道只有99米，舰载机到底怎么起飞？",
+  "platform_titles": {
+    "bilibili": "航母跑道只有99米，舰载机到底怎么起飞？",
+    "douyin": "跑道只有99米，舰载机怎么起飞？",
+    "kuaishou": "航母这点跑道，飞机咋飞出去的？",
+    "xiaohongshu": "舰载机起降图解：看懂航母99米跑道如何起飞"
+  },
+  "source_video": "L:/workspace/yinghe-shijie/videos/raw/航母如何变成海上城市，舰载机起降与动力拆解.mp4",
+  "output_video": "L:/workspace/yinghe-shijie/videos/exports/短视频/航母如何变成海上城市，舰载机起降与动力拆解/航母99米跑道_短视频/航母99米跑道_短视频.mp4",
+  "cover_title": "99米也能起飞",
+  "cover_headline": "99米也能起飞",
+  "cover_subhead": "弹射器如何加速",
+  "cover_aspect": "16:9",
+  "background_music": "music/硬核视界_通用BGM_舒缓科普探索_CC0.mp3",
+  "layout": "source",
+  "burn_captions": false,
+  "write_subtitles": true,
+  "mix": {
+    "source_volume": 0.0,
+    "narration_volume": 1.0,
+    "music_volume": 0.45,
+    "music_fade_seconds": 0.0
+  },
+  "clips": [
+    {"id": "short_runway", "source_start": "00:05:38.933", "source_end": "00:05:49.200", "focus_x": 0.50},
+    {"id": "airport_comparison", "source_start": "00:05:28.000", "source_end": "00:05:38.933", "focus_x": 0.50},
+    {"id": "catapult", "source_start": "00:05:49.200", "source_end": "00:06:02.000", "focus_x": 0.50},
+    {"id": "arresting_wire", "source_start": "00:06:10.933", "source_end": "00:06:21.666", "focus_x": 0.50},
+    {"id": "flight_deck_teamwork", "source_start": "00:06:21.933", "source_end": "00:06:29.933", "focus_x": 0.50}
+  ],
+  "narration": {
+    "voice": "zh-CN-YunyangNeural",
+    "rate": "+0%",
+    "segments": [
+      {"start": "00:00:00.000", "end": "00:00:10.267", "text": "航母甲板看着像跑道，其实只有三百三十米。更短的起飞段，甚至只有九十九米。"},
+      {"start": "00:00:10.267", "end": "00:00:21.200", "text": "民航机场的短跑道也有一千五百米，航母却要在海上完成同样的起飞。"},
+      {"start": "00:00:21.200", "end": "00:00:34.000", "text": "美国和法国航母用弹射器，三到四秒把飞机推到起飞速度。舰载机不是自己跑出去，而是被系统瞬间加速。"},
+      {"start": "00:00:34.000", "end": "00:00:44.733", "text": "起飞之后还要解决降落。拦阻索在很短距离内抓住飞机，把高速变成安全停下。"},
+      {"start": "00:00:44.733", "end": "00:00:52.733", "text": "所以飞行甲板看起来像一场精心编排的混乱。每个人、每条线和每架飞机，都在精确配合。"}
+    ]
+  }
+}

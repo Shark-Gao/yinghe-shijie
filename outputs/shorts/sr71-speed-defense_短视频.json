@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "title": "没有导弹也没机炮，SR-71为何没人追得上？",
+  "platform_titles": {
+    "bilibili": "没有导弹也没机炮，SR-71为何没人追得上？",
+    "douyin": "SR-71没武器，导弹为啥追不上？",
+    "kuaishou": "这飞机不带炮不带弹，咋保命的？",
+    "xiaohongshu": "SR-71黑鸟图解：看懂三马赫侦察机如何靠速度自保"
+  },
+  "source_video": "L:/workspace/yinghe-shijie/videos/raw/SR-71为何能飞到发烫，黑鸟侦察机3D拆解.mp4",
+  "output_video": "L:/workspace/yinghe-shijie/videos/exports/短视频/SR-71为何能飞到发烫，黑鸟侦察机3D拆解/黑鸟靠速度自保_短视频/黑鸟靠速度自保_短视频.mp4",
+  "cover_title": "靠速度自保",
+  "cover_headline": "靠速度自保",
+  "cover_subhead": "SR-71甩开导弹",
+  "cover_aspect": "16:9",
+  "background_music": "music/硬核视界_通用BGM_舒缓科普探索_CC0.mp3",
+  "layout": "source",
+  "burn_captions": false,
+  "write_subtitles": true,
+  "mix": {"source_volume": 0.0, "narration_volume": 1.0, "music_volume": 0.45, "music_fade_seconds": 0.0},
+  "clips": [
+    {"id": "speed", "source_start": "00:00:27.733", "source_end": "00:00:53.966", "focus_x": 0.5},
+    {"id": "escape", "source_start": "00:00:57.666", "source_end": "00:01:10.400", "focus_x": 0.5},
+    {"id": "cutaway", "source_start": "00:01:14.766", "source_end": "00:01:25.400", "focus_x": 0.5}
+  ],
+  "narration": {
+    "voice": "zh-CN-YunyangNeural",
+    "rate": "+0%",
+    "segments": [
+      {"start": "00:00:00.000", "end": "00:00:08.000", "text": "这架侦察机，没有炸弹，也没有机炮。"},
+      {"start": "00:00:08.000", "end": "00:00:16.000", "text": "SR-71的防御方式只有两个字：飞高，飞快。"},
+      {"start": "00:00:16.000", "end": "00:00:26.233", "text": "它能在两万六千米高空，持续飞到三点二马赫。"},
+      {"start": "00:00:26.233", "end": "00:00:38.967", "text": "敌方导弹就算够得着，飞行员也会把速度再拉起来。"},
+      {"start": "00:00:38.967", "end": "00:00:49.601", "text": "所以黑鸟不靠火力逃生，而是让对手根本追不上。"}
+    ]
+  }
+}

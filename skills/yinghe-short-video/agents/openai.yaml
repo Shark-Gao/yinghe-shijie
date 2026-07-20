@@ -1,4 +1,4 @@
 interface:
   display_name: "硬核短视频工坊"
-  short_description: "自动分析海外长视频与字幕，生成中文解说和竖版短视频成片"
-  default_prompt: "Use $yinghe-short-video to turn my source video and subtitles into short-video plans and finished vertical videos."
+  short_description: "按抖音、快手、小红书节奏生成中文短视频、解说和封面"
+  default_prompt: "Use $yinghe-short-video to turn my source video and subtitles into platform-specific short-video plans and finished videos."

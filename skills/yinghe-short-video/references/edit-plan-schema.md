@@ -47,7 +47,7 @@ Use `contain_blur` or `fill_crop` only when a 9:16 output has been explicitly re
 
 `narration.segments` use output-video timecodes, not source-video timecodes. `produce_short_video.py` converts them to a timeline JSON and renders the matching Chinese audio automatically. `narration_audio` is optional and is only needed when reusing a pre-rendered voice track.
 
-`write_subtitles` defaults to true and writes an adjacent SRT from the Chinese narration timeline for manual import into Jianying/CapCut. `burn_captions` defaults to false. Only set it to true when the user explicitly requests burned-in captions.
+`write_subtitles` defaults to true and writes an adjacent SRT from the Chinese narration timeline for manual import into Jianying/CapCut. When `scripts/produce_short_video.py` renders narration, it also measures each TTS segment and uses those measured durations to cap the matching SRT cues; this prevents subtitles from continuing after the spoken line ends. Displayed SRT cues strip trailing sentence punctuation, while narration text retains punctuation for natural TTS pauses. `burn_captions` defaults to false. Only set it to true when the user explicitly requests burned-in captions.
 
 `background_music` points to the reusable CC0 background track. The builder loops it to the output duration and mixes it directly with narration. Keep `source_volume` at `0.0` unless the user explicitly wants original source sound. By default, `music_volume` is `0.45`, `narration_volume` is `1.0`, and `music_fade_seconds` is `0.0`: do not alter narration or add fades unless the user asks.
 

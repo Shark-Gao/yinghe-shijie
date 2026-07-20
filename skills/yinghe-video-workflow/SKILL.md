@@ -1,17 +1,26 @@
 ---
 name: yinghe-video-workflow
-description: Use when the user says “推荐”, “推荐一条”, “给我推荐视频”, “选片”, asks to add a YouTube source video to 硬核视界 records, or asks for 硬核视界 recommendation info, title, video description, thumbnail text, Bilibili cover assets, or vertical short-video covers for 快手、抖音、视频号.
+description: Use when the user asks for a video recommendation (including an unqualified “推荐视频” or “推荐一条”), selects a source video, or asks for recommendation info, titles, descriptions, thumbnail text, Bilibili cover assets, or vertical short-video covers. If direction is missing, ask before acting.
 ---
 
 # 硬核视界视频工作流
 
+## Direction Gate（强制）
+
+本技能现在服务两个彼此独立的账号方向。每次触发“推荐视频 / 推荐一条 / 选片”时，必须先从当前用户消息中识别出**一个且只有一个**方向，再进行搜索、选片、写记录或生成封面：
+
+- `男性向`：硬核视界，继续使用 `data/recommended_videos.md`、`data/recommended_video_details.md` 及现有男性向选题矩阵。
+- `女性向`：TA成长笔记，使用 `data/female_recommended_videos.md`、`data/female_recommended_video_details.md` 及对应女性向记录文件。
+
+用户可以说“男性视频 / 男性向 / 硬核视界”，或“女性向视频 / 女性视频 / TA成长笔记”。如果用户只说“推荐视频”“推荐一条”而没有明确方向，**不得搜索、推荐、更新记录或生成封面**，先只追问：`这次要推荐男性向（硬核视界）还是女性向（TA成长笔记）视频？` 不得根据历史对话、最近一次选择或视频主题自行推断。普通用户请求若同时写了两个方向，先请用户拆分或明确本次主方向，禁止把两种账号混在同一批记录中。例外是已明确配置固定配额的每日自动任务（例如“男性向 3 条 + 女性向 3 条”）：自动任务可以同时运行两条分支，但必须分组处理、分别查重、分别写入记录，不能把两种方向合并成一个选题或记录。
+
 ## Goal
 
-Recommend the requested number of YouTube source videos for the 硬核视界 project and keep the project records current.
+Recommend the requested number of YouTube source videos for the selected account direction and keep only that branch's project records current.
 
 ## Project Context
 
-Use this skill for the project at `G:\workspace\yinghe-shijie` or any checkout containing the same `AGENTS.md`, `data/`, `docs/`, and `prompts/` structure.
+Use this skill for the project at `L:\workspace\yinghe-shijie` or any checkout containing the same `AGENTS.md`, `data/`, `docs/`, and `prompts/` structure. Keep male and female recommendations, queues, completed items, titles, covers, and metrics separate.
 
 Follow the project positioning:
 
@@ -23,6 +32,20 @@ Follow the project positioning:
 - Keep topics series-friendly instead of jumping randomly between categories.
 - 军工装备是高优先级题材：候选质量相当时，优先航母、潜艇、战机、导弹防御、无人装备等少真人、强工程可视化内容。
 - 若用户要求每日三条推荐，三条必须属于三个不同的主主题；单日内不重复同一题材或同一系列，系列连续性通过跨天选题维持。
+
+### 女性向账号：TA成长笔记
+
+仅当用户明确选择 `女性向` 时使用以下定位，不要把它套到男性向账号：
+
+- 账号主题：亲子育己、情绪管理、亲子沟通、家庭关系、女性自我成长。
+- 目标表达：温和、具体、可实践、适合收藏和转发；优先把研究或故事转成“今天就能用”的一个小方法。
+- 画面偏好：少真人出镜或无真人出镜，优先动画/插画、心理学实验、纪录片片段、情境演示、信息图和可理解的生活场景。
+- 选题边界：优先可靠的心理学、教育学、关系沟通与家庭生活内容；涉及医学、心理诊断或育儿结论时，必须保留来源和不确定性，不作诊断或绝对化承诺。
+- 避免：性别对立煽动、羞辱父母或孩子、贩卖焦虑、未经证实的“育儿秘籍”、过度依赖专家面对镜头讲话的视频。
+- 频道与清晰度：在质量相当时优先订阅量约 10 万以上但非巨型频道；优先可核验的 1080p 或更高画质。频道规模和清晰度无法核验时如实标注，不得编造。
+- 初始测试矩阵（后续按数据调整）：亲子沟通 25%、情绪管理 25%、家庭关系 20%、女性成长 20%、心理学实验/生活方法 10%。女性向推荐不套用男性向的 AI/军事比例。
+
+女性向记录的 `类型` 使用清晰的主题标签，例如 `#亲子沟通 #情绪管理 #心理学实验`，并在每条记录中写明 `账号方向：女性向`。
 
 Before selecting a source video, judge whether it can be localized into a topic style that already works for similar Chinese creators. Prefer source videos that can be reframed around:
 
@@ -36,47 +59,63 @@ Avoid over-prioritizing cold pure-mechanism videos unless they can become a clea
 
 ## Required Workflow
 
-1. Read existing records before recommending or recording a source video:
-   - `data/recommended_videos.md`
-   - `data/queued_videos.md`
-   - `data/completed_videos.md`
+1. Read existing records before recommending or recording a source video. After the Direction Gate, read the matching branch:
+   - 男性向：`data/recommended_videos.md`、`data/queued_videos.md`、`data/completed_videos.md`。
+   - 女性向：`data/female_recommended_videos.md`、`data/female_queued_videos.md`、`data/female_completed_videos.md`。
+   Never use a record from the other branch as if it belonged to the selected account. Before finalizing, perform an exact-URL duplicate check against both branches; a source already used by either account is a duplicate unless the user explicitly asks to reuse it.
 2. Search or open current web sources to verify the video exists, the title/channel are correct, and the source URL is not already recorded. Reject the candidate immediately if the channel is `3Blue1Brown`.
-3. Select exactly the number of videos requested by the user; when no quantity is specified, select one. For a daily batch of exactly three, select three different primary themes before optimizing for series continuity. Prefer videos that fit the current content matrix and have a clear Chinese-market title hook:
+3. Select exactly the number of videos requested by the user; when no quantity is specified, select one. For a daily batch of exactly three, select three different primary themes before optimizing for series continuity. For the configured six-item automation, apply this rule separately to the three-item 男性向 branch and the three-item 女性向 branch. Prefer videos that fit the current content matrix and have a clear Chinese-market title hook:
    - 科技纪录片 22%
    - AI 38%
    - 军事 30%
    - 世界冷知识 10%
    - 汽车机械 0%
    - 人体科普 0%
-4. Output the recommendation in the exact 14-item format below, including platform-specific title variants.
-5. Add the video to the top of `data/recommended_videos.md` with today’s date and status `已推荐`, keeping newest records first.
-6. Also add the full recommendation details to the top of `data/recommended_video_details.md` in one human-readable block, keeping newest records first so the user can review recent entries without re-reading chat history.
+4. Output every recommendation as one copy-ready publishing entry. The topic, hashtag classification, recommendation angle, video description, and all platform title variants must stay together in that single entry.
+5. Add the video to the top of the matching recommendation file (`data/recommended_videos.md` for 男性向, `data/female_recommended_videos.md` for 女性向) with today’s date, the selected account direction, and status `已推荐`, keeping newest records first.
+6. Also add the full recommendation details to the top of the matching detail file (`data/recommended_video_details.md` for 男性向, `data/female_recommended_video_details.md` for 女性向) in one human-readable block, keeping newest records first so the user can review recent entries without re-reading chat history.
 7. Generate all upload-ready cover assets automatically unless the user explicitly says not to: two Bilibili covers plus one 9:16 short-video cover for 快手、抖音、视频号.
 
 ## Output Format
 
-Present every source as its own complete recommendation block, matching this exact order and visual hierarchy:
+Present every source as one self-contained, copy-ready publishing entry. A single-source response begins with `## 推荐 1｜可复制发布条目`; a three-source daily response repeats it as `推荐 1` through `推荐 3`. Never split one source's topic, classification, description, and titles across a separate summary or table.
 
-- A single-source response begins with `## 推荐 1`.
-- A three-source daily response repeats the full block as `## 推荐 1`, `## 推荐 2`, and `## 推荐 3`; never merge fields from different videos into a table or summary.
-- Leave one blank line between each numbered field. Do not put an executive summary before the recommendation blocks.
+Immediately below each heading, use one `text` code block in this exact structure. Keep all labels and content in the same block so the user can copy the whole entry in one operation:
 
-Use this exact structure inside each block:
+```text
+【选题】
+主主题：<科技纪录片 / AI / 军事 / 世界冷知识 / 汽车机械 / 人体科普之一>
+内容分类：#标签1 #标签2 #标签3
+选题角度：<一句话说明可包装成的国内热门问题或冲突>
 
-1. 视频链接
-2. 视频标题
-3. 频道
-4. 内容分类
-5. 推荐理由
-6. 搬运适合度（★★★★★）
-7. 中文字幕难度
-8. 国内受众潜力
-9. B站标题建议
-10. 抖音标题建议
-11. 快手标题建议
-12. 小红书标题建议
-13. 封面文案
-14. 视频简介
+【发布内容】
+视频简介：<80—150 字中文发布简介>
+封面文案：<适合两行排版的短文案>
+
+【标题｜按平台直接复制】
+B站：<18—28 字标题>
+抖音：<短、口语化标题>
+快手：<直接、生活化标题>
+小红书：<含核心关键词和“看懂 / 图解 / 3分钟了解”等学习收益的标题>
+
+【源片信息】
+视频链接：https://...
+视频标题：...
+频道：...
+
+【制作评估】
+推荐理由：...
+搬运适合度（★★★★★）：★★★★★
+中文字幕难度：低 / 中 / 高
+国内受众潜力：高 / 中 / 低
+```
+
+Formatting requirements:
+
+- The `【标题｜按平台直接复制】` section is mandatory. Always put the four platform titles together, with the platform label at the beginning of each line.
+- `主主题` and `内容分类` are separate: the first supports daily topic balancing; the second must use hashtag labels separated by spaces.
+- `选题角度` and `视频简介` are both required. The former is the packaging hook; the latter is copy-ready publishing text.
+- Do not put the user-facing recommendation fields outside this code block. Only the three cover sections follow it.
 
 For `内容分类`, use hashtag labels separated by spaces, not slashes or prose. Example:
 
@@ -93,7 +132,7 @@ Platform-title requirements:
 
 For `视频简介`, write 80-150 Chinese characters suitable for a Bilibili/short-video publishing description. Summarize the core visual hook, what the viewer will understand, and why the topic is worth watching. Do not paste a translated source description verbatim. Do not overpromise with unverifiable claims.
 
-Immediately after item 14, show the three cover sections in this exact order. Each section must include one `打开图片` link followed by its inline preview; do not place all cover links together or omit previews:
+Immediately after the copy-ready entry, show the three cover sections in this exact order. Each section must include one `打开图片` link followed by its inline preview; do not place all cover links together or omit previews:
 
 ```markdown
 首页推荐封面 4:3
@@ -109,7 +148,7 @@ Immediately after item 14, show the three cover sections in this exact order. Ea
 ![短视频竖版封面 9:16](<absolute-path-to-9x16-cover>)
 ```
 
-After all recommendation blocks, add one concise line confirming that `data/recommended_videos.md` and `data/recommended_video_details.md` were updated.
+After all recommendation blocks, add one concise line confirming which direction-specific recommendation and detail files were updated.
 
 Cover-output rules:
 
@@ -192,6 +231,8 @@ Insert below the table header in `data/recommended_videos.md`:
 
 Use the same hashtag label format in the `Type` column, for example `#科技纪录片 #卫星互联网 #3D动画`.
 
+For 女性向, use the same row shape in `data/female_recommended_videos.md`, add `女性向` in the `账号方向` column, and use labels such as `#亲子沟通 #情绪管理 #心理学实验` or `#家庭关系 #女性成长`.
+
 Also append a full detail block to `data/recommended_video_details.md` using this structure:
 
 ```markdown
@@ -223,3 +264,5 @@ Requirements for `data/recommended_video_details.md`:
 - Keep entries in reverse chronological order, with the newest date first. Preserve recommendation order within the same date.
 - Use absolute filesystem paths for all three cover lines.
 - This detail file is for human review, so keep prose readable instead of using a Markdown table.
+
+For 女性向, write the same detail block to `data/female_recommended_video_details.md`, include `账号方向：女性向`, and apply the female-account topic and safety rules above. Do not mix the two account directions in one detail file.
