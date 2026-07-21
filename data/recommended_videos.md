@@ -4,6 +4,12 @@
 
 | 日期 | 视频标题 | YouTube链接 | 频道 | 类型 | 状态 |
 |---|---|---|---|---|---|
+| 2026-07-21 | Fusion Power Explained – Future or Failure | https://www.youtube.com/watch?v=mZsaaturR6E | Kurzgesagt – In a Nutshell | #科技纪录片 #可控核聚变 #能源工程 #动画科普 | 已推荐 |
+| 2026-07-21 | How Robots Learn to Be Robots: Training, Simulation, and Real World Deployment | https://www.youtube.com/watch?v=S4tvirlG8sQ | NVIDIA | #AI #具身智能 #机器人训练 #仿真 | 已推荐 |
+| 2026-07-21 | Patriot Missile System How it Works \| Air Defence Missiles | https://www.youtube.com/watch?v=CIgmwm_D61Q | AiTelly | #军事 #导弹防御 #防空系统 #工程可视化 | 已推荐 |
+| 2026-07-20 | How Will the Golden Dome Work? | https://www.youtube.com/watch?v=h3sbDTl2MSU | Real Engineering | #军事 #导弹防御 #工程可视化 | 已推荐 |
+| 2026-07-20 | Why AI Runs on GPUs, Not CPUs | https://www.youtube.com/watch?v=-EL6i2AebdA | BlackBoard AI | #AI #GPU #AI硬件 #动画讲解 | 已推荐 |
+| 2026-07-20 | How Ocean Shipping Works (And Why It's Broken) | https://www.youtube.com/watch?v=8d5d_HXGeMA | Wendover Productions | #世界冷知识 #全球物流 #航运网络 #地图动画 | 已推荐 |
 | 2026-07-18 | Still Face Experiment Dr Edward Tronick | https://www.youtube.com/watch?v=YTTSXc6sARg | Mind Your Class | #育儿育己 #亲子关系 #情绪回应 #心理实验 | 已推荐 |
 | 2026-07-18 | Cities at Sea: How Aircraft Carriers Work | https://www.youtube.com/watch?v=c0pS3Zx7Fc8 | Wendover Productions | #军事 #航空母舰 #舰载机 #工程纪录片 | 已推荐 |
 | 2026-07-18 | Liquid Cooling in AI Data Center | https://www.youtube.com/watch?v=vnE5WMwebnE | MEP Academy | #AI #数据中心 #液冷技术 #工程可视化 | 已推荐 |

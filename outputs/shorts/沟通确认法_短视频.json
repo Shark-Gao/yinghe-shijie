@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "title": "明明说清了，为什么对方还是会误会？",
+  "platform_titles": {
+    "bilibili": "明明说清了，为什么对方还是会误会？",
+    "douyin": "你说得很清楚，对方为什么还是听岔了？",
+    "kuaishou": "话都说明白了，怎么还是有误会？",
+    "xiaohongshu": "减少沟通误会：3步把话说到同一个频道"
+  },
+  "source_video": "L:/workspace/yinghe-shijie/videos/raw/明明说清了，为什么对方还是误会？.mp4",
+  "output_video": "L:/workspace/yinghe-shijie/videos/exports/短视频/明明说清了，为什么对方还是误会？/沟通确认法_短视频/沟通确认法_短视频.mp4",
+  "cover_title": "说清了还误会？",
+  "cover_headline": "说清了",
+  "cover_subhead": "为何还误会",
+  "cover_aspect": "16:9",
+  "background_music": "music/TA成长笔记_CalmBGM_syncopika_CCBY30.ogg",
+  "layout": "source",
+  "burn_captions": false,
+  "write_subtitles": true,
+  "mix": {"source_volume": 0.0, "narration_volume": 1.0, "music_volume": 0.45, "music_fade_seconds": 0.0},
+  "clips": [
+    {"id": "misunderstanding-hook", "source_start": "00:00:14.400", "source_end": "00:00:18.750", "focus_x": 0.50},
+    {"id": "two-interpretations", "source_start": "00:01:55.733", "source_end": "00:02:02.323", "focus_x": 0.50},
+    {"id": "perception-lens", "source_start": "00:02:10.133", "source_end": "00:02:16.123", "focus_x": 0.50},
+    {"id": "emotional-noise", "source_start": "00:02:28.866", "source_end": "00:02:34.466", "focus_x": 0.50},
+    {"id": "active-listening", "source_start": "00:03:18.666", "source_end": "00:03:24.556", "focus_x": 0.50},
+    {"id": "listen-beyond-words", "source_start": "00:03:32.333", "source_end": "00:03:38.013", "focus_x": 0.50},
+    {"id": "understand-first", "source_start": "00:03:40.733", "source_end": "00:03:47.353", "focus_x": 0.50},
+    {"id": "different-lenses", "source_start": "00:03:54.766", "source_end": "00:04:04.146", "focus_x": 0.50}
+  ],
+  "narration": {
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "+0%",
+    "segments": [
+      {"start": "00:00:00.000", "end": "00:00:04.350", "text": "明明把话说清了，对方为什么还是会误会？"},
+      {"start": "00:00:04.350", "end": "00:00:10.940", "text": "因为沟通不是把一句话原封不动地送过去，而是两个人一起给它翻译。"},
+      {"start": "00:00:10.940", "end": "00:00:16.930", "text": "你说的是你的意思；对方听见的，会经过自己的经历和关系。"},
+      {"start": "00:00:16.930", "end": "00:00:22.530", "text": "当下的情绪、注意力，也会改变一句话被理解的方式。"},
+      {"start": "00:00:22.530", "end": "00:00:28.420", "text": "想减少误会，第一步：说完以后，确认对方听到的重点。"},
+      {"start": "00:00:28.420", "end": "00:00:34.100", "text": "可以问：我刚才想表达的是这个，你理解到的是哪一部分？"},
+      {"start": "00:00:34.100", "end": "00:00:40.720", "text": "第二步，别只听字面。语气、停顿和表情，也在传递信息。"},
+      {"start": "00:00:40.720", "end": "00:00:50.100", "text": "最后，先理解对方为什么会这么想，再讨论怎么做。沟通不是说服，而是一起看清同一件事。"}
+    ]
+  }
+}

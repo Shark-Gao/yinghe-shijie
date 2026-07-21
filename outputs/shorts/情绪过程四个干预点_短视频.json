@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "title": "情绪上来时先做什么？4个能把自己拉回来的干预点",
+  "platform_titles": {
+    "bilibili": "情绪上来时先做什么？4个能把自己拉回来的干预点",
+    "douyin": "情绪要失控前，先动这4个地方",
+    "kuaishou": "情绪顶上来，怎么把自己拉回来？",
+    "xiaohongshu": "情绪调节方法图解：看懂4个可干预位置"
+  },
+  "source_video": "L:/workspace/yinghe-shijie/videos/raw/情绪上来时先做什么？一套可练习的自我调节方法.mp4",
+  "output_video": "L:/workspace/yinghe-shijie/videos/exports/短视频/情绪上来时先做什么？一套可练习的自我调节方法/情绪四个干预点_短视频/情绪四个干预点_短视频.mp4",
+  "cover_title": "情绪上来时先做什么",
+  "cover_headline": "先找干预点",
+  "cover_subhead": "把注意力拉回来",
+  "cover_aspect": "16:9",
+  "background_music": "music/TA成长笔记_CalmBGM_syncopika_CCBY30.ogg",
+  "layout": "source",
+  "burn_captions": false,
+  "write_subtitles": true,
+  "mix": { "source_volume": 0.0, "narration_volume": 1.0, "music_volume": 0.45, "music_fade_seconds": 0.0 },
+  "clips": [
+    { "id": "hook", "source_start": "00:00:57.400", "source_end": "00:01:05.450", "focus_x": 0.50 },
+    { "id": "model", "source_start": "00:01:06.133", "source_end": "00:01:13.803", "focus_x": 0.50 },
+    { "id": "avoid", "source_start": "00:01:35.266", "source_end": "00:01:42.836", "focus_x": 0.50 },
+    { "id": "modify", "source_start": "00:01:47.333", "source_end": "00:01:53.563", "focus_x": 0.50 },
+    { "id": "attention", "source_start": "00:01:59.266", "source_end": "00:02:05.716", "focus_x": 0.50 },
+    { "id": "reappraise", "source_start": "00:02:09.300", "source_end": "00:02:17.310", "focus_x": 0.50 },
+    { "id": "response", "source_start": "00:02:35.533", "source_end": "00:02:44.293", "focus_x": 0.50 }
+  ],
+  "narration": {
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "+0%",
+    "segments": [
+      { "start": "00:00:00.000", "end": "00:00:07.820", "text": "情绪上来时，别急着压住它。真正有用的是，趁过程还没失控前，早点干预。" },
+      { "start": "00:00:08.050", "end": "00:00:15.490", "text": "情绪通常会经过四步：遇到情境、注意被带走、做出评估，最后形成反应。" },
+      { "start": "00:00:15.720", "end": "00:00:23.060", "text": "第一步，能避开的压力源就先绕开。这不是逃避，而是给自己留出选择。" },
+      { "start": "00:00:23.290", "end": "00:00:29.290", "text": "如果已经身在其中，就试着改变情境，把重点放回你能控制的事。" },
+      { "start": "00:00:29.520", "end": "00:00:35.740", "text": "还可以主动转移注意力：去做一件具体的小事，别让脑内反复回放。" },
+      { "start": "00:00:35.970", "end": "00:00:43.750", "text": "再重新评估：这件事真的决定一切吗？很多感受，会随着看法改变而松动。" },
+      { "start": "00:00:43.980", "end": "00:00:52.740", "text": "最后照顾身体反应：慢呼吸、走一走，或找可信的人说说。你会重新拿回一点主动权。" }
+    ]
+  }
+}

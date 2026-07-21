@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "title": "固定雷达为何能扫天空？爱国者相控阵的工作方式",
+  "platform_titles": {
+    "bilibili": "固定雷达为何能扫天空？爱国者相控阵的工作方式",
+    "douyin": "雷达不转圈，怎么还能扫天空？",
+    "kuaishou": "这块雷达不转头，怎么发现天上的目标？",
+    "xiaohongshu": "相控阵雷达图解：看懂固定雷达如何电子扫描"
+  },
+  "source_video": "L:/workspace/yinghe-shijie/videos/raw/爱国者系统怎样拦导弹？雷达到发射的协同链路.mp4",
+  "output_video": "L:/workspace/yinghe-shijie/videos/exports/短视频/爱国者系统怎样拦导弹？雷达到发射的协同链路/固定雷达电子扫描_短视频/固定雷达电子扫描_短视频.mp4",
+  "cover_title": "固定雷达如何扫天",
+  "cover_headline": "固定雷达",
+  "cover_subhead": "靠电子扫天",
+  "cover_aspect": "16:9",
+  "background_music": "music/硬核视界_通用BGM_舒缓科普探索_CC0.mp3",
+  "layout": "source",
+  "burn_captions": false,
+  "write_subtitles": true,
+  "mix": { "source_volume": 0.0, "narration_volume": 1.0, "music_volume": 0.45, "music_fade_seconds": 0.0 },
+  "clips": [
+    { "id": "fixed-radar", "source_start": "00:02:59.766", "source_end": "00:03:09.068", "focus_x": 0.50 },
+    { "id": "radar-array", "source_start": "00:03:08.366", "source_end": "00:03:14.980", "focus_x": 0.50 },
+    { "id": "elevated-array", "source_start": "00:03:21.766", "source_end": "00:03:27.324", "focus_x": 0.50 },
+    { "id": "electronic-scan", "source_start": "00:05:36.933", "source_end": "00:05:43.523", "focus_x": 0.50 },
+    { "id": "data-to-control", "source_start": "00:06:00.500", "source_end": "00:06:05.530", "focus_x": 0.50 },
+    { "id": "control-to-launcher", "source_start": "00:06:19.866", "source_end": "00:06:24.152", "focus_x": 0.50 },
+    { "id": "radar-summary", "source_start": "00:07:28.933", "source_end": "00:07:40.933", "focus_x": 0.50 }
+  ],
+  "narration": {
+    "voice": "zh-CN-YunyangNeural",
+    "rate": "+0%",
+    "segments": [
+      { "start": "00:00:00.000", "end": "00:00:09.072", "text": "爱国者雷达看上去不转圈，却能扫天空。关键不在机械转动，而在相控阵用电子方式改变搜索方向。" },
+      { "start": "00:00:09.302", "end": "00:00:15.686", "text": "它是一整块固定的雷达阵面，部署后抬到固定角度，对准需要监视的空域。" },
+      { "start": "00:00:15.916", "end": "00:00:21.244", "text": "阵面把能量集中成很窄的搜索波束，用来搜索和跟踪目标。" },
+      { "start": "00:00:21.474", "end": "00:00:27.834", "text": "波束不必拖着整副天线转动，而是由电子扫描在天空中快速切换。" },
+      { "start": "00:00:28.064", "end": "00:00:32.864", "text": "发现目标后，雷达把位置和轨迹送给交战控制站。" },
+      { "start": "00:00:33.094", "end": "00:00:37.150", "text": "控制站再把计算出的发射数据发给发射车。" },
+      { "start": "00:00:37.380", "end": "00:00:49.380", "text": "这就是固定相控阵的作用：不靠转头，也能把搜索、跟踪和数据传递接进同一条拦截链。固定不等于慢，它只是把转动交给了电子扫描。" }
+    ]
+  }
+}

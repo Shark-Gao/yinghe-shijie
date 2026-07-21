@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "title": "爱国者如何拦截来袭导弹？一条协同链拆给你看",
+  "platform_titles": {
+    "bilibili": "爱国者如何拦截来袭导弹？一条协同链拆给你看",
+    "douyin": "拦导弹不是一键发射，先看这条协同链",
+    "kuaishou": "雷达发现目标后，爱国者到底怎么发射？",
+    "xiaohongshu": "爱国者拦截流程图解：看懂雷达到发射的协同链"
+  },
+  "source_video": "L:/workspace/yinghe-shijie/videos/raw/爱国者系统怎样拦导弹？雷达到发射的协同链路.mp4",
+  "output_video": "L:/workspace/yinghe-shijie/videos/exports/短视频/爱国者系统怎样拦导弹？雷达到发射的协同链路/爱国者拦截协同链_短视频/爱国者拦截协同链_短视频.mp4",
+  "cover_title": "爱国者拦截协同链",
+  "cover_headline": "拦截协同链",
+  "cover_subhead": "雷达到发射",
+  "cover_aspect": "16:9",
+  "background_music": "music/硬核视界_通用BGM_舒缓科普探索_CC0.mp3",
+  "layout": "source",
+  "burn_captions": false,
+  "write_subtitles": true,
+  "mix": { "source_volume": 0.0, "narration_volume": 1.0, "music_volume": 0.45, "music_fade_seconds": 0.0 },
+  "clips": [
+    { "id": "chain-overview", "source_start": "00:07:24.666", "source_end": "00:07:32.984", "focus_x": 0.50 },
+    { "id": "coverage", "source_start": "00:05:29.866", "source_end": "00:05:34.200", "focus_x": 0.50 },
+    { "id": "radar-scan", "source_start": "00:05:36.933", "source_end": "00:05:44.195", "focus_x": 0.50 },
+    { "id": "control-station", "source_start": "00:06:00.500", "source_end": "00:06:06.994", "focus_x": 0.50 },
+    { "id": "inertial-guidance", "source_start": "00:06:34.600", "source_end": "00:06:41.094", "focus_x": 0.50 },
+    { "id": "seeker", "source_start": "00:06:42.166", "source_end": "00:06:47.940", "focus_x": 0.50 },
+    { "id": "terminal-correction", "source_start": "00:06:59.866", "source_end": "00:07:05.832", "focus_x": 0.50 },
+    { "id": "chain-summary", "source_start": "00:07:39.200", "source_end": "00:07:46.256", "focus_x": 0.50 }
+  ],
+  "narration": {
+    "voice": "zh-CN-YunyangNeural",
+    "rate": "+0%",
+    "segments": [
+      { "start": "00:00:00.000", "end": "00:00:08.088", "text": "来袭导弹不是看见就能打。爱国者的核心，是把雷达、控制车和发射车接成一条闭环。" },
+      { "start": "00:00:08.318", "end": "00:00:12.422", "text": "先部署多部发射车，让覆盖范围彼此重叠。" },
+      { "start": "00:00:12.652", "end": "00:00:19.684", "text": "固定相控阵雷达用电子扫描搜索天空，发现目标后持续给出位置和轨迹。" },
+      { "start": "00:00:19.914", "end": "00:00:26.178", "text": "这些数据送进交战控制站，再把目标信息和发射参数发给发射车。" },
+      { "start": "00:00:26.408", "end": "00:00:32.672", "text": "发射后，拦截弹先按惯性导航飞向预定相遇区域，不是全程盲追。" },
+      { "start": "00:00:32.902", "end": "00:00:38.446", "text": "临近拦截点，弹上的导引头再锁定目标，切换到末段引导。" },
+      { "start": "00:00:38.676", "end": "00:00:44.412", "text": "最后，小型姿控发动机快速修正轨迹，让导弹直接撞向目标。" },
+      { "start": "00:00:44.642", "end": "00:00:51.698", "text": "所以它不是一辆车单打独斗，而是一条从搜索、算解到末段修正的协同链。" }
+    ]
+  }
+}

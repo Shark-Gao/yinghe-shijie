@@ -2,6 +2,141 @@
 
 用于集中保存每条推荐的完整 11 项信息与封面路径，便于后续查阅。
 
+## 2026-07-21 - Fusion Power Explained – Future or Failure
+
+账号方向：男性向
+视频链接：https://www.youtube.com/watch?v=mZsaaturR6E
+视频标题：Fusion Power Explained – Future or Failure
+频道：Kurzgesagt – In a Nutshell
+画质：1080p 或更高（已核验可访问）
+内容分类：#科技纪录片 #可控核聚变 #能源工程 #动画科普
+推荐理由：无真人主讲，以高密度动画拆开托卡马克、等离子体约束和工程瓶颈；能自然包装成“为什么人类造不出一颗小太阳”的大众能源问题。
+搬运适合度（★★★★★）：★★★★★
+中文字幕难度：中
+国内受众潜力：高
+B站标题建议：可控核聚变离商用多远？托卡马克为何这么难造
+抖音标题建议：把太阳装进机器，难在哪？
+快手标题建议：核聚变发电为啥一直没普及？
+小红书标题建议：可控核聚变图解，3分钟看懂托卡马克难点
+封面文案：可控核聚变\n离我们多远
+视频简介：把上亿度等离子体困在磁场里，是人类最接近“造一颗小太阳”的工程。本片用动画拆开托卡马克、燃料与能量释放的链路，也解释为什么从实验突破走到稳定发电，仍有一串硬骨头要啃。
+首页推荐封面 4:3：L:\workspace\yinghe-shijie\covers\fusion-power-explained\fusion-power-explained-cover-4x3.png
+个人空间封面 16:9：L:\workspace\yinghe-shijie\covers\fusion-power-explained\fusion-power-explained-cover-16x9.png
+短视频竖版封面 9:16：L:\workspace\yinghe-shijie\covers\fusion-power-explained\fusion-power-explained-cover-9x16.png
+状态：已推荐
+
+## 2026-07-21 - How Robots Learn to Be Robots: Training, Simulation, and Real World Deployment
+
+账号方向：男性向
+视频链接：https://www.youtube.com/watch?v=S4tvirlG8sQ
+视频标题：How Robots Learn to Be Robots: Training, Simulation, and Real World Deployment
+频道：NVIDIA
+画质：1080p 或更高（已核验可访问）
+内容分类：#AI #具身智能 #机器人训练 #仿真
+推荐理由：以仿真、传感器和真实工厂部署画面呈现“机器人如何学习”，视觉自解释强，适合切成具身智能系列里的一个明确问题。
+搬运适合度（★★★★★）：★★★★☆
+中文字幕难度：中
+国内受众潜力：高
+B站标题建议：机器人怎么学会干活？从仿真到现实的训练链
+抖音标题建议：机器人上岗前，先在虚拟世界摔几万次
+快手标题建议：机器人为啥要先在电脑里练？
+小红书标题建议：具身智能图解，看懂机器人训练与仿真迁移
+封面文案：机器人\n怎么练成的
+视频简介：一台机器人能在真实环境稳定完成动作，背后并不是一次示范就够了。视频把传感器感知、物理仿真、反复试错和现实部署连成一条训练链，带你看懂具身智能从“会算”到“会干”的关键跨越。
+首页推荐封面 4:3：L:\workspace\yinghe-shijie\covers\robots-learn-to-be-robots\robots-learn-to-be-robots-cover-4x3.png
+个人空间封面 16:9：L:\workspace\yinghe-shijie\covers\robots-learn-to-be-robots\robots-learn-to-be-robots-cover-16x9.png
+短视频竖版封面 9:16：L:\workspace\yinghe-shijie\covers\robots-learn-to-be-robots\robots-learn-to-be-robots-cover-9x16.png
+状态：已推荐
+
+## 2026-07-21 - Patriot Missile System How it Works | Air Defence Missiles
+
+账号方向：男性向
+视频链接：https://www.youtube.com/watch?v=CIgmwm_D61Q
+视频标题：Patriot Missile System How it Works | Air Defence Missiles
+频道：AiTelly
+画质：1080p 或更高（已核验可访问）
+内容分类：#军事 #导弹防御 #防空系统 #工程可视化
+推荐理由：三维画面覆盖雷达搜索、指挥分配与拦截弹发射，少真人且结构清楚；可用“拦一枚导弹为什么要多台车协同”切入军工观众。
+搬运适合度（★★★★★）：★★★★★
+中文字幕难度：中
+国内受众潜力：高
+B站标题建议：爱国者系统怎样拦导弹？雷达到发射的协同链路
+抖音标题建议：拦导弹，不是一发导弹的事
+快手标题建议：防空车怎么发现又怎么打导弹？
+小红书标题建议：爱国者防空系统图解，看懂雷达和拦截协同
+封面文案：爱国者系统\n怎样拦导弹
+视频简介：导弹防御不是看见目标就按下发射键。雷达先搜索并持续跟踪，指挥系统再计算威胁与拦截窗口，最后由发射车把拦截弹送上天。用三维视角看懂一套防空系统如何在极短时间内协同。
+首页推荐封面 4:3：L:\workspace\yinghe-shijie\covers\patriot-missile-system\patriot-missile-system-cover-4x3.png
+个人空间封面 16:9：L:\workspace\yinghe-shijie\covers\patriot-missile-system\patriot-missile-system-cover-16x9.png
+短视频竖版封面 9:16：L:\workspace\yinghe-shijie\covers\patriot-missile-system\patriot-missile-system-cover-9x16.png
+状态：已推荐
+
+## 2026-07-20 - How Will the Golden Dome Work?
+
+账号方向：男性向
+视频链接：https://www.youtube.com/watch?v=h3sbDTl2MSU
+视频标题：How Will the Golden Dome Work?
+频道：Real Engineering
+内容分类：#军事 #导弹防御 #工程可视化
+推荐理由：用工程拆解视角解释分层预警、传感器与拦截器如何协同，适合包装成“导弹来袭时，系统到底如何发现并拦截”的强视觉军工选题。
+搬运适合度（★★★★★）：★★★★★
+中文字幕难度：中
+国内受众潜力：高
+B站标题建议：金穹系统如何拦截导弹？一套防御网的工程拆解
+抖音标题建议：导弹来了，金穹系统先做什么？
+快手标题建议：拦一枚导弹到底要几层防线？
+小红书标题建议：导弹防御系统图解，看懂预警与拦截链路
+封面文案：金穹系统\n怎么拦导弹
+视频简介：一枚来袭导弹从被传感器捕捉，到交给指挥系统判断，再到拦截器升空，背后是一条分秒必争的工程链路。本片用可视化方式拆开导弹防御系统的关键环节，带你看懂“发现、追踪、决策、拦截”如何协同。
+首页推荐封面 4:3：L:\workspace\yinghe-shijie\covers\golden-dome-missile-defense\golden-dome-missile-defense-cover-4x3.png
+个人空间封面 16:9：L:\workspace\yinghe-shijie\covers\golden-dome-missile-defense\golden-dome-missile-defense-cover-16x9.png
+短视频竖版封面 9:16：L:\workspace\yinghe-shijie\covers\golden-dome-missile-defense\golden-dome-missile-defense-cover-9x16.png
+状态：已推荐
+
+## 2026-07-20 - Why AI Runs on GPUs, Not CPUs
+
+账号方向：男性向
+视频链接：https://www.youtube.com/watch?v=-EL6i2AebdA
+视频标题：Why AI Runs on GPUs, Not CPUs
+频道：BlackBoard AI
+内容分类：#AI #GPU #AI硬件 #动画讲解
+推荐理由：把 AI 训练与推理为何偏爱 GPU 的核心差别落到“海量并行计算”上，图形化表达清晰，适合做 AI 热点背后的硬件底层解释。
+搬运适合度（★★★★★）：★★★★★
+中文字幕难度：中
+国内受众潜力：高
+B站标题建议：AI 为什么离不开 GPU？CPU 与并行计算一次看懂
+抖音标题建议：AI 为啥不爱用 CPU？
+快手标题建议：同是芯片，GPU 为啥更适合跑 AI？
+小红书标题建议：GPU 与 CPU 图解，3分钟看懂 AI 为何靠显卡
+封面文案：AI 为什么\n要靠 GPU
+视频简介：AI 不是简单地“更吃性能”，而是需要同时处理海量重复计算。视频从 CPU 与 GPU 的结构差异讲起，解释为什么大模型训练、图像生成和推理任务会把 GPU 推到算力中心的位置，看懂 AI 硬件竞争的底层逻辑。
+首页推荐封面 4:3：L:\workspace\yinghe-shijie\covers\ai-gpu-vs-cpu\ai-gpu-vs-cpu-cover-4x3.png
+个人空间封面 16:9：L:\workspace\yinghe-shijie\covers\ai-gpu-vs-cpu\ai-gpu-vs-cpu-cover-16x9.png
+短视频竖版封面 9:16：L:\workspace\yinghe-shijie\covers\ai-gpu-vs-cpu\ai-gpu-vs-cpu-cover-9x16.png
+状态：已推荐
+
+## 2026-07-20 - How Ocean Shipping Works (And Why It's Broken)
+
+账号方向：男性向
+视频链接：https://www.youtube.com/watch?v=8d5d_HXGeMA
+视频标题：How Ocean Shipping Works (And Why It's Broken)
+频道：Wendover Productions
+内容分类：#世界冷知识 #全球物流 #航运网络 #地图动画
+推荐理由：用航线、港口和集装箱流转讲清全球贸易的隐形骨架，地图动画与大型船舶画面充足，能包装成“一艘船为何会影响全世界”的现实话题。
+搬运适合度（★★★★★）：★★★★★
+中文字幕难度：中
+国内受众潜力：高
+B站标题建议：一艘船为何能卡住全球？海运网络到底怎么运转
+抖音标题建议：一艘船，为什么能影响全球？
+快手标题建议：你的快递为什么怕港口堵船？
+小红书标题建议：全球航运网络图解，3分钟看懂集装箱怎么走
+封面文案：一艘船\n卡住全球
+视频简介：看似普通的集装箱船，串起了港口、航线、仓储和无数商品价格。视频用地图与物流流程还原海运网络的运行方式，也解释一个关键航道或港口出问题时，为什么连远在另一端的货架都会受到影响。
+首页推荐封面 4:3：L:\workspace\yinghe-shijie\covers\ocean-shipping-works\ocean-shipping-works-cover-4x3.png
+个人空间封面 16:9：L:\workspace\yinghe-shijie\covers\ocean-shipping-works\ocean-shipping-works-cover-16x9.png
+短视频竖版封面 9:16：L:\workspace\yinghe-shijie\covers\ocean-shipping-works\ocean-shipping-works-cover-9x16.png
+状态：已推荐
+
 ## 2026-07-18 - Still Face Experiment Dr Edward Tronick
 
 视频链接：https://www.youtube.com/watch?v=YTTSXc6sARg

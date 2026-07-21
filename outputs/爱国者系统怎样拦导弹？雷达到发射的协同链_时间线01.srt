@@ -1,0 +1,1188 @@
+1
+00:00:00,366 --> 00:00:02,200
+this is the patriot missile system
+2
+00:00:00,366 --> 00:00:02,200
+这是爱国者导弹系统
+3
+00:00:02,266 --> 00:00:04,500
+and we can divide it into ten basic parts
+4
+00:00:02,266 --> 00:00:04,500
+我们可以把它分成十个基本部分
+5
+00:00:04,500 --> 00:00:06,366
+as shown here with all the interiors
+6
+00:00:04,500 --> 00:00:06,366
+如这里所示，所有的内饰
+7
+00:00:06,533 --> 00:00:08,866
+revealing its complex parts and systems
+8
+00:00:06,533 --> 00:00:08,866
+揭示其复杂的部件和系统
+9
+00:00:09,866 --> 00:00:12,366
+it also has these small thrusters or short
+10
+00:00:09,866 --> 00:00:12,366
+它也有这些小推进器或短推进器
+11
+00:00:12,366 --> 00:00:15,066
+propellant motors that fire explosively to
+12
+00:00:12,366 --> 00:00:15,066
+爆炸的推进剂发动机
+13
+00:00:15,066 --> 00:00:17,300
+refine the missile's trajectory to its target
+14
+00:00:15,066 --> 00:00:17,300
+使导弹的弹道精确到目标
+15
+00:00:17,566 --> 00:00:19,500
+we'll also be diving into the step by
+16
+00:00:17,566 --> 00:00:19,500
+我们也将潜入一步一步
+17
+00:00:19,500 --> 00:00:20,933
+step process of how this works
+18
+00:00:19,500 --> 00:00:20,933
+这是如何工作的步骤过程
+19
+00:00:21,066 --> 00:00:21,933
+the missile system
+20
+00:00:21,066 --> 00:00:21,933
+导弹系统
+21
+00:00:22,133 --> 00:00:23,900
+and the basic comparison between the
+22
+00:00:22,133 --> 00:00:23,900
+和之间的基本比较
+23
+00:00:23,900 --> 00:00:26,066
+s-400 and the patriot missile
+24
+00:00:23,900 --> 00:00:26,066
+S-400和爱国者导弹
+25
+00:00:26,500 --> 00:00:28,566
+in the pros and cons sections to
+26
+00:00:26,500 --> 00:00:28,566
+在利弊部分
+27
+00:00:28,566 --> 00:00:29,966
+help us understand it better
+28
+00:00:28,566 --> 00:00:29,966
+帮助我们更好地理解它
+29
+00:00:30,166 --> 00:00:32,200
+so stay tuned and don't miss a beat
+30
+00:00:30,166 --> 00:00:32,200
+所以请继续关注，不要错过任何一个节拍
+31
+00:00:32,666 --> 00:00:35,166
+the m i m one o four patriot is a
+32
+00:00:32,666 --> 00:00:35,166
+m i m one o 4爱国者是一个
+33
+00:00:35,166 --> 00:00:36,766
+surface to air missile Sam system
+34
+00:00:35,166 --> 00:00:36,766
+地空导弹萨姆系统
+35
+00:00:37,066 --> 00:00:39,400
+the primary of its kind used by the United States
+36
+00:00:37,066 --> 00:00:39,400
+美国使用的同类产品中的主要产品
+37
+00:00:39,466 --> 00:00:41,066
+army and several allied Nations
+38
+00:00:39,466 --> 00:00:41,066
+军队和几个盟国
+39
+00:00:41,200 --> 00:00:42,966
+and with the most advanced technology
+40
+00:00:41,200 --> 00:00:42,966
+并采用最先进的技术
+41
+00:00:43,133 --> 00:00:44,933
+comparing to the s four hundred missile
+42
+00:00:43,133 --> 00:00:44,933
+与四百枚导弹相比
+43
+00:00:46,600 --> 00:00:48,500
+for a patriot battery it cost an
+44
+00:00:46,600 --> 00:00:48,500
+对于爱国者电池，它的成本是
+45
+00:00:48,500 --> 00:00:50,100
+astronomical one billion dollars
+46
+00:00:48,500 --> 00:00:50,100
+天文数字的十亿美元
+47
+00:00:50,466 --> 00:00:53,000
+while a single missile cost four million us dollars
+48
+00:00:50,466 --> 00:00:53,000
+而一枚导弹要花费四百万美元
+49
+00:00:54,333 --> 00:00:56,566
+comparing to the s-400 it cost five hundred
+50
+00:00:54,333 --> 00:00:56,566
+与s-400相比，它的价格是500英镑。
+51
+00:00:56,566 --> 00:00:59,133
+million dollars for a single battery mobile
+52
+00:00:56,566 --> 00:00:59,133
+单节电池手机价值100万美元
+53
+00:00:59,133 --> 00:01:01,133
+long ranged surface to air missile system
+54
+00:00:59,133 --> 00:01:01,133
+远程地空导弹系统
+55
+00:01:02,700 --> 00:01:05,133
+the patriot is made up of six basic parts
+56
+00:01:02,700 --> 00:01:05,133
+爱国者由六个基本部分组成
+57
+00:01:06,500 --> 00:01:08,266
+number one engagement control station
+58
+00:01:06,500 --> 00:01:08,266
+一号交战控制站
+59
+00:01:09,600 --> 00:01:12,266
+this is the fire direction center for patriot firing
+60
+00:01:09,600 --> 00:01:12,266
+这是爱国者射击的射击指挥中心
+61
+00:01:12,266 --> 00:01:14,800
+battery operations and is the only manned station
+62
+00:01:12,266 --> 00:01:14,800
+电池运行，是唯一的载人站
+63
+00:01:14,800 --> 00:01:16,566
+in the firing battery during the air battle
+64
+00:01:14,800 --> 00:01:16,566
+在空战期间的发射炮台中
+65
+00:01:17,933 --> 00:01:19,766
+number two electric power plant
+66
+00:01:17,933 --> 00:01:19,766
+第二发电厂
+67
+00:01:20,133 --> 00:01:22,200
+this is electric power for operation of the
+68
+00:01:20,133 --> 00:01:22,200
+这是操作的电力
+69
+00:01:22,200 --> 00:01:24,600
+fire control section also called app
+70
+00:01:22,200 --> 00:01:24,600
+消防部门也称为应用程序
+71
+00:01:27,166 --> 00:01:28,500
+number three radar set
+72
+00:01:27,166 --> 00:01:28,500
+三号雷达装置
+73
+00:01:29,200 --> 00:01:31,300
+this is a multifunction phased array
+74
+00:01:29,200 --> 00:01:31,300
+这是一个多功能相控阵
+75
+00:01:31,300 --> 00:01:32,933
+radar mounted on a semi trailer
+76
+00:01:31,300 --> 00:01:32,933
+装在半挂车上的雷达
+77
+00:01:35,966 --> 00:01:37,733
+number four antenna Mast group
+78
+00:01:35,966 --> 00:01:37,733
+四号天线桅杆组
+79
+00:01:38,800 --> 00:01:41,300
+this provides mobile quick erect antennas and
+80
+00:01:38,800 --> 00:01:41,300
+这提供了移动快速直立天线和
+81
+00:01:41,300 --> 00:01:43,733
+amplifiers for ultra high frequency Communications
+82
+00:01:41,300 --> 00:01:43,733
+超高频通信放大器
+83
+00:01:45,966 --> 00:01:47,333
+number five launching station
+84
+00:01:45,966 --> 00:01:47,333
+五号发射站
+85
+00:01:47,933 --> 00:01:50,100
+this is a remotely operated self
+86
+00:01:47,933 --> 00:01:50,100
+这是一个远程操作的自我
+87
+00:01:50,100 --> 00:01:52,200
+contained unit with its own power plant
+88
+00:01:50,100 --> 00:01:52,200
+带有自己的发电厂的封闭单元
+89
+00:01:52,600 --> 00:01:54,600
+can fire up to four patriot guided
+90
+00:01:52,600 --> 00:01:54,600
+最多可以发射四个爱国者引导
+91
+00:01:54,600 --> 00:01:57,933
+missiles at designated targets  number six
+92
+00:01:54,600 --> 00:01:57,933
+导弹瞄准6号目标
+93
+00:01:59,100 --> 00:02:03,000
+the Patriot guided missile m i m one o four is wingless
+94
+00:01:59,100 --> 00:02:03,000
+爱国者导弹m i m 1 o 4是无翼的
+95
+00:02:03,466 --> 00:02:06,533
+it does however have four tail control fins and is
+96
+00:02:03,466 --> 00:02:06,533
+然而，它确实有四个尾部控制鳍，并且是
+97
+00:02:06,533 --> 00:02:09,666
+propelled in flight by a single stage solid propellant
+98
+00:02:06,533 --> 00:02:09,666
+由单级固体推进剂推动飞行
+99
+00:02:09,666 --> 00:02:10,466
+rocket motor
+100
+00:02:09,666 --> 00:02:10,466
+火箭发动机
+101
+00:02:11,500 --> 00:02:14,166
+now let's look in more detail at each of the parts
+102
+00:02:11,500 --> 00:02:14,166
+现在让我们更详细地看看每个部分
+103
+00:02:14,200 --> 00:02:16,366
+before we move into the step by step process
+104
+00:02:14,200 --> 00:02:16,366
+在我们进入逐步过程之前
+105
+00:02:18,300 --> 00:02:20,600
+this is the engagement control station and can control
+106
+00:02:18,300 --> 00:02:20,600
+这是交战控制站，可以控制
+107
+00:02:20,600 --> 00:02:23,466
+up to eight launching stations through these VHF
+108
+00:02:20,600 --> 00:02:23,466
+通过这些甚高频发射多达8个发射台
+109
+00:02:23,733 --> 00:02:26,333
+radio data links and are located above the truck
+110
+00:02:23,733 --> 00:02:26,333
+无线电数据链路，位于卡车上方
+111
+00:02:27,500 --> 00:02:29,333
+this is the main station number one
+112
+00:02:27,500 --> 00:02:29,333
+这里是一号总站
+113
+00:02:29,333 --> 00:02:30,766
+followed by main station two
+114
+00:02:29,333 --> 00:02:30,766
+其次是二号总站
+115
+00:02:30,933 --> 00:02:33,200
+and last one is the main station number three
+116
+00:02:30,933 --> 00:02:33,200
+最后一个是三号总站
+117
+00:02:35,800 --> 00:02:36,900
+electric power plant
+118
+00:02:35,800 --> 00:02:36,900
+发电厂
+119
+00:02:37,400 --> 00:02:40,733
+it consists of two one hundred fifty kilowatt turbine
+120
+00:02:37,400 --> 00:02:40,733
+它由两百五十千瓦的涡轮机组成
+121
+00:02:40,733 --> 00:02:43,533
+generators mounted on a five ton truck chassis
+122
+00:02:40,733 --> 00:02:43,533
+安装在5吨卡车底盘上的发电机
+123
+00:02:44,100 --> 00:02:46,533
+these generators operate primarily on diesel
+124
+00:02:44,100 --> 00:02:46,533
+这些发电机主要使用柴油
+125
+00:02:46,533 --> 00:02:48,566
+fuel but have a multi fuel capability
+126
+00:02:46,533 --> 00:02:48,566
+燃料，但具有多种燃料能力
+127
+00:02:49,566 --> 00:02:51,366
+the electric power plant is connected to
+128
+00:02:49,566 --> 00:02:51,366
+发电厂连接到
+129
+00:02:51,366 --> 00:02:53,666
+the radar set by three power cables
+130
+00:02:51,366 --> 00:02:53,666
+三根电源线设置的雷达
+131
+00:02:53,966 --> 00:02:55,866
+while the engagement control station is
+132
+00:02:53,966 --> 00:02:55,866
+而交战控制站
+133
+00:02:55,866 --> 00:02:58,266
+connected by a power cable and a control cable
+134
+00:02:55,866 --> 00:02:58,266
+由电源线和控制线连接
+135
+00:02:59,766 --> 00:03:02,700
+radar set  this is the radar set
+136
+00:02:59,766 --> 00:03:02,700
+雷达组这是雷达组
+137
+00:03:02,700 --> 00:03:04,533
+and interestingly it does not rotate
+138
+00:03:02,700 --> 00:03:04,533
+有趣的是，它不旋转。
+139
+00:03:05,166 --> 00:03:07,100
+let's look closely at its parts
+140
+00:03:05,166 --> 00:03:07,100
+让我们仔细看看它的各个部分
+141
+00:03:07,600 --> 00:03:08,900
+this is the main array
+142
+00:03:07,600 --> 00:03:08,900
+这是主阵列
+143
+00:03:09,666 --> 00:03:12,500
+moving down is theIFF or friend or foe antenna
+144
+00:03:09,666 --> 00:03:12,500
+向下移动是IFF或朋友或敌人的天线
+145
+00:03:13,200 --> 00:03:17,066
+this is the tvn array or in full form track via missile
+146
+00:03:13,200 --> 00:03:17,066
+这是tvn阵列或通过导弹的完整形式轨道
+147
+00:03:17,933 --> 00:03:20,066
+moving ahead is the antenna lens assembly
+148
+00:03:17,933 --> 00:03:20,066
+前面是天线透镜组件
+149
+00:03:20,866 --> 00:03:21,700
+once in place
+150
+00:03:20,866 --> 00:03:21,700
+一旦到位
+151
+00:03:21,766 --> 00:03:25,000
+the raider's phased array radar antenna is elevated and
+152
+00:03:21,766 --> 00:03:25,000
+突袭机的相控阵雷达天线升高
+153
+00:03:25,000 --> 00:03:27,466
+locked at a sixty seven point five degree angle
+154
+00:03:25,000 --> 00:03:27,466
+锁定在六十七点五度角
+155
+00:03:28,866 --> 00:03:30,066
+antenna Mast group
+156
+00:03:28,866 --> 00:03:30,066
+天线桅杆组
+157
+00:03:30,866 --> 00:03:33,266
+this is the antenna Mast group's protective cover
+158
+00:03:30,866 --> 00:03:33,266
+这是天线桅杆组的保护套
+159
+00:03:33,566 --> 00:03:37,166
+the antenna masts extend to a maximum height of one
+160
+00:03:33,566 --> 00:03:37,166
+天线桅杆延伸到最大高度为1
+161
+00:03:37,166 --> 00:03:39,533
+hundred feet eleven inches from ground level
+162
+00:03:37,166 --> 00:03:39,533
+离地面一百英尺十一英寸
+163
+00:03:39,533 --> 00:03:40,700
+just like this animation
+164
+00:03:39,533 --> 00:03:40,700
+就像这个动画
+165
+00:03:41,600 --> 00:03:44,533
+the antenna Mast group provides ultra high frequency
+166
+00:03:41,600 --> 00:03:44,533
+天线桅杆组提供超高频
+167
+00:03:44,600 --> 00:03:47,100
+Communications required for the engagement control station
+168
+00:03:44,600 --> 00:03:47,100
+交战控制站所需的通信
+169
+00:03:48,300 --> 00:03:50,666
+this launching platform is made up of three parts
+170
+00:03:48,300 --> 00:03:50,666
+这个发射平台由三部分组成
+171
+00:03:51,566 --> 00:03:54,933
+this is dlf antenna in full form the distributed
+172
+00:03:51,566 --> 00:03:54,933
+这是完整形式的分布式dlf天线
+173
+00:03:54,933 --> 00:03:57,866
+Ledger technology responsible for continuously sharing
+174
+00:03:54,933 --> 00:03:57,866
+Ledger技术负责持续共享
+175
+00:03:57,866 --> 00:04:00,266
+data directly to the engagement control station
+176
+00:03:57,866 --> 00:04:00,266
+数据直接发送到交战控制站
+177
+00:04:01,133 --> 00:04:02,933
+this is the canister and inside it
+178
+00:04:01,133 --> 00:04:02,933
+这是罐子，在里面
+179
+00:04:02,933 --> 00:04:04,400
+houses four pack three missiles
+180
+00:04:02,933 --> 00:04:04,400
+房子四包三导弹
+181
+00:04:05,100 --> 00:04:06,666
+moving forward we have the electrical
+182
+00:04:05,100 --> 00:04:06,666
+向前看，我们有电气
+183
+00:04:06,666 --> 00:04:08,366
+power unit that powers the launchers
+184
+00:04:06,666 --> 00:04:08,366
+为发射器供电的动力装置
+185
+00:04:11,900 --> 00:04:13,500
+this is the patriot missile
+186
+00:04:11,900 --> 00:04:13,500
+这是爱国者导弹
+187
+00:04:14,533 --> 00:04:16,466
+so let us look at what's inside it
+188
+00:04:14,533 --> 00:04:16,466
+让我们看看里面有什么
+189
+00:04:17,500 --> 00:04:19,400
+this is the fuse silica蕊筒
+190
+00:04:17,500 --> 00:04:19,400
+这是保险丝硅石蕊筒
+191
+00:04:20,666 --> 00:04:22,600
+moving to the back is the seeker assembly
+192
+00:04:20,666 --> 00:04:22,600
+移到后面的是探索者组件
+193
+00:04:23,766 --> 00:04:25,600
+this is the terminal guidance package
+194
+00:04:23,766 --> 00:04:25,600
+这是终端引导包
+195
+00:04:25,600 --> 00:04:28,566
+most probably contains the gps of the patriot missile
+196
+00:04:25,600 --> 00:04:28,566
+很可能包含爱国者导弹的GPS
+197
+00:04:29,733 --> 00:04:31,366
+just behind it is the modular
+198
+00:04:29,733 --> 00:04:31,366
+就在它后面是模块化的
+199
+00:04:31,366 --> 00:04:33,333
+midcourse package navigation subsystem
+200
+00:04:31,366 --> 00:04:33,333
+中途包导航子系统
+201
+00:04:34,666 --> 00:04:37,666
+this is the warhead and weighs around ninety kilogram
+202
+00:04:34,666 --> 00:04:37,666
+这是弹头，重约90公斤
+203
+00:04:37,666 --> 00:04:39,800
+responsible for destroying the enemy projectiles
+204
+00:04:37,666 --> 00:04:39,800
+负责摧毁敌方炮弹
+205
+00:04:40,400 --> 00:04:42,466
+this is the inertial sensor electronics
+206
+00:04:40,400 --> 00:04:42,466
+这是惯性传感器电子设备
+207
+00:04:42,500 --> 00:04:44,366
+along with the gyro acceleration assembly
+208
+00:04:42,500 --> 00:04:44,366
+还有陀螺仪加速组件
+209
+00:04:44,966 --> 00:04:46,366
+moving ahead is a propulsion
+210
+00:04:44,966 --> 00:04:46,366
+前进是一种推动力
+211
+00:04:46,366 --> 00:04:48,200
+arming and firing unit which we will
+212
+00:04:46,366 --> 00:04:48,200
+武装和发射单位，我们将
+213
+00:04:48,266 --> 00:04:49,766
+explain further in the video ahead
+214
+00:04:48,266 --> 00:04:49,766
+在前面的视频中进一步解释
+215
+00:04:50,966 --> 00:04:53,300
+this is a propellant section and takes up
+216
+00:04:50,966 --> 00:04:53,300
+这是一个推进剂部分
+217
+00:04:53,300 --> 00:04:55,166
+around forty percent of the missile's space
+218
+00:04:53,300 --> 00:04:55,166
+导弹大约40%的空间
+219
+00:04:55,366 --> 00:04:57,800
+it is basically a solid fuel for the missile
+220
+00:04:55,366 --> 00:04:57,800
+它基本上是导弹的固体燃料
+221
+00:04:58,666 --> 00:05:00,966
+just behind the propellant is the motor pump and
+222
+00:04:58,666 --> 00:05:00,966
+推进剂后面是发动机泵和
+223
+00:05:00,966 --> 00:05:03,100
+actuator and the last section of the missile is
+224
+00:05:00,966 --> 00:05:03,100
+执行器，导弹的最后一部分是
+225
+00:05:03,100 --> 00:05:04,766
+the fins that help steer the missile
+226
+00:05:03,100 --> 00:05:04,766
+帮助操纵导弹的鳍
+227
+00:05:05,300 --> 00:05:07,266
+it weighs around three hundred and seventeen
+228
+00:05:05,300 --> 00:05:07,266
+它重约三百一十七磅
+229
+00:05:07,300 --> 00:05:09,766
+kilograms or six hundred and ninety eight pounds
+230
+00:05:07,300 --> 00:05:09,766
+千克或六百九十八磅
+231
+00:05:10,566 --> 00:05:13,566
+it is approximately five point one meters long and has a
+232
+00:05:10,566 --> 00:05:13,566
+它大约有五点一米长，有一个
+233
+00:05:13,566 --> 00:05:15,900
+diameter of two hundred and fifty four millimeters
+234
+00:05:13,566 --> 00:05:15,900
+直径二百五十四毫米
+235
+00:05:17,166 --> 00:05:18,800
+let's compare this to a person to
+236
+00:05:17,166 --> 00:05:18,800
+让我们把这个比作一个人
+237
+00:05:18,800 --> 00:05:19,966
+understand its size visually
+238
+00:05:18,800 --> 00:05:19,966
+直观地理解它的大小
+239
+00:05:21,366 --> 00:05:23,566
+now that we established the basic missile system
+240
+00:05:21,366 --> 00:05:23,566
+现在我们建立了基本的导弹系统
+241
+00:05:23,666 --> 00:05:25,100
+let's look at the step by step
+242
+00:05:23,666 --> 00:05:25,100
+让我们一步一步地看
+243
+00:05:25,100 --> 00:05:26,400
+process of how this is launched
+244
+00:05:25,100 --> 00:05:26,400
+如何启动的过程
+245
+00:05:27,800 --> 00:05:28,700
+step number one
+246
+00:05:27,800 --> 00:05:28,700
+第一步
+247
+00:05:29,866 --> 00:05:31,533
+multiple patriot missiles will be deployed
+248
+00:05:29,866 --> 00:05:31,533
+将部署多枚爱国者导弹
+249
+00:05:31,533 --> 00:05:33,533
+to provide overlapping missile coverage
+250
+00:05:31,533 --> 00:05:33,533
+提供重叠的导弹覆盖
+251
+00:05:34,900 --> 00:05:35,800
+step number two
+252
+00:05:34,900 --> 00:05:35,800
+第二步
+253
+00:05:36,933 --> 00:05:39,766
+the radar electronically scans the sky searching the
+254
+00:05:36,933 --> 00:05:39,766
+雷达以电子方式扫描天空
+255
+00:05:39,766 --> 00:05:42,200
+entire horizon with overlapping pencil beam
+256
+00:05:39,766 --> 00:05:42,200
+整个地平线与重叠的铅笔光束
+257
+00:05:43,400 --> 00:05:44,333
+step number three
+258
+00:05:43,400 --> 00:05:44,333
+第三步
+259
+00:05:45,566 --> 00:05:47,766
+let's take two targets to help us visualize
+260
+00:05:45,566 --> 00:05:47,766
+让我们选择两个目标来帮助我们想象
+261
+00:05:48,933 --> 00:05:50,966
+an intercontinental ballistic missile
+262
+00:05:48,933 --> 00:05:50,966
+洲际弹道导弹
+263
+00:05:51,000 --> 00:05:52,700
+fired by the enemy from the horizon
+264
+00:05:51,000 --> 00:05:52,700
+被敌人从地平线上发射
+265
+00:05:53,133 --> 00:05:55,066
+and a low flying cruise missile like this
+266
+00:05:53,133 --> 00:05:55,066
+还有像这样低空飞行的巡航导弹
+267
+00:05:55,066 --> 00:05:57,000
+one approaching near the frontlines
+268
+00:05:55,066 --> 00:05:57,000
+一个接近前线
+269
+00:05:58,500 --> 00:05:59,400
+step number four
+270
+00:05:58,500 --> 00:05:59,400
+第四步
+271
+00:06:00,500 --> 00:06:01,800
+when the target is detected
+272
+00:06:00,500 --> 00:06:01,800
+当检测到目标时
+273
+00:06:01,800 --> 00:06:03,866
+the radar communicates with the computer
+274
+00:06:01,800 --> 00:06:03,866
+雷达与计算机通信
+275
+00:06:03,866 --> 00:06:05,300
+in the engagement control station
+276
+00:06:03,866 --> 00:06:05,300
+在交战控制站
+277
+00:06:06,800 --> 00:06:07,733
+step number five
+278
+00:06:06,800 --> 00:06:07,733
+第五步
+279
+00:06:09,000 --> 00:06:10,700
+targets can be tracked manually or
+280
+00:06:09,000 --> 00:06:10,700
+可以手动跟踪目标或
+281
+00:06:10,700 --> 00:06:12,766
+automatically and change the designation from
+282
+00:06:10,700 --> 00:06:12,766
+自动并更改名称
+283
+00:06:12,766 --> 00:06:14,766
+hostile to friendly if and when appropriate
+284
+00:06:12,766 --> 00:06:14,766
+在适当的时候敌视友好
+285
+00:06:17,733 --> 00:06:18,666
+step number six
+286
+00:06:17,733 --> 00:06:18,666
+第六步
+287
+00:06:19,866 --> 00:06:22,100
+the engagement control station then gives the command
+288
+00:06:19,866 --> 00:06:22,100
+然后交战控制站发出命令
+289
+00:06:22,100 --> 00:06:24,200
+to the launching station with the required data
+290
+00:06:22,100 --> 00:06:24,200
+带着所需的数据去发射站
+291
+00:06:25,533 --> 00:06:28,900
+step number seven as per operational doctrine any
+292
+00:06:25,533 --> 00:06:28,900
+第七步根据作战原则
+293
+00:06:28,900 --> 00:06:31,533
+engagement requires two pack three missiles to
+294
+00:06:28,900 --> 00:06:31,533
+交战需要两包三枚导弹
+295
+00:06:31,533 --> 00:06:33,700
+increase the probability of the hit ratio
+296
+00:06:31,533 --> 00:06:33,700
+提高命中率的概率
+297
+00:06:34,600 --> 00:06:36,533
+step number eight the missile in the early
+298
+00:06:34,600 --> 00:06:36,533
+第八步导弹在早期
+299
+00:06:36,600 --> 00:06:39,133
+stages uses inertial guidance specified to
+300
+00:06:36,600 --> 00:06:39,133
+级使用指定为
+301
+00:06:39,133 --> 00:06:40,666
+launch from the engagement control station
+302
+00:06:39,133 --> 00:06:40,666
+从交战控制站发射
+303
+00:06:42,166 --> 00:06:43,066
+step number nine
+304
+00:06:42,166 --> 00:06:43,066
+第九步
+305
+00:06:44,266 --> 00:06:46,666
+just shortly before arrival at the intercept point
+306
+00:06:44,266 --> 00:06:46,666
+就在到达拦截点前不久
+307
+00:06:46,666 --> 00:06:49,533
+the missile uses the ka band seeker to track the target
+308
+00:06:46,666 --> 00:06:49,533
+导弹使用ka波段导引头跟踪目标
+309
+00:06:50,666 --> 00:06:53,066
+an optimal aim point is selected and
+310
+00:06:50,666 --> 00:06:53,066
+选择最佳瞄准点并
+311
+00:06:53,066 --> 00:06:54,600
+terminal guidance is initiated
+312
+00:06:53,066 --> 00:06:54,600
+终端引导启动
+313
+00:06:57,800 --> 00:06:58,766
+step number ten
+314
+00:06:57,800 --> 00:06:58,766
+第十步
+315
+00:06:59,866 --> 00:07:02,700
+the short propellant motors fires explosively to
+316
+00:06:59,866 --> 00:07:02,700
+短推进剂发动机爆炸
+317
+00:07:02,700 --> 00:07:04,800
+refine the missile trajectory to its target
+318
+00:07:02,700 --> 00:07:04,800
+将导弹弹道精确到目标
+319
+00:07:05,466 --> 00:07:08,333
+this helps the missile to reach its point of trajectory and
+320
+00:07:05,466 --> 00:07:08,333
+这有助于导弹到达其弹道点
+321
+00:07:08,333 --> 00:07:11,000
+enables the missile a hit to kill intercept of the target
+322
+00:07:08,333 --> 00:07:11,000
+使导弹命中目标并拦截目标
+323
+00:07:12,333 --> 00:07:14,966
+direct body to body contact with the missile creates very
+324
+00:07:12,333 --> 00:07:14,966
+直接身体接触导弹会造成非常
+325
+00:07:14,966 --> 00:07:17,800
+high energy which helps destroy weapons of mass destruction
+326
+00:07:14,966 --> 00:07:17,800
+有助于摧毁大规模杀伤性武器的高能
+327
+00:07:18,533 --> 00:07:20,066
+once the threat has been destroyed
+328
+00:07:18,533 --> 00:07:20,066
+一旦威胁被摧毁
+329
+00:07:20,100 --> 00:07:22,000
+the remaining pack three missiles will be
+330
+00:07:20,100 --> 00:07:22,000
+剩下的三包导弹将
+331
+00:07:22,000 --> 00:07:23,866
+terminated by the engagement control station
+332
+00:07:22,000 --> 00:07:23,866
+由交战控制站终止
+333
+00:07:24,666 --> 00:07:28,266
+let's simplify it even better  number one
+334
+00:07:24,666 --> 00:07:28,266
+让我们简化它，更好地第一
+335
+00:07:28,933 --> 00:07:30,700
+radar sweeps the sky for threats
+336
+00:07:28,933 --> 00:07:30,700
+雷达扫描天空中的威胁
+337
+00:07:32,000 --> 00:07:34,800
+number two sends data to control station
+338
+00:07:32,000 --> 00:07:34,800
+二号向控制站发送数据
+339
+00:07:36,300 --> 00:07:37,100
+number three
+340
+00:07:36,300 --> 00:07:37,100
+三号
+341
+00:07:37,700 --> 00:07:39,066
+launchers fire the missile
+342
+00:07:37,700 --> 00:07:39,066
+发射器发射导弹
+343
+00:07:40,333 --> 00:07:43,166
+number four  pac three missiles are guided to the
+344
+00:07:40,333 --> 00:07:43,166
+四号pac三号导弹被引导到
+345
+00:07:43,166 --> 00:07:44,933
+target by the engagement control station
+346
+00:07:43,166 --> 00:07:44,933
+交战控制站的目标
+347
+00:07:45,966 --> 00:07:48,266
+let's look at the pros and cons of this missile
+348
+00:07:45,966 --> 00:07:48,266
+让我们来看看这枚导弹的利弊
+349
+00:07:48,733 --> 00:07:51,066
+the patriot missile system can detect and
+350
+00:07:48,733 --> 00:07:51,066
+爱国者导弹系统可以探测和
+351
+00:07:51,100 --> 00:07:53,066
+respond to incoming missiles within seconds
+352
+00:07:51,100 --> 00:07:53,066
+在数秒内对来袭的导弹作出反应
+353
+00:07:53,166 --> 00:07:55,733
+which is essential in defending against surprise attacks
+354
+00:07:53,166 --> 00:07:55,733
+这对防御突然袭击至关重要
+355
+00:07:56,733 --> 00:07:58,466
+the patriot missile system can be
+356
+00:07:56,733 --> 00:07:58,466
+爱国者导弹系统可以
+357
+00:07:58,466 --> 00:08:00,266
+integrated with other defense systems
+358
+00:07:58,466 --> 00:08:00,266
+与其他防御系统集成
+359
+00:08:00,400 --> 00:08:02,100
+such as radar and fighter jets
+360
+00:08:00,400 --> 00:08:02,100
+比如雷达和战斗机
+361
+00:08:02,100 --> 00:08:04,266
+to provide a comprehensive defense network
+362
+00:08:02,100 --> 00:08:04,266
+提供全面的防御网络
+363
+00:08:04,933 --> 00:08:06,100
+let's look at the cons
+364
+00:08:04,933 --> 00:08:06,100
+让我们看看缺点
+365
+00:08:06,900 --> 00:08:08,933
+the deployment time for the s-400
+366
+00:08:06,900 --> 00:08:08,933
+s-400的部署时间
+367
+00:08:08,933 --> 00:08:10,700
+missile defense system is five minutes
+368
+00:08:08,933 --> 00:08:10,700
+导弹防御系统还有五分钟
+369
+00:08:10,733 --> 00:08:12,366
+while for the patriot missile defense
+370
+00:08:10,733 --> 00:08:12,366
+而爱国者导弹防御系统
+371
+00:08:12,366 --> 00:08:14,466
+system it is twenty five minutes or more
+372
+00:08:12,366 --> 00:08:14,466
+系统是25分钟或更长时间
+373
+00:08:15,200 --> 00:08:17,266
+its Radar is a detection to kill system
+374
+00:08:15,200 --> 00:08:17,266
+它的雷达是一种侦察杀伤系统
+375
+00:08:17,333 --> 00:08:19,366
+meaning a single unit performs all search
+376
+00:08:17,333 --> 00:08:19,366
+意味着单个单元执行所有搜索
+377
+00:08:19,566 --> 00:08:20,366
+identification
+378
+00:08:19,566 --> 00:08:20,366
+鉴定
+379
+00:08:20,466 --> 00:08:22,000
+track and engagement functions
+380
+00:08:20,466 --> 00:08:22,000
+跟踪和参与功能
+381
+00:08:22,333 --> 00:08:25,333
+the s four hundred has around three or four radars
+382
+00:08:22,333 --> 00:08:25,333
+s400有大约三四个雷达
+383
+00:08:25,333 --> 00:08:27,166
+the big bird long range Radar
+384
+00:08:25,333 --> 00:08:27,166
+大鸟远程雷达
+385
+00:08:27,400 --> 00:08:29,466
+the gravestone fire control Radar
+386
+00:08:27,400 --> 00:08:29,466
+墓碑火控雷达
+387
+00:08:29,900 --> 00:08:31,366
+the all altitude radar
+388
+00:08:29,900 --> 00:08:31,366
+全高度雷达
+389
+00:08:31,366 --> 00:08:33,866
+and the last one is the mobile mast radar system
+390
+00:08:31,366 --> 00:08:33,866
+最后一个是移动式桅杆雷达系统
+391
+00:08:34,500 --> 00:08:37,400
+we create original 3d animation from scratch
+392
+00:08:34,500 --> 00:08:37,400
+我们从头开始创建原创3d动画
+393
+00:08:37,500 --> 00:08:39,866
+so please like and subscribe to help us
+394
+00:08:37,500 --> 00:08:39,866
+所以请喜欢并订阅以帮助我们
+395
+00:08:39,866 --> 00:08:41,733
+create better animation for years to come
+396
+00:08:39,866 --> 00:08:41,733
+为未来创造更好的动画

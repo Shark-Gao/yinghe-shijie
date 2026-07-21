@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "title": "情绪没有好坏：关键是它此刻有没有帮到你",
+  "platform_titles": {
+    "bilibili": "情绪没有好坏：关键是它此刻有没有帮到你",
+    "douyin": "难过和愤怒，本身不是坏情绪",
+    "kuaishou": "情绪来了，到底该压还是该接住？",
+    "xiaohongshu": "情绪管理图解：看懂情绪到底有没有用"
+  },
+  "source_video": "L:/workspace/yinghe-shijie/videos/raw/情绪上来时先做什么？一套可练习的自我调节方法.mp4",
+  "output_video": "L:/workspace/yinghe-shijie/videos/exports/短视频/情绪上来时先做什么？一套可练习的自我调节方法/情绪没有好坏_短视频/情绪没有好坏_短视频.mp4",
+  "cover_title": "情绪没有好坏",
+  "cover_headline": "情绪不是敌人",
+  "cover_subhead": "看它有没有用",
+  "cover_aspect": "16:9",
+  "background_music": "music/TA成长笔记_CalmBGM_syncopika_CCBY30.ogg",
+  "layout": "source",
+  "burn_captions": false,
+  "write_subtitles": true,
+  "mix": { "source_volume": 0.0, "narration_volume": 1.0, "music_volume": 0.45, "music_fade_seconds": 0.0 },
+  "clips": [
+    { "id": "hook", "source_start": "00:03:09.366", "source_end": "00:03:16.986", "focus_x": 0.50 },
+    { "id": "empathy", "source_start": "00:03:21.933", "source_end": "00:03:30.463", "focus_x": 0.50 },
+    { "id": "short_term", "source_start": "00:03:32.766", "source_end": "00:03:37.776", "focus_x": 0.50 },
+    { "id": "messages", "source_start": "00:03:42.366", "source_end": "00:03:49.796", "focus_x": 0.50 },
+    { "id": "happiness", "source_start": "00:03:53.166", "source_end": "00:03:59.776", "focus_x": 0.50 },
+    { "id": "accept", "source_start": "00:04:08.133", "source_end": "00:04:13.763", "focus_x": 0.50 },
+    { "id": "reframe", "source_start": "00:04:20.866", "source_end": "00:04:27.276", "focus_x": 0.50 }
+  ],
+  "narration": {
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "+0%",
+    "segments": [
+      { "start": "00:00:00.000", "end": "00:00:07.390", "text": "难过、愤怒、沮丧，并不等于你情绪失控。情绪本身没有天生的好坏。" },
+      { "start": "00:00:07.620", "end": "00:00:15.920", "text": "关键是，在此刻它有没有帮到你。朋友失去亲人时，悲伤能让我们共情并陪在身边。" },
+      { "start": "00:00:16.150", "end": "00:00:20.930", "text": "一次烦躁时强打精神，也可以帮你完成眼前任务。" },
+      { "start": "00:00:21.160", "end": "00:00:28.360", "text": "真正要避免的，不是感受情绪，而是长期忽视它，或为了快乐而责怪自己。" },
+      { "start": "00:00:28.590", "end": "00:00:34.970", "text": "越逼自己必须开心，越容易因为难过而愧疚，再多添一层挫败。" },
+      { "start": "00:00:35.200", "end": "00:00:40.600", "text": "先接纳自己正在难过，再问一句：我现在需要什么支持？" },
+      { "start": "00:00:40.830", "end": "00:00:47.240", "text": "把情绪当信号，而不是敌人，你就有机会选一个更适合当下的回应。" }
+    ]
+  }
+}

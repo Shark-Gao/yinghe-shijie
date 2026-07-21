@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "title": "关键时刻总失常？3个练习帮你稳定发挥",
+  "platform_titles": {
+    "bilibili": "关键时刻总失常？3个练习帮你稳定发挥",
+    "douyin": "越重要越容易失常？先把注意力拉回来",
+    "kuaishou": "一到关键时刻就发挥不好，试试这3步",
+    "xiaohongshu": "高压下稳定发挥：3个可练习的方法"
+  },
+  "source_video": "L:/workspace/yinghe-shijie/videos/raw/压力一上来如何冷静？3个可练习的稳定方法.mp4",
+  "output_video": "L:/workspace/yinghe-shijie/videos/exports/短视频/压力一上来如何冷静？3个可练习的稳定方法/稳定发挥_短视频/稳定发挥_短视频.mp4",
+  "cover_title": "关键时刻总失常？",
+  "cover_headline": "关键时刻",
+  "cover_subhead": "别失常\n3个练习",
+  "cover_aspect": "16:9",
+  "background_music": "music/TA成长笔记_CalmBGM_syncopika_CCBY30.ogg",
+  "layout": "source",
+  "burn_captions": false,
+  "write_subtitles": true,
+  "mix": {"source_volume": 0.0, "narration_volume": 1.0, "music_volume": 0.45, "music_fade_seconds": 0.0},
+  "clips": [
+    {"id": "choke-hook", "source_start": "00:00:06.600", "source_end": "00:00:16.700", "focus_x": 0.50},
+    {"id": "attention-explainer", "source_start": "00:00:50.966", "source_end": "00:00:56.266", "focus_x": 0.50},
+    {"id": "pressure-practice", "source_start": "00:02:55.566", "source_end": "00:03:05.616", "focus_x": 0.50},
+    {"id": "pre-performance-routine", "source_start": "00:03:10.466", "source_end": "00:03:20.266", "focus_x": 0.50},
+    {"id": "external-focus", "source_start": "00:03:31.000", "source_end": "00:03:37.000", "focus_x": 0.50},
+    {"id": "golf-example", "source_start": "00:03:41.133", "source_end": "00:03:48.783", "focus_x": 0.50}
+  ],
+  "narration": {
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "+0%",
+    "segments": [
+      {"start": "00:00:00.000", "end": "00:00:04.000", "text": "关键时刻失常，往往不是你不够强。"},
+      {"start": "00:00:04.000", "end": "00:00:10.100", "text": "真正的问题是，压力让注意力从动作，跑到了结果和失败上。"},
+      {"start": "00:00:10.100", "end": "00:00:15.400", "text": "一旦反复想着结果，原本熟练的动作也可能卡住。"},
+      {"start": "00:00:15.400", "end": "00:00:25.450", "text": "所以第一步，练习时主动加一点压力：计时、被注视，也允许自己出错。这样正式场合才不陌生。"},
+      {"start": "00:00:25.450", "end": "00:00:35.250", "text": "第二步，给自己固定十秒钟的赛前仪式：深呼吸、提示词，或有节奏的小动作，把注意力拉回当下。"},
+      {"start": "00:00:35.250", "end": "00:00:41.250", "text": "最后，把注意力放到外部目标，不要盯着自己每个动作怎么做。"},
+      {"start": "00:00:41.250", "end": "00:00:48.900", "text": "比如盯住球的轨迹、声音，或眼前一步。你最容易在哪个瞬间失常？"}
+    ]
+  }
+}

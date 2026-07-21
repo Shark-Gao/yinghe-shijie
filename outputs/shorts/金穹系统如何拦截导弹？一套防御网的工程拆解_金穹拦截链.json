@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "title": "金穹设想怎么拦导弹？三步看懂防御网",
+  "platform_titles": {
+    "bilibili": "金穹设想怎么拦导弹？三步看懂防御网",
+    "douyin": "导弹来了，金穹到底先做什么？",
+    "kuaishou": "金穹拦导弹，第一步到底干啥？",
+    "xiaohongshu": "导弹防御系统图解：看懂卫星、雷达与动能拦截"
+  },
+  "source_video": "L:/workspace/yinghe-shijie/videos/raw/金穹系统如何拦截导弹？一套防御网的工程拆解.mp4",
+  "output_video": "L:/workspace/yinghe-shijie/videos/exports/短视频/金穹系统如何拦截导弹？一套防御网的工程拆解/金穹拦截链_短视频/金穹拦截链_短视频.mp4",
+  "cover_title": "金穹设想怎么拦导弹？",
+  "cover_headline": "三步拦弹",
+  "cover_subhead": "发现到拦截",
+  "cover_aspect": "16:9",
+  "background_music": "music/硬核视界_通用BGM_舒缓科普探索_CC0.mp3",
+  "layout": "source",
+  "burn_captions": false,
+  "write_subtitles": true,
+  "mix": {
+    "source_volume": 0.0,
+    "narration_volume": 1.0,
+    "music_volume": 0.45,
+    "music_fade_seconds": 0.0
+  },
+  "clips": [
+    { "id": "answer", "source_start": "00:01:42.100", "source_end": "00:01:47.100", "focus_x": 0.50 },
+    { "id": "satellite_detect", "source_start": "00:06:08.666", "source_end": "00:06:17.666", "focus_x": 0.50 },
+    { "id": "track_path", "source_start": "00:06:38.366", "source_end": "00:06:48.366", "focus_x": 0.50 },
+    { "id": "calculate_threat", "source_start": "00:02:32.800", "source_end": "00:02:41.800", "focus_x": 0.50 },
+    { "id": "kinetic_intercept", "source_start": "00:09:06.900", "source_end": "00:09:16.900", "focus_x": 0.50 },
+    { "id": "decoys", "source_start": "00:08:27.366", "source_end": "00:08:37.366", "focus_x": 0.50 }
+  ],
+  "narration": {
+    "voice": "zh-CN-YunyangNeural",
+    "rate": "+0%",
+    "segments": [
+      { "start": "00:00:00.000", "end": "00:00:05.000", "text": "金穹的设想，不是一枚导弹，而是一张防御网。" },
+      { "start": "00:00:05.000", "end": "00:00:14.000", "text": "第一步，卫星从太空捕捉导弹发射时的高温尾焰。越早发现，留给拦截的时间越多。" },
+      { "start": "00:00:14.000", "end": "00:00:24.000", "text": "第二步，卫星和地面雷达接力跟踪，算出它的速度、高度、方向，以及可能的落点。" },
+      { "start": "00:00:24.000", "end": "00:00:33.000", "text": "系统不会见到目标就打。确认它会威胁城市或关键设施，才会下达拦截指令。" },
+      { "start": "00:00:33.000", "end": "00:00:43.000", "text": "第三步，拦截弹靠雷达和自身传感器修正航向；在高空，它会高速直接撞毁弹头。" },
+      { "start": "00:00:43.000", "end": "00:00:53.000", "text": "真正难的不是最后一撞，而是从诱饵里找出真目标，并扛住多枚导弹同时来袭。" }
+    ]
+  }
+}

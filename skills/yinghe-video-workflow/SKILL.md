@@ -47,6 +47,15 @@ Follow the project positioning:
 
 女性向记录的 `类型` 使用清晰的主题标签，例如 `#亲子沟通 #情绪管理 #心理学实验`，并在每条记录中写明 `账号方向：女性向`。
 
+### 女性向制作与包装基线（TA成长笔记）
+
+当女性向源片进入短视频制作、生成封面或输出发布条目时，以下要求默认强制执行，除非用户明确要求例外：
+
+- **配音与音乐：** 使用女声 `zh-CN-XiaoxiaoNeural`；使用 `music/TA成长笔记_CalmBGM_syncopika_CCBY30.ogg`，背景音量与男性向默认一致，为 `0.45`，不混入原片声音。该音乐为 CC-BY 3.0，发布简介必须包含：`音乐：calm bgm — syncopika（CC BY 3.0）`。
+- **标题与承诺：** 标题、封面文案、前 5–10 秒口播、方法步骤和结尾必须回答同一个具体问题。不得把长期练习包装成“立刻冷静”，不得使用“治愈”“保证”“一定有效”等绝对承诺；将收益写成可被视频证明的具体动作或能力，例如“高压下稳定发挥”“把注意力拉回当下”。
+- **封面视觉：** 所有女性向封面沿用“稳定发挥”视觉体系：深海军蓝底、薄荷绿/青绿色聚焦层、珊瑚色混乱线条收束为清晰目标、温暖的非写实编辑插画。默认以沉静的成年女性/照护者为主体；亲子内容可使用照护者与孩子，但色彩、线条和“混乱→聚焦”的叙事不变。16:9 主体置左侧或左下、右侧留深色标题区；9:16 主体置下半区、顶部留深色标题区。底图不生成文字，后期再叠加高对比中文标题。参考文件：`videos/exports/短视频/压力一上来如何冷静？3个可练习的稳定方法/稳定发挥_短视频/稳定发挥_封面_16x9_设计版.png` 与对应 `9x16` 文件。
+- **节奏验收：** 依据实际 TTS 时长回写时间线；普通口播段间保留约 `0.2–0.4` 秒，超过 `0.6` 秒必须有明确叙事理由。最终必须检查标题—口播—字幕—画面四者一致，不能只通过分辨率和字幕时间等技术校验。
+
 Before selecting a source video, judge whether it can be localized into a topic style that already works for similar Chinese creators. Prefer source videos that can be reframed around:
 
 - 大国工程：nuclear power, hydropower, rail, bridges, tunnels, power grids, ports, aerospace.

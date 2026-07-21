@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "title": "AI 为什么离不开 GPU？看懂并行计算就懂了",
+  "platform_titles": {
+    "bilibili": "AI 为什么离不开 GPU？看懂并行计算就懂了",
+    "douyin": "AI 为啥非得靠 GPU？答案就两个字：并行",
+    "kuaishou": "AI 为啥离不开 GPU？它能同时算上千件事",
+    "xiaohongshu": "GPU 原理图解：看懂 AI 为什么需要并行计算"
+  },
+  "source_video": "L:/workspace/yinghe-shijie/videos/raw/AI 为什么离不开 GPU.mp4",
+  "output_video": "L:/workspace/yinghe-shijie/videos/exports/短视频/AI 为什么离不开 GPU/AI为何需要GPU_短视频/AI为何需要GPU_短视频.mp4",
+  "cover_title": "AI 为什么要 GPU？",
+  "cover_headline": "AI为何用GPU",
+  "cover_subhead": "关键在并行计算",
+  "cover_aspect": "16:9",
+  "background_music": "music/硬核视界_通用BGM_舒缓科普探索_CC0.mp3",
+  "layout": "source",
+  "burn_captions": false,
+  "write_subtitles": true,
+  "mix": {
+    "source_volume": 0.0,
+    "narration_volume": 1.0,
+    "music_volume": 0.45,
+    "music_fade_seconds": 0.0
+  },
+  "clips": [
+    { "id": "hook_matrix", "source_start": "00:00:54.266", "source_end": "00:01:00.362", "focus_x": 0.5 },
+    { "id": "cpu_chef", "source_start": "00:00:15.933", "source_end": "00:00:20.265", "focus_x": 0.5 },
+    { "id": "gpu_army", "source_start": "00:00:23.566", "source_end": "00:00:30.106", "focus_x": 0.5 },
+    { "id": "repeated_math", "source_start": "00:00:39.500", "source_end": "00:00:48.200", "focus_x": 0.5 },
+    { "id": "cpu_limit", "source_start": "00:01:01.366", "source_end": "00:01:06.370", "focus_x": 0.5 },
+    { "id": "gpu_parallel", "source_start": "00:01:09.900", "source_end": "00:01:19.104", "focus_x": 0.5 },
+    { "id": "real_world", "source_start": "00:01:24.200", "source_end": "00:01:29.420", "focus_x": 0.5 },
+    { "id": "tensor_cores", "source_start": "00:02:04.133", "source_end": "00:02:09.277", "focus_x": 0.5 }
+  ],
+  "narration": {
+    "voice": "zh-CN-YunyangNeural",
+    "rate": "+10%",
+    "segments": [
+      { "start": "00:00:00.000", "end": "00:00:06.096", "text": "AI 为什么离不开 GPU？因为它能把海量重复计算，一次并行完成。" },
+      { "start": "00:00:06.396", "end": "00:00:10.428", "text": "CPU 像一位大厨，擅长精细地做一道复杂菜。" },
+      { "start": "00:00:10.728", "end": "00:00:16.968", "text": "GPU 更像一支厨师大军，每个核心只做一件小事，却能上千个同时开工。" },
+      { "start": "00:00:17.268", "end": "00:00:25.668", "text": "训练 AI，难点不是解一道题，而是让海量数据反复做矩阵乘法。每一步都简单，但数量大得惊人。" },
+      { "start": "00:00:25.968", "end": "00:00:30.672", "text": "CPU 一次只算一项，精准，但面对这种规模就会显得慢。" },
+      { "start": "00:00:30.972", "end": "00:00:39.876", "text": "GPU 的数千个核心能同时开工。核心越多，单位时间完成的计算就越多。这就是 AI 的算力发动机。" },
+      { "start": "00:00:40.176", "end": "00:00:45.096", "text": "所以大模型能读图、生成文字，靠的都是这种并行能力。" },
+      { "start": "00:00:45.396", "end": "00:00:49.740", "text": "显卡不只是画面工具，它也是 AI 时代的算力底座。" }
+    ]
+  }
+}
