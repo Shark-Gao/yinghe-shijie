@@ -1,0 +1,56 @@
+{
+  "version": 1,
+  "title": "B-2为什么没有尾翼？它靠翼尖完成转向",
+  "platform_titles": {
+    "bilibili": "B-2为什么没有尾翼？它靠翼尖完成转向",
+    "douyin": "B-2没尾翼，飞机到底怎么转弯？",
+    "kuaishou": "没尾翼的B-2，拐弯靠什么？",
+    "xiaohongshu": "B-2隐身轰炸机图解：看懂分裂阻力舵如何转向"
+  },
+  "platform_descriptions": {
+    "bilibili": "B-2取消垂尾，是为了减少会把雷达波反射回去的垂直结构。它如何用翼尖分裂阻力舵完成偏航？这条短片用原始动画拆开讲清楚。",
+    "douyin": "B-2没垂尾不是少装了零件：为躲雷达，它把转向功能藏进了翼尖。",
+    "kuaishou": "没了方向舵，B-2怎么往左往右拐？翼尖两片小面板一打开，阻力就替它转向。",
+    "xiaohongshu": "B-2隐身轰炸机图解：垂尾为什么会暴露雷达特征？看懂分裂阻力舵怎样利用左右阻力差完成偏航，以及它为什么转弯更慢。"
+  },
+  "source_video": "L:/workspace/yinghe-shijie/videos/raw/B-2 没有尾翼，反而更难被雷达发现？.mp4",
+  "output_video": "L:/workspace/yinghe-shijie/videos/exports/短视频/B-2 没有尾翼，反而更难被雷达发现？/B-2无尾翼如何转向_短视频/B-2无尾翼如何转向_短视频.mp4",
+  "cover_title": "没尾翼怎么转向？",
+  "cover_headline": "翼尖转向",
+  "cover_subhead": "分裂阻力舵",
+  "cover_aspect": "16:9",
+  "background_music": "music/硬核视界_通用BGM_舒缓科普探索_CC0.mp3",
+  "layout": "source",
+  "burn_captions": false,
+  "write_subtitles": true,
+  "mix": {
+    "source_volume": 0.0,
+    "narration_volume": 1.0,
+    "music_volume": 0.45,
+    "music_fade_seconds": 0.0
+  },
+  "clips": [
+    { "id": "hook", "source_start": "00:06:55.000", "source_end": "00:07:01.948" },
+    { "id": "conventional-tail", "source_start": "00:07:29.166", "source_end": "00:07:34.122" },
+    { "id": "radar-reflection", "source_start": "00:07:37.333", "source_end": "00:07:42.937" },
+    { "id": "flying-wing", "source_start": "00:07:42.937", "source_end": "00:07:48.469" },
+    { "id": "split-drag-rudder", "source_start": "00:08:05.900", "source_end": "00:08:12.992" },
+    { "id": "yaw-by-drag", "source_start": "00:08:12.992", "source_end": "00:08:20.276" },
+    { "id": "pedal", "source_start": "00:08:27.700", "source_end": "00:08:32.752" },
+    { "id": "cost", "source_start": "00:07:55.561", "source_end": "00:08:02.393" }
+  ],
+  "narration": {
+    "voice": "zh-CN-YunyangNeural",
+    "rate": "+0%",
+    "segments": [
+      { "start": "00:00:00.000", "end": "00:00:06.948", "text": "B-2没有垂尾，是为躲开雷达；转向功能被藏在翼尖，但代价很大。" },
+      { "start": "00:00:06.948", "end": "00:00:11.904", "text": "普通飞机的垂尾，负责稳定方向，也负责左右偏航。" },
+      { "start": "00:00:11.904", "end": "00:00:17.508", "text": "可对隐身机来说，任何垂直结构，都可能把雷达波反射回去。" },
+      { "start": "00:00:17.508", "end": "00:00:23.040", "text": "所以B-2取消了后部垂尾和方向舵，直接做成飞翼。" },
+      { "start": "00:00:23.040", "end": "00:00:30.132", "text": "怎么转弯？靠翼尖的分裂阻力舵。两片面板会向相反方向张开。" },
+      { "start": "00:00:30.132", "end": "00:00:37.416", "text": "左侧打开，阻力增大，机头向左偏航；右边也是同样逻辑，没有传统方向舵。" },
+      { "start": "00:00:37.416", "end": "00:00:42.468", "text": "驾驶员踩下左舵踏板，左翼尖的分裂阻力舵就打开。" },
+      { "start": "00:00:42.468", "end": "00:00:49.300", "text": "代价也很直接：小角度时控制效率较低，所以B-2转弯通常更慢。" }
+    ]
+  }
+}

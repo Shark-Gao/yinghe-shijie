@@ -4,6 +4,9 @@
 
 | 日期 | 视频标题 | YouTube链接 | 频道 | 类型 | 状态 |
 |---|---|---|---|---|---|
+| 2026-07-22 | B2 Spirit Bomber Plane \| How Stealth Works? | https://www.youtube.com/watch?v=r7BTJSiUejQ | AiTelly | #军事 #隐身战机 #B-2 #3D动画 | 已推荐 |
+| 2026-07-22 | AI, Machine Learning, Deep Learning and Generative AI Explained | https://www.youtube.com/watch?v=qYNweeDHiyU | IBM Technology | #AI #机器学习 #生成式AI #动画讲解 | 已推荐 |
+| 2026-07-22 | How Does the Power Grid Work? | https://www.youtube.com/watch?v=v1BMWczn7JM | Practical Engineering | #科技纪录片 #电网 #基础设施 #工程可视化 | 已推荐 |
 | 2026-07-22 | How Submarines Launch Missiles Underwater? | https://www.youtube.com/watch?v=k8T0S1XpnCY | BrainHook | #军事 #战略潜艇 #潜射导弹 #3D动画 | 已推荐 |
 | 2026-07-22 | How AI Is Redefining Data Centers: Power, Cooling & High-Speed Connectivity \| TE Connectivity | https://www.youtube.com/watch?v=mV_lRkatZVg | TE Connectivity | #AI #数据中心 #液冷技术 #工程可视化 | 已推荐 |
 | 2026-07-22 | Container port animation - how a shipping container port works - logistics training | https://www.youtube.com/watch?v=DQM-4yZVe0c | Train Learn Grow | #世界冷知识 #港口物流 #集装箱 #动画讲解 | 已推荐 |

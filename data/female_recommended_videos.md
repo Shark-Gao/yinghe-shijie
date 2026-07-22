@@ -5,6 +5,9 @@
 
 | 日期 | 视频标题 | YouTube链接 | 频道 | 类型 | 账号方向 | 状态 |
 |---|---|---|---|---|---|---|
+| 2026-07-22 | Elmo Manages New Emotions with "I Notice, I Feel, I Can" \| Emotional Well-Being | https://www.youtube.com/watch?v=JwmnHOzytIU | Sesame Workshop | #亲子沟通 #情绪管理 #生活方法 | 女性向 | 已推荐 |
+| 2026-07-22 | Four Horsemen of the Apocalypse \| The Gottman Institute: Relationship Behaviors that Lead to Failure | https://www.youtube.com/watch?v=1o30Ps-_8is | The Gottman Institute | #家庭关系 #伴侣沟通 #关系成长 | 女性向 | 已推荐 |
+| 2026-07-22 | Your brain is wired for negative thoughts. Here’s how to change it. | https://www.youtube.com/watch?v=3ThUrVXz9j0 | Fig. 1 by University of California | #女性成长 #情绪管理 #心理学实验 | 女性向 | 已推荐 |
 | 2026-07-22 | How to be a Friend to Yourself | https://www.youtube.com/watch?v=wFUxiIjp-Nk | The School of Life | #女性成长 #自我关怀 #心理学动画 | 女性向 | 已推荐 |
 | 2026-07-22 | Coping Skills For Kids - Managing Feelings & Emotions For Elementary-Middle School \| Self-Regulation | https://www.youtube.com/watch?v=Vs-MyQgfH3A | Mental Health Center Kids | #亲子沟通 #情绪管理 #生活方法 | 女性向 | 已推荐 |
 | 2026-07-22 | How to Set Healthy Personal Boundaries | https://www.youtube.com/watch?v=pC5FtPX6Ngg | All Connected: A Place for Belonging | #家庭关系 #女性成长 #沟通边界 | 女性向 | 已推荐 |

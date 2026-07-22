@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "title": "为什么一句坏话，能盖过十句好话？负面偏好讲透了",
+  "platform_titles": {
+    "bilibili": "为什么一句坏话，能盖过十句好话？负面偏好讲透了",
+    "douyin": "一句坏话，为啥能压过十句好话？",
+    "kuaishou": "明明收了很多夸奖，咋还总想着那句坏话？",
+    "xiaohongshu": "负面偏好图解：看懂坏消息为什么更黏人"
+  },
+  "platform_descriptions": {
+    "bilibili": "一句讽刺为何会压过许多赞美？用“70%成功率”和“30%失败率”的同一信息实验，看懂大脑为何更容易抓住负面，也学会把注意力拉回完整事实。\n音乐：calm bgm — syncopika（CC BY 3.0）",
+    "douyin": "一句坏话总在脑子里回放，不一定是你太敏感。大脑会把负面当警报，先看懂它，再把注意力拉回来。\n音乐：calm bgm — syncopika（CC BY 3.0）",
+    "kuaishou": "明明大家都夸你，为啥偏偏记住那句不好听的？这条用一个实验讲明白。\n音乐：calm bgm — syncopika（CC BY 3.0）",
+    "xiaohongshu": "负面偏好图解：同一台手术，“70%成功”和“30%失败”为什么会让人感觉完全不同？看懂坏消息为何更黏人，并练习把注意力带回完整现实。\n音乐：calm bgm — syncopika（CC BY 3.0）"
+  },
+  "source_video": "L:/workspace/yinghe-shijie/videos/raw/为什么一件糟心事，能盖过十件好事？.mp4",
+  "output_video": "L:/workspace/yinghe-shijie/videos/exports/短视频/为什么一件糟心事，能盖过十件好事？/坏话更黏人_短视频/坏话更黏人_短视频.mp4",
+  "cover_title": "为什么坏话更黏人？",
+  "cover_headline": "坏话更黏人",
+  "cover_subhead": "大脑在拉警报",
+  "cover_aspect": "16:9",
+  "background_music": "music/TA成长笔记_CalmBGM_syncopika_CCBY30.ogg",
+  "layout": "source",
+  "burn_captions": false,
+  "write_subtitles": true,
+  "mix": { "source_volume": 0.0, "narration_volume": 1.0, "music_volume": 0.60, "music_fade_seconds": 0.0 },
+  "clips": [
+    { "id": "sweater-hook", "source_start": "00:00:00.000", "source_end": "00:00:06.404", "focus_x": 0.50 },
+    { "id": "one-bad-comment", "source_start": "00:00:06.404", "source_end": "00:00:11.570", "focus_x": 0.50 },
+    { "id": "success-frame", "source_start": "00:01:30.000", "source_end": "00:01:36.970", "focus_x": 0.50 },
+    { "id": "failure-frame", "source_start": "00:01:45.000", "source_end": "00:01:50.098", "focus_x": 0.50 },
+    { "id": "same-information", "source_start": "00:02:15.000", "source_end": "00:02:21.828", "focus_x": 0.50 },
+    { "id": "negativity-alarm", "source_start": "00:02:21.830", "source_end": "00:02:30.580", "focus_x": 0.50 },
+    { "id": "practice-close", "source_start": "00:03:02.500", "source_end": "00:03:14.858", "focus_x": 0.50 }
+  ],
+  "narration": {
+    "voice": "zh-CN-YunyangNeural",
+    "rate": "-4%",
+    "segments": [
+      { "start": "00:00:00.500", "end": "00:00:06.404", "text": "一句坏话盖过十句好话，不是你太敏感，是大脑更会记住负面。" },
+      { "start": "00:00:06.650", "end": "00:00:11.570", "text": "很多人夸你，一条讽刺评论，却会在脑子里反复回放。" },
+      { "start": "00:00:11.820", "end": "00:00:18.540", "text": "研究把同一台手术说成七成成功，或三成失败，事实其实完全一样。" },
+      { "start": "00:00:18.790", "end": "00:00:23.638", "text": "但只要换成失败率，很多人立刻就没那么喜欢它了。" },
+      { "start": "00:00:23.890", "end": "00:00:30.466", "text": "这叫负面偏好：大脑会把坏消息当警报，所以更快抓住，也更难放下。" },
+      { "start": "00:00:30.720", "end": "00:00:39.216", "text": "它本来能帮我们避开危险；可面对一条评论或一点瑕疵，警报却可能一直响，让你忽略其他证据。" },
+      { "start": "00:00:39.470", "end": "00:00:50.774", "text": "下次坏事反复回放，先问：要解决，还是警报太响？写下三件具体好事，把注意力拉回完整现实。你会先写哪一件？" }
+    ]
+  }
+}

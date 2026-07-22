@@ -3,6 +3,69 @@
 
 用于 TA成长笔记，保存女性向亲子育己视频的完整推荐信息、标题和封面路径。与男性向 `data/recommended_video_details.md` 分开维护。
 
+## 2026-07-22 - Elmo Manages New Emotions with "I Notice, I Feel, I Can" | Emotional Well-Being
+
+账号方向：女性向
+视频链接：https://www.youtube.com/watch?v=JwmnHOzytIU
+视频标题：Elmo Manages New Emotions with "I Notice, I Feel, I Can" | Emotional Well-Being
+频道：Sesame Workshop
+画质：已核验公开视频与 maxres 缩略图可访问；1080p 正片格式读取受 YouTube 反爬限制，制作下载前需复核
+内容分类：#亲子沟通 #情绪管理 #生活方法
+推荐理由：用儿童熟悉的角色和可模仿句式，把“注意到—说出感受—选择能做的事”演成具体情境；表达温和、不将正常情绪病理化，适合亲子共看或家长转述。
+搬运适合度（★★★★★）：★★★★☆
+中文字幕难度：低
+国内受众潜力：高
+B站标题建议：孩子有新情绪时怎么说？3句帮他把感受讲出来
+抖音标题建议：孩子闹情绪，先教他这 3 句话
+快手标题建议：孩子说不清难受时，家长可以这样带着说
+小红书标题建议：儿童情绪表达方法，看懂“注意到、感受到、能做到”
+封面文案：孩子有情绪\n先怎么开口？
+视频简介：孩子出现紧张、失望或生气时，不必急着把情绪赶走。视频用“我注意到、我感到、我可以”三步，示范怎样先识别身体和心里的变化，再把需要说出来。它是一种可练习的表达起点，不是要求孩子立刻平静。音乐：calm bgm — syncopika（CC BY 3.0）
+封面：未生成（需用户明确要求）
+状态：已推荐
+
+## 2026-07-22 - Four Horsemen of the Apocalypse | The Gottman Institute: Relationship Behaviors that Lead to Failure
+
+账号方向：女性向
+视频链接：https://www.youtube.com/watch?v=1o30Ps-_8is
+视频标题：Four Horsemen of the Apocalypse | The Gottman Institute: Relationship Behaviors that Lead to Failure
+频道：The Gottman Institute
+画质：已核验公开视频与 maxres 缩略图可访问；1080p 正片格式读取受 YouTube 反爬限制，制作下载前需复核
+内容分类：#家庭关系 #伴侣沟通 #关系成长
+推荐理由：以情境化关系互动解释四类会加剧冲突的表达习惯，画面记忆点明确；包装时聚焦“少一点攻击，多一点具体需求”，避免把任何一方贴成问题根源。
+搬运适合度（★★★★★）：★★★★☆
+中文字幕难度：中
+国内受众潜力：高
+B站标题建议：伴侣一开口就吵？4种会把对话推向对立的表达习惯
+抖音标题建议：为什么一句抱怨，最后总会变成吵架？
+快手标题建议：两口子总聊崩，可能不是事大，是话卡住了
+小红书标题建议：伴侣沟通图解，看懂 4 种容易升级冲突的说法
+封面文案：一句抱怨\n为何变成吵架？
+视频简介：很多争执并不是从大事开始，而是从一句泛化指责、一次轻蔑回应慢慢升级。视频用关系情境拆开几种常见的沟通陷阱，并提示如何把攻击性的评价转回具体感受与请求。它不替任何关系下结论，只提供一次复盘对话的角度。音乐：calm bgm — syncopika（CC BY 3.0）
+封面：未生成（需用户明确要求）
+状态：已推荐
+
+## 2026-07-22 - Your brain is wired for negative thoughts. Here’s how to change it.
+
+账号方向：女性向
+视频链接：https://www.youtube.com/watch?v=3ThUrVXz9j0
+视频标题：Your brain is wired for negative thoughts. Here’s how to change it.
+频道：Fig. 1 by University of California
+画质：已核验公开视频与 maxres 缩略图可访问；1080p 正片格式读取受 YouTube 反爬限制，制作下载前需复核
+内容分类：#女性成长 #情绪管理 #心理学实验
+推荐理由：以大学科普的视觉化讲解切入消极注意偏向，能转成“反复盯着糟糕一面时如何重新观察”的日常练习；不做诊断，不承诺消除负面想法。
+搬运适合度（★★★★★）：★★★★☆
+中文字幕难度：中
+国内受众潜力：高
+B站标题建议：为什么坏消息总更难忘？认识大脑的消极注意偏向
+抖音标题建议：为什么一件糟心事，能盖过十件好事？
+快手标题建议：脑子总先想到坏结果，原来它有这个习惯
+小红书标题建议：消极注意偏向图解，看懂如何把观察拉回现实
+封面文案：总想最坏结果\n大脑在做什么？
+视频简介：一次不顺的对话、一条坏消息，常常比很多平静时刻更占注意力。视频从“消极注意偏向”解释这种倾向为何常见，并提供把观察拉回具体事实的思路。它不是心理诊断，也不要求你永远积极，而是练习看见想法之外的信息。音乐：calm bgm — syncopika（CC BY 3.0）
+封面：未生成（需用户明确要求）
+状态：已推荐
+
 ## 2026-07-22 - How to be a Friend to Yourself
 
 账号方向：女性向

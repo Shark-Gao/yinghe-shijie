@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "title": "电网为何反复升压降压？一条线路把电安全送到家",
+  "platform_titles": {
+    "bilibili": "电网为何反复升压降压？一条线路把电安全送到家",
+    "douyin": "电为什么不能直接从电厂送到插座？",
+    "kuaishou": "电到你家前，为啥要反复升压降压？",
+    "xiaohongshu": "电网升压降压图解：看懂电如何低损耗送到家"
+  },
+  "platform_descriptions": {
+    "bilibili": "电网不是把电从电厂直接拉到插座：远距离用高压减小电流和线路损耗，进入城市后再经变电站与配电变压器逐级降压，兼顾传输效率和用电安全。素材来源：Practical Engineering 原片。",
+    "douyin": "电厂的电想低损耗跑很远，先得升高电压；进城后又要两次降压，才能安全进家门。素材来源：Practical Engineering 原片。",
+    "kuaishou": "高压线不是直接接到你家。它先帮电跑远路、少损耗，再由变电站和小区变压器慢慢降下来。素材来源：Practical Engineering 原片。",
+    "xiaohongshu": "电网升压降压图解：同样功率下，升高电压能减小电流和线路损耗；到城市后再逐级降压，才成为日常可安全使用的电。素材来源：Practical Engineering 原片。"
+  },
+  "source_video": "L:/workspace/yinghe-shijie/videos/raw/电厂发的电怎样送到家？电网为何必须反复升压降压.mp4",
+  "output_video": "L:/workspace/yinghe-shijie/videos/exports/短视频/电厂发的电怎样送到家？电网为何必须反复升压降压/电网升降压_短视频/电网升降压_短视频.mp4",
+  "cover_title": "电网为何反复升降压？",
+  "cover_headline": "高压远送",
+  "cover_subhead": "低压安全入户",
+  "cover_aspect": "16:9",
+  "background_music": "music/硬核视界_通用BGM_舒缓科普探索_CC0.mp3",
+  "layout": "source",
+  "burn_captions": false,
+  "write_subtitles": true,
+  "mix": { "source_volume": 0.0, "narration_volume": 1.0, "music_volume": 0.45, "music_fade_seconds": 0.0 },
+  "clips": [
+    { "id": "grid_flow_hook", "source_start": "00:02:24.766", "source_end": "00:02:31.646", "focus_x": 0.5 },
+    { "id": "power_loss", "source_start": "00:02:49.266", "source_end": "00:02:56.526", "focus_x": 0.5 },
+    { "id": "step_up", "source_start": "00:02:59.766", "source_end": "00:03:06.306", "focus_x": 0.5 },
+    { "id": "substation", "source_start": "00:03:08.100", "source_end": "00:03:15.120", "focus_x": 0.5 },
+    { "id": "distribution", "source_start": "00:03:33.500", "source_end": "00:03:40.250", "focus_x": 0.5 },
+    { "id": "ac_advantage", "source_start": "00:04:01.200", "source_end": "00:04:07.620", "focus_x": 0.5 },
+    { "id": "transformer", "source_start": "00:04:11.800", "source_end": "00:04:21.050", "focus_x": 0.5 }
+  ],
+  "narration": {
+    "voice": "zh-CN-YunyangNeural",
+    "rate": "+0%",
+    "segments": [
+      { "start": "00:00:00.500", "end": "00:00:06.880", "text": "电要低损耗地送到家，关键是：远距离先升压，靠近用户再多次降压。" },
+      { "start": "00:00:07.130", "end": "00:00:14.140", "text": "同样功率下，电压越高，电流越小；电流小，线路发热和传输损耗就越低。" },
+      { "start": "00:00:14.390", "end": "00:00:20.680", "text": "所以，发电厂旁的变压器先升压，再让高压线把电送到很远的城市。" },
+      { "start": "00:00:20.930", "end": "00:00:27.700", "text": "到城里，变电站先把电压降到配电网等级，并调节电能质量、隔离故障。" },
+      { "start": "00:00:27.950", "end": "00:00:34.450", "text": "接着，街边或小区的配电变压器再降一次，才到工厂、商场和家庭。" },
+      { "start": "00:00:34.700", "end": "00:00:40.870", "text": "这不是绕路：高压负责远送、少损耗；低压负责末端使用、更安全。" },
+      { "start": "00:00:41.120", "end": "00:00:49.420", "text": "交流电能方便地升降压，靠的是变压器两组线圈的电磁感应。你家附近的变压器在哪里？" }
+    ]
+  }
+}

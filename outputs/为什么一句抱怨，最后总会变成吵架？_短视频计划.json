@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "title": "一句抱怨为何总会升级成吵架？4步拉回对话",
+  "platform_titles": {
+    "bilibili": "一句抱怨为何总会升级成吵架？4步拉回对话",
+    "douyin": "一句抱怨，为什么最后总会吵起来？",
+    "kuaishou": "明明只是在抱怨，咋就变成吵架了？",
+    "xiaohongshu": "伴侣沟通图解：看懂抱怨为何升级成吵架"
+  },
+  "platform_descriptions": {
+    "bilibili": "抱怨升级为争吵，常常经历批评、蔑视、防御和冷处理四步。用原片动画看懂每一步怎样换回更能解决问题的说法。音乐：calm bgm — syncopika（CC BY 3.0）",
+    "douyin": "不是所有抱怨都会吵架，真正把对话推向失控的，是批评、蔑视、防御和冷处理。音乐：calm bgm — syncopika（CC BY 3.0）",
+    "kuaishou": "一句抱怨为啥越说越凶？把攻击、讽刺、甩锅和冷处理换成这四步，才有机会把话谈下去。音乐：calm bgm — syncopika（CC BY 3.0）",
+    "xiaohongshu": "伴侣沟通图解：批评、蔑视、防御、冷处理为何会让抱怨升级成吵架？收藏这四个对应的沟通动作。音乐：calm bgm — syncopika（CC BY 3.0）"
+  },
+  "source_video": "L:/workspace/yinghe-shijie/videos/raw/为什么一句抱怨，最后总会变成吵架？.mp4",
+  "output_video": "L:/workspace/yinghe-shijie/videos/exports/短视频/为什么一句抱怨，最后总会变成吵架？/抱怨为何变吵架_短视频/抱怨为何变吵架_短视频.mp4",
+  "cover_title": "抱怨为何变吵架？",
+  "cover_headline": "抱怨变吵架",
+  "cover_subhead": "四步拉回对话",
+  "cover_aspect": "16:9",
+  "background_music": "music/TA成长笔记_CalmBGM_syncopika_CCBY30.ogg",
+  "layout": "source",
+  "burn_captions": false,
+  "write_subtitles": true,
+  "mix": { "source_volume": 0.0, "narration_volume": 1.0, "music_volume": 0.60, "music_fade_seconds": 0.0 },
+  "clips": [
+    { "id": "argument", "source_start": "00:00:00.500", "source_end": "00:00:07.856" },
+    { "id": "four_patterns", "source_start": "00:00:11.400", "source_end": "00:00:19.836" },
+    { "id": "criticism", "source_start": "00:00:45.300", "source_end": "00:00:52.992" },
+    { "id": "contempt", "source_start": "00:00:58.000", "source_end": "00:01:06.268" },
+    { "id": "defensiveness", "source_start": "00:01:18.700", "source_end": "00:01:25.960" },
+    { "id": "timeout", "source_start": "00:01:36.200", "source_end": "00:01:44.612" }
+  ],
+  "narration": {
+    "voice": "zh-CN-YunyangNeural",
+    "rate": "-4%",
+    "segments": [
+      { "start": "00:00:00.000", "end": "00:00:07.356", "text": "一句抱怨会变成吵架，通常不是因为那件事，而是对话很快滑进了伤人的模式。" },
+      { "start": "00:00:07.356", "end": "00:00:15.792", "text": "批评、蔑视、防御和冷处理，会让两个人从解决问题，变成互相反击或保护自己。" },
+      { "start": "00:00:15.792", "end": "00:00:23.484", "text": "第一步，别说“你总是怎样”。把攻击人格，换成说清自己的感受和具体需要。" },
+      { "start": "00:00:23.484", "end": "00:00:31.752", "text": "第二步，停止讽刺、翻白眼和嘲弄。这些蔑视信号，往往比意见不同更伤关系。" },
+      { "start": "00:00:31.752", "end": "00:00:39.012", "text": "第三步，别急着证明自己没错。哪怕只承认冲突里自己的一小部分责任。" },
+      { "start": "00:00:39.012", "end": "00:00:47.424", "text": "如果已经说不下去，先暂停至少二十分钟，等平静后再回来谈。你们最容易掉进哪一种？" }
+    ]
+  }
+}

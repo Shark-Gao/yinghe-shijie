@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "timeline": "tmp\\电网升降压_口播测时.json",
+  "output_audio": "L:\\workspace\\yinghe-shijie\\tmp\\电网升降压_口播测时.mp3",
+  "segments": [
+    {
+      "id": "seg_001",
+      "start": "00:00:00.500",
+      "end": "00:00:08.000",
+      "audio_duration": 6.384
+    },
+    {
+      "id": "seg_002",
+      "start": "00:00:08.000",
+      "end": "00:00:16.000",
+      "audio_duration": 7.008
+    },
+    {
+      "id": "seg_003",
+      "start": "00:00:16.000",
+      "end": "00:00:24.000",
+      "audio_duration": 6.288
+    },
+    {
+      "id": "seg_004",
+      "start": "00:00:24.000",
+      "end": "00:00:32.000",
+      "audio_duration": 6.768
+    },
+    {
+      "id": "seg_005",
+      "start": "00:00:32.000",
+      "end": "00:00:40.000",
+      "audio_duration": 6.504
+    },
+    {
+      "id": "seg_006",
+      "start": "00:00:40.000",
+      "end": "00:00:48.000",
+      "audio_duration": 6.168
+    },
+    {
+      "id": "seg_007",
+      "start": "00:00:48.000",
+      "end": "00:00:56.000",
+      "audio_duration": 8.304
+    }
+  ]
+}
