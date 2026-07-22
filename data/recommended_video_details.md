@@ -2,6 +2,75 @@
 
 用于集中保存每条推荐的完整 11 项信息与封面路径，便于后续查阅。
 
+## 2026-07-22 - How Submarines Launch Missiles Underwater?
+
+账号方向：男性向
+视频链接：https://www.youtube.com/watch?v=k8T0S1XpnCY
+视频标题：How Submarines Launch Missiles Underwater?
+频道：BrainHook
+画质：1080p 或更高（已核验可访问）
+内容分类：#军事 #战略潜艇 #潜射导弹 #3D动画
+推荐理由：以潜艇剖面和水下发射过程为主体，几乎不依赖真人讲解；“导弹在水里先怎么点火、如何冲出海面”具备强视觉钩子，适合纳入潜艇装备系列。
+搬运适合度（★★★★★）：★★★★★
+中文字幕难度：低
+国内受众潜力：高
+B站标题建议：潜射导弹如何冲出海面？3D拆解潜艇水下发射
+抖音标题建议：导弹在水里怎么飞出去？
+快手标题建议：潜艇发导弹，为啥先从海里冒出来？
+小红书标题建议：潜射导弹图解，3分钟看懂水下发射原理
+封面文案：潜艇如何\n水下发射导弹？
+视频简介：潜艇不必浮到海面，也能完成一次导弹发射。镜头从发射管、冷发射气体到导弹冲破水面的阶段逐层展开，帮你看懂水下平台如何在隐蔽状态下把导弹送入飞行轨迹，以及为什么这套流程对潜艇生存至关重要。
+首页推荐封面 4:3：L:\workspace\yinghe-shijie\covers\submarine-missile-launch\submarine-missile-launch-cover-4x3.png
+个人空间封面 16:9：L:\workspace\yinghe-shijie\covers\submarine-missile-launch\submarine-missile-launch-cover-16x9.png
+短视频竖版封面 9:16：L:\workspace\yinghe-shijie\covers\submarine-missile-launch\submarine-missile-launch-cover-9x16.png
+状态：已推荐
+
+## 2026-07-22 - How AI Is Redefining Data Centers: Power, Cooling & High-Speed Connectivity | TE Connectivity
+
+账号方向：男性向
+视频链接：https://www.youtube.com/watch?v=mV_lRkatZVg
+视频标题：How AI Is Redefining Data Centers: Power, Cooling & High-Speed Connectivity | TE Connectivity
+频道：TE Connectivity
+画质：1080p 或更高（已核验可访问）
+内容分类：#AI #数据中心 #液冷技术 #工程可视化
+推荐理由：机柜、供电和液冷管路以工程可视化方式同步呈现，少真人、信息密度高；可切入“AI 为什么先卡在电和水”的现实成本冲突。
+搬运适合度（★★★★★）：★★★★☆
+中文字幕难度：中
+国内受众潜力：高
+B站标题建议：AI数据中心为何越建越耗电？电力液冷全链路拆解
+抖音标题建议：AI算力烧的，为什么不只是电？
+快手标题建议：建个AI机房，为啥还得先解决散热？
+小红书标题建议：AI数据中心图解，看懂供电液冷和高速互连
+封面文案：AI 数据中心\n为什么更耗电？
+视频简介：大模型背后的机房，不只是把服务器堆得更密。更高的算力密度意味着供电、散热和高速连接必须一起升级。视频用机柜与管路可视化拆开这条链路，解释 AI 基础设施为什么会同时面对“电不够、热难排、线难连”。
+首页推荐封面 4:3：L:\workspace\yinghe-shijie\covers\ai-data-center-power\ai-data-center-power-cover-4x3.png
+个人空间封面 16:9：L:\workspace\yinghe-shijie\covers\ai-data-center-power\ai-data-center-power-cover-16x9.png
+短视频竖版封面 9:16：L:\workspace\yinghe-shijie\covers\ai-data-center-power\ai-data-center-power-cover-9x16.png
+状态：已推荐
+
+## 2026-07-22 - Container port animation - how a shipping container port works - logistics training
+
+账号方向：男性向
+视频链接：https://www.youtube.com/watch?v=DQM-4yZVe0c
+视频标题：Container port animation - how a shipping container port works - logistics training
+频道：Train Learn Grow
+画质：1080p 或更高（已核验可访问）
+内容分类：#世界冷知识 #港口物流 #集装箱 #动画讲解
+推荐理由：用港机、堆场、卡车和铁路的动画把“船靠港后发生什么”讲完整，画面自解释强；适合包装成全球贸易为何离不开港口调度的基础设施选题。
+搬运适合度（★★★★★）：★★★★☆
+中文字幕难度：低
+国内受众潜力：高
+B站标题建议：一艘货轮靠港后怎么卸？集装箱港口运转全图解
+抖音标题建议：一艘船进港，背后有多少机器在忙？
+快手标题建议：货轮到港后，集装箱到底怎么下船？
+小红书标题建议：集装箱港口图解，3分钟看懂货轮靠港流程
+封面文案：一艘船进港\n背后有多复杂？
+视频简介：一艘集装箱船靠泊，真正的工作才刚开始：岸桥抓箱、堆场分流、卡车接驳、铁路转运必须卡在同一套节奏里。视频用动画把港口的“搬运流水线”拆开，带你看懂全球商品为何总要在这里排队、换乘和出发。
+首页推荐封面 4:3：L:\workspace\yinghe-shijie\covers\container-port-logistics\container-port-logistics-cover-4x3.png
+个人空间封面 16:9：L:\workspace\yinghe-shijie\covers\container-port-logistics\container-port-logistics-cover-16x9.png
+短视频竖版封面 9:16：L:\workspace\yinghe-shijie\covers\container-port-logistics\container-port-logistics-cover-9x16.png
+状态：已推荐
+
 ## 2026-07-21 - Fusion Power Explained – Future or Failure
 
 账号方向：男性向

@@ -4,6 +4,9 @@
 
 | 日期 | 视频标题 | YouTube链接 | 频道 | 类型 | 状态 |
 |---|---|---|---|---|---|
+| 2026-07-22 | How Submarines Launch Missiles Underwater? | https://www.youtube.com/watch?v=k8T0S1XpnCY | BrainHook | #军事 #战略潜艇 #潜射导弹 #3D动画 | 已推荐 |
+| 2026-07-22 | How AI Is Redefining Data Centers: Power, Cooling & High-Speed Connectivity \| TE Connectivity | https://www.youtube.com/watch?v=mV_lRkatZVg | TE Connectivity | #AI #数据中心 #液冷技术 #工程可视化 | 已推荐 |
+| 2026-07-22 | Container port animation - how a shipping container port works - logistics training | https://www.youtube.com/watch?v=DQM-4yZVe0c | Train Learn Grow | #世界冷知识 #港口物流 #集装箱 #动画讲解 | 已推荐 |
 | 2026-07-21 | Fusion Power Explained – Future or Failure | https://www.youtube.com/watch?v=mZsaaturR6E | Kurzgesagt – In a Nutshell | #科技纪录片 #可控核聚变 #能源工程 #动画科普 | 已推荐 |
 | 2026-07-21 | How Robots Learn to Be Robots: Training, Simulation, and Real World Deployment | https://www.youtube.com/watch?v=S4tvirlG8sQ | NVIDIA | #AI #具身智能 #机器人训练 #仿真 | 已推荐 |
 | 2026-07-21 | Patriot Missile System How it Works \| Air Defence Missiles | https://www.youtube.com/watch?v=CIgmwm_D61Q | AiTelly | #军事 #导弹防御 #防空系统 #工程可视化 | 已推荐 |

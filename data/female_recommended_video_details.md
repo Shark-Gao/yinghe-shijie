@@ -3,6 +3,98 @@
 
 用于 TA成长笔记，保存女性向亲子育己视频的完整推荐信息、标题和封面路径。与男性向 `data/recommended_video_details.md` 分开维护。
 
+## 2026-07-22 - How to be a Friend to Yourself
+
+账号方向：女性向
+视频链接：https://www.youtube.com/watch?v=wFUxiIjp-Nk
+视频标题：How to be a Friend to Yourself
+频道：The School of Life
+画质：未能独立核验（YouTube 对本次格式查询触发人机验证）；公开视频与标题、频道、时长 4:11 已核验
+内容分类：#女性成长 #自我关怀 #心理学动画
+推荐理由：源片是温柔、明亮的插画动画，围绕“我们会善待朋友，却常常苛责自己”的反差展开；画面和主题都比普通知识讲解更有情绪质感，适合包装为可收藏的自我关怀内容。频道体量较大，但该片的插画表现和中文化话题匹配度突出。
+搬运适合度（★★★★★）：★★★★☆
+中文字幕难度：中
+国内受众潜力：高
+B站标题建议：为什么你总能安慰别人，却很难放过自己？
+抖音标题建议：对自己，也该像对朋友那样
+快手标题建议：总爱怪自己？试着换成朋友的语气
+小红书标题建议：自我关怀入门：看懂怎样像朋友一样对待自己
+封面文案：学会像朋友一样\n对待自己
+视频简介：很多人会认真安慰朋友，却把最苛刻的话留给自己。这支温柔插画动画从“像朋友一样对待自己”出发，提醒我们先识别自我责备，再把内心对话换成更具体、更可执行的支持。不是要求永远积极，而是练习在低谷时少一点苛责。音乐：calm bgm — syncopika（CC BY 3.0）
+首页推荐封面 4:3：L:\workspace\yinghe-shijie\covers\friend-to-yourself\friend-to-yourself-cover-4x3.png
+个人空间封面 16:9：L:\workspace\yinghe-shijie\covers\friend-to-yourself\friend-to-yourself-cover-16x9.png
+短视频竖版封面 9:16：L:\workspace\yinghe-shijie\covers\friend-to-yourself\friend-to-yourself-cover-9x16.png
+状态：已推荐
+
+## 2026-07-22 - Coping Skills For Kids - Managing Feelings & Emotions For Elementary-Middle School | Self-Regulation
+
+账号方向：女性向
+视频链接：https://www.youtube.com/watch?v=Vs-MyQgfH3A
+视频标题：Coping Skills For Kids - Managing Feelings & Emotions For Elementary-Middle School | Self-Regulation
+频道：Mental Health Center Kids
+画质：1080p 或更高（已核验可访问）
+内容分类：#亲子沟通 #情绪管理 #生活方法
+推荐理由：动画把儿童感受、身体信号和几种可练习的应对动作连起来，画面适合字幕化；表达重点是陪孩子学习调节，而非给情绪贴标签或要求家长做到完美。
+搬运适合度（★★★★★）：★★★★★
+中文字幕难度：低
+国内受众潜力：高
+B站标题建议：孩子情绪上来怎么办？先陪他练这几种应对动作
+抖音标题建议：孩子崩溃时，先别急着讲道理
+快手标题建议：孩子情绪大，家长能先做哪一步？
+小红书标题建议：孩子情绪管理方法，看懂几种可练习的应对动作
+封面文案：孩子情绪上来\n先做这几步
+视频简介：孩子情绪很满时，先把感受接住，比立刻说教更容易让对话继续。视频用动画梳理觉察身体信号、说出感受、短暂停一停等可练习动作。它不是万能处方，而是给照护者和孩子一个可以一起尝试的起点。音乐：calm bgm — syncopika（CC BY 3.0）
+首页推荐封面 4:3：L:\workspace\yinghe-shijie\covers\kids-coping-skills\kids-coping-skills-cover-4x3.png
+个人空间封面 16:9：L:\workspace\yinghe-shijie\covers\kids-coping-skills\kids-coping-skills-cover-16x9.png
+短视频竖版封面 9:16：L:\workspace\yinghe-shijie\covers\kids-coping-skills\kids-coping-skills-cover-9x16.png
+状态：已推荐
+
+## 2026-07-22 - How to Set Healthy Personal Boundaries
+
+账号方向：女性向
+视频链接：https://www.youtube.com/watch?v=pC5FtPX6Ngg
+视频标题：How to Set Healthy Personal Boundaries
+频道：All Connected: A Place for Belonging
+画质：1080p 或更高（已核验可访问）
+内容分类：#家庭关系 #女性成长 #沟通边界
+推荐理由：以插画化关系场景解释边界的作用，适合把抽象的“拒绝”落到平静、清晰的表达；不把边界包装成对抗，也不鼓励操控他人。
+搬运适合度（★★★★★）：★★★★☆
+中文字幕难度：低
+国内受众潜力：高
+B站标题建议：关系里怎样设边界？不是冷漠，而是把需求说清
+抖音标题建议：设边界，不等于翻脸
+快手标题建议：不想答应的事，怎样说才不内耗？
+小红书标题建议：关系边界表达法，看懂温和拒绝和清晰沟通
+封面文案：关系里\n如何设好边界
+视频简介：健康边界不是把人推远，而是让彼此知道什么能接受、什么需要商量。视频通过易懂的情境和插画，拆开“先辨认自己的需要，再用清楚语句表达”的过程，适合在家庭和亲密关系里练习更少内耗的沟通。音乐：calm bgm — syncopika（CC BY 3.0）
+首页推荐封面 4:3：L:\workspace\yinghe-shijie\covers\healthy-personal-boundaries\healthy-personal-boundaries-cover-4x3.png
+个人空间封面 16:9：L:\workspace\yinghe-shijie\covers\healthy-personal-boundaries\healthy-personal-boundaries-cover-16x9.png
+短视频竖版封面 9:16：L:\workspace\yinghe-shijie\covers\healthy-personal-boundaries\healthy-personal-boundaries-cover-9x16.png
+状态：已推荐
+
+## 2026-07-22 - 6 Strategies to Stop Overthinking
+
+账号方向：女性向
+视频链接：https://www.youtube.com/watch?v=DEFAF0IX6LY
+视频标题：6 Strategies to Stop Overthinking
+频道：Self-Help Toons
+画质：1080p 或更高（已核验可访问）
+内容分类：#情绪管理 #女性成长 #生活方法
+推荐理由：以动画呈现反刍思维的循环和可执行的中断步骤，少真人且适合切条；包装时可强调练习把注意力拉回当下，避免把它表述为诊断或“立刻治愈”。
+搬运适合度（★★★★★）：★★★★★
+中文字幕难度：低
+国内受众潜力：高
+B站标题建议：脑子停不下来怎么办？6个方法减少反刍和内耗
+抖音标题建议：念头绕圈时，别急着逼自己停下
+快手标题建议：老是想个不停，怎样把注意力拉回来？
+小红书标题建议：停止过度思考方法，看懂6个减少反刍的小练习
+封面文案：别急着压住念头
+视频简介：反复想一件事，往往不是因为你不够努力，而是大脑在试图寻找确定感。视频用动画整理几种把注意力从循环念头拉回现实的小练习：先看见、再命名、再选择下一步。不承诺立刻见效，但提供可重复练习的起点。音乐：calm bgm — syncopika（CC BY 3.0）
+首页推荐封面 4:3：L:\workspace\yinghe-shijie\covers\stop-overthinking-strategies\stop-overthinking-strategies-cover-4x3.png
+个人空间封面 16:9：L:\workspace\yinghe-shijie\covers\stop-overthinking-strategies\stop-overthinking-strategies-cover-16x9.png
+短视频竖版封面 9:16：L:\workspace\yinghe-shijie\covers\stop-overthinking-strategies\stop-overthinking-strategies-cover-9x16.png
+状态：已推荐
+
 ## 2026-07-21 - How to manage your emotions
 
 账号方向：女性向

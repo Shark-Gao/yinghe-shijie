@@ -5,6 +5,10 @@
 
 | 日期 | 视频标题 | YouTube链接 | 频道 | 类型 | 账号方向 | 状态 |
 |---|---|---|---|---|---|---|
+| 2026-07-22 | How to be a Friend to Yourself | https://www.youtube.com/watch?v=wFUxiIjp-Nk | The School of Life | #女性成长 #自我关怀 #心理学动画 | 女性向 | 已推荐 |
+| 2026-07-22 | Coping Skills For Kids - Managing Feelings & Emotions For Elementary-Middle School \| Self-Regulation | https://www.youtube.com/watch?v=Vs-MyQgfH3A | Mental Health Center Kids | #亲子沟通 #情绪管理 #生活方法 | 女性向 | 已推荐 |
+| 2026-07-22 | How to Set Healthy Personal Boundaries | https://www.youtube.com/watch?v=pC5FtPX6Ngg | All Connected: A Place for Belonging | #家庭关系 #女性成长 #沟通边界 | 女性向 | 已推荐 |
+| 2026-07-22 | 6 Strategies to Stop Overthinking | https://www.youtube.com/watch?v=DEFAF0IX6LY | Self-Help Toons | #情绪管理 #女性成长 #生活方法 | 女性向 | 已推荐 |
 | 2026-07-21 | How to manage your emotions | https://www.youtube.com/watch?v=Uew5BbvmLks | TED-Ed | #情绪管理 #心理学动画 #生活方法 | 女性向 | 已推荐 |
 | 2026-07-21 | How Every Child Can Thrive by Five \| Molly Wright \| TED | https://www.youtube.com/watch?v=aISXCw0Pi94 | TED | #亲子沟通 #早期成长 #亲子互动 | 女性向 | 已推荐 |
 | 2026-07-21 | How to Talk to a Partner so They Will Listen | https://www.youtube.com/watch?v=Qttya5Fg7zM | The School of Life | #家庭关系 #伴侣沟通 #关系成长 | 女性向 | 已推荐 |

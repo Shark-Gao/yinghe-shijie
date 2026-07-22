@@ -40,6 +40,7 @@ Follow the project positioning:
 - 账号主题：亲子育己、情绪管理、亲子沟通、家庭关系、女性自我成长。
 - 目标表达：温和、具体、可实践、适合收藏和转发；优先把研究或故事转成“今天就能用”的一个小方法。
 - 画面偏好：少真人出镜或无真人出镜，优先动画/插画、心理学实验、纪录片片段、情境演示、信息图和可理解的生活场景。
+- 视觉审美优先：把“唯美、可爱、治愈感强”作为女性向源片的硬筛选项。优先温暖插画、绘本/定格/纸艺动画、柔和 3D、自然与生活美学镜头；画面要有统一配色、可做封面与首屏的主体，避免白底课件、粗糙线条动画、密集说教字幕和长时间专家对镜讲解。题材可靠性相当时，优先视觉更精致、情绪更柔和、适合国内女性收藏转发的版本。
 - 选题边界：优先可靠的心理学、教育学、关系沟通与家庭生活内容；涉及医学、心理诊断或育儿结论时，必须保留来源和不确定性，不作诊断或绝对化承诺。
 - 避免：性别对立煽动、羞辱父母或孩子、贩卖焦虑、未经证实的“育儿秘籍”、过度依赖专家面对镜头讲话的视频。
 - 频道与清晰度：在质量相当时优先订阅量约 10 万以上但非巨型频道；优先可核验的 1080p 或更高画质。频道规模和清晰度无法核验时如实标注，不得编造。
@@ -83,13 +84,13 @@ Avoid over-prioritizing cold pure-mechanism videos unless they can become a clea
 4. Output every recommendation as one copy-ready publishing entry. The topic, hashtag classification, recommendation angle, video description, and all platform title variants must stay together in that single entry.
 5. Add the video to the top of the matching recommendation file (`data/recommended_videos.md` for 男性向, `data/female_recommended_videos.md` for 女性向) with today’s date, the selected account direction, and status `已推荐`, keeping newest records first.
 6. Also add the full recommendation details to the top of the matching detail file (`data/recommended_video_details.md` for 男性向, `data/female_recommended_video_details.md` for 女性向) in one human-readable block, keeping newest records first so the user can review recent entries without re-reading chat history.
-7. Generate all upload-ready cover assets automatically unless the user explicitly says not to: two Bilibili covers plus one 9:16 short-video cover for 快手、抖音、视频号.
+7. Do **not** generate cover assets by default. Generate the two Bilibili covers and one 9:16 short-video cover only when the user explicitly asks to generate covers (for example, `生成封面` or `同时出封面`). When covers are not requested, do not create cover files, do not include cover sections in the response, and write `封面：未生成（需用户明确要求）` in the detail record.
 
 ## Output Format
 
 Present every source as one self-contained, copy-ready publishing entry. A single-source response begins with `## 推荐 1｜可复制发布条目`; a three-source daily response repeats it as `推荐 1` through `推荐 3`. Never split one source's topic, classification, description, and titles across a separate summary or table.
 
-Immediately below each heading, use one `text` code block in this exact structure. Keep all labels and content in the same block so the user can copy the whole entry in one operation:
+Immediately below each heading, use one `text` code block in this exact structure. Keep all copy-ready publishing fields in the same block. The clickable source-video link is the sole exception: show it immediately below the code block as a Markdown link, so it can be opened directly in the chat:
 
 ```text
 【选题】
@@ -108,7 +109,6 @@ B站：<18—28 字标题>
 小红书：<含核心关键词和“看懂 / 图解 / 3分钟了解”等学习收益的标题>
 
 【源片信息】
-视频链接：https://...
 视频标题：...
 频道：...
 
@@ -119,12 +119,18 @@ B站：<18—28 字标题>
 国内受众潜力：高 / 中 / 低
 ```
 
+Then add this clickable line directly below the code block:
+
+```markdown
+源片：[点击直接打开 YouTube 视频](https://...)
+```
+
 Formatting requirements:
 
 - The `【标题｜按平台直接复制】` section is mandatory. Always put the four platform titles together, with the platform label at the beginning of each line.
 - `主主题` and `内容分类` are separate: the first supports daily topic balancing; the second must use hashtag labels separated by spaces.
 - `选题角度` and `视频简介` are both required. The former is the packaging hook; the latter is copy-ready publishing text.
-- Do not put the user-facing recommendation fields outside this code block. Only the three cover sections follow it.
+- Do not put user-facing recommendation fields outside this code block, except for the required clickable `源片` Markdown link and, when explicitly requested, the three cover sections that follow it.
 
 For `内容分类`, use hashtag labels separated by spaces, not slashes or prose. Example:
 
@@ -141,7 +147,7 @@ Platform-title requirements:
 
 For `视频简介`, write 80-150 Chinese characters suitable for a Bilibili/short-video publishing description. Summarize the core visual hook, what the viewer will understand, and why the topic is worth watching. Do not paste a translated source description verbatim. Do not overpromise with unverifiable claims.
 
-Immediately after the copy-ready entry, show the three cover sections in this exact order. Each section must include one `打开图片` link followed by its inline preview; do not place all cover links together or omit previews:
+Only when the user explicitly requested cover generation, immediately after the copy-ready entry show the three cover sections in this exact order. Each section must include one `打开图片` link followed by its inline preview; do not place all cover links together or omit previews. When covers were not requested, omit all three cover sections:
 
 ```markdown
 首页推荐封面 4:3
@@ -168,7 +174,7 @@ Cover-output rules:
 
 ## Cover Workflow
 
-For every recommendation, generate three upload-ready covers:
+Only when the user explicitly requests cover generation, generate three upload-ready covers:
 
 - 首页推荐封面（4:3）：`1146x860`
 - 个人空间封面（16:9）：`1920x1080`
@@ -247,7 +253,7 @@ Also append a full detail block to `data/recommended_video_details.md` using thi
 ```markdown
 ## YYYY-MM-DD - Source video title
 
-视频链接：https://...
+视频链接：[点击打开源片](https://...)
 视频标题：...
 频道：...
 内容分类：#标签1 #标签2 #标签3

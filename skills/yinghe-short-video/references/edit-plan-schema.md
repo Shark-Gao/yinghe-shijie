@@ -12,6 +12,12 @@ Use UTF-8 JSON. Time values can be seconds or `HH:MM:SS.mmm`.
     "kuaishou": "一天挖二十四万吨岩石，这台机器到底咋干的？",
     "xiaohongshu": "矿山巨型机械图解：看懂一天挖走二十四万吨岩石"
   },
+  "platform_descriptions": {
+    "bilibili": "一台斗轮挖掘机如何把挖掘、输送和堆料连成连续作业？用画面看懂它一天处理二十四万吨岩石的原理。",
+    "douyin": "一天挖走二十四万吨岩石，靠的不是一台普通挖掘机，而是一条不停转的露天矿生产线。",
+    "kuaishou": "这台大家伙为啥能一天挖二十四万吨岩石？关键在于挖、运、堆三件事从不停下来。",
+    "xiaohongshu": "矿山巨型机械图解：看懂斗轮挖掘机怎样把挖掘、输送和堆料连成连续作业，一天处理二十四万吨岩石。"
+  },
   "source_video": "G:/workspace/yinghe-shijie/videos/raw/example.mp4",
   "output_video": "G:/workspace/yinghe-shijie/videos/exports/example-short-01_短视频/example-short-01_短视频.mp4",
   "cover_title": "这台机器为什么这么快？",
@@ -43,6 +49,8 @@ Use UTF-8 JSON. Time values can be seconds or `HH:MM:SS.mmm`.
 
 `platform_titles` is required for every new short-video plan. It contains four delivery titles: `bilibili`, `douyin`, `kuaishou`, and `xiaohongshu`. Keep `title` equal to `platform_titles.bilibili` for compatibility with the current render scripts. The renderer ignores `platform_titles`; it is preserved in the plan so every final delivery can list platform-ready titles.
 
+`platform_descriptions` is required for every new short-video plan. It uses the same four platform keys and contains the corresponding publish-ready Chinese descriptions. The renderer ignores this object; preserve it in the plan so final delivery can include platform-ready copy. Keep every description factual and consistent with the completed narration and video. Include required source or licence attribution when applicable.
+
 Use `contain_blur` or `fill_crop` only when a 9:16 output has been explicitly requested. `fill_crop` is for a close-up that remains readable after cropping; its `focus_x` controls the retained horizontal position: `0` left, `0.5` center, `1` right. Keep the selected source ranges inside the source duration.
 
 `narration.segments` use output-video timecodes, not source-video timecodes. `produce_short_video.py` converts them to a timeline JSON and renders the matching Chinese audio automatically. `narration_audio` is optional and is only needed when reusing a pre-rendered voice track.
@@ -51,4 +59,4 @@ Use `contain_blur` or `fill_crop` only when a 9:16 output has been explicitly re
 
 `background_music` points to the reusable CC0 background track. The builder loops it to the output duration and mixes it directly with narration. Keep `source_volume` at `0.0` unless the user explicitly wants original source sound. By default, `music_volume` is `0.45`, `narration_volume` is `1.0`, and `music_fade_seconds` is `0.0`: do not alter narration or add fades unless the user asks.
 
-`cover_title` is optional and should be concise Chinese cover text; otherwise `title` is used. `cover_aspect` defaults to `16:9`; generate a landscape AI cover with this ratio, never a source-video screenshot. `cover_headline` and `cover_subhead` are the high-impact exact Chinese overlays. Use `scripts/add_cover_title.py` to render them deterministically. `--theme` is optional and should remain omitted unless the user explicitly asks for a subject label.
+`cover_title` is optional and should be concise Chinese cover text; otherwise `title` is used. `cover_aspect` defaults to `16:9`; generate a landscape AI cover with this ratio, never a source-video screenshot. Every completed short also requires separate 4:3 (`1440x1080`) and 9:16 (`1080x1920`) upload-ready covers, even though those images are not renderer inputs. `cover_headline` and `cover_subhead` are the high-impact exact Chinese overlays. Use `scripts/add_cover_title.py` to render them deterministically. `--theme` is optional and should remain omitted unless the user explicitly asks for a subject label.

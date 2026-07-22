@@ -1,4 +1,4 @@
 interface:
   display_name: "硬核短视频工坊"
-  short_description: "把长视频与字幕剪成适配抖音、快手和小红书的中文短视频，含解说、字幕和封面"
-  default_prompt: "Use $yinghe-short-video to turn my source video and subtitles into platform-specific Chinese short videos, narration, subtitles, and covers."
+  short_description: "把长视频与字幕剪成多平台中文短视频，含解说、字幕、封面和发布简介"
+  default_prompt: "Use $yinghe-short-video to turn my source video and subtitles into platform-specific Chinese short videos with narration, subtitles, covers, titles, and publish descriptions."
