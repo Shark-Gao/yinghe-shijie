@@ -1,0 +1,56 @@
+{
+  "version": 1,
+  "title": "总觉得自己不够好？先把内在批评者和自己分开",
+  "platform_titles": {
+    "bilibili": "总觉得自己不够好？先把内在批评者和自己分开",
+    "douyin": "总觉得自己不够好，先别急着骂自己",
+    "kuaishou": "为什么总觉得自己不够好？先认出这个声音",
+    "xiaohongshu": "内在批评者图解：看懂自我批评，学会和它分开"
+  },
+  "platform_descriptions": {
+    "bilibili": "总觉得自己不够好，未必是你不够努力，可能是内心的批评者已经失去平衡。用动画看懂如何把这个声音和自己分开，重新检查它是否公平，并借助可信任的人获得更现实的视角。音乐：calm bgm — syncopika（CC BY 3.0）",
+    "douyin": "总觉得自己不够好？先别把内心那个严厉的声音当成自己。把它认出来、问问它是否公平，再找一个可信任的人换个视角。音乐：calm bgm — syncopika（CC BY 3.0）",
+    "kuaishou": "老觉得自己做得不够好，可能不是你懒，而是内在批评声太响。先把它和自己分开，再问一句：如果是朋友犯错，我也会这样骂他吗？音乐：calm bgm — syncopika（CC BY 3.0）",
+    "xiaohongshu": "内在批评者不是你的全部。这个短片用动画解释自我批评为什么会变得过度严厉，并给出三个可练习的方向：识别声音、检查公平性、向可信任的人借一个更温柔而现实的视角。音乐：calm bgm — syncopika（CC BY 3.0）"
+  },
+  "source_video": "L:\\workspace\\yinghe-shijie\\videos\\raw\\总觉得自己不够好，怎么少一点自我批评？.mp4",
+  "output_video": "L:\\workspace\\yinghe-shijie\\videos\\exports\\短视频\\总觉得自己不够好，怎么少一点自我批评？\\少一点自我批评_短视频\\少一点自我批评_短视频.mp4",
+  "cover_title": "不是你不好",
+  "cover_headline": "不是你不好",
+  "cover_subhead": "和批评声分开",
+  "cover_aspect": "16:9",
+  "background_music": "L:\\workspace\\yinghe-shijie\\music\\TA成长笔记_CalmBGM_syncopika_CCBY30.ogg",
+  "layout": "source",
+  "burn_captions": false,
+  "write_subtitles": true,
+  "mix": {
+    "source_volume": 0.0,
+    "narration_volume": 1.0,
+    "music_volume": 0.60,
+    "music_fade_seconds": 0.0
+  },
+  "clips": [
+    { "id": "hook", "source_start": "00:00:15.500", "source_end": "00:00:22.420", "focus_x": 0.50 },
+    { "id": "unbalanced_critic", "source_start": "00:00:50.500", "source_end": "00:00:56.800", "focus_x": 0.50 },
+    { "id": "inner_drama", "source_start": "00:02:18.400", "source_end": "00:02:24.460", "focus_x": 0.50 },
+    { "id": "create_distance", "source_start": "00:02:44.900", "source_end": "00:02:50.840", "focus_x": 0.50 },
+    { "id": "agency", "source_start": "00:03:28.700", "source_end": "00:03:34.904", "focus_x": 0.50 },
+    { "id": "retrain", "source_start": "00:03:41.400", "source_end": "00:03:47.244", "focus_x": 0.50 },
+    { "id": "ask_for_help", "source_start": "00:04:07.500", "source_end": "00:04:14.064", "focus_x": 0.50 },
+    { "id": "stay_on_your_side", "source_start": "00:04:47.500", "source_end": "00:04:53.864", "focus_x": 0.50 }
+  ],
+  "narration": {
+    "voice": "zh-CN-YunyangNeural",
+    "rate": "-4%",
+    "segments": [
+      { "start": "00:00:00.500", "end": "00:00:06.920", "text": "总觉得自己不够好，可能不是你不够努力，而是内心有个严厉的批评者。" },
+      { "start": "00:00:06.920", "end": "00:00:13.220", "text": "它本来提醒我们尽责，失去平衡后，却连休息和享受都要指责。" },
+      { "start": "00:00:13.220", "end": "00:00:19.280", "text": "第一步，把这个声音和自己分开：它是内在批评者，不是你的全部。" },
+      { "start": "00:00:19.280", "end": "00:00:25.220", "text": "然后问它：这句话公平吗？如果朋友犯错，我也会这样对他吗？" },
+      { "start": "00:00:25.220", "end": "00:00:31.424", "text": "小时候无法选择听谁的声音，现在可以识别来源，重新训练注意力。" },
+      { "start": "00:00:31.424", "end": "00:00:37.268", "text": "可以复盘和改进，但长期羞辱自己，并不会让人更健康。" },
+      { "start": "00:00:37.268", "end": "00:00:43.832", "text": "批评声太强时，告诉可信任的人，请他们给你一个温柔、现实的视角。" },
+      { "start": "00:00:43.832", "end": "00:00:50.196", "text": "成长不是永远批评自己，而是在该休息时，也站在自己这边。" }
+    ]
+  }
+}

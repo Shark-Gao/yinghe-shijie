@@ -3,6 +3,144 @@
 
 用于 TA成长笔记，保存女性向亲子育己视频的完整推荐信息、标题和封面路径。与男性向 `data/recommended_video_details.md` 分开维护。
 
+## 2026-07-23 - How to Help Children Regulate Emotions
+
+账号方向：女性向
+视频链接：https://www.youtube.com/watch?v=0tfYqP3D69E
+视频标题：How to Help Children Regulate Emotions
+频道：Child Mind Institute
+画质：YouTube 搜索页标识为 4K；公开视频页与 oEmbed 元数据均可访问。
+内容分类：#亲子沟通 #情绪管理 #生活方法
+推荐理由：用具体的照护场景说明孩子情绪上来时，成年人可以怎样先稳定互动再引导表达；信息温和、边界清晰，适合剪成可直接照做的亲子沟通片段。
+搬运适合度（★★★★★）：★★★★★
+中文字幕难度：低
+国内受众潜力：高
+B站标题建议：孩子情绪上头时，大人先别讲道理：一个先后顺序
+抖音标题建议：孩子崩溃时，先别急着讲道理
+快手标题建议：孩子情绪大时，家长第一步该做啥？
+小红书标题建议：孩子情绪管理：看懂先安稳再沟通的亲子顺序
+封面文案：孩子有情绪 / 大人先做啥
+视频简介：孩子情绪冲上来时，急着纠正往往很难被听进去。这条内容从成人的回应顺序出发，提示先让孩子感到被看见、再帮助他说出感受与下一步，不把正常情绪简单贴成问题，也不承诺立刻平静。
+首页推荐封面 4:3：L:\workspace\yinghe-shijie\covers\help-children-regulate-emotions\help-children-regulate-emotions-cover-4x3.png
+个人空间封面 16:9：L:\workspace\yinghe-shijie\covers\help-children-regulate-emotions\help-children-regulate-emotions-cover-16x9.png
+短视频竖版封面 9:16：L:\workspace\yinghe-shijie\covers\help-children-regulate-emotions\help-children-regulate-emotions-cover-9x16.png
+状态：已推荐
+
+## 2026-07-23 - How To Argue With Your Partner
+
+账号方向：女性向
+视频链接：https://www.youtube.com/watch?v=QQmqMZ-1v7c
+视频标题：How To Argue With Your Partner
+频道：The School of Life
+画质：公开视频页与 oEmbed 元数据可访问；匿名格式探测受 YouTube 验证页限制，下载时复核 1080p 或更高档位。
+内容分类：#家庭关系 #伴侣沟通 #情绪管理
+推荐理由：成熟插画动画把争论中的防御、委屈和真实需求可视化，能拆成“吵架不是赢”的低攻击性沟通方法，符合女性向的温和、可收藏表达。
+搬运适合度（★★★★★）：★★★★★
+中文字幕难度：中
+国内受众潜力：高
+B站标题建议：伴侣吵架不是分输赢：把话说进对方心里的方法
+抖音标题建议：吵架别急着赢，先让对方听见
+快手标题建议：两口子吵架，怎么说才不越吵越伤？
+小红书标题建议：伴侣沟通方法：看懂争吵里真正没被说出的需求
+封面文案：吵架别急赢 / 先让人听见
+视频简介：争吵最难的往往不是观点不同，而是两个人都在防御、都觉得自己没被听见。用温和的动画拆开一次冲突里可能藏着的需求与脆弱感，练习把指责换成更具体、更能回应彼此的话。
+首页推荐封面 4:3：L:\workspace\yinghe-shijie\covers\argue-with-your-partner\argue-with-your-partner-cover-4x3.png
+个人空间封面 16:9：L:\workspace\yinghe-shijie\covers\argue-with-your-partner\argue-with-your-partner-cover-16x9.png
+短视频竖版封面 9:16：L:\workspace\yinghe-shijie\covers\argue-with-your-partner\argue-with-your-partner-cover-9x16.png
+状态：已推荐
+
+## 2026-07-23 - How to Tame a Pitiless Inner Critic
+
+账号方向：女性向
+视频链接：https://www.youtube.com/watch?v=NU8v-f7KzRQ
+视频标题：How to Tame a Pitiless Inner Critic
+频道：The School of Life
+画质：公开视频页与 oEmbed 元数据可访问；匿名格式探测受 YouTube 验证页限制，下载时复核 1080p 或更高档位。
+内容分类：#女性成长 #自我关怀 #情绪管理
+推荐理由：画面精致、少真人，以动画呈现自我批评如何形成与如何识别，适合包装成“不急着责怪自己”的日常练习，不夸大为诊断或治疗承诺。
+搬运适合度（★★★★★）：★★★★★
+中文字幕难度：中
+国内受众潜力：高
+B站标题建议：脑内总有批评声？先学会识别它而不是相信它
+抖音标题建议：别急着自责，先听听脑内那句话
+快手标题建议：总觉得自己不够好，怎么少一点自我批评？
+小红书标题建议：自我关怀练习：看懂内在批评者，停止反复自责
+封面文案：别急着自责 / 关掉批评声
+视频简介：很多自我批评听起来像事实，实际更像长期习得的一种内在说话方式。这支插画动画帮助我们识别那道苛刻的声音，练习用更具体、更友善的提问回应自己；它不是诊断，也不承诺快速改变。
+首页推荐封面 4:3：L:\workspace\yinghe-shijie\covers\tame-inner-critic\tame-inner-critic-cover-4x3.png
+个人空间封面 16:9：L:\workspace\yinghe-shijie\covers\tame-inner-critic\tame-inner-critic-cover-16x9.png
+短视频竖版封面 9:16：L:\workspace\yinghe-shijie\covers\tame-inner-critic\tame-inner-critic-cover-9x16.png
+状态：已推荐
+
+## 2026-07-23 - Managing Emotions Story for Kids | Self-awareness Story | Kids Videos for Kids | Healthy Boundaries
+
+账号方向：女性向
+视频链接：https://www.youtube.com/watch?v=MmD86hOwQc0
+视频标题：Managing Emotions Story for Kids | Self-awareness Story | Kids Videos for Kids | Healthy Boundaries
+频道：Wonder Sprouts
+画质：已核验公开视频与 1280×720 最高缩略图可访问；1080p 正片格式读取受 YouTube 反爬限制，制作下载前需复核
+内容分类：#亲子沟通 #情绪管理 #生活方法
+推荐理由：以儿童情境和插画叙事承接大情绪，画面温和、可做“先识别再表达”的亲子沟通入口；不将孩子贴标签，也不许诺立刻安静。
+搬运适合度（★★★★★）：★★★★☆
+中文字幕难度：低
+国内受众潜力：高
+B站标题建议：孩子情绪上来时怎么陪？先做“识别—表达”这一步
+抖音标题建议：孩子闹情绪，先别急着劝
+快手标题建议：孩子委屈又生气，家长先带他做哪一步？
+小红书标题建议：儿童情绪表达方法，看懂先识别感受再开口
+封面文案：孩子有情绪\n先别急着劝
+视频简介：孩子哭闹或委屈时，急着讲道理往往接不住当下的感受。视频用温和情境提示一个起点：先观察发生了什么、帮孩子说出感受，再一起想下一步能做什么。它不是让孩子马上平静，而是练习把情绪变成可沟通的信息。音乐：calm bgm — syncopika（CC BY 3.0）
+首页推荐封面 4:3：L:\workspace\yinghe-shijie\covers\managing-emotions-story-kids\managing-emotions-story-kids-cover-4x3.png
+个人空间封面 16:9：L:\workspace\yinghe-shijie\covers\managing-emotions-story-kids\managing-emotions-story-kids-cover-16x9.png
+短视频竖版封面 9:16：L:\workspace\yinghe-shijie\covers\managing-emotions-story-kids\managing-emotions-story-kids-cover-9x16.png
+状态：已推荐
+
+## 2026-07-23 - Being A Good Listener
+
+账号方向：女性向
+视频链接：https://www.youtube.com/watch?v=-BdbiZcNBXg
+视频标题：Being A Good Listener
+频道：The School of Life
+画质：已核验公开视频与 1280×720 最高缩略图可访问；1080p 正片格式读取受 YouTube 反爬限制，制作下载前需复核
+内容分类：#家庭关系 #伴侣沟通 #关系成长
+推荐理由：用插画动画把“倾听不是马上给答案”讲成可观察的关系场景，适合做伴侣与家庭对话的低冲突入口；只聚焦沟通动作，不替关系下诊断。
+搬运适合度（★★★★★）：★★★★☆
+中文字幕难度：中
+国内受众潜力：高
+B站标题建议：为什么你明明在听，对方却觉得没被理解？倾听的关键动作
+抖音标题建议：让人愿意继续说，先别急着给建议
+快手标题建议：家里人找你倾诉，咋说才不是越安慰越烦？
+小红书标题建议：倾听沟通方法图解，看懂怎样让对方感到被理解
+封面文案：让人愿意说\n先学会倾听
+视频简介：很多对话卡住，不是因为没人说话，而是因为对方一开口就被建议、纠正或抢着下结论。视频从“好好听”这个小动作出发，提示如何先留出表达空间、确认自己听到了什么，再进入解决问题。它适合用来复盘日常关系里的沟通节奏。音乐：calm bgm — syncopika（CC BY 3.0）
+首页推荐封面 4:3：L:\workspace\yinghe-shijie\covers\being-a-good-listener\being-a-good-listener-cover-4x3.png
+个人空间封面 16:9：L:\workspace\yinghe-shijie\covers\being-a-good-listener\being-a-good-listener-cover-16x9.png
+短视频竖版封面 9:16：L:\workspace\yinghe-shijie\covers\being-a-good-listener\being-a-good-listener-cover-9x16.png
+状态：已推荐
+
+## 2026-07-23 - How To Practice Self Compassion
+
+账号方向：女性向
+视频链接：https://www.youtube.com/watch?v=YxqFqCdNfoQ
+视频标题：How To Practice Self Compassion
+频道：Psych2Go
+画质：已核验公开视频与 1280×720 最高缩略图可访问；1080p 正片格式读取受 YouTube 反爬限制，制作下载前需复核
+内容分类：#女性成长 #自我关怀 #心理学动画
+推荐理由：以动画方式把自我责备与更友善的内在对话并置，视觉适合收藏型内容；包装时把重点放在一次具体练习，不承诺“治愈”或替代心理支持。
+搬运适合度（★★★★★）：★★★★☆
+中文字幕难度：低
+国内受众潜力：高
+B站标题建议：总在责怪自己怎么办？练习更友善的内心对话
+抖音标题建议：别急着责怪自己，先接住自己
+快手标题建议：一遇到不顺就怪自己？可以先换句话说
+小红书标题建议：自我关怀练习，看懂如何停止过度自我责备
+封面文案：别急着责怪\n先接住自己
+视频简介：遇到失误时，很多人对自己说的话比对任何人都苛刻。视频用动画提示一种可练习的转换：先觉察自责正在发生，再像支持朋友那样，用具体、不过度否定的语言回应自己。它不要求永远积极，只给内心对话多一个更稳的选择。音乐：calm bgm — syncopika（CC BY 3.0）
+首页推荐封面 4:3：L:\workspace\yinghe-shijie\covers\practice-self-compassion\practice-self-compassion-cover-4x3.png
+个人空间封面 16:9：L:\workspace\yinghe-shijie\covers\practice-self-compassion\practice-self-compassion-cover-16x9.png
+短视频竖版封面 9:16：L:\workspace\yinghe-shijie\covers\practice-self-compassion\practice-self-compassion-cover-9x16.png
+状态：已推荐
+
 ## 2026-07-22 - Elmo Manages New Emotions with "I Notice, I Feel, I Can" | Emotional Well-Being
 
 账号方向：女性向

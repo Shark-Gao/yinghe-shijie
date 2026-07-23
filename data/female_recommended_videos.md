@@ -5,6 +5,12 @@
 
 | 日期 | 视频标题 | YouTube链接 | 频道 | 类型 | 账号方向 | 状态 |
 |---|---|---|---|---|---|---|
+| 2026-07-23 | How to Help Children Regulate Emotions | https://www.youtube.com/watch?v=0tfYqP3D69E | Child Mind Institute | #亲子沟通 #情绪管理 #生活方法 | 女性向 | 已推荐 |
+| 2026-07-23 | How To Argue With Your Partner | https://www.youtube.com/watch?v=QQmqMZ-1v7c | The School of Life | #家庭关系 #伴侣沟通 #情绪管理 | 女性向 | 已推荐 |
+| 2026-07-23 | How to Tame a Pitiless Inner Critic | https://www.youtube.com/watch?v=NU8v-f7KzRQ | The School of Life | #女性成长 #自我关怀 #情绪管理 | 女性向 | 已推荐 |
+| 2026-07-23 | Managing Emotions Story for Kids \| Self-awareness Story \| Kids Videos for Kids \| Healthy Boundaries | https://www.youtube.com/watch?v=MmD86hOwQc0 | Wonder Sprouts | #亲子沟通 #情绪管理 #生活方法 | 女性向 | 已推荐 |
+| 2026-07-23 | Being A Good Listener | https://www.youtube.com/watch?v=-BdbiZcNBXg | The School of Life | #家庭关系 #伴侣沟通 #关系成长 | 女性向 | 已推荐 |
+| 2026-07-23 | How To Practice Self Compassion | https://www.youtube.com/watch?v=YxqFqCdNfoQ | Psych2Go | #女性成长 #自我关怀 #心理学动画 | 女性向 | 已推荐 |
 | 2026-07-22 | Elmo Manages New Emotions with "I Notice, I Feel, I Can" \| Emotional Well-Being | https://www.youtube.com/watch?v=JwmnHOzytIU | Sesame Workshop | #亲子沟通 #情绪管理 #生活方法 | 女性向 | 已推荐 |
 | 2026-07-22 | Four Horsemen of the Apocalypse \| The Gottman Institute: Relationship Behaviors that Lead to Failure | https://www.youtube.com/watch?v=1o30Ps-_8is | The Gottman Institute | #家庭关系 #伴侣沟通 #关系成长 | 女性向 | 已推荐 |
 | 2026-07-22 | Your brain is wired for negative thoughts. Here’s how to change it. | https://www.youtube.com/watch?v=3ThUrVXz9j0 | Fig. 1 by University of California | #女性成长 #情绪管理 #心理学实验 | 女性向 | 已推荐 |

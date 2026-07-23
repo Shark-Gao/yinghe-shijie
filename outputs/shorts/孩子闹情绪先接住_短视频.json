@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "title": "孩子闹情绪时，先接住感受再说边界",
+  "platform_titles": {
+    "bilibili": "孩子闹情绪时，先接住感受再说边界",
+    "douyin": "孩子发火时，先别急着讲道理",
+    "kuaishou": "孩子情绪上来了，第一句该怎么说？",
+    "xiaohongshu": "儿童情绪沟通：先接住感受，再立清边界"
+  },
+  "platform_descriptions": {
+    "bilibili": "孩子情绪上来时，重点不是立刻劝住，而是先让他知道：你看见了他的着急和难受。等情绪被接住，再清楚说出边界，才有空间一起想办法。\n音乐：calm bgm — syncopika（CC BY 3.0）",
+    "douyin": "孩子发火，先别急着讲道理。先说出他的感受，再告诉他：着急可以，但不能这样伤人。\n音乐：calm bgm — syncopika（CC BY 3.0）",
+    "kuaishou": "孩子情绪冲上来，第一步不是劝。先让他感觉被听见，再把话说清楚：难受可以，伤人不行。\n音乐：calm bgm — syncopika（CC BY 3.0）",
+    "xiaohongshu": "儿童情绪沟通怎么做？用“先接住、再立边界、后想办法”的顺序，帮孩子在生气和着急时把话说出来，也不伤到别人。\n音乐：calm bgm — syncopika（CC BY 3.0）"
+  },
+  "source_video": "L:/workspace/yinghe-shijie/videos/raw/孩子闹情绪，先别急着劝.mp4",
+  "output_video": "L:/workspace/yinghe-shijie/videos/exports/短视频/孩子闹情绪，先别急着劝/先接住再立边界_短视频/先接住再立边界_短视频.mp4",
+  "cover_title": "孩子闹情绪时，先接住感受再说边界",
+  "cover_headline": "先接住",
+  "cover_subhead": "再说边界",
+  "cover_aspect": "16:9",
+  "background_music": "music/TA成长笔记_CalmBGM_syncopika_CCBY30.ogg",
+  "layout": "source",
+  "burn_captions": false,
+  "write_subtitles": true,
+  "mix": {
+    "source_volume": 0.0,
+    "narration_volume": 1.0,
+    "music_volume": 0.60,
+    "music_fade_seconds": 0.0
+  },
+  "clips": [
+    { "id": "outburst", "source_start": "00:03:14.466", "source_end": "00:03:27.420", "focus_x": 0.50 },
+    { "id": "understand_and_boundary", "source_start": "00:03:27.420", "source_end": "00:03:57.024", "focus_x": 0.50 },
+    { "id": "the_pause", "source_start": "00:05:16.766", "source_end": "00:05:23.900", "focus_x": 0.50 }
+  ],
+  "narration": {
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "+0%",
+    "segments": [
+      { "start": "00:00:00.450", "end": "00:00:06.546", "text": "孩子闹情绪时，先别急着劝。先接住感受，再说边界。" },
+      { "start": "00:00:06.846", "end": "00:00:12.654", "text": "你越急着说“别哭了、这有什么”，孩子越会觉得自己没被听见。" },
+      { "start": "00:00:12.954", "end": "00:00:18.090", "text": "先替他把感受说出来：你很着急，也很担心，对吗？" },
+      { "start": "00:00:18.390", "end": "00:00:24.078", "text": "这不是纵容，而是让孩子知道：情绪可以有，你没有被否定。" },
+      { "start": "00:00:24.378", "end": "00:00:30.210", "text": "然后再把界限说清楚：你可以着急，但不能用伤人的话对别人。" },
+      { "start": "00:00:30.510", "end": "00:00:36.150", "text": "先理解，再立边界，孩子才更可能从对抗里慢慢退出来。" },
+      { "start": "00:00:36.450", "end": "00:00:42.258", "text": "等情绪有了一点空隙，再问他：现在我们能怎么做，才会更好？" },
+      { "start": "00:00:42.558", "end": "00:00:48.942", "text": "情绪不是要立刻压下去，而是在情绪和反应之间，留出一点暂停。" }
+    ]
+  }
+}

@@ -2,6 +2,144 @@
 
 用于集中保存每条推荐的完整 11 项信息与封面路径，便于后续查阅。
 
+## 2026-07-23 - F35 Stealth Fighter Jet How it Works
+
+账号方向：男性向
+视频链接：https://www.youtube.com/watch?v=vgUnF9hUmLQ
+视频标题：F35 Stealth Fighter Jet How it Works
+频道：AiTelly
+画质：YouTube 搜索页标识为 4K；公开视频页与 oEmbed 元数据均可访问。
+内容分类：#军事 #F35 #隐身战机 #3D动画
+推荐理由：3D 剖面把雷达、升力风扇、内置弹仓与隐身外形放到同一画面，少真人、信息密度高，适合剪成“F-35 到底强在哪”的连续工程拆解。
+搬运适合度（★★★★★）：★★★★★
+中文字幕难度：中
+国内受众潜力：高
+B站标题建议：F-35为什么既要隐身又要装满传感器？3D拆开看
+抖音标题建议：F-35到底强在哪？3D拆给你看
+快手标题建议：F-35看着不大，为什么这么难对付？
+小红书标题建议：F-35隐身战机图解：看懂雷达、弹仓和升力风扇
+封面文案：F-35隐身 / 战机强在哪
+视频简介：一架战机为什么要把弹药藏进机腹、把雷达和传感器铺满全身？这支 3D 动画从外形控制到内置弹仓、升力风扇逐层拆开 F-35 的设计取舍，带你看懂它如何同时追求隐身、感知与作战协同。
+首页推荐封面 4:3：L:\workspace\yinghe-shijie\covers\f35-stealth-fighter\f35-stealth-fighter-cover-4x3.png
+个人空间封面 16:9：L:\workspace\yinghe-shijie\covers\f35-stealth-fighter\f35-stealth-fighter-cover-16x9.png
+短视频竖版封面 9:16：L:\workspace\yinghe-shijie\covers\f35-stealth-fighter\f35-stealth-fighter-cover-9x16.png
+状态：已推荐
+
+## 2026-07-23 - How Wind Turbines Are Made? (Mega Factories Video)
+
+账号方向：男性向
+视频链接：https://www.youtube.com/watch?v=cPGKrNLQmSI
+视频标题：How Wind Turbines Are Made? (Mega Factories Video)
+频道：Engineering World
+画质：YouTube 搜索页标识为 4K；公开视频页与 oEmbed 元数据均可访问。
+内容分类：#科技纪录片 #新能源 #风电 #工业制造
+推荐理由：从巨大叶片模具、树脂灌注到整机装配，工厂镜头本身就有尺度冲击；可自然包装成“百米叶片为什么又轻又硬”的产业工程选题。
+搬运适合度（★★★★★）：★★★★★
+中文字幕难度：中
+国内受众潜力：高
+B站标题建议：百米风机叶片怎样做出来？走进超级工厂看碳纤维
+抖音标题建议：百米长的风机叶片，到底怎么造？
+快手标题建议：这么长的风机叶片，工厂里怎么做出来？
+小红书标题建议：风机叶片制造图解：看懂树脂灌注和复合材料工艺
+封面文案：百米叶片 / 怎样造出来
+视频简介：一片风机叶片能长到上百米，却要在强风与疲劳载荷下长期工作。跟着工厂流程看模具、纤维铺层、树脂灌注和成型检测，理解新能源设备背后最考验材料与制造精度的一环。
+首页推荐封面 4:3：L:\workspace\yinghe-shijie\covers\wind-turbines-made\wind-turbines-made-cover-4x3.png
+个人空间封面 16:9：L:\workspace\yinghe-shijie\covers\wind-turbines-made\wind-turbines-made-cover-16x9.png
+短视频竖版封面 9:16：L:\workspace\yinghe-shijie\covers\wind-turbines-made\wind-turbines-made-cover-9x16.png
+状态：已推荐
+
+## 2026-07-23 - How A Million Miles Of Undersea Cables Power The Internet — And Now AI
+
+账号方向：男性向
+视频链接：https://www.youtube.com/watch?v=Pz5XRyo5fiw
+视频标题：How A Million Miles Of Undersea Cables Power The Internet — And Now AI
+频道：CNBC
+画质：公开视频页、oEmbed 元数据及 1280×720 最大缩略图可访问；匿名格式探测受 YouTube 验证页限制，下载时复核源流档位。
+内容分类：#世界冷知识 #海底光缆 #全球互联网 #基础设施
+推荐理由：把海底光缆、铺缆船、跨洋数据链路和 AI 流量需求串成一条故事线，地图与实拍兼具，适合“互联网真正的命脉在海底”的强钩子包装。
+搬运适合度（★★★★★）：★★★★★
+中文字幕难度：中
+国内受众潜力：高
+B站标题建议：一根海底光缆怎样连接世界？看懂全球数据跨洋之路
+抖音标题建议：你刷到的视频，可能正从海底穿过来
+快手标题建议：没有海底光缆，互联网还能正常用吗？
+小红书标题建议：海底光缆图解：3分钟看懂全球互联网怎么跨洋传输
+封面文案：海底光缆 / 撑起互联网
+视频简介：手机上的一条消息、一次云端调用，往往不是靠卫星飞越大洋，而是沿着海底光缆传输。这支纪录片跟随铺缆与维护过程，梳理全球互联网如何跨海连接，以及 AI 流量为何让这张网络更关键。
+首页推荐封面 4:3：L:\workspace\yinghe-shijie\covers\undersea-cables-power-internet\undersea-cables-power-internet-cover-4x3.png
+个人空间封面 16:9：L:\workspace\yinghe-shijie\covers\undersea-cables-power-internet\undersea-cables-power-internet-cover-16x9.png
+短视频竖版封面 9:16：L:\workspace\yinghe-shijie\covers\undersea-cables-power-internet\undersea-cables-power-internet-cover-9x16.png
+状态：已推荐
+
+## 2026-07-23 - How do Transistors Build into a CPU? 🖥️🤔 How do Transistors Work? 🖥️🤔
+
+账号方向：男性向
+视频链接：https://www.youtube.com/watch?v=_Pqfjer8-O4
+视频标题：How do Transistors Build into a CPU? 🖥️🤔 How do Transistors Work? 🖥️🤔
+频道：Branch Education
+画质：已核验公开视频与 1280×720 最高缩略图可访问；1080p 正片格式读取受 YouTube 反爬限制，制作下载前需复核
+内容分类：#AI #AI硬件 #晶体管 #3D动画
+推荐理由：以晶体管、逻辑门到 CPU 的层层搭建为主画面，3D 拆解直观、少真人；可包装成“几十亿个开关怎样变成电脑大脑”，适合延续 AI 硬件与芯片系列。
+搬运适合度（★★★★★）：★★★★★
+中文字幕难度：中
+国内受众潜力：高
+B站标题建议：几十亿晶体管怎样拼成 CPU？3D 拆开电脑大脑的底层结构
+抖音标题建议：CPU 里塞了几十亿个开关，到底怎么一起算？
+快手标题建议：电脑芯片那么小，里面咋装下这么多晶体管？
+小红书标题建议：CPU 与晶体管图解，3分钟看懂芯片怎样完成计算
+封面文案：几十亿晶体管\n怎样拼成 CPU
+视频简介：一颗 CPU 看起来只是一块小芯片，内部却要让数十亿个晶体管按规则开关。视频用 3D 结构把晶体管、逻辑门和运算单元逐层拆开，带你看懂“电脑会计算”不是魔法，而是一套被精密堆叠起来的微观协作。
+首页推荐封面 4:3：L:\workspace\yinghe-shijie\covers\transistors-build-cpu\transistors-build-cpu-cover-4x3.png
+个人空间封面 16:9：L:\workspace\yinghe-shijie\covers\transistors-build-cpu\transistors-build-cpu-cover-16x9.png
+短视频竖版封面 9:16：L:\workspace\yinghe-shijie\covers\transistors-build-cpu\transistors-build-cpu-cover-9x16.png
+状态：已推荐
+
+## 2026-07-23 - How the Apollo Spacecraft works: Part 1
+
+账号方向：男性向
+视频链接：https://www.youtube.com/watch?v=8dpkmUjJ8xU
+视频标题：How the Apollo Spacecraft works: Part 1
+频道：Jared Owen
+画质：已核验公开视频与 1280×720 最高缩略图可访问；1080p 正片格式读取受 YouTube 反爬限制，制作下载前需复核
+内容分类：#科技纪录片 #航天工程 #阿波罗 #3D动画
+推荐理由：飞船剖面、舱段连接和任务链路能以动画完整呈现，几乎不依赖真人；“人类登月时到底带着什么飞向月球”是稳定的大众工程入口。
+搬运适合度（★★★★★）：★★★★★
+中文字幕难度：中
+国内受众潜力：高
+B站标题建议：阿波罗飞船里装了什么？3D 剖面看懂登月第一程
+抖音标题建议：登月飞船这么小，宇航员和设备怎么都塞进去？
+快手标题建议：飞向月球前，阿波罗飞船里面到底怎么分工？
+小红书标题建议：阿波罗飞船图解，3分钟看懂指令舱和服务舱
+封面文案：阿波罗飞船\n里面装了什么
+视频简介：阿波罗飞船并非一只“登月舱”，而是由多个分工不同的舱段组成。指令舱负责人员与返回，服务舱提供动力和资源，二者怎样连接、分离并支撑漫长航程？视频用 3D 剖面把这套登月交通工具的第一段任务讲清楚。
+首页推荐封面 4:3：L:\workspace\yinghe-shijie\covers\apollo-spacecraft-works\apollo-spacecraft-works-cover-4x3.png
+个人空间封面 16:9：L:\workspace\yinghe-shijie\covers\apollo-spacecraft-works\apollo-spacecraft-works-cover-16x9.png
+短视频竖版封面 9:16：L:\workspace\yinghe-shijie\covers\apollo-spacecraft-works\apollo-spacecraft-works-cover-9x16.png
+状态：已推荐
+
+## 2026-07-23 - Aegis Combat System: The Heart of Arleigh Burke-Class
+
+账号方向：男性向
+视频链接：https://www.youtube.com/watch?v=-Y8gGx3slpg
+视频标题：Aegis Combat System: The Heart of Arleigh Burke-Class
+频道：Military Forces Unleashed
+画质：已核验公开视频与 1280×720 最高缩略图可访问；1080p 正片格式读取受 YouTube 反爬限制，制作下载前需复核
+内容分类：#军事 #宙斯盾 #防空反导 #工程可视化
+推荐理由：围绕舰载相控阵雷达、作战指挥与垂直发射的协同展开，装备画面辨识度强；适合包装成“军舰怎样同时盯住多枚来袭目标”的防空反导问题。
+搬运适合度（★★★★★）：★★★★☆
+中文字幕难度：中
+国内受众潜力：高
+B站标题建议：宙斯盾系统怎样同时盯住目标？军舰防空链路拆解
+抖音标题建议：军舰怎么一边扫雷达，一边同时发射拦截弹？
+快手标题建议：一艘驱逐舰咋看见天上这么多目标，还能挨个拦？
+小红书标题建议：宙斯盾防空系统图解，看懂雷达、指挥和垂发协同
+封面文案：宙斯盾系统\n怎样同时拦截
+视频简介：现代驱逐舰的防空能力，不只靠一枚导弹，而是靠雷达发现、火控计算、垂直发射和中途制导连续协同。视频围绕宙斯盾作战系统拆开这条链路，带你看懂军舰如何把分散设备连成一张实时反应网。
+首页推荐封面 4:3：L:\workspace\yinghe-shijie\covers\aegis-combat-system\aegis-combat-system-cover-4x3.png
+个人空间封面 16:9：L:\workspace\yinghe-shijie\covers\aegis-combat-system\aegis-combat-system-cover-16x9.png
+短视频竖版封面 9:16：L:\workspace\yinghe-shijie\covers\aegis-combat-system\aegis-combat-system-cover-9x16.png
+状态：已推荐
+
 ## 2026-07-22 - B2 Spirit Bomber Plane | How Stealth Works?
 
 账号方向：男性向

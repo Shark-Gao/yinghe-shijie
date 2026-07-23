@@ -1,0 +1,1530 @@
+1
+00:00:00,300 --> 00:00:01,166
+in this content
+2
+00:00:00,300 --> 00:00:01,166
+在此内容中
+3
+00:00:01,300 --> 00:00:04,733
+we will look at the stealth technology of the f-35
+4
+00:00:01,300 --> 00:00:04,733
+我们来看看f-35的隐形技术
+5
+00:00:04,933 --> 00:00:07,733
+the radar absorbing material behind it and
+6
+00:00:04,933 --> 00:00:07,733
+它后面的雷达吸收材料和
+7
+00:00:07,733 --> 00:00:10,266
+its platformed alignment and engineering
+8
+00:00:07,733 --> 00:00:10,266
+它的平台化对齐和工程
+9
+00:00:10,866 --> 00:00:13,466
+we will try to explain the basic differences
+10
+00:00:10,866 --> 00:00:13,466
+我们将尝试解释基本差异
+11
+00:00:13,666 --> 00:00:16,133
+between the f thirty five a b and c
+12
+00:00:13,666 --> 00:00:16,133
+在f三十五a b和c之间
+13
+00:00:16,966 --> 00:00:19,333
+examining the engineering of STOVL or
+14
+00:00:16,966 --> 00:00:19,333
+检查STOVL或
+15
+00:00:19,333 --> 00:00:21,000
+short takeoff vertical landing
+16
+00:00:19,333 --> 00:00:21,000
+短距起飞垂直着陆
+17
+00:00:21,133 --> 00:00:22,866
+and the engine powering it
+18
+00:00:21,133 --> 00:00:22,866
+以及为其提供动力的发动机
+19
+00:00:22,866 --> 00:00:25,100
+and how it works in simple animation
+20
+00:00:22,866 --> 00:00:25,100
+以及它在简单动画中的工作原理
+21
+00:00:25,900 --> 00:00:28,066
+as a fifth generation fighter jet
+22
+00:00:25,900 --> 00:00:28,066
+作为第五代战斗机
+23
+00:00:28,066 --> 00:00:29,933
+we have to look at the weapon system
+24
+00:00:28,066 --> 00:00:29,933
+我们得看看武器系统
+25
+00:00:30,366 --> 00:00:32,866
+as well as the electronic warfare suite
+26
+00:00:30,366 --> 00:00:32,866
+以及电子战套件
+27
+00:00:33,000 --> 00:00:35,766
+and last but not the least the four hundred
+28
+00:00:33,000 --> 00:00:35,766
+最后但并非最不重要的四百
+29
+00:00:35,866 --> 00:00:39,466
+thousand dollar helmet and its features  now
+30
+00:00:35,866 --> 00:00:39,466
+千元头盔及其功能现在
+31
+00:00:39,700 --> 00:00:41,366
+leaving politics aside
+32
+00:00:39,700 --> 00:00:41,366
+抛开政治不谈
+33
+00:00:41,800 --> 00:00:43,466
+let's get straight to the content
+34
+00:00:41,800 --> 00:00:43,466
+让我们直接进入内容
+35
+00:00:47,133 --> 00:00:50,600
+this is the Lockheed Martin f thirty five Lightning II
+36
+00:00:47,133 --> 00:00:50,600
+这是洛克希德马丁f 35闪电II
+37
+00:00:51,266 --> 00:00:53,900
+the search for a stealth fighter that can take off
+38
+00:00:51,266 --> 00:00:53,900
+寻找可以起飞的隐形战斗机
+39
+00:00:53,900 --> 00:00:57,466
+and land in tight confines has lasted decades
+40
+00:00:53,900 --> 00:00:57,466
+狭小地带的土地已经持续了几十年
+41
+00:00:58,166 --> 00:01:01,666
+Lockheed Martin began developing experimental vertical
+42
+00:00:58,166 --> 00:01:01,666
+洛克希德·马丁公司开始开发实验垂直
+43
+00:01:01,666 --> 00:01:04,800
+rising fighters as early as nineteen fifty four
+44
+00:01:01,666 --> 00:01:04,800
+早在1954年崛起的战士
+45
+00:01:05,500 --> 00:01:07,866
+the harrier was one such aircraft that
+46
+00:01:05,500 --> 00:01:07,866
+猎鹰就是这样一种飞机
+47
+00:01:07,866 --> 00:01:09,766
+had achieved this engineering feat
+48
+00:01:07,866 --> 00:01:09,766
+完成了这项工程壮举
+49
+00:01:10,400 --> 00:01:12,666
+its technology was ahead of its time
+50
+00:01:10,400 --> 00:01:12,666
+它的技术领先于时代
+51
+00:01:12,766 --> 00:01:15,933
+but it has its flaws like every engineering marvel
+52
+00:01:12,766 --> 00:01:15,933
+但它也有缺陷就像每个工程奇迹一样
+53
+00:01:16,700 --> 00:01:17,900
+during vertical landing
+54
+00:01:16,700 --> 00:01:17,900
+垂直着陆时
+55
+00:01:18,000 --> 00:01:20,666
+it would turn over multiple times due to
+56
+00:01:18,000 --> 00:01:20,666
+它会翻转多次，因为
+57
+00:01:20,666 --> 00:01:22,666
+turbulence from its own downwash
+58
+00:01:20,666 --> 00:01:22,666
+来自自身下沉的湍流
+59
+00:01:23,200 --> 00:01:26,700
+on the tip of each wing included a small roll control
+60
+00:01:23,200 --> 00:01:26,700
+在每个机翼的尖端都包括一个小滚动控制
+61
+00:01:26,700 --> 00:01:29,933
+nozzle which had to be controlled manually by the pilot
+62
+00:01:26,700 --> 00:01:29,933
+必须由飞行员手动控制的喷嘴
+63
+00:01:29,933 --> 00:01:32,666
+to stabilize the aircraft for safe landing
+64
+00:01:29,933 --> 00:01:32,666
+稳定飞机以确保安全着陆
+65
+00:01:33,600 --> 00:01:34,066
+however
+66
+00:01:33,600 --> 00:01:34,066
+然而
+67
+00:01:34,066 --> 00:01:38,900
+the f-35b short takeoff and vertical landing system  stovl
+68
+00:01:34,066 --> 00:01:38,900
+35b短距起降系统
+69
+00:01:38,900 --> 00:01:39,933
+was an improvement
+70
+00:01:38,900 --> 00:01:39,933
+是一种进步
+71
+00:01:40,300 --> 00:01:41,866
+combining vertical landing with
+72
+00:01:40,300 --> 00:01:41,866
+垂直着陆与
+73
+00:01:41,866 --> 00:01:43,766
+long range supersonic speed
+74
+00:01:41,866 --> 00:01:43,766
+远程超音速
+75
+00:01:44,333 --> 00:01:45,700
+resulting in a stealthy
+76
+00:01:44,333 --> 00:01:45,700
+导致一个隐形的
+77
+00:01:45,933 --> 00:01:49,333
+lightning fast fighter capable of carrying modern weaponry
+78
+00:01:45,933 --> 00:01:49,333
+能够携带现代武器的闪电般的战斗机
+79
+00:01:49,700 --> 00:01:51,600
+let us look at the variants of the f
+80
+00:01:49,700 --> 00:01:51,600
+让我们看看f的变体
+81
+00:01:51,600 --> 00:01:53,666
+thirty five along with their differences
+82
+00:01:51,600 --> 00:01:53,666
+三十五以及他们的差异
+83
+00:01:54,400 --> 00:01:55,700
+there are three variants
+84
+00:01:54,400 --> 00:01:55,700
+有三种变体
+85
+00:01:55,700 --> 00:01:57,766
+all of which are single seat jets
+86
+00:01:55,700 --> 00:01:57,766
+都是单座飞机
+87
+00:01:58,300 --> 00:02:01,366
+the f thirty five a which is a conventional takeoff
+88
+00:01:58,300 --> 00:02:01,366
+f 35 a是常规起飞
+89
+00:02:01,366 --> 00:02:05,133
+and landing variant was designed for use by the United States
+90
+00:02:01,366 --> 00:02:05,133
+着陆变体是为美国设计的
+91
+00:02:05,266 --> 00:02:07,600
+air force and numerous allied nations
+92
+00:02:05,266 --> 00:02:07,600
+空军和许多盟国
+93
+00:02:08,600 --> 00:02:11,333
+this aircraft was designed to operate from
+94
+00:02:08,600 --> 00:02:11,333
+这架飞机的设计是从
+95
+00:02:11,333 --> 00:02:14,500
+standard air strips and is the sole f thirty five
+96
+00:02:11,333 --> 00:02:14,500
+标准空气条，是35号的唯一产品。
+97
+00:02:14,500 --> 00:02:17,266
+with a twenty five millimeter internal cannon
+98
+00:02:14,500 --> 00:02:17,266
+用25毫米口径的内加农炮
+99
+00:02:17,766 --> 00:02:21,366
+allowing it to replace the f sixteen multirole fighter and
+100
+00:02:17,766 --> 00:02:21,366
+允许它取代f 16多用途战斗机和
+101
+00:02:21,366 --> 00:02:25,400
+the flying cannon a ten Thunderbolt II among other aircraft
+102
+00:02:21,366 --> 00:02:25,400
+在其他飞机中，飞行大炮是十个Thunderbolt II
+103
+00:02:26,100 --> 00:02:28,766
+this cannon is not available on the other variants
+104
+00:02:26,100 --> 00:02:28,766
+这种大炮在其他变体上不可用
+105
+00:02:29,966 --> 00:02:33,900
+the f 35 b was developed specifically for short
+106
+00:02:29,966 --> 00:02:33,900
+f35 b是专门为
+107
+00:02:33,933 --> 00:02:36,300
+takeoff and vertical landing operations
+108
+00:02:33,933 --> 00:02:36,300
+起降作业
+109
+00:02:36,600 --> 00:02:37,900
+and was built to meet the
+110
+00:02:36,600 --> 00:02:37,900
+并被建造以满足
+111
+00:02:37,900 --> 00:02:40,266
+requirements of the us marine corps
+112
+00:02:37,900 --> 00:02:40,266
+美国海军陆战队的要求
+113
+00:02:40,800 --> 00:02:45,133
+the f-35b's takeoff and landing capabilities allows
+114
+00:02:40,800 --> 00:02:45,133
+35b的起飞和降落能力
+115
+00:02:45,133 --> 00:02:48,533
+marines to operate these jets from short runways or
+116
+00:02:45,133 --> 00:02:48,533
+海军陆战队从短跑道或
+117
+00:02:48,533 --> 00:02:51,700
+off the decks of amphibious assault ships while still
+118
+00:02:48,533 --> 00:02:51,700
+离开两栖攻击舰的甲板
+119
+00:02:51,700 --> 00:02:54,266
+being able to operate from standard runways
+120
+00:02:51,700 --> 00:02:54,266
+能够在标准跑道上运行
+121
+00:03:08,666 --> 00:03:11,166
+it has more robust landing gear to help
+122
+00:03:08,666 --> 00:03:11,166
+它有更坚固的起落架来帮助
+123
+00:03:11,166 --> 00:03:12,966
+with difficult carrier landings
+124
+00:03:11,166 --> 00:03:12,966
+航母着陆困难
+125
+00:03:13,166 --> 00:03:15,866
+and it has a greater internal fuel supply
+126
+00:03:13,166 --> 00:03:15,866
+它有更大的内部燃料供应
+127
+00:03:16,133 --> 00:03:18,100
+nine thousand seventy two liters
+128
+00:03:16,133 --> 00:03:18,100
+九千七十二升
+129
+00:03:18,300 --> 00:03:20,333
+to support longer range missions
+130
+00:03:18,300 --> 00:03:20,333
+支持远程任务
+131
+00:03:21,000 --> 00:03:22,566
+this variant has the added
+132
+00:03:21,000 --> 00:03:22,566
+此变体添加了
+133
+00:03:22,700 --> 00:03:24,766
+mechanical feature of foldable wings
+134
+00:03:22,700 --> 00:03:24,766
+可折叠机翼的力学特性
+135
+00:03:24,933 --> 00:03:27,733
+which makes it easier to store in ship holds
+136
+00:03:24,933 --> 00:03:27,733
+这使得储存在船舱更容易
+137
+00:03:28,900 --> 00:03:33,066
+for now  we will look at the f-35b and its specifications
+138
+00:03:28,900 --> 00:03:33,066
+现在我们来看看35b及其规格
+139
+00:03:33,800 --> 00:03:37,600
+the f-35b has a length of fifty one point two
+140
+00:03:33,800 --> 00:03:37,600
+35b有五十一点二的长度
+141
+00:03:37,600 --> 00:03:40,166
+feet and a height of fourteen point three feet
+142
+00:03:37,600 --> 00:03:40,166
+英尺高十四点三尺
+143
+00:03:40,700 --> 00:03:42,733
+a wingspan of thirty five feet
+144
+00:03:40,700 --> 00:03:42,733
+翼展三十五英尺
+145
+00:03:42,866 --> 00:03:44,400
+which helps to maneuver the plane
+146
+00:03:42,866 --> 00:03:44,400
+这有助于操纵飞机
+147
+00:03:44,400 --> 00:03:46,133
+in a planned formed alignment
+148
+00:03:44,400 --> 00:03:46,133
+按计划排列
+149
+00:03:46,866 --> 00:03:49,100
+the jet has an empty weight of fourteen
+150
+00:03:46,866 --> 00:03:49,100
+喷气式飞机的空重是14磅
+151
+00:03:49,133 --> 00:03:51,500
+thousand seven hundred twenty nine kilogram
+152
+00:03:49,133 --> 00:03:51,500
+一千七百二十九公斤
+153
+00:03:51,533 --> 00:03:54,466
+which is equivalent to the weight of seventeen jeeps
+154
+00:03:51,533 --> 00:03:54,466
+相当于十七辆吉普车的重量
+155
+00:03:55,133 --> 00:03:57,166
+it has a weapons payload of six
+156
+00:03:55,133 --> 00:03:57,166
+它的武器有效载荷为6
+157
+00:03:57,200 --> 00:03:58,966
+thousand eight hundred kilogram
+158
+00:03:57,200 --> 00:03:58,966
+一千八百公斤
+159
+00:03:58,966 --> 00:04:01,666
+which we will talk about it in more details later
+160
+00:03:58,966 --> 00:04:01,666
+我们稍后会更详细地讨论它
+161
+00:04:02,533 --> 00:04:04,366
+now that we have seen the dimensions
+162
+00:04:02,533 --> 00:04:04,366
+现在我们已经看到了维度
+163
+00:04:04,666 --> 00:04:07,566
+let us look at the basic parts of the fighter jet
+164
+00:04:04,666 --> 00:04:07,566
+让我们看看战斗机的基本部件
+165
+00:04:07,800 --> 00:04:10,133
+this is the nose of the f thirty five
+166
+00:04:07,800 --> 00:04:10,133
+这是f 35的鼻子
+167
+00:04:10,133 --> 00:04:14,466
+and inside it is a northrop grumman an apg
+168
+00:04:10,133 --> 00:04:14,466
+里面是诺斯罗普·格鲁曼和apg
+169
+00:04:14,766 --> 00:04:16,766
+eighty one active electronically
+170
+00:04:14,766 --> 00:04:16,766
+八十一个电子激活
+171
+00:04:16,866 --> 00:04:18,966
+scanned array fire control Radar
+172
+00:04:16,866 --> 00:04:18,966
+扫描阵列火控雷达
+173
+00:04:19,100 --> 00:04:22,300
+which is the world's most modern and capable Radar
+174
+00:04:19,100 --> 00:04:22,300
+这是世界上最现代化和最有能力的雷达
+175
+00:04:22,366 --> 00:04:25,133
+and serves as the backbone of the f thirty
+176
+00:04:22,366 --> 00:04:25,133
+并且是F30的中坚力量
+177
+00:04:25,166 --> 00:04:27,500
+five Lightning II's advanced Sensor suite
+178
+00:04:25,166 --> 00:04:27,500
+五闪电II的高级传感器套件
+179
+00:04:27,866 --> 00:04:28,500
+moving back
+180
+00:04:27,866 --> 00:04:28,500
+回迁
+181
+00:04:28,500 --> 00:04:29,733
+we have the canopy
+182
+00:04:28,500 --> 00:04:29,733
+我们有天篷
+183
+00:04:29,866 --> 00:04:31,966
+which has been plated with an indium tin
+184
+00:04:29,866 --> 00:04:31,966
+上面镀着铟锡
+185
+00:04:32,000 --> 00:04:34,333
+oxide layer to give it a golden sheen
+186
+00:04:32,000 --> 00:04:34,333
+氧化层赋予它金色的光泽
+187
+00:04:34,900 --> 00:04:36,600
+this helps to keep it stealthy
+188
+00:04:34,900 --> 00:04:36,600
+这有助于保持隐形
+189
+00:04:38,066 --> 00:04:41,200
+this is the lift fan doors of the f thirty five
+190
+00:04:38,066 --> 00:04:41,200
+这是f 35的升降风扇门
+191
+00:04:42,100 --> 00:04:45,266
+inside it is a rolls Royce lift system that offers a
+192
+00:04:42,100 --> 00:04:45,266
+里面是劳斯莱斯电梯系统，提供
+193
+00:04:45,266 --> 00:04:48,566
+STOVL short takeoff and vertical landing aircraft
+194
+00:04:45,266 --> 00:04:48,566
+STOVL短距起飞和垂直着陆飞机
+195
+00:04:48,733 --> 00:04:51,500
+that is exceptionally durable and dependable
+196
+00:04:48,733 --> 00:04:51,500
+非常耐用和可靠
+197
+00:04:52,133 --> 00:04:55,100
+the rolls Royce lift fan is the heart of the
+198
+00:04:52,133 --> 00:04:55,100
+劳斯莱斯升降风扇是
+199
+00:04:55,100 --> 00:04:58,366
+f 35b's thrust vectoring capability
+200
+00:04:55,100 --> 00:04:58,366
+f35b的推力矢量能力
+201
+00:04:59,133 --> 00:05:00,566
+twenty nine thousand shaft
+202
+00:04:59,133 --> 00:05:00,566
+两万九千轴
+203
+00:05:00,566 --> 00:05:03,000
+horsepower is delivered to the lift fan
+204
+00:05:00,566 --> 00:05:03,000
+马力输送到升降风扇
+205
+00:05:03,733 --> 00:05:04,933
+the exhaust nozzle
+206
+00:05:03,733 --> 00:05:04,933
+排气喷嘴
+207
+00:05:04,966 --> 00:05:08,100
+which is connected to the main engine by a drive shaft
+208
+00:05:04,966 --> 00:05:08,100
+通过传动轴连接到主机
+209
+00:05:08,500 --> 00:05:10,866
+produces a downward flowing column of
+210
+00:05:08,500 --> 00:05:10,866
+产生向下流动的柱
+211
+00:05:10,866 --> 00:05:12,566
+air at the front of the plane
+212
+00:05:10,866 --> 00:05:12,566
+飞机前部的空气
+213
+00:05:13,066 --> 00:05:13,866
+at the back
+214
+00:05:13,066 --> 00:05:13,866
+在后面
+215
+00:05:13,900 --> 00:05:15,866
+the exhaust nozzle twists
+216
+00:05:13,900 --> 00:05:15,866
+排气嘴扭动
+217
+00:05:16,166 --> 00:05:19,166
+aiming its push toward the ground for directional control
+218
+00:05:16,166 --> 00:05:19,166
+瞄准地面进行定向控制
+219
+00:05:20,366 --> 00:05:23,333
+all of this is possible because of the Pratt and
+220
+00:05:20,366 --> 00:05:23,333
+这一切都是可能的，因为普拉特和
+221
+00:05:23,333 --> 00:05:27,066
+Whitney f one three five afterburning turbo fan engine
+222
+00:05:23,333 --> 00:05:27,066
+惠特尼f一三五加力涡轮风扇发动机
+223
+00:05:27,800 --> 00:05:31,666
+it comes in two versions a conventional takeoff and landing
+224
+00:05:27,800 --> 00:05:31,666
+它有两个版本，一个传统的起飞和着陆
+225
+00:05:31,666 --> 00:05:36,300
+c tall type used in the f thirty five a and f thirty five c
+226
+00:05:31,666 --> 00:05:36,300
+c高型用于f三十五a和f三十五c
+227
+00:05:36,566 --> 00:05:40,600
+and a two cycle short takeoff vertical landing stovall model
+228
+00:05:36,566 --> 00:05:40,600
+和一个两周期短距起飞垂直着陆炉灶模型
+229
+00:05:40,600 --> 00:05:44,100
+with a forward lift fan used in the f thirty five b
+230
+00:05:40,600 --> 00:05:44,100
+f 35 b中使用的前升力风扇
+231
+00:05:44,533 --> 00:05:46,166
+let's look at how this works
+232
+00:05:44,533 --> 00:05:46,166
+让我们看看这是如何工作的
+233
+00:05:46,800 --> 00:05:49,700
+air is sucked from both the rectangular intake Ramp
+234
+00:05:46,800 --> 00:05:49,700
+空气从矩形进气坡道吸入
+235
+00:05:49,700 --> 00:05:53,266
+and fuel is sprayed into a segment of the jet pipe
+236
+00:05:49,700 --> 00:05:53,266
+燃料被喷到喷射管的一部分
+237
+00:05:53,500 --> 00:05:56,466
+where it mixes with the exhaust gas and ignites
+238
+00:05:53,500 --> 00:05:56,466
+它与废气混合并点燃
+239
+00:05:56,966 --> 00:05:59,266
+resulting in a second stage of combustion
+240
+00:05:56,966 --> 00:05:59,266
+导致第二阶段的燃烧
+241
+00:05:59,800 --> 00:06:03,400
+in order to save jet fuel during takeoff  altitude
+242
+00:05:59,800 --> 00:06:03,400
+为了在起飞高度节省喷气燃料
+243
+00:06:03,400 --> 00:06:05,133
+ascent or battle maneuvers
+244
+00:06:03,400 --> 00:06:05,133
+上升或战斗演习
+245
+00:06:05,300 --> 00:06:08,400
+the afterburner is only employed in short bursts
+246
+00:06:05,300 --> 00:06:08,400
+加力燃烧室只在短时间内使用
+247
+00:06:09,166 --> 00:06:12,500
+the exhaust nozzle is made up of petals and is designed
+248
+00:06:09,166 --> 00:06:12,500
+排气喷嘴由花瓣组成，设计
+249
+00:06:12,500 --> 00:06:15,533
+to narrow or enlarge the distance between them
+250
+00:06:12,500 --> 00:06:15,533
+缩小或扩大它们之间的距离
+251
+00:06:16,266 --> 00:06:19,166
+this is done to lessen the strain on the turbofan
+252
+00:06:16,266 --> 00:06:19,166
+这样做是为了减轻涡扇的压力
+253
+00:06:19,166 --> 00:06:21,900
+engines when they are in full afterburning mode
+254
+00:06:19,166 --> 00:06:21,900
+发动机处于完全加力模式时
+255
+00:06:22,500 --> 00:06:25,133
+all that power is being fed by the massive
+256
+00:06:22,500 --> 00:06:25,133
+所有的能量都是由巨大的
+257
+00:06:25,133 --> 00:06:28,266
+number of seven to ten internal fuel tanks
+258
+00:06:25,133 --> 00:06:28,266
+七到十个内部燃料箱的数量
+259
+00:06:28,600 --> 00:06:30,166
+let us look at where they are placed
+260
+00:06:28,600 --> 00:06:30,166
+让我们看看它们被放置在哪里
+261
+00:06:31,133 --> 00:06:34,600
+fuel tank number one is located just behind the pilot seat
+262
+00:06:31,133 --> 00:06:34,600
+一号油箱就在驾驶座后面
+263
+00:06:35,400 --> 00:06:37,333
+this is the fuel tank number two
+264
+00:06:35,400 --> 00:06:37,333
+这是二号油箱
+265
+00:06:37,333 --> 00:06:39,533
+also known as center fuselage
+266
+00:06:37,333 --> 00:06:39,533
+也称为中心机身
+267
+00:06:40,166 --> 00:06:42,066
+this is fuel tank number three
+268
+00:06:40,166 --> 00:06:42,066
+这是三号油箱
+269
+00:06:42,100 --> 00:06:44,200
+also known as engine feed tank
+270
+00:06:42,100 --> 00:06:44,200
+也称为发动机进料罐
+271
+00:06:44,966 --> 00:06:48,200
+moving back we have wing carry through which fuel tank
+272
+00:06:44,966 --> 00:06:48,200
+往后移动，我们有机翼，通过哪个油箱。
+273
+00:06:48,200 --> 00:06:52,066
+number four along with two fuselage vent tanks
+274
+00:06:48,200 --> 00:06:52,066
+四号和两个机身排气箱
+275
+00:06:52,566 --> 00:06:56,100
+on the wings are two massive fuel tanks on each side
+276
+00:06:52,566 --> 00:06:56,100
+机翼两侧各有两个巨大的燃料箱
+277
+00:06:56,200 --> 00:06:58,533
+also known as the wing fuel tank
+278
+00:06:56,200 --> 00:06:58,533
+也被称为机翼油箱
+279
+00:06:59,266 --> 00:07:01,400
+two more vertical fin vent tanks are
+280
+00:06:59,266 --> 00:07:01,400
+还有两个垂直翅片排气罐是
+281
+00:07:01,400 --> 00:07:03,533
+located on the fins of the aircraft
+282
+00:07:01,400 --> 00:07:03,533
+位于飞机的尾翼上
+283
+00:07:04,733 --> 00:07:06,800
+now let us look at the parts of the wing
+284
+00:07:04,733 --> 00:07:06,800
+现在让我们看看翅膀的各个部分
+285
+00:07:07,366 --> 00:07:10,900
+two rudders are located just above the tail fuselage
+286
+00:07:07,366 --> 00:07:10,900
+两个方向舵位于尾部机身正上方
+287
+00:07:11,966 --> 00:07:15,400
+the two massive elevators are located further down
+288
+00:07:11,966 --> 00:07:15,400
+两部大型电梯位于更远的地方
+289
+00:07:16,933 --> 00:07:20,166
+the lifting force can be decreased and appropriately
+290
+00:07:16,933 --> 00:07:20,166
+提升力可适当减小
+291
+00:07:20,500 --> 00:07:23,666
+increased since the ailerons have the ability to move up and
+292
+00:07:20,500 --> 00:07:23,666
+因为副翼有能力向上移动
+293
+00:07:23,666 --> 00:07:27,533
+down while the rudders assist in moving the plane left or
+294
+00:07:23,666 --> 00:07:27,533
+当方向舵帮助飞机向左移动时下降
+295
+00:07:27,533 --> 00:07:28,333
+right
+296
+00:07:27,533 --> 00:07:28,333
+对吧
+297
+00:07:29,166 --> 00:07:30,666
+this is the elevators
+298
+00:07:29,166 --> 00:07:30,666
+这是电梯
+299
+00:07:30,800 --> 00:07:34,500
+which may be modified to make the aircraft move up or down
+300
+00:07:30,800 --> 00:07:34,500
+可以修改以使飞机向上或向下移动
+301
+00:07:35,700 --> 00:07:38,266
+check out our last video on how the wings work
+302
+00:07:35,700 --> 00:07:38,266
+看看我们最后一个关于翅膀如何工作的视频
+303
+00:07:38,266 --> 00:07:40,933
+with the control surface in a very basic
+304
+00:07:38,266 --> 00:07:40,933
+与控制表面在一个非常基本的
+305
+00:07:41,133 --> 00:07:43,900
+explanation the fa eighteen super hornet
+306
+00:07:41,133 --> 00:07:43,900
+解释fa十八超级大黄蜂
+307
+00:07:45,000 --> 00:07:47,466
+as the name suggests stealth fighter
+308
+00:07:45,000 --> 00:07:47,466
+顾名思义隐形战机
+309
+00:07:47,566 --> 00:07:50,866
+let us look at how it was able to avoid most of the radar
+310
+00:07:47,566 --> 00:07:50,866
+让我们看看它是如何避开大部分雷达的
+311
+00:07:52,100 --> 00:07:53,166
+believe it or not
+312
+00:07:52,100 --> 00:07:53,166
+信不信由你
+313
+00:07:53,166 --> 00:07:55,066
+the shaping of the f thirty five
+314
+00:07:53,166 --> 00:07:55,066
+f三十五的塑造
+315
+00:07:55,066 --> 00:07:57,366
+provides most of its stealth technology
+316
+00:07:55,066 --> 00:07:57,366
+提供了大部分的隐形技术
+317
+00:07:57,900 --> 00:08:00,466
+this is known as planform alignment
+318
+00:07:57,900 --> 00:08:00,466
+这就是所谓的平面排列
+319
+00:08:01,266 --> 00:08:03,766
+this improved flight design orients key
+320
+00:08:01,266 --> 00:08:03,766
+这种改进的飞行设计定向关键
+321
+00:08:03,866 --> 00:08:05,800
+flight surfaces at the same angle
+322
+00:08:03,866 --> 00:08:05,800
+飞行面角度相同
+323
+00:08:06,366 --> 00:08:09,133
+as a result radar energy is scattered away
+324
+00:08:06,366 --> 00:08:09,133
+结果雷达能量被分散
+325
+00:08:09,133 --> 00:08:11,466
+from the plane rather than diffusing it
+326
+00:08:09,133 --> 00:08:11,466
+从飞机上而不是扩散它
+327
+00:08:11,566 --> 00:08:14,066
+where it could still potentially be detected
+328
+00:08:11,566 --> 00:08:14,066
+它仍然有可能被检测到
+329
+00:08:14,700 --> 00:08:18,300
+this planform aligned has to be built from the ground up
+330
+00:08:14,700 --> 00:08:18,300
+这个排列的平台必须从头开始建造
+331
+00:08:18,933 --> 00:08:21,866
+the Radar paint technology is still classified
+332
+00:08:18,933 --> 00:08:21,866
+雷达喷漆技术仍属机密
+333
+00:08:22,266 --> 00:08:24,966
+but this is what we know from aviation experts
+334
+00:08:22,266 --> 00:08:24,966
+但这是我们从航空专家那里得知的
+335
+00:08:25,166 --> 00:08:26,900
+and what we learned is they used
+336
+00:08:25,166 --> 00:08:26,900
+我们了解到的是他们使用
+337
+00:08:26,900 --> 00:08:28,700
+a Radar absorbing material
+338
+00:08:26,900 --> 00:08:28,700
+一种雷达吸收材料
+339
+00:08:29,400 --> 00:08:33,066
+RAM is a type of Polymer based material that is put to
+340
+00:08:29,400 --> 00:08:33,066
+RAM是一种基于聚合物的材料，可用于
+341
+00:08:33,066 --> 00:08:36,466
+the surface of stealth military aircraft like the f
+342
+00:08:33,066 --> 00:08:36,466
+像f这样的隐形军用飞机的表面
+343
+00:08:36,666 --> 00:08:39,900
+twenty two Raptor and f thirty five Lightning II
+344
+00:08:36,666 --> 00:08:39,900
+22猛禽和f 35闪电II
+345
+00:08:40,566 --> 00:08:43,466
+this reduce Radar cross section and thus
+346
+00:08:40,566 --> 00:08:43,466
+这减少了雷达横截面，因此
+347
+00:08:43,466 --> 00:08:46,166
+making them more difficult to detect by Radar
+348
+00:08:43,466 --> 00:08:46,166
+使它们更难被雷达探测到
+349
+00:08:47,566 --> 00:08:48,966
+stealth with low visibility
+350
+00:08:47,566 --> 00:08:48,966
+低能见度隐身
+351
+00:08:49,666 --> 00:08:52,100
+the f thirty five's aligned edges
+352
+00:08:49,666 --> 00:08:52,100
+f35的对齐边缘
+353
+00:08:52,333 --> 00:08:53,766
+decreased engine signature
+354
+00:08:52,333 --> 00:08:53,766
+减少引擎签名
+355
+00:08:54,200 --> 00:08:56,066
+internal weapon and fuel carriage
+356
+00:08:54,200 --> 00:08:56,066
+内部武器和燃料运输
+357
+00:08:56,366 --> 00:08:58,100
+and embedded sensors all
+358
+00:08:56,366 --> 00:08:58,100
+和嵌入式传感器
+359
+00:08:58,100 --> 00:09:00,300
+contribute to its exceptional stealth
+360
+00:08:58,100 --> 00:09:00,300
+有助于其卓越的隐身性
+361
+00:09:00,933 --> 00:09:04,800
+the f-35 has an unrivaled ability to elude
+362
+00:09:00,933 --> 00:09:04,800
+f-35拥有无与伦比的躲避能力
+363
+00:09:04,800 --> 00:09:07,966
+adversary detection and enter contested airspace
+364
+00:09:04,800 --> 00:09:07,966
+对手探测并进入有争议的空域
+365
+00:09:08,100 --> 00:09:10,400
+thanks to its stealth design from the start
+366
+00:09:08,100 --> 00:09:10,400
+得益于其从一开始的隐形设计
+367
+00:09:11,266 --> 00:09:13,800
+complementing the stealth technology are these hidden
+368
+00:09:11,266 --> 00:09:13,800
+作为隐形技术的补充
+369
+00:09:13,866 --> 00:09:20,166
+piece of engineering the an/asq 239 electronic suite is at
+370
+00:09:13,866 --> 00:09:20,166
+an/asq 239电子套件的工程部分位于
+371
+00:09:20,166 --> 00:09:23,666
+the heart of the f 35's electronic warfare system
+372
+00:09:20,166 --> 00:09:23,666
+f35电子战系统的核心
+373
+00:09:24,133 --> 00:09:26,500
+a modular system that provides both
+374
+00:09:24,133 --> 00:09:26,500
+提供两者的模块化系统
+375
+00:09:26,500 --> 00:09:28,933
+defensive and offensive capabilities
+376
+00:09:26,500 --> 00:09:28,933
+防御和进攻能力
+377
+00:09:29,200 --> 00:09:31,766
+ranging from the detection of hostile emitters
+378
+00:09:29,200 --> 00:09:31,766
+从探测到敌方排放物
+379
+00:09:31,800 --> 00:09:33,266
+to threat geolocation
+380
+00:09:31,800 --> 00:09:33,266
+威胁地理位置
+381
+00:09:33,266 --> 00:09:35,733
+to the automated release of countermeasures
+382
+00:09:33,266 --> 00:09:35,733
+到自动释放对策
+383
+00:09:36,100 --> 00:09:38,933
+infrared flares or radar reflecting chaff
+384
+00:09:36,100 --> 00:09:38,933
+红外线照明弹或雷达反射箔条
+385
+00:09:39,900 --> 00:09:42,300
+now let us look at the weapons capability
+386
+00:09:39,900 --> 00:09:42,300
+现在让我们看看武器的能力
+387
+00:09:42,300 --> 00:09:44,533
+of the f thirty five stealth fighter
+388
+00:09:42,300 --> 00:09:44,533
+f35隐形战斗机
+389
+00:09:44,966 --> 00:09:47,766
+this is the electro optical targeting system
+390
+00:09:44,966 --> 00:09:47,766
+这是光电瞄准系统
+391
+00:09:48,733 --> 00:09:52,966
+this improves situational awareness for f thirty five pilots
+392
+00:09:48,733 --> 00:09:52,966
+这提高了f 35飞行员的态势感知能力
+393
+00:09:53,100 --> 00:09:56,200
+and enables aircrews to identify points of interest
+394
+00:09:53,100 --> 00:09:56,200
+并使机组人员能够识别兴趣点
+395
+00:09:56,766 --> 00:09:57,800
+conduct reconnaissance
+396
+00:09:56,766 --> 00:09:57,800
+进行侦察
+397
+00:09:57,933 --> 00:10:01,933
+and precisely launch laser and gps guided munitions
+398
+00:09:57,933 --> 00:10:01,933
+并精确发射激光和gps制导弹药
+399
+00:10:02,600 --> 00:10:05,533
+it is the first sensor to integrate forward looking
+400
+00:10:02,600 --> 00:10:05,533
+它是第一个集成前瞻性的传感器
+401
+00:10:05,566 --> 00:10:08,666
+infrared and infrared search and track functions
+402
+00:10:05,566 --> 00:10:08,666
+红外和红外搜索和跟踪功能
+403
+00:10:09,333 --> 00:10:12,800
+the f thirty five carries weaponry internally in
+404
+00:10:09,333 --> 00:10:12,800
+f35在内部携带武器
+405
+00:10:12,800 --> 00:10:15,800
+stealth mode or externally in a permissive
+406
+00:10:12,800 --> 00:10:15,800
+隐身模式或外部处于允许状态
+407
+00:10:15,800 --> 00:10:18,733
+environment in a situation where they don't expect to
+408
+00:10:15,800 --> 00:10:18,733
+环境在他们不期望的情况下
+409
+00:10:18,733 --> 00:10:21,933
+have any threats to their safety from hostile forces
+410
+00:10:18,733 --> 00:10:21,933
+他们的安全受到敌对势力的威胁
+411
+00:10:23,333 --> 00:10:23,933
+externally
+412
+00:10:23,333 --> 00:10:23,933
+外部地
+413
+00:10:23,933 --> 00:10:27,733
+the jassm will be carried by all variants of the f-35
+414
+00:10:23,933 --> 00:10:27,733
+jassm将由f-35的所有变体携带
+415
+00:10:27,866 --> 00:10:28,800
+enhancing reach
+416
+00:10:27,866 --> 00:10:28,800
+扩大覆盖面
+417
+00:10:29,000 --> 00:10:31,666
+lethality and survivability against
+418
+00:10:29,000 --> 00:10:31,666
+杀伤力和生存力
+419
+00:10:31,733 --> 00:10:33,733
+heavily defended strategic targets
+420
+00:10:31,733 --> 00:10:33,733
+重兵防守的战略目标
+421
+00:10:34,000 --> 00:10:37,800
+and increasing the ability to deter near peer adversaries
+422
+00:10:34,000 --> 00:10:37,800
+并增加威慑附近对手的能力
+423
+00:10:38,733 --> 00:10:43,200
+l洛克希德马丁创造了AGM 158 JASSM
+424
+00:10:38,733 --> 00:10:43,200
+l洛克希德马丁创造了 AGM 158 JASSM
+425
+00:10:43,533 --> 00:10:45,700
+joint air to surface stand off missile
+426
+00:10:43,533 --> 00:10:45,700
+联合空对地待命导弹
+427
+00:10:45,933 --> 00:10:48,366
+a low observable stand off air launched
+428
+00:10:45,933 --> 00:10:48,366
+发射了一个可观察到的低空待命
+429
+00:10:48,400 --> 00:10:50,766
+cruise missile for the American armed forces
+430
+00:10:48,400 --> 00:10:50,766
+美国军队的巡航导弹
+431
+00:10:51,500 --> 00:10:52,766
+it is a substantial
+432
+00:10:51,500 --> 00:10:52,766
+这是一个实质性的
+433
+00:10:53,066 --> 00:10:56,166
+covert long range weapon with an Armor piercing warhead
+434
+00:10:53,066 --> 00:10:56,166
+带有穿甲弹头的隐蔽远程武器
+435
+00:10:56,200 --> 00:10:59,766
+weighing four hundred fifty kilograms or one thousand pounds
+436
+00:10:56,200 --> 00:10:59,766
+重四百五十公斤或一千磅
+437
+00:11:00,366 --> 00:11:02,600
+the aim one hundred twenty Amraam can
+438
+00:11:00,366 --> 00:11:02,600
+目标是一百二十Amraam可以
+439
+00:11:02,600 --> 00:11:05,566
+be carried by the inboard station  flares
+440
+00:11:02,600 --> 00:11:05,566
+由内站照明弹携带
+441
+00:11:05,800 --> 00:11:08,700
+chaff and tow decoys are stored in two
+442
+00:11:05,800 --> 00:11:08,700
+箔条和拖曳诱饵被储存在两个
+443
+00:11:08,700 --> 00:11:11,100
+compartments behind the Armament Bays
+444
+00:11:08,700 --> 00:11:11,100
+武器舱后面的隔间
+445
+00:11:11,900 --> 00:11:16,100
+the f thirty five features two internal weapons bays with
+446
+00:11:11,900 --> 00:11:16,100
+f35有两个内部武器舱
+447
+00:11:16,100 --> 00:11:19,200
+four weapon stations to maintain its stealth shape
+448
+00:11:16,100 --> 00:11:19,200
+四个武器站以保持其隐身状态
+449
+00:11:19,933 --> 00:11:22,966
+the two outboard weapon stations can each carry
+450
+00:11:19,933 --> 00:11:22,966
+两个舷外武器站可以各自携带
+451
+00:11:23,133 --> 00:11:25,566
+two thousand five hundred pound of ordnance
+452
+00:11:23,133 --> 00:11:25,566
+两千五百磅的军械
+453
+00:11:25,733 --> 00:11:29,800
+or one thousand five hundred pound for the f thirty five b
+454
+00:11:25,733 --> 00:11:29,800
+或者一千五百英镑买f三十五b
+455
+00:11:30,066 --> 00:11:32,100
+while the two inboard weapon stations
+456
+00:11:30,066 --> 00:11:32,100
+而机舱内的两个武器站
+457
+00:11:32,166 --> 00:11:34,066
+can carry air to air missiles
+458
+00:11:32,166 --> 00:11:34,066
+可以携带空对空导弹
+459
+00:11:34,700 --> 00:11:37,533
+the joint direct attack munition  JDAM
+460
+00:11:34,700 --> 00:11:37,533
+联合直接攻击弹药JDAM
+461
+00:11:37,733 --> 00:11:39,166
+Paveway series of bombs
+462
+00:11:37,733 --> 00:11:39,166
+铺路系列炸弹
+463
+00:11:39,400 --> 00:11:41,533
+joint standoff weapon  jsow
+464
+00:11:39,400 --> 00:11:41,533
+联合对峙武器jsow
+465
+00:11:41,600 --> 00:11:44,333
+and cluster munitions are all air to
+466
+00:11:41,600 --> 00:11:44,333
+集束弹药都是空运到
+467
+00:11:44,333 --> 00:11:46,400
+surface weaponry for the outboard station
+468
+00:11:44,333 --> 00:11:46,400
+舷外空间站的水面武器
+469
+00:11:47,600 --> 00:11:51,066
+now let us look at the four hundred thousand dollar helmet
+470
+00:11:47,600 --> 00:11:51,066
+现在让我们看看价值四十万美元的头盔
+471
+00:11:51,733 --> 00:11:55,500
+this is the helmet mounted display which gives the pilot
+472
+00:11:51,733 --> 00:11:55,500
+这是头盔显示器，它给飞行员
+473
+00:11:55,533 --> 00:11:59,133
+critical flight information and sent directly to the visors
+474
+00:11:55,533 --> 00:11:59,133
+重要的飞行信息并直接发送到护目镜
+475
+00:12:00,366 --> 00:12:03,533
+this is the integrated digital night vision device
+476
+00:12:00,366 --> 00:12:03,533
+这是集成数字夜视仪
+477
+00:12:04,733 --> 00:12:06,900
+the helmet is fed with data feed
+478
+00:12:04,733 --> 00:12:06,900
+头盔有数据馈送
+479
+00:12:07,000 --> 00:12:09,466
+which displays imagery from a set of six
+480
+00:12:07,000 --> 00:12:09,466
+它显示一组六个的图像
+481
+00:12:09,500 --> 00:12:12,366
+cameras mounted on the f thirty five airframe
+482
+00:12:09,500 --> 00:12:12,366
+安装在f35机身上的摄像机
+483
+00:12:12,533 --> 00:12:14,933
+which moves along with the head of the pilot
+484
+00:12:12,533 --> 00:12:14,933
+它随着飞行员的头部移动
+485
+00:12:16,066 --> 00:12:19,466
+the helmet also provides information about target identity
+486
+00:12:16,066 --> 00:12:19,466
+头盔还提供目标身份信息
+487
+00:12:19,466 --> 00:12:23,133
+and distance and even recommends which weapon to use
+488
+00:12:19,466 --> 00:12:23,133
+和距离，甚至建议使用哪种武器
+489
+00:12:23,333 --> 00:12:24,966
+so when looking through the plane
+490
+00:12:23,333 --> 00:12:24,966
+所以当透过飞机看的时候
+491
+00:12:24,966 --> 00:12:26,666
+if the pilot sees something that
+492
+00:12:24,966 --> 00:12:26,666
+如果飞行员看到什么
+493
+00:12:26,666 --> 00:12:28,133
+should be hit by a missile
+494
+00:12:26,666 --> 00:12:28,133
+应该被导弹击中
+495
+00:12:28,200 --> 00:12:30,000
+or just wants a closer look
+496
+00:12:28,200 --> 00:12:30,000
+或者只是想仔细看看
+497
+00:12:30,000 --> 00:12:32,800
+all he has to do is look at it to lock on
+498
+00:12:30,000 --> 00:12:32,800
+他所要做的就是看着它锁定
+499
+00:12:32,800 --> 00:12:34,700
+then flip a switch to zoom in
+500
+00:12:32,800 --> 00:12:34,700
+然后翻转开关放大
+501
+00:12:35,600 --> 00:12:38,533
+the pilot can therefore see straight through their own
+502
+00:12:35,600 --> 00:12:38,533
+飞行员因此可以直接看穿他们自己
+503
+00:12:38,533 --> 00:12:41,900
+body and the floor of the plane to the terrain below
+504
+00:12:38,533 --> 00:12:41,900
+机身和飞机地板到下面的地形
+505
+00:12:43,000 --> 00:12:45,400
+do support your small content creators
+506
+00:12:43,000 --> 00:12:45,400
+请支持您的小型内容创作者
+507
+00:12:45,466 --> 00:12:47,800
+as we bring out videos like these
+508
+00:12:45,466 --> 00:12:47,800
+当我们拿出这样的视频时
+509
+00:12:49,266 --> 00:12:52,766
+let's grow together and hit the million subscriber mark
+510
+00:12:49,266 --> 00:12:52,766
+让我们一起成长，达到百万用户大关

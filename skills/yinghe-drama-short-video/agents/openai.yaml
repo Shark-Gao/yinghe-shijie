@@ -1,0 +1,4 @@
+interface:
+  display_name: "电视剧解说短视频"
+  short_description: "把授权剧集改为高留存中文剧情解说短视频方案与成片制作"
+  default_prompt: "使用 $yinghe-drama-short-video 为这段有授权电视剧素材制作中文解说短视频。"

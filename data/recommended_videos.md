@@ -4,6 +4,12 @@
 
 | 日期 | 视频标题 | YouTube链接 | 频道 | 类型 | 状态 |
 |---|---|---|---|---|---|
+| 2026-07-23 | F35 Stealth Fighter Jet How it Works | https://www.youtube.com/watch?v=vgUnF9hUmLQ | AiTelly | #军事 #F35 #隐身战机 #3D动画 | 已推荐 |
+| 2026-07-23 | How Wind Turbines Are Made? (Mega Factories Video) | https://www.youtube.com/watch?v=cPGKrNLQmSI | Engineering World | #科技纪录片 #新能源 #风电 #工业制造 | 已推荐 |
+| 2026-07-23 | How A Million Miles Of Undersea Cables Power The Internet — And Now AI | https://www.youtube.com/watch?v=Pz5XRyo5fiw | CNBC | #世界冷知识 #海底光缆 #全球互联网 #基础设施 | 已推荐 |
+| 2026-07-23 | How do Transistors Build into a CPU? 🖥️🤔 How do Transistors Work? 🖥️🤔 | https://www.youtube.com/watch?v=_Pqfjer8-O4 | Branch Education | #AI #AI硬件 #晶体管 #3D动画 | 已推荐 |
+| 2026-07-23 | How the Apollo Spacecraft works: Part 1 | https://www.youtube.com/watch?v=8dpkmUjJ8xU | Jared Owen | #科技纪录片 #航天工程 #阿波罗 #3D动画 | 已推荐 |
+| 2026-07-23 | Aegis Combat System: The Heart of Arleigh Burke-Class | https://www.youtube.com/watch?v=-Y8gGx3slpg | Military Forces Unleashed | #军事 #宙斯盾 #防空反导 #工程可视化 | 已推荐 |
 | 2026-07-22 | B2 Spirit Bomber Plane \| How Stealth Works? | https://www.youtube.com/watch?v=r7BTJSiUejQ | AiTelly | #军事 #隐身战机 #B-2 #3D动画 | 已推荐 |
 | 2026-07-22 | AI, Machine Learning, Deep Learning and Generative AI Explained | https://www.youtube.com/watch?v=qYNweeDHiyU | IBM Technology | #AI #机器学习 #生成式AI #动画讲解 | 已推荐 |
 | 2026-07-22 | How Does the Power Grid Work? | https://www.youtube.com/watch?v=v1BMWczn7JM | Practical Engineering | #科技纪录片 #电网 #基础设施 #工程可视化 | 已推荐 |

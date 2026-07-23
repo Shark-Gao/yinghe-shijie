@@ -1,0 +1,109 @@
+{
+  "version": 1,
+  "title": "F-35看着不大，难对付在它先看见你",
+  "platform_titles": {
+    "bilibili": "F-35看着不大，难对付在它先看见你",
+    "douyin": "F-35难对付，不是因为大，而是先看见你",
+    "kuaishou": "F-35看着不大，为啥总能先发现对手？",
+    "xiaohongshu": "F-35隐身与传感器融合图解：看懂它为何难对付"
+  },
+  "platform_descriptions": {
+    "bilibili": "F-35的优势不是单一参数，而是把隐身外形、雷达吸波材料、电子战和头盔传感器连成闭环：先发现威胁，再让对手更难发现它。素材画面保留原片 AiTelly 标识，本片为中文解说剪辑。",
+    "douyin": "F-35看着不大，却能先发现对手。隐身、电子战和头盔传感器连成一套系统，难对付就在这里。素材来源画面保留 AiTelly 标识。",
+    "kuaishou": "它不是靠个头吓人，而是先看见你、再让你更难看见它：隐身、电子战和传感器被连成了闭环。素材画面保留 AiTelly 标识。",
+    "xiaohongshu": "F-35隐身与传感器融合图解：机体边缘对齐并配合雷达吸波材料，电子战系统负责发现和应对威胁，六个摄像头再把画面送进头盔显示器。看懂它为何难对付。素材画面保留原片 AiTelly 标识。"
+  },
+  "source_video": "L:/workspace/yinghe-shijie/videos/raw/F-35看着不大，为什么这么难对付？.mp4",
+  "output_video": "L:/workspace/yinghe-shijie/videos/exports/短视频/F-35看着不大，为什么这么难对付？/F-35难对付_短视频/F-35难对付_短视频.mp4",
+  "cover_title": "隐身先看见",
+  "cover_headline": "隐身先看见",
+  "cover_subhead": "难对付在系统",
+  "cover_aspect": "16:9",
+  "background_music": "L:/workspace/yinghe-shijie/music/硬核视界_通用BGM_舒缓科普探索_CC0.mp3",
+  "layout": "source",
+  "burn_captions": false,
+  "write_subtitles": true,
+  "mix": {
+    "source_volume": 0.0,
+    "narration_volume": 1.0,
+    "music_volume": 0.45,
+    "music_fade_seconds": 0.0
+  },
+  "clips": [
+    {
+      "id": "stealth_shape",
+      "source_start": "00:07:52.100",
+      "source_end": "00:08:04.800",
+      "focus_x": 0.5
+    },
+    {
+      "id": "electronic_warfare",
+      "source_start": "00:09:20.100",
+      "source_end": "00:09:33.500",
+      "focus_x": 0.5
+    },
+    {
+      "id": "helmet_sensors",
+      "source_start": "00:11:50.800",
+      "source_end": "00:12:11.900",
+      "focus_x": 0.5
+    },
+    {
+      "id": "helmet_targeting",
+      "source_start": "00:12:23.300",
+      "source_end": "00:12:33.200",
+      "focus_x": 0.5
+    }
+  ],
+  "narration": {
+    "voice": "zh-CN-YunyangNeural",
+    "rate": "+0%",
+    "segments": [
+      {
+        "start": "00:00:00.500",
+        "end": "00:00:05.800",
+        "text": "F-35看着不大，却很难对付：它往往能先看见你。"
+      },
+      {
+        "start": "00:00:05.900",
+        "end": "00:00:12.700",
+        "text": "第一层是隐身。机体边缘按同一方向对齐，把雷达能量反射到别处。"
+      },
+      {
+        "start": "00:00:13.000",
+        "end": "00:00:19.900",
+        "text": "但隐身不是消失。它的电子战系统，会先发现对方正在发射什么信号。"
+      },
+      {
+        "start": "00:00:20.200",
+        "end": "00:00:26.100",
+        "text": "再判断威胁位置，并自动释放干扰或诱饵，让对方更难锁定。"
+      },
+      {
+        "start": "00:00:26.400",
+        "end": "00:00:30.200",
+        "text": "飞行员看到的，也不只是座舱前方。"
+      },
+      {
+        "start": "00:00:30.200",
+        "end": "00:00:36.600",
+        "text": "机身六个摄像头把周围画面送进头盔显示器，转头就能查看目标。"
+      },
+      {
+        "start": "00:00:36.600",
+        "end": "00:00:41.900",
+        "text": "这些画面会随飞行员的头部移动，让他更快完成搜索。"
+      },
+      {
+        "start": "00:00:41.900",
+        "end": "00:00:47.200",
+        "text": "头盔还能显示目标身份、距离，甚至给出武器建议。"
+      },
+      {
+        "start": "00:00:47.400",
+        "end": "00:00:57.100",
+        "text": "所以它难对付，不是因为大，而是因为隐身、电子战和传感器连成了闭环。你觉得哪一层最关键？"
+      }
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "version": 1,
+  "title": "数十亿晶体管怎样拼成CPU？3D看懂电子积木的层层组合",
+  "platform_titles": {
+    "bilibili": "数十亿晶体管怎样拼成CPU？3D看懂电子积木的层层组合",
+    "douyin": "数十亿晶体管，原来是这样拼成CPU的",
+    "kuaishou": "CPU里几十亿个晶体管，到底是咋拼起来的？",
+    "xiaohongshu": "CPU结构图解：看懂晶体管怎样一层层拼成处理器"
+  },
+  "platform_descriptions": {
+    "bilibili": "CPU里的数十亿晶体管并非逐颗随意接线，而是先组成标准单元，再叠成加法器、乘法器、模块与核心。用3D画面看懂这座微观电子城市的搭建方式。",
+    "douyin": "CPU不是把几十亿个晶体管乱连在一起。两颗先做反相器，160个左右再拼成加法器，最后一层层堆成核心。",
+    "kuaishou": "几十亿个晶体管咋变成CPU？先拼成小开关，再拼成加法器、乘法器，最后靠多层金属线协同干活。",
+    "xiaohongshu": "CPU结构图解：从两颗晶体管组成反相器，到标准单元、32位加法器和乘法器，看懂处理器如何用多层金属连线把电子积木组合起来。"
+  },
+  "source_video": "L:/workspace/yinghe-shijie/videos/raw/几十亿晶体管怎样拼成 CPU？3D 拆开电脑大脑的底层结构.mp4",
+  "output_video": "L:/workspace/yinghe-shijie/videos/exports/短视频/几十亿晶体管怎样拼成 CPU？3D 拆开电脑大脑的底层结构/晶体管拼成CPU_短视频/晶体管拼成CPU_短视频.mp4",
+  "cover_title": "晶体管怎样拼成CPU？",
+  "cover_headline": "数十亿颗",
+  "cover_subhead": "拼成CPU？",
+  "cover_aspect": "16:9",
+  "background_music": "music/硬核视界_通用BGM_舒缓科普探索_CC0.mp3",
+  "layout": "source",
+  "burn_captions": false,
+  "write_subtitles": true,
+  "mix": {
+    "source_volume": 0.0,
+    "narration_volume": 1.0,
+    "music_volume": 0.45,
+    "music_fade_seconds": 0.0
+  },
+  "clips": [
+    { "id": "hook", "source_start": "00:00:19.700", "source_end": "00:00:26.464", "focus_x": 0.50 },
+    { "id": "standard-cell", "source_start": "00:01:36.533", "source_end": "00:01:41.729", "focus_x": 0.50 },
+    { "id": "complementary-switches", "source_start": "00:05:03.333", "source_end": "00:05:09.273", "focus_x": 0.50 },
+    { "id": "inverter", "source_start": "00:06:56.533", "source_end": "00:07:02.569", "focus_x": 0.50 },
+    { "id": "adder", "source_start": "00:10:59.566", "source_end": "00:11:05.194", "focus_x": 0.50 },
+    { "id": "multiplier", "source_start": "00:12:10.100", "source_end": "00:12:14.624", "focus_x": 0.50 },
+    { "id": "hierarchy", "source_start": "00:12:57.900", "source_end": "00:13:02.904", "focus_x": 0.50 },
+    { "id": "metal-layers", "source_start": "00:14:28.666", "source_end": "00:14:39.550", "focus_x": 0.50 }
+  ],
+  "narration": {
+    "voice": "zh-CN-YunyangNeural",
+    "rate": "+0%",
+    "segments": [
+      { "start": "00:00:00.500", "end": "00:00:06.764", "text": "CPU里的数十亿晶体管，不是随意接线，而是被编排成一层层电子积木。" },
+      { "start": "00:00:07.064", "end": "00:00:11.960", "text": "最底层叫标准单元：两颗晶体管，就能组成反相器。" },
+      { "start": "00:00:12.260", "end": "00:00:17.900", "text": "N型有电压才导通，P型正好相反；它们是一对互补开关。" },
+      { "start": "00:00:18.200", "end": "00:00:23.936", "text": "接同一个输入后，输出只会连向电源或地线，得到稳定的零和一。" },
+      { "start": "00:00:24.236", "end": "00:00:29.564", "text": "约一百六十个标准单元，通过金属线拼成32位加法器。" },
+      { "start": "00:00:29.864", "end": "00:00:34.088", "text": "六千多个标准单元，能做成32位乘法器。" },
+      { "start": "00:00:34.388", "end": "00:00:39.092", "text": "再往上，模块、IP核和CPU核心继续叠起来。" },
+      { "start": "00:00:39.392", "end": "00:00:49.376", "text": "真正复杂的是十几层金属连线，让所有电子积木在极短时间协同。你每次点击，都会驱动这座微观城市。" }
+    ]
+  }
+}
