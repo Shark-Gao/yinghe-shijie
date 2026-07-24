@@ -2,6 +2,75 @@
 
 用于集中保存每条推荐的完整 11 项信息与封面路径，便于后续查阅。
 
+## 2026-07-24 - Neptune Missile How it Works | Ukraine Missile Vs Russian Cruiser Moskva Ship
+
+账号方向：男性向
+视频链接：https://www.youtube.com/watch?v=3RfKkn4qXuU
+视频标题：Neptune Missile How it Works | Ukraine Missile Vs Russian Cruiser Moskva Ship
+频道：AiTelly
+画质：公开视频页、oEmbed 元数据与 1280×720 maxres 缩略图已核验可访问；匿名 1080p 格式探测受 YouTube 验证页限制，下载时复核。
+内容分类：#军事 #反舰导弹 #导弹制导 #3D动画
+推荐理由：导弹剖面、飞行路径与目标指示在同一画面完成解释，几乎无真人，能用“导弹怎样在海上找到军舰”切入反舰制导与末段突防的工程逻辑。
+搬运适合度（★★★★★）：★★★★★
+中文字幕难度：中
+国内受众潜力：高
+B站标题建议：反舰导弹怎样在海上找到军舰？3D拆开制导链路
+抖音标题建议：海上那么大，导弹怎么追上军舰？
+快手标题建议：导弹飞出去后，咋知道军舰跑到哪了？
+小红书标题建议：反舰导弹图解：看懂海上制导和末段追踪
+封面文案：导弹追舰 / 3D看制导
+视频简介：海面目标会移动，反舰导弹并不是朝着一个固定坐标直线飞去。视频用剖面动画把发射、惯导、中途修正和末段搜索串起来，带你看懂一枚导弹如何在复杂海况中持续逼近目标，以及制导链路为什么决定命中窗口。
+首页推荐封面 4:3：L:\workspace\yinghe-shijie\covers\neptune-missile-how-it-works\neptune-missile-how-it-works-cover-4x3.png
+个人空间封面 16:9：L:\workspace\yinghe-shijie\covers\neptune-missile-how-it-works\neptune-missile-how-it-works-cover-16x9.png
+短视频竖版封面 9:16：L:\workspace\yinghe-shijie\covers\neptune-missile-how-it-works\neptune-missile-how-it-works-cover-9x16.png
+状态：已推荐
+
+## 2026-07-24 - How a GPU Actually Works (and Powers AI)
+
+账号方向：男性向
+视频链接：https://www.youtube.com/watch?v=s3yjlRkXhbA
+视频标题：How a GPU Actually Works (and Powers AI)
+频道：Bug Labs
+画质：公开视频页、oEmbed 元数据与 1280×720 maxres 缩略图已核验可访问；匿名 1080p 格式探测受 YouTube 验证页限制，下载时复核。
+内容分类：#AI #GPU #并行计算 #动画讲解
+推荐理由：以并行核心、数据流和 AI 计算任务为主要视觉元素，画面干净少真人；适合延续“AI 为什么离不开 GPU”的大众问题，素材短而信息集中。
+搬运适合度（★★★★★）：★★★★★
+中文字幕难度：中
+国内受众潜力：高
+B站标题建议：GPU为什么特别适合跑 AI？一眼看懂并行计算
+抖音标题建议：AI为啥偏爱GPU，不爱CPU？
+快手标题建议：GPU和CPU到底差在哪，AI为啥更吃GPU？
+小红书标题建议：GPU并行计算图解：3分钟看懂AI算力为什么靠它
+封面文案：GPU为何快 / 并行计算
+视频简介：同样是芯片，CPU 擅长把少数复杂任务逐个做好，GPU 则能让大量相似计算同时开工。动画把核心阵列、数据并行和 AI 推理任务放到一张图里，带你看懂 GPU 为什么成了训练大模型和生成内容的重要算力底座。
+首页推荐封面 4:3：L:\workspace\yinghe-shijie\covers\gpu-actually-works\gpu-actually-works-cover-4x3.png
+个人空间封面 16:9：L:\workspace\yinghe-shijie\covers\gpu-actually-works\gpu-actually-works-cover-16x9.png
+短视频竖版封面 9:16：L:\workspace\yinghe-shijie\covers\gpu-actually-works\gpu-actually-works-cover-9x16.png
+状态：已推荐
+
+## 2026-07-24 - How are Modern Flyovers Built?
+
+账号方向：男性向
+视频链接：https://www.youtube.com/watch?v=DOgnE6JQqso
+视频标题：How are Modern Flyovers Built?
+频道：Sabin Civil Engineering
+画质：公开视频页、oEmbed 元数据与 1280×720 maxres 缩略图已核验可访问；匿名 1080p 格式探测受 YouTube 验证页限制，下载时复核。
+内容分类：#科技纪录片 #城市基建 #高架桥 #工程可视化
+推荐理由：高架桥桥墩、盖梁、箱梁和架设流程有连续的施工可视化，尺度感强、少真人；可包装成“城市高架怎样不影响地面交通地一段段长出来”。
+搬运适合度（★★★★★）：★★★★☆
+中文字幕难度：中
+国内受众潜力：高
+B站标题建议：城市高架桥怎样一段段建起来？施工流程可视化
+抖音标题建议：高架桥不是一夜长出来的，先建哪一段？
+快手标题建议：高架桥这么重，桥墩和桥面咋一段段架起来？
+小红书标题建议：高架桥施工图解：看懂桥墩、箱梁和架设顺序
+封面文案：高架桥施工 / 工程可视化
+视频简介：城市高架从地面看是一整条路，施工时却要拆成桥墩、承台、盖梁、预制梁与桥面等多个环节。视频用工程动画串起关键工序，带你看懂大型桥梁如何在有限场地内逐段架设，并把道路重新接起来。
+首页推荐封面 4:3：L:\workspace\yinghe-shijie\covers\modern-flyovers-built\modern-flyovers-built-cover-4x3.png
+个人空间封面 16:9：L:\workspace\yinghe-shijie\covers\modern-flyovers-built\modern-flyovers-built-cover-16x9.png
+短视频竖版封面 9:16：L:\workspace\yinghe-shijie\covers\modern-flyovers-built\modern-flyovers-built-cover-9x16.png
+状态：已推荐
+
 ## 2026-07-23 - F35 Stealth Fighter Jet How it Works
 
 账号方向：男性向

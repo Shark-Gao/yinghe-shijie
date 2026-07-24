@@ -1,4 +1,4 @@
 interface:
   display_name: "硬核短视频工坊"
-  short_description: "把长视频与字幕剪成多平台中文短视频，含解说、字幕、封面和发布简介"
-  default_prompt: "Use $yinghe-short-video to turn my source video and subtitles into platform-specific Chinese short videos with narration, subtitles, covers, titles, and publish descriptions."
+  short_description: "把长视频与字幕剪成带强钩子、解说和多平台包装的中文短视频"
+  default_prompt: "Use $yinghe-short-video to turn my source video and subtitles into a Chinese short video with a 2-second hook, answer-first narration, platform titles, and covers only if requested."

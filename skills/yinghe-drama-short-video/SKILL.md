@@ -1,11 +1,13 @@
 ---
 name: yinghe-drama-short-video
-description: Analyze authorized drama, film, short-drama, or TV-episode footage with subtitles and create high-retention Chinese plot-commentary short-video plans or renders. Use when the user asks to turn a TV episode into a 30–90 second Chinese drama recap, plot-explainer clip, Douyin-style drama narration, episode highlight, title, cover copy, or platform-specific drama short.
+description: Analyze authorized drama, film, short-drama, or TV-episode footage with subtitles and create high-retention Chinese plot-commentary short-video plans or renders. Use only when the user explicitly asks for a drama, film, short-drama, or TV-episode short; do not route 硬核视界 military, geopolitics, engineering, AI, or technology videos through this skill.
 ---
 
 # 电视剧解说短视频工坊
 
-将有权使用的电视剧、电影或短剧素材，剪成以中文剧情解说为主体的短视频。复用 `yinghe-short-video` 的审片、计划、配音和导出能力，但不沿用硬核科普的选题与叙事方式。
+将有权使用的电视剧、电影或短剧素材，剪成以中文剧情解说为主体的短视频。复用 `yinghe-short-video` 的审片、计划、配音和导出能力，但不沿用硬核科普的选题与叙事方式。它是独立的影视分支，不参与「硬核视界」男性向三条内容线的配额、记录或数据判断。
+
+每条剧情先完成四项：一个普通观众能理解的人性问题、一个前 2 秒冲突钩子、一个 5—10 秒内交付的阶段性答案，以及一个与结尾一致的情绪变化。标题、封面、口播和结尾不得各自承诺不同的剧情结果。
 
 ## 视频号选题方向
 

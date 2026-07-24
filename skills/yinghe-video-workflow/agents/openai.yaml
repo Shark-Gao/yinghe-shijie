@@ -1,4 +1,4 @@
 interface:
   display_name: "硬核视界视频工作流"
-  short_description: "按男性向或女性向账号推荐视频，并维护独立记录。"
+  short_description: "按账号方向推荐地缘政治、军事、工程科技或女性成长源片并维护记录。"
   default_prompt: "推荐男性向视频或推荐女性向视频"

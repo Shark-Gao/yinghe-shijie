@@ -15,7 +15,7 @@ $ErrorActionPreference = 'Stop'
 $skillRoot = Split-Path -Parent $PSScriptRoot
 $projectRoot = Split-Path -Parent (Split-Path -Parent $skillRoot)
 $OutputDirectory = if ([string]::IsNullOrWhiteSpace($OutputDirectory)) {
-    Join-Path $projectRoot 'videos'
+    Join-Path $projectRoot 'videos\raw'
 } else {
     $OutputDirectory
 }

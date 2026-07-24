@@ -6,6 +6,14 @@ Use UTF-8 JSON. Time values can be seconds or `HH:MM:SS.mmm`.
 {
   "version": 1,
   "title": "一台机器一天挖走二十四万吨岩石",
+  "editorial": {
+    "content_lane": "大国工程/科技/产业竞争",
+    "audience_question": "这台机器为什么能连续处理这么大的工程量？",
+    "promised_answer": "因为挖掘、输送和堆料被连成了一条连续生产线。",
+    "emotional_shift": "从以为是单台巨型设备，到看懂它其实是一套连续系统。",
+    "series_link": "超级机械系列",
+    "claim_status": "verified_fact"
+  },
   "platform_titles": {
     "bilibili": "一台机器一天挖走二十四万吨岩石，它究竟怎么做到的？",
     "douyin": "一天挖走二十四万吨岩石，什么机器这么猛？",
@@ -50,6 +58,17 @@ Use UTF-8 JSON. Time values can be seconds or `HH:MM:SS.mmm`.
 `platform_titles` is required for every new short-video plan. It contains four delivery titles: `bilibili`, `douyin`, `kuaishou`, and `xiaohongshu`. Keep `title` equal to `platform_titles.bilibili` for compatibility with the current render scripts. The renderer ignores `platform_titles`; it is preserved in the plan so every final delivery can list platform-ready titles.
 
 `platform_descriptions` is required for every new short-video plan. It uses the same four platform keys and contains the corresponding publish-ready Chinese descriptions. The renderer ignores this object; preserve it in the plan so final delivery can include platform-ready copy. Keep every description factual and consistent with the completed narration and video. Include required source or licence attribution when applicable.
+
+`editorial` is required for new plans made for 硬核视界 and is ignored by the renderer. It records the content lane and the promise that the first 5–10 seconds must fulfill:
+
+- `content_lane`: one of `地缘政治/国际局势`, `军事装备/战争机制`, or `大国工程/科技/产业竞争`.
+- `audience_question`: one plain-language question for an ordinary viewer.
+- `promised_answer`: one sentence that the opening must deliver or clearly establish by 5–10 seconds.
+- `emotional_shift`: the change in understanding the video is designed to create; do not use hostility or unsupported outrage as the only shift.
+- `series_link`: the collection or next episode this story belongs to.
+- `claim_status`: use `verified_fact`, `source_analysis`, or `mixed`; for `mixed`, identify which parts are analysis in the narration or description.
+
+For current geopolitical topics, do not write `verified_fact` when the source only offers commentary. Keep this object concise so it guides editing without duplicating the full script.
 
 Use `contain_blur` or `fill_crop` only when a 9:16 output has been explicitly requested. `fill_crop` is for a close-up that remains readable after cropping; its `focus_x` controls the retained horizontal position: `0` left, `0.5` center, `1` right. Keep the selected source ranges inside the source duration.
 

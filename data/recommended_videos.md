@@ -4,6 +4,9 @@
 
 | 日期 | 视频标题 | YouTube链接 | 频道 | 类型 | 状态 |
 |---|---|---|---|---|---|
+| 2026-07-24 | Neptune Missile How it Works \| Ukraine Missile Vs Russian Cruiser Moskva Ship | https://www.youtube.com/watch?v=3RfKkn4qXuU | AiTelly | #军事 #反舰导弹 #导弹制导 #3D动画 | 已推荐 |
+| 2026-07-24 | How a GPU Actually Works (and Powers AI) | https://www.youtube.com/watch?v=s3yjlRkXhbA | Bug Labs | #AI #GPU #并行计算 #动画讲解 | 已推荐 |
+| 2026-07-24 | How are Modern Flyovers Built? | https://www.youtube.com/watch?v=DOgnE6JQqso | Sabin Civil Engineering | #科技纪录片 #城市基建 #高架桥 #工程可视化 | 已推荐 |
 | 2026-07-23 | F35 Stealth Fighter Jet How it Works | https://www.youtube.com/watch?v=vgUnF9hUmLQ | AiTelly | #军事 #F35 #隐身战机 #3D动画 | 已推荐 |
 | 2026-07-23 | How Wind Turbines Are Made? (Mega Factories Video) | https://www.youtube.com/watch?v=cPGKrNLQmSI | Engineering World | #科技纪录片 #新能源 #风电 #工业制造 | 已推荐 |
 | 2026-07-23 | How A Million Miles Of Undersea Cables Power The Internet — And Now AI | https://www.youtube.com/watch?v=Pz5XRyo5fiw | CNBC | #世界冷知识 #海底光缆 #全球互联网 #基础设施 | 已推荐 |

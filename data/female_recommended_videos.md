@@ -5,6 +5,9 @@
 
 | 日期 | 视频标题 | YouTube链接 | 频道 | 类型 | 账号方向 | 状态 |
 |---|---|---|---|---|---|---|
+| 2026-07-24 | How to Feel Feelings \| AboutKidsHealth at The Hospital for Sick Children | https://www.youtube.com/watch?v=rjJdzhRZxGw | AboutKidsHealth - The Hospital for Sick Children | #亲子沟通 #情绪管理 #生活方法 | 女性向 | 已推荐 |
+| 2026-07-24 | The Secret of Successful Relationships: Rupture and Repair | https://www.youtube.com/watch?v=rgQvqi6aYD8 | The School of Life | #家庭关系 #伴侣沟通 #关系修复 | 女性向 | 已推荐 |
+| 2026-07-24 | Why you procrastinate even when it feels bad | https://www.youtube.com/watch?v=FWTNMzK9vG4 | TED-Ed | #女性成长 #情绪管理 #生活方法 | 女性向 | 已推荐 |
 | 2026-07-23 | How to Help Children Regulate Emotions | https://www.youtube.com/watch?v=0tfYqP3D69E | Child Mind Institute | #亲子沟通 #情绪管理 #生活方法 | 女性向 | 已推荐 |
 | 2026-07-23 | How To Argue With Your Partner | https://www.youtube.com/watch?v=QQmqMZ-1v7c | The School of Life | #家庭关系 #伴侣沟通 #情绪管理 | 女性向 | 已推荐 |
 | 2026-07-23 | How to Tame a Pitiless Inner Critic | https://www.youtube.com/watch?v=NU8v-f7KzRQ | The School of Life | #女性成长 #自我关怀 #情绪管理 | 女性向 | 已推荐 |

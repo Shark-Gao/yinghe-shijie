@@ -3,6 +3,75 @@
 
 用于 TA成长笔记，保存女性向亲子育己视频的完整推荐信息、标题和封面路径。与男性向 `data/recommended_video_details.md` 分开维护。
 
+## 2026-07-24 - How to Feel Feelings | AboutKidsHealth at The Hospital for Sick Children
+
+账号方向：女性向
+视频链接：https://www.youtube.com/watch?v=rjJdzhRZxGw
+视频标题：How to Feel Feelings | AboutKidsHealth at The Hospital for Sick Children
+频道：AboutKidsHealth - The Hospital for Sick Children
+画质：公开视频页、oEmbed 元数据与 1280×720 maxres 缩略图已核验可访问；匿名 1080p 格式探测受 YouTube 验证页限制，下载时复核。
+内容分类：#亲子沟通 #情绪管理 #生活方法
+推荐理由：由儿童医院健康教育平台制作，围绕“感受可以被识别和说出来”展开，画面温和易懂；可转成家长陪孩子说感受的具体表达入口，不给孩子贴诊断标签。
+搬运适合度（★★★★★）：★★★★☆
+中文字幕难度：低
+国内受众潜力：高
+B站标题建议：孩子说不清难受时，先陪他把感受说出来
+抖音标题建议：孩子闹情绪，先帮他认出这份感受
+快手标题建议：孩子委屈又说不明白，家长怎么带着开口？
+小红书标题建议：儿童情绪表达方法：看懂怎样陪孩子说出感受
+封面文案：孩子有情绪 / 先陪他看懂
+视频简介：孩子难过、生气或害怕时，不一定马上知道自己在经历什么。视频用温和的儿童情境示范：先停下来留意身体和心里的变化，再用简单词语把感受说出来，让大人和孩子有机会继续沟通，不要求立刻平静。音乐：calm bgm — syncopika（CC BY 3.0）
+首页推荐封面 4:3：L:\workspace\yinghe-shijie\covers\how-to-feel-feelings\how-to-feel-feelings-cover-4x3.png
+个人空间封面 16:9：L:\workspace\yinghe-shijie\covers\how-to-feel-feelings\how-to-feel-feelings-cover-16x9.png
+短视频竖版封面 9:16：L:\workspace\yinghe-shijie\covers\how-to-feel-feelings\how-to-feel-feelings-cover-9x16.png
+状态：已推荐
+
+## 2026-07-24 - The Secret of Successful Relationships: Rupture and Repair
+
+账号方向：女性向
+视频链接：https://www.youtube.com/watch?v=rgQvqi6aYD8
+视频标题：The Secret of Successful Relationships: Rupture and Repair
+频道：The School of Life
+画质：公开视频页、oEmbed 元数据与 1280×720 maxres 缩略图已核验可访问；匿名 1080p 格式探测受 YouTube 验证页限制，下载时复核。
+内容分类：#家庭关系 #伴侣沟通 #关系修复
+推荐理由：精致插画将“冲突后修复”变成可见的关系过程，重点不在评判谁对谁错，而在如何重新回应、表达和连接，符合温和、可收藏的伴侣沟通定位。
+搬运适合度（★★★★★）：★★★★★
+中文字幕难度：中
+国内受众潜力：高
+B站标题建议：关系出现裂缝后，真正重要的是这一步修复
+抖音标题建议：吵完别只冷战，关系怎么慢慢修回来？
+快手标题建议：两口子闹别扭后，咋把关系往回拉一拉？
+小红书标题建议：伴侣关系修复图解：看懂冲突后怎样重新连接
+封面文案：关系裂开后 / 从争输赢到修复
+视频简介：关系里出现误会和争吵并不罕见，决定走向的往往是冲突之后有没有机会重新靠近。动画用“破裂—回应—修复”的过程，提示怎样从急着赢回到表达感受、听见需要，再一起寻找下一步。音乐：calm bgm — syncopika（CC BY 3.0）
+首页推荐封面 4:3：L:\workspace\yinghe-shijie\covers\rupture-and-repair\rupture-and-repair-cover-4x3.png
+个人空间封面 16:9：L:\workspace\yinghe-shijie\covers\rupture-and-repair\rupture-and-repair-cover-16x9.png
+短视频竖版封面 9:16：L:\workspace\yinghe-shijie\covers\rupture-and-repair\rupture-and-repair-cover-9x16.png
+状态：已推荐
+
+## 2026-07-24 - Why you procrastinate even when it feels bad
+
+账号方向：女性向
+视频链接：https://www.youtube.com/watch?v=FWTNMzK9vG4
+视频标题：Why you procrastinate even when it feels bad
+频道：TED-Ed
+画质：公开视频页、oEmbed 元数据与 1280×720 maxres 缩略图已核验可访问；匿名 1080p 格式探测受 YouTube 验证页限制，下载时复核。
+内容分类：#女性成长 #情绪管理 #生活方法
+推荐理由：用高完成度动画解释拖延与即时情绪回避之间的关系，可落到“把任务缩成下一步”这一可执行方法；不把拖延等同于懒惰或任何心理诊断。
+搬运适合度（★★★★★）：★★★★★
+中文字幕难度：中
+国内受众潜力：高
+B站标题建议：明知会更焦虑，为什么还是拖延？从大脑回避说起
+抖音标题建议：越拖越焦虑，为什么还是不想开始？
+快手标题建议：明知道该做，咋就是拖着不动？
+小红书标题建议：拖延心理学图解：看懂情绪回避，拆出下一步行动
+封面文案：总拖延 / 先做下一步
+视频简介：拖延不总是“不会安排时间”，很多时候是在回避当下的不舒服。动画解释这种短暂缓解为什么会让任务更难开始，并把重点放回一个更小的动作：先把任务拆成能立刻动手的下一步。音乐：calm bgm — syncopika（CC BY 3.0）
+首页推荐封面 4:3：L:\workspace\yinghe-shijie\covers\why-procrastinate\why-procrastinate-cover-4x3.png
+个人空间封面 16:9：L:\workspace\yinghe-shijie\covers\why-procrastinate\why-procrastinate-cover-16x9.png
+短视频竖版封面 9:16：L:\workspace\yinghe-shijie\covers\why-procrastinate\why-procrastinate-cover-9x16.png
+状态：已推荐
+
 ## 2026-07-23 - How to Help Children Regulate Emotions
 
 账号方向：女性向

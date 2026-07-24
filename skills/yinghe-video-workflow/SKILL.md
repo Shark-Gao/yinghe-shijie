@@ -1,6 +1,6 @@
 ---
 name: yinghe-video-workflow
-description: Use when the user asks for a video recommendation (including an unqualified “推荐视频” or “推荐一条”), selects a source video, or asks for recommendation info, titles, descriptions, thumbnail text, Bilibili cover assets, or vertical short-video covers. If direction is missing, ask before acting.
+description: Use when the user asks for a video recommendation (including an unqualified “推荐视频” or “推荐一条”), selects a source video, or asks for recommendation info, titles, descriptions, thumbnail text, Bilibili cover assets, or vertical short-video covers for 硬核视界 or TA成长笔记. For 硬核视界, select and package geopolitics, military equipment, war mechanisms, major engineering, technology, AI, and industry-competition topics for ordinary Chinese viewers. If direction is missing, ask before acting.
 ---
 
 # 硬核视界视频工作流
@@ -22,16 +22,35 @@ Recommend the requested number of YouTube source videos for the selected account
 
 Use this skill for the project at `L:\workspace\yinghe-shijie` or any checkout containing the same `AGENTS.md`, `data/`, `docs/`, and `prompts/` structure. Keep male and female recommendations, queues, completed items, titles, covers, and metrics separate.
 
-Follow the project positioning:
+Follow the project positioning for `男性向 / 硬核视界`:
 
-- Audience: male viewers interested in technology, AI, military, business, cars, engineering, documentaries, psychology, men’s health, and relationship science.
-- Prefer: strong visuals, high information density, little or no presenter footage.
-- Prioritize: 3D animation, engineering visualization, documentary footage, map animation, industrial manufacturing, AI demos, large machinery, infrastructure, data visualization.
+- Core promise: `从军事装备、地图和技术细节，看懂国际局势`。
+- Audience: ordinary Chinese viewers who enjoy military, technology, engineering, AI, industry, and global affairs; do not assume expert knowledge.
+- Initial male-account matrix: `地缘政治 / 国际局势 40%`、`军事装备 / 战争机制 40%`、`大国工程 / 科技 / 产业竞争 20%`。
+- Treat geopolitics as a traffic entry, not as a separate pure-commentary account. Prefer `event + map/equipment/industry detail + real-world consequence`.
+- Prefer: strong visuals, high information density, little or no presenter footage; prioritize 3D animation, engineering visualization, documentary footage, map animation, industrial manufacturing, AI demos, large machinery, infrastructure, and data visualization.
 - Avoid recommending the same source video twice.
 - 永久排除频道 `3Blue1Brown`：不得推荐其任何视频；即使用户指定该频道，也先说明其已被项目列入禁推名单，并改选其他来源。
 - Keep topics series-friendly instead of jumping randomly between categories.
 - 军工装备是高优先级题材：候选质量相当时，优先航母、潜艇、战机、导弹防御、无人装备等少真人、强工程可视化内容。
-- 若用户要求每日三条推荐，三条必须属于三个不同的主主题；单日内不重复同一题材或同一系列，系列连续性通过跨天选题维持。
+- 若用户要求每日三条推荐，男性向三条分别优先覆盖三个主赛道；单日内不重复同一题材或同一系列，系列连续性通过跨天选题维持。
+
+### 男性向选题闸门
+
+Before recommending a source, write a compact editorial card:
+
+```text
+主赛道：地缘政治 / 军事装备 / 大国工程科技
+普通人问题：观众为什么要关心？
+核心答案：这条内容最终让观众明白什么？
+前2秒钩子：第一句话和第一画面是什么？
+5-10秒承诺：最晚什么时候交付核心答案？
+情绪变化：观众看完后从什么判断变成什么判断？
+系列归属：后续还能否做出至少3条相关内容？
+事实状态：已证实事实 / 来源分析 / 推测，分别标明
+```
+
+Reject candidates that are merely technically interesting but cannot answer a mainstream question, show a concrete consequence, or provide usable visual proof. For current geopolitical topics, verify dates, participants, locations, and the boundary between fact and analysis before writing a strong claim.
 
 ### 女性向账号：TA成长笔记
 
@@ -74,13 +93,11 @@ Avoid over-prioritizing cold pure-mechanism videos unless they can become a clea
    - 女性向：`data/female_recommended_videos.md`、`data/female_queued_videos.md`、`data/female_completed_videos.md`。
    Never use a record from the other branch as if it belonged to the selected account. Before finalizing, perform an exact-URL duplicate check against both branches; a source already used by either account is a duplicate unless the user explicitly asks to reuse it.
 2. Search or open current web sources to verify the video exists, the title/channel are correct, and the source URL is not already recorded. Reject the candidate immediately if the channel is `3Blue1Brown`.
-3. Select exactly the number of videos requested by the user; when no quantity is specified, select one. For a daily batch of exactly three, select three different primary themes before optimizing for series continuity. For the configured six-item automation, apply this rule separately to the three-item 男性向 branch and the three-item 女性向 branch. Prefer videos that fit the current content matrix and have a clear Chinese-market title hook:
-   - 科技纪录片 22%
-   - AI 38%
-   - 军事 30%
-   - 世界冷知识 10%
-   - 汽车机械 0%
-   - 人体科普 0%
+3. Select exactly the number of videos requested by the user; when no quantity is specified, select one. For a daily batch of exactly three, select three different male primary lanes before optimizing for series continuity. For the configured six-item automation, apply this rule separately to the three-item 男性向 branch and the three-item 女性向 branch. Prefer candidates that fit one of these lanes:
+   - 地缘政治 / 国际局势：40%
+   - 军事装备 / 战争机制：40%
+   - 大国工程 / 科技 / 产业竞争：20%
+   Within the third lane, AI, chips, energy, aerospace, infrastructure, and industrial manufacturing are subtopics rather than separate account directions.
 4. Output every recommendation as one copy-ready publishing entry. The topic, hashtag classification, recommendation angle, video description, and all platform title variants must stay together in that single entry.
 5. Add the video to the top of the matching recommendation file (`data/recommended_videos.md` for 男性向, `data/female_recommended_videos.md` for 女性向) with today’s date, the selected account direction, and status `已推荐`, keeping newest records first.
 6. Also add the full recommendation details to the top of the matching detail file (`data/recommended_video_details.md` for 男性向, `data/female_recommended_video_details.md` for 女性向) in one human-readable block, keeping newest records first so the user can review recent entries without re-reading chat history.
@@ -94,9 +111,11 @@ Immediately below each heading, use one `text` code block in this exact structur
 
 ```text
 【选题】
-主主题：<科技纪录片 / AI / 军事 / 世界冷知识 / 汽车机械 / 人体科普之一>
+主主题：<地缘政治 / 军事装备 / 大国工程科技之一>
 内容分类：#标签1 #标签2 #标签3
 选题角度：<一句话说明可包装成的国内热门问题或冲突>
+核心答案：<这条内容最晚在前10秒交付的结论>
+开头钩子：<前2秒口播或字幕，以及对应的第一画面>
 
 【发布内容】
 视频简介：<80—150 字中文发布简介>
@@ -226,10 +245,12 @@ In the final response, show which file goes into each Bilibili upload slot and t
 ## Selection Notes
 
 - Prefer videos that can work with the V1.0 workflow: Telegram download MP4 → 剪映生成中英字幕 → 导出成片.
-- Prefer videos that can be titled around conflict, scale, cost, scarcity, practical use, or why the subject is difficult.
+- Prefer videos that can be titled around conflict, scale, cost, scarcity, practical use, consequence, or why the subject is difficult.
+- For geopolitics, prefer topics that connect a recognizable event or country to a concrete mechanism: map position, military capability, energy route, industrial dependency, alliance cost, or civilian consequence.
+- Prefer a clear stance or contrast that changes the viewer's understanding, but do not manufacture hostility, present speculation as fact, or use absolute claims only to provoke comments.
 - Prefer source topics that resemble proven domestic formats: engineering spectacle, industry competition, AI demos, military equipment, geography knowledge, disaster or failure reconstruction.
-- When multiple candidates are similarly strong, first preserve different primary themes within a three-video daily batch. Then break ties in this order: `#军事` / `#军工装备` / `#AI` / `#AI硬件` / `#芯片制造` / `#机器人` / `#航天工程` / `#科技纪录片`, then other categories.
-- Strongly prefer source videos that can be localized into mainstream Chinese tech questions such as `AI 为什么离不开 GPU？`, `芯片为什么这么难造？`, `机器人为什么还替代不了人？`, `数据中心为什么越建越耗电？`, or `商业航天到底贵在哪？`.
+- When multiple candidates are similarly strong, first preserve the three male primary lanes within a three-video daily batch. Then break ties in this order: `#地缘政治` / `#国际局势` / `#军事` / `#军工装备` / `#AI` / `#AI硬件` / `#芯片制造` / `#机器人` / `#航天工程` / `#科技纪录片`, then other categories.
+- Strongly prefer source videos that can be localized into mainstream Chinese questions such as `为什么一个海峡会影响全球贸易？`, `为什么某国急着购买某型战机？`, `AI 为什么离不开 GPU？`, `芯片为什么这么难造？`, `数据中心为什么越建越耗电？`, or `商业航天到底贵在哪？`.
 - Avoid videos that rely heavily on talking-head performance, podcast-style discussion, or visual context that cannot be understood with subtitles.
 - Prefer visually self-explanatory source videos where subtitles alone can carry the Chinese remake.
 - Prefer source videos with no obvious watermarks, channel bug overlays, platform logos, or reused compilation watermarks. If a strong candidate has minor unavoidable branding, mention the risk and prefer a cleaner alternative when available.
@@ -277,7 +298,7 @@ Requirements for `data/recommended_video_details.md`:
 
 - Keep all recommendation detail blocks in this single file.
 - Keep entries in reverse chronological order, with the newest date first. Preserve recommendation order within the same date.
-- Use absolute filesystem paths for all three cover lines.
+- When covers were requested, use absolute filesystem paths for all three cover lines. When covers were not requested, replace the three cover lines with `封面：未生成（需用户明确要求）`.
 - This detail file is for human review, so keep prose readable instead of using a Markdown table.
 
 For 女性向, write the same detail block to `data/female_recommended_video_details.md`, include `账号方向：女性向`, and apply the female-account topic and safety rules above. Do not mix the two account directions in one detail file.

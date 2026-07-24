@@ -23,11 +23,18 @@ Data cutoff: 2026-07-17. These values are directional benchmarks, not universal 
   "completion": 3.4,
   "interaction": 6.8,
   "followers": 82,
+  "hook_2s": 38.0,
+  "hook_5s": 24.0,
+  "hook_10s": 12.0,
+  "likes": 205,
+  "comments": 6,
+  "saves": 159,
+  "shares": 18,
   "note": "将答案提前到前2秒"
 }
 ```
 
-Use `null` for unavailable fields. Store rate fields as percentages without the percent sign.
+Use `null` for unavailable fields. Store rate fields as percentages without the percent sign. `plays` means the platform's original plays/views metric; preserve the platform label in the note when the terms differ. Only derive `follow_conversion` when followers and plays/views have matching scope; it need not be stored when the denominator is unclear.
 
 ## Dashboard behavior
 

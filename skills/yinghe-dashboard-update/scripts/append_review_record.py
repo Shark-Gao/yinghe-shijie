@@ -24,6 +24,13 @@ def main():
     parser.add_argument("--completion")
     parser.add_argument("--interaction")
     parser.add_argument("--followers")
+    parser.add_argument("--hook-2s")
+    parser.add_argument("--hook-5s")
+    parser.add_argument("--hook-10s")
+    parser.add_argument("--likes")
+    parser.add_argument("--comments")
+    parser.add_argument("--saves")
+    parser.add_argument("--shares")
     parser.add_argument("--note", default="")
     parser.add_argument("--replace", action="store_true")
     args = parser.parse_args()
@@ -44,6 +51,13 @@ def main():
         "completion": optional_number(args.completion),
         "interaction": optional_number(args.interaction),
         "followers": optional_number(args.followers),
+        "hook_2s": optional_number(args.hook_2s),
+        "hook_5s": optional_number(args.hook_5s),
+        "hook_10s": optional_number(args.hook_10s),
+        "likes": optional_number(args.likes),
+        "comments": optional_number(args.comments),
+        "saves": optional_number(args.saves),
+        "shares": optional_number(args.shares),
         "note": args.note,
     }
     duplicate = [i for i, item in enumerate(records) if item.get("platform") == args.platform and item.get("period") == args.period]

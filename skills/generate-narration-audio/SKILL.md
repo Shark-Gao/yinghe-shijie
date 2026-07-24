@@ -1,6 +1,6 @@
 ---
 name: generate-narration-audio
-description: Use when the user asks to generate source-length Chinese narration, 等长解说, 字幕解说音频, Yunyang MP3, automatic ducked audio mix, or JSON video text annotations from SRT/VTT/TXT subtitles for 硬核视界 videos.
+description: Use when the user asks to generate source-length Chinese narration, 等长解说, 字幕解说音频, Yunyang MP3, automatic ducked audio mix, or JSON video text annotations from SRT/VTT/TXT subtitles for 硬核视界 videos. Apply the project's ordinary-viewer hook, answer-first, geopolitics, military-equipment, engineering, and multi-platform packaging rules when rewriting narration.
 ---
 
 # Generate Narration Audio
@@ -12,6 +12,22 @@ Turn bilingual or English/Chinese subtitles into source-length Chinese narration
 Only use 等长全程 mode. Do not create short remix or intermittent guide tracks.
 
 Default style: calm documentary male narration, tech/engineering focus, natural Chinese口播, no marketing hype, no direct subtitle line-by-line translation.
+
+## Editorial preflight
+
+Before rewriting a long narration, create a compact brief and keep it next to the timeline work:
+
+```text
+主赛道：地缘政治 / 军事装备 / 大国工程科技
+普通人问题：观众为什么要关心？
+核心答案：这条视频最终让观众明白什么？
+前2秒钩子：第一句如何制造冲突、结果或反常识？
+5-10秒承诺：最晚何时交付核心答案？
+情绪变化：观众看完后从什么判断变成什么判断？
+系列归属：下一条可以接什么？
+```
+
+Do not begin with generic background or a source-channel introduction. For geopolitical material, separate verified facts, source analysis, and inference; preserve uncertainty instead of turning commentary into a factual claim. For military and engineering material, make each important explanation match visible footage, diagrams, maps, or subtitles.
 
 ## Workflow
 
@@ -57,6 +73,9 @@ Default style: calm documentary male narration, tech/engineering focus, natural 
 - Convert digits to spoken Chinese when it improves TTS, such as `550` -> `五百五十`.
 - Keep key facts and numbers from the source.
 - Do not invent facts. If adding a simple explanation, keep it faithful to the source and visual context.
+- Deliver the core answer by 5–10 seconds. Put historical background, definitions, and secondary context after the answer unless the background is itself the answer.
+- For geopolitics, avoid absolute claims about countries, wars, or alliances unless the source and current verification support them. Prefer concrete mechanisms such as geography, equipment, logistics, energy, industry, or civilian impact.
+- Preserve the intended emotional change through clarity, consequence, contrast, or a useful question; do not use empty outrage, insults, or fabricated conflict.
 - 默认提高中文解说的信息密度：在不超出时间窗、不遮蔽关键画面节奏的前提下，优先补充“为什么”“数据怎样流动”“这一设计带来的结果”等解释，而不是只复述字幕或画面。
 - 对 20–30 分钟视频，优先使用 50–80 个自然口播段；每 30 秒时间窗通常写 80–110 个中文字符，并根据实际 TTS 时长缩短或拆分。除非画面本身需要留白，不要让长时间窗只剩一两句解说。
 - Prefer "低沉、平稳、纪录片风格男声".
