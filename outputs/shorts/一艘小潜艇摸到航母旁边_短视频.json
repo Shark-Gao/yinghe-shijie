@@ -1,0 +1,91 @@
+{
+  "version": 1,
+  "title": "一艘小潜艇怎么摸到航母旁边？关键不是速度，而是安静",
+  "editorial": {
+    "content_lane": "军事装备/战争机制",
+    "audience_question": "一艘小型常规潜艇，为什么能在演习中摸到航母旁边？",
+    "promised_answer": "它靠低噪声推进和被动声纳，尽量不让自己暴露，再进入攻击窗口。",
+    "emotional_shift": "从以为靠速度硬闯，到看懂水下对抗先比谁被听见。",
+    "series_link": "潜艇与反潜战系列：下一期讲反潜舰如何搜索水下目标。",
+    "claim_status": "mixed"
+  },
+  "preflight_review": {
+    "status": "passed",
+    "review_scope": "content_before_render",
+    "one_line_question": "一艘小型常规潜艇，为什么能在演习中摸到航母旁边？",
+    "one_line_answer": "它靠低噪声推进和被动声纳，尽量不让自己暴露，再进入攻击窗口。",
+    "conflict": "小型潜艇的隐蔽接近，对抗航母编队的护航舰、飞机和声纳防线。",
+    "emotional_value": "观众从以为靠速度硬闯，转变为看懂水下对抗先比谁被听见。",
+    "checks": {
+      "position_and_fact": "pass",
+      "emotional_value": "pass",
+      "conflict_and_hook": "pass",
+      "answer_timing": "pass",
+      "visual_evidence": "pass",
+      "title_script_consistency": "pass",
+      "safety_and_attribution": "pass"
+    },
+    "risk_notes": [
+      "2005年演习结果统一表述为模拟鱼雷命中，不写成真实击沉。",
+      "涉及具体演习结果时，发布简介保留模拟结果边界；军事内容以装备机制和反潜逻辑为主。"
+    ],
+    "revision_notes": []
+  },
+  "platform_titles": {
+    "bilibili": "一艘小潜艇怎么摸到航母旁边？关键不是速度，而是安静",
+    "douyin": "小潜艇怎么绕过航母反潜网？",
+    "kuaishou": "小潜艇咋能摸到航母跟前？",
+    "xiaohongshu": "潜艇声纳与斯特林发动机图解：看懂它如何靠安静接近航母"
+  },
+  "platform_descriptions": {
+    "bilibili": "2005年海上演习中，瑞典哥特兰级潜艇曾穿过航母特遣队的反潜防线并模拟完成鱼雷命中。它靠的不是速度，而是被动声纳、低噪声发电和更少的暴露机会。本期用画面拆解这套水下接近逻辑。",
+    "douyin": "小潜艇为什么能靠近航母？关键不是硬闯，而是尽量不被声纳听见，再抢先进攻窗口。",
+    "kuaishou": "航母周围有护航舰和声纳，小潜艇咋还能摸过去？因为它少出声、只听不喊，还能在水下待更久。",
+    "xiaohongshu": "潜艇声纳与斯特林发动机图解：看懂哥特兰级潜艇如何用被动声纳、低噪声发电和电动机推进，减少暴露并接近航母。片中演习结果为模拟鱼雷命中。"
+  },
+  "source_video": "L:/workspace/yinghe-shijie/videos/raw/一艘小潜艇，怎么摸到航母旁边？.mp4",
+  "output_video": "L:/workspace/yinghe-shijie/videos/exports/短视频/一艘小潜艇，怎么摸到航母旁边？/一艘小潜艇摸到航母旁边_短视频/一艘小潜艇摸到航母旁边_短视频.mp4",
+  "cover_title": "一艘小潜艇怎么摸到航母旁边？",
+  "cover_headline": "静默逼近",
+  "cover_subhead": "关键是安静",
+  "cover_aspect": "16:9",
+  "background_music": "music/硬核视界_通用BGM_舒缓科普探索_CC0.mp3",
+  "layout": "source",
+  "burn_captions": false,
+  "write_subtitles": true,
+  "mix": {
+    "source_volume": 0.0,
+    "narration_volume": 1.0,
+    "music_volume": 0.45,
+    "music_fade_seconds": 0.0
+  },
+  "clips": [
+    { "id": "carrier-and-submarine", "source_start": "00:00:31.000", "source_end": "00:00:38.960", "focus_x": 0.5 },
+    { "id": "exercise-attack", "source_start": "00:00:36.300", "source_end": "00:00:46.992", "focus_x": 0.5 },
+    { "id": "carrier-task-force", "source_start": "00:00:42.800", "source_end": "00:00:51.836", "focus_x": 0.5 },
+    { "id": "active-sonar-model", "source_start": "00:01:10.000", "source_end": "00:01:18.796", "focus_x": 0.5 },
+    { "id": "passive-sonar-submarine", "source_start": "00:01:16.100", "source_end": "00:01:24.488", "focus_x": 0.5 },
+    { "id": "stirling-engine-intro", "source_start": "00:01:55.000", "source_end": "00:02:03.652", "focus_x": 0.5 },
+    { "id": "stirling-cycle", "source_start": "00:02:02.000", "source_end": "00:02:11.204", "focus_x": 0.5 },
+    { "id": "regenerator", "source_start": "00:04:00.000", "source_end": "00:04:09.540", "focus_x": 0.5 },
+    { "id": "task-force-return", "source_start": "00:00:50.000", "source_end": "00:01:00.620", "focus_x": 0.5 },
+    { "id": "underwater-approach", "source_start": "00:01:00.000", "source_end": "00:01:10.692", "focus_x": 0.5 },
+    { "id": "underwater-tail", "source_start": "00:01:05.700", "source_end": "00:01:06.500", "focus_x": 0.5 }
+  ],
+  "narration": {
+    "voice": "zh-CN-YunyangNeural",
+    "rate": "+0%",
+    "segments": [
+      { "start": "00:00:00.400", "end": "00:00:07.960", "text": "一艘小型常规潜艇，为什么能在演习里摸到航母旁边？关键不是速度，而是安静。" },
+      { "start": "00:00:08.260", "end": "00:00:18.652", "text": "2005年的一次海上演习中，瑞典哥特兰级潜艇穿过航母特遣队的反潜防线，进入攻击区，模拟完成多次鱼雷命中。" },
+      { "start": "00:00:18.952", "end": "00:00:27.688", "text": "要知道，航母周围还有护航舰、飞机和声纳。它能靠近，靠的是让对手很难先听见自己。" },
+      { "start": "00:00:27.988", "end": "00:00:36.484", "text": "声纳其实就是水下的耳朵。主动声纳会发出一声“ping”再听回波，但这一声也会暴露自己的位置。" },
+      { "start": "00:00:36.784", "end": "00:00:44.872", "text": "所以潜艇更多时候用被动声纳，只听海里的发动机、螺旋桨和水流，自己尽量不出声。" },
+      { "start": "00:00:45.172", "end": "00:00:53.524", "text": "哥特兰级的关键装备，是斯特林发动机。它主要负责安静地发电，再交给电池和电动机推进。" },
+      { "start": "00:00:53.824", "end": "00:01:02.728", "text": "斯特林发动机的原理并不神秘：封闭气体反复受热、冷却，压力变化推动活塞，把热能变成机械能。" },
+      { "start": "00:01:03.028", "end": "00:01:12.268", "text": "没有高速柴油机直接带着螺旋桨转，机械振动和排气噪声就更容易压低；排气还可以压缩储存在艇内。" },
+      { "start": "00:01:12.568", "end": "00:01:22.888", "text": "这意味着它能在水下保持更久，也能把暴露自己的机会压到更少。反潜作战里，先听见对手，往往就先拿到主动权。" },
+      { "start": "00:01:23.188", "end": "00:01:33.580", "text": "所以，小潜艇摸到航母旁边，不是靠蛮力挑战大舰，而是用低噪声、被动探测和耐心，抢在被发现前进入攻击窗口。" }
+    ]
+  }
+}

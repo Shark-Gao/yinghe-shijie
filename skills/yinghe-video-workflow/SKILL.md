@@ -1,128 +1,132 @@
 ---
 name: yinghe-video-workflow
-description: Use when the user asks for a video recommendation (including an unqualified “推荐视频” or “推荐一条”), selects a source video, or asks for recommendation info, titles, descriptions, thumbnail text, Bilibili cover assets, or vertical short-video covers for 硬核视界 or TA成长笔记. For 硬核视界, select and package geopolitics, military equipment, war mechanisms, major engineering, technology, AI, and industry-competition topics for ordinary Chinese viewers. If direction is missing, ask before acting.
+description: 当用户要求推荐视频、推荐一条、选源片、查看推荐信息、拟定标题/简介/封面文案，或为硬核视界、TA成长笔记生成封面时使用。硬核视界首要选择与中国直接相关或明确影响中国的地缘政治、军事装备、战争机制、大国工程、科技、AI 和产业竞争内容；如果没有明确账号方向，必须先询问。
 ---
 
 # 硬核视界视频工作流
 
-## Direction Gate（强制）
+## 账号方向闸门（强制）
 
-本技能现在服务两个彼此独立的账号方向。每次触发“推荐视频 / 推荐一条 / 选片”时，必须先从当前用户消息中识别出**一个且只有一个**方向，再进行搜索、选片、写记录或生成封面：
+每次触发“推荐视频”“推荐一条”或“选片”时，必须从当前用户消息中识别出一个且只有一个账号方向，再进行搜索、选片、写记录或生成封面：
 
-- `男性向`：硬核视界，继续使用 `data/recommended_videos.md`、`data/recommended_video_details.md` 及现有男性向选题矩阵。
-- `女性向`：TA成长笔记，使用 `data/female_recommended_videos.md`、`data/female_recommended_video_details.md` 及对应女性向记录文件。
+- `男性向`：硬核视界，使用 `data/recommended_videos.md`、`data/recommended_video_details.md` 和男性向选题矩阵；
+- `女性向`：TA成长笔记，使用 `data/female_recommended_videos.md`、`data/female_recommended_video_details.md` 和女性向记录文件。
 
-用户可以说“男性视频 / 男性向 / 硬核视界”，或“女性向视频 / 女性视频 / TA成长笔记”。如果用户只说“推荐视频”“推荐一条”而没有明确方向，**不得搜索、推荐、更新记录或生成封面**，先只追问：`这次要推荐男性向（硬核视界）还是女性向（TA成长笔记）视频？` 不得根据历史对话、最近一次选择或视频主题自行推断。普通用户请求若同时写了两个方向，先请用户拆分或明确本次主方向，禁止把两种账号混在同一批记录中。例外是已明确配置固定配额的每日自动任务（例如“男性向 3 条 + 女性向 3 条”）：自动任务可以同时运行两条分支，但必须分组处理、分别查重、分别写入记录，不能把两种方向合并成一个选题或记录。
+用户可以说“男性视频”“男性向”“硬核视界”，或“女性向视频”“女性视频”“TA成长笔记”。只说“推荐视频”而没有方向时，不得搜索、推荐、更新记录或生成封面，只追问：`这次要推荐男性向（硬核视界）还是女性向（TA成长笔记）视频？`
 
-## Goal
+不得根据历史对话、上一次选择或视频主题自行推断。用户同时写出两个方向时，先请用户拆分或明确本次主方向，不能把两个账号混入同一批记录。只有已经明确配置固定配额的自动任务（例如男性向 3 条 + 女性向 3 条）可以同时运行两个分支，但必须分组处理、分别查重、分别写记录。
 
-Recommend the requested number of YouTube source videos for the selected account direction and keep only that branch's project records current.
+## 目标
 
-## Project Context
+为选定的账号方向推荐用户要求数量的 YouTube 源视频，并只维护该方向的项目记录。
 
-Use this skill for the project at `L:\workspace\yinghe-shijie` or any checkout containing the same `AGENTS.md`, `data/`, `docs/`, and `prompts/` structure. Keep male and female recommendations, queues, completed items, titles, covers, and metrics separate.
+## 项目定位
 
-Follow the project positioning for `男性向 / 硬核视界`:
+本技能用于 `L:\workspace\yinghe-shijie`，或具有相同 `AGENTS.md`、`data/`、`docs/` 和 `prompts/` 结构的副本。男性向和女性向的推荐、排队、完成、标题、封面及数据必须分开保存。
 
-- Core promise: `从军事装备、地图和技术细节，看懂国际局势`。
-- Audience: ordinary Chinese viewers who enjoy military, technology, engineering, AI, industry, and global affairs; do not assume expert knowledge.
-- Initial male-account matrix: `地缘政治 / 国际局势 40%`、`军事装备 / 战争机制 40%`、`大国工程 / 科技 / 产业竞争 20%`。
-- Treat geopolitics as a traffic entry, not as a separate pure-commentary account. Prefer `event + map/equipment/industry detail + real-world consequence`.
-- Prefer: strong visuals, high information density, little or no presenter footage; prioritize 3D animation, engineering visualization, documentary footage, map animation, industrial manufacturing, AI demos, large machinery, infrastructure, and data visualization.
-- Avoid recommending the same source video twice.
-- 永久排除频道 `3Blue1Brown`：不得推荐其任何视频；即使用户指定该频道，也先说明其已被项目列入禁推名单，并改选其他来源。
-- Keep topics series-friendly instead of jumping randomly between categories.
-- 军工装备是高优先级题材：候选质量相当时，优先航母、潜艇、战机、导弹防御、无人装备等少真人、强工程可视化内容。
-- 若用户要求每日三条推荐，男性向三条分别优先覆盖三个主赛道；单日内不重复同一题材或同一系列，系列连续性通过跨天选题维持。
+### 男性向：硬核视界
 
-### 男性向选题闸门
+- 核心承诺：`从军事装备、地图和技术细节，看懂国际局势`。
+- 观众：喜欢军事、科技、工程、AI、产业和国际局势的普通中国观众，不默认观众是专家。
+- 初始内容矩阵：地缘政治/国际局势 40%、军事装备/战争机制 40%、大国工程/科技/产业竞争 20%。
+- 地缘政治是流量入口，不做脱离事实的纯评论；优先采用“事件 + 地图/装备/产业细节 + 现实后果”。
+- **首要选片门槛：候选必须优先与中国直接相关，或明确影响中国的周边安全、国际局势、产业竞争、能源通道、贸易路线、国际供应链和普通人现实生活。** 先做中国关联性筛选，再比较画面、信息密度和传播潜力；不能因为画面硬核就绕过这一门槛。只有检索不到满足条件的高质量候选时，才可放宽到一般硬核题材，并在推荐理由中明确说明放宽原因。
+- 选片时尽量跟随近期、可核验的时事热点，并把中国关联落到地图、装备、产业能力、能源价格、物流成本或现实影响上。热点必须服务于硬核解释，不能只追逐热搜或把未经证实的说法当作事实。
+- 优先选择强画面、高信息密度、少真人或无真人出镜的来源，尤其是 3D 动画、工程可视化、纪录片、地图动画、工业制造、AI 演示、大型机械、基础设施和数据可视化。
+- 不得重复推荐同一个源视频。
+- 永久排除频道 `3Blue1Brown`：不得推荐其任何视频；即使用户指定，也先说明该频道已列入禁推名单，再改选其他来源。
+- 选题要适合系列化，不要随机跳题。
+- 军工装备是高优先级；候选质量相当时，优先航母、潜艇、战机、导弹防御、无人装备等少真人、强工程可视化内容。
+- 用户要求每日三条时，男性向三条优先覆盖三个主赛道；当天不重复同一题材或同一系列，系列连续性通过跨天维持。
 
-Before recommending a source, write a compact editorial card:
+#### 男性向选题闸门
+
+推荐前先建立编辑卡；其中“普通人问题”和“核心答案”必须写清中国关联：
 
 ```text
 主赛道：地缘政治 / 军事装备 / 大国工程科技
+中国关联：与中国直接相关，或明确影响中国的安全、产业、能源、贸易、供应链或普通人生活
 普通人问题：观众为什么要关心？
 核心答案：这条内容最终让观众明白什么？
 前2秒钩子：第一句话和第一画面是什么？
-5-10秒承诺：最晚什么时候交付核心答案？
+5—10秒承诺：最晚什么时候交付核心答案？
 情绪变化：观众看完后从什么判断变成什么判断？
 系列归属：后续还能否做出至少3条相关内容？
 事实状态：已证实事实 / 来源分析 / 推测，分别标明
 ```
 
-Reject candidates that are merely technically interesting but cannot answer a mainstream question, show a concrete consequence, or provide usable visual proof. For current geopolitical topics, verify dates, participants, locations, and the boundary between fact and analysis before writing a strong claim.
+淘汰只能证明“技术有趣”但不能回答大众问题、展示具体后果或提供可用视觉证据的候选。当前地缘政治内容写出强结论前，要核验日期、参与方、地点以及事实和分析的边界。
 
-### 女性向账号：TA成长笔记
+### 女性向：TA成长笔记
 
-仅当用户明确选择 `女性向` 时使用以下定位，不要把它套到男性向账号：
+只有用户明确选择 `女性向` 时才使用以下定位，不能套到男性向账号：
 
-- 账号主题：亲子育己、情绪管理、亲子沟通、家庭关系、女性自我成长。
-- 目标表达：温和、具体、可实践、适合收藏和转发；优先把研究或故事转成“今天就能用”的一个小方法。
-- 画面偏好：少真人出镜或无真人出镜，优先动画/插画、心理学实验、纪录片片段、情境演示、信息图和可理解的生活场景。
-- 视觉审美优先：把“唯美、可爱、治愈感强”作为女性向源片的硬筛选项。优先温暖插画、绘本/定格/纸艺动画、柔和 3D、自然与生活美学镜头；画面要有统一配色、可做封面与首屏的主体，避免白底课件、粗糙线条动画、密集说教字幕和长时间专家对镜讲解。题材可靠性相当时，优先视觉更精致、情绪更柔和、适合国内女性收藏转发的版本。
-- 选题边界：优先可靠的心理学、教育学、关系沟通与家庭生活内容；涉及医学、心理诊断或育儿结论时，必须保留来源和不确定性，不作诊断或绝对化承诺。
-- 避免：性别对立煽动、羞辱父母或孩子、贩卖焦虑、未经证实的“育儿秘籍”、过度依赖专家面对镜头讲话的视频。
-- 频道与清晰度：在质量相当时优先订阅量约 10 万以上但非巨型频道；优先可核验的 1080p 或更高画质。频道规模和清晰度无法核验时如实标注，不得编造。
-- 初始测试矩阵（后续按数据调整）：亲子沟通 25%、情绪管理 25%、家庭关系 20%、女性成长 20%、心理学实验/生活方法 10%。女性向推荐不套用男性向的 AI/军事比例。
+- 主题：亲子育己、情绪管理、亲子沟通、家庭关系、女性自我成长；
+- 表达：温和、具体、可实践、适合收藏和转发，优先把研究或故事转成“今天就能用”的一个方法；
+- 画面：少真人或无真人，优先动画/插画、心理学实验、纪录片片段、情境演示、信息图和易懂的生活场景；
+- 审美：把唯美、可爱、治愈感强作为硬筛选项。优先温暖插画、绘本/定格/纸艺动画、柔和 3D、自然与生活美学镜头；画面要有统一配色和适合封面/首屏的主体，避免白底课件、粗糙线条动画、密集说教字幕和长时间专家对镜讲话。质量相当时，优先画面更精致、情绪更柔和、适合国内女性收藏转发的版本；
+- 边界：优先可靠的心理学、教育学、关系沟通和家庭生活内容。涉及医学、心理诊断或育儿结论时，必须保留来源和不确定性，不作诊断或绝对承诺；
+- 避免：性别对立煽动、羞辱父母或孩子、贩卖焦虑、未经证实的“育儿秘籍”、过度依赖专家面对镜头的视频；
+- 频道与清晰度：质量相当时优先订阅量约 10 万以上但非巨型频道，并优先可核验的 1080p 或更高画质。无法核验频道规模或清晰度时如实标注，不得编造；
+- 初始测试矩阵：亲子沟通 25%、情绪管理 25%、家庭关系 20%、女性成长 20%、心理学实验/生活方法 10%。女性向不套用男性向的 AI/军事比例。
 
-女性向记录的 `类型` 使用清晰的主题标签，例如 `#亲子沟通 #情绪管理 #心理学实验`，并在每条记录中写明 `账号方向：女性向`。
+女性向记录的 `类型` 使用清晰的主题标签，例如 `#亲子沟通 #情绪管理 #心理学实验`，每条记录写明 `账号方向：女性向`。
 
-### 女性向制作与包装基线（TA成长笔记）
+#### 女性向制作和包装基线
 
-当女性向源片进入短视频制作、生成封面或输出发布条目时，以下要求默认强制执行，除非用户明确要求例外：
+女性向源片进入短视频制作、封面生成或发布包装时，以下规则默认强制执行，除非用户明确要求例外：
 
-- **配音与音乐：** 女性向必须按题材自动选声；用户指定声音时始终以用户要求为准。亲子沟通、儿童情绪、早期成长、照护者与孩子互动等内容，使用温和女声 `zh-CN-XiaoxiaoNeural`，语速默认 `+0%`；女性成长、自我关怀、成人情绪管理、关系边界、伴侣沟通、依恋与独处等以成年女性为主要受众且无儿童场景的内容，使用沉稳、有陪伴感的男声 `zh-CN-YunyangNeural`，语速默认 `-4%`。男声应克制、清晰，不采用激情播报或“霸总式”表达；只要主题同时涉及儿童或亲子关系，就优先切回女声。使用 `music/TA成长笔记_CalmBGM_syncopika_CCBY30.ogg`，背景音量与男性向默认一致，为 `0.45`，不混入原片声音。该音乐为 CC-BY 3.0，发布简介必须包含：`音乐：calm bgm — syncopika（CC BY 3.0）`。
-- **标题与承诺：** 标题、封面文案、前 5–10 秒口播、方法步骤和结尾必须回答同一个具体问题。不得把长期练习包装成“立刻冷静”，不得使用“治愈”“保证”“一定有效”等绝对承诺；将收益写成可被视频证明的具体动作或能力，例如“高压下稳定发挥”“把注意力拉回当下”。
-- **封面视觉：** 所有女性向封面沿用“稳定发挥”视觉体系：深海军蓝底、薄荷绿/青绿色聚焦层、珊瑚色混乱线条收束为清晰目标、温暖的非写实编辑插画。默认以沉静的成年女性/照护者为主体；亲子内容可使用照护者与孩子，但色彩、线条和“混乱→聚焦”的叙事不变。16:9 主体置左侧或左下、右侧留深色标题区；9:16 主体置下半区、顶部留深色标题区。底图不生成文字，后期再叠加高对比中文标题。参考文件：`videos/exports/短视频/压力一上来如何冷静？3个可练习的稳定方法/稳定发挥_短视频/稳定发挥_封面_16x9_设计版.png` 与对应 `9x16` 文件。
-- **节奏验收：** 依据实际 TTS 时长回写时间线；普通口播段间保留约 `0.2–0.4` 秒，超过 `0.6` 秒必须有明确叙事理由。最终必须检查标题—口播—字幕—画面四者一致，不能只通过分辨率和字幕时间等技术校验。
+- **配音和音乐：** 统一优先使用本地 `CosyVoice-300M-SFT`，Python 使用 `tools/CosyVoice/.venv/Scripts/python.exe`，`mode: "sft"`，有可用 NVIDIA GPU 时自动使用 CUDA + FP16。亲子沟通、儿童情绪、早期成长、照护者与孩子互动使用温和女声 `中文女`；女性成长、自我关怀、成人情绪管理、关系边界、伴侣沟通、依恋与独处且无儿童场景时，使用沉稳、有陪伴感的男声 `中文男`。用户指定声音时以用户要求为准；只要同时涉及儿童/亲子，就优先女声。男声要克制、清晰，不激情播报或使用“霸总式”表达。CosyVoice 不可用时才回退 Edge TTS。BGM 使用 `music/TA成长笔记_CalmBGM_syncopika_CCBY30.ogg`，音量 `0.45`，不混入原片声音。该音乐为 CC-BY 3.0，发布简介必须包含 `音乐：calm bgm — syncopika（CC BY 3.0）`。
+- **标题和承诺：** 标题、封面文案、前 5–10 秒口播、方法步骤和结尾都回答同一个具体问题。不得把长期练习包装成“立刻冷静”，不得使用“治愈”“保证”“一定有效”等绝对承诺；收益必须写成视频能够证明的动作或能力，例如“高压下稳定发挥”“把注意力拉回当下”。
+- **封面视觉：** 使用“稳定发挥”体系：深海军蓝底、薄荷绿/青绿色聚焦层、珊瑚色混乱线条收束为清晰目标、温暖非写实编辑插画。默认主体为沉静的成年女性/照护者；亲子内容可用照护者与孩子，但保持同一色彩、线条和“混乱→聚焦”叙事。16:9 主体左侧/左下、右侧留标题区；9:16 主体下半区、顶部留标题区。底图不生成文字，后期叠加中文标题。参考项目中“稳定发挥”封面。
+- **节奏验收：** 根据实际 TTS 时长回写时间线，普通口播段间约 0.2–0.4 秒；超过 0.6 秒必须有明确叙事理由。最终要检查标题—口播—字幕—画面一致，不能只做分辨率和字幕时间的技术检查。
 
-Before selecting a source video, judge whether it can be localized into a topic style that already works for similar Chinese creators. Prefer source videos that can be reframed around:
+## 国内化选题方向
 
-- 大国工程：nuclear power, hydropower, rail, bridges, tunnels, power grids, ports, aerospace.
-- 产业竞争：chips, lithography, GPUs, robots, batteries, engines, drones, machine tools.
-- AI 应用：AI agents, AI training, AI hardware, AI video, AI safety, AI robots.
-- 军工装备：aircraft carriers, submarines, tanks, fighter jets, missile defense, unmanned systems.
-- 世界冷知识：map animation, geography, extreme environments, resource competition, disaster breakdowns, megastructures.
+选源时先判断它是否直接涉及中国，或能明确解释中国观众关心的安全、产业、能源、贸易与生活问题；满足中国关联后，再判断它能否被本地化为国内创作者已经验证的内容形态，优先：
 
-Avoid over-prioritizing cold pure-mechanism videos unless they can become a clear mainstream question such as `芯片为什么这么难造？`, `AI 为什么离不开 GPU？`, or `航母内部到底怎么运转？`.
+- 大国工程：核电、水电、铁路、桥梁、隧道、电网、港口、航天；
+- 产业竞争：芯片、光刻、GPU、机器人、电池、发动机、无人机、机床；
+- AI 应用：AI 智能体、AI 训练、AI 硬件、AI 视频、AI 安全、AI 机器人；
+- 军工装备：航母、潜艇、坦克、战斗机、导弹防御、无人系统；
+- 世界冷知识：地图动画、地理、极端环境、资源竞争、灾难复盘、超级工程。
 
-## Required Workflow
+不要过度优先选择纯冷门原理题，除非能转化成明确的大众问题，例如“芯片为什么这么难造”“AI 为什么离不开 GPU”“航母内部到底怎么运转”。
 
-1. Read existing records before recommending or recording a source video. After the Direction Gate, read the matching branch:
-   - 男性向：`data/recommended_videos.md`、`data/queued_videos.md`、`data/completed_videos.md`。
+## 必须执行的流程
+
+1. 读取已有记录后再推荐或记录源片。通过方向闸门后读取对应分支：
+   - 男性向：`data/recommended_videos.md`、`data/queued_videos.md`、`data/completed_videos.md`；
    - 女性向：`data/female_recommended_videos.md`、`data/female_queued_videos.md`、`data/female_completed_videos.md`。
-   Never use a record from the other branch as if it belonged to the selected account. Before finalizing, perform an exact-URL duplicate check against both branches; a source already used by either account is a duplicate unless the user explicitly asks to reuse it.
-2. Search or open current web sources to verify the video exists, the title/channel are correct, and the source URL is not already recorded. Reject the candidate immediately if the channel is `3Blue1Brown`.
-3. Select exactly the number of videos requested by the user; when no quantity is specified, select one. For a daily batch of exactly three, select three different male primary lanes before optimizing for series continuity. For the configured six-item automation, apply this rule separately to the three-item 男性向 branch and the three-item 女性向 branch. Prefer candidates that fit one of these lanes:
-   - 地缘政治 / 国际局势：40%
-   - 军事装备 / 战争机制：40%
-   - 大国工程 / 科技 / 产业竞争：20%
-   Within the third lane, AI, chips, energy, aerospace, infrastructure, and industrial manufacturing are subtopics rather than separate account directions.
-4. Output every recommendation as one copy-ready publishing entry. The topic, hashtag classification, recommendation angle, video description, and all platform title variants must stay together in that single entry.
-5. Add the video to the top of the matching recommendation file (`data/recommended_videos.md` for 男性向, `data/female_recommended_videos.md` for 女性向) with today’s date, the selected account direction, and status `已推荐`, keeping newest records first.
-6. Also add the full recommendation details to the top of the matching detail file (`data/recommended_video_details.md` for 男性向, `data/female_recommended_video_details.md` for 女性向) in one human-readable block, keeping newest records first so the user can review recent entries without re-reading chat history.
-7. Do **not** generate cover assets by default. Generate the two Bilibili covers and one 9:16 short-video cover only when the user explicitly asks to generate covers (for example, `生成封面` or `同时出封面`). When covers are not requested, do not create cover files, do not include cover sections in the response, and write `封面：未生成（需用户明确要求）` in the detail record.
+   不能把另一分支的记录当作当前账号记录。最终确认前，要对两个分支都做精确 URL 查重；任一账号已经用过的源片都算重复，除非用户明确要求复用。
+2. 搜索或打开当前网页来源，确认视频存在、标题和频道正确，核验中国关联及其事实边界，并确认源 URL 没有被记录。频道为 `3Blue1Brown` 时立即淘汰。
+3. 严格选择用户要求的数量；没有指定数量时选 1 条。每天恰好推荐 3 条时，男性向优先覆盖三个不同主赛道；配置为 6 条的自动任务，则男性向 3 条和女性向 3 条分别执行。第三主赛道中的 AI、芯片、能源、航天、基础设施和工业制造是子题材，不是额外账号方向。
+4. 每条推荐输出为一条完整、可复制发布的条目，选题、标签、包装角度、简介和所有平台标题必须放在同一条目中。
+5. 将视频追加到对应推荐文件顶部：男性向写入 `data/recommended_videos.md`，女性向写入 `data/female_recommended_videos.md`。记录今天日期、账号方向和 `已推荐` 状态，最新在前。
+6. 将完整推荐详情追加到对应详情文件顶部：男性向写入 `data/recommended_video_details.md`，女性向写入 `data/female_recommended_video_details.md`。保持可读，最新在前。
+7. 默认不生成封面。只有用户明确说“生成封面”或“同时出封面”时，才生成两个 B 站封面和一个 9:16 短视频封面。未要求封面时，不创建封面文件、不在回复中展示封面部分，并在详情记录写 `封面：未生成（需用户明确要求）`。
 
-## Output Format
+## 输出格式
 
-Present every source as one self-contained, copy-ready publishing entry. A single-source response begins with `## 推荐 1｜可复制发布条目`; a three-source daily response repeats it as `推荐 1` through `推荐 3`. Never split one source's topic, classification, description, and titles across a separate summary or table.
+每个源片都要作为独立、可复制发布的完整条目。单条推荐使用 `## 推荐 1｜可复制发布条目` 开头；每日三条时依次使用 `推荐 1`、`推荐 2`、`推荐 3`。不要把同一源片的选题、分类、简介和标题拆到不同摘要或表格中。
 
-Immediately below each heading, use one `text` code block in this exact structure. Keep all copy-ready publishing fields in the same block. The clickable source-video link is the sole exception: show it immediately below the code block as a Markdown link, so it can be opened directly in the chat:
+标题下方必须立即使用一个 `text` 代码块，所有可复制发布字段放在同一个代码块内。唯一例外是可点击的源片链接：放在代码块下方，方便直接打开。
 
 ```text
 【选题】
 主主题：<地缘政治 / 军事装备 / 大国工程科技之一>
 内容分类：#标签1 #标签2 #标签3
+中国关联：<与中国直接相关，或明确影响中国的安全、产业、能源、贸易、供应链或普通人生活>
 选题角度：<一句话说明可包装成的国内热门问题或冲突>
 核心答案：<这条内容最晚在前10秒交付的结论>
 开头钩子：<前2秒口播或字幕，以及对应的第一画面>
 
 【发布内容】
-视频简介：<80—150 字中文发布简介>
+视频简介：<80—150字中文发布简介>
 封面文案：<适合两行排版的短文案>
 
 【标题｜按平台直接复制】
-B站：<18—28 字标题>
+B站：<18—28字标题>
 抖音：<短、口语化标题>
 快手：<直接、生活化标题>
 小红书：<含核心关键词和“看懂 / 图解 / 3分钟了解”等学习收益的标题>
@@ -138,76 +142,69 @@ B站：<18—28 字标题>
 国内受众潜力：高 / 中 / 低
 ```
 
-Then add this clickable line directly below the code block:
+代码块下方直接添加：
 
 ```markdown
 源片：[点击直接打开 YouTube 视频](https://...)
 ```
 
-Formatting requirements:
+格式要求：
 
-- The `【标题｜按平台直接复制】` section is mandatory. Always put the four platform titles together, with the platform label at the beginning of each line.
-- `主主题` and `内容分类` are separate: the first supports daily topic balancing; the second must use hashtag labels separated by spaces.
-- `选题角度` and `视频简介` are both required. The former is the packaging hook; the latter is copy-ready publishing text.
-- Do not put user-facing recommendation fields outside this code block, except for the required clickable `源片` Markdown link and, when explicitly requested, the three cover sections that follow it.
+- `【标题｜按平台直接复制】` 必须存在，四个平台标题放在一起，每行开头标明平台；
+- `主主题` 和 `内容分类` 分开，后者使用空格分隔的标签；
+- `选题角度` 和 `视频简介` 都必须有，前者是包装钩子，后者是可直接发布的文字；
+- 代码块外只能有可点击的 `源片` 链接，以及用户明确要求时紧随其后的三种封面部分。
 
-For `内容分类`, use hashtag labels separated by spaces, not slashes or prose. Example:
+标题要求：
 
-```text
-内容分类：#科技纪录片 #卫星互联网 #3D动画
-```
+- B 站标题尽量 18–28 个汉字，说明主题和观看收益，优先突出冲突、规模、成本、稀缺性或大众问题；
+- 抖音标题要短、口语化、立刻产生好奇，突出事实、画面或反直觉问题，不使用空洞震惊词；
+- 快手标题要直接、生活化，围绕具体问题或日常后果，不要过于正式；
+- 小红书标题要便于搜索和收藏，包含核心技术关键词以及“看懂”“图解”“3分钟了解”等学习收益，不强行加表情或话题标签；
+- 视频简介控制在 80–150 个汉字，说明视觉钩子、观众能看懂什么以及为什么值得看，不要照搬源片简介，不做无法核验的承诺。
 
-Platform-title requirements:
+## 封面流程
 
-- `B站标题建议`: 18-28 Chinese characters where possible. State the subject and viewing payoff clearly, while leading with conflict, scale, cost, scarcity, or a mainstream question.
-- `抖音标题建议`: short, spoken, and immediately curiosity-inducing. Prioritize a striking fact, visual moment, or counterintuitive question; do not use empty shock words.
-- `快手标题建议`: conversational and direct. Frame the curiosity around a concrete question or everyday consequence; avoid overly formal wording.
-- `小红书标题建议`: searchable and save-worthy. Include the core technical keyword plus a clear learning benefit, such as `看懂`, `图解`, or `3分钟了解`; do not force emojis or hashtags into the title.
-
-For `视频简介`, write 80-150 Chinese characters suitable for a Bilibili/short-video publishing description. Summarize the core visual hook, what the viewer will understand, and why the topic is worth watching. Do not paste a translated source description verbatim. Do not overpromise with unverifiable claims.
-
-Only when the user explicitly requested cover generation, immediately after the copy-ready entry show the three cover sections in this exact order. Each section must include one `打开图片` link followed by its inline preview; do not place all cover links together or omit previews. When covers were not requested, omit all three cover sections:
+只有用户明确要求封面时，才在完整发布条目后按以下顺序展示：每种封面都必须有一个“打开图片”链接和一张行内预览；未要求封面时全部省略。
 
 ```markdown
 首页推荐封面 4:3
-[打开图片](<absolute-path-to-4x3-cover>)
-![首页推荐封面 4:3](<absolute-path-to-4x3-cover>)
+[打开图片](<绝对路径-4x3封面>)
+![首页推荐封面 4:3](<绝对路径-4x3封面>)
 
 个人空间封面 16:9
-[打开图片](<absolute-path-to-16x9-cover>)
-![个人空间封面 16:9](<absolute-path-to-16x9-cover>)
+[打开图片](<绝对路径-16x9封面>)
+![个人空间封面 16:9](<绝对路径-16x9封面>)
 
 短视频竖版封面 9:16（快手 / 抖音 / 视频号）
-[打开图片](<absolute-path-to-9x16-cover>)
-![短视频竖版封面 9:16](<absolute-path-to-9x16-cover>)
+[打开图片](<绝对路径-9x16封面>)
+![短视频竖版封面 9:16](<绝对路径-9x16封面>)
 ```
 
-After all recommendation blocks, add one concise line confirming which direction-specific recommendation and detail files were updated.
+所有推荐条目完成后，用一行简短文字确认更新了哪个方向的推荐文件和详情文件。
 
-Cover-output rules:
+封面规则：
 
-- Use absolute filesystem paths, not relative paths, for cover links and Markdown image previews.
-- Provide a clickable Markdown link and an inline Markdown image preview for each final cover.
-- Do not show or link the generated base image in the final response unless the user explicitly asks for it.
-- Keep the answer concise.
+- 链接和预览使用绝对文件路径，不使用相对路径；
+- 每张最终封面都同时提供可点击链接和行内预览；
+- 除非用户明确要求，不展示或链接 `base-<topic>.png` 原始底图；
+- 回复保持简洁。
 
-## Cover Workflow
+只有明确要求封面时，生成三张可上传封面：
 
-Only when the user explicitly requests cover generation, generate three upload-ready covers:
+- 首页推荐封面（4:3）：`1146x860`；
+- 个人空间封面（16:9）：`1920x1080`；
+- 短视频竖版封面（9:16）：`1080x1920`，用于快手、抖音、视频号等竖屏发布；只有配套 9:16 视频时才使用竖版封面。
 
-- 首页推荐封面（4:3）：`1146x860`
-- 个人空间封面（16:9）：`1920x1080`
-- 短视频竖版封面（9:16）：`1080x1920`，用于快手、抖音、视频号等竖屏发布；发布时只将其配给同为 9:16 的视频版本。
+没有合适的项目本地图片时，用 `imagegen` 生成无文字底图，留出中文标题空间。需要时单独生成竖版底图，避免裁切主体或标题区。除非源片主题确实需要，避免 Logo、水印、人物和品牌标识。
 
-Use `imagegen` for the base raster visual when no suitable project-local image exists. Prompt for a high-impact, no-text visual that matches the video topic and leaves negative space for Chinese title text. Generate a separate vertical base when a crop would cut off the subject or make the title area unusable. Avoid logos, watermarks, people, and brand marks unless the source topic requires them.
-
-Save cover assets under:
+封面保存到：
 
 ```text
 covers/<source-video-slug>/
 ```
 
-Use stable filenames:
+稳定文件名为：
 
 ```text
 base-<topic>.png
@@ -216,63 +213,48 @@ base-<topic>.png
 <source-video-slug>-cover-9x16.png
 ```
 
-Overlay text locally after the base image is generated:
+底图生成后在本地叠加文字：
 
-- Main title: use item 13 “封面文案” or a punchier two-line version of item 9.
-- Subtitle: short value hook such as `3D 剖面看懂原理`, `硬核拆解`, or `一眼看懂`.
-- Style: large bold Chinese text, high contrast, black stroke/shadow, engineering/tech visual tone.
-- Composition: keep the subject visible after both crops; keep important text away from edges.
-- Vertical composition: place one clear subject in the lower or middle third. Reserve the upper third for a two-line headline and keep all text inside the central 80% safe area; do not simply stretch a horizontal cover.
+- 主标题使用“封面文案”，或使用更有力的两行版本；
+- 副标题使用短价值钩子，例如 `3D剖面看懂原理`、`硬核拆解`、`一眼看懂`；
+- 大号粗体中文、高对比、黑色描边/阴影，保持工程科技视觉；
+- 两种裁切后都要保留主体，重要文字远离边缘；
+- 竖版主体放中下部或下三分之一，上方留两行标题，所有文字位于中央 80% 安全区，不要把横版封面直接拉伸。
 
-Before finishing, inspect all three generated cover images. If text is cramped, cropped, unreadable, or overlaps the subject badly, adjust and regenerate the final cover files.
+完成前检查三张封面；文字拥挤、裁切、不可读或严重压住主体时，调整并重新生成。
 
-In the final response, show which file goes into each Bilibili upload slot and the vertical short-video cover using absolute paths and inline previews. Do not include `base-<topic>.png` in the final response unless explicitly requested.
+最终回复中说明每张图片用于哪个 B 站上传位置，以及哪张用于短视频竖版封面。使用绝对路径和行内预览，不展示 `base-<topic>.png`，除非用户明确要求。
+
+## 选片补充原则
+
+- **中国关联优先于其他所有选片偏好：** 先选中国自身发展、周边安全、台海/东海/南海、对华产业竞争、能源与贸易通道、国际供应链、影响中国企业或普通人生活的话题；如果同题材存在多个候选，优先中国关联更直接、事实更可核验的源片。
+- 优先选择能接入 V1.0 流程的源片：Telegram 下载 MP4 → 剪映生成中英字幕 → 导出成片；
+- 优先选择能围绕冲突、规模、成本、稀缺性、实用价值、现实后果或“为什么这么难”拟题的内容；
+- 地缘政治优先把可识别事件或国家连接到地图位置、军事能力、能源路线、产业依赖、联盟成本或平民后果；
+- 可以有清晰的解释立场或对比，但不能制造敌意、把推测写成事实，或只用绝对化结论刺激评论；
+- 优先接近国内已验证内容形态的主题：工程奇观、产业竞争、AI 演示、军工装备、地理知识、灾难/失败复盘；
+- 三条男性向日更首先覆盖三个主赛道；质量相当时，再按 `#地缘政治`、`#国际局势`、`#军事`、`#军工装备`、`#AI`、`#AI硬件`、`#芯片制造`、`#机器人`、`#航天工程`、`#科技纪录片` 的顺序打破平局；
+- 优先选择可以本地化为“为什么一个海峡会影响全球贸易”“为什么某国急着购买某型战机”“AI 为什么离不开 GPU”“芯片为什么这么难造”“数据中心为什么越建越耗电”“商业航天到底贵在哪”等大众问题的源片；
+- 避免过度依赖专家对镜讲话、播客讨论或必须依赖原主持表演才能看懂的画面；
+- 优先字幕本身就能支撑中文改编、画面自解释的源片；
+- 优先没有明显水印、频道角标、平台 Logo 或重复搬运标识的源片。强候选若无法避免轻微品牌标识，要说明风险，并在有条件时选择更干净的替代；
+- 同一频道可以再次使用，但精确源视频没有被记录过才算不重复；
+- 候选都不确定时，选择最稳妥且匹配度高的候选，并明确说出核验了什么。
+
+## 记录格式
+
+在 `data/recommended_videos.md` 表头下方插入：
 
 ```markdown
-首页推荐封面 4:3
-[打开图片](G:/workspace/yinghe-shijie/covers/<slug>/<slug>-cover-4x3.png)
-![首页推荐封面 4:3](G:/workspace/yinghe-shijie/covers/<slug>/<slug>-cover-4x3.png)
-
-个人空间封面 16:9
-[打开图片](G:/workspace/yinghe-shijie/covers/<slug>/<slug>-cover-16x9.png)
-![个人空间封面 16:9](G:/workspace/yinghe-shijie/covers/<slug>/<slug>-cover-16x9.png)
-
-短视频竖版封面 9:16（快手 / 抖音 / 视频号）
-[打开图片](G:/workspace/yinghe-shijie/covers/<slug>/<slug>-cover-9x16.png)
-![短视频竖版封面 9:16](G:/workspace/yinghe-shijie/covers/<slug>/<slug>-cover-9x16.png)
+| 日期 | 源视频标题 | YouTube 链接 | 频道 | 类型 | 已推荐 |
 ```
 
-## Selection Notes
+`类型` 使用空格分隔的标签，例如 `#科技纪录片 #卫星互联网 #3D动画`。女性向使用 `data/female_recommended_videos.md` 的同样结构，增加 `账号方向` 列并写 `女性向`。
 
-- Prefer videos that can work with the V1.0 workflow: Telegram download MP4 → 剪映生成中英字幕 → 导出成片.
-- Prefer videos that can be titled around conflict, scale, cost, scarcity, practical use, consequence, or why the subject is difficult.
-- For geopolitics, prefer topics that connect a recognizable event or country to a concrete mechanism: map position, military capability, energy route, industrial dependency, alliance cost, or civilian consequence.
-- Prefer a clear stance or contrast that changes the viewer's understanding, but do not manufacture hostility, present speculation as fact, or use absolute claims only to provoke comments.
-- Prefer source topics that resemble proven domestic formats: engineering spectacle, industry competition, AI demos, military equipment, geography knowledge, disaster or failure reconstruction.
-- When multiple candidates are similarly strong, first preserve the three male primary lanes within a three-video daily batch. Then break ties in this order: `#地缘政治` / `#国际局势` / `#军事` / `#军工装备` / `#AI` / `#AI硬件` / `#芯片制造` / `#机器人` / `#航天工程` / `#科技纪录片`, then other categories.
-- Strongly prefer source videos that can be localized into mainstream Chinese questions such as `为什么一个海峡会影响全球贸易？`, `为什么某国急着购买某型战机？`, `AI 为什么离不开 GPU？`, `芯片为什么这么难造？`, `数据中心为什么越建越耗电？`, or `商业航天到底贵在哪？`.
-- Avoid videos that rely heavily on talking-head performance, podcast-style discussion, or visual context that cannot be understood with subtitles.
-- Prefer visually self-explanatory source videos where subtitles alone can carry the Chinese remake.
-- Prefer source videos with no obvious watermarks, channel bug overlays, platform logos, or reused compilation watermarks. If a strong candidate has minor unavoidable branding, mention the risk and prefer a cleaner alternative when available.
-- If a promising video is from a channel already used, it is allowed as long as the exact source video was not recorded before.
-- If all promising candidates are uncertain, choose the safest high-fit candidate and clearly say what was verified.
-
-## Record Format
-
-Insert below the table header in `data/recommended_videos.md`:
+在 `data/recommended_video_details.md` 顶部追加完整详情块：
 
 ```markdown
-| YYYY-MM-DD | Source video title | YouTube URL | Channel | Type | 已推荐 |
-```
-
-Use the same hashtag label format in the `Type` column, for example `#科技纪录片 #卫星互联网 #3D动画`.
-
-For 女性向, use the same row shape in `data/female_recommended_videos.md`, add `女性向` in the `账号方向` column, and use labels such as `#亲子沟通 #情绪管理 #心理学实验` or `#家庭关系 #女性成长`.
-
-Also append a full detail block to `data/recommended_video_details.md` using this structure:
-
-```markdown
-## YYYY-MM-DD - Source video title
+## YYYY-MM-DD - 源视频标题
 
 视频链接：[点击打开源片](https://...)
 视频标题：...
@@ -288,17 +270,10 @@ B站标题建议：...
 小红书标题建议：...
 封面文案：...
 视频简介：...
-首页推荐封面 4:3：G:/workspace/yinghe-shijie/covers/<slug>/<slug>-cover-4x3.png
-个人空间封面 16:9：G:/workspace/yinghe-shijie/covers/<slug>/<slug>-cover-16x9.png
-短视频竖版封面 9:16：G:/workspace/yinghe-shijie/covers/<slug>/<slug>-cover-9x16.png
+首页推荐封面 4:3：L:/workspace/yinghe-shijie/covers/<slug>/<slug>-cover-4x3.png
+个人空间封面 16:9：L:/workspace/yinghe-shijie/covers/<slug>/<slug>-cover-16x9.png
+短视频竖版封面 9:16：L:/workspace/yinghe-shijie/covers/<slug>/<slug>-cover-9x16.png
 状态：已推荐
 ```
 
-Requirements for `data/recommended_video_details.md`:
-
-- Keep all recommendation detail blocks in this single file.
-- Keep entries in reverse chronological order, with the newest date first. Preserve recommendation order within the same date.
-- When covers were requested, use absolute filesystem paths for all three cover lines. When covers were not requested, replace the three cover lines with `封面：未生成（需用户明确要求）`.
-- This detail file is for human review, so keep prose readable instead of using a Markdown table.
-
-For 女性向, write the same detail block to `data/female_recommended_video_details.md`, include `账号方向：女性向`, and apply the female-account topic and safety rules above. Do not mix the two account directions in one detail file.
+所有推荐详情块都保存在同一个详情文件中，按日期倒序排列，同一天保持推荐顺序。要求封面时写三个绝对路径；不要求时改成 `封面：未生成（需用户明确要求）`。详情文件供人工复核，保持可读，不要改成 Markdown 表格。女性向使用 `data/female_recommended_video_details.md`，加入 `账号方向：女性向`，并应用女性向主题和安全规则；两个账号方向不能混在同一详情文件中。

@@ -1,4 +1,4 @@
-"""Render the Q3D avatar prototype's built-in head-turn and mouth animation."""
+"""渲染 Q3D 头像原型内置的转头和嘴型动画。"""
 
 from __future__ import annotations
 

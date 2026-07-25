@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Add deterministic Chinese headline and subhead overlays to an AI cover image."""
+"""在 AI 封面底图上稳定叠加中文主标题和副标题。"""
 from __future__ import annotations
 
 import argparse
@@ -14,7 +14,7 @@ def args() -> argparse.Namespace:
     parser.add_argument("--output", required=True)
     parser.add_argument("--headline", required=True)
     parser.add_argument("--subhead", required=True)
-    parser.add_argument("--theme", default="", help="Optional short subject label.")
+    parser.add_argument("--theme", default="", help="可选的简短主题标签。")
     parser.add_argument("--layout", choices=("center", "right", "portrait"), default="right")
     return parser.parse_args()
 
@@ -46,8 +46,7 @@ def main() -> None:
             files.append(Path(handle.name))
         font_path, headline_path, subhead_path = escape_path(font), escape_path(files[0]), escape_path(files[1])
         theme_path = escape_path(files[-1]) if theme else None
-        # Use relative coordinates so a generated 16:9 cover remains readable
-        # even when its exact pixel dimensions differ between generations.
+    # 使用相对坐标，让生成的 16:9 封面即使每次像素尺寸略有不同也保持可读。
         if options.layout == "right":
             filters = (
                 "drawbox=x=iw*0.53:y=ih*0.10:w=iw*0.43:h=ih*0.75:color=black@0.10:t=fill,"

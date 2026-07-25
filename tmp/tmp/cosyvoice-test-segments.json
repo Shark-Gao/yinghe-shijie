@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "timeline": "L:\\workspace\\yinghe-shijie\\tmp\\cosyvoice-test-timeline.json",
+  "provider": "cosyvoice",
+  "output_audio": "L:\\workspace\\yinghe-shijie\\tmp\\cosyvoice-render-test.mp3",
+  "segments": [
+    {
+      "id": "seg_001",
+      "start": "00:00:00.000",
+      "end": "00:00:06.000",
+      "audio_duration": 5.31737
+    }
+  ]
+}

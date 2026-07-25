@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Render a timeline JSON into one padded Yunyang narration MP3."""
+"""将时间线 JSON 渲染为一条带尾部填充的 Yunyang 中文解说 MP3。"""
 
 from __future__ import annotations
 
@@ -19,10 +19,10 @@ if hasattr(sys.stdout, "reconfigure"):
 
 
 def parse_args() -> argparse.Namespace:
-    parser = argparse.ArgumentParser(description="Render timeline TTS segments into one MP3.")
-    parser.add_argument("--timeline", required=True, help="Timeline JSON path.")
-    parser.add_argument("--output", help="Override output .mp3 path.")
-    parser.add_argument("--segment-manifest", help="Write measured per-segment audio durations to a JSON file.")
+    parser = argparse.ArgumentParser(description="将时间线 TTS 分段渲染为一条 MP3。")
+    parser.add_argument("--timeline", required=True, help="时间线 JSON 路径。")
+    parser.add_argument("--output", help="覆盖默认的 .mp3 输出路径。")
+    parser.add_argument("--segment-manifest", help="将每段实测音频时长写入 JSON 文件。")
     return parser.parse_args()
 
 
@@ -39,9 +39,8 @@ def hms_to_ms(value: str) -> int:
 async def generate_segments(data: dict, build_dir: Path) -> list[Path]:
     voice = data.get("voice") or "zh-CN-YunyangNeural"
     rate = data.get("rate") or "-8%"
-    # Longer subtitle tracks can contain hundreds of small cues. A modest
-    # concurrency limit plus retries is kinder to the remote Edge TTS service
-    # and prevents one transient websocket timeout from losing the whole job.
+    # 较长字幕轨可能包含数百个小段。限制并发并设置重试，
+    # 可以减轻远程 Edge TTS 服务压力，避免一次临时 WebSocket 超时导致整项任务失败。
     semaphore = asyncio.Semaphore(4)
 
     async def generate_one(segment: dict) -> Path | None:
@@ -129,9 +128,8 @@ def render(
 
     filter_complex = ";".join(filters) + ";" + "".join(labels)
     filter_complex += f"amix=inputs={len(labels)}:duration=longest:normalize=0,apad[mix]"
-    # A full subtitle track can have hundreds of cues. Passing both all input
-    # paths and a giant filter expression on the Windows command line exceeds
-    # CreateProcess's command-length limit, so keep the filter graph in a file.
+    # 完整字幕轨可能有数百个片段。把所有输入路径和巨大的滤镜表达式都放进
+    # Windows 命令行会超过 CreateProcess 的长度限制，因此把滤镜图写入文件。
     filter_script = build_dir / "filter_complex.txt"
     filter_script.write_text(filter_complex, encoding="utf-8")
     cmd = [
@@ -181,8 +179,8 @@ def main() -> None:
     timeline_path = Path(args.timeline)
     data = json.loads(timeline_path.read_text(encoding="utf-8"))
     validate_timeline(data)
-    # Keep temporary paths short: full subtitle tracks may pass hundreds of
-    # segment files to ffmpeg, and Windows limits the total command length.
+    # 保持临时路径简短：完整字幕轨可能向 ffmpeg 传入数百个分段文件，
+    # 而 Windows 对命令总长度有限制。
     short_temp_root = Path("C:/t")
     short_temp_root.mkdir(parents=True, exist_ok=True)
     build_dir = Path(tempfile.mkdtemp(prefix="x", dir=short_temp_root))

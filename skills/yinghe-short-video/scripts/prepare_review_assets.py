@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Prepare lightweight visual and subtitle review assets for a long video."""
+"""为长视频准备轻量的画面和字幕审片素材。"""
 from __future__ import annotations
 
 import argparse
@@ -18,7 +18,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--video", required=True)
     parser.add_argument("--subtitle", required=True)
     parser.add_argument("--output-dir")
-    parser.add_argument("--interval", type=float, default=5.0, help="Seconds between review frames.")
+    parser.add_argument("--interval", type=float, default=5.0, help="审片画面之间的秒数间隔。")
     return parser.parse_args()
 
 

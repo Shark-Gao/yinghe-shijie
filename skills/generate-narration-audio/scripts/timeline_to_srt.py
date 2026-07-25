@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Export Chinese narration subtitles from a narration timeline JSON."""
+"""根据中文解说时间线 JSON 导出字幕。"""
 
 from __future__ import annotations
 
@@ -10,12 +10,12 @@ from pathlib import Path
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--timeline", required=True, help="Narration timeline JSON path.")
-    parser.add_argument("--output", help="Output .srt path.")
+    parser.add_argument("--timeline", required=True, help="解说时间线 JSON 路径。")
+    parser.add_argument("--output", help="输出 .srt 路径。")
     parser.add_argument(
         "--chinese-only",
         action="store_true",
-        help="Write only Chinese narration lines, omitting english_text translations.",
+        help="只写中文解说行，不写 english_text 翻译。",
     )
     return parser.parse_args()
 

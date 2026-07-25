@@ -1,4 +1,4 @@
-"""Render a GLB mesh from multiple angles for visual QA."""
+"""从多个角度渲染 GLB 网格，用于画面质量检查。"""
 
 from __future__ import annotations
 
@@ -113,8 +113,8 @@ scene.frame_start = 1
 scene.frame_end = 8
 
 for frame in range(1, 9):
-    # TripoSR exports this asset with its long (image-height) axis on X.
-    # Rotate it upright once, then turn around that same vertical axis.
+# TripoSR 导出的资产将长轴（图像高度方向）放在 X 轴。
+# 先把它旋转为直立，再围绕同一个竖直轴转动。
     pivot.rotation_euler = (
         math.radians((frame - 1) * 45.0),
         0.0,

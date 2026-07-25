@@ -1,4 +1,4 @@
 interface:
   display_name: "字幕解说音频"
-  short_description: "按钩子与答案规则生成中文解说音频和自动混音"
-  default_prompt: "帮我按硬核视界的钩子、答案和事实核查规则生成字幕解说音频"
+  short_description: "按钩子和答案规则生成中文解说音频与自动混音"
+  default_prompt: "请按硬核视界的钩子、答案和事实核查规则生成字幕解说音频。"

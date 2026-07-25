@@ -1,31 +1,31 @@
 ---
 name: yinghe-dashboard-update
-description: Update the 硬核视界 multi-platform review dashboard when the user sends new 小红书、抖音或快手 analytics screenshots or asks to update/review the next data period. Extract verifiable metrics, compare them to the baseline, diagnose the 2/5/10-second hook, retention, interaction, saves/shares, and follower conversion, append a structured review record, update the dashboard source, build, and privately redeploy the existing Sites page.
+description: 当用户提供新的小红书、抖音或快手数据截图，或要求复盘下一周期数据时，更新硬核视界多平台复盘看板。提取可核验指标，与基线比较，诊断 2/5/10 秒钩子、留存、互动、收藏/分享和涨粉转化，追加结构化复盘记录，更新看板源代码、构建并私密重新部署现有 Sites 页面。
 ---
 
 # 硬核视界看板更新
 
-Use this workflow whenever the user provides a new set of platform analytics screenshots or asks to add the next review period to the dashboard.
+只要用户提供一组新的平台数据截图，或要求添加下一次复盘周期，就使用本流程。
 
-## Source of truth
+## 数据依据
 
-- Dashboard project: `L:\workspace\yinghe-shijie\web-dashboard`
-- Hosted project ID: read `web-dashboard/.openai/hosting.json`; reuse it and never create another site.
-- Read [references/dashboard_contract.md](references/dashboard_contract.md) before interpreting or changing data.
+- 看板项目：`L:\workspace\yinghe-shijie\web-dashboard`
+- 托管项目 ID：读取 `web-dashboard/.openai/hosting.json`，复用现有项目，绝不新建站点。
+- 解释或修改数据前，先阅读 [references/dashboard_contract.md](references/dashboard_contract.md)。
 
-## Workflow
+## 工作流程
 
-1. Read every provided screenshot and transcribe only visible, unambiguous values. Record the backend's original metric name and period. Capture, when available, `2秒留存`, `5秒留存`, `10秒留存`, completion, plays/views, likes, comments, saves, shares, followers, and the platform's interaction rate. Do not invent a missing rate or normalize unlike periods.
-2. Compare the new data with the matching platform baseline in the reference. State that the comparison is directional if the periods or work counts differ.
-3. Keep raw records in `web-dashboard/data/review-history.json`. If it does not exist, create `[]`, then refactor the dashboard once to import this file and initialize its history list from it. Do not overwrite the 2026-07-17 baseline.
-4. Run `scripts/append_review_record.py` once per platform with verified values. Use `--replace` only when correcting the same platform and period.
-5. Update dashboard copy only when the data changes the conclusion; keep unknown values as null and render them as `—`. Treat followers as a secondary result. Prefer the diagnosis order `hook → retention → interaction/save/share → follower conversion`; do not call high-play/low-follow content fake without evidence.
-6. Follow the `sites-building` and `sites-hosting` skills: run the production build, commit and push the exact source, save a version, and privately redeploy the existing site. Do not make it public without explicit user approval.
-7. Report: the main cross-platform conclusion, each platform's largest change, and the refreshed private URL.
+1. 逐张读取用户提供的截图，只抄录清晰可见、没有歧义的数值。保留后台原始指标名称和统计周期。截图有数据时记录 `2秒留存`、`5秒留存`、`10秒留存`、完播、播放/观看、点赞、评论、收藏、分享、涨粉和平台互动率。缺失的数据不要编造，也不要把不同周期强行标准化。
+2. 将新数据与引用文件中对应平台的基线比较。如果周期或作品数量不同，要明确说明这只是方向性比较。
+3. 将原始记录保存到 `web-dashboard/data/review-history.json`。如果文件不存在，先创建 `[]`，再把看板改为导入该文件，并用它初始化历史记录。不得覆盖 2026-07-17 基线。
+4. 每个平台运行一次 `scripts/append_review_record.py`，只写入已核验数值。只有在更正同一平台、同一周期时才使用 `--replace`。
+5. 只有当数据改变结论时才修改看板文案；未知值保留为 `null`，页面显示为 `—`。涨粉是次级结果。优先按照 `钩子 → 留存 → 互动/收藏/分享 → 涨粉转化` 诊断，不要没有证据就把“高播放低涨粉”称为虚假流量。
+6. 遵循 `sites-building` 和 `sites-hosting` 技能：运行生产构建，提交并推送准确源代码，保存版本，并私密重新部署现有站点。未经用户明确同意，不得改成公开访问。
+7. 汇报跨平台主要结论、每个平台最大变化，以及更新后的私密 URL。
 
-## Data entry
+## 数据录入
 
-Run the append script with one record per platform. `plays`, `completion`, `interaction`, and `followers` are optional; omit unavailable values rather than using zero.
+每个平台使用一条记录运行追加脚本。`plays`、`completion`、`interaction` 和 `followers` 都是可选字段；没有数据时省略，不要填零。
 
 ```powershell
 python <skill-dir>\scripts\append_review_record.py `
@@ -37,15 +37,15 @@ python <skill-dir>\scripts\append_review_record.py `
   --note "将答案提前到前2秒"
 ```
 
-The extra fields are optional. Use them when the platform exposes them; otherwise leave them null. `follow_conversion` may be calculated only when plays/views and new followers refer to the same period and scope.
+额外字段都是可选的；平台展示时有这些数据才填写，否则保留为 `null`。只有播放/观看数和新增粉丝属于同一统计范围时，才可以计算 `follow_conversion`。
 
-## Guardrails
+## 保护规则
 
-- Preserve platform-specific terms: 小红书“观看数”、抖音/快手“播放量”并不自动等价。
-- Compare complete periods with complete periods; mark early single-work data as provisional.
-- Treat completion as duration-sensitive. Do not claim improvement solely because a shorter version has a higher completion rate.
-- Compare 2/5/10-second retention before diagnosing the whole video; if the drop occurs immediately, fix the hook before changing the topic.
-- Separate likes, comments, saves, and shares when available. Saves/shares indicate reference or forwarding value; comments may indicate either useful discussion or controversy.
-- Use `follow_conversion = new followers / plays or views` only when denominators match. Do not optimize for follower count alone.
-- Keep the first baseline visible and append later cycles; never replace historical records with a new total.
-- Keep the dashboard private by default. Ask before changing its audience or access policy.
+- 保留平台原有术语：小红书使用“观看数”，抖音/快手使用“播放量”，不能自动视为同一指标。
+- 完整周期只能与完整周期比较；单条早期数据或未完成周期要标记为暂定。
+- 完播率受视频时长影响，不能只因为短版本完播率更高就断言内容变好。
+- 先比较 2/5/10 秒留存。开头立刻掉得厉害时，优先改钩子，而不是先换选题。
+- 点赞、评论、收藏和分享分开记录。收藏/分享更接近参考或转发价值；评论可能代表有用讨论，也可能代表争议。
+- 只有分子和分母统计范围一致时，才用 `follow_conversion = 新增粉丝 / 播放或观看数`。不要只追求涨粉数量。
+- 保留最初基线，后续周期只追加；不要用新的总数替换历史记录。
+- 看板默认保持私密。改变访问权限前先征求用户同意。

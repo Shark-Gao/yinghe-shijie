@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build a 9:16 short-video MP4 from an editable JSON plan and FFmpeg."""
+"""根据可编辑 JSON 计划和 FFmpeg 构建 9:16 短视频 MP4。"""
 from __future__ import annotations
 
 import argparse
@@ -12,10 +12,10 @@ from pathlib import Path
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--plan", required=True, help="Edit-plan JSON.")
-    parser.add_argument("--narration-audio", help="Override narration_audio in the plan.")
-    parser.add_argument("--narration-timing", help="JSON manifest with the measured duration of each TTS segment.")
-    parser.add_argument("--subtitles-only", action="store_true", help="Write the sidecar SRT without rendering video.")
+    parser.add_argument("--plan", required=True, help="剪辑计划 JSON。")
+    parser.add_argument("--narration-audio", help="覆盖计划中的 narration_audio。")
+    parser.add_argument("--narration-timing", help="包含每段 TTS 实测时长的 JSON 清单。")
+    parser.add_argument("--subtitles-only", action="store_true", help="只写旁车 SRT，不渲染视频。")
     parser.add_argument("--dry-run", action="store_true")
     return parser.parse_args()
 
@@ -47,7 +47,7 @@ TRAILING_SUBTITLE_PUNCTUATION = re.compile(
 
 
 def subtitle_display_text(text: str) -> str:
-    """Keep subtitle text clean without changing punctuation used by TTS."""
+    """清理字幕显示文本，但不改变 TTS 使用的标点。"""
     return TRAILING_SUBTITLE_PUNCTUATION.sub("", text.strip()).strip()
 
 
@@ -61,6 +61,125 @@ def load_narration_timing(path: Path | None) -> list[dict] | None:
     if not isinstance(segments, list):
         raise SystemExit("Narration timing manifest needs a segments array.")
     return segments
+
+
+def narration_windows(plan: dict, timing_segments: list[dict] | None) -> list[tuple[float, float]]:
+    """返回成片时间线上的实际解说区间，优先使用 TTS 实测时长。"""
+    planned = plan.get("narration", {}).get("segments", [])
+    scheduled = timing_segments or planned
+    windows: list[tuple[float, float]] = []
+    for index, segment in enumerate(scheduled):
+        if "start" not in segment:
+            continue
+        start = seconds(segment["start"])
+        measured = float(segment.get("audio_duration", 0.0) or 0.0)
+        if measured > 0:
+            end = start + measured
+        else:
+            fallback = segment.get("end")
+            if fallback is None and index < len(planned):
+                fallback = planned[index].get("end")
+            if fallback is None:
+                continue
+            end = seconds(fallback)
+        if end > start:
+            windows.append((max(0.0, start), end))
+    return windows
+
+
+def audio_envelope_expression(
+    windows: list[tuple[float, float]],
+    duration: float,
+    fade_seconds: float,
+) -> str:
+    """为每个实际解说区间生成带淡入淡出的音量包络。"""
+    terms: list[str] = []
+    fade = max(0.0, float(fade_seconds))
+    for start, end in windows:
+        start = max(0.0, min(duration, start))
+        end = max(0.0, min(duration, end))
+        if end <= start:
+            continue
+        if fade <= 0:
+            terms.append(f"if(between(t,{start:.3f},{end:.3f}),1,0)")
+            continue
+        edge = min(fade, (end - start) / 2.0)
+        in_end = start + edge
+        out_start = end - edge
+        terms.append(
+            "if(lt(t,{start:.3f}),0,"
+            "if(lt(t,{in_end:.3f}),(t-{start:.3f})/{edge:.3f},"
+            "if(lt(t,{out_start:.3f}),1,"
+            "if(lt(t,{end:.3f}),({end:.3f}-t)/{edge:.3f},0))))".format(
+                start=start,
+                in_end=in_end,
+                out_start=out_start,
+                end=end,
+                edge=edge,
+            )
+        )
+    if not terms:
+        return "0"
+    expression = terms[0]
+    for term in terms[1:]:
+        expression = f"max({expression},{term})"
+    return expression
+
+
+def add_source_audio_ducking(
+    filters: list[str],
+    source_label: str,
+    windows: list[tuple[float, float]],
+    source_volume: float,
+    duration: float,
+    fade_seconds: float,
+) -> str:
+    """保留非解说时段的原声，并在交界处用短淡入淡出切换。"""
+    current = "sourcegap0"
+    if fade_seconds <= 0:
+        filters.append(f"[{source_label}]volume={source_volume}[{current}]")
+        stage = 0
+        for start, end in windows:
+            start = max(0.0, min(duration, start))
+            end = max(0.0, min(duration, end))
+            if end <= start:
+                continue
+            next_label = f"sourcegap{stage + 1}"
+            filters.append(
+                f"[{current}]volume=0:enable='between(t,{start:.3f},{end:.3f})'[{next_label}]"
+            )
+            current = next_label
+            stage += 1
+        return current
+
+    envelope = audio_envelope_expression(windows, duration, fade_seconds)
+    source_expression = f"({source_volume})*(1-({envelope}))"
+    filters.append(
+        f"[{source_label}]volume='{source_expression}':eval=frame[{current}]"
+    )
+    return current
+
+
+def validate_intro_source_audio(
+    windows: list[tuple[float, float]],
+    duration: float,
+    deadline: float,
+    minimum_gap: float,
+) -> None:
+    """确保开头 deadline 秒内有一段可听见的原视频音频。"""
+    limit = min(duration, max(0.0, deadline))
+    cursor = 0.0
+    for start, end in windows:
+        start = max(0.0, min(limit, start))
+        end = max(0.0, min(limit, end))
+        if start - cursor >= minimum_gap:
+            return
+        cursor = max(cursor, end)
+    if limit - cursor >= minimum_gap:
+        return
+    raise SystemExit(
+        f"The first {deadline:g} seconds need at least {minimum_gap:g} seconds of original audio between narration segments."
+    )
 
 
 def write_srt(plan: dict, path: Path, timing_segments: list[dict] | None = None) -> None:
@@ -169,7 +288,27 @@ def main() -> None:
     narration_volume = float(mix.get("narration_volume", 1.0))
     music_volume = float(mix.get("music_volume", 1.0))
     music_fade = float(mix.get("music_fade_seconds", 0.0))
-    include_source_audio = not narration_path or background > 0
+    source_audio_mode = str(mix.get("source_audio_mode", "static"))
+    transition_fade = max(0.0, float(mix.get("audio_transition_fade_seconds", 0.0)))
+    dynamic_source_audio = bool(narration_path and source_audio_mode == "play_between_narration")
+    if source_audio_mode not in {"static", "play_between_narration"}:
+        raise SystemExit("mix.source_audio_mode must be static or play_between_narration.")
+    if plan.get("drama") and narration_path and source_audio_mode != "play_between_narration":
+        raise SystemExit("Drama plans require mix.source_audio_mode=play_between_narration.")
+    source_gap_volume = (
+        float(mix["source_gap_volume"])
+        if "source_gap_volume" in mix
+        else (1.0 if dynamic_source_audio else background)
+    )
+    source_windows = narration_windows(plan, timing_segments) if dynamic_source_audio else []
+    if dynamic_source_audio:
+        validate_intro_source_audio(
+            source_windows,
+            duration,
+            float(mix.get("source_audio_intro_deadline_seconds", 10.0)),
+            float(mix.get("source_audio_intro_min_seconds", 0.5)),
+        )
+    include_source_audio = not narration_path or background > 0 or dynamic_source_audio
     filters, concat_inputs = [], []
     for i, clip in enumerate(clips):
         start, end = seconds(clip["source_start"]), seconds(clip["source_end"])
@@ -210,9 +349,32 @@ def main() -> None:
 
     final_video, final_audio = "vbase", "abase"
     if narration_path:
-        narration_filter = f"[{narration_input}:a]atrim=duration={duration},apad,volume={narration_volume}"
+        narration_filter = f"[{narration_input}:a]atrim=duration={duration},apad"
+        if dynamic_source_audio and transition_fade > 0:
+            narration_envelope = audio_envelope_expression(
+                source_windows,
+                duration,
+                transition_fade,
+            )
+            narration_expression = f"({narration_volume})*({narration_envelope})"
+            narration_filter += f",volume='{narration_expression}':eval=frame"
+        else:
+            narration_filter += f",volume={narration_volume}"
         filters.append(narration_filter + "[narr]")
-        if background <= 0 and not music_label:
+        if dynamic_source_audio:
+            source_label = add_source_audio_ducking(
+                filters,
+                "abase",
+                source_windows,
+                source_gap_volume,
+                duration,
+                transition_fade,
+            )
+            if music_label:
+                filters.append(f"[{source_label}][music]amix=inputs=2:duration=first:normalize=0[bed]")
+                source_label = "bed"
+            filters.append(f"[{source_label}][narr]amix=inputs=2:duration=first:normalize=0[aout]")
+        elif background <= 0 and not music_label:
             filters.append("[narr]anull[aout]")
         elif background <= 0:
             filters.extend([

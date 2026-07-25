@@ -1,6 +1,138 @@
 # 已推荐视频详情
 
-用于集中保存每条推荐的完整 11 项信息与封面路径，便于后续查阅。
+用于集中保存每条推荐的完整推荐信息与封面状态，便于后续查阅。
+
+## 2026-07-25 - How a Single Swedish Submarine Defeated the US Navy
+
+账号方向：男性向
+视频链接：[点击打开源片](https://www.youtube.com/watch?v=saCdvAp5cow)
+视频标题：How a Single Swedish Submarine Defeated the US Navy
+频道：Real Engineering
+内容分类：#军事装备 #潜艇 #反潜作战 #工程原理
+中国关联：非中国主题；按用户要求采用欧洲军工与美国海军演训案例，侧重潜艇隐身和反潜作战机制。
+推荐理由：源片用2005年演习中的瑞典“哥特兰”级潜艇作为钩子，拆解AIP/斯特林发动机、低噪声和近海反潜难题。中文改编必须明确这是演习中的模拟击沉，不等同于实战结论，重点放在“为什么小型潜艇能逼近航母编队”。
+搬运适合度（★★★★★）：★★★★★
+中文字幕难度：中
+国内受众潜力：高
+B站标题建议：一艘瑞典潜艇如何逼近美国航母？看懂反潜难题
+抖音标题建议：一艘小潜艇，怎么摸到航母旁边？
+快手标题建议：潜艇为啥这么难被发现？
+小红书标题建议：哥特兰级潜艇图解：看懂AIP静音与反潜作战
+封面文案：潜艇如何隐身 / 逼近航母
+视频简介：一次海军演习中，瑞典“哥特兰”级潜艇成功逼近美国航母编队并完成模拟攻击。视频从斯特林发动机、低噪声和水下搜索讲起，解释潜艇为什么难发现，同时区分演习结果与真实战争结论。
+封面：未生成（需用户明确要求）
+状态：已推荐
+
+## 2026-07-25 - Inside US Biggest Nuclear Aircraft Carrier | Gerald R Ford
+
+账号方向：男性向
+视频链接：[点击打开源片](https://www.youtube.com/watch?v=j26ppRiUBe0)
+视频标题：Inside US Biggest Nuclear Aircraft Carrier | Gerald R Ford
+频道：AiTelly
+内容分类：#军事装备 #航空母舰 #舰载机 #3D动画
+中国关联：非中国主题；按用户要求采用美国航母工程案例，侧重核动力、甲板调度和舰载机起降机制。
+推荐理由：3D动画适合把“航母为什么像一座海上机场”讲清楚，画面可围绕核动力、机库、飞行甲板、舰载机调度和电磁弹射展开。中文改编不要只强调吨位和造价，应把巨大舰体如何转化为持续出动能力讲成明确答案。
+搬运适合度（★★★★★）：★★★★☆
+中文字幕难度：中
+国内受众潜力：高
+B站标题建议：福特号航母内部怎么运转？看懂海上机场的工程逻辑
+抖音标题建议：一艘航母内部，到底怎么装下这么多飞机？
+快手标题建议：航母甲板为啥这么忙？
+小红书标题建议：福特级航母内部图解：看懂核动力与舰载机调度
+封面文案：航母内部 / 海上机场
+视频简介：美国“杰拉尔德·福特”号航母不只是一个巨型船体，更是一座能持续调度飞机的海上机场。视频用3D动画拆解核动力、机库、飞行甲板和舰载机起降流程，看懂航母如何把体量转化为战斗力。
+封面：未生成（需用户明确要求）
+状态：已推荐
+
+## 2026-07-25 - Why China Is so Good at Building Railways
+
+账号方向：男性向
+视频链接：[点击打开源片](https://www.youtube.com/watch?v=0JDoll8OEFE)
+视频标题：Why China Is so Good at Building Railways
+频道：Wendover Productions
+内容分类：#大国工程 #中国高铁 #基础设施 #产业竞争
+中国关联：中国高铁网络、铁路装备制造和大规模工程组织能力，直接关系到国内城市连接、产业协作和中国高端制造的国际竞争形象。
+推荐理由：这是成熟的中国大国工程题材，画面包含线路地图、列车运行和建设逻辑，能回答“为什么中国能在大国土上快速铺开高铁网络”。源片较早，剪辑时应核验并更新里程、速度和盈利等数字，主线放在规模、人口密度、建设组织与产业链协同。
+搬运适合度（★★★★★）：★★★★☆
+中文字幕难度：中
+国内受众潜力：高
+B站标题建议：中国高铁为何能铺遍全国？看懂大规模建设的关键
+抖音标题建议：中国高铁为什么能铺这么快？
+快手标题建议：高铁网咋能这么快建起来？
+小红书标题建议：中国高铁建设图解：看懂大规模铁路网络如何形成
+封面文案：中国高铁 / 为何铺得这么快
+视频简介：中国高铁的关键不只在列车速度，更在于人口分布、线路规划、工程组织和完整产业链如何一起运转。视频用地图和案例解释这张庞大铁路网为什么能快速形成，同时提醒观众注意源片中的旧数据需要重新核验。
+封面：未生成（需用户明确要求）
+状态：已推荐
+
+## 2026-07-25 - History of the Major Trade Routes - Summary on a Map
+
+账号方向：男性向
+视频链接：https://www.youtube.com/watch?v=Q7xp1-VvtZ0
+视频标题：History of the Major Trade Routes - Summary on a Map
+频道：Geo History
+画质：公开视频页、oEmbed 元数据与 1280×720 maxres 缩略图已核验可访问；匿名 1080p 格式探测受 YouTube 验证页限制，下载时复核。
+内容分类：#地缘政治 #全球贸易 #地图动画
+推荐理由：以地图和航线演变为主，几乎无人出镜，能把抽象的国际局势落到港口、海峡与货物流向；适合拆成“为什么一条海路会影响价格和国家选择”的系列开篇。
+搬运适合度（★★★★★）：★★★★★
+中文字幕难度：中
+国内受众潜力：高
+B站标题建议：一张地图看懂：贸易航线为何能改写世界格局
+抖音标题建议：一条海路，为什么能牵动全世界？
+快手标题建议：货船绕个路，为什么很多国家都紧张？
+小红书标题建议：全球贸易航线图解：看懂海峡与港口为什么重要
+封面文案：贸易航线 / 如何改写世界
+视频简介：从地中海到印度洋、再到东亚，贸易路线从来不只是船怎么走的问题。视频用地图串起关键海域、港口和航线的变化，带你看懂一条通道为何会影响货物成本、能源安全和国家之间的选择。
+首页推荐封面 4:3：L:\workspace\yinghe-shijie\covers\major-trade-routes-map\major-trade-routes-map-cover-4x3.png
+个人空间封面 16:9：L:\workspace\yinghe-shijie\covers\major-trade-routes-map\major-trade-routes-map-cover-16x9.png
+短视频竖版封面 9:16：L:\workspace\yinghe-shijie\covers\major-trade-routes-map\major-trade-routes-map-cover-9x16.png
+状态：已推荐
+
+## 2026-07-25 - How a Military Drone Works | Bayraktar TB2 UAV
+
+账号方向：男性向
+视频链接：https://www.youtube.com/watch?v=Wil6V0sYHf8
+视频标题：How a Military Drone Works | Bayraktar TB2 UAV
+频道：AiTelly
+画质：公开视频页、oEmbed 元数据与 1280×720 maxres 缩略图已核验可访问；匿名 1080p 格式探测受 YouTube 验证页限制，下载时复核。
+内容分类：#军事装备 #无人机 #3D动画
+推荐理由：3D 剖面把长航时无人机的平台、动力、光电转塔与地面链路拆到同一画面，几乎无人出镜；可用“无人机为什么能盯住远方目标”切入侦察平台的工程逻辑。
+搬运适合度（★★★★★）：★★★★★
+中文字幕难度：中
+国内受众潜力：高
+B站标题建议：长航时无人机怎么飞那么久？3D拆开动力与侦察链路
+抖音标题建议：无人机为什么能在天上盯很久？
+快手标题建议：无人机飞那么远，靠什么看见和传回来？
+小红书标题建议：军用无人机图解：看懂动力、光电侦察与数据链
+封面文案：无人机内部 / 怎么运转
+视频简介：长航时无人机并不只是“把摄像头挂上天”。视频用 3D 剖面串起动力、燃油、光电转塔与数据传输，让你看懂它为什么能在远距离持续观察，也理解平台性能和信息链路为何同样关键。
+首页推荐封面 4:3：L:\workspace\yinghe-shijie\covers\bayraktar-tb2-drone\bayraktar-tb2-drone-cover-4x3.png
+个人空间封面 16:9：L:\workspace\yinghe-shijie\covers\bayraktar-tb2-drone\bayraktar-tb2-drone-cover-16x9.png
+短视频竖版封面 9:16：L:\workspace\yinghe-shijie\covers\bayraktar-tb2-drone\bayraktar-tb2-drone-cover-9x16.png
+状态：已推荐
+
+## 2026-07-25 - Computational lithography: Driving nanometer precision in microchip manufacturing | ASML
+
+账号方向：男性向
+视频链接：https://www.youtube.com/watch?v=9RZreu5z_Gc
+视频标题：Computational lithography: Driving nanometer precision in microchip manufacturing | ASML
+频道：ASML
+画质：公开视频页、oEmbed 元数据与 1280×720 maxres 缩略图已核验可访问；匿名 1080p 格式探测受 YouTube 验证页限制，下载时复核。
+内容分类：#大国工程科技 #芯片制造 #光刻技术
+推荐理由：官方工程可视化把光、掩模、晶圆与计算校正放进同一条视觉链路，几乎无人出镜；很适合把“芯片为什么越先进越难造”落到纳米级误差控制这一具体答案。
+搬运适合度（★★★★★）：★★★★★
+中文字幕难度：高
+国内受众潜力：高
+B站标题建议：芯片为什么越做越难？一束光里的纳米级误差战争
+抖音标题建议：芯片越小，为什么越难造？
+快手标题建议：一束光怎么在晶圆上刻出芯片？
+小红书标题建议：光刻技术图解：看懂芯片制造为何难在纳米级精度
+封面文案：芯片为何 / 越做越难
+视频简介：先进芯片的难点，不只是把线条做得更小，而是让光学系统、材料和计算校正在纳米尺度同时对准。视频用工程动画展示光刻中的关键环节，带你看懂一束光如何决定晶圆上能否形成可靠的电路图形。
+首页推荐封面 4:3：L:\workspace\yinghe-shijie\covers\computational-lithography\computational-lithography-cover-4x3.png
+个人空间封面 16:9：L:\workspace\yinghe-shijie\covers\computational-lithography\computational-lithography-cover-16x9.png
+短视频竖版封面 9:16：L:\workspace\yinghe-shijie\covers\computational-lithography\computational-lithography-cover-9x16.png
+状态：已推荐
 
 ## 2026-07-24 - Neptune Missile How it Works | Ukraine Missile Vs Russian Cruiser Moskva Ship
 

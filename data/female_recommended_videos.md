@@ -5,6 +5,9 @@
 
 | 日期 | 视频标题 | YouTube链接 | 频道 | 类型 | 账号方向 | 状态 |
 |---|---|---|---|---|---|---|
+| 2026-07-25 | 8 Ways to Improve Parent Child Relationship | https://www.youtube.com/watch?v=RDemM6FjcSE | Psych2Go | #亲子沟通 #亲子关系 #生活方法 | 女性向 | 已推荐 |
+| 2026-07-25 | 8 Habits of Healthy Relationships | https://www.youtube.com/watch?v=uK9E2NHHKRQ | Psych2Go | #家庭关系 #伴侣沟通 #关系成长 | 女性向 | 已推荐 |
+| 2026-07-25 | Self Compassion | https://www.youtube.com/watch?v=-kfUE41-JFw | The School of Life | #女性成长 #自我关怀 #心理学动画 | 女性向 | 已推荐 |
 | 2026-07-24 | How to Feel Feelings \| AboutKidsHealth at The Hospital for Sick Children | https://www.youtube.com/watch?v=rjJdzhRZxGw | AboutKidsHealth - The Hospital for Sick Children | #亲子沟通 #情绪管理 #生活方法 | 女性向 | 已推荐 |
 | 2026-07-24 | The Secret of Successful Relationships: Rupture and Repair | https://www.youtube.com/watch?v=rgQvqi6aYD8 | The School of Life | #家庭关系 #伴侣沟通 #关系修复 | 女性向 | 已推荐 |
 | 2026-07-24 | Why you procrastinate even when it feels bad | https://www.youtube.com/watch?v=FWTNMzK9vG4 | TED-Ed | #女性成长 #情绪管理 #生活方法 | 女性向 | 已推荐 |

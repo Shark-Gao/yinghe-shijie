@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-"""Append one normalized platform review record to the dashboard history JSON."""
+"""向看板历史 JSON 追加一条标准化的平台复盘记录。"""
 
 import argparse
 import json
@@ -17,7 +17,7 @@ def optional_number(value):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--file", required=True, help="Path to review-history.json")
+    parser.add_argument("--file", required=True, help="review-history.json 文件路径。")
     parser.add_argument("--platform", required=True, choices=sorted(PLATFORMS))
     parser.add_argument("--period", required=True)
     parser.add_argument("--plays")

@@ -1,18 +1,18 @@
-# Dashboard data contract
+# 看板数据契约
 
-## Baseline
+## 基线
 
-Data cutoff: 2026-07-17. These values are directional benchmarks, not universal platform averages.
+数据截止日期：2026-07-17。以下数值是方向性基准，不是平台普遍平均值。
 
-| Platform | Period | Plays / views | Completion | Interaction | Followers | Notes |
+| 平台 | 周期 | 播放/观看 | 完播 | 互动 | 涨粉 | 备注 |
 | --- | --- | ---: | ---: | ---: | ---: | --- |
 | 小红书 | 近30日 | 5,317观看 | 1.9% | 205赞、159收藏、18分享、6评论 | +70 | 曝光2.4万，封面点击8.5%，平均观看39秒 |
 | 抖音 | 近7日 | 5,345播放 | 2.7% | 3.1%互动率 | +29 | 同类完播6.2%，搜索量831 |
 | 快手 | 近30日 | 3.9万播放 | 1.4% | 54赞、14评论、0分享 | +18 | 19条作品，近7日获得6243次额外助推 |
 
-## Record schema
+## 记录结构
 
-`review-history.json` is a JSON array. Every entry uses this shape:
+`review-history.json` 是一个 JSON 数组。每条记录使用以下结构：
 
 ```json
 {
@@ -34,8 +34,8 @@ Data cutoff: 2026-07-17. These values are directional benchmarks, not universal 
 }
 ```
 
-Use `null` for unavailable fields. Store rate fields as percentages without the percent sign. `plays` means the platform's original plays/views metric; preserve the platform label in the note when the terms differ. Only derive `follow_conversion` when followers and plays/views have matching scope; it need not be stored when the denominator is unclear.
+不可用字段使用 `null`。比例字段只存数字，不带百分号。`plays` 保留平台原始的播放/观看指标；如果平台叫法不同，要在 `note` 中保留原始名称。只有新增粉丝和播放/观看数统计范围一致时，才推导 `follow_conversion`；分母不清楚时可以不保存。
 
-## Dashboard behavior
+## 看板行为
 
-Import the JSON file from `app/page.tsx`; seed displayed review records with it, then merge records saved in browser local storage. Do not write screenshots or personal data into the site source.
+从 `app/page.tsx` 导入 JSON 文件，用它初始化页面显示的复盘记录，再合并浏览器本地存储中保存的记录。不得把截图或个人信息写入站点源代码。

@@ -1,81 +1,96 @@
 ---
 name: yinghe-short-video
-description: Analyze a permitted long-form source video together with SRT, VTT, or subtitle text and turn it into platform-aware Chinese short videos for 硬核视界. Use when the user asks to find strong clips, create a 30–90 second Chinese short-video script, package geopolitics, military equipment, war mechanisms, major engineering, technology, AI, or industry-competition topics for ordinary viewers, make Douyin/快手/小红书/Bilibili variants, write publish descriptions, add narration, generate covers on request, or export a finished short-video MP4.
+description: 分析有授权的长视频及其 SRT、VTT 或字幕文本，为硬核视界制作适配不同平台的中文短视频。用户要求寻找强镜头、制作完整中文解说、包装地缘政治/军事装备/战争机制/大国工程/科技/AI/产业竞争内容、生成平台版本、写发布简介、自动生成封面、添加配音或导出 MP4 时使用。渲染前自动审查立场、情绪价值、冲突点、开头钩子和核心答案。本技能的时长由故事完整性决定，不按任意固定时长硬剪。
 ---
 
 # 硬核短视频工坊
 
-Analyze the original video together with its original subtitles, then export every original, self-contained Chinese short video that meets the editorial standard. Treat the source as a visual library, not as a sequence to shorten. Do not ask the user to choose among candidates unless they explicitly request options. Do not pre-set the number of exports: if one story qualifies, export one; if several independent stories qualify, export each of them.
+结合原视频和原字幕，导出所有符合编辑标准、能够独立成立的中文短视频。把源片当作可重新组织的画面素材库，而不是必须压缩的连续片段。除非用户明确要求比较方案，否则不要让用户在候选故事之间选择。不要预设导出数量：一个故事合格就导出一个，多个互不重叠的故事合格就分别导出。
 
-## Workflow
+本技能与推荐视频流程分开：推荐视频流程只负责选题和记录，不自动生成封面；一旦进入本技能的短视频制作流程，每个合格故事默认自动生成并验证三种上传封面，除非用户明确要求不生成封面。
 
-1. Confirm that the user owns or may reuse the source. Locate the video and subtitle file. Keep the original files unchanged.
-2. Run `scripts/prepare_review_assets.py` to create metadata, subtitle cues, and contact sheets. Inspect the original video contact sheets and the original subtitle cues before proposing or planning clips. Base candidate selection on these local original assets only; do not search the web for replacement footage or supplementary source material unless the user explicitly asks.
-3. Identify every candidate story and score each one: hook clarity and strength 25%, visual proof 20%, stand-alone clarity 20%, Chinese audience relevance 20%, sufficient footage 10%, and safe 9:16 framing 5%. For current geopolitical stories, deduct for stale dates, unclear sourcing, or claims that cannot be separated into fact and analysis. Export every candidate that is high-scoring and can stand alone; do not stop after choosing a single "best" story and do not impose a fixed maximum number of shorts. Create one separate short-video plan and export folder per qualifying story. Reject a candidate only when it lacks a clear question/result, enough usable footage, or materially overlaps another selected story. Treat the source as a visual library for short edits, not as a sequence to preserve. For a generic short-video request, target 45–60 seconds; use 30–60 seconds for Douyin/快手, 45–90 seconds for Xiaohongshu, and create a longer version only when the user explicitly requests one (for example, a Bilibili version).
-4. Before writing narration, create an editorial card:
-   - `content_lane`: `地缘政治/国际局势`, `军事装备/战争机制`, or `大国工程/科技/产业竞争`.
-   - `audience_question`: one plain-language question an ordinary viewer would ask.
-   - `promised_answer`: the one-sentence answer delivered by 5–10 seconds.
-   - `emotional_shift`: the viewer's change in understanding, such as “以为是速度，明白关键是拦截窗口”.
-   - `series_link`: the collection or next episode this story belongs to.
-   For geopolitics, label each major claim as verified fact, source analysis, or inference; do not present an inference as a fact or use hostility as a substitute for explanation.
-5. Write a non-literal Chinese narration for each selected story: hook (0–2 s), visual proof (2–5 s), answer or payoff by roughly 5–10 s, compact explanation, and a concrete consequence or question. Use complete sentences or natural verbal units as narration segments; keep each segment to one or two sentences (normally about 3–8 seconds) instead of placing an entire chapter in one 30–90 second segment. Do not create a segment boundary in the middle of a phrase. Reserve enough time for the actual TTS reading speed plus a small buffer. Do not invent facts. Do not translate creator promotions, sponsorships, or calls to action. If a source story needs more than 90 seconds, split it into independent episodes instead of delaying the answer.
-   - **Narrative clarity gate (before rendering):** write the short's one-sentence question and one-sentence answer before writing any detailed narration. The opening must state the answer in plain Chinese, not merely set up context. A title promising “how it works” must open by naming the mechanism or its simple model, then explain it in order.
-   - Do not open a mechanism explainer with costs, historical context, or a comparison to a different system unless that information directly answers the title's question within the first 5–10 seconds. Remove any comparison that becomes a side story.
-   - Do not stack unexplained proper nouns, model names, or system layers. When a reference system is necessary, state its role in one short clause and explain why it is being used as a reference; otherwise replace the name with a plain-language function. Clearly distinguish a proposal or concept from an operating system.
-   - Each narration segment needs a matching visual proof: detection narration needs detection footage/graphics, trajectory narration needs tracking or trajectory footage, and interception narration needs interceptor or impact footage. Do not use visually impressive but semantically unrelated shots as filler.
-   - **Title–script truth gate (before rendering):** name the exact problem, audience, and time horizon in both the title and hook. Do not title a video as “压力一上来如何冷静” if its actual methods are long-term practice for stable performance; retitle it around “高压下稳定发挥”, or rewrite the script to deliver immediate calming steps. A three-step title must introduce the common cause, then connect all three steps with an explicit causal bridge such as “所以”, rather than listing methods abruptly.
-6. Create four distribution titles and four matching publish descriptions for every selected story. Include them in the edit-plan JSON as `platform_titles` and `platform_descriptions`, each with the keys `bilibili`, `douyin`, `kuaishou`, and `xiaohongshu`. Set the plan's existing `title` field to the Bilibili title. In the final delivery, list all four titles and descriptions separately for every exported short.
-   - `bilibili`: 18–28 Chinese characters where possible. Make the subject and viewing payoff clear, and lead with conflict, scale, cost, scarcity, or a mainstream question.
-   - `douyin`: short, spoken, and immediately curiosity-inducing. Lead with a striking visual, fact, or counterintuitive question; never use empty shock words.
-   - `kuaishou`: conversational and direct. Ask a concrete question or show an everyday consequence; avoid formal, explanatory wording.
-   - `xiaohongshu`: searchable and save-worthy. Include the core technical keyword and a clear learning benefit such as `看懂`, `图解`, or `3分钟了解`; do not force emojis or hashtags into the title.
-   - `cover_headline` and `cover_subhead` remain platform-independent, concise cover copy. Derive them from the strongest verified hook, rather than copying any title verbatim.
-   - `platform_descriptions`: state the video's verified core answer, mechanism or consequence, and a concrete viewing payoff in natural Chinese. Keep Bilibili and Xiaohongshu descriptions informative and searchable; keep Douyin and Kuaishou descriptions concise and spoken. Do not add unverified claims, creator promotions, empty hype, or forced hashtags. If the source creator or reuse licence must be credited, include the required attribution in every relevant description.
-7. Create one edit-plan JSON per qualifying story and requested platform variant using [references/edit-plan-schema.md](references/edit-plan-schema.md), then export every completed plan. For a generic request, create one 45–60 second master plan with four platform titles; create separate platform plans only when the duration, crop, or narration materially differs. Put the source timecodes in the selected narrative order, which may differ from source order. Align every source-clip boundary with a narration-segment boundary: never change source footage while a segment is still being spoken. A clip may contain multiple complete narration segments, but its end must coincide with the end of the final segment it contains. Before rendering, make a simple segment-to-clip map and verify every row answers: “Does this exact image make the current sentence easier to understand?” Store short-video exports separately from future long-video exports: first create `videos/exports/短视频/<source-video-title>/`, then give every story or platform variant its own folder, using `<topic>_短视频/` for a master and `<topic>_短视频_<platform>/` for a platform-specific variant. Never mix files from different stories in one short folder, or short folders from different source videos under the same source-title folder. Use `source` layout by default: retain the original source resolution and 16:9 frame with no crop or canvas conversion. Always keep the video in this source layout unless the user explicitly asks for a 9:16 video version; the requirement to generate a vertical cover never authorizes changing the video itself to 9:16. Use `contain_blur` or `fill_crop` only when the user explicitly asks for a 9:16 video version.
-8. Set `background_music` to `music/硬核视界_通用BGM_舒缓科普探索_CC0.mp3` by default, with `mix.music_volume` at `0.45`, `mix.narration_volume` at `1.0`, `mix.music_fade_seconds` at `0.0`, and `mix.source_volume` at `0.0`. This is a CC0, loopable synth/piano exploration ambience. Run `scripts/produce_short_video.py --plan <plan.json>` for each plan. It temporarily generates a timed Chinese narration MP3 and timeline JSON, measures the actual TTS duration of every narration segment, then directly mixes the background music at 45% of its original level under the unchanged Chinese narration—no ducking, no narration boost, no limiter, and no fade—before cutting and reordering the source, preserving the original 16:9 output size, exporting the final MP4, and writing a sidecar SRT in one command. The SRT must use the measured TTS segment durations rather than filling the entire planned segment window, so subtitles do not lag behind speech. Keep punctuation in narration text for natural TTS pauses, but strip trailing sentence punctuation from the displayed SRT text. Inspect the generated timing manifest before accepting each render: if a TTS segment exceeds its planned time window, or any cumulative clip boundary falls inside a spoken segment, extend or retime the plan and rebuild. Also reject a render when a segment leaves an unexplained silence longer than about one second, when two spoken segments overlap, or when the subtitle ends before the measured speech ends. Do not burn subtitles into the video unless the user explicitly asks. Do not route the source audio into the output unless the user explicitly requests it.
-   - **TA成长笔记女性向默认声画（除非用户明确要求例外）：** 必须在写 plan 前按题材设定 `narration.voice` 与 `narration.rate`，并在最终交付中说明选择。亲子沟通、儿童情绪、早期成长、照护者与孩子互动：`zh-CN-XiaoxiaoNeural`、`+0%`；女性成长、自我关怀、成人情绪管理、关系边界、伴侣沟通、依恋与独处，且没有儿童或亲子场景：`zh-CN-YunyangNeural`、`-4%`。用户指定声音优先；如果同一条片同时涉及儿童/亲子和成人成长，采用女声。男声只使用沉稳、清晰、陪伴感强的表达，不采用激情播报或强势说教。background music 必须设为 `music/TA成长笔记_CalmBGM_syncopika_CCBY30.ogg`；`music_volume` 设为 `0.60`，`narration_volume` 设为 `1.0`，`source_volume` 设为 `0.0`。该音乐为 CC-BY 3.0，每次交付必须同时给出并要求发布简介保留：`音乐：calm bgm — syncopika（CC BY 3.0）`。不得把男性向硬核探索 BGM 迁移到女性向项目。
-   - **自然起落缓冲：** 首句口播不得从 `0.0 s` 开始；在片头保留约 `0.3–0.6 s` 的纯视觉/BGM 起势，让第一个强画面先落下再进入钩子。末句口播也不得压到视频最后一秒；在口播结束后保留约 `0.5–0.8 s` 的收束画面与 BGM，并让视频在画面动作、图示或结尾提问落定后结束。这个首尾缓冲属于明确叙事停顿，不计为无理由的长空档；不得用黑屏、静止无意义画面或过长音乐替代。
-   - **紧凑节奏复测：** 首轮渲染后必须读取实际 TTS 分段时长，再回写下一段的 `start`、上一/下一画面边界并重新导出。除片头、片尾的自然起落缓冲或有明确叙事停顿外，口播段间目标空档为约 `0.2–0.4` 秒；任何超过 `0.6` 秒的空档都必须说明原因，否则缩短。统计最终 SRT 的总空档和最大空档，在最终交付前确认无长时间“音乐在播、口播断开”的听感。
-9. Generate three original upload-ready covers with the image generation tool only when the user explicitly requests covers. If covers are not requested, keep the plan copy and video output free of cover-generation work. When requested, derive each prompt from the selected story, title, and narration; never use a frame from the source or finished video. Use one clear subject, high contrast, no people unless essential, no logos, no watermark, and no generated text. Save all three covers in the matching dedicated export folder:
-   - **16:9 landscape editorial cover**: engineering subject on the left, layered cutout/transparent motion echoes or exploded technical layers where relevant, a deep black negative-space title area on the right, and one restrained accent color. Overlay the exact `cover_headline` and `cover_subhead` with `scripts/add_cover_title.py --layout right`.
-   - **4:3 standard cover** (`1440x1080`): generate a dedicated 4:3 composition, or adapt the landscape composition only when the subject and title area remain intact. Keep one clear subject on the left or lower-left, reserve a dark right-side title area, and overlay the same verified copy with `scripts/add_cover_title.py --layout right`. Name it `<topic>_封面_4x3_设计版.png`.
-   - **9:16 vertical short-video cover** (`1080x1920`): generate this cover even when the delivered video remains 16:9. Use a separately generated vertical composition when a crop would compromise the subject or title. Place one clear subject in the lower or middle third, reserve the upper third for copy, and keep all text inside the central 80% safe area. Overlay the same verified copy with `scripts/add_cover_title.py --layout portrait`. Write cover copy for the portrait safe area first: normally 4–6 Chinese characters for the headline and no more than 6–8 characters for a one-line subhead. Avoid long arrow chains, dense multi-term lists, or any line that must touch the side margins. If the landscape copy does not fit the portrait version, shorten the shared copy and regenerate both overlays; never accept a cropped vertical title. Name it `<topic>_封面_9x16_设计版.png`. If the platform requires matching video and cover aspect ratios (for example 快手), do not pair this vertical cover with a 16:9 video; export a separate 9:16 video only when the user asks for it.
-   Never rely on generated Chinese text. Name the landscape output `<topic>_封面_16x9_设计版.png`.
-   - **TA成长笔记女性向封面基准（除非用户明确要求例外）：** 按“稳定发挥”封面风格制作新底图，而不是复用旧图：深海军蓝背景，薄荷绿/青绿色的同心聚焦层，珊瑚色焦虑涂鸦逐步收束为一条清晰的外部目标箭头或具体生活目标；整体为温暖、高级、非写实的编辑插画。人物使用沉静、有力量感的成年女性/照护者；亲子主题可改为照护者与孩子互动，但必须保持同一色彩、线条和“从混乱到聚焦”的视觉叙事。16:9 让主体在左侧或左下，右侧保留深色标题区；9:16 让主体在下半区，顶部保留深色标题区。生成底图不得含文字，再通过 `add_cover_title.py` 叠加准确中文文案。视觉参考：`videos/exports/短视频/压力一上来如何冷静？3个可练习的稳定方法/稳定发挥_短视频/稳定发挥_封面_16x9_设计版.png` 与对应 `9x16` 文件。
-10. Verify each resulting MP4 and, only when requested, all three covers with `ffprobe` and visual inspection. Technical checks alone are not acceptance. Watch or listen to the complete final timeline once at normal speed, and read the sidecar SRT in parallel. Check that the frame size matches the source, narration is intelligible, the hook appears within 2 seconds, the core answer appears by 5–10 seconds, the emotional or explanatory payoff is visible by the end, the sidecar SRT has no trailing sentence punctuation, each subtitle cue ends no later than its measured spoken segment, every source transition lands at a completed narration sentence or segment, each narrated mechanism has matching visual evidence, each story remains distinct, and any requested cover clearly communicates the same promise without cropped or cramped text. Adjust only the relevant plan or cover and rebuild.
-11. Before cleanup and final delivery, verify title, description, and narration consistency for every exported short. Read the completed Chinese narration (from the plan and sidecar SRT) against all four `platform_titles`, all four `platform_descriptions`, and the final MP4. Confirm that they directly support the short's central subject, claim, question, scale, cost, conflict, or promised payoff; they must not exaggerate, shift the topic, leave the promised question unanswered, or introduce facts absent from the narration/source. The platform titles and descriptions may differ in wording and hook, but each must accurately describe the same completed short. Explicitly check that the opening, not merely the ending, supports the title and description; a title about a mechanism cannot be accepted if the opening instead discusses prices, background, or another system. If any mismatch is found, revise the affected title, description, or narration/plan, rebuild the export, and repeat this validation.
-   - **女性向二次审校：** 逐句检查标题、封面主文案、开头承诺、三步方法和结尾提问是否指向同一个具体问题。禁止用“立刻冷静”“治愈焦虑”等绝对或即时承诺包装预防性练习；应如实写为“稳定发挥”“把注意力拉回当下”等可由口播证明的收益。
-12. Run `scripts/cleanup_export.py --export-dir <topic_短视频 folder>` only after all verification passes, once for every export folder. Final delivery directories must retain the final MP4 and its SRT; retain the three final cover files only when covers were requested. Delete AI cover originals, draft covers, narration MP3, timeline JSON, contact sheets, and any other export intermediates. Also delete the matching `videos/raw/<source-stem>_review/` directory created by `prepare_review_assets.py` after all shorts from that source are verified; it contains disposable contact sheets, subtitle cues, and an index. Never delete the original source video or subtitle file.
+## 工作流程
 
-## Final delivery contract
+1. 确认用户拥有或获准复用源片。定位视频和字幕文件，原始文件保持不变。
+2. 运行 `scripts/prepare_review_assets.py` 生成元数据、字幕提示和联系表。提出或制定剪辑计划前，必须检查原视频联系表和原字幕提示。候选镜头只依据本地原始素材，不得自行上网寻找替代画面或补充源片，除非用户明确要求。
+3. 为每个候选故事评分：钩子清晰度和强度 25%、视觉证据 20%、脱离全集后的可理解性 20%、中国观众相关性 20%、可用素材充足度 10%、安全的 9:16 构图 5%。当前地缘政治内容还要因日期陈旧、来源不清或无法区分事实与分析而扣分。所有高分且能独立成立的故事都要导出，不要只选一个“最佳故事”，也不要设置固定的最大短视频数量。每个合格故事单独建立计划和输出目录。只有在缺少清晰问题/结果、可用镜头不足或与其他故事实质重叠时才淘汰。对源片重新选取和排序，不把原始播放顺序当作必须保留的叙事顺序。
+   - 不要把每条内容强行压成固定时长。先让问题、答案、证据和结果完整。30–90 秒是抖音、快手和小红书的参考区间，不是硬目标。只有故事已经讲完整或平台有硬性限制时才缩短；不要为了凑短删掉必要解释，也不要为了凑长添加空话。只有在出现自然的独立问题或故事边界时才拆分，不要仅因为超过偏好时长就拆分。
+4. 写解说前必须建立编辑卡：
+   - `content_lane`：`地缘政治/国际局势`、`军事装备/战争机制` 或 `大国工程/科技/产业竞争`。
+   - `audience_question`：普通观众会提出的一句话问题。
+   - `promised_answer`：最晚在 5–10 秒交付的一句话答案。
+   - `emotional_shift`：观众认知发生的变化，例如“以为关键是速度，最后明白关键是拦截窗口”。
+   - `series_link`：所属系列或下一期可以承接的主题。
+   - 在写完整解说前，先用中文写清问题、答案、预期情绪变化和系列归属；这些是必做的编辑决定，不是可有可无的备注。
+   - 允许有明确的内容立场，但这里的立场是解释角度或结论，不是政治站队，也不能用未经证实的敌我对立代替解释。优先把观点落到地理、装备、后勤、能源、产业、技术、平民影响或其他可见机制上，并区分核实事实、来源分析和推断。
+   - 必须提供情绪价值，但情绪应来自看懂机制、感受到后果、形成对比、理解规模、感受紧张、发现反转或建立现实关联。不得制造愤怒、侮辱人或国家，也不得用空洞兴奋代替答案。
+5. 为每个选中的故事重新写中文口播，不做英文字幕逐句翻译。结构为：0–2 秒钩子，2–5 秒视觉证据，约 5–10 秒给出答案或结果，中段解释机制，结尾交代具体后果或提出具体问题。每段使用完整句子或自然口语单元，通常 3–8 秒、1–2 句话；不要把整章内容塞进一个长段落，也不要在一句话中途切段。为真实 TTS 朗读速度和少量缓冲留出空间。不得编造事实，不翻译创作者推广、赞助感谢或无关行动号召。
+   - 如果内容超过某个平台的时长限制，只能在独立问题或自然故事边界处拆分；如果没有这样的边界，就保留完整版本，并说明平台短版会损失必要背景。
+   - **叙事清晰闸门：** 渲染前先写出这一条的一句话问题和一句话答案。开头必须用普通中文给出答案或明确答案方向，不能只铺垫背景。标题承诺“原理/怎么工作”时，开头要先说出机制或简单模型，再按顺序解释。
+   - 机制解释不得先从价格、历史背景或其他系统对比讲起，除非这些内容能在前 5–10 秒直接回答标题问题。成为支线的比较必须删除。
+   - 不要堆叠未解释的专有名词、型号或系统层级。确实需要参照系统时，用一句话说明它的作用和为什么拿来参照；否则改用普通人能懂的功能描述。明确区分概念方案和已经运行的系统。
+   - 每段口播都必须有对应的视觉证据：讲探测就用探测画面/图形，讲轨迹就用跟踪或轨迹画面，讲拦截就用拦截器或命中画面。不能用漂亮但语义无关的镜头填空。
+   - **标题—脚本真实性闸门：** 标题和钩子都要说清实际问题、观众和时间范围。不能把长期练习写成“压力一上来如何冷静”，而应改成“高压下稳定发挥”，除非口播确实提供即时可执行的冷静方法。三步标题必须先说共同原因，再用“所以”等明确因果连接三个方法，不能突然罗列。
+   - **口语化表达：** 默认使用自然中文口播，不写成翻译腔或论文。每条内容都主动检查是否存在 1–3 个适合自然融入的口语表达、常见歇后语、网络用词或轻度搞笑梗；适合就使用，不适合就用普通中文，不要硬塞。它们是调味，不是脚本结构；关键事实和数字保持直白。比如可以在语境合适时使用“哑巴吃黄连——有苦说不出”，但必须服务于画面、机制、后果或转折。
+   - 网络用词和幽默必须与画面、机制、后果或转场直接相关。优先使用大众理解、不过时的表达，不使用生僻或很快过时的梗。不得使用低俗、辱骂、歧视或平台诱导性语言，不拿战争伤亡、灾难、受害者、真实人物或严肃地缘政治伤害开玩笑。严肃题材要降低幽默比例，必要时完全不用。
+   - 不使用 `家人们`、`震惊`、`太离谱了`、`看到最后` 等套路化点击诱导词。歇后语或笑点只有在上下文仍然事实清楚、语气不突兀时才能保留。
+6. 为每个故事制作四个平台标题和四份对应发布简介，写入编辑计划 JSON 的 `platform_titles` 和 `platform_descriptions`，键必须包含 `bilibili`、`douyin`、`kuaishou`、`xiaohongshu`。计划原有的 `title` 字段设为 B 站标题。最终交付时逐条列出四个平台的标题和简介。
+   - `bilibili`：尽量 18–28 个汉字，清楚说明主题和观看收益，优先突出冲突、规模、成本、稀缺性或大众问题。
+   - `douyin`：短、口语化、立刻产生好奇，突出惊人画面、事实或反直觉问题，不使用空洞震惊词。
+   - `kuaishou`：直接、生活化、像在聊天，围绕具体问题或日常后果，不写得过于正式。
+   - `xiaohongshu`：便于搜索和收藏，包含核心技术关键词以及“看懂”“图解”“3分钟了解”等学习收益，不强行添加表情或话题标签。
+   - `cover_headline` 和 `cover_subhead` 是跨平台的简洁封面文案，应来自已核验的最强钩子，不要机械复制标题。
+   - `platform_descriptions` 必须用自然中文说明已核验的核心答案、机制或后果，以及观众看完能获得什么。B 站和小红书简介要信息清楚、便于搜索；抖音和快手简介要简洁、口语化。不得添加未经证实的说法、创作者推广、空洞夸张或强行话题标签；需要署名时，在相关简介中保留完整来源或授权信息。
+ 7. 按 [references/edit-plan-schema.md](references/edit-plan-schema.md) 为每个合格故事和需要的平台代理版本建立一个编辑计划 JSON，再导出成片。通用请求只建立一个完整主版本；时长由问题复杂度、解释量和视觉证据决定，30–90 秒只是初始参考。只有时长、裁切或口播明显不同才建立单独平台计划。源片时间码可以按叙事顺序重新排列。每个源片段边界必须落在完整口播段边界上，不能在口播未结束时换画面；一个片段可以承载多个完整口播段，但片段结尾必须等于最后一个口播段的结束位置。渲染前制作简单的“口播段—画面片段”对应表，逐行确认“这段确切画面是否让当前句子更容易理解”。
+   - 短视频输出统一放在 `videos/exports/短视频/<source-video-title>/` 下，每个故事或平台版本独立目录：主版本使用 `<topic>_短视频/`，平台版本使用 `<topic>_短视频_<platform>/`。不同故事不能混在一个目录，不同源片的短视频目录也不能混放。
+   - 默认使用 `source` 画幅，保留源视频分辨率和 16:9 比例，不裁切、不新建画布。只有用户明确要求 9:16 视频时，才使用 `contain_blur` 或 `fill_crop`。生成竖版封面不等于授权改变视频画幅。
+ 8. 在首次渲染前，必须按 [references/preflight-review.md](references/preflight-review.md) 完成一次“成片前内容审查”，并将结果写入计划的 `preflight_review`。重点核对立场与事实边界、情绪价值、冲突点、0–2 秒钩子、5–10 秒答案、画面证据，以及标题/封面/简介/口播的一致性。任何一项不通过，都必须先修改计划再审查；不得先生成 MP4 再靠复盘发现这些问题。运行 `scripts/validate_preflight_review.py --plan <plan.json>`，通过后才允许运行 `scripts/produce_short_video.py --plan <plan.json>`。渲染脚本也会强制拦截缺少通过记录的计划。
+9. 默认设置 `background_music` 为 `music/硬核视界_通用BGM_舒缓科普探索_CC0.mp3`，`mix.music_volume` 为 `0.45`，`mix.narration_volume` 为 `1.0`，`mix.music_fade_seconds` 为 `0.0`，`mix.source_volume` 为 `0.0`。配音统一优先使用本地 `CosyVoice-300M-SFT`：`narration.provider: "cosyvoice"`、`model_dir: "tools/CosyVoice/pretrained_models/CosyVoice-300M-SFT"`、`python: "tools/CosyVoice/.venv/Scripts/python.exe"`、`mode: "sft"`，按题材选择 `中文男` 或 `中文女`。渲染器自动检测 CUDA；当前 RTX 4060 环境使用 CUDA + FP16，无 GPU 时才回退 CPU，CosyVoice 不可用或用户明确指定时才使用 `edge`。`CosyVoice-300M-Instruct` 不作为默认模型。运行 `scripts/produce_short_video.py --plan <plan.json>`。脚本会临时生成带时间的中文解说 MP3 和时间线 JSON，测量每段 TTS 的实际时长，再把 BGM 以原音量 45% 混入未增益、未限幅、无淡入淡出的中文口播，之后裁剪、重排和拼接源片，保持默认 16:9，输出 MP4 和旁车 SRT。CosyVoice 的配置细节见 `skills/generate-narration-audio/references/cosyvoice.md`。
+   - SRT 必须使用实际测得的 TTS 分段时长，不能把整个计划窗口都当成字幕时长，否则字幕会拖在语音后面。口播文本保留标点以形成自然停顿，显示到 SRT 时去掉句末标点。
+   - 必须检查时长清单：如果某段 TTS 超出计划窗口，或累计画面边界落在口播段中间，就延长/重排计划并重新导出。若出现超过约 1 秒且没有叙事理由的空白、口播重叠或字幕早于语音结束，也必须拒绝该版本并重做。
+   - 不要主动把字幕烧进视频，除非用户明确要求。除非用户明确要求，不要把原视频声音混入输出。
+   - **TA成长笔记女性向默认声画：** 写计划前按题材设定 `narration.voice` 和 `narration.speed`，并在交付时说明。亲子沟通、儿童情绪、早期成长、照护者与孩子互动使用 CosyVoice `中文女`；女性成长、自我关怀、成人情绪管理、关系边界、伴侣沟通、依恋与独处且没有儿童/亲子场景时，使用 CosyVoice `中文男`。统一使用 `provider: "cosyvoice"`、`model_dir: "tools/CosyVoice/pretrained_models/CosyVoice-300M-SFT"`、`mode: "sft"`，自动使用可用 CUDA + FP16。用户指定声音优先；同一条同时涉及儿童/亲子和成人成长时用女声。男声要沉稳、清晰、有陪伴感，不激情播报或强势说教。BGM 必须使用 `music/TA成长笔记_CalmBGM_syncopika_CCBY30.ogg`，`music_volume` 为 `0.60`，`narration_volume` 为 `1.0`，`source_volume` 为 `0.0`。发布简介必须保留 `音乐：calm bgm — syncopika（CC BY 3.0）`，不得将男性向 BGM 移给女性向项目。
+   - **自然起落：** 第一处口播不得从 `0.0 s` 开始，片头保留约 0.3–0.6 秒纯视觉/BGM 起势；最后一句后保留约 0.5–0.8 秒收束画面和 BGM。不得用黑屏、静止画面或过长音乐制造无意义空白。
+   - **紧凑节奏复测：** 首轮渲染后读取实际 TTS 分段时长，回写下一段起点和前后画面边界并重新导出。除片头片尾自然缓冲或有明确叙事停顿外，口播段间目标空档约 0.2–0.4 秒，超过 0.6 秒必须说明原因，否则缩短。最终要统计 SRT 总空档和最大空档，确认没有“音乐在播、口播断开”的听感。
+10. 每个合格故事默认用图像生成工具制作三张原创、可直接上传的封面；只有用户明确要求不生成封面时才跳过。封面必须纳入编辑计划和最终交付。封面提示词必须来自选中的故事、标题和口播；不得使用源片或成片截图。除非主题确实需要，不出现人物、Logo、水印和生成文字；一个封面只保留一个清晰主体、高对比和足够留白。
+   - **16:9 横版知识封面：** 工程主体放左侧；需要时使用分层剖面、透明运动残影或爆炸结构；右侧留深色标题区，并使用一种克制的强调色。用 `scripts/add_cover_title.py --layout right` 后期叠加准确的 `cover_headline` 和 `cover_subhead`。
+   - **4:3 标准封面**（`1440x1080`）：优先单独构图；只有主体和标题区完整时才适配横版。主体放左侧或左下，右侧保留深色标题区，使用同一套核验文案后期叠加，文件名为 `<topic>_封面_4x3_设计版.png`。
+   - **9:16 竖版短视频封面**（`1080x1920`）：即使视频保持 16:9，也要单独制作竖版封面。主体放在中下部，上方留标题区，文字位于中央 80% 安全区。竖版主标题通常 4–6 个汉字，单行副标题不超过 6–8 个汉字，不使用长箭头链、密集名词列表或贴边文字。若横版文案放不下，先缩短共同文案，再同时重做两种覆盖；不得接受裁切或拥挤的竖版标题。平台要求视频与封面比例一致时，不得把竖版封面配给 16:9 视频；只有用户明确要求时才另做 9:16 视频。
+   - 不依赖图像模型生成中文文字。横版文件名为 `<topic>_封面_16x9_设计版.png`。
+   - **TA成长笔记女性向封面：** 使用深海军蓝、薄荷绿/青绿色聚焦层和珊瑚色混乱线条收束为清晰目标的温暖非写实编辑插画。主体默认是沉静的成年女性/照护者，亲子内容可用照护者与孩子；16:9 主体在左侧或左下、右侧留标题区，9:16 主体在下半区、顶部留标题区。底图不得生成文字，后期再叠加准确中文文案。参考项目中“稳定发挥”封面。
+11. 验证每个 MP4 和三张封面。这里做技术验收和完整观看/试听：检查画幅是否符合计划、口播是否清楚、SRT 是否没有句末标点、每个字幕段是否不晚于实际语音、每次画面切换是否落在完整句子/口播段之后、封面是否有裁切或拥挤文字、文件是否完整。立场、情绪价值、冲突点、钩子、核心答案和标题脚本一致性必须已经在第 8 步的成片前内容审查中确认，不得把它们留到渲染后首次判断。
+12. 清理前只核对最终文件仍对应已通过预审的编辑计划，不重新改变主题或补做内容方向审查。若技术验收发现计划执行错误，先修正计划并重新完成成片前内容审查，再决定是否重新导出；不得把一次技术返工当作内容审查的替代。
+   - **女性向二次审校：** 逐句检查标题、封面主文案、开头承诺、方法步骤和结尾提问是否指向同一个具体问题。不得用“立刻冷静”“治愈焦虑”等绝对或即时承诺包装长期练习，应如实表达为“稳定发挥”“把注意力拉回当下”等口播能够证明的收益。
+13. 所有检查通过后，才运行 `scripts/cleanup_export.py --export-dir <topic_短视频 folder>`，每个输出目录运行一次。最终目录必须保留 MP4、SRT 和三张最终封面；删除 AI 封面原图、草稿封面、配音 MP3、时间线 JSON、联系表和其他中间文件。所有源片短视频验证完后，删除 `videos/raw/<source-stem>_review/` 临时目录；不得删除原始视频或字幕文件。
 
-- Always include a `发布简介` section in the final response for every exported short. List the four complete, ready-to-paste descriptions separately under `B站`、`抖音`、`快手`、`小红书`; do not provide titles alone or merely say that descriptions are stored in the plan.
-- Keep every required music/source attribution verbatim in each platform description. For TA成长笔记 topics, include `音乐：calm bgm — syncopika（CC BY 3.0）` in all four descriptions.
+## 最终交付
 
-## Editorial constraints
+- 每条导出的短视频都必须在最终回复中包含“发布简介”部分，分别列出 B 站、抖音、快手、小红书四份完整、可直接粘贴的简介；不能只给标题，也不能只说简介保存在计划里。
+- 每个平台简介都必须保留必要的音乐/来源署名。TA成长笔记内容必须在四份简介中保留 `音乐：calm bgm — syncopika（CC BY 3.0）`。
 
-- Start with the strongest result or scale, not chronological context.
-- One video should answer one question. Cut source introductions, outros, repeats, and unsupported claims.
-- Use Chinese narration to add explanation and a domestic relevance angle; do not merely replace English subtitles.
-- Deliver the core answer within the first 5–10 seconds. Do not spend the opening on channel identity, generic background, or a slow setup.
-- Keep the default edit at 45–60 seconds. Use 30–60 seconds for Douyin/快手 and 45–90 seconds for Xiaohongshu; split longer explanations into a clearly labeled series.
-- Keep clips moving every 2–5 seconds unless the image itself is changing or a technical diagram needs longer. Leave a purposeful 0.3–0.6 second visual lead-in before the first narration and a 0.5–0.8 second visual/BGM tail after the final narration; do not start speech at 0 seconds or end it on the final second of the file.
-- Prefer one striking visual, scale comparison, cost, conflict, or real-life consequence per short. For abstract topics such as chips or computing, add a concrete everyday question and a visible diagram or teardown sequence.
-- End with a specific prompt that invites a useful comment or points to the next episode; do not append a generic “记得点赞关注”.
-- Make the exported work meaningfully transformative. Do not remove copyright notices or imply ownership of someone else's footage.
+## 编辑约束
 
-## Platform packaging defaults
+- 从最强结果或规模开始，不从时间顺序背景开始。
+- 一条视频只回答一个问题。删掉源片片头、片尾、重复内容和无依据说法。
+- 用中文口播增加解释和国内观众能理解的现实角度，不只是替换英文字幕。
+- 5–10 秒内交付核心答案，不把开头浪费在频道介绍、泛泛背景或慢速铺垫上。
+- 不把时长当成首要目标。让问题、证据、解释和结果决定长度；30–90 秒是实际制作参考，不得为了进入区间删掉必要内容，也不得添加水分。只有每集能回答独立问题或平台规则要求时才拆长内容。
+- 除非画面本身在变化或技术图示需要更长停留，否则每 2–5 秒推进一次。第一句前保留 0.3–0.6 秒视觉起势，最后一句后保留 0.5–0.8 秒画面/BGM 收束。
+- 每条内容优先突出一个强画面、规模对比、成本、冲突或现实后果。芯片、计算等抽象主题要加入具体生活问题和可见图示/拆解过程。
+- 结尾提出具体问题或指向下一期，不添加泛化的“记得点赞关注”。
+- 成片必须具有实质性改造价值，不得移除版权标识或暗示拥有他人素材。
 
-- **Generic request**: export one 45–60 second master, keep the source layout unless a 9:16 video is requested, and include all four platform titles in the plan.
-- **Douyin**: favor 30–60 seconds, a spoken hook in the first two seconds, fast visual proof, and a title built around a surprising result or concrete question. Do not publish the 9–11 minute source edit as the default.
-- **快手**: favor 30–60 seconds, direct conversational wording, an everyday consequence, and a clear payoff before the midpoint. Optimize for comments and follows, not just platform-supplied reach.
-- **小红书**: favor 45–90 seconds, searchable technical keywords, clean diagrams, and a save-worthy takeaway. Keep the title useful and specific rather than sensational.
-- **Bilibili or explicit long-form request**: create a separate longer plan and export folder. Do not let that long version determine the short-video duration or pacing.
+## 平台包装参考
 
-When adapting one source for multiple platforms, preserve the verified facts and primary footage but rewrite the hook, pacing, ending prompt, and title for each platform. Do not upload an identical 10-minute cut to every platform.
+- **通用请求：** 导出一个内容完整的主版本，时长由故事决定；除非要求 9:16 视频，否则保留源片画幅，并在计划中写入四个平台标题。
+- **抖音：** 故事适合时优先参考 30–90 秒，前两秒口播给出钩子，快速提供视觉证据，标题围绕惊人结果或具体问题；不能为了低于 60 秒删掉必要解释，也不默认发布 9–11 分钟源片。
+- **快手：** 故事适合时优先参考 30–90 秒，使用直接口语、日常后果和中点前的明确结果；关注评论和关注转化，不只看平台助推的触达量。
+- **小红书：** 优先参考 45–90 秒，使用可搜索的技术关键词、清楚图示和值得收藏的结论；标题具体有用，不追求夸张。
+- **B 站或明确长视频请求：** 单独建立更长计划和输出目录；不能让长版本反过来决定短视频的时长和节奏。
 
-## Commands
+同一源片适配多个平台时，保留已核验事实和主要画面，但分别改写钩子、节奏、结尾问题和标题。不要把同一条 10 分钟剪辑原样上传到所有平台。
+
+## 命令
 
 ```powershell
 python "skills/yinghe-short-video/scripts/prepare_review_assets.py" `
@@ -88,4 +103,4 @@ python "skills/yinghe-short-video/scripts/cleanup_export.py" `
   --export-dir "videos/exports/短视频/<source-video-title>/source-machine_短视频"
 ```
 
-Read [references/edit-plan-schema.md](references/edit-plan-schema.md) before writing or changing a plan. Do not hand-edit the video when the plan can be changed and rebuilt.
+写入或修改计划前，先阅读 [references/edit-plan-schema.md](references/edit-plan-schema.md)。只要可以通过修改计划并重新构建解决，就不要手工改视频。

@@ -3,6 +3,75 @@
 
 用于 TA成长笔记，保存女性向亲子育己视频的完整推荐信息、标题和封面路径。与男性向 `data/recommended_video_details.md` 分开维护。
 
+## 2026-07-25 - 8 Ways to Improve Parent Child Relationship
+
+账号方向：女性向
+视频链接：https://www.youtube.com/watch?v=RDemM6FjcSE
+视频标题：8 Ways to Improve Parent Child Relationship
+频道：Psych2Go
+画质：公开视频页、oEmbed 元数据与 1280×720 maxres 缩略图已核验可访问；匿名 1080p 格式探测受 YouTube 验证页限制，下载时复核。
+内容分类：#亲子沟通 #亲子关系 #生活方法
+推荐理由：插画化短片把日常陪伴、倾听和回应拆成容易理解的互动细节，少真人且可切条；中文化时可强调连接是可练习的日常动作，不把关系好坏归咎于家长或孩子。
+搬运适合度（★★★★★）：★★★★☆
+中文字幕难度：低
+国内受众潜力：高
+B站标题建议：孩子不愿开口怎么办？先修复这8个亲子连接细节
+抖音标题建议：孩子不爱跟你说话，可能少了这一步
+快手标题建议：想跟孩子更亲近，日常先把这几件小事做起来
+小红书标题建议：亲子沟通方法：看懂8个能增加连接感的日常细节
+封面文案：孩子不愿说 / 先别急着问
+视频简介：孩子不愿开口，不一定是“故意不配合”。视频用温和的插画情境梳理几种能增加连接感的日常动作：留出专属时间、认真听完、回应具体感受。它不要求父母完美，只提供今天就能尝试的沟通起点。音乐：calm bgm — syncopika（CC BY 3.0）
+首页推荐封面 4:3：L:\workspace\yinghe-shijie\covers\parent-child-relationship\parent-child-relationship-cover-4x3.png
+个人空间封面 16:9：L:\workspace\yinghe-shijie\covers\parent-child-relationship\parent-child-relationship-cover-16x9.png
+短视频竖版封面 9:16：L:\workspace\yinghe-shijie\covers\parent-child-relationship\parent-child-relationship-cover-9x16.png
+状态：已推荐
+
+## 2026-07-25 - 8 Habits of Healthy Relationships
+
+账号方向：女性向
+视频链接：https://www.youtube.com/watch?v=uK9E2NHHKRQ
+视频标题：8 Habits of Healthy Relationships
+频道：Psych2Go
+画质：公开视频页、oEmbed 元数据与 1280×720 maxres 缩略图已核验可访问；匿名 1080p 格式探测受 YouTube 验证页限制，下载时复核。
+内容分类：#家庭关系 #伴侣沟通 #关系成长
+推荐理由：以动画化关系场景呈现倾听、尊重边界和清楚表达等相处习惯，少真人；可包装为“关系不是靠忍，而是靠可重复的互动方式”，避免给任何一方贴标签。
+搬运适合度（★★★★★）：★★★★☆
+中文字幕难度：低
+国内受众潜力：高
+B站标题建议：关系越来越累？8个相处习惯决定对话走向
+抖音标题建议：关系变好，真的不是靠忍
+快手标题建议：两个人相处舒服，平时都做对了啥？
+小红书标题建议：健康关系相处法：看懂8个减少内耗的沟通习惯
+封面文案：关系变好 / 靠的不是忍
+视频简介：让关系变得轻松的，不是永远不发生分歧，而是分歧出现后还能尊重、倾听和把需求说清。视频用简单情境整理几种可练习的相处习惯，帮助你复盘一段对话，而不是给任何关系下结论。音乐：calm bgm — syncopika（CC BY 3.0）
+首页推荐封面 4:3：L:\workspace\yinghe-shijie\covers\healthy-relationship-habits\healthy-relationship-habits-cover-4x3.png
+个人空间封面 16:9：L:\workspace\yinghe-shijie\covers\healthy-relationship-habits\healthy-relationship-habits-cover-16x9.png
+短视频竖版封面 9:16：L:\workspace\yinghe-shijie\covers\healthy-relationship-habits\healthy-relationship-habits-cover-9x16.png
+状态：已推荐
+
+## 2026-07-25 - Self Compassion
+
+账号方向：女性向
+视频链接：https://www.youtube.com/watch?v=-kfUE41-JFw
+视频标题：Self Compassion
+频道：The School of Life
+画质：公开视频页、oEmbed 元数据与 1280×720 maxres 缩略图已核验可访问；匿名 1080p 格式探测受 YouTube 验证页限制，下载时复核。
+内容分类：#女性成长 #自我关怀 #心理学动画
+推荐理由：插画叙事围绕自我苛责与自我同情的差异展开，几乎无人出镜，画面温柔统一；适合把抽象概念落到“失败时怎样换一种对自己说话的方式”，不承诺立刻改变情绪。
+搬运适合度（★★★★★）：★★★★☆
+中文字幕难度：中
+国内受众潜力：高
+B站标题建议：为什么你总对自己最狠？自我同情不是放纵
+抖音标题建议：对自己别那么苛刻
+快手标题建议：做错事后，咱能不能先别把自己骂一遍？
+小红书标题建议：自我同情入门：看懂如何减少自我苛责和内耗
+封面文案：对自己 / 别那么苛刻
+视频简介：很多人在失败或低谷时，会把最难听的话先说给自己。视频用温和插画拆开“自我同情”并不是逃避责任，而是先承认此刻的困难，再用更具体的方式支持下一步行动。它不承诺立刻变好，只提供一个练习起点。音乐：calm bgm — syncopika（CC BY 3.0）
+首页推荐封面 4:3：L:\workspace\yinghe-shijie\covers\self-compassion\self-compassion-cover-4x3.png
+个人空间封面 16:9：L:\workspace\yinghe-shijie\covers\self-compassion\self-compassion-cover-16x9.png
+短视频竖版封面 9:16：L:\workspace\yinghe-shijie\covers\self-compassion\self-compassion-cover-9x16.png
+状态：已推荐
+
 ## 2026-07-24 - How to Feel Feelings | AboutKidsHealth at The Hospital for Sick Children
 
 账号方向：女性向

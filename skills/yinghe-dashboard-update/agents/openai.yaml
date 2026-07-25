@@ -1,4 +1,4 @@
 interface:
   display_name: "硬核视界看板更新"
   short_description: "按钩子、留存、互动和转粉更新复盘看板"
-  default_prompt: "Use $yinghe-dashboard-update to update the 硬核视界 dashboard with my latest platform analytics screenshots and diagnose the 2/5/10-second hook."
+  default_prompt: "使用 $yinghe-dashboard-update 根据我最新的平台数据截图更新硬核视界看板，并诊断 2/5/10 秒钩子。"

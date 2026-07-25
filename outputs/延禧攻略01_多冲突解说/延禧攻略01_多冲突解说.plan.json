@@ -1,0 +1,111 @@
+{
+  "version": 1,
+  "title": "璎珞入宫第一天，先救宫女再破作弊局：她凭什么站稳脚跟？",
+  "drama": {
+    "work_title": "延禧攻略",
+    "episode": "第1集",
+    "story_arc": "璎珞入宫第一天连续化解两场危机",
+    "spoiler_scope": "仅揭示本条素材内的两个阶段性结果",
+    "opening_stance_hook": "入宫第一天，璎珞先得罪秀女，后被指作弊；她能留下来，靠的不是讨好，而是把规矩变成自己的工具。",
+    "commentary_viewpoint": "璎珞两次化解危机，靠的都不是硬碰硬，而是先看清对方在意什么，再用事实和规则把主动权拿回来。",
+    "discussion_conflict": "面对强势的主子和不公平的规矩，应该直接硬顶，还是先利用规则保护自己？",
+    "emotional_value": "让观众在替弱者解气之外，看见一个新人如何用机敏和证据争取留下来的机会。",
+    "rights_note": "用户已确认拥有该素材用于本次制作的授权"
+  },
+  "source_subtitle": "L:/workspace/yinghe-shijie/outputs/延禧攻略01_时间线01.srt",
+  "source_video": "L:/workspace/yinghe-shijie/outputs/延禧攻略01_前置铺垫_temp2/joined_proxy_with_rank_setup.mp4",
+  "output_video": "L:/workspace/yinghe-shijie/outputs/延禧攻略01_多冲突解说/延禧攻略01_多冲突解说.mp4",
+  "cover_title": "璎珞入宫第一天就连过两关",
+  "cover_headline": "她不靠讨好",
+  "cover_subhead": "把规矩变成武器",
+  "cover_aspect": "16:9",
+  "layout": "source",
+  "burn_captions": false,
+  "write_subtitles": true,
+  "platform_titles": {
+    "bilibili": "璎珞入宫第一天，先救宫女再破作弊局：她凭什么站稳脚跟？",
+    "douyin": "入宫第一天，她先救人，再用规则反制告密者",
+    "kuaishou": "璎珞刚进宫就连过两关，靠的不是讨好而是脑子",
+    "xiaohongshu": "《延禧攻略》第一集：璎珞如何用机敏化解两场宫廷危机？"
+  },
+  "platform_descriptions": {
+    "bilibili": "璎珞入宫第一天，先用“步步生莲”救下被罚宫女，又在绣工考试中用事实拆穿作弊指控。她不是靠讨好主子，而是把规则变成了保护自己的工具。",
+    "douyin": "一个是被踩手的宫女，一个是被指作弊的绣工。璎珞入宫第一天，连续两次用机敏和证据把主动权拿回来。",
+    "kuaishou": "刚进宫就遇上两场麻烦：秀女要罚人、绣工又被告作弊。看璎珞怎么不硬顶，反而把规矩变成自己的帮手。",
+    "xiaohongshu": "《延禧攻略》第一集解说：璎珞先用香粉做出“步步生莲”救人，再用未完成绣图的证据化解作弊指控。她的生存逻辑，是先看清规则，再争取主动。"
+  },
+  "clips": [
+    { "id": "hook_source", "source_start": 53.166, "source_end": 54.066, "focus_x": 0.50 },
+    { "id": "opening_setup_source", "source_start": 25.000, "source_end": 40.900, "focus_x": 0.50 },
+    { "id": "status_prelude", "source_start": 54.066, "source_end": 68.232, "focus_x": 0.50 },
+    { "id": "hook_source_repeat", "source_start": 53.166, "source_end": 54.066, "focus_x": 0.50 },
+    { "id": "threat_visual", "source_start": 69.132, "source_end": 81.032, "focus_x": 0.50 },
+    { "id": "advice_source", "source_start": 81.032, "source_end": 92.599, "focus_x": 0.50 },
+    { "id": "plan_source", "source_start": 92.599, "source_end": 98.033, "focus_x": 0.50 },
+    { "id": "shoes_source", "source_start": 98.033, "source_end": 117.500, "focus_x": 0.50 },
+    { "id": "lotus_result_visual", "source_start": 117.500, "source_end": 134.433, "focus_x": 0.50 },
+    { "id": "embroidery_prelude", "source_start": 134.433, "source_end": 149.833, "focus_x": 0.50 },
+    { "id": "embroidery_crisis_source", "source_start": 149.833, "source_end": 173.167, "focus_x": 0.50 },
+    { "id": "embroidery_choice_source", "source_start": 173.167, "source_end": 181.867, "focus_x": 0.50 },
+    { "id": "embroidery_result_source", "source_start": 181.867, "source_end": 189.434, "focus_x": 0.50 },
+    { "id": "accusation_visual", "source_start": 189.434, "source_end": 213.501, "focus_x": 0.50 },
+    { "id": "logic_source", "source_start": 213.501, "source_end": 233.301, "focus_x": 0.50 },
+    { "id": "verdict_prelude", "source_start": 233.301, "source_end": 251.934, "focus_x": 0.50 },
+    { "id": "verdict_source", "source_start": 251.934, "source_end": 265.801, "focus_x": 0.50 },
+    { "id": "punishment_source", "source_start": 265.801, "source_end": 268.201, "focus_x": 0.50 },
+    { "id": "retained_source", "source_start": 268.201, "source_end": 280.568, "focus_x": 0.50 }
+  ],
+  "narration": {
+    "provider": "cosyvoice",
+    "python": "tools/CosyVoice/.venv/Scripts/python.exe",
+    "model_dir": "tools/CosyVoice/pretrained_models/CosyVoice-300M-SFT",
+    "mode": "sft",
+    "voice": "中文女",
+    "speed": 1.12,
+    "rate": "+12%",
+    "segments": [
+      { "start": "00:00:01.100", "end": "00:00:09.800", "text": "先别急，这声“混账贱婢”不是无缘无故；要看懂她为什么敢骂，得先看清宫里的身份差距。" },
+      { "start": "00:00:10.600", "end": "00:00:16.200", "text": "乌雅氏是待殿选的秀女，璎珞和吉祥只是宫女；身份刚摆明白，吉祥又弄脏了她的衣裳。" },
+      { "start": "00:00:44.900", "end": "00:00:56.900", "text": "吉祥已经被逼到地上，璎珞这才开口。她没硬刚，而是抓住乌雅氏马上殿选、最怕见血，把求情说成提醒——这波属于借规则救人。" },
+      { "start": "00:01:22.200", "end": "00:01:31.200", "text": "她用香粉把惩罚变成步步生莲，吉祥算是救下了。可璎珞自己还没站稳，还是泥菩萨过河——自身难保。" },
+      { "start": "00:01:31.800", "end": "00:01:38.650", "text": "光会救人还不够，璎珞还得拿到留下来的入场券。下一关，绣坊见真章。" },
+      { "start": "00:01:40.300", "end": "00:01:49.534", "text": "绣坊里，吉祥和玲珑同场考试，吴总管一锤定去留。这里不看情面，绣得好才有饭碗。" },
+      { "start": "00:01:49.700", "end": "00:01:54.200", "text": "刚开考，绣品染血，玲珑直接喊作弊！" },
+      { "start": "00:02:34.200", "end": "00:02:43.700", "text": "绣图刚交上去，玲珑就把两人的接力说成了作弊。吴总管还没开口，按宫规，这俩人都可能当场出局。" },
+      { "start": "00:02:44.100", "end": "00:02:57.900", "text": "璎珞没急着喊冤，而是把两幅绣图的交接顺序重新摆出来。她要证明的不是“我没碰”，而是这根本不是替考——先把证据摆上桌，嘴硬才没用。" },
+      { "start": "00:03:18.200", "end": "00:03:27.700", "text": "她交给吉祥时，牡丹还没绣完；吉祥交回来时，锦鸡也只绣了几针。明明是接力，玲珑却想说成代打。" },
+      { "start": "00:03:28.600", "end": "00:03:36.300", "text": "所以这场翻盘的关键，不是吵赢，而是让事实自己开口。吴总管会不会买账？马上见分晓。" }
+    ]
+  },
+  "mix": {
+    "source_audio_mode": "play_between_narration",
+    "source_gap_volume": 1.0,
+    "narration_volume": 1.0,
+    "source_audio_intro_deadline_seconds": 10.0,
+    "source_audio_intro_min_seconds": 0.5,
+    "audio_transition_fade_seconds": 0.0
+  },
+  "preflight_review": {
+    "status": "passed",
+    "review_scope": "content_before_render",
+    "one_line_question": "在等级森严的宫里，新人如何靠自己争取留下来的机会？",
+    "one_line_answer": "璎珞不靠讨好，而是看清对方在意什么，再用事实和规则化解两场危机。",
+    "conflict": "强势秀女要惩罚弱小宫女、绣坊告发者要用规矩赶走璎珞和吉祥，璎珞分别用机敏和证据夺回主动权。",
+    "emotional_value": "观众从替弱者担心，转为因璎珞用规则反制而解气，并重新理解机敏和边界的价值。",
+    "checks": {
+      "position_and_fact": "pass",
+      "emotional_value": "pass",
+      "conflict_and_hook": "pass",
+      "answer_timing": "pass",
+      "visual_evidence": "pass",
+      "title_script_consistency": "pass",
+      "safety_and_attribution": "pass"
+    },
+    "risk_notes": [
+      "原始字幕存在少量识别错误，口播仅采用画面和可核对台词能够支持的事实。",
+      "旁白只放在静音铺垫或冲突解释画面上，原剧对白段按完整句子保留，并在段首段尾做轻微淡入淡出。",
+      "本条合并两个冲突链，但不概述整集后续剧情。"
+    ],
+    "revision_notes": []
+  }
+}

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Create a lightweight lip-synced avatar overlay from two PNG mouth poses.
+"""根据两张 PNG 嘴型图创建轻量级口型同步头像叠加层。
 
 This is intentionally a 2.5D proof-of-concept: it follows voice energy to
 switch between closed and open mouth art, adds a very small breathing motion,
@@ -20,14 +20,14 @@ from PIL import Image
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--source", required=True, help="Source MP4 with the narration audio.")
-    parser.add_argument("--closed", required=True, help="RGBA PNG for the character's resting mouth.")
-    parser.add_argument("--open", required=True, help="RGBA PNG for the character's speaking mouth.")
-    parser.add_argument("--output", required=True, help="New MP4 output path. The source is never overwritten.")
-    parser.add_argument("--height", type=int, default=390, help="Character height in pixels (default: 390).")
-    parser.add_argument("--margin", type=int, default=28, help="Top/right margin in pixels (default: 28).")
-    parser.add_argument("--fps", type=int, default=30, help="Avatar animation frame rate (default: 30).")
-    parser.add_argument("--motion", type=float, default=0.008, help="Subtle scale-motion amount; use 0 for a flat 2D overlay.")
+    parser.add_argument("--source", required=True, help="带中文解说音频的源 MP4。")
+    parser.add_argument("--closed", required=True, help="角色闭嘴状态的 RGBA PNG。")
+    parser.add_argument("--open", required=True, help="角色说话状态的 RGBA PNG。")
+    parser.add_argument("--output", required=True, help="新 MP4 输出路径，不覆盖源文件。")
+    parser.add_argument("--height", type=int, default=390, help="角色像素高度，默认 390。")
+    parser.add_argument("--margin", type=int, default=28, help="顶部/右侧边距，默认 28 像素。")
+    parser.add_argument("--fps", type=int, default=30, help="头像动画帧率，默认 30。")
+    parser.add_argument("--motion", type=float, default=0.008, help="轻微缩放运动量；使用 0 表示平面 2D 叠加。")
     return parser.parse_args()
 
 
@@ -46,7 +46,7 @@ def media_size_and_duration(source: Path) -> tuple[int, int, float]:
 
 
 def read_audio_energy(source: Path, fps: int, duration: float) -> list[float]:
-    """Return RMS energy per output frame from a 16 kHz mono audio decode."""
+    """根据 16kHz 单声道音频解码，返回每个输出帧的 RMS 能量。"""
     decoded = subprocess.run(
         ["ffmpeg", "-v", "error", "-i", str(source), "-vn", "-ac", "1", "-ar", "16000", "-f", "s16le", "-"],
         check=True, capture_output=True,

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build compact, validated overlay annotations from a narration timeline."""
+"""根据解说时间线生成紧凑、可校验的画面注释。"""
 
 from __future__ import annotations
 
@@ -10,10 +10,10 @@ from pathlib import Path
 
 
 def parse_args() -> argparse.Namespace:
-    parser = argparse.ArgumentParser(description="Create overlay annotations from a narration timeline JSON.")
-    parser.add_argument("--timeline", required=True, help="Source narration timeline JSON.")
-    parser.add_argument("--output", required=True, help="Output annotation JSON.")
-    parser.add_argument("--target-video", default="", help="Optional target video path.")
+    parser = argparse.ArgumentParser(description="根据解说时间线 JSON 创建画面注释。")
+    parser.add_argument("--timeline", required=True, help="源解说时间线 JSON。")
+    parser.add_argument("--output", required=True, help="输出注释 JSON。")
+    parser.add_argument("--target-video", default="", help="可选目标视频路径。")
     return parser.parse_args()
 
 
@@ -52,7 +52,7 @@ def minimum_annotation_count(video_duration_ms: int) -> int:
 
 
 def select_annotation_segments(segments: list[dict], maximum: int = 120) -> list[dict]:
-    """Keep long subtitle tracks within the annotation schema's hard limit."""
+    """将过长的字幕轨限制在注释结构允许的最大数量内。"""
     if len(segments) <= maximum:
         return segments
     last = len(segments) - 1

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build a verbatim Chinese-subtitle TTS timeline from SRT or VTT cues."""
+"""根据 SRT 或 VTT 字幕段建立原中文字幕直读 TTS 时间线。"""
 
 from __future__ import annotations
 
@@ -20,12 +20,12 @@ HAN = re.compile(r"[\u3400-\u9fff]")
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
-        description="Build a verbatim Chinese-subtitle TTS timeline from SRT or VTT."
+        description="根据 SRT 或 VTT 建立原中文字幕直读 TTS 时间线。"
     )
-    parser.add_argument("--subtitle", required=True, help="Input .srt or .vtt subtitle file.")
-    parser.add_argument("--output", required=True, help="Output timeline JSON path.")
-    parser.add_argument("--audio-output", help="MP3 path written into the timeline JSON.")
-    parser.add_argument("--video", help="Optional source video used to determine the final duration.")
+    parser.add_argument("--subtitle", required=True, help="输入的 .srt 或 .vtt 字幕文件。")
+    parser.add_argument("--output", required=True, help="输出时间线 JSON 路径。")
+    parser.add_argument("--audio-output", help="写入时间线 JSON 的 MP3 路径。")
+    parser.add_argument("--video", help="可选源视频，用于确定最终时长。")
     parser.add_argument("--voice", default="zh-CN-YunyangNeural")
     parser.add_argument("--rate", default="+0%")
     return parser.parse_args()
@@ -52,7 +52,7 @@ def ms_to_time(value: int) -> str:
 
 
 def chinese_text(lines: list[str]) -> str:
-    """Return the Chinese subtitle line(s), preserving their caption wording."""
+    """返回中文字幕行，保留字幕原文措辞。"""
     selected = []
     for line in lines:
         cleaned = TAG.sub("", line).strip()
@@ -69,9 +69,8 @@ def parse_cues(source: str) -> list[dict[str, str]]:
     for position, (index, match) in enumerate(time_rows):
         start, end = time_to_ms(match.group("start")), time_to_ms(match.group("end"))
         next_index = time_rows[position + 1][0] if position + 1 < len(time_rows) else len(lines)
-        # Some downloaded SRT files omit blank lines between cues. The next
-        # timestamp is therefore the reliable boundary; any numeric cue ID in
-        # the intervening rows is ignored because it contains no Chinese text.
+        # 有些下载的 SRT 在字幕段之间没有空行，因此下一个时间戳才是可靠边界；
+        # 中间出现的数字字幕编号不含中文文字，可以忽略。
         caption_lines = lines[index + 1:next_index]
         text = chinese_text(caption_lines)
         if text:

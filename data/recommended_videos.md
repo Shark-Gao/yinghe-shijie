@@ -4,6 +4,12 @@
 
 | 日期 | 视频标题 | YouTube链接 | 频道 | 类型 | 状态 |
 |---|---|---|---|---|---|
+| 2026-07-25 | How a Single Swedish Submarine Defeated the US Navy | https://www.youtube.com/watch?v=saCdvAp5cow | Real Engineering | #军事装备 #潜艇 #反潜作战 #工程原理 | 已推荐 |
+| 2026-07-25 | Inside US Biggest Nuclear Aircraft Carrier \| Gerald R Ford | https://www.youtube.com/watch?v=j26ppRiUBe0 | AiTelly | #军事装备 #航空母舰 #舰载机 #3D动画 | 已推荐 |
+| 2026-07-25 | Why China Is so Good at Building Railways | https://www.youtube.com/watch?v=0JDoll8OEFE | Wendover Productions | #大国工程 #中国高铁 #基础设施 #产业竞争 | 已推荐 |
+| 2026-07-25 | History of the Major Trade Routes - Summary on a Map | https://www.youtube.com/watch?v=Q7xp1-VvtZ0 | Geo History | #地缘政治 #全球贸易 #地图动画 | 已推荐 |
+| 2026-07-25 | How a Military Drone Works \| Bayraktar TB2 UAV | https://www.youtube.com/watch?v=Wil6V0sYHf8 | AiTelly | #军事装备 #无人机 #3D动画 | 已推荐 |
+| 2026-07-25 | Computational lithography: Driving nanometer precision in microchip manufacturing | ASML | https://www.youtube.com/watch?v=9RZreu5z_Gc | ASML | #大国工程科技 #芯片制造 #光刻技术 | 已推荐 |
 | 2026-07-24 | Neptune Missile How it Works \| Ukraine Missile Vs Russian Cruiser Moskva Ship | https://www.youtube.com/watch?v=3RfKkn4qXuU | AiTelly | #军事 #反舰导弹 #导弹制导 #3D动画 | 已推荐 |
 | 2026-07-24 | How a GPU Actually Works (and Powers AI) | https://www.youtube.com/watch?v=s3yjlRkXhbA | Bug Labs | #AI #GPU #并行计算 #动画讲解 | 已推荐 |
 | 2026-07-24 | How are Modern Flyovers Built? | https://www.youtube.com/watch?v=DOgnE6JQqso | Sabin Civil Engineering | #科技纪录片 #城市基建 #高架桥 #工程可视化 | 已推荐 |

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Create a Jianying-friendly auto-ducked MP3 mix."""
+"""创建适合剪映使用、会自动压低原声的 MP3 混音。"""
 
 from __future__ import annotations
 
@@ -79,11 +79,11 @@ def create_mix(video: Path, narration: Path, output: Path, duration: float, bg_v
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--video", required=True, help="Source video with original audio")
-    parser.add_argument("--narration", required=True, help="Chinese narration MP3")
-    parser.add_argument("--output", help="Output mixed MP3 path")
-    parser.add_argument("--bg-volume", type=float, default=0.35, help="Original video audio base volume, default 0.35")
-    parser.add_argument("--voice-volume", type=float, default=4.0, help="Chinese narration volume, default 4.0")
+    parser.add_argument("--video", required=True, help="带原声音频的源视频")
+    parser.add_argument("--narration", required=True, help="中文解说 MP3")
+    parser.add_argument("--output", help="混音 MP3 输出路径")
+    parser.add_argument("--bg-volume", type=float, default=0.35, help="原视频声音基础音量，默认 0.35")
+    parser.add_argument("--voice-volume", type=float, default=4.0, help="中文解说音量，默认 4.0")
     args = parser.parse_args()
 
     video = Path(args.video)

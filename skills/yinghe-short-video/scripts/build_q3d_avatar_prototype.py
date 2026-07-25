@@ -1,4 +1,4 @@
-"""Build a rigged Q-style 3D female-avatar prototype in Blender.
+"""在 Blender 中构建带骨骼绑定的 Q 版 3D 女性头像原型。
 
 Run with:
     blender --background --python build_q3d_avatar_prototype.py
@@ -142,12 +142,12 @@ def build() -> None:
     mouth_mat = material("Mouth", (0.18, 0.015, 0.02, 1), 0.4)
 
     armature = make_armature()
-    # Torso and oversized head give the intended Q-style silhouette.
+# 躯干和放大的头部共同形成预期的 Q 版轮廓。
     sphere("Cardigan_Torso", (0, 0.08, 1.35), (1.1, 0.58, 1.22), lavender, armature, "spine")
     sphere("Cream_Shirt", (0, -0.52, 1.63), (0.62, 0.10, 0.72), cream, armature, "spine")
     sphere("Head", (0, 0, 3.25), (1.36, 1.15, 1.34), skin, armature, "head")
     sphere("Hair_Back", (0, 0.18, 3.52), (1.48, 1.16, 1.47), hair, armature, "head")
-    # Face covers the front of the hair cap; fringe strands restore a readable hairstyle.
+# 面部覆盖发帽前侧，再用刘海条恢复清晰的发型轮廓。
     sphere("Face", (0, -0.28, 3.22), (1.26, 0.98, 1.24), skin, armature, "head")
     for index, x in enumerate((-0.62, -0.25, 0.16, 0.54)):
         strand = sphere(f"Hair_Fringes_{index}", (x, -1.00, 4.02 - abs(x) * 0.34), (0.34, 0.16, 0.62), hair, armature, "head")
@@ -167,7 +167,7 @@ def build() -> None:
         vertex.co.z *= 1.85
         vertex.co.x *= 0.92
 
-    # Simple articulated arms and a hand-on-heart gesture.
+# 使用简单的可动手臂和双手捧心动作。
     left_arm = sphere("Cardigan_Arm.L", (-0.92, -0.02, 1.34), (0.35, 0.38, 0.90), lavender, armature, "upper_arm.L")
     left_arm.rotation_euler[1] = math.radians(-28)
     right_arm = sphere("Cardigan_Arm.R", (0.88, -0.08, 1.35), (0.35, 0.38, 0.90), lavender, armature, "upper_arm.R")

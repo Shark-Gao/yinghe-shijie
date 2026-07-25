@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Mix a narration MP3 with looped background music at the project defaults."""
+"""按项目默认值将中文解说 MP3 与循环 BGM 混音。"""
 
 from __future__ import annotations
 
@@ -13,9 +13,9 @@ DEFAULT_MUSIC = Path("music/硬核视界_通用BGM_舒缓科普探索_CC0.mp3")
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--narration", required=True, help="Narration MP3 path.")
-    parser.add_argument("--music", default=str(DEFAULT_MUSIC), help="Loopable background music path.")
-    parser.add_argument("--output", help="Output MP3 path.")
+    parser.add_argument("--narration", required=True, help="解说 MP3 路径。")
+    parser.add_argument("--music", default=str(DEFAULT_MUSIC), help="可循环 BGM 路径。")
+    parser.add_argument("--output", help="输出 MP3 路径。")
     parser.add_argument("--music-volume", type=float, default=0.45)
     parser.add_argument("--narration-volume", type=float, default=1.0)
     return parser.parse_args()

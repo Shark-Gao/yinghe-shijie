@@ -1,0 +1,1170 @@
+1
+00:00:00,400 --> 00:00:02,300
+this episode of Real Engineering is
+2
+00:00:00,400 --> 00:00:02,300
+真实工程的这一集是
+3
+00:00:02,300 --> 00:00:03,366
+brought to you by brilliant
+4
+00:00:02,300 --> 00:00:03,366
+由辉煌带来给你
+5
+00:00:03,466 --> 00:00:04,900
+a problem solving website that
+6
+00:00:03,466 --> 00:00:04,900
+一个解决问题的网站
+7
+00:00:04,900 --> 00:00:06,766
+teaches you to think like an engineer
+8
+00:00:04,900 --> 00:00:06,766
+教你像工程师一样思考
+9
+00:00:07,333 --> 00:00:09,066
+The United States military has the
+10
+00:00:07,333 --> 00:00:09,066
+美国军方拥有
+11
+00:00:09,066 --> 00:00:11,200
+strongest and most diverse Navy in the world
+12
+00:00:09,066 --> 00:00:11,200
+世界上最强大最多样化的海军
+13
+00:00:11,466 --> 00:00:12,766
+the U s military's fleet of
+14
+00:00:11,466 --> 00:00:12,766
+美国军队的舰队
+15
+00:00:12,766 --> 00:00:14,366
+aircraft carriers is so large
+16
+00:00:12,766 --> 00:00:14,366
+航空母舰那么大
+17
+00:00:14,500 --> 00:00:16,133
+it makes the U s Navy the second
+18
+00:00:14,500 --> 00:00:16,133
+它使美国海军成为第二个
+19
+00:00:16,200 --> 00:00:17,533
+largest air force in the world
+20
+00:00:16,200 --> 00:00:17,533
+世界上最大的空军
+21
+00:00:18,000 --> 00:00:20,333
+second only to the actual U S Air Force
+22
+00:00:18,000 --> 00:00:20,333
+仅次于实际的美国空军
+23
+00:00:20,666 --> 00:00:22,500
+a single Nimitz class aircraft
+24
+00:00:20,666 --> 00:00:22,500
+一架尼米兹级飞机
+25
+00:00:22,500 --> 00:00:24,600
+carrier like the USS Ronald Reagan
+26
+00:00:22,500 --> 00:00:24,600
+像罗纳德·里根号航空母舰这样的航母
+27
+00:00:24,666 --> 00:00:27,600
+a 6.2 billion dollar nuclear powered ship
+28
+00:00:24,666 --> 00:00:27,600
+一艘62亿美元的核动力船
+29
+00:00:27,733 --> 00:00:29,466
+can carry twice the aircraft as
+30
+00:00:27,733 --> 00:00:29,466
+可以携带两倍的飞机
+31
+00:00:29,466 --> 00:00:30,766
+any other foreign carrier
+32
+00:00:29,466 --> 00:00:30,766
+任何其他外国承运人
+33
+00:00:30,766 --> 00:00:32,400
+which makes it even more shocking that it
+34
+00:00:30,766 --> 00:00:32,400
+这让它更令人震惊
+35
+00:00:32,400 --> 00:00:34,766
+was sunk by a single diesel powered Swedish
+36
+00:00:32,400 --> 00:00:34,766
+被一辆瑞典柴油车击沉
+37
+00:00:34,766 --> 00:00:37,000
+submarine during war games in 2,005
+38
+00:00:34,766 --> 00:00:37,000
+2005年战争演习中的潜艇
+39
+00:00:37,400 --> 00:00:40,800
+a single submarine that cost the same as a single F35
+40
+00:00:37,400 --> 00:00:40,800
+一艘潜艇，价格与一艘F35相同
+41
+00:00:40,800 --> 00:00:44,000
+at $100 million managed to sneak by an entire
+42
+00:00:40,800 --> 00:00:44,000
+1亿美元偷偷溜走了整个
+43
+00:00:44,100 --> 00:00:47,066
+carrier task force with anti submarine defenses to
+44
+00:00:44,100 --> 00:00:47,066
+拥有反潜防御的航母特遣部队
+45
+00:00:47,066 --> 00:00:49,866
+enter the red zone and score multiple torpedo hits on
+46
+00:00:47,066 --> 00:00:49,866
+进入红色区域并获得多枚鱼雷命中
+47
+00:00:49,866 --> 00:00:52,966
+the US Ronald Reagan sinking it virtually before
+48
+00:00:49,866 --> 00:00:52,966
+美国罗纳德·里根几乎以前就击沉过它
+49
+00:00:52,966 --> 00:00:55,466
+shrinking back into the vast ocean undetected
+50
+00:00:52,966 --> 00:00:55,466
+退回到广阔的海洋而不被发现
+51
+00:00:55,933 --> 00:00:58,133
+this was just one of many exercises where the
+52
+00:00:55,933 --> 00:00:58,133
+这只是许多练习中的一个
+53
+00:00:58,133 --> 00:01:00,166
+Swedish Gotland class submarine proved too
+54
+00:00:58,133 --> 00:01:00,166
+瑞典哥特兰级潜艇也被证明
+55
+00:01:00,166 --> 00:01:01,933
+stealthy for the world's strongest navy
+56
+00:01:00,166 --> 00:01:01,933
+世界最强海军的隐形
+57
+00:01:02,100 --> 00:01:04,466
+the new submarine proved so threatening that the U s
+58
+00:01:02,100 --> 00:01:04,466
+新潜艇被证明是如此具有威胁性，以至于美国
+59
+00:01:04,466 --> 00:01:06,766
+military leased the Swedish sub for an additional year
+60
+00:01:04,466 --> 00:01:06,766
+军方把瑞典潜艇再租了一年
+61
+00:01:06,766 --> 00:01:09,466
+to develop strategies to counter the silent threat
+62
+00:01:06,766 --> 00:01:09,466
+制定应对无声威胁的策略
+63
+00:01:09,600 --> 00:01:11,966
+so what set the Gotland apart from other subs
+64
+00:01:09,600 --> 00:01:11,966
+那么是什么让哥特兰号与其他潜艇不同呢？
+65
+00:01:12,400 --> 00:01:13,733
+submarines primary instrument to
+66
+00:01:12,400 --> 00:01:13,733
+潜艇主要仪器
+67
+00:01:13,733 --> 00:01:15,566
+detect enemy subs is sonar
+68
+00:01:13,733 --> 00:01:15,566
+探测敌方潜艇是声纳
+69
+00:01:15,800 --> 00:01:18,000
+sonar is essentially a finely tuned ear that
+70
+00:01:15,800 --> 00:01:18,000
+声纳本质上是一个微调的耳朵
+71
+00:01:18,000 --> 00:01:20,300
+works like a whale's or dolphin's echo location
+72
+00:01:18,000 --> 00:01:20,300
+就像鲸鱼或海豚的回声定位
+73
+00:01:20,466 --> 00:01:22,933
+to create a 3d map of the ocean around it
+74
+00:01:20,466 --> 00:01:22,933
+创建周围海洋的3d地图
+75
+00:01:23,066 --> 00:01:24,700
+there is active sonar where the submarine
+76
+00:01:23,066 --> 00:01:24,700
+潜艇所在的地方有主动声纳
+77
+00:01:24,700 --> 00:01:26,466
+will send out a sound pulse called a ping
+78
+00:01:24,700 --> 00:01:26,466
+会发出一种叫做ping的声音脉冲
+79
+00:01:26,466 --> 00:01:27,866
+and listen for the reflections
+80
+00:01:26,466 --> 00:01:27,866
+倾听倒影
+81
+00:01:28,300 --> 00:01:30,533
+but in warzone this isn't a sound strategy
+82
+00:01:28,300 --> 00:01:30,533
+但在战区这可不是个好策略
+83
+00:01:30,700 --> 00:01:32,500
+as the ping is detected by enemies
+84
+00:01:30,700 --> 00:01:32,500
+由于ping被敌人检测到
+85
+00:01:32,500 --> 00:01:34,000
+to give your exact location
+86
+00:01:32,500 --> 00:01:34,000
+提供您的确切位置
+87
+00:01:34,300 --> 00:01:36,900
+so passive sonar is used where no ping is emitted
+88
+00:01:34,300 --> 00:01:36,900
+所以被动声纳用于没有ping信号的地方
+89
+00:01:36,966 --> 00:01:38,300
+and instead you simply listen
+90
+00:01:36,966 --> 00:01:38,300
+相反，你只是听着
+91
+00:01:38,766 --> 00:01:41,066
+these electronic ears are so accurate that the
+92
+00:01:38,766 --> 00:01:41,066
+这些电子耳朵非常精确
+93
+00:01:41,066 --> 00:01:43,066
+nationality of submarines can be determined
+94
+00:01:41,066 --> 00:01:43,066
+潜艇的国籍可以确定
+95
+00:01:43,200 --> 00:01:45,133
+based on the operating frequency of the
+96
+00:01:43,200 --> 00:01:45,133
+基于工作频率
+97
+00:01:45,133 --> 00:01:47,333
+alternating current used in its power systems
+98
+00:01:45,133 --> 00:01:47,333
+电力系统中使用的交流电
+99
+00:01:47,700 --> 00:01:50,300
+the 60 hertz alternating current of a US sub
+100
+00:01:47,700 --> 00:01:50,300
+美国潜艇的60赫兹交流电
+101
+00:01:50,533 --> 00:01:52,600
+could be differentiated from the 50 hertz of
+102
+00:01:50,533 --> 00:01:52,600
+可以从50赫兹的
+103
+00:01:52,600 --> 00:01:55,066
+European subs if the transformers and other
+104
+00:01:52,600 --> 00:01:55,066
+欧洲潜艇如果变压器和其他
+105
+00:01:55,066 --> 00:01:57,666
+electronics were not adequately insulated from the hull
+106
+00:01:55,066 --> 00:01:57,666
+电子设备没有与船体充分绝缘
+107
+00:01:57,800 --> 00:02:00,466
+the Swedes managed to create a submarine so silent
+108
+00:01:57,800 --> 00:02:00,466
+瑞典人设法制造了一艘如此安静的潜艇
+109
+00:02:00,500 --> 00:02:03,333
+that it was practically undetectable by passive sonar
+110
+00:02:00,500 --> 00:02:03,333
+被动声纳几乎无法探测到它
+111
+00:02:03,500 --> 00:02:05,733
+so how did they do this at such a low cost
+112
+00:02:03,500 --> 00:02:05,733
+那么他们是如何以如此低的成本做到这一点的呢？
+113
+00:02:06,133 --> 00:02:08,500
+the Golland was the first submarine in the world to
+114
+00:02:06,133 --> 00:02:08,500
+戈兰号是世界上第一艘潜艇
+115
+00:02:08,500 --> 00:02:11,000
+use a Stirling engine as its power generator
+116
+00:02:08,500 --> 00:02:11,000
+使用斯特林发动机作为发电机
+117
+00:02:11,366 --> 00:02:13,666
+Stirling engines are not a new concept with the first
+118
+00:02:11,366 --> 00:02:13,666
+斯特林发动机并不是第一个新概念
+119
+00:02:13,666 --> 00:02:16,900
+being created and patented by Robert Stirling in 1816
+120
+00:02:13,666 --> 00:02:16,900
+由Robert Stirling于1816年创造并获得专利
+121
+00:02:17,400 --> 00:02:19,933
+inspired by a series of high pressure steam boiler
+122
+00:02:17,400 --> 00:02:19,933
+灵感来自一系列高压蒸汽锅炉
+123
+00:02:19,933 --> 00:02:21,933
+explosions at the beginning of the Industrial
+124
+00:02:19,933 --> 00:02:21,933
+工业初期的爆炸
+125
+00:02:21,933 --> 00:02:22,733
+Revolution
+126
+00:02:21,933 --> 00:02:22,733
+革命
+127
+00:02:22,900 --> 00:02:24,933
+Stirling wanted to create a safer engine
+128
+00:02:22,900 --> 00:02:24,933
+斯特灵想制造一个更安全的引擎
+129
+00:02:24,933 --> 00:02:26,933
+that did not require such high pressures
+130
+00:02:24,933 --> 00:02:26,933
+不需要这么高的压力
+131
+00:02:27,100 --> 00:02:29,400
+I can't be Aris trying to animate this old drawing
+132
+00:02:27,100 --> 00:02:29,400
+我不可能是Aris想让这幅旧画动起来
+133
+00:02:29,466 --> 00:02:31,266
+so let's go for something simpler
+134
+00:02:29,466 --> 00:02:31,266
+所以让我们试试更简单的方法
+135
+00:02:31,466 --> 00:02:33,966
+he did this by creating a closed cylinder containing
+136
+00:02:31,466 --> 00:02:33,966
+他通过创造一个封闭的圆柱体来做到这一点
+137
+00:02:33,966 --> 00:02:36,800
+a fixed mass of gas permanently sealed within
+138
+00:02:33,966 --> 00:02:36,800
+永久密封在内部的固定气体
+139
+00:02:37,166 --> 00:02:39,600
+here  one side of the piston cylinder has a large
+140
+00:02:37,166 --> 00:02:39,600
+这里活塞缸的一侧有一个大的
+141
+00:02:39,600 --> 00:02:41,733
+buffer space which allows for a relatively
+142
+00:02:39,600 --> 00:02:41,733
+缓冲空间，允许相对
+143
+00:02:41,766 --> 00:02:43,800
+constant pressure on this side of the piston
+144
+00:02:41,766 --> 00:02:43,800
+活塞这边的恒压
+145
+00:02:44,000 --> 00:02:45,533
+while the other side fluctuates in
+146
+00:02:44,000 --> 00:02:45,533
+而另一边在波动
+147
+00:02:45,533 --> 00:02:47,733
+pressure due to alternating heating cycles
+148
+00:02:45,533 --> 00:02:47,733
+交替加热循环引起的压力
+149
+00:02:48,400 --> 00:02:50,133
+when heat is applied to the outside of the
+150
+00:02:48,400 --> 00:02:50,133
+当热量施加到外部时
+151
+00:02:50,133 --> 00:02:52,200
+cylinder the pressure increases causing the
+152
+00:02:50,133 --> 00:02:52,200
+气缸压力增加导致
+153
+00:02:52,200 --> 00:02:54,466
+piston to move until the pressure equalizes
+154
+00:02:52,200 --> 00:02:54,466
+活塞移动直到压力平衡
+155
+00:02:54,733 --> 00:02:56,700
+now if we cool the outside of the cylinder
+156
+00:02:54,733 --> 00:02:56,700
+现在如果我们冷却圆柱体的外部
+157
+00:02:56,700 --> 00:02:58,566
+with a heat exchanger the pressure will drop
+158
+00:02:56,700 --> 00:02:58,566
+使用热交换器，压力会下降
+159
+00:02:58,566 --> 00:03:00,366
+and once again the piston will move
+160
+00:02:58,566 --> 00:03:00,366
+活塞将再次移动
+161
+00:03:00,800 --> 00:03:02,166
+this is our basic pressure cycle
+162
+00:03:00,800 --> 00:03:02,166
+这是我们的基本压力循环
+163
+00:03:02,166 --> 00:03:03,866
+to create mechanical work
+164
+00:03:02,166 --> 00:03:03,866
+创造机械工作
+165
+00:03:04,000 --> 00:03:06,100
+but this is an insanely inefficient system
+166
+00:03:04,000 --> 00:03:06,100
+但这是个极其低效的系统
+167
+00:03:06,166 --> 00:03:08,333
+as most of the energy we put into the system
+168
+00:03:06,166 --> 00:03:08,333
+因为我们投入系统的大部分能量
+169
+00:03:08,333 --> 00:03:10,700
+as heat is lost during the cooling cycle
+170
+00:03:08,333 --> 00:03:10,700
+因为热量在冷却循环中流失
+171
+00:03:10,900 --> 00:03:11,700
+not to the gas
+172
+00:03:10,900 --> 00:03:11,700
+没油了
+173
+00:03:11,700 --> 00:03:13,566
+but the actual cylinder wall which
+174
+00:03:11,700 --> 00:03:13,566
+但实际的气缸壁
+175
+00:03:13,566 --> 00:03:15,066
+provides no mechanical work
+176
+00:03:13,566 --> 00:03:15,066
+不提供机械工作
+177
+00:03:15,400 --> 00:03:17,733
+Robert Sterling solved this by adding a displacer
+178
+00:03:15,400 --> 00:03:17,733
+Robert Sterling通过添加置换器解决了这个问题
+179
+00:03:17,733 --> 00:03:19,966
+piston which can drive the gas from one end of the
+180
+00:03:17,733 --> 00:03:19,966
+活塞，可以从一端驱动气体
+181
+00:03:19,966 --> 00:03:22,333
+cylinder to the other allowing this end to be
+182
+00:03:19,966 --> 00:03:22,333
+圆柱体到另一端，允许这一端是
+183
+00:03:22,333 --> 00:03:24,666
+permanently hot and the other to be permanently cold
+184
+00:03:22,333 --> 00:03:24,666
+永久热，另一个永久冷
+185
+00:03:25,100 --> 00:03:26,733
+so the cylinder wall is no longer
+186
+00:03:25,100 --> 00:03:26,733
+所以缸壁不再
+187
+00:03:26,900 --> 00:03:28,400
+experiencing a temperature cycle
+188
+00:03:26,900 --> 00:03:28,400
+经历温度循环
+189
+00:03:28,500 --> 00:03:30,733
+the pressure cycle here works slightly differently
+190
+00:03:28,500 --> 00:03:30,733
+这里的压力循环略有不同
+191
+00:03:31,000 --> 00:03:33,400
+first  the air on the hot end expands and causes the
+192
+00:03:31,000 --> 00:03:33,400
+首先，热端的空气膨胀并导致
+193
+00:03:33,400 --> 00:03:35,933
+displacer to move into contact with the power piston
+194
+00:03:33,400 --> 00:03:35,933
+位移器移动到与动力活塞接触
+195
+00:03:36,166 --> 00:03:37,700
+displacing more air from the cold
+196
+00:03:36,166 --> 00:03:37,700
+将更多的空气从寒冷中排出
+197
+00:03:37,700 --> 00:03:39,133
+end to be heated and expanded
+198
+00:03:37,700 --> 00:03:39,133
+末端加热膨胀
+199
+00:03:39,366 --> 00:03:41,333
+allowing work to be done on the power piston
+200
+00:03:39,366 --> 00:03:41,333
+允许对动力活塞进行工作
+201
+00:03:41,566 --> 00:03:43,466
+the air on the hot end now has nowhere to go
+202
+00:03:41,566 --> 00:03:43,466
+热端的空气现在无处可去
+203
+00:03:43,466 --> 00:03:45,400
+and so is driven to the cold end where it is
+204
+00:03:43,466 --> 00:03:45,400
+所以被驱赶到寒冷的一端
+205
+00:03:45,400 --> 00:03:47,366
+cooled and contracts causing work to be done
+206
+00:03:45,400 --> 00:03:47,366
+冷却和合同导致工作完成
+207
+00:03:47,366 --> 00:03:48,900
+once again on the power piston
+208
+00:03:47,366 --> 00:03:48,900
+再一次在动力活塞上
+209
+00:03:49,100 --> 00:03:50,600
+this is our new pressure cycle
+210
+00:03:49,100 --> 00:03:50,600
+这是我们新的压力循环
+211
+00:03:50,700 --> 00:03:52,800
+the efficiency of this system can be increased
+212
+00:03:50,700 --> 00:03:52,800
+这个系统的效率可以提高
+213
+00:03:52,800 --> 00:03:55,100
+further by placing what is essentially a heat battery
+214
+00:03:52,800 --> 00:03:55,100
+进一步通过放置本质上是热电池的东西
+215
+00:03:55,100 --> 00:03:57,500
+in the tubes between the hot and cold cylinders
+216
+00:03:55,100 --> 00:03:57,500
+在冷热缸之间的管子里
+217
+00:03:57,866 --> 00:03:59,900
+this conserves a huge amount of heat that would
+218
+00:03:57,866 --> 00:03:59,900
+这保存了大量的热量
+219
+00:03:59,900 --> 00:04:02,200
+otherwise be wasted during the cooling cycle and gives
+220
+00:03:59,900 --> 00:04:02,200
+否则在冷却周期中被浪费并给出
+221
+00:04:02,200 --> 00:04:04,766
+the heat back to the air as it travels back through
+222
+00:04:02,200 --> 00:04:04,766
+热量在空气中传播
+223
+00:04:05,100 --> 00:04:07,166
+Robert Stirling dubbed this the regenerator
+224
+00:04:05,100 --> 00:04:07,166
+Robert Stirling称其为再生器
+225
+00:04:07,500 --> 00:04:09,766
+now we have the foundations of a useful engine
+226
+00:04:07,500 --> 00:04:09,766
+现在我们有了一个有用引擎的基础
+227
+00:04:09,966 --> 00:04:11,366
+by incorporating a coolant
+228
+00:04:09,966 --> 00:04:11,366
+通过加入冷却剂
+229
+00:04:11,366 --> 00:04:12,500
+system and a heating chamber
+230
+00:04:11,366 --> 00:04:12,500
+系统和加热室
+231
+00:04:12,733 --> 00:04:14,333
+we create a larger temperature
+232
+00:04:12,733 --> 00:04:14,333
+我们创造了更大的温度
+233
+00:04:14,333 --> 00:04:15,900
+differential to drive the engine
+234
+00:04:14,333 --> 00:04:15,900
+差速器驱动发动机
+235
+00:04:15,966 --> 00:04:17,500
+and the efficiency can be further
+236
+00:04:15,966 --> 00:04:17,500
+而且效率可以更进一步
+237
+00:04:17,600 --> 00:04:19,100
+increased by increasing the number of
+238
+00:04:17,600 --> 00:04:19,100
+通过增加数量增加
+239
+00:04:19,100 --> 00:04:21,200
+tubes connecting the hot and cold spaces
+240
+00:04:19,100 --> 00:04:21,200
+连接冷热空间的管道
+241
+00:04:21,566 --> 00:04:23,133
+along with the number of regenerators
+242
+00:04:21,566 --> 00:04:23,133
+以及再生器的数量
+243
+00:04:23,400 --> 00:04:25,600
+and adding fins to increase the surface area of
+244
+00:04:23,400 --> 00:04:25,600
+并添加鳍片以增加表面积
+245
+00:04:25,600 --> 00:04:27,533
+these tubes to allow for heat transfer
+246
+00:04:25,600 --> 00:04:27,533
+这些管子允许热传递
+247
+00:04:27,900 --> 00:04:29,600
+did I say simplified  sorry
+248
+00:04:27,900 --> 00:04:29,600
+我说了简化的抱歉吗？
+249
+00:04:29,700 --> 00:04:30,966
+I meant easier to read
+250
+00:04:29,700 --> 00:04:30,966
+我的意思是更容易阅读
+251
+00:04:31,566 --> 00:04:33,500
+maybe I like the misery  1
+252
+00:04:31,566 --> 00:04:33,500
+也许我喜欢痛苦1
+253
+00:04:33,600 --> 00:04:35,300
+Sterling engines ultimately fell into
+254
+00:04:33,600 --> 00:04:35,300
+英镑发动机最终落入
+255
+00:04:35,300 --> 00:04:36,966
+obscurity as stronger steel became
+256
+00:04:35,300 --> 00:04:36,966
+随着钢铁变得越来越坚固
+257
+00:04:36,966 --> 00:04:39,300
+available to make steam engine boilers safer
+258
+00:04:36,966 --> 00:04:39,300
+可使蒸汽机锅炉更安全
+259
+00:04:39,400 --> 00:04:41,900
+but have seen a resurgence in recent decades with the
+260
+00:04:39,400 --> 00:04:41,900
+但近几十年来，随着
+261
+00:04:41,900 --> 00:04:43,933
+Gottland being the most famous implementation
+262
+00:04:41,900 --> 00:04:43,933
+哥特兰是最著名的实现
+263
+00:04:44,566 --> 00:04:46,566
+Scotland uses two Stirling engines that use
+264
+00:04:44,566 --> 00:04:46,566
+苏格兰使用两台斯特林发动机
+265
+00:04:46,566 --> 00:04:49,066
+diesel and liquid oxygen to provide heat which
+266
+00:04:46,566 --> 00:04:49,066
+柴油和液氧提供热量
+267
+00:04:49,066 --> 00:04:51,533
+in turn runs its 75 kilowatt generators
+268
+00:04:49,066 --> 00:04:51,533
+反过来运行75千瓦的发电机
+269
+00:04:52,100 --> 00:04:54,066
+these generators can run an electric motor
+270
+00:04:52,100 --> 00:04:54,066
+这些发电机可以驱动电动机
+271
+00:04:54,133 --> 00:04:55,866
+directly or charge batteries that can
+272
+00:04:54,133 --> 00:04:55,866
+直接或给电池充电
+273
+00:04:55,866 --> 00:04:58,066
+provide a huge boost in speed when needed
+274
+00:04:55,866 --> 00:04:58,066
+在需要时提供巨大的速度提升
+275
+00:04:58,400 --> 00:04:59,866
+all the while the exhaust is
+276
+00:04:58,400 --> 00:04:59,866
+排气一直在
+277
+00:04:59,866 --> 00:05:01,300
+compressed and stored on board
+278
+00:04:59,866 --> 00:05:01,300
+压缩并存储在船上
+279
+00:05:01,733 --> 00:05:02,766
+allowing the sub to stay
+280
+00:05:01,733 --> 00:05:02,766
+让潜艇停留
+281
+00:05:02,766 --> 00:05:04,200
+submerged for up to two weeks
+282
+00:05:02,766 --> 00:05:04,200
+浸没长达两周
+283
+00:05:04,500 --> 00:05:07,333
+vastly longer than any other diesel powered submarine
+284
+00:05:04,500 --> 00:05:07,333
+比任何其他柴油动力潜艇都长得多
+285
+00:05:07,566 --> 00:05:10,366
+so why is it so silent compared to other submarines
+286
+00:05:07,566 --> 00:05:10,366
+那么为什么与其他潜艇相比它如此安静呢？
+287
+00:05:10,466 --> 00:05:12,866
+it doesn't require much explanation as to why an
+288
+00:05:10,466 --> 00:05:12,866
+不需要太多解释为什么
+289
+00:05:12,866 --> 00:05:15,266
+internal combustion engine using tiny controlled
+290
+00:05:12,866 --> 00:05:15,266
+使用微型控制的内燃机
+291
+00:05:15,333 --> 00:05:17,900
+explosions for power tends to lead to some noise
+292
+00:05:15,333 --> 00:05:17,900
+电力爆炸往往会导致一些噪音
+293
+00:05:18,400 --> 00:05:20,566
+while the multi billion dollar nuclear powered
+294
+00:05:18,400 --> 00:05:20,566
+而数十亿美元的核动力
+295
+00:05:20,566 --> 00:05:23,166
+submarines need to pump huge volumes of coolant to
+296
+00:05:20,566 --> 00:05:23,166
+潜艇需要泵入大量冷却剂
+297
+00:05:23,166 --> 00:05:25,800
+their reactors to prevent a meltdown causing enough
+298
+00:05:23,166 --> 00:05:25,800
+他们的反应堆以防止熔毁造成足够的
+299
+00:05:25,800 --> 00:05:28,266
+noise to be detectable by passive sonar within a
+300
+00:05:25,800 --> 00:05:28,266
+被动声纳可探测到的噪声
+301
+00:05:28,266 --> 00:05:29,066
+certain range
+302
+00:05:28,266 --> 00:05:29,066
+一定范围
+303
+00:05:29,066 --> 00:05:29,966
+on top of this
+304
+00:05:29,066 --> 00:05:29,966
+在此之上
+305
+00:05:30,066 --> 00:05:32,700
+recently declassified intelligence suggest that
+306
+00:05:30,066 --> 00:05:32,700
+最近解密的情报显示
+307
+00:05:32,700 --> 00:05:34,733
+Russian submarines are using these instruments
+308
+00:05:32,700 --> 00:05:34,733
+俄罗斯潜艇正在使用这些仪器
+309
+00:05:35,000 --> 00:05:37,166
+to detect the faint trail of radiation left in
+310
+00:05:35,000 --> 00:05:37,166
+来探测留下的微弱辐射痕迹
+311
+00:05:37,166 --> 00:05:39,166
+the wake of these nuclear powered submarines
+312
+00:05:37,166 --> 00:05:39,166
+这些核动力潜艇的尾流
+313
+00:05:39,400 --> 00:05:40,600
+giving the Swedish submarine
+314
+00:05:39,400 --> 00:05:40,600
+给瑞典潜艇
+315
+00:05:40,600 --> 00:05:42,166
+another way of avoiding detection
+316
+00:05:40,600 --> 00:05:42,166
+另一种避免被发现的方法
+317
+00:05:42,333 --> 00:05:43,800
+this is a fascinating application
+318
+00:05:42,333 --> 00:05:43,800
+这是一个令人着迷的应用程序
+319
+00:05:43,800 --> 00:05:45,366
+of the laws of thermodynamics
+320
+00:05:43,800 --> 00:05:45,366
+热力学定律
+321
+00:05:45,766 --> 00:05:48,100
+understanding and applying the laws of science is the
+322
+00:05:45,766 --> 00:05:48,100
+理解和应用科学规律是
+323
+00:05:48,100 --> 00:05:50,666
+closest to a real life superpower in this world
+324
+00:05:48,100 --> 00:05:50,666
+最接近现实生活中的超级大国
+325
+00:05:50,866 --> 00:05:52,933
+so why not unlock your superpower of
+326
+00:05:50,866 --> 00:05:52,933
+所以为什么不释放你的超能力
+327
+00:05:52,933 --> 00:05:54,866
+understanding the universe by taking this
+328
+00:05:52,933 --> 00:05:54,866
+通过这个来理解宇宙
+329
+00:05:54,866 --> 00:05:56,533
+course on astronomy on brilliant
+330
+00:05:54,866 --> 00:05:56,533
+天文学课程
+331
+00:05:56,866 --> 00:05:58,733
+this course will take you from learning about the
+332
+00:05:56,866 --> 00:05:58,733
+本课程将带您了解
+333
+00:05:58,733 --> 00:06:01,366
+tools astrophysicists use to observe the universe
+334
+00:05:58,733 --> 00:06:01,366
+天体物理学家用来观察宇宙的工具
+335
+00:06:01,566 --> 00:06:03,766
+through to the calculations that will allow you to
+336
+00:06:01,566 --> 00:06:03,766
+通过计算，可以让你
+337
+00:06:03,766 --> 00:06:05,666
+peer into the future of the universe
+338
+00:06:03,766 --> 00:06:05,666
+窥视宇宙的未来
+339
+00:06:06,100 --> 00:06:07,866
+brilliant is a problem solving website that
+340
+00:06:06,100 --> 00:06:07,866
+辉煌是一个解决问题的网站
+341
+00:06:07,866 --> 00:06:09,533
+teaches you to think like an engineer
+342
+00:06:07,866 --> 00:06:09,533
+教你像工程师一样思考
+343
+00:06:09,666 --> 00:06:11,733
+you can dive in and start learning about a huge
+344
+00:06:09,666 --> 00:06:11,733
+你可以潜入并开始学习一个巨大的
+345
+00:06:11,733 --> 00:06:13,966
+range of topics starting from basic physics and
+346
+00:06:11,733 --> 00:06:13,966
+从基础物理开始的主题范围和
+347
+00:06:13,966 --> 00:06:16,066
+working your way up to more complicated topics
+348
+00:06:13,966 --> 00:06:16,066
+继续处理更复杂的主题
+349
+00:06:16,566 --> 00:06:17,933
+to support re engineering and
+350
+00:06:16,566 --> 00:06:17,933
+支持再造和
+351
+00:06:17,933 --> 00:06:18,966
+learn more about brilliant
+352
+00:06:17,933 --> 00:06:18,966
+了解更多关于辉煌
+353
+00:06:19,066 --> 00:06:19,866
+go to brilliant
+354
+00:06:19,066 --> 00:06:19,866
+出彩
+355
+00:06:20,100 --> 00:06:22,900
+org slash re engineering and sign up for free
+356
+00:06:20,100 --> 00:06:22,900
+org slash重新设计并免费注册
+357
+00:06:23,066 --> 00:06:25,533
+the first 73 people to sign up with this link will
+358
+00:06:23,066 --> 00:06:25,533
+使用此链接注册的前73人将
+359
+00:06:25,533 --> 00:06:28,166
+get 20% off their annual premium subscription
+360
+00:06:25,533 --> 00:06:28,166
+获得20%的年度保费订阅折扣
+361
+00:06:28,566 --> 00:06:30,366
+I get to learn and solve these kinds of
+362
+00:06:28,566 --> 00:06:30,366
+我要学习和解决这些问题
+363
+00:06:30,366 --> 00:06:32,100
+problems for a living and I love it
+364
+00:06:30,366 --> 00:06:32,100
+以问题为生，我喜欢它
+365
+00:06:32,100 --> 00:06:33,133
+it gives me that warm
+366
+00:06:32,100 --> 00:06:33,133
+它给我温暖
+367
+00:06:33,200 --> 00:06:34,900
+glowy feeling inside when I finally
+368
+00:06:33,200 --> 00:06:34,900
+当我终于感受到内心的光辉
+369
+00:06:34,966 --> 00:06:36,333
+conquer a difficult problem
+370
+00:06:34,966 --> 00:06:36,333
+攻克难题
+371
+00:06:36,600 --> 00:06:38,500
+actively challenging your brain on a daily
+372
+00:06:36,600 --> 00:06:38,500
+每天积极挑战你的大脑
+373
+00:06:38,566 --> 00:06:40,766
+basis and getting that endorphin rush of a job
+374
+00:06:38,566 --> 00:06:40,766
+基础和得到内啡肽匆忙工作
+375
+00:06:40,766 --> 00:06:42,766
+well done is great for your mental health
+376
+00:06:40,766 --> 00:06:42,766
+做得好对你的心理健康很有好处
+377
+00:06:43,133 --> 00:06:44,466
+brilliant even have an app where you
+378
+00:06:43,133 --> 00:06:44,466
+太棒了，甚至有一个应用程序，你可以在其中
+379
+00:06:44,466 --> 00:06:46,900
+can challenge yourself on the go  as always
+380
+00:06:44,466 --> 00:06:46,900
+可以一如既往地在旅途中挑战自己
+381
+00:06:47,000 --> 00:06:49,066
+thank you to my patrons and thank you for watching
+382
+00:06:47,000 --> 00:06:49,066
+感谢我的赞助人，感谢您的收看
+383
+00:06:49,266 --> 00:06:51,566
+if you'd like to join the real engineering community
+384
+00:06:49,266 --> 00:06:51,566
+如果你想加入真正的工程社区
+385
+00:06:51,700 --> 00:06:53,733
+I've recently set up a subreddit where we
+386
+00:06:51,700 --> 00:06:53,733
+我最近建立了一个subreddit，我们
+387
+00:06:53,733 --> 00:06:55,933
+discuss everything engineering related and more
+388
+00:06:53,733 --> 00:06:55,933
+讨论与工程相关的一切等等
+389
+00:06:56,066 --> 00:06:57,866
+the link for that is in the description
+390
+00:06:56,066 --> 00:06:57,866
+描述中的链接。

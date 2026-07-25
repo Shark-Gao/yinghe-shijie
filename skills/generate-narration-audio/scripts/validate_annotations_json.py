@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate 硬核视界 overlay annotation JSON files."""
+"""校验硬核视界画面注释 JSON 文件。"""
 
 from __future__ import annotations
 
