@@ -96,7 +96,7 @@ def main() -> None:
         "mode": "short_video_chinese_narration",
         "provider": provider,
         "voice": narration.get("voice", default_voice),
-        "rate": narration.get("rate", "+0%"),
+        "rate": narration.get("rate", "+10%" if provider == "edge" else "+0%"),
         "video_duration": f"{duration:.3f}",
         "segments": [{"id": f"seg_{index:03}", **segment} for index, segment in enumerate(segments, 1)],
     }

@@ -1,4 +1,4 @@
 interface:
   display_name: "电视剧解说短视频"
-  short_description: "把授权影视素材改为高留存中文剧情解说短视频"
-  default_prompt: "使用 $yinghe-drama-short-video 为这段有授权的电视剧、电影或短剧素材制作中文剧情解说短视频。"
+  short_description: "保留原声，只用单行剧情注释制作影视短视频"
+  default_prompt: "使用 $yinghe-drama-short-video 从高能冲突点串联一个完整故事，直接剪切且不重复、不重叠源时间，保留原声、无中文配音，并通过可编辑剧情注释推进。"

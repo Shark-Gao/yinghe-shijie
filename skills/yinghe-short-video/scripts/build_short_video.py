@@ -184,20 +184,25 @@ def validate_intro_source_audio(
 
 def write_srt(plan: dict, path: Path, timing_segments: list[dict] | None = None) -> None:
     segments = plan.get("narration", {}).get("segments", [])
+    plot_summary_mode = plan.get("caption_mode") == "plot_summary"
     rows = []
     subtitle_id = 1
     for segment_index, segment in enumerate(segments):
         text = segment.get("text", "").strip()
         if not text:
             continue
-        pieces = [part.strip() for part in re.split(r"(?<=[。！？；…,.!?;])", text) if part.strip()]
-        compact = []
-        for piece in pieces:
-            if len(piece) <= 22:
-                compact.append(piece)
-                continue
-            compact.extend(part.strip() for part in re.split(r"(?<=[，、：,:])", piece) if part.strip())
-        compact = [subtitle_display_text(part) for part in compact]
+        if plot_summary_mode:
+            compact = [subtitle_display_text(text)]
+        else:
+            # 不把小数点和型号中的句点拆开，例如 1.8%、ID.3、ID.4。
+            pieces = [part.strip() for part in re.split(r"(?<=[。！？；…!?;])", text) if part.strip()]
+            compact = []
+            for piece in pieces:
+                if len(piece) <= 22:
+                    compact.append(piece)
+                    continue
+                compact.extend(part.strip() for part in re.split(r"(?<=[，、：,:])", piece) if part.strip())
+            compact = [subtitle_display_text(part) for part in compact]
         compact = [part for part in compact if part]
         if not compact:
             continue
@@ -291,8 +296,8 @@ def main() -> None:
     source_audio_mode = str(mix.get("source_audio_mode", "static"))
     transition_fade = max(0.0, float(mix.get("audio_transition_fade_seconds", 0.0)))
     dynamic_source_audio = bool(narration_path and source_audio_mode == "play_between_narration")
-    if source_audio_mode not in {"static", "play_between_narration"}:
-        raise SystemExit("mix.source_audio_mode must be static or play_between_narration.")
+    if source_audio_mode not in {"static", "play_between_narration", "keep_source"}:
+        raise SystemExit("mix.source_audio_mode must be static, play_between_narration, or keep_source.")
     if plan.get("drama") and narration_path and source_audio_mode != "play_between_narration":
         raise SystemExit("Drama plans require mix.source_audio_mode=play_between_narration.")
     source_gap_volume = (
@@ -399,7 +404,10 @@ def main() -> None:
             final_audio = music_label
 
     if plan.get("burn_captions", False) and write_subtitles:
-        style = "FontName=Microsoft YaHei,FontSize=11,PrimaryColour=&H00FFFFFF,OutlineColour=&H00101010,BorderStyle=1,Outline=1.5,Shadow=0,Alignment=2,MarginV=100"
+        if plan.get("caption_mode") == "plot_summary":
+            style = "FontName=Microsoft YaHei,FontSize=14,PrimaryColour=&H00FFFFFF,OutlineColour=&H00101010,BorderStyle=1,Outline=1.5,Shadow=0,Alignment=7,MarginL=80,MarginR=80,MarginV=40"
+        else:
+            style = "FontName=Microsoft YaHei,FontSize=11,PrimaryColour=&H00FFFFFF,OutlineColour=&H00101010,BorderStyle=1,Outline=1.5,Shadow=0,Alignment=2,MarginV=100"
         filters.append(f"[{final_video}]subtitles=filename='{esc_filter_path(srt_path)}':charenc=UTF-8:force_style='{style}'[vout]")
         final_video = "vout"
 

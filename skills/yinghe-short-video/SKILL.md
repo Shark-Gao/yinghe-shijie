@@ -14,7 +14,7 @@ description: 分析有授权的长视频及其 SRT、VTT 或字幕文本，为�
 1. 确认用户拥有或获准复用源片。定位视频和字幕文件，原始文件保持不变。
 2. 运行 `scripts/prepare_review_assets.py` 生成元数据、字幕提示和联系表。提出或制定剪辑计划前，必须检查原视频联系表和原字幕提示。候选镜头只依据本地原始素材，不得自行上网寻找替代画面或补充源片，除非用户明确要求。
 3. 为每个候选故事评分：钩子清晰度和强度 25%、视觉证据 20%、脱离全集后的可理解性 20%、中国观众相关性 20%、可用素材充足度 10%、安全的 9:16 构图 5%。当前地缘政治内容还要因日期陈旧、来源不清或无法区分事实与分析而扣分。所有高分且能独立成立的故事都要导出，不要只选一个“最佳故事”，也不要设置固定的最大短视频数量。每个合格故事单独建立计划和输出目录。只有在缺少清晰问题/结果、可用镜头不足或与其他故事实质重叠时才淘汰。对源片重新选取和排序，不把原始播放顺序当作必须保留的叙事顺序。
-   - 不要把每条内容强行压成固定时长。先让问题、答案、证据和结果完整。30–90 秒是抖音、快手和小红书的参考区间，不是硬目标。只有故事已经讲完整或平台有硬性限制时才缩短；不要为了凑短删掉必要解释，也不要为了凑长添加空话。只有在出现自然的独立问题或故事边界时才拆分，不要仅因为超过偏好时长就拆分。
+   - 不要把每条内容强行压成固定时长。先让问题、答案、证据和结果完整。30–90 秒是抖音、快手和小红书的参考区间，不是硬目标。男性向主版本如果需要完整解释，可以超过 90 秒；不要为了凑短删掉必要解释、硬切结尾或无理由加速，也不要为了凑长添加空话。只有故事已经讲完整或平台有硬性限制时才缩短；只有在出现自然的独立问题或故事边界时才拆分，不要仅因为超过偏好时长就拆分。
 4. 写解说前必须建立编辑卡：
    - `content_lane`：`地缘政治/国际局势`、`军事装备/战争机制` 或 `大国工程/科技/产业竞争`。
    - `audience_question`：普通观众会提出的一句话问题。
@@ -45,7 +45,7 @@ description: 分析有授权的长视频及其 SRT、VTT 或字幕文本，为�
    - 短视频输出统一放在 `videos/exports/短视频/<source-video-title>/` 下，每个故事或平台版本独立目录：主版本使用 `<topic>_短视频/`，平台版本使用 `<topic>_短视频_<platform>/`。不同故事不能混在一个目录，不同源片的短视频目录也不能混放。
    - 默认使用 `source` 画幅，保留源视频分辨率和 16:9 比例，不裁切、不新建画布。只有用户明确要求 9:16 视频时，才使用 `contain_blur` 或 `fill_crop`。生成竖版封面不等于授权改变视频画幅。
  8. 在首次渲染前，必须按 [references/preflight-review.md](references/preflight-review.md) 完成一次“成片前内容审查”，并将结果写入计划的 `preflight_review`。重点核对立场与事实边界、情绪价值、冲突点、0–2 秒钩子、5–10 秒答案、画面证据，以及标题/封面/简介/口播的一致性。任何一项不通过，都必须先修改计划再审查；不得先生成 MP4 再靠复盘发现这些问题。运行 `scripts/validate_preflight_review.py --plan <plan.json>`，通过后才允许运行 `scripts/produce_short_video.py --plan <plan.json>`。渲染脚本也会强制拦截缺少通过记录的计划。
-9. 默认设置 `background_music` 为 `music/硬核视界_通用BGM_舒缓科普探索_CC0.mp3`，`mix.music_volume` 为 `0.45`，`mix.narration_volume` 为 `1.0`，`mix.music_fade_seconds` 为 `0.0`，`mix.source_volume` 为 `0.0`。配音统一优先使用本地 `CosyVoice-300M-SFT`：`narration.provider: "cosyvoice"`、`model_dir: "tools/CosyVoice/pretrained_models/CosyVoice-300M-SFT"`、`python: "tools/CosyVoice/.venv/Scripts/python.exe"`、`mode: "sft"`，按题材选择 `中文男` 或 `中文女`。渲染器自动检测 CUDA；当前 RTX 4060 环境使用 CUDA + FP16，无 GPU 时才回退 CPU，CosyVoice 不可用或用户明确指定时才使用 `edge`。`CosyVoice-300M-Instruct` 不作为默认模型。运行 `scripts/produce_short_video.py --plan <plan.json>`。脚本会临时生成带时间的中文解说 MP3 和时间线 JSON，测量每段 TTS 的实际时长，再把 BGM 以原音量 45% 混入未增益、未限幅、无淡入淡出的中文口播，之后裁剪、重排和拼接源片，保持默认 16:9，输出 MP4 和旁车 SRT。CosyVoice 的配置细节见 `skills/generate-narration-audio/references/cosyvoice.md`。
+9. 默认不合并背景音乐：`mix.music_volume` 为 `0.0`，`mix.source_volume` 为 `0.0`，并且不填写 `background_music`；只有用户明确要求或平台版本确有需要时才启用 BGM。`mix.narration_volume` 默认 `1.0`。男性向视频默认使用 Microsoft Edge TTS：`narration.provider: "edge"`、`voice: "zh-CN-YunyangNeural"`、`rate: "+10%"`；除非用户明确指定其他声音，不使用 CosyVoice 男声。其他题材仍可按用户要求或项目规则使用本地 `CosyVoice-300M-SFT`。Edge TTS 和 CosyVoice 都必须记录每段实际 TTS 时长。运行 `scripts/produce_short_video.py --plan <plan.json>`。脚本会临时生成带时间的中文解说 MP3 和时间线 JSON，测量每段 TTS 的实际时长，再按配置决定是否混入 BGM，之后按实际 TTS 时长重排口播起点、字幕和画面边界，保持故事完整与默认 16:9，输出 MP4 和旁车 SRT。
    - SRT 必须使用实际测得的 TTS 分段时长，不能把整个计划窗口都当成字幕时长，否则字幕会拖在语音后面。口播文本保留标点以形成自然停顿，显示到 SRT 时去掉句末标点。
    - 必须检查时长清单：如果某段 TTS 超出计划窗口，或累计画面边界落在口播段中间，就延长/重排计划并重新导出。若出现超过约 1 秒且没有叙事理由的空白、口播重叠或字幕早于语音结束，也必须拒绝该版本并重做。
    - 不要主动把字幕烧进视频，除非用户明确要求。除非用户明确要求，不要把原视频声音混入输出。

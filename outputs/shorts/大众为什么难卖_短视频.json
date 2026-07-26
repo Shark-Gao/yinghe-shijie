@@ -1,0 +1,95 @@
+{
+  "version": 1,
+  "title": "大众在中国为什么突然难卖了？新能源车改写了竞争规则",
+  "editorial": {
+    "content_lane": "大国工程/科技/产业竞争",
+    "audience_question": "大众在中国卖不动，究竟是品牌老了，还是汽车竞争规则变了？",
+    "promised_answer": "不是单一疫情冲击，而是中国车市转向新能源后，价格、配置和软件体验同时换了规则。",
+    "emotional_shift": "从以为大众只是销量下滑，到看懂传统车企正在经历一场从机械制造到电动化与软件能力的换赛道。",
+    "series_link": "大国工程与产业竞争：新能源车为什么改变汽车行业",
+    "claim_status": "mixed"
+  },
+  "preflight_review": {
+    "status": "passed",
+    "review_scope": "content_before_render",
+    "one_line_question": "大众为什么在中国突然难卖了？",
+    "one_line_answer": "源片给出的核心解释是：新能源车把竞争从传统机械制造，推进到价格、配置、软件和本地化速度的综合比拼。",
+    "conflict": "传统车企依靠品牌和机械制造积累建立优势，但中国新能源市场把价格、智能化和更新速度推到了更前面。",
+    "emotional_value": "观众不再把销量下滑简单归因于疫情，而是能看懂一次产业换道如何击中老牌车企的能力结构。",
+    "checks": {
+      "position_and_fact": "pass",
+      "emotional_value": "pass",
+      "conflict_and_hook": "pass",
+      "answer_timing": "pass",
+      "visual_evidence": "pass",
+      "title_script_consistency": "pass",
+      "safety_and_attribution": "pass"
+    },
+    "risk_notes": [
+      "销量、份额、价格和召回比例均按已提供源片口径表述，数据主要截至2024年；口播使用‘源片数据显示/源片统计’避免把源片分析扩展为实时结论。",
+      "‘更容易卖’与‘补课’属于对源片材料的编辑性归纳，不表述为确定的未来结果。"
+    ],
+    "revision_notes": []
+  },
+  "platform_titles": {
+    "bilibili": "大众在中国为什么突然难卖了？新能源车改写了竞争规则",
+    "douyin": "大众不是不会造车，是赛道换了",
+    "kuaishou": "大众在中国咋突然不好卖了？关键是车市换规则了",
+    "xiaohongshu": "大众销量下滑图解：新能源、价格和软件如何改写汽车竞争"
+  },
+  "platform_descriptions": {
+    "bilibili": "为什么大众在中国的销量会从2019年接近400万辆，跌到源片统计的2024年前三季度约200万辆？这条视频用市场份额曲线、ID.3与海鸥的价格配置对比，以及软件问题的画面，拆解传统车企遇到的换赛道：新能源车把竞争推向了成本、智能化和本地化速度。数据口径以已提供源片为准，主要截至2024年。",
+    "douyin": "大众难卖，不只是疫情或品牌老化。源片里的曲线、价格对比和软件故障都指向同一个答案：新能源时代，车企比的不只是机械，还比成本、车机和更新速度。数据口径以源片为准，主要截至2024年。",
+    "kuaishou": "大众为啥在中国突然不好卖？简单说，车市从比谁更耐用，变成了比谁的电动车更便宜、配置更足、软件更好用。视频里的销量和价格数据按源片口径整理，主要截至2024年。",
+    "xiaohongshu": "大众销量下滑图解：看懂新能源车如何通过补贴、牌照和充电基础设施加速普及，再看ID.3与比亚迪海鸥的价格配置差距，以及车机软件为什么成为传统车企的短板。数据口径以已提供源片为准，主要截至2024年。"
+  },
+  "source_video": "L:\\workspace\\yinghe-shijie\\videos\\raw\\大众在中国，为什么突然难卖了？.mp4",
+  "output_video": "L:\\workspace\\yinghe-shijie\\videos\\exports\\短视频\\大众在中国，为什么突然难卖了？\\大众为什么难卖_短视频\\大众为什么难卖_短视频.mp4",
+  "cover_title": "大众为什么难卖？",
+  "cover_headline": "大众为何难卖",
+  "cover_subhead": "新能源换了规则",
+  "cover_aspect": "16:9",
+  "background_music": "",
+  "layout": "source",
+  "burn_captions": false,
+  "write_subtitles": true,
+  "mix": {
+    "source_volume": 0.0,
+    "narration_volume": 1.2,
+    "music_volume": 0.0,
+    "music_fade_seconds": 0.0
+  },
+  "clips": [
+    {"id": "market_share_hook", "source_start": "00:04:07.500", "source_end": "00:04:12.918", "focus_x": 0.5},
+    {"id": "market_share_shift", "source_start": "00:04:13.500", "source_end": "00:04:21.528", "focus_x": 0.5},
+    {"id": "ev_infrastructure", "source_start": "00:05:12.000", "source_end": "00:05:18.876", "focus_x": 0.5},
+    {"id": "id3_price", "source_start": "00:06:20.000", "source_end": "00:06:24.548", "focus_x": 0.5},
+    {"id": "price_spec_comparison", "source_start": "00:06:26.500", "source_end": "00:06:33.184", "focus_x": 0.5},
+    {"id": "software_shift", "source_start": "00:08:57.000", "source_end": "00:09:01.164", "focus_x": 0.5},
+    {"id": "software_delay", "source_start": "00:10:53.000", "source_end": "00:11:00.788", "focus_x": 0.5},
+    {"id": "software_recall", "source_start": "00:12:03.000", "source_end": "00:12:09.252", "focus_x": 0.5},
+    {"id": "discount_response", "source_start": "00:14:40.000", "source_end": "00:14:49.132", "focus_x": 0.5},
+    {"id": "local_ev_response", "source_start": "00:15:02.000", "source_end": "00:15:09.044", "focus_x": 0.5},
+    {"id": "software_investment", "source_start": "00:18:22.000", "source_end": "00:18:28.396", "focus_x": 0.5},
+    {"id": "closing_industry_shift", "source_start": "00:18:30.000", "source_end": "00:18:38.898", "focus_x": 0.5}
+  ],
+  "narration": {
+    "provider": "edge",
+    "voice": "zh-CN-YunyangNeural",
+    "rate": "+10%",
+    "segments": [
+      {"start": "00:00:00.450", "end": "00:00:05.418", "text": "大众在中国不是突然不会卖车，而是整个汽车赛道换了规则。"},
+      {"start": "00:00:05.718", "end": "00:00:13.446", "text": "源片数据显示：大众在华销量从2019年接近400万辆，跌到2024年前三季度约200万辆。"},
+      {"start": "00:00:13.746", "end": "00:00:20.322", "text": "同期，比亚迪的中国市场份额，从2020年的约1.8%，涨到约11%。"},
+      {"start": "00:00:20.622", "end": "00:00:24.870", "text": "这不是单一的疫情故事，真正变化发生在汽车本身。"},
+      {"start": "00:00:25.170", "end": "00:00:31.554", "text": "新能源车被补贴、牌照和充电基础设施一起推快，消费者的选择被重新排序。"},
+      {"start": "00:00:31.854", "end": "00:00:35.718", "text": "接着，价格和配置的差距被直接摆上了桌面。"},
+      {"start": "00:00:36.018", "end": "00:00:43.506", "text": "源片对比：大众ID.3约16.4万元，海鸥高配约8.6万元，续航只少45公里。"},
+      {"start": "00:00:43.806", "end": "00:00:49.758", "text": "更关键的是，电动车不只比发动机，还比车机、辅助驾驶和软件体验。"},
+      {"start": "00:00:50.058", "end": "00:00:58.890", "text": "大众ID.3上市时，车机和抬头显示还要等更新；ID.4召回里，源片统计约三分之一与软件有关。"},
+      {"start": "00:00:59.190", "end": "00:01:05.934", "text": "所以老牌车企遇到的，不是换一块电池，而是硬件、成本和软件能力一起重做。"},
+      {"start": "00:01:06.234", "end": "00:01:12.330", "text": "大众后来降价、做本地合作，还投向Rivian补软件，说明它已经开始补课。"},
+      {"start": "00:01:12.630", "end": "00:01:20.478", "text": "结论是：品牌还能带来信任，但新能源时代，谁能把车做得更便宜、更聪明，谁才更容易留下。"}
+    ]
+  }
+}

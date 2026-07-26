@@ -1,0 +1,91 @@
+{
+  "version": 1,
+  "title": "美国想买格陵兰，真正看中的不是资源而是北极位置",
+  "editorial": {
+    "content_lane": "地缘政治/国际局势",
+    "audience_question": "美国为什么想要格陵兰，真正看中的到底是什么？",
+    "promised_answer": "核心不是冰层本身，而是格陵兰位于北极中部的地理支点，以及已经存在的机场、雷达和深水港。",
+    "emotional_shift": "从以为这只是资源交易，转为看懂格陵兰是北极航线、侦察和军事基础设施的关键支点。",
+    "series_link": "北极地缘与军事地理系列",
+    "claim_status": "mixed"
+  },
+  "preflight_review": {
+    "status": "passed",
+    "review_scope": "content_before_render",
+    "one_line_question": "美国为什么想要格陵兰，真正看中的是什么？",
+    "one_line_answer": "核心是格陵兰位于北极中部的战略位置和既有军事基础设施，矿产只是加分项；而主权并不是获得这些能力的唯一方式。",
+    "conflict": "地图上的地理支点与现实中的基础设施、破冰船和北极经验之间存在落差。",
+    "emotional_value": "观众会从‘美国想买资源’转为理解‘美国想把北极前沿支点往前推’，同时看到买下主权并不能一键补齐北极能力。",
+    "checks": {
+      "position_and_fact": "pass",
+      "emotional_value": "pass",
+      "conflict_and_hook": "pass",
+      "answer_timing": "pass",
+      "visual_evidence": "pass",
+      "title_script_consistency": "pass",
+      "safety_and_attribution": "pass"
+    },
+    "risk_notes": [
+      "军事能力、基地数量和资源项目采用原片信息并以解释性口吻呈现；不把推断写成确定事实。",
+      "不使用原片广告、赞助和片尾内容。"
+    ],
+    "revision_notes": []
+  },
+  "platform_titles": {
+    "bilibili": "美国想买格陵兰，真正看中的不是资源而是北极位置",
+    "douyin": "美国盯上格陵兰，真想要的不是冰",
+    "kuaishou": "美国为啥想要格陵兰？关键是这个位置",
+    "xiaohongshu": "格陵兰战略位置图解：美国真正看中的是什么"
+  },
+  "platform_descriptions": {
+    "bilibili": "美国为什么会盯上格陵兰？这条视频用地图和基地画面拆解：真正的核心是北极中部的地理位置，以及机场、雷达、深水港等前沿基础设施；稀土等资源是加分项，但买下主权并不能一键补齐破冰船、补给线和北极经验。",
+    "douyin": "美国看中的不是一块冰，而是格陵兰卡在北极中间的位置。机场、雷达、深水港和航线，才是这场争议背后的关键；但主权也不是北极能力的快捷键。",
+    "kuaishou": "美国为啥老盯着格陵兰？说白了，先看位置，再看基地，矿产只是加分项。可土地买得到，破冰船、补给线和北极经验还得慢慢补。",
+    "xiaohongshu": "格陵兰战略位置图解：看懂它为什么能连接北美、欧洲与俄罗斯北极航线，也看懂皮图菲克太空基地、雷达、深水港和破冰能力之间的关系。结论是：战略支点很重要，但主权并不是唯一选项。"
+  },
+  "source_video": "L:\\workspace\\yinghe-shijie\\videos\\raw\\美国想买格陵兰，真正看中的是什么？.mp4",
+  "output_video": "L:\\workspace\\yinghe-shijie\\videos\\exports\\短视频\\美国想买格陵兰，真正看中的是什么？\\美国想买格陵兰，真正看中的是什么？_短视频.mp4",
+  "cover_title": "美国看中的是什么？",
+  "cover_headline": "不是一块冰",
+  "cover_subhead": "而是北极门锁",
+  "cover_aspect": "16:9",
+  "background_music": "",
+  "layout": "source",
+  "burn_captions": false,
+  "write_subtitles": true,
+  "mix": {
+    "source_volume": 0.0,
+    "narration_volume": 1.2,
+    "music_volume": 0.0,
+    "music_fade_seconds": 0.0
+  },
+  "clips": [
+    { "id": "hook_map", "source_start": "00:03:48.700", "source_end": "00:03:54.620", "focus_x": 0.5 },
+    { "id": "frontier_runway", "source_start": "00:04:03.800", "source_end": "00:04:09.188", "focus_x": 0.5 },
+    { "id": "base_port", "source_start": "00:04:10.200", "source_end": "00:04:18.180", "focus_x": 0.5 },
+    { "id": "russia_distance", "source_start": "00:04:23.333", "source_end": "00:04:31.697", "focus_x": 0.5 },
+    { "id": "arctic_sea", "source_start": "00:10:42.700", "source_end": "00:10:51.928", "focus_x": 0.5 },
+    { "id": "russian_airbase", "source_start": "00:08:15.000", "source_end": "00:08:22.212", "focus_x": 0.5 },
+    { "id": "geopolitical_gap", "source_start": "00:16:01.200", "source_end": "00:16:08.892", "focus_x": 0.5 },
+    { "id": "rare_earth", "source_start": "00:16:48.466", "source_end": "00:16:56.566", "focus_x": 0.5 },
+    { "id": "existing_access", "source_start": "00:19:09.000", "source_end": "00:19:17.316", "focus_x": 0.5 },
+    { "id": "people_and_sovereignty", "source_start": "00:18:30.700", "source_end": "00:18:41.660", "focus_x": 0.5 }
+  ],
+  "narration": {
+    "provider": "edge",
+    "voice": "zh-CN-YunyangNeural",
+    "rate": "+10%",
+    "segments": [
+      { "start": "00:00:00.400", "end": "00:00:05.920", "text": "美国真想买格陵兰，盯上的不是一块冰，而是北极正中间的战略位置。" },
+      { "start": "00:00:06.220", "end": "00:00:11.308", "text": "因为这里能把机场、雷达和深水港，直接放到北极前沿。" },
+      { "start": "00:00:11.608", "end": "00:00:19.288", "text": "美国在格陵兰的皮图菲克太空基地，拥有三千米跑道、深水港，还承担导弹追踪和卫星通信。" },
+      { "start": "00:00:19.588", "end": "00:00:27.652", "text": "它离俄罗斯北岸只有三四小时航程，离莫斯科也就五个多小时。这个位置，像一把插在北极的门锁。" },
+      { "start": "00:00:27.952", "end": "00:00:36.880", "text": "但北极不是把地图涂成蓝色就能控制。大部分军舰全年进不去，美国破冰船只有三艘，俄罗斯有四十一艘。" },
+      { "start": "00:00:37.180", "end": "00:00:44.092", "text": "俄罗斯还在北极持续扩建机场、雷达和港口，把北方舰队和核潜艇藏进一层层防御里。" },
+      { "start": "00:00:44.392", "end": "00:00:51.784", "text": "所以美国担心的，不只是资源，而是自己在这张北极地图上，基础设施和经验都落后。" },
+      { "start": "00:00:52.084", "end": "00:00:59.884", "text": "稀土、铀和锌矿当然有吸引力，但开发成本高、周期长，商业价值暂时还排在战略价值后面。" },
+      { "start": "00:01:00.184", "end": "00:01:08.200", "text": "更关键的是，美国早就能使用皮图菲克基地，扩建也能通过谈判推进。买下主权，并不是唯一选项。" },
+      { "start": "00:01:08.500", "end": "00:01:18.460", "text": "真正难买的，是破冰船、补给线和北极经验。格陵兰像一个地理支点，但要不要把它变成领土交易，远没有地图上那么简单。" }
+    ]
+  }
+}

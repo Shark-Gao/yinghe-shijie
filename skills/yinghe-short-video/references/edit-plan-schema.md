@@ -51,24 +51,20 @@
   "cover_headline": "一台机器一天挖走二十四万吨",
   "cover_subhead": "它究竟怎么做到的？",
   "cover_aspect": "16:9",
-  "background_music": "music/硬核视界_通用BGM_舒缓科普探索_CC0.mp3",
+  "background_music": "",
   "layout": "source",
   "burn_captions": false,
   "write_subtitles": true,
-  "mix": { "source_volume": 0.0, "narration_volume": 1.0, "music_volume": 0.45, "music_fade_seconds": 0.0 },
+  "mix": { "source_volume": 0.0, "narration_volume": 1.0, "music_volume": 0.0, "music_fade_seconds": 0.0 },
   "clips": [
     { "id": "hook", "source_start": "00:08:12.400", "source_end": "00:08:15.800", "focus_x": 0.56 },
     { "id": "scale", "source_start": "00:02:44.000", "source_end": "00:02:51.800", "focus_x": 0.50 },
     { "id": "mechanism", "source_start": "00:09:06.200", "source_end": "00:09:18.000", "focus_x": 0.42 }
   ],
   "narration": {
-    "provider": "cosyvoice",
-    "python": "tools/CosyVoice/.venv/Scripts/python.exe",
-    "model_dir": "tools/CosyVoice/pretrained_models/CosyVoice-300M-SFT",
-    "mode": "sft",
-    "voice": "中文男",
-    "speed": 1.0,
-    "rate": "+0%",
+    "provider": "edge",
+    "voice": "zh-CN-YunyangNeural",
+    "rate": "+10%",
     "segments": [
       { "start": "00:00:00.000", "end": "00:00:03.400", "text": "这台机器一天，能挖走二十四万吨岩石。" },
       { "start": "00:00:03.400", "end": "00:00:11.000", "text": "它不是普通挖掘机，而是一座连续运转的露天矿工厂。" }
@@ -78,6 +74,22 @@
 ```
 
 `clips` 按数组顺序拼接。默认 `layout` 为 `source`：保留源视频分辨率和画幅比例（通常是 16:9），不裁切、不缩放、不生成背景。可以在单个片段中设置 `layout` 覆盖默认值。
+
+电视剧的无语音剧情注释计划应把 `clips` 当作“高能故事链”的直接剪切清单：先选冲突爆发、升级、反击/证据和结果片段，再根据故事完整性加入起因、人物关系、动作因果和结果承接等过渡片段。过渡片段数量不设固定上限，但每个片段只能使用一次，任何两个片段的源时间都不能重叠；高能片段也没有重叠例外。高能片段可写 `high_energy: true` 和 `annotation_ids: ["anno_007"]`，用于要求对应的可编辑剧情注释覆盖其成片时间。
+
+推荐在影视计划中加入：
+
+```json
+"edit_rules": {
+  "selection_mode": "high_energy_story_chain",
+  "clip_order": "story_order",
+  "source_reuse": false,
+  "source_overlap": false,
+  "allow_transition_clips": true,
+  "direct_cut": true,
+  "burn_annotations": false
+}
+```
 
 每个新的短视频计划都必须有 `platform_titles`，包含四个平台标题：`bilibili`、`douyin`、`kuaishou` 和 `xiaohongshu`。为兼容当前渲染脚本，`title` 必须等于 `platform_titles.bilibili`。渲染器不会读取 `platform_titles` 来剪视频；它保留这些字段，方便最终交付平台标题。
 
@@ -96,17 +108,19 @@
 
 只有用户明确要求输出 9:16 视频时，才使用 `contain_blur` 或 `fill_crop`。`fill_crop` 适合裁切后主体仍然清楚的近景；`focus_x` 控制保留的水平位置：`0` 为左侧，`0.5` 为中央，`1` 为右侧。选取的源片时间必须在源视频时长以内。
 
-`narration.segments` 使用成片时间码，不是源视频时间码。`produce_short_video.py` 会把它转换为时间线 JSON，并自动生成匹配的中文音频。`narration.provider` 可以是 `cosyvoice` 或 `edge`；CosyVoice 默认需要 `python: "tools/CosyVoice/.venv/Scripts/python.exe"`、`model_dir: "tools/CosyVoice/pretrained_models/CosyVoice-300M-SFT"`、`mode: "sft"` 和 `voice`，`speed` 为数值速度，默认 `1.0`。渲染器自动检测 CUDA，当前 RTX 4060 环境使用 CUDA + FP16；只有用户明确指定 Instruct 并试听通过时，才使用 `CosyVoice-300M-Instruct`、`mode: "instruct"` 和 `instruction`。CosyVoice 不可用或用户明确指定时才使用 Edge TTS。省略 provider 时保持 Edge TTS 兼容。CosyVoice 的 `zero_shot`、`instruct` 和参考音频字段见 `skills/generate-narration-audio/references/cosyvoice.md`。只有复用已经渲染好的配音轨时才需要 `narration_audio`。
+`narration.segments` 使用成片时间码，不是源视频时间码。普通短视频计划通过 `produce_short_video.py` 把它转换为时间线 JSON，并自动生成匹配的中文音频。电视剧也支持不配音的剧情注释模式：设置 `annotation_only: true`、`annotation_file`、`caption_mode: "plot_summary"`、`burn_captions: false` 和 `write_subtitles: false`，省略 `narration.segments` 和 `narration_audio`，使用 `mix.source_audio_mode: "keep_source"`，再调用电视剧技能的 `produce_annotation_video.py` 生成无文字清剪版。正式注释通过 `jianying_assistant` 写入剪映草稿，不得烧录进 MP4。
+
+普通配音计划中的 `narration.provider` 可以是 `cosyvoice` 或 `edge`。硬核视界男性向短视频默认使用 Edge TTS `voice: "zh-CN-YunyangNeural"`、`rate: "+10%"`；只有用户明确指定其他声音时才改用其他配置。其他题材仍可按用户要求使用 CosyVoice：需要 `python: "tools/CosyVoice/.venv/Scripts/python.exe"`、`model_dir: "tools/CosyVoice/pretrained_models/CosyVoice-300M-SFT"`、`mode: "sft"` 和 `voice`，`speed` 为数值速度，默认 `1.0`。渲染器自动检测 CUDA，当前 RTX 4060 环境使用 CUDA + FP16；只有用户明确指定 Instruct 并试听通过时，才使用 `CosyVoice-300M-Instruct`、`mode: "instruct"` 和 `instruction`。Edge TTS 和 CosyVoice 都必须记录实际分段时长；CosyVoice 的 `zero_shot`、`instruct` 和参考音频字段见 `skills/generate-narration-audio/references/cosyvoice.md`。只有复用已经渲染好的配音轨时才需要 `narration_audio`。
 
 `platform_titles`、`platform_descriptions`、`editorial` 和 `cover_*` 都是内容包装字段；渲染脚本主要使用 `source_video`、`output_video`、`clips`、`narration`、`mix`、`layout` 和音频/字幕相关字段。任何新增字段都要先确认下游脚本是否支持。
 
 `preflight_review` 是渲染前的内容审查记录，不是可选备注。必须使用 `status: "passed"` 和 `review_scope: "content_before_render"`，并让所有 `checks` 都为 `"pass"`。运行 `scripts/validate_preflight_review.py --plan <plan.json>` 后，才能运行 `scripts/produce_short_video.py`；审查失败时先修改计划，再审查，不得先生成成片。
 
-影视解说计划如果包含 `drama` 对象，还必须填写 `drama.opening_stance_hook`、`drama.commentary_viewpoint`、`drama.discussion_conflict` 和 `drama.emotional_value`，并在 `mix.source_audio_mode` 中使用 `"play_between_narration"`。预检脚本会在生成配音前拦截缺少这些内容的计划。
+影视计划如果包含 `drama` 对象，还必须填写 `drama.opening_stance_hook`、`drama.commentary_viewpoint`、`drama.discussion_conflict` 和 `drama.emotional_value`。普通配音模式使用 `mix.source_audio_mode: "play_between_narration"`；`annotation_only: true` 模式使用 `mix.source_audio_mode: "keep_source"`，并由预检脚本拦截缺少剧情审核字段或误带中文配音分段的计划。
 
-`write_subtitles` 默认是 `true`，会根据中文口播时间线写出相邻的 SRT 文件。渲染配音时，脚本会测量每段 TTS 的真实时长，并用它限制对应字幕段，防止字幕在语音结束后继续显示。SRT 显示文本会去掉句末标点，口播文本仍保留标点以形成自然 TTS 停顿。`burn_captions` 默认是 `false`，只有用户明确要求时才设为 `true`。
+`write_subtitles` 默认是 `true`，普通模式会根据中文口播时间线写出旁车 SRT；电视剧 `annotation_only` 模式应设为 `false`，因为正式注释由 `jianying_assistant` 写入草稿。剧情注释模式不生成 TTS，也不显示 `subtext`。`burn_captions` 默认是 `false`，电视剧注释模式禁止改为 `true`。
 
-`background_music` 指向可循环使用的 CC0 BGM。构建器会把音乐循环到成片时长，并直接与口播混音。除非用户明确要求，保持 `source_volume` 为 `0.0`。默认 `music_volume` 为 `0.45`，`narration_volume` 为 `1.0`，`music_fade_seconds` 为 `0.0`；不要擅自修改口播音量、增加增益或添加淡出。
+`background_music` 指向可循环使用的 CC0 BGM。构建器会把音乐循环到成片时长，并直接与口播混音。默认不填写 `background_music`，也不合并 BGM；只有用户明确要求或平台版本确有需要时才填写音乐路径，并将 `music_volume` 单独记录。默认保持 `source_volume` 为 `0.0`、`music_volume` 为 `0.0`、`narration_volume` 为 `1.0`、`music_fade_seconds` 为 `0.0`；不要擅自添加原声、增益或淡出。
 
 影视剧情解说可以在 `mix` 中使用动态原声策略：`source_audio_mode: "play_between_narration"`、`source_gap_volume: 1.0`、`source_audio_intro_deadline_seconds: 10.0`、`source_audio_intro_min_seconds: 0.5`。启用后，构建器依据 TTS 实测时间段在解说时将原视频音频压到 0，在解说间隙恢复原声，并检查前 10 秒是否至少留出指定时长的原声；其他内容默认仍使用 `source_audio_mode: "static"`。
 

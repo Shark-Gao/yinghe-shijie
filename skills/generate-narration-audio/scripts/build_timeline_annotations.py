@@ -14,6 +14,12 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--timeline", required=True, help="源解说时间线 JSON。")
     parser.add_argument("--output", required=True, help="输出注释 JSON。")
     parser.add_argument("--target-video", default="", help="可选目标视频路径。")
+    parser.add_argument(
+        "--format",
+        choices=("label", "plot_summary"),
+        default="label",
+        help="注释格式；plot_summary 只输出一条接下来剧情简介，不生成副行。",
+    )
     return parser.parse_args()
 
 
@@ -38,6 +44,24 @@ def label(text: str) -> str:
 def alternate_label(text: str) -> str:
     parts = [part.strip() for part in re.split(r"[。！？，、；：]", text) if part.strip()]
     return (parts[1] if len(parts) > 1 else parts[0])[:14] or "关键结构说明"
+
+
+def plot_summary(text: str) -> str:
+    """保留一条可直接覆盖在画面上的剧情简介，不拆成主行和副行。"""
+    cleaned = re.sub(r"\s+", "", text.strip())
+    if not cleaned:
+        return "剧情继续推进"
+    sentences = [part.strip() for part in re.split(r"(?<=[。！？；])", cleaned) if part.strip()]
+    candidate = sentences[0] if sentences else cleaned
+    has_chinese_quotes = cleaned.startswith("“") and cleaned.endswith("”")
+    candidate = candidate.rstrip("。！？；：，、,.!?;:")
+    if has_chinese_quotes and not candidate.endswith("”"):
+        candidate += "”"
+    if len(candidate) > 30:
+        closing_quote = "”" if has_chinese_quotes else ""
+        body = candidate[:-1] if closing_quote and candidate.endswith(closing_quote) else candidate
+        candidate = body[:29 - len(closing_quote)].rstrip("，、：；") + "…" + closing_quote
+    return candidate or "剧情继续推进"
 
 
 def minimum_annotation_count(video_duration_ms: int) -> int:
@@ -74,46 +98,48 @@ def main() -> None:
         end = min(start + 4_000, to_ms(segment["end"]))
         if end - start < 1_500:
             end = start + 1_500
+        text = plot_summary(segment["text"]) if args.format == "plot_summary" else label(segment["text"])
         annotations.append({
             "id": f"anno_{index:03}",
             "start": segment["start"],
             "end": to_time(end),
-            "type": "chapter" if index in {1, 2, 11, 19, 24, 31, 35, 39, 45} else "principle",
-            "text": label(segment["text"]),
+            "type": "chapter" if index in {1, 2, 11, 19, 24, 31, 35, 39, 45} else ("callout" if args.format == "plot_summary" else "principle"),
+            "text": text,
             "subtext": "",
             "position": "top_center" if index % 2 else "center",
             "x": 0,
             "y": 520 if index % 2 else 260,
             "layer": 10,
-            "style": "tech_label",
+            "style": "arrow_callout" if args.format == "plot_summary" else "tech_label",
             "motion": "fade",
-            "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
-            "avoid": ["subtitle", "core_subject"],
+            "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+            "avoid": ["subtitle", "face"],
         })
-    target_count = minimum_annotation_count(to_ms(data["video_duration"]))
-    for index, segment in enumerate(segments):
-        if len(annotations) >= target_count:
-            break
-        start, end = to_ms(segment["start"]), to_ms(segment["end"])
-        midpoint = start + (end - start) // 2
-        extra_start = min(midpoint, end - 1_500)
-        extra_end = min(extra_start + 3_500, end)
-        annotations.append({
-            "id": f"anno_{len(annotations) + 1:03}",
-            "start": to_time(extra_start),
-            "end": to_time(extra_end),
-            "type": "callout",
-            "text": alternate_label(segment["text"]),
-            "subtext": "",
-            "position": "center",
-            "x": 0,
-            "y": 260,
-            "layer": 10,
-            "style": "tech_label",
-            "motion": "fade",
-            "visual_hint": "在对应的神经网络结构、节点连线或公式动画中显示",
-            "avoid": ["subtitle", "core_subject"],
-        })
+    if args.format != "plot_summary":
+        target_count = minimum_annotation_count(to_ms(data["video_duration"]))
+        for index, segment in enumerate(segments):
+            if len(annotations) >= target_count:
+                break
+            start, end = to_ms(segment["start"]), to_ms(segment["end"])
+            midpoint = start + (end - start) // 2
+            extra_start = min(midpoint, end - 1_500)
+            extra_end = min(extra_start + 3_500, end)
+            annotations.append({
+                "id": f"anno_{len(annotations) + 1:03}",
+                "start": to_time(extra_start),
+                "end": to_time(extra_end),
+                "type": "callout",
+                "text": alternate_label(segment["text"]),
+                "subtext": "",
+                "position": "center",
+                "x": 0,
+                "y": 260,
+                "layer": 10,
+                "style": "tech_label",
+                "motion": "fade",
+                "visual_hint": "在对应的结构、节点连线或公式动画中显示",
+                "avoid": ["subtitle", "core_subject"],
+            })
     annotations.sort(key=lambda item: to_ms(item["start"]))
     for index, annotation in enumerate(annotations, start=1):
         annotation["id"] = f"anno_{index:03}"
@@ -121,7 +147,7 @@ def main() -> None:
         "version": 1,
         "source_subtitle": data["source_subtitle"],
         "target_video": args.target_video,
-        "notes": "等长全程版视频文字注释，由解说时间线自动生成，可按画面微调。",
+        "notes": "由时间线生成的单行屏幕注释；plot_summary 模式只显示接下来剧情简介，不显示副行。",
         "annotations": annotations,
     }
     output_path = Path(args.output)

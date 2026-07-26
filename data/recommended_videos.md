@@ -4,6 +4,9 @@
 
 | 日期 | 视频标题 | YouTube链接 | 频道 | 类型 | 状态 |
 |---|---|---|---|---|---|
+| 2026-07-26 | Apache Helicopter How it Works? Boeing AH-64 Apache | https://www.youtube.com/watch?v=sXkOzl1Wb4A | AiTelly | #军事装备 #武装直升机 #3D动画 | 已推荐 |
+| 2026-07-26 | The Illogical Case Behind Buying Greenland | https://www.youtube.com/watch?v=7Mvy_Y2j3GE | Wendover Productions | #地缘政治 #北极航道 #国际局势 #地图动画 | 已推荐 |
+| 2026-07-26 | Volkswagen's China Problem | https://www.youtube.com/watch?v=74E-eAxQ9P4 | Wendover Productions | #大国工程科技 #汽车产业 #产业竞争 | 已推荐 |
 | 2026-07-25 | How a Single Swedish Submarine Defeated the US Navy | https://www.youtube.com/watch?v=saCdvAp5cow | Real Engineering | #军事装备 #潜艇 #反潜作战 #工程原理 | 已推荐 |
 | 2026-07-25 | Inside US Biggest Nuclear Aircraft Carrier \| Gerald R Ford | https://www.youtube.com/watch?v=j26ppRiUBe0 | AiTelly | #军事装备 #航空母舰 #舰载机 #3D动画 | 已推荐 |
 | 2026-07-25 | Why China Is so Good at Building Railways | https://www.youtube.com/watch?v=0JDoll8OEFE | Wendover Productions | #大国工程 #中国高铁 #基础设施 #产业竞争 | 已推荐 |
