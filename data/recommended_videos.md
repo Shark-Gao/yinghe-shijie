@@ -4,6 +4,8 @@
 
 | 日期 | 视频标题 | YouTube链接 | 频道 | 类型 | 状态 |
 |---|---|---|---|---|---|
+| 2026-07-28 | How Satellites Reveal China's Taiwan Invasion Plans | https://www.youtube.com/watch?v=1taDYPj8Sbc | RealLifeLore | #军事装备 #两栖作战 #台海地理 #卫星图像 | 已推荐 |
+| 2026-07-28 | Why China Will Never Surrender the South China Sea | https://www.youtube.com/watch?v=z9IiZkMKi68 | Johnny Harris | #地缘政治 #南海争端 #海上通道 #地图动画 | 已推荐 |
 | 2026-07-26 | Apache Helicopter How it Works? Boeing AH-64 Apache | https://www.youtube.com/watch?v=sXkOzl1Wb4A | AiTelly | #军事装备 #武装直升机 #3D动画 | 已推荐 |
 | 2026-07-26 | The Illogical Case Behind Buying Greenland | https://www.youtube.com/watch?v=7Mvy_Y2j3GE | Wendover Productions | #地缘政治 #北极航道 #国际局势 #地图动画 | 已推荐 |
 | 2026-07-26 | Volkswagen's China Problem | https://www.youtube.com/watch?v=74E-eAxQ9P4 | Wendover Productions | #大国工程科技 #汽车产业 #产业竞争 | 已推荐 |

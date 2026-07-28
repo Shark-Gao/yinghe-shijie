@@ -17,6 +17,8 @@ FINAL_SUFFIXES = (
 
 
 def is_final_file(path: Path) -> bool:
+    if path.name.endswith(".partial.mp4"):
+        return False
     if path.name.endswith(FINAL_SUFFIXES):
         if path.suffix != ".json":
             return True

@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "record_date": "2026-07-28",
+  "status": "completed",
+  "account_lane": "男性向",
+  "content_lane": "地缘政治/国际局势",
+  "title": "台海登陆最难在哪？看懂两栖作战后勤链",
+  "source": {
+    "title": "How Satellites Reveal China's Taiwan Invasion Plans",
+    "channel": "RealLifeLore",
+    "url": "https://www.youtube.com/watch?v=1taDYPj8Sbc",
+    "video": "L:/workspace/yinghe-shijie/videos/raw/登陆台海，最难的不是过海？.mp4",
+    "subtitle": "L:/workspace/yinghe-shijie/outputs/登陆台海，最难的不是过海？_时间线01.srt"
+  },
+  "editorial": {
+    "audience_question": "登陆台海最难的是过海，还是上岸后维持补给？",
+    "promised_answer": "真正的难点是把人员、重装备和弹药燃料持续送上岸，把滩头变成能继续作战的后勤节点。",
+    "emotional_shift": "从只看登陆舰，转为看懂港口、浮桥和后勤链。",
+    "claim_status": "mixed"
+  },
+  "plan": "L:/workspace/yinghe-shijie/outputs/shorts/登陆台海后勤链_短视频.json",
+  "output_dir": "L:/workspace/yinghe-shijie/videos/exports/短视频/登陆台海，最难的不是过海？/登陆台海后勤链_短视频",
+  "final_files": {
+    "video": "L:/workspace/yinghe-shijie/videos/exports/短视频/登陆台海，最难的不是过海？/登陆台海后勤链_短视频/登陆台海后勤链_短视频.mp4",
+    "subtitle": "L:/workspace/yinghe-shijie/videos/exports/短视频/登陆台海，最难的不是过海？/登陆台海后勤链_短视频/登陆台海后勤链_短视频.srt",
+    "covers": [
+      "L:/workspace/yinghe-shijie/videos/exports/短视频/登陆台海，最难的不是过海？/登陆台海后勤链_短视频/登陆台海后勤链_短视频_封面_16x9_设计版.png",
+      "L:/workspace/yinghe-shijie/videos/exports/短视频/登陆台海，最难的不是过海？/登陆台海后勤链_短视频/登陆台海后勤链_短视频_封面_4x3_设计版.png",
+      "L:/workspace/yinghe-shijie/videos/exports/短视频/登陆台海，最难的不是过海？/登陆台海后勤链_短视频/登陆台海后勤链_短视频_封面_9x16_设计版.png"
+    ]
+  },
+  "technical": {
+    "duration_seconds": 87.3,
+    "video_size": "1920x1080",
+    "narration_provider": "edge",
+    "voice": "zh-CN-YunyangNeural",
+    "rate": "+10%",
+    "background_music": null,
+    "source_audio": false,
+    "subtitle_mode": "external_srt",
+    "preflight_review": "passed",
+    "tts_timing_review": {
+      "status": "passed",
+      "max_gap_seconds": 0.492,
+      "overlapping_segments": false,
+      "subtitle_uses_measured_tts_duration": true
+    }
+  },
+  "publication": {
+    "status": "待发布",
+    "platform_titles": {
+      "bilibili": "台海登陆最难在哪？看懂两栖作战后勤链",
+      "douyin": "登陆台海，最难的不是过海？",
+      "kuaishou": "人上岸了，重装备和补给怎么跟上？",
+      "xiaohongshu": "台海两栖登陆图解：看懂浮动码头与后勤难题"
+    }
+  }
+}

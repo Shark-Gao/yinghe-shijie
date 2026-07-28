@@ -1,0 +1,121 @@
+{
+  "version": 1,
+  "title": "登陆台海，最难的不是过海？真正难的是把滩头变成后方",
+  "platform_titles": {
+    "bilibili": "登陆台海，最难的不是过海？真正难的是守住滩头",
+    "douyin": "登陆台海最难的不是过海",
+    "kuaishou": "登陆台湾，过海之后才是难题",
+    "xiaohongshu": "两栖登陆拆解：为什么滩头补给比过海更难"
+  },
+  "platform_descriptions": {
+    "bilibili": "登陆台海最难的，不只是把部队送过海，而是把滩头变成能持续补给的前进基地。本片从三艘可连接驳船、坦克卸货坡道和滩头后勤，拆解两栖登陆的第二道难题。素材画面保留原片字幕与标识，本片为中文解说分析；不将演练等同于具体行动。",
+    "douyin": "过海只是第一关，上岸后怎么持续送来弹药、燃料和重装备，才是两栖登陆的硬难题。用三艘驳船和一条浮动通道，看懂滩头后勤链。素材来源画面保留原片标识。",
+    "kuaishou": "三艘驳船能拼成通往沙滩的浮动通道，甚至让重型主战坦克下船。但真正难的是：上岸之后，补给能不能不断？本片只讲两栖作战的后勤逻辑，不做具体行动预测。",
+    "xiaohongshu": "两栖登陆为什么不是‘过海’这么简单？从驳船连接、坦克卸货到滩头补给，拆解登陆作战最容易被忽略的后半程：如何把一段沙滩变成稳定的后勤链。适合收藏复看。"
+  },
+  "preflight_review": {
+    "status": "passed",
+    "review_scope": "content_before_render",
+    "one_line_question": "登陆台海最难的是过海，还是上岸后维持补给？",
+    "one_line_answer": "真正的难点是把人员、重装备和持续补给送上岸，并把滩头维持成可扩展的前进基地。",
+    "conflict": "观众通常只关注登陆舰能否过海，但两栖作战的关键矛盾是上岸后的持续后勤。",
+    "emotional_value": "从‘只看登陆舰’转为看懂滩头、港口和后勤链之间的关系。",
+    "checks": {
+      "position_and_fact": "pass",
+      "emotional_value": "pass",
+      "conflict_and_hook": "pass",
+      "answer_timing": "pass",
+      "visual_evidence": "pass",
+      "title_script_consistency": "pass",
+      "safety_and_attribution": "pass"
+    },
+    "risk_notes": "解说只讨论两栖登陆的通用后勤逻辑与原片展示的演练画面，不把演练等同于具体行动，不对未来行动作确定性预测。"
+  },
+  "source_video": "L:/workspace/yinghe-shijie/videos/raw/登陆台海，最难的不是过海？.mp4",
+  "output_video": "L:/workspace/yinghe-shijie/videos/exports/短视频/登陆台海_最难的不是过海/登陆台海_后勤链_短视频/登陆台海_后勤链_短视频.mp4",
+  "cover_title": "上岸之后才是难题",
+  "cover_headline": "上岸之后才是难题",
+  "cover_subhead": "两栖登陆的后勤链",
+  "cover_aspect": "16:9",
+  "layout": "source",
+  "burn_captions": false,
+  "write_subtitles": true,
+  "mix": {
+    "source_volume": 0.0,
+    "narration_volume": 1.0,
+    "music_volume": 0.0,
+    "music_fade_seconds": 0.0
+  },
+  "clips": [
+    {
+      "id": "shipyard_landing_vessel",
+      "source_start": "00:00:09.366",
+      "source_end": "00:00:18.333",
+      "focus_x": 0.5
+    },
+    {
+      "id": "barges_and_tank_ramp",
+      "source_start": "00:00:19.800",
+      "source_end": "00:01:11.266",
+      "focus_x": 0.5
+    },
+    {
+      "id": "beachhead_logistics",
+      "source_start": "00:02:21.266",
+      "source_end": "00:02:50.066",
+      "focus_x": 0.5
+    }
+  ],
+  "narration": {
+    "provider": "edge",
+    "voice": "zh-CN-YunyangNeural",
+    "rate": "+10%",
+    "segments": [
+      {
+        "start": "00:00:00.500",
+        "end": "00:00:08.500",
+        "text": "登陆台海，最难的真不是过海，而是上岸之后还能不能继续保持作战。"
+      },
+      {
+        "start": "00:00:09.200",
+        "end": "00:00:18.000",
+        "text": "2025年初，卫星拍到广州附近船厂出现一艘奇特船体；几个月后，三艘类似驳船又在中国南部海岸展开演练。"
+      },
+      {
+        "start": "00:00:18.200",
+        "end": "00:00:28.500",
+        "text": "它们不是普通运输船。三艘驳船可以首尾连接，临时拼成一条从海面通向沙滩的浮动通道。"
+      },
+      {
+        "start": "00:00:28.700",
+        "end": "00:00:39.000",
+        "text": "旁边还有民用货船和渡轮配合；照片显示，前端卸货坡道足够宽，连重型主战坦克也能通过。"
+      },
+      {
+        "start": "00:00:39.200",
+        "end": "00:00:49.800",
+        "text": "这解决的是第一道门槛：把人、车辆和装备送上岸。但两栖作战真正考验的，是滩头能不能被持续维持。"
+      },
+      {
+        "start": "00:00:50.000",
+        "end": "00:01:00.600",
+        "text": "因为先头部队需要的不只是登陆艇，还需要源源不断的增援、弹药、燃料、食品和医疗物资。"
+      },
+      {
+        "start": "00:01:00.800",
+        "end": "00:01:10.800",
+        "text": "补给一断，滩头就可能从前进基地变成孤立的海边阵地；所以附近港口，往往是决定后续推进的关键。"
+      },
+      {
+        "start": "00:01:11.000",
+        "end": "00:01:20.800",
+        "text": "可港口通常也是防守最严密、最容易被破坏的目标。港口拿不下来，海运补给就得在滩头硬顶。"
+      },
+      {
+        "start": "00:01:21.000",
+        "end": "00:01:28.800",
+        "text": "所以看两栖登陆，不能只数登陆舰。真正要看的是：能不能把一段沙滩，变成一条稳定的后勤链。"
+      }
+    ]
+  }
+}

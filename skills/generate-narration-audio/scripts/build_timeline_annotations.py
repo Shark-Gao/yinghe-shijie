@@ -64,6 +64,17 @@ def plot_summary(text: str) -> str:
     return candidate or "剧情继续推进"
 
 
+def ensure_annotation_quotes(text: str) -> str:
+    """为每条视频注释补齐外层中文双引号，避免与台词引用混淆。"""
+    cleaned = re.sub(r"\s+", "", text.strip())
+    if not cleaned:
+        return "“剧情继续推进”"
+    if cleaned.startswith("“") and cleaned.endswith("”"):
+        return cleaned
+    cleaned = cleaned.replace("“", "‘").replace("”", "’")
+    return f"“{cleaned}”"
+
+
 def minimum_annotation_count(video_duration_ms: int) -> int:
     minutes = video_duration_ms / 60_000
     if minutes <= 8:
@@ -99,6 +110,7 @@ def main() -> None:
         if end - start < 1_500:
             end = start + 1_500
         text = plot_summary(segment["text"]) if args.format == "plot_summary" else label(segment["text"])
+        text = ensure_annotation_quotes(text)
         annotations.append({
             "id": f"anno_{index:03}",
             "start": segment["start"],
@@ -129,7 +141,7 @@ def main() -> None:
                 "start": to_time(extra_start),
                 "end": to_time(extra_end),
                 "type": "callout",
-                "text": alternate_label(segment["text"]),
+                "text": ensure_annotation_quotes(alternate_label(segment["text"])),
                 "subtext": "",
                 "position": "center",
                 "x": 0,

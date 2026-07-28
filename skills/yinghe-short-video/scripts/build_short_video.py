@@ -133,27 +133,13 @@ def add_source_audio_ducking(
     source_volume: float,
     duration: float,
     fade_seconds: float,
+    source_under_narration_volume: float = 0.0,
 ) -> str:
     """保留非解说时段的原声，并在交界处用短淡入淡出切换。"""
     current = "sourcegap0"
-    if fade_seconds <= 0:
-        filters.append(f"[{source_label}]volume={source_volume}[{current}]")
-        stage = 0
-        for start, end in windows:
-            start = max(0.0, min(duration, start))
-            end = max(0.0, min(duration, end))
-            if end <= start:
-                continue
-            next_label = f"sourcegap{stage + 1}"
-            filters.append(
-                f"[{current}]volume=0:enable='between(t,{start:.3f},{end:.3f})'[{next_label}]"
-            )
-            current = next_label
-            stage += 1
-        return current
-
     envelope = audio_envelope_expression(windows, duration, fade_seconds)
-    source_expression = f"({source_volume})*(1-({envelope}))"
+    under_volume = max(0.0, min(float(source_volume), float(source_under_narration_volume)))
+    source_expression = f"({source_volume})*(1-({envelope}))+({under_volume})*({envelope})"
     filters.append(
         f"[{source_label}]volume='{source_expression}':eval=frame[{current}]"
     )
@@ -305,6 +291,11 @@ def main() -> None:
         if "source_gap_volume" in mix
         else (1.0 if dynamic_source_audio else background)
     )
+    video_transition_fade = max(0.0, float(mix.get("video_transition_fade_seconds", 0.0)))
+    output_resolution = str(plan.get("output_resolution", "")).strip()
+    if output_resolution and not re.fullmatch(r"\d+[:x]\d+", output_resolution):
+        raise SystemExit("output_resolution must look like 1920:1080 or 1920x1080.")
+    output_scale = f",scale={output_resolution.replace('x', ':')}:flags=lanczos" if output_resolution else ""
     source_windows = narration_windows(plan, timing_segments) if dynamic_source_audio else []
     if dynamic_source_audio:
         validate_intro_source_audio(
@@ -319,9 +310,20 @@ def main() -> None:
         start, end = seconds(clip["source_start"]), seconds(clip["source_end"])
         focus = float(clip.get("focus_x", 0.5))
         layout = clip.get("layout", plan.get("layout", "contain_blur"))
-        base = f"[0:v]trim=start={start}:end={end},setpts=PTS-STARTPTS,fps=30"
+        clip_duration = max(0.0, end - start)
+        fade_in = bool(i > 0 and clips[i - 1].get("transition_after", False))
+        fade_out = bool(clip.get("transition_after", False))
+        fade_duration = min(video_transition_fade, clip_duration / 2.0)
+        video_effects = ""
+        if fade_duration > 0:
+            if fade_in:
+                video_effects += f",fade=t=in:st=0:d={fade_duration:.3f}:color=black"
+            if fade_out:
+                fade_start = max(0.0, clip_duration - fade_duration)
+                video_effects += f",fade=t=out:st={fade_start:.3f}:d={fade_duration:.3f}:color=black"
+        base = f"[0:v]trim=start={start}:end={end},setpts=PTS-STARTPTS,fps=30{video_effects}"
         if layout == "source":
-            filters.append(f"{base},setsar=1,format=yuv420p[v{i}]")
+            filters.append(f"{base}{output_scale},setsar=1,format=yuv420p[v{i}]")
         elif layout == "fill_crop":
             filters.append(f"{base},scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920:(in_w-out_w)*{focus}:0,setsar=1,format=yuv420p[v{i}]")
         else:
@@ -374,6 +376,7 @@ def main() -> None:
                 source_gap_volume,
                 duration,
                 transition_fade,
+                float(mix.get("source_audio_under_narration_volume", 0.0)),
             )
             if music_label:
                 filters.append(f"[{source_label}][music]amix=inputs=2:duration=first:normalize=0[bed]")

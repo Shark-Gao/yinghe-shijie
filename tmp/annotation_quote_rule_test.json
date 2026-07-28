@@ -1,0 +1,198 @@
+{
+  "version": 1,
+  "source_subtitle": "L:/workspace/yinghe-shijie/outputs/延禧攻略07_时间线01.srt",
+  "target_video": "",
+  "notes": "由时间线生成的单行屏幕注释；plot_summary 模式只显示接下来剧情简介，不显示副行。",
+  "annotations": [
+    {
+      "id": "anno_001",
+      "start": "00:00:00.800",
+      "end": "00:00:04.800",
+      "type": "chapter",
+      "text": "“寿礼送到皇后面前，绣线却被一眼看出不对”",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "arrow_callout",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_002",
+      "start": "00:00:16.000",
+      "end": "00:00:19.500",
+      "type": "chapter",
+      "text": "“一句‘好大的胆子’，用料问题立刻变成追责”",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "arrow_callout",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_003",
+      "start": "00:00:29.000",
+      "end": "00:00:32.400",
+      "type": "callout",
+      "text": "“皇后追问的，是这根绣线到底从哪儿来”",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "arrow_callout",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_004",
+      "start": "00:00:42.000",
+      "end": "00:00:45.600",
+      "type": "callout",
+      "text": "“璎珞不急着喊冤，先把绒线和金线的差别说清楚”",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "arrow_callout",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_005",
+      "start": "00:00:56.000",
+      "end": "00:00:59.600",
+      "type": "callout",
+      "text": "“她眼看要被定错，却突然抓住了一个关键细节”",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "arrow_callout",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_006",
+      "start": "00:01:10.000",
+      "end": "00:01:13.500",
+      "type": "callout",
+      "text": "“这份寿礼虽然省料，却未必就是偷懒糊弄”",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "arrow_callout",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_007",
+      "start": "00:01:22.000",
+      "end": "00:01:25.500",
+      "type": "callout",
+      "text": "“皇后的态度刚松一点，旁边的人马上出来反驳”",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "arrow_callout",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_008",
+      "start": "00:01:35.000",
+      "end": "00:01:38.500",
+      "type": "callout",
+      "text": "“争到最后，焦点已经从绣线变成了谁在说理”",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "arrow_callout",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_009",
+      "start": "00:01:44.500",
+      "end": "00:01:48.100",
+      "type": "callout",
+      "text": "“璎珞顺着皇后的判断，把自己的选择重新解释了一遍”",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "arrow_callout",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_010",
+      "start": "00:01:53.000",
+      "end": "00:01:54.800",
+      "type": "callout",
+      "text": "“一场差点获罪的风波，被她说成了守规矩”",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "arrow_callout",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    }
+  ]
+}
