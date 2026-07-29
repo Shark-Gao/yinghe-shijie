@@ -4,6 +4,7 @@
 
 | 日期 | 视频标题 | YouTube链接 | 频道 | 类型 | 状态 |
 |---|---|---|---|---|---|
+| 2026-07-29 | How the US military runs on Chinese rare earths | https://www.youtube.com/watch?v=k9wkleHFvo0 | CaspianReport | #地缘政治 #军事装备 #稀土供应链 #国防工业 | 已推荐 |
 | 2026-07-28 | How Satellites Reveal China's Taiwan Invasion Plans | https://www.youtube.com/watch?v=1taDYPj8Sbc | RealLifeLore | #军事装备 #两栖作战 #台海地理 #卫星图像 | 已推荐 |
 | 2026-07-28 | Why China Will Never Surrender the South China Sea | https://www.youtube.com/watch?v=z9IiZkMKi68 | Johnny Harris | #地缘政治 #南海争端 #海上通道 #地图动画 | 已推荐 |
 | 2026-07-26 | Apache Helicopter How it Works? Boeing AH-64 Apache | https://www.youtube.com/watch?v=sXkOzl1Wb4A | AiTelly | #军事装备 #武装直升机 #3D动画 | 已推荐 |

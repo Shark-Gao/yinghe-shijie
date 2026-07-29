@@ -1,0 +1,4 @@
+interface:
+  display_name: "硬核长视频"
+  short_description: "制作完整中文长视频解说、字幕、配音、混音、成片与验收"
+  default_prompt: "使用 $yinghe-long-video 将源视频制作成完整的中文长视频解说版。"
