@@ -4,6 +4,9 @@
 
 | 日期 | 视频标题 | YouTube链接 | 频道 | 类型 | 状态 |
 |---|---|---|---|---|---|
+| 2026-07-30 | The Age of Laser Warfare Has Begun | https://www.youtube.com/watch?v=8VLovd9bS5U | Real Engineering | #军事装备 #定向能武器 #激光武器 #导弹防御 | 已推荐 |
+| 2026-07-30 | How does the submarine fire a torpedo | https://www.youtube.com/watch?v=9RbyX6kKaqU | Military TV | #军事装备 #鱼雷 #潜艇 #反潜作战 | 已推荐 |
+| 2026-07-30 | All About China's Electromagnetic Catapult That Can Launch And Stop Fighter Jets From Super Carrier | https://www.youtube.com/watch?v=2x7ZiMKeYgE | MILITARY NEWS UPDATE | #军事装备 #航空母舰 #电磁弹射 #舰载机 | 已推荐 |
 | 2026-07-29 | How the US military runs on Chinese rare earths | https://www.youtube.com/watch?v=k9wkleHFvo0 | CaspianReport | #地缘政治 #军事装备 #稀土供应链 #国防工业 | 已推荐 |
 | 2026-07-28 | How Satellites Reveal China's Taiwan Invasion Plans | https://www.youtube.com/watch?v=1taDYPj8Sbc | RealLifeLore | #军事装备 #两栖作战 #台海地理 #卫星图像 | 已推荐 |
 | 2026-07-28 | Why China Will Never Surrender the South China Sea | https://www.youtube.com/watch?v=z9IiZkMKi68 | Johnny Harris | #地缘政治 #南海争端 #海上通道 #地图动画 | 已推荐 |
