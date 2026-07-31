@@ -53,7 +53,7 @@ def horizontal(size: tuple[int, int]) -> Image.Image:
 
 
 def vertical() -> Image.Image:
-    image = crop_to(Image.open(VERTICAL_BASE), (1080, 1920), "top")
+    image = crop_to(Image.open(VERTICAL_BASE), (1080, 1440), "top")
     overlay = Image.new("RGBA", image.size, (0, 0, 0, 0))
     draw = ImageDraw.Draw(overlay)
     draw.rounded_rectangle((64, 80, 1016, 610), radius=34, fill=(2, 10, 26, 156))
@@ -70,7 +70,7 @@ def main() -> None:
     OUT.mkdir(parents=True, exist_ok=True)
     horizontal((1146, 860)).save(OUT / "neural-network-deep-learning-chapter-1-cover-4x3.png", quality=95)
     horizontal((1920, 1080)).save(OUT / "neural-network-deep-learning-chapter-1-cover-16x9.png", quality=95)
-    vertical().save(OUT / "neural-network-deep-learning-chapter-1-cover-9x16.png", quality=95)
+    vertical().save(OUT / "neural-network-deep-learning-chapter-1-cover-3x4.png", quality=95)
 
 
 if __name__ == "__main__":

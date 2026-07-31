@@ -45,7 +45,7 @@ def landscape(size: tuple[int, int]) -> Image.Image:
 
 
 def portrait() -> Image.Image:
-    size = (1080, 1920)
+    size = (1080, 1440)
     image = crop_to(Image.open(VERTICAL), size)
     overlay = Image.new("RGBA", size, (0, 0, 0, 0))
     p = ImageDraw.Draw(overlay)
@@ -66,7 +66,7 @@ def main() -> None:
     Image.open(VERTICAL).save(OUT / "base-parent-child-reconnection-vertical.png")
     landscape((1146, 860)).save(OUT / "still-face-experiment-cover-4x3.png", quality=95)
     landscape((1920, 1080)).save(OUT / "still-face-experiment-cover-16x9.png", quality=95)
-    portrait().save(OUT / "still-face-experiment-cover-9x16.png", quality=95)
+    portrait().save(OUT / "still-face-experiment-cover-3x4.png", quality=95)
 
 
 if __name__ == "__main__":

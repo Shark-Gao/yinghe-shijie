@@ -5,13 +5,13 @@
 ```json
 {
   "version": 1,
-  "title": "一台机器一天挖走二十四万吨岩石",
+  "title": "一枚导弹如何在高速飞行中锁定目标？",
   "editorial": {
-    "content_lane": "大国工程/科技/产业竞争",
-    "audience_question": "这台机器为什么能连续处理这么大的工程量？",
-    "promised_answer": "因为挖掘、输送和堆料被连成了一条连续生产线。",
-    "emotional_shift": "从以为是单台巨型设备，到看懂它其实是一套连续系统。",
-    "series_link": "超级机械系列",
+    "content_lane": "军事武器/武器系统",
+    "audience_question": "这枚导弹为什么能在高速飞行中持续锁定目标？",
+    "promised_answer": "因为导引头、飞控和弹道修正会在飞行中不断更新目标位置。",
+    "emotional_shift": "从以为导弹只是沿固定路线飞行，到看懂它其实在持续修正攻击路径。",
+    "series_link": "导弹制导系列",
     "claim_status": "verified_fact"
   },
   "preflight_review": {
@@ -34,22 +34,23 @@
     "revision_notes": []
   },
   "platform_titles": {
-    "bilibili": "一台机器一天挖走二十四万吨岩石，它究竟怎么做到的？",
-    "douyin": "一天挖走二十四万吨岩石，什么机器这么猛？",
-    "kuaishou": "一天挖二十四万吨岩石，这台机器到底咋干的？",
-    "xiaohongshu": "矿山巨型机械图解：看懂一天挖走二十四万吨岩石"
+    "bilibili": "一枚导弹如何在高速飞行中锁定目标？",
+    "douyin": "导弹高速飞行时，怎么还能锁定目标？",
+    "kuaishou": "导弹飞这么快，咋还能一直追着目标？",
+    "xiaohongshu": "导弹制导图解：看懂高速飞行中如何锁定目标"
   },
   "platform_descriptions": {
-    "bilibili": "一台斗轮挖掘机如何把挖掘、输送和堆料连成连续作业？用画面看懂它一天处理二十四万吨岩石的原理。",
-    "douyin": "一天挖走二十四万吨岩石，靠的不是一台普通挖掘机，而是一条不停转的露天矿生产线。",
-    "kuaishou": "这台大家伙为啥能一天挖二十四万吨岩石？关键在于挖、运、堆三件事从不停下来。",
-    "xiaohongshu": "矿山巨型机械图解：看懂斗轮挖掘机怎样把挖掘、输送和堆料连成连续作业，一天处理二十四万吨岩石。"
+    "bilibili": "导弹高速飞行时如何持续锁定目标？用画面看懂导引头、飞控和弹道修正如何协同工作。",
+    "douyin": "导弹飞得越快，越需要持续修正路线。它不是瞄准一次就结束，而是在飞行中不断更新目标位置。",
+    "kuaishou": "导弹为啥能一直追着目标？关键不是飞得快，而是导引头和飞控一直在修正路线。",
+    "xiaohongshu": "导弹制导图解：看懂导引头、飞控和弹道修正怎样协同，让导弹在高速飞行中持续追踪目标。"
   },
   "source_video": "G:/workspace/yinghe-shijie/videos/raw/example.mp4",
   "output_video": "G:/workspace/yinghe-shijie/videos/exports/example-short-01_短视频/example-short-01_短视频.mp4",
   "cover_title": "这台机器为什么这么快？",
-  "cover_headline": "一台机器一天挖走二十四万吨",
-  "cover_subhead": "它究竟怎么做到的？",
+  "cover_headline": "导弹如何持续锁定目标",
+  "cover_subhead": "高速飞行中不断修正路线",
+  "cover_style": "military",
   "cover_aspect": "16:9",
   "background_music": "",
   "layout": "source",
@@ -97,14 +98,15 @@
 
 硬核视界的新计划必须有 `editorial`，渲染器不会读取它。该对象记录内容赛道，以及开头 5–10 秒必须兑现的承诺：
 
-- `content_lane`：只能是 `地缘政治/国际局势`、`军事装备/战争机制` 或 `大国工程/科技/产业竞争`。
+- `content_lane`：男性向只能是 `军事武器/武器系统` 或 `作战机制`；女性向按具体的成长、情绪、关系或亲子主题填写。
 - `audience_question`：普通观众能用日常语言提出的一个问题。
 - `promised_answer`：开头必须交付或明确建立的一句话答案。
 - `emotional_shift`：视频希望改变观众哪一个判断；不能只写敌意或未经支持的愤怒。
 - `series_link`：所属系列或下一期的承接方向。
 - `claim_status`：使用 `verified_fact`、`source_analysis` 或 `mixed`。使用 `mixed` 时，要在口播或简介中说明哪些部分属于分析。
+- `cover_style`：只能是 `military` 或 `female`。军事武器、武器系统、作战机制和直接相关军工使用场景使用 `military`；女性成长、情绪、关系和亲子内容使用 `female`。它是内容包装字段，渲染器不读取，但每个新计划都必须明确填写。
 
-当前地缘政治内容，如果源片只有评论，不能把 `claim_status` 写成 `verified_fact`。`editorial` 要简洁，只用于指导编辑，不要重复整篇口播。
+涉及地图、战争史或国际局势时，如果源片只有评论，不能把 `claim_status` 写成 `verified_fact`。`editorial` 要简洁，只用于指导编辑，不要重复整篇口播。
 
 只有用户明确要求输出 9:16 视频时，才使用 `contain_blur` 或 `fill_crop`。`fill_crop` 适合裁切后主体仍然清楚的近景；`focus_x` 控制保留的水平位置：`0` 为左侧，`0.5` 为中央，`1` 为右侧。选取的源片时间必须在源视频时长以内。
 
@@ -124,4 +126,4 @@
 
 影视剧情解说可以在 `mix` 中使用动态原声策略：`source_audio_mode: "play_between_narration"`、`source_gap_volume: 1.0`、`source_audio_intro_deadline_seconds: 10.0`、`source_audio_intro_min_seconds: 0.5`。启用后，构建器依据 TTS 实测时间段在解说时将原视频音频压到 0，在解说间隙恢复原声，并检查前 10 秒是否至少留出指定时长的原声；其他内容默认仍使用 `source_audio_mode: "static"`。
 
-`cover_title` 是自动生成的简短封面文字；没有时使用 `title`。`cover_aspect` 默认是 `16:9`。短视频计划默认必须包含封面字段，封面应是单独生成的横版视觉，不使用源视频截图。每条完整短视频都要自动准备 16:9、4:3（`1440x1080`）和 9:16（`1080x1920`）三张上传封面，但这些图片不是渲染脚本的输入；只有用户明确要求不生成封面时才跳过。`cover_headline` 和 `cover_subhead` 是后期叠加的准确中文文字。使用 `scripts/add_cover_title.py` 稳定渲染；除非用户明确要求主题标签，否则不设置 `--theme`。
+`cover_title` 是自动生成的简短封面文字；没有时使用 `title`。`cover_aspect` 默认是 `16:9`。短视频计划默认必须包含封面字段，封面应是单独生成的对应比例视觉，不使用源视频截图。每条完整短视频都要自动准备 16:9、4:3（`1440x1080`）和 3:4（`1080x1440`）三张上传封面，但这些图片不是渲染脚本的输入；只有用户明确要求不生成封面时才跳过。`cover_headline` 和 `cover_subhead` 是后期叠加的准确中文文字。使用 `scripts/add_cover_title.py` 稳定渲染；除非用户明确要求主题标签，否则不设置 `--theme`。

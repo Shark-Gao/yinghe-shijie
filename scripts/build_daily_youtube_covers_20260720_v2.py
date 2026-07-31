@@ -69,4 +69,4 @@ for spec in SPECS:
     base.save(out / spec["base_name"])
     draw_cover(base, (1146, 860), spec, False).save(out / f"{spec['slug']}-cover-4x3.png")
     draw_cover(base, (1920, 1080), spec, False).save(out / f"{spec['slug']}-cover-16x9.png")
-    draw_cover(base, (1080, 1920), spec, True).save(out / f"{spec['slug']}-cover-9x16.png")
+    draw_cover(base, (1080, 1440), spec, True).save(out / f"{spec['slug']}-cover-3x4.png")

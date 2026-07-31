@@ -59,7 +59,7 @@ def main() -> None:
     portrait = Image.open(OUT / "base-friend-to-yourself-portrait.png").convert("RGB")
     draw_cover(landscape, (1146, 860), False).save(OUT / "friend-to-yourself-cover-4x3.png", quality=95)
     draw_cover(landscape, (1920, 1080), False).save(OUT / "friend-to-yourself-cover-16x9.png", quality=95)
-    draw_cover(portrait, (1080, 1920), True).save(OUT / "friend-to-yourself-cover-9x16.png", quality=95)
+    draw_cover(portrait, (1080, 1440), True).save(OUT / "friend-to-yourself-cover-3x4.png", quality=95)
 
 
 if __name__ == "__main__":

@@ -1,4 +1,4 @@
 interface:
   display_name: "硬核长视频"
-  short_description: "制作完整中文长视频解说、字幕、配音、混音、成片与验收"
-  default_prompt: "使用 $yinghe-long-video 将源视频制作成完整的中文长视频解说版。"
+  short_description: "制作军事武器向或女性向完整中文长视频并完成验收"
+  default_prompt: "使用 $yinghe-long-video 将源视频制作成完整的中文长视频解说版：先确定 military 或 female 的内容类型和对应封面视觉，再完成配音、字幕、三种比例封面与验收。"

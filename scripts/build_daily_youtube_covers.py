@@ -87,4 +87,4 @@ for spec in SPECS:
     Image.open(spec["portrait"]).save(out / f"base-{spec['topic']}-portrait.png")
     cover(Image.open(spec["landscape"]), (1146, 860), spec["title"], spec["subtitle"], spec["accent"], False).save(out / f"{spec['slug']}-cover-4x3.png")
     cover(Image.open(spec["landscape"]), (1920, 1080), spec["title"], spec["subtitle"], spec["accent"], False).save(out / f"{spec['slug']}-cover-16x9.png")
-    cover(Image.open(spec["portrait"]), (1080, 1920), spec["title"], spec["subtitle"], spec["accent"], True).save(out / f"{spec['slug']}-cover-9x16.png")
+    cover(Image.open(spec["portrait"]), (1080, 1440), spec["title"], spec["subtitle"], spec["accent"], True).save(out / f"{spec['slug']}-cover-3x4.png")
