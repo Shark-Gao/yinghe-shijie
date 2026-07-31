@@ -14,6 +14,7 @@ TIME_RE = re.compile(
     r"(?P<end>\d{2}:\d{2}:\d{2}[,.]\d{3})"
 )
 PAUSE_RE = re.compile(r"(?<=[。！？；：，、,.!?;:])")
+SENTENCE_PAUSE_RE = re.compile(r"(?<=[。！？；])")
 SPACE_RE = re.compile(r"\s+")
 TRAILING_PUNCTUATION_RE = re.compile(r"[，。！？；：、,.!?;:…]+$")
 
@@ -101,6 +102,19 @@ def split_text(text: str, max_chars: int) -> list[str]:
     return grouped or [text.strip()]
 
 
+def split_sentences(text: str) -> list[str]:
+    """只按完整句末停顿拆分，不把一个句子硬切成碎片。"""
+    parts = [part.strip() for part in SENTENCE_PAUSE_RE.split(text) if part.strip()]
+    return parts or [text.strip()]
+
+
+def wrap_sentence(text: str, max_chars: int) -> str:
+    """只做显示换行，不增加字幕条目。"""
+    if len(text) <= max_chars:
+        return text
+    return "\n".join(text[index : index + max_chars] for index in range(0, len(text), max_chars))
+
+
 def split_cue(cue: Cue, max_chars: int) -> list[Cue]:
     parts = split_text(cue.text, max_chars)
     if len(parts) == 1:
@@ -121,17 +135,38 @@ def split_cue(cue: Cue, max_chars: int) -> list[Cue]:
     return result
 
 
+def split_cue_sentence_only(cue: Cue, line_chars: int) -> list[Cue]:
+    parts = split_sentences(cue.text)
+    if len(parts) == 1:
+        return [Cue(cue.start_ms, cue.end_ms, wrap_sentence(parts[0], line_chars))]
+    duration = max(1, cue.end_ms - cue.start_ms)
+    weights = [max(1, len(re.sub(r"\s", "", part))) for part in parts]
+    total_weight = sum(weights)
+    result: list[Cue] = []
+    cursor = cue.start_ms
+    for index, (part, weight) in enumerate(zip(parts, weights)):
+        if index == len(parts) - 1:
+            end = cue.end_ms
+        else:
+            end = cursor + round(duration * weight / total_weight)
+            end = min(end, cue.end_ms - (len(parts) - index - 1))
+        result.append(Cue(cursor, end, wrap_sentence(part, line_chars)))
+        cursor = end
+    return result
+
+
 def strip_trailing_punctuation(text: str) -> str:
     """去掉字幕显示末尾标点，保留句内标点作为阅读停顿。"""
     return TRAILING_PUNCTUATION_RE.sub("", text).rstrip()
 
 
-def build_srt(cues: list[Cue], max_chars: int) -> tuple[str, int]:
+def build_srt(cues: list[Cue], max_chars: int, sentence_only: bool = False) -> tuple[str, int]:
     rows: list[str] = []
     subtitle_id = 1
     total = 0
     for cue in cues:
-        for part in split_cue(cue, max_chars):
+        parts = split_cue_sentence_only(cue, max_chars) if sentence_only else split_cue(cue, max_chars)
+        for part in parts:
             rows.extend(
                 [
                     str(subtitle_id),
@@ -150,6 +185,11 @@ def main() -> int:
     parser.add_argument("--input", required=True, help="输入 UTF-8 SRT 文件。")
     parser.add_argument("--output", required=True, help="输出 UTF-8 SRT 文件。")
     parser.add_argument("--max-chars", type=int, default=20, help="每条字幕最多显示的汉字数，默认 20。")
+    parser.add_argument(
+        "--sentence-only",
+        action="store_true",
+        help="只按句号、问号、感叹号和分号拆分；长句只换行，不硬切成多个字幕条目。",
+    )
     args = parser.parse_args()
     if args.max_chars < 8:
         parser.error("--max-chars 不能小于 8。")
@@ -159,7 +199,7 @@ def main() -> int:
     if not cues:
         raise SystemExit(f"未找到有效字幕段：{input_path}")
     output_path.parent.mkdir(parents=True, exist_ok=True)
-    contents, total = build_srt(cues, args.max_chars)
+    contents, total = build_srt(cues, args.max_chars, sentence_only=args.sentence_only)
     output_path.write_text(contents, encoding="utf-8")
     print(f"Split {len(cues)} cues into {total} cues: {output_path}")
     return 0

@@ -4,6 +4,10 @@
 
 | 日期 | 视频标题 | YouTube链接 | 频道 | 类型 | 状态 |
 |---|---|---|---|---|---|
+| 2026-07-31 | The Insane Engineering of the A-10 Warthog | https://www.youtube.com/watch?v=wk6Qr6OO5Xo | Real Engineering | #攻击机 #A10 #近距空中支援 #航空工程 | 已推荐 |
+| 2026-07-31 | How Javelin missile works? \| FGM - 148 Javelin Missile Animation. | https://www.youtube.com/watch?v=L0Zza7CofPA | SYG DESIGNWORKS | #反坦克导弹 #标枪导弹 #制导 #装甲战 | 已推荐 |
+| 2026-07-31 | How Israel's Iron Dome Works | https://www.youtube.com/watch?v=gTKb7Ffcv2I | The Wall Street Journal | #防空反导 #铁穹 #雷达 #拦截弹 | 已推荐 |
+| 2026-07-31 | How Supercarrier Aircraft Catapults Work | https://www.youtube.com/watch?v=gFnW4iU2r2E | Art of Engineering | #军工装备 #航母 #舰载机 #弹射器 #拦阻装置 | 已推荐 |
 | 2026-07-30 | The Age of Laser Warfare Has Begun | https://www.youtube.com/watch?v=8VLovd9bS5U | Real Engineering | #军事装备 #定向能武器 #激光武器 #导弹防御 | 已推荐 |
 | 2026-07-30 | How does the submarine fire a torpedo | https://www.youtube.com/watch?v=9RbyX6kKaqU | Military TV | #军事装备 #鱼雷 #潜艇 #反潜作战 | 已推荐 |
 | 2026-07-30 | All About China's Electromagnetic Catapult That Can Launch And Stop Fighter Jets From Super Carrier | https://www.youtube.com/watch?v=2x7ZiMKeYgE | MILITARY NEWS UPDATE | #军事装备 #航空母舰 #电磁弹射 #舰载机 | 已推荐 |
