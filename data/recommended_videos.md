@@ -4,6 +4,10 @@
 
 | 日期 | 视频标题 | YouTube链接 | 频道 | 类型 | 状态 |
 |---|---|---|---|---|---|
+| 2026-08-02 | The Insane Engineering of the F-35B | https://www.youtube.com/watch?v=1lCOgFPtaZ4 | Real Engineering | #战斗机 #F35B #垂直起降 #航空工程 | 已推荐 |
+| 2026-08-02 | Understanding the Phalanx CIWS in 5 Minutes | https://www.youtube.com/watch?v=8CXqkQJUBZc | Military Forces Unleashed | #军事装备 #密集阵 #近防系统 #舰载武器 | 已推荐 |
+| 2026-08-02 | How an AK 47 works | https://www.youtube.com/watch?v=9COyHrN7KyY | Weapon mechanics | #步枪 #AKM #枪械原理 #3D动画 | 已推荐 |
+| 2026-08-01 | How Radar Works \| Start Learning About EW Here | https://www.youtube.com/watch?v=c8OWHnHjIpA | The Ops Center By Mike Solyom | #军事技术 #雷达 #电子战 #探测系统 | 已推荐 |
 | 2026-07-31 | The Insane Engineering of the A-10 Warthog | https://www.youtube.com/watch?v=wk6Qr6OO5Xo | Real Engineering | #攻击机 #A10 #近距空中支援 #航空工程 | 已推荐 |
 | 2026-07-31 | How Javelin missile works? \| FGM - 148 Javelin Missile Animation. | https://www.youtube.com/watch?v=L0Zza7CofPA | SYG DESIGNWORKS | #反坦克导弹 #标枪导弹 #制导 #装甲战 | 已推荐 |
 | 2026-07-31 | How Israel's Iron Dome Works | https://www.youtube.com/watch?v=gTKb7Ffcv2I | The Wall Street Journal | #防空反导 #铁穹 #雷达 #拦截弹 | 已推荐 |

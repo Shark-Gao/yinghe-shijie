@@ -268,6 +268,14 @@ def main() -> None:
     write_subtitles = plan.get("write_subtitles", True) and bool(plan.get("narration", {}).get("segments"))
     if write_subtitles:
         write_srt(plan, srt_path, timing_segments)
+    original_dialogue_srt = plan.get("original_dialogue_subtitle")
+    original_dialogue_srt_path = None
+    if original_dialogue_srt:
+        original_dialogue_srt_path = Path(str(original_dialogue_srt))
+        if not original_dialogue_srt_path.is_absolute():
+            original_dialogue_srt_path = (plan_path.parent / original_dialogue_srt_path).resolve()
+        if plan.get("burn_original_dialogue", False) and not original_dialogue_srt_path.is_file():
+            raise SystemExit(f"原剧对白字幕不存在：{original_dialogue_srt_path}")
     if args.subtitles_only:
         if not write_subtitles:
             raise SystemExit("No narration segments are available for subtitle generation.")
@@ -406,13 +414,26 @@ def main() -> None:
         else:
             final_audio = music_label
 
+    subtitle_overlays: list[tuple[Path, str]] = []
     if plan.get("burn_captions", False) and write_subtitles:
         if plan.get("caption_mode") == "plot_summary":
-            style = "FontName=Microsoft YaHei,FontSize=14,PrimaryColour=&H00FFFFFF,OutlineColour=&H00101010,BorderStyle=1,Outline=1.5,Shadow=0,Alignment=7,MarginL=80,MarginR=80,MarginV=40"
+            narration_style = "FontName=Microsoft YaHei,FontSize=14,PrimaryColour=&H00FFFFFF,OutlineColour=&H00101010,BorderStyle=1,Outline=1.5,Shadow=0,Alignment=7,MarginL=80,MarginR=80,MarginV=40"
         else:
-            style = "FontName=Microsoft YaHei,FontSize=11,PrimaryColour=&H00FFFFFF,OutlineColour=&H00101010,BorderStyle=1,Outline=1.5,Shadow=0,Alignment=2,MarginV=100"
-        filters.append(f"[{final_video}]subtitles=filename='{esc_filter_path(srt_path)}':charenc=UTF-8:force_style='{style}'[vout]")
-        final_video = "vout"
+            # 1920x1080 片源通常带上下黑边；使用较小字号和低 MarginV，
+            # 让字幕落在底部安全区而不是画面中下部，避免遮挡人物和动作。
+            narration_style = "FontName=Microsoft YaHei,FontSize=18,PrimaryColour=&H00FFFFFF,OutlineColour=&H00101010,BorderStyle=1,Outline=1.5,Shadow=0,Alignment=2,MarginL=30,MarginR=30,MarginV=8"
+        subtitle_overlays.append((srt_path, narration_style))
+    if plan.get("burn_original_dialogue", False):
+        if original_dialogue_srt_path is None:
+            raise SystemExit("计划启用了原剧对白烧录，但没有填写 original_dialogue_subtitle。")
+        original_style = "FontName=Microsoft YaHei,FontSize=18,PrimaryColour=&H00FFFFFF,OutlineColour=&H00101010,BorderStyle=1,Outline=1.5,Shadow=0,Alignment=2,MarginL=30,MarginR=30,MarginV=8"
+        subtitle_overlays.append((original_dialogue_srt_path, original_style))
+    for overlay_index, (subtitle_path, style) in enumerate(subtitle_overlays):
+        label = f"vsub{overlay_index}"
+        filters.append(
+            f"[{final_video}]subtitles=filename='{esc_filter_path(subtitle_path)}':charenc=UTF-8:force_style='{style}'[{label}]"
+        )
+        final_video = label
 
     temporary_output = output.with_name(f"{output.stem}.{os.getpid()}.partial{output.suffix}")
     cmd = ["ffmpeg", "-y", "-i", str(source)]
@@ -420,7 +441,8 @@ def main() -> None:
         cmd.extend(["-i", str(narration_path)])
     if music_path:
         cmd.extend(["-stream_loop", "-1", "-i", str(music_path)])
-    cmd.extend(["-filter_complex", ";".join(filters), "-map", f"[{final_video}]", "-map", f"[{final_audio}]", "-t", f"{duration:.3f}", "-c:v", "libx264", "-preset", "medium", "-crf", "19", "-movflags", "+faststart", "-c:a", "aac", "-b:a", "192k", str(temporary_output)])
+    encode_preset = "veryfast" if plan.get("burn_original_dialogue", False) else "medium"
+    cmd.extend(["-filter_complex", ";".join(filters), "-map", f"[{final_video}]", "-map", f"[{final_audio}]", "-t", f"{duration:.3f}", "-c:v", "libx264", "-preset", encode_preset, "-crf", "19", "-movflags", "+faststart", "-c:a", "aac", "-b:a", "192k", str(temporary_output)])
     if args.dry_run:
         print(" ".join(cmd))
         return

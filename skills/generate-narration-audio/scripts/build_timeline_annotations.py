@@ -23,10 +23,15 @@ def parse_args() -> argparse.Namespace:
     return parser.parse_args()
 
 
-def to_ms(value: str) -> int:
-    hours, minutes, seconds = value.split(":")
-    sec, millis = seconds.split(".")
-    return ((int(hours) * 60 + int(minutes)) * 60 + int(sec)) * 1000 + int(millis)
+def to_ms(value: str | int | float) -> int:
+    """把时间码或数值秒统一转换成毫秒。"""
+    if isinstance(value, (int, float)):
+        return round(float(value) * 1000)
+    text = str(value).replace(",", ".")
+    if ":" not in text:
+        return round(float(text) * 1000)
+    hours, minutes, seconds = text.split(":")
+    return round((int(hours) * 3600 + int(minutes) * 60 + float(seconds)) * 1000)
 
 
 def to_time(value: int) -> str:
@@ -157,7 +162,7 @@ def main() -> None:
         annotation["id"] = f"anno_{index:03}"
     output = {
         "version": 1,
-        "source_subtitle": data["source_subtitle"],
+        "source_subtitle": data.get("source_subtitle", data.get("source_plan", "")),
         "target_video": args.target_video,
         "notes": "由时间线生成的单行屏幕注释；plot_summary 模式只显示接下来剧情简介，不显示副行。",
         "annotations": annotations,

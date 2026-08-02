@@ -161,6 +161,20 @@ def validate_preflight_review(plan: dict, plan_path: Path | None = None) -> dict
         raise SystemExit(
             "禁止渲染：以下预审项目未通过：" + ", ".join(failed)
         )
+    alignment = plan.get("visual_alignment")
+    if isinstance(alignment, dict) and alignment.get("required"):
+        anchors = alignment.get("anchors")
+        if not isinstance(anchors, list) or not anchors:
+            raise SystemExit("禁止渲染：visual_alignment.required=true，但没有画面锚点。")
+        required_anchor_fields = ("id", "anchor_text", "visual_start", "visual_end", "segment_id", "source_evidence")
+        for index, anchor in enumerate(anchors, start=1):
+            if not isinstance(anchor, dict):
+                raise SystemExit(f"禁止渲染：画面锚点 {index} 不是对象。")
+            missing = [field for field in required_anchor_fields if not str(anchor.get(field, "")).strip()]
+            if missing:
+                raise SystemExit(
+                    f"禁止渲染：画面锚点 {anchor.get('id', index)} 缺少字段：{', '.join(missing)}。"
+                )
     drama = plan.get("drama")
     if drama is not None:
         if not isinstance(drama, dict):

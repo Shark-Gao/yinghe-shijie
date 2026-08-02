@@ -65,6 +65,87 @@ def find_tts_python(plan_path: Path, provider: str, narration: dict) -> Path:
     raise SystemExit("找不到 CosyVoice 虚拟环境 Python。请在 narration.python 中填写路径。")
 
 
+def run_visual_alignment_gate(plan: dict, plan_path: Path, timeline: Path, timing: Path, output: Path) -> Path | None:
+    alignment = plan.get("visual_alignment")
+    if not isinstance(alignment, dict) or not alignment.get("required"):
+        return None
+    project_root = Path(__file__).resolve().parents[3]
+    retime_script = project_root / "skills" / "yinghe-long-video" / "scripts" / "retime_timeline_to_tts.py"
+    validate_script = project_root / "skills" / "yinghe-long-video" / "scripts" / "validate_visual_alignment.py"
+    if not retime_script.is_file() or not validate_script.is_file():
+        raise SystemExit("启用了 visual_alignment，但找不到长视频画面锚点校验脚本。")
+    actual_timeline = output.with_name(f"{output.stem}_实际配音对齐时间线.json")
+    report = output.with_name(f"{output.stem}_画面锚点验收.json")
+    subprocess.run(
+        [
+            sys.executable,
+            str(retime_script),
+            "--timeline",
+            str(timeline),
+            "--manifest",
+            str(timing),
+            "--output",
+            str(actual_timeline),
+        ],
+        check=True,
+    )
+    subprocess.run(
+        [
+            sys.executable,
+            str(validate_script),
+            "--timeline",
+            str(actual_timeline),
+            "--max-delta",
+            str(float(alignment.get("max_delta_seconds", 1.0))),
+            "--report",
+            str(report),
+        ],
+        check=True,
+    )
+    return actual_timeline
+
+
+def validate_measured_narration_tail(
+    plan: dict,
+    timing_path: Path,
+    duration: float,
+    stage: str,
+    actual_video_duration: float | None = None,
+) -> float:
+    """用实测 TTS 结束时间阻断“视频先结束、解说还没说完”。"""
+    if not timing_path.is_file():
+        raise SystemExit(f"TTS 分段时长清单不存在，无法验收：{timing_path}")
+    data = json.loads(timing_path.read_text(encoding="utf-8"))
+    measured = data.get("segments")
+    planned = plan.get("narration", {}).get("segments", [])
+    if not isinstance(measured, list) or len(measured) != len(planned):
+        raise SystemExit("TTS 分段时长清单与计划中的解说段数量不一致，已阻断渲染。")
+    video_end = float(actual_video_duration if actual_video_duration is not None else duration)
+    tail = float(plan.get("narration_tail_seconds", 0.6))
+    if tail < 0:
+        raise SystemExit("narration_tail_seconds 不能为负数。")
+    last_end = 0.0
+    for index, (planned_segment, measured_segment) in enumerate(zip(planned, measured), 1):
+        if "start" not in measured_segment or float(measured_segment.get("audio_duration", 0.0) or 0.0) <= 0:
+            raise SystemExit(f"第 {index} 段 TTS 没有有效的实测时长，已阻断渲染。")
+        start = seconds(measured_segment["start"])
+        end = start + float(measured_segment["audio_duration"])
+        last_end = max(last_end, end)
+        planned_end = seconds(planned_segment["end"])
+        if end > planned_end + 0.05:
+            raise SystemExit(
+                f"第 {index} 段实际解说结束于 {end:.3f}s，超过计划窗口 {planned_end:.3f}s；"
+                "请提前该段或延长/重排画面后再生成。"
+            )
+    allowed_end = video_end - tail
+    if last_end > allowed_end + 0.05:
+        raise SystemExit(
+            f"{stage}未通过解说收尾检查：最后一段实际结束 {last_end:.3f}s，"
+            f"视频结束 {video_end:.3f}s，安全尾部 {tail:.3f}s，允许最晚 {allowed_end:.3f}s。"
+        )
+    return last_end
+
+
 def main() -> None:
     args = parse_args()
     plan_path = Path(args.plan).resolve()
@@ -100,6 +181,8 @@ def main() -> None:
         "video_duration": f"{duration:.3f}",
         "segments": [{"id": f"seg_{index:03}", **segment} for index, segment in enumerate(segments, 1)],
     }
+    if isinstance(plan.get("visual_alignment"), dict):
+        data["visual_alignment"] = plan["visual_alignment"]
     if provider == "cosyvoice":
         data.update(
             {
@@ -138,10 +221,14 @@ def main() -> None:
         print(" ".join(build))
         return
     subprocess.run(render, check=True)
+    validate_measured_narration_tail(plan, timing, duration, "渲染前")
+    run_visual_alignment_gate(plan, plan_path, timeline, timing, output)
     subprocess.run(build, check=True)
     check = subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "default=nw=1:nk=1", str(output)], check=True, capture_output=True, text=True)
+    actual_duration = float(check.stdout.strip())
+    validate_measured_narration_tail(plan, timing, duration, "成片", actual_duration)
     print(f"Final video: {output}")
-    print(f"Duration: {check.stdout.strip()} seconds")
+    print(f"Duration: {actual_duration:.3f} seconds")
 
 
 if __name__ == "__main__":

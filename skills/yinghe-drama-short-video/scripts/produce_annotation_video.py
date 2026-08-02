@@ -50,6 +50,47 @@ def run_checked(command: list[str]) -> None:
     subprocess.run(command, check=True)
 
 
+def validate_annotation_bindings(annotations: list[dict], clips: list[dict]) -> None:
+    """确认每条剧情注释只属于一个成片片段，且没有跨切点。"""
+    annotation_by_id = {
+        str(item.get("id")): item
+        for item in annotations
+        if isinstance(item, dict) and item.get("id")
+    }
+    used_ids: dict[str, str] = {}
+    output_cursor = 0.0
+    for clip_index, clip in enumerate(clips, start=1):
+        clip_start = output_cursor
+        clip_end = output_cursor + seconds(clip["source_end"]) - seconds(clip["source_start"])
+        output_cursor = clip_end
+        if not clip.get("high_energy"):
+            continue
+        annotation_ids = clip.get("annotation_ids")
+        if not isinstance(annotation_ids, list) or not annotation_ids:
+            raise SystemExit(f"高能片段 clip_{clip_index:02} 缺少 annotation_ids。")
+        for annotation_id in annotation_ids:
+            annotation_id = str(annotation_id)
+            previous_clip = used_ids.get(annotation_id)
+            if previous_clip:
+                raise SystemExit(
+                    f"剧情注释 {annotation_id} 被重复绑定到 {previous_clip} 和 clip_{clip_index:02}。"
+                )
+            used_ids[annotation_id] = f"clip_{clip_index:02}"
+            annotation = annotation_by_id.get(annotation_id)
+            if not annotation:
+                raise SystemExit(
+                    f"高能片段 clip_{clip_index:02} 引用了不存在的剧情注释 {annotation_id}。"
+                )
+            annotation_start = seconds(annotation["start"])
+            annotation_end = seconds(annotation["end"])
+            if annotation_start < clip_start - 0.05 or annotation_end > clip_end + 0.05:
+                raise SystemExit(
+                    f"剧情注释 {annotation_id} 跨越了片段切点："
+                    f"注释 {annotation_start:.3f}-{annotation_end:.3f}s，"
+                    f"clip_{clip_index:02} 成片范围 {clip_start:.3f}-{clip_end:.3f}s。"
+                )
+
+
 def main() -> None:
     args = parse_args()
     plan_path = Path(args.plan).resolve()
@@ -73,6 +114,7 @@ def main() -> None:
         raise SystemExit("注释 JSON 必须包含非空 annotations 数组。")
 
     source, output, clips, duration = validate(plan, plan_path)
+    validate_annotation_bindings(annotations, clips)
     timeline_segments: list[dict] = []
     for index, annotation in enumerate(annotations, start=1):
         text = str(annotation.get("text") or "").strip()

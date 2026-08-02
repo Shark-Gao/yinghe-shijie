@@ -120,10 +120,12 @@
 
 影视计划如果包含 `drama` 对象，还必须填写 `drama.opening_stance_hook`、`drama.commentary_viewpoint`、`drama.discussion_conflict` 和 `drama.emotional_value`。普通配音模式使用 `mix.source_audio_mode: "play_between_narration"`；`annotation_only: true` 模式使用 `mix.source_audio_mode: "keep_source"`，并由预检脚本拦截缺少剧情审核字段或误带中文配音分段的计划。
 
-`write_subtitles` 默认是 `true`，普通模式会根据中文口播时间线写出旁车 SRT；电视剧 `annotation_only` 模式应设为 `false`，因为正式注释由 `jianying_assistant` 写入草稿。剧情注释模式不生成 TTS，也不显示 `subtext`。`burn_captions` 默认是 `false`，电视剧注释模式禁止改为 `true`。
+电视剧计划的 `drama.work_title` 和 `drama.episode` 还必须填写并经过素材核验；它们是正式封面的显示元数据，分别传给 `add_cover_title.py --series-title` 和 `--episode`，不得只留在文件名或发布文案中。
+
+`write_subtitles` 默认是 `true`，普通模式会根据中文口播时间线写出旁车 SRT；中文解说版必须把解说 MP3 和解说 SRT 独立交付给剪映，`burn_captions` 通常保持为 `false`。如果需要保留原剧对白字幕，应使用已经映射到成片时间轴的 `original_dialogue_subtitle` 并单独启用原剧对白烧录，不得把解说 SRT 当作烧录字幕。电视剧 `annotation_only` 模式应设为 `false`，因为正式注释由 `jianying_assistant` 写入草稿。剧情注释模式不生成 TTS，也不显示 `subtext`。所有带中文解说的计划都必须以 TTS 实测时长验收最后一句，保留 `narration_tail_seconds`（默认约 0.6 秒）的收束画面；不满足时禁止交付。
 
 `background_music` 指向可循环使用的 CC0 BGM。构建器会把音乐循环到成片时长，并直接与口播混音。默认不填写 `background_music`，也不合并 BGM；只有用户明确要求或平台版本确有需要时才填写音乐路径，并将 `music_volume` 单独记录。默认保持 `source_volume` 为 `0.0`、`music_volume` 为 `0.0`、`narration_volume` 为 `1.0`、`music_fade_seconds` 为 `0.0`；不要擅自添加原声、增益或淡出。
 
 影视剧情解说可以在 `mix` 中使用动态原声策略：`source_audio_mode: "play_between_narration"`、`source_gap_volume: 1.0`、`source_audio_intro_deadline_seconds: 10.0`、`source_audio_intro_min_seconds: 0.5`。启用后，构建器依据 TTS 实测时间段在解说时将原视频音频压到 0，在解说间隙恢复原声，并检查前 10 秒是否至少留出指定时长的原声；其他内容默认仍使用 `source_audio_mode: "static"`。
 
-`cover_title` 是自动生成的简短封面文字；没有时使用 `title`。`cover_aspect` 默认是 `16:9`。短视频计划默认必须包含封面字段，封面应是单独生成的对应比例视觉，不使用源视频截图。每条完整短视频都要自动准备 16:9、4:3（`1440x1080`）和 3:4（`1080x1440`）三张上传封面，但这些图片不是渲染脚本的输入；只有用户明确要求不生成封面时才跳过。`cover_headline` 和 `cover_subhead` 是后期叠加的准确中文文字。使用 `scripts/add_cover_title.py` 稳定渲染；除非用户明确要求主题标签，否则不设置 `--theme`。
+`cover_title` 是自动生成的简短封面文字；没有时使用 `title`。`cover_aspect` 默认是 `16:9`。短视频计划默认必须包含封面字段，封面应是单独生成的对应比例视觉，不使用源视频截图。每条完整短视频都要自动准备 16:9、4:3（`1440x1080`）和 3:4（`1080x1440`）三张上传封面，但这些图片不是渲染脚本的输入；只有用户明确要求不生成封面时才跳过。`cover_headline` 和 `cover_subhead` 是后期叠加的准确中文文字。使用 `scripts/add_cover_title.py` 稳定渲染；电视剧还必须传入 `--series-title` 和 `--episode`，脚本会在顶部显示 `《剧名》  第X集` 并放大主冲突文字；除非用户明确要求主题标签，否则不设置 `--theme`。

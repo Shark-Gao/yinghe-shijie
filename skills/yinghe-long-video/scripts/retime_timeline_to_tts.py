@@ -22,7 +22,10 @@ def parse_args() -> argparse.Namespace:
 
 
 def time_to_ms(value: str) -> int:
-    hours, minutes, seconds = value.replace(",", ".").split(":")
+    normalized = value.replace(",", ".")
+    if ":" not in normalized:
+        return round(float(normalized) * 1000)
+    hours, minutes, seconds = normalized.split(":")
     second, _, millisecond = seconds.partition(".")
     return (
         int(hours) * 3_600_000
