@@ -28,7 +28,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--relationship-only",
         action="store_true",
-        help="只保留人物关系图；其他解说段使用无文字纯背景，不生成其他图示。",
+        help="只保留指定原创视觉；其他解说段使用无文字纯背景，不生成其他图示。",
     )
     return parser.parse_args()
 
@@ -92,7 +92,7 @@ def make_relationship(path: Path, page: int) -> None:
     image = Image.new("RGB", (WIDTH, HEIGHT), (14, 24, 38))
     draw = ImageDraw.Draw(image)
     draw_background(draw, (83, 164, 185))
-    draw.text((110, 82), "人物关系图｜原创视觉", font=font(30, True), fill=(83, 164, 185))
+    draw.text((110, 82), "原创视觉｜证据结构", font=font(30, True), fill=(83, 164, 185))
     draw.text((110, 160), "这不是一场单人考试", font=font(68, True), fill=(246, 239, 220))
     draw.text((120, 270), "争议的核心，是三个人对同一场接力的不同解释", font=font(38), fill=(225, 230, 235))
 
@@ -350,7 +350,7 @@ def main() -> None:
                 image_path = asset_dir / f"{card_page:02d}_{key}.png"
                 make_relationship(image_path, card_page)
                 make_card_segment(image_path, segment_path, duration)
-                role = "relationship_graph"
+                role = "original_visual"
                 card_page += 1
             elif args.relationship_only:
                 make_plain_segment(segment_path, duration)
@@ -434,7 +434,7 @@ def main() -> None:
             "xiaohongshu": "延禧攻略绣坊反转：两次交接都是半成品，作弊指控为何站不住？",
         },
         "platform_descriptions": {
-            "bilibili": "这版不连续复现整段剧情，只用几处短画面作为证据，配合人物关系图和原创分析，拆解璎珞如何用两次未完成的交接反证作弊指控。",
+            "bilibili": "这版不连续复现整段剧情，只用几处短画面作为证据，配合原创分析，拆解璎珞如何用两次未完成的交接反证作弊指控。",
             "douyin": "两个人被指作弊，璎珞没有只喊冤，而是把两次交接拆开：谁拿到过成品？看懂这个问题，才看懂这场绣坊反转。",
             "kuaishou": "绣品接力被说成作弊，璎珞直接摆证据：两次交接都是半成品，这个指控到底怎么成立？",
             "xiaohongshu": "用人物关系、证据卡和少量原剧短片段，拆解《延禧攻略》第一集绣坊争议：双面绣不是魏璎珞完成的，真正的反转在两次交接都没有形成成品。",
@@ -454,7 +454,6 @@ def main() -> None:
             "source_clip_role": "evidence_only",
             "original_audio_policy": "quote_only",
             "full_conflict_replay": False,
-            "relationship_graph": True,
             "analysis_cards": not args.relationship_only,
             "caption_cards": False,
             "original_visuals": not args.relationship_only,
@@ -506,7 +505,7 @@ def main() -> None:
                 "safety_and_attribution": "pass",
             },
             "risk_notes": [
-                "原创解说、人物关系图和分析卡承担主体叙事；原剧画面仅作为短证据。",
+                "原创解说和分析卡承担主体叙事；原剧画面仅作为短证据。",
                 "原剧原声只保留必要台词，双面绣片段为另一位宫女的画面，不归于魏璎珞。",
                 "不连续复现完整冲突，不让观众仅靠原剧片段看完本段剧情；不加入黑屏过渡和 BGM。",
             ],

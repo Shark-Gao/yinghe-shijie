@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""为电视剧解说生成原创关系图、分析卡和字幕卡。"""
+"""为电视剧解说生成原创分析卡和字幕卡。"""
 
 from __future__ import annotations
 

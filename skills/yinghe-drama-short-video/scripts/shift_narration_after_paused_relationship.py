@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""把已有中文解说拆成关系图段和剧情段，并将剧情段整体后移。"""
+"""把已有中文解说拆成前置说明段和剧情段，并将剧情段整体后移。"""
 from __future__ import annotations
 
 import argparse

@@ -240,7 +240,6 @@ def common_plan(story: dict, clips: list[dict], output: Path, narration: list[di
             "source_clip_role": "evidence_only",
             "original_audio_policy": "quote_only" if not annotation_only else "keep_source",
             "full_conflict_replay": False,
-            "relationship_graph": True,
             "analysis_cards": True,
             "caption_cards": False,
             "original_visuals": True,

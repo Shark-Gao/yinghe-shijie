@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""只重生成关系图开头口播，并复用已验收的后续解说音频。"""
+"""只重生成开头说明口播，并复用已验收的后续解说音频。"""
 from __future__ import annotations
 
 import argparse

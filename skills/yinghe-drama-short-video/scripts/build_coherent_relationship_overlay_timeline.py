@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""生成少切段、人物关系图半透明叠加原视频的电视剧解说时间线。"""
+"""生成少切段、原创视觉叠加原视频的电视剧解说时间线。"""
 from __future__ import annotations
 
 import argparse
@@ -32,12 +32,12 @@ def parse_args() -> argparse.Namespace:
         "--relationship-pause-seconds",
         type=float,
         default=0.0,
-        help="在剧情时间线前增加暂停的关系图说明段；关系图段使用冻结画面和静音原声。",
+        help="在剧情时间线前增加暂停的原创说明段；说明段使用冻结画面和静音原声。",
     )
     parser.add_argument(
         "--no-relationship-graph",
         action="store_true",
-        help="不生成、不叠加人物关系图，也不生成关系图专属口播。",
+        help="不生成、不叠加前置原创视觉，也不生成对应的专属口播。",
     )
     return parser.parse_args()
 
@@ -111,7 +111,7 @@ def make_paused_relationship_intro(
     source_frame_time: float,
     duration: float,
 ) -> None:
-    """生成冻结画面的关系图前置段，避免关系说明时剧情继续播放。"""
+    """生成冻结画面的原创视觉前置段，避免说明时剧情继续播放。"""
     frame_path = output.with_suffix(".freeze.png")
     common_video = (
         f"scale={WIDTH}:{HEIGHT}:force_original_aspect_ratio=decrease,"
@@ -352,7 +352,7 @@ def main() -> None:
             "xiaohongshu": "延禧攻略绣坊争议：双面绣不是魏璎珞的，这场接力到底算不算作弊？",
         },
         "platform_descriptions": {
-            "bilibili": "保留较完整的剧情因果，只用一张半透明人物关系图辅助理解，再用原创解说拆解两次交接为什么都是半成品。",
+            "bilibili": "保留较完整的剧情因果，只用一张半透明原创视觉辅助理解，再用原创解说拆解两次交接为什么都是半成品。",
             "douyin": "别只看谁在喊冤，先看绣品交接时有没有形成成品；双面绣也不是魏璎珞完成的。",
             "kuaishou": "绣品接力为什么被说成作弊？把两次交接看明白，答案就出来了。",
             "xiaohongshu": "用较完整的连续片段梳理《延禧攻略》第一集绣坊争议：双面绣归属、接力过程和作弊指控一次讲清。",
@@ -375,8 +375,6 @@ def main() -> None:
             "source_clip_role": "coherent_evidence_only",
             "original_audio_policy": "quote_and_complete_scene_audio",
             "full_conflict_replay": False,
-            "relationship_graph": relationship_enabled,
-            "relationship_graph_overlay": relationship_enabled,
             "analysis_cards": False,
             "caption_cards": False,
             "original_visuals": False,
@@ -441,7 +439,7 @@ def main() -> None:
                 "safety_and_attribution": "pass",
             },
             "risk_notes": [
-                "只保留一张人物关系图，并以半透明方式叠加在开头原剧画面上。",
+                "只保留一张原创视觉，并以半透明方式叠加在开头原剧画面上。",
                 "原剧改为四个较完整的剧情块，减少碎片化切换；旁白负责解释因果。",
                 "双面绣明确归于另一位宫女，不归于魏璎珞；不加入字幕卡和 BGM。",
             ],
