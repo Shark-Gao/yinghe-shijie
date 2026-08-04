@@ -1,0 +1,4 @@
+interface:
+  display_name: "电视剧高能反转分析"
+  short_description: "结合视频画面、字幕和公开资料筛选电视剧高能反转片段"
+  default_prompt: "使用 $yinghe-drama-reversal-analysis 分析这部电视剧视频，找出适合短视频的高能反转剧情和画面节点。"
