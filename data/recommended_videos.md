@@ -4,6 +4,7 @@
 
 | 日期 | 视频标题 | YouTube链接 | 频道 | 类型 | 状态 |
 |---|---|---|---|---|---|
+| 2026-08-04 | How a 1911 Works | https://www.youtube.com/watch?v=auZ9B1GfKZU | Matt Rittman | #枪械原理 #M1911 #手枪 #3D动画 | 已推荐 |
 | 2026-08-04 | How an 18th Century Sailing Warship Works (HMS Victory) | https://www.youtube.com/watch?v=4Nr1AgIfajI | Animagraffs | #军工装备 #战列舰 #舰炮 #3D动画 | 已推荐 |
 | 2026-08-03 | How Sonar Works (Submarine Shadow Zone) - Smarter Every Day 249 | https://www.youtube.com/watch?v=AqqaYs7LjlM | Smarter Every Day | #军事装备 #潜艇 #声呐 #反潜作战 | 已推荐 |
 | 2026-08-02 | The Insane Engineering of the F-35B | https://www.youtube.com/watch?v=1lCOgFPtaZ4 | Real Engineering | #战斗机 #F35B #垂直起降 #航空工程 | 已推荐 |
