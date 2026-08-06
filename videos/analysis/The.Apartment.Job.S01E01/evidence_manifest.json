@@ -1,0 +1,69 @@
+[
+  {
+    "kind": "source",
+    "id": "debt_deadline",
+    "start": "00:35:51.524",
+    "end": "00:36:08.124",
+    "purpose": "开头冲突证据：三个月期限与一百亿赎父条件"
+  },
+  {
+    "kind": "card",
+    "card": "relationship_card",
+    "duration": 4.0,
+    "purpose": "人物关系图：主角、养父、索债者"
+  },
+  {
+    "kind": "source",
+    "id": "collateral_father",
+    "start": "00:37:08.017",
+    "end": "00:38:00.236",
+    "purpose": "升级证据：父亲借条把主角写成抵押物"
+  },
+  {
+    "kind": "card",
+    "card": "analysis_card",
+    "duration": 4.0,
+    "purpose": "剧情分析卡：金额、期限和共同选择"
+  },
+  {
+    "kind": "source",
+    "id": "father_release",
+    "start": "00:39:39.418",
+    "end": "00:40:03.526",
+    "purpose": "情绪转折：养父劝主角放下自己、去过自己的生活"
+  },
+  {
+    "kind": "source",
+    "id": "team_first_departure",
+    "start": "00:40:40.104",
+    "end": "00:41:42.708",
+    "purpose": "选择证据：主角遣散兄弟，明确养父对他就是父亲"
+  },
+  {
+    "kind": "source",
+    "id": "team_return",
+    "start": "00:42:45.062",
+    "end": "00:43:08.000",
+    "purpose": "回头证据：兄弟们拒绝辞职"
+  },
+  {
+    "kind": "source",
+    "id": "team_memory",
+    "start": "00:43:20.389",
+    "end": "00:43:35.362",
+    "purpose": "关系证据：兄弟们讲述养父如何支持他们"
+  },
+  {
+    "kind": "source",
+    "id": "team_commitment",
+    "start": "00:43:44.038",
+    "end": "00:44:19.073",
+    "purpose": "结果证据：一起救人、一起承担一百亿"
+  },
+  {
+    "kind": "card",
+    "card": "closing_card",
+    "duration": 5.0,
+    "purpose": "原创观点收束：从老板和员工变成共同承担的人"
+  }
+]

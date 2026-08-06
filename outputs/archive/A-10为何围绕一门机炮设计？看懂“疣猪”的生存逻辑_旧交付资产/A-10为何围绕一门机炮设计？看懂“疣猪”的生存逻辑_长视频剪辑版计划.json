@@ -1,0 +1,140 @@
+{
+  "version": 1,
+  "title": "A-10为何围绕一门机炮设计？看懂“疣猪”的生存逻辑（长视频剪辑版）",
+  "editorial": {
+    "content_lane": "军事武器/武器平台",
+    "audience_question": "A-10为什么不追求高速和隐身，反而把整架飞机围绕一门机炮设计？",
+    "promised_answer": "它把火力、防护、冗余和低空支援能力组合成一套为近距空中支援服务的攻击机系统。",
+    "emotional_shift": "从把A-10看成老旧慢飞机，到看懂它是为特定任务做极致取舍的平台。",
+    "series_link": "攻击机与飞机生存性系列",
+    "claim_status": "mixed",
+    "cover_style": "military"
+  },
+  "preflight_review": {
+    "status": "passed",
+    "review_scope": "content_before_render",
+    "one_line_question": "A-10为什么围绕一门30毫米机炮来设计？",
+    "one_line_answer": "因为它的核心任务是低空、近距、持续支援地面部队，而不是高速突防。",
+    "conflict": "低速、重装甲、重火力与高速、隐身、多用途之间的设计取舍",
+    "emotional_value": "看懂一架看似笨重的飞机如何用系统工程换取前线生存性。",
+    "checks": {
+      "content_type_in_scope": "pass",
+      "single_core_question": "pass",
+      "answer_is_explicit": "pass",
+      "opening_has_conflict": "pass",
+      "evidence_is_traceable": "pass",
+      "military_cover_style_selected": "pass",
+      "audio_plan_matches_user_request": "pass",
+      "subtitle_source_checked": "pass",
+      "position_and_fact": "pass",
+      "emotional_value": "pass",
+      "conflict_and_hook": "pass",
+      "answer_timing": "pass",
+      "visual_evidence": "pass",
+      "title_script_consistency": "pass",
+      "safety_and_attribution": "pass"
+    },
+    "risk_notes": [
+      "输入SRT只覆盖到00:12:50.566，且最后一句在原文中途截断。",
+      "MP4后段保留原画面和源片原声，不宣称全片已有中文字幕或中文配音。"
+    ],
+    "revision_notes": [
+      "按用户要求跳过AI解说音频，改为剪映人工配音。",
+      "MP4保留源片原声并烧录已提供时间线内的中文字幕。",
+      "重新检查发现原片前14.8秒为暗场/片头过渡，剪辑版已裁去并将正式内容接到原创标题卡后。"
+    ]
+  },
+  "platform_titles": {
+    "general": "A-10为何围绕一门机炮设计？看懂“疣猪”的生存逻辑",
+    "bilibili": "A-10为何围绕一门机炮设计？从GAU-8到钛合金座舱，看懂“疣猪”的生存逻辑",
+    "douyin": "一架飞机为什么把整机围绕一门机炮造？",
+    "kuaishou": "A-10的机炮，为什么值得整架飞机围着它设计？",
+    "xiaohongshu": "A-10为什么不追求高速？一门机炮背后的生存逻辑"
+  },
+  "platform_descriptions": {
+    "general": "一架攻击机为什么不追求高速和隐身，反而把整机围绕一门30毫米机炮设计？本片从GAU-8机炮、钛合金座舱、冗余操纵、发动机布局和近距空中支援任务出发，拆解A-10如何把火力、生存性与前线持续支援组合成一套完整系统。当前版本保留源片原声，中文解说可在剪映中继续补录。\n\n#攻击机 #A10 #军事科普 #武器系统",
+    "bilibili": "从一门机炮开始，拆解A-10“疣猪”的整机取舍：为什么它要低空、慢速、重装甲？GAU-8的后坐力、贫铀弹、液压冗余、钛合金座舱和发动机布局，如何共同服务于近距空中支援？\n\n本文件保留源片原声，中文配音请在剪映中完成。\n\n#A10 #军事科普 #航空工程 #武器系统",
+    "douyin": "A-10看起来慢、笨、旧，却把火力和生存性做到了极致。关键答案，就藏在它机头那门GAU-8机炮里。\n\n#A10 #攻击机 #军事科普 #武器系统",
+    "xiaohongshu": "收藏这条，快速看懂A-10为什么不追求高速：它服务的是低空近距支援，所以机炮、装甲、冗余和发动机布局都围绕同一个任务展开。\n\n#A10 #军事冷知识 #航空工程 #武器系统"
+  },
+  "source_video": "L:/workspace/yinghe-shijie/videos/raw/A-10为何围绕一门机炮设计？看懂“疣猪”的生存逻辑.mp4",
+  "output_video": "L:\\workspace\\yinghe-shijie\\videos\\exports\\长视频\\A-10为何围绕一门机炮设计？看懂“疣猪”的生存逻辑\\A-10为何围绕一门机炮设计？看懂“疣猪”的生存逻辑_长视频剪辑版.mp4",
+  "subtitle_file": "L:\\workspace\\yinghe-shijie\\videos\\exports\\长视频\\A-10为何围绕一门机炮设计？看懂“疣猪”的生存逻辑\\A-10为何围绕一门机炮设计？看懂“疣猪”的生存逻辑_长视频剪辑版中文解说.srt",
+  "subtitle_timeline": "L:\\workspace\\yinghe-shijie\\videos\\exports\\长视频\\A-10为何围绕一门机炮设计？看懂“疣猪”的生存逻辑\\A-10为何围绕一门机炮设计？看懂“疣猪”的生存逻辑_长视频剪辑版字幕时间线.json",
+  "annotation_file": "L:\\workspace\\yinghe-shijie\\videos\\exports\\长视频\\A-10为何围绕一门机炮设计？看懂“疣猪”的生存逻辑\\A-10为何围绕一门机炮设计？看懂“疣猪”的生存逻辑_长视频剪辑版画面注释.json",
+  "cover_title": "为何围绕机炮",
+  "cover_headline": "为何围绕机炮",
+  "cover_subhead": "看懂疣猪生存逻辑",
+  "cover_style": "military",
+  "cover_aspect": "16:9",
+  "cover_assets": [
+    "L:\\workspace\\yinghe-shijie\\videos\\exports\\长视频\\A-10为何围绕一门机炮设计？看懂“疣猪”的生存逻辑\\A-10封面_16x9.png",
+    "L:\\workspace\\yinghe-shijie\\videos\\exports\\长视频\\A-10为何围绕一门机炮设计？看懂“疣猪”的生存逻辑\\A-10封面_4x3.png",
+    "L:\\workspace\\yinghe-shijie\\videos\\exports\\长视频\\A-10为何围绕一门机炮设计？看懂“疣猪”的生存逻辑\\A-10封面_3x4.png"
+  ],
+  "cover_sizes": {
+    "16:9": "1920x1080",
+    "4:3": "1440x1080",
+    "3:4": "1080x1440"
+  },
+  "background_music": "",
+  "layout": "source",
+  "burn_captions": false,
+  "write_subtitles": true,
+  "mix": {
+    "source_volume": 1.0,
+    "narration_volume": 0.0,
+    "music_volume": 0.0,
+    "music_fade_seconds": 0.0,
+    "source_audio_note": "片头标题卡3秒静音；原片正式内容从00:00:14.800开始接入；正文保留源片原声；中文解说由用户在剪映中补录。",
+    "source_audio_mode": "keep_source"
+  },
+  "narration": {
+    "provider": "jianying_manual",
+    "voice": "",
+    "rate": "",
+    "segments": []
+  },
+  "audio_generation": {
+    "status": "skipped_by_user",
+    "reason": "用户将在剪映中自行配音",
+    "files": []
+  },
+  "source_subtitle_coverage": {
+    "start": "00:00:03.000",
+    "end": "00:12:38.766",
+    "source_duration": "00:14:48.200",
+    "note": "剪辑版片头增加3秒，原片前14.8秒片头不重复使用；输入SRT覆盖到剪辑版00:12:38.766，原片15:00.000之后的频道推广段已移除。"
+  },
+  "clips": [
+    {
+      "id": "source_content",
+      "source_start": "00:00:14.800",
+      "source_end": "00:15:00.000",
+      "focus_x": 0.5,
+      "focus_y": 0.5
+    }
+  ],
+  "editing": {
+    "mode": "long_video_edit",
+    "intro_card": "L:\\workspace\\yinghe-shijie\\videos\\exports\\长视频\\A-10为何围绕一门机炮设计？看懂“疣猪”的生存逻辑\\A-10封面_16x9.png",
+    "intro_duration_seconds": 3.0,
+    "source_content_start": "00:00:14.800",
+    "removed_ranges": [
+      {
+        "source_start": "00:15:00.000",
+        "source_end": "00:16:26.709",
+        "reason": "频道推广与片尾卡，不属于武器解释主体"
+      }
+    ],
+    "edit_notes": [
+      "保留武器机制、结构剖面、作战任务和平台对比相关主体内容。",
+      "新增3秒标题卡作为片头。",
+      "删除原片前14.8秒暗场片头，避免与原创标题卡重复。",
+      "删除原片末段频道推广页面和订阅卡。",
+      "未烧录中文字幕，字幕仍为独立旁车SRT。"
+    ],
+    "output_duration_seconds": 888.2
+  },
+  "output_duration": "00:14:48.200"
+}

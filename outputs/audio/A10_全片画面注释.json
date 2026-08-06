@@ -1,0 +1,1205 @@
+{
+  "version": 1,
+  "source_subtitle": "L:/workspace/yinghe-shijie/outputs/A-10为何围绕一门机炮设计？看懂“疣猪”的生存逻辑_时间线01.srt",
+  "target_video": "L:\\workspace\\yinghe-shijie\\videos\\raw\\A-10为何围绕一门机炮设计？看懂“疣猪”的生存逻辑.mp4",
+  "notes": "由时间线生成的单行屏幕注释；plot_summary 模式只显示接下来剧情简介，不显示副行。",
+  "annotations": [
+    {
+      "id": "anno_001",
+      "start": "00:00:00.000",
+      "end": "00:00:04.000",
+      "type": "chapter",
+      "text": "“一架飞机为什么会把整张设计图”",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_002",
+      "start": "00:00:14.096",
+      "end": "00:00:18.096",
+      "type": "chapter",
+      "text": "“这就是A-10攻击机”",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_003",
+      "start": "00:00:29.680",
+      "end": "00:00:33.680",
+      "type": "principle",
+      "text": "“要看懂它”",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_004",
+      "start": "00:00:43.320",
+      "end": "00:00:47.320",
+      "type": "principle",
+      "text": "“冷战时期”",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_005",
+      "start": "00:00:58.496",
+      "end": "00:01:02.496",
+      "type": "principle",
+      "text": "“这和一次高速突防完全不同”",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_006",
+      "start": "00:01:13.096",
+      "end": "00:01:17.096",
+      "type": "principle",
+      "text": "“问题也随之出现”",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_007",
+      "start": "00:01:26.160",
+      "end": "00:01:30.160",
+      "type": "principle",
+      "text": "“所以A-10的生存逻辑不是绝”",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_008",
+      "start": "00:01:40.520",
+      "end": "00:01:44.520",
+      "type": "principle",
+      "text": "“这也解释了它为什么没有把全部”",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_009",
+      "start": "00:01:55.384",
+      "end": "00:01:59.384",
+      "type": "principle",
+      "text": "“而整套设计的中心”",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_010",
+      "start": "00:02:11.376",
+      "end": "00:02:15.376",
+      "type": "principle",
+      "text": "“GAU-8的炮身和供弹系统都”",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_011",
+      "start": "00:02:27.032",
+      "end": "00:02:31.032",
+      "type": "chapter",
+      "text": "“机炮口径达到三十毫米”",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_012",
+      "start": "00:02:42.592",
+      "end": "00:02:46.592",
+      "type": "principle",
+      "text": "“武器放在中线还有一个关键好处”",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_013",
+      "start": "00:02:58.824",
+      "end": "00:03:02.824",
+      "type": "principle",
+      "text": "“但这门炮每次射击都会把巨大的”",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_014",
+      "start": "00:03:14.360",
+      "end": "00:03:18.360",
+      "type": "principle",
+      "text": "“供弹系统同样不能只追求快”",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_015",
+      "start": "00:03:30.472",
+      "end": "00:03:34.472",
+      "type": "principle",
+      "text": "“这就是武器和平台互相牵制的地”",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_016",
+      "start": "00:03:45.360",
+      "end": "00:03:49.360",
+      "type": "principle",
+      "text": "“接下来是液压系统”",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_017",
+      "start": "00:03:59.840",
+      "end": "00:04:03.840",
+      "type": "principle",
+      "text": "“这类设计听起来不先进”",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_018",
+      "start": "00:04:14.992",
+      "end": "00:04:18.992",
+      "type": "principle",
+      "text": "“因此它还保留了更直接的操纵备”",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_019",
+      "start": "00:04:30.552",
+      "end": "00:04:34.552",
+      "type": "chapter",
+      "text": "“起落架布局同样服务于前线”",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_020",
+      "start": "00:04:45.824",
+      "end": "00:04:49.824",
+      "type": "principle",
+      "text": "“油箱则采用降低泄漏风险的设计”",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_021",
+      "start": "00:04:59.872",
+      "end": "00:05:03.872",
+      "type": "principle",
+      "text": "“真正醒目的防护”",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_022",
+      "start": "00:05:14.160",
+      "end": "00:05:18.160",
+      "type": "principle",
+      "text": "“这套思路很朴素”",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_023",
+      "start": "00:05:28.232",
+      "end": "00:05:32.232",
+      "type": "principle",
+      "text": "“两台发动机被放在机身后上方”",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_024",
+      "start": "00:05:42.664",
+      "end": "00:05:46.664",
+      "type": "chapter",
+      "text": "“双垂尾和尾部布局也在争取冗余”",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_025",
+      "start": "00:05:57.264",
+      "end": "00:06:01.264",
+      "type": "principle",
+      "text": "“面对导弹威胁”",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_026",
+      "start": "00:06:10.592",
+      "end": "00:06:14.592",
+      "type": "principle",
+      "text": "“机身上的布撒装置数量”",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_027",
+      "start": "00:06:26.368",
+      "end": "00:06:30.368",
+      "type": "principle",
+      "text": "“发动机位置”",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_028",
+      "start": "00:06:40.776",
+      "end": "00:06:44.776",
+      "type": "principle",
+      "text": "“前线使用还带来另一个要求”",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_029",
+      "start": "00:06:56.480",
+      "end": "00:07:00.480",
+      "type": "principle",
+      "text": "“辅助动力装置可以减少对地面设”",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_030",
+      "start": "00:07:11.128",
+      "end": "00:07:15.128",
+      "type": "principle",
+      "text": "“不过”",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_031",
+      "start": "00:07:26.592",
+      "end": "00:07:30.592",
+      "type": "chapter",
+      "text": "“工程师必须处理进气流动”",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_032",
+      "start": "00:07:41.480",
+      "end": "00:07:45.480",
+      "type": "principle",
+      "text": "“座舱清洗装置也服务于同一个任”",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_033",
+      "start": "00:07:56.776",
+      "end": "00:08:00.776",
+      "type": "principle",
+      "text": "“发动机快速重启能力同样重要”",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_034",
+      "start": "00:08:12.120",
+      "end": "00:08:16.120",
+      "type": "principle",
+      "text": "“看到这里”",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_035",
+      "start": "00:08:27.560",
+      "end": "00:08:31.560",
+      "type": "chapter",
+      "text": "“GAU-8的反装甲能力来自弹”",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_036",
+      "start": "00:08:42.952",
+      "end": "00:08:46.952",
+      "type": "principle",
+      "text": "“贫铀弹芯之所以被讨论”",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_037",
+      "start": "00:09:00.072",
+      "end": "00:09:04.072",
+      "type": "principle",
+      "text": "“弹芯在撞击中还可能出现自锐化”",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_038",
+      "start": "00:09:16.376",
+      "end": "00:09:20.376",
+      "type": "principle",
+      "text": "“所以评价A-10不能只看机炮”",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_039",
+      "start": "00:09:33.640",
+      "end": "00:09:37.640",
+      "type": "chapter",
+      "text": "“高性能弹药还会带来储存”",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_040",
+      "start": "00:09:49.368",
+      "end": "00:09:53.368",
+      "type": "principle",
+      "text": "“贫铀弹药还伴随环境和安全争议”",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_041",
+      "start": "00:10:05.432",
+      "end": "00:10:09.432",
+      "type": "principle",
+      "text": "“A-10的价值并不只是能打”",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_042",
+      "start": "00:10:20.464",
+      "end": "00:10:24.464",
+      "type": "principle",
+      "text": "“这就是近距空中支援和远程精确”",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_043",
+      "start": "00:10:36.768",
+      "end": "00:10:40.768",
+      "type": "principle",
+      "text": "“飞机离前线更近”",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_044",
+      "start": "00:10:52.856",
+      "end": "00:10:56.856",
+      "type": "principle",
+      "text": "“这是一种非常明确的取舍”",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_045",
+      "start": "00:11:08.872",
+      "end": "00:11:12.872",
+      "type": "chapter",
+      "text": "“但它也有边界”",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_046",
+      "start": "00:11:25.704",
+      "end": "00:11:29.704",
+      "type": "principle",
+      "text": "“这也是它和F-35等现代战机”",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_047",
+      "start": "00:11:43.808",
+      "end": "00:11:47.808",
+      "type": "principle",
+      "text": "“现代多用途战机可以执行更多任”",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_048",
+      "start": "00:12:00.184",
+      "end": "00:12:04.184",
+      "type": "principle",
+      "text": "“它并不是只能使用机炮”",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_049",
+      "start": "00:12:15.816",
+      "end": "00:12:19.816",
+      "type": "principle",
+      "text": "“真正的任务流程通常是先发现”",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_050",
+      "start": "00:12:32.240",
+      "end": "00:12:36.240",
+      "type": "principle",
+      "text": "“所以A-10的强项”",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_051",
+      "start": "00:12:48.280",
+      "end": "00:12:52.280",
+      "type": "principle",
+      "text": "“战损状态下”",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_052",
+      "start": "00:13:05.112",
+      "end": "00:13:09.112",
+      "type": "principle",
+      "text": "“这也让A-10成为一件很有代”",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_053",
+      "start": "00:13:21.440",
+      "end": "00:13:25.440",
+      "type": "principle",
+      "text": "“后段画面里出现的旧装备和历史”",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_054",
+      "start": "00:13:38.008",
+      "end": "00:13:42.008",
+      "type": "principle",
+      "text": "“A-10不是面对所有战场都占”",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_055",
+      "start": "00:13:53.856",
+      "end": "00:13:57.856",
+      "type": "principle",
+      "text": "“这也是退役争论长期存在的原因”",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_056",
+      "start": "00:14:10.472",
+      "end": "00:14:14.472",
+      "type": "principle",
+      "text": "“从军工角度看”",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_057",
+      "start": "00:14:26.752",
+      "end": "00:14:30.752",
+      "type": "principle",
+      "text": "“A-10的历史价值”",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_058",
+      "start": "00:14:41.328",
+      "end": "00:14:45.328",
+      "type": "principle",
+      "text": "“如果只看外形”",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_059",
+      "start": "00:14:57.920",
+      "end": "00:15:01.920",
+      "type": "principle",
+      "text": "“现在可以回答最初的问题了”",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_060",
+      "start": "00:15:14.656",
+      "end": "00:15:18.656",
+      "type": "principle",
+      "text": "“机炮只是看得见的核心”",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_061",
+      "start": "00:15:29.112",
+      "end": "00:15:33.112",
+      "type": "principle",
+      "text": "“这就是疣猪的生存逻辑”",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_062",
+      "start": "00:15:44.720",
+      "end": "00:15:48.720",
+      "type": "principle",
+      "text": "“看懂A-10”",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_063",
+      "start": "00:16:00.448",
+      "end": "00:16:04.448",
+      "type": "principle",
+      "text": "“下一次看到一件看似笨重的装备”",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    }
+  ]
+}

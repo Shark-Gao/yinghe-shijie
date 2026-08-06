@@ -1,0 +1,3125 @@
+ffmpeg version 8.1-full_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers
+  built with gcc 15.2.0 (Rev11, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-cairo --enable-fontconfig --enable-iconv --enable-gnutls --enable-lcms2 --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-libsnappy --enable-zlib --enable-librist --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-libbluray --enable-libcaca --enable-libdvdnav --enable-libdvdread --enable-sdl2 --enable-libaribb24 --enable-libaribcaption --enable-libdav1d --enable-libdavs2 --enable-libopenjpeg --enable-libquirc --enable-libuavs3d --enable-libxevd --enable-libzvbi --enable-liboapv --enable-libqrencode --enable-librav1e --enable-libsvtav1 --enable-libvvenc --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxavs2 --enable-libxeve --enable-libxvid --enable-libaom --enable-libjxl --enable-libsvtjpegxs --enable-libvpx --enable-mediafoundation --enable-libass --enable-frei0r --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-liblensfun --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-dxva2 --enable-d3d11va --enable-d3d12va --enable-ffnvcodec --enable-libvpl --enable-nvdec --enable-nvenc --enable-vaapi --enable-libshaderc --enable-vulkan --enable-libplacebo --enable-opencl --enable-libcdio --enable-openal --enable-libgme --enable-libmodplug --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libshine --enable-libtheora --enable-libtwolame --enable-libvo-amrwbenc --enable-libcodec2 --enable-libilbc --enable-libgsm --enable-liblc3 --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-ladspa --enable-libbs2b --enable-libflite --enable-libmysofa --enable-librubberband --enable-libsoxr --enable-chromaprint --enable-whisper
+  libavutil      60. 26.100 / 60. 26.100
+  libavcodec     62. 28.100 / 62. 28.100
+  libavformat    62. 12.100 / 62. 12.100
+  libavdevice    62.  3.100 / 62.  3.100
+  libavfilter    11. 14.100 / 11. 14.100
+  libswscale      9.  5.100 /  9.  5.100
+  libswresample   6.  3.100 /  6.  3.100
+Input #0, matroska,webm, from 'L:\BaiduNetdiskDownload\公寓黑风暴 아파트 (2026)\The.Apartment.Job.S01E01.2026.1080p.NF.WEB-DL.AAC2.0.H.264.mkv':
+  Metadata:
+    encoder         : libebml v1.4.5 + libmatroska v1.7.1
+    MOVIE/ENCODER   : Lavf60.18.100
+  Duration: 01:03:44.64, start: 0.000000, bitrate: 5177 kb/s
+  Stream #0:0: Video: h264 (Main), yuv420p(tv, bt709, progressive), 1920x1080 [SAR 1:1 DAR 16:9], 23.98 fps, 23.98 tbr, 1k tbn (default)
+    Metadata:
+      BPS             : 4913887
+      DURATION        : 01:03:44.571000000
+      NUMBER_OF_FRAMES: 91698
+      NUMBER_OF_BYTES : 2349188818
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:1(kor): Audio: aac (HE-AAC), 48000 Hz, stereo, fltp (default)
+    Metadata:
+      BPS             : 127999
+      DURATION        : 01:03:44.640000000
+      NUMBER_OF_FRAMES: 89640
+      NUMBER_OF_BYTES : 61194239
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:2(eng): Audio: aac (HE-AAC), 48000 Hz, stereo, fltp
+    Metadata:
+      BPS             : 127999
+      DURATION        : 01:03:44.640000000
+      NUMBER_OF_FRAMES: 89640
+      NUMBER_OF_BYTES : 61194239
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:3(eng): Subtitle: subrip (srt) (default) (forced)
+    Metadata:
+      title           : English
+      BPS             : 62
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1015
+      NUMBER_OF_BYTES : 29264
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:4(eng): Subtitle: subrip (srt)
+    Metadata:
+      title           : English (forced)
+      BPS             : 4
+      DURATION        : 01:01:19.926000000
+      NUMBER_OF_FRAMES: 69
+      NUMBER_OF_BYTES : 2020
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:5(eng): Subtitle: subrip (srt)
+    Metadata:
+      title           : English (dub)
+      BPS             : 81
+      DURATION        : 01:01:54.544000000
+      NUMBER_OF_FRAMES: 1040
+      NUMBER_OF_BYTES : 38047
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:6(kor): Subtitle: subrip (srt)
+    Metadata:
+      title           : Korean (forced)
+      BPS             : 0
+      DURATION        : 01:01:03.410000000
+      NUMBER_OF_FRAMES: 9
+      NUMBER_OF_BYTES : 167
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:7(kor): Subtitle: subrip (srt)
+    Metadata:
+      title           : Korean
+      BPS             : 73
+      DURATION        : 01:00:58.154000000
+      NUMBER_OF_FRAMES: 1178
+      NUMBER_OF_BYTES : 33740
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:8(kor): Subtitle: subrip (srt)
+    Metadata:
+      title           : Korean (SDH)
+      BPS             : 84
+      DURATION        : 01:02:34.250000000
+      NUMBER_OF_FRAMES: 1294
+      NUMBER_OF_BYTES : 39525
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:9(ara): Subtitle: subrip (srt)
+    Metadata:
+      title           : Arabic
+      BPS             : 100
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1025
+      NUMBER_OF_BYTES : 46671
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:10(cze): Subtitle: subrip (srt)
+    Metadata:
+      title           : Czech
+      BPS             : 56
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1024
+      NUMBER_OF_BYTES : 26246
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:11(dan): Subtitle: subrip (srt)
+    Metadata:
+      title           : Danish
+      BPS             : 55
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1016
+      NUMBER_OF_BYTES : 25866
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:12(ger): Subtitle: subrip (srt)
+    Metadata:
+      title           : German
+      BPS             : 63
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1015
+      NUMBER_OF_BYTES : 29502
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:13(gre): Subtitle: subrip (srt)
+    Metadata:
+      title           : Greek
+      BPS             : 98
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1021
+      NUMBER_OF_BYTES : 45674
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:14(spa): Subtitle: subrip (srt)
+    Metadata:
+      title           : Spanish (Latin America)
+      BPS             : 59
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1022
+      NUMBER_OF_BYTES : 27685
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:15(spa): Subtitle: subrip (srt)
+    Metadata:
+      title           : Spanish (Spain)
+      BPS             : 59
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1024
+      NUMBER_OF_BYTES : 27834
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:16(fin): Subtitle: subrip (srt)
+    Metadata:
+      title           : Finnish
+      BPS             : 56
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1016
+      NUMBER_OF_BYTES : 26430
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:17(fil): Subtitle: subrip (srt)
+    Metadata:
+      title           : Filipino
+      BPS             : 55
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1020
+      NUMBER_OF_BYTES : 25956
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:18(fre): Subtitle: subrip (srt)
+    Metadata:
+      title           : French
+      BPS             : 55
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1013
+      NUMBER_OF_BYTES : 25705
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:19(heb): Subtitle: subrip (srt)
+    Metadata:
+      title           : Hebrew
+      BPS             : 91
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1028
+      NUMBER_OF_BYTES : 42484
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:20(hrv): Subtitle: subrip (srt)
+    Metadata:
+      title           : Croatian
+      BPS             : 56
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1026
+      NUMBER_OF_BYTES : 26439
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:21(hun): Subtitle: subrip (srt)
+    Metadata:
+      title           : Hungarian
+      BPS             : 62
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1017
+      NUMBER_OF_BYTES : 28818
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:22(ind): Subtitle: subrip (srt)
+    Metadata:
+      title           : Indonesian
+      BPS             : 55
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1043
+      NUMBER_OF_BYTES : 25603
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:23(ita): Subtitle: subrip (srt)
+    Metadata:
+      title           : Italian
+      BPS             : 57
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1023
+      NUMBER_OF_BYTES : 26820
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:24(jpn): Subtitle: subrip (srt)
+    Metadata:
+      title           : Japanese
+      BPS             : 58
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 982
+      NUMBER_OF_BYTES : 27051
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:25(may): Subtitle: subrip (srt)
+    Metadata:
+      title           : Malay
+      BPS             : 57
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1027
+      NUMBER_OF_BYTES : 26583
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:26(nob): Subtitle: subrip (srt)
+    Metadata:
+      title           : Norwegian
+      BPS             : 58
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1027
+      NUMBER_OF_BYTES : 27325
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:27(dut): Subtitle: subrip (srt)
+    Metadata:
+      title           : Dutch
+      BPS             : 55
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1011
+      NUMBER_OF_BYTES : 25963
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:28(pol): Subtitle: subrip (srt)
+    Metadata:
+      title           : Polish
+      BPS             : 54
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1017
+      NUMBER_OF_BYTES : 25215
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:29(por): Subtitle: subrip (srt)
+    Metadata:
+      title           : Portuguese (Portugal)
+      BPS             : 59
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1026
+      NUMBER_OF_BYTES : 27495
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:30(por): Subtitle: subrip (srt)
+    Metadata:
+      title           : Portuguese (Brazil)
+      BPS             : 58
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1022
+      NUMBER_OF_BYTES : 26989
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:31(rum): Subtitle: subrip (srt)
+    Metadata:
+      title           : Romanian
+      BPS             : 59
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1015
+      NUMBER_OF_BYTES : 27572
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:32(rus): Subtitle: subrip (srt)
+    Metadata:
+      title           : Russian
+      BPS             : 100
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1028
+      NUMBER_OF_BYTES : 46506
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:33(swe): Subtitle: subrip (srt)
+    Metadata:
+      title           : Swedish
+      BPS             : 58
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1015
+      NUMBER_OF_BYTES : 27302
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:34(tha): Subtitle: subrip (srt)
+    Metadata:
+      title           : Thai
+      BPS             : 168
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1046
+      NUMBER_OF_BYTES : 78241
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:35(tur): Subtitle: subrip (srt)
+    Metadata:
+      title           : Turkish
+      BPS             : 60
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1023
+      NUMBER_OF_BYTES : 27898
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:36(ukr): Subtitle: subrip (srt)
+    Metadata:
+      title           : Ukrainian
+      BPS             : 101
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1024
+      NUMBER_OF_BYTES : 47165
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:37(vie): Subtitle: subrip (srt)
+    Metadata:
+      title           : Vietnamese
+      BPS             : 78
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1047
+      NUMBER_OF_BYTES : 36318
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:38(chi): Subtitle: subrip (srt)
+    Metadata:
+      title           : Chinese (Traditional)
+      BPS             : 60
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1028
+      NUMBER_OF_BYTES : 28027
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:39(chi): Subtitle: subrip (srt)
+    Metadata:
+      title           : Chinese (Simplified)
+      BPS             : 51
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1028
+      NUMBER_OF_BYTES : 23758
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> h264 (libx264))
+  Stream #0:1 -> #0:1 (aac (native) -> aac (native))
+Press [q] to stop, [?] for help
+[libx264 @ 000001f5297e4440] using SAR=1/1
+[libx264 @ 000001f5297e4440] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+[libx264 @ 000001f5297e4440] profile Constrained Baseline, level 4.0, 4:2:0, 8-bit
+[libx264 @ 000001f5297e4440] 264 - core 165 r3223 0480cb0 - H.264/MPEG-4 AVC codec - Copyleft 2003-2025 - http://www.videolan.org/x264.html - options: cabac=0 ref=1 deblock=0:0:0 analyse=0:0 me=dia subme=0 psy=1 psy_rd=1.00:0.00 mixed_ref=0 me_range=16 chroma_me=1 trellis=0 8x8dct=0 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=0 threads=34 lookahead_threads=5 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=0 weightp=0 keyint=250 keyint_min=25 scenecut=0 intra_refresh=0 rc=crf mbtree=0 crf=22.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=0
+Output #0, mp4, to 'C:\Users\SHARKG~1.SHA\AppData\Local\Temp\drama_evidence_mwekol52\piece_001.mp4':
+  Metadata:
+    MOVIE/ENCODER   : Lavf60.18.100
+    encoder         : Lavf62.12.100
+  Stream #0:0: Video: h264 (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1920x1080 [SAR 1:1 DAR 16:9], q=2-31, 30 fps, 15360 tbn (default)
+    Metadata:
+      encoder         : Lavc62.28.100 libx264
+      BPS             : 4913887
+      DURATION        : 01:03:44.571000000
+      NUMBER_OF_FRAMES: 91698
+      NUMBER_OF_BYTES : 2349188818
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+    Side data:
+      CPB properties: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+  Stream #0:1(kor): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 160 kb/s (default)
+    Metadata:
+      encoder         : Lavc62.28.100 aac
+      BPS             : 127999
+      DURATION        : 01:03:44.640000000
+      NUMBER_OF_FRAMES: 89640
+      NUMBER_OF_BYTES : 61194239
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+frame=   76 fps=0.0 q=17.0 size=     768KiB time=00:00:02.53 bitrate=2483.6kbits/s speed=4.91x elapsed=0:00:00.51    
+frame=  393 fps=384 q=19.0 size=    5120KiB time=00:00:13.10 bitrate=3201.8kbits/s speed=12.8x elapsed=0:00:01.02    
+[mp4 @ 000001f529a59d00] Starting second pass: moving the moov atom to the beginning of the file
+[out#0/mp4 @ 000001f52a358440] video:6315KiB audio:328KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.248204%
+frame=  498 fps=426 q=-1.0 Lsize=    6660KiB time=00:00:16.60 bitrate=3286.6kbits/s speed=14.2x elapsed=0:00:01.16    
+[libx264 @ 000001f5297e4440] frame I:2     Avg QP:17.00  size: 60436
+[libx264 @ 000001f5297e4440] frame P:496   Avg QP:18.07  size: 12793
+[libx264 @ 000001f5297e4440] mb I  I16..4: 100.0%  0.0%  0.0%
+[libx264 @ 000001f5297e4440] mb P  I16..4:  3.5%  0.0%  0.0%  P16..4: 31.8%  0.0%  0.0%  0.0%  0.0%    skip:64.7%
+[libx264 @ 000001f5297e4440] coded y,uvDC,uvAC intra: 17.5% 41.4% 4.0% inter: 8.0% 14.5% 0.1%
+[libx264 @ 000001f5297e4440] i16 v,h,dc,p: 49% 22% 13% 15%
+[libx264 @ 000001f5297e4440] i8c dc,h,v,p: 47% 21% 25%  8%
+[libx264 @ 000001f5297e4440] kb/s:3116.24
+[aac @ 000001f52a0de740] Qavg: 625.999
+ffmpeg version 8.1-full_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers
+  built with gcc 15.2.0 (Rev11, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-cairo --enable-fontconfig --enable-iconv --enable-gnutls --enable-lcms2 --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-libsnappy --enable-zlib --enable-librist --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-libbluray --enable-libcaca --enable-libdvdnav --enable-libdvdread --enable-sdl2 --enable-libaribb24 --enable-libaribcaption --enable-libdav1d --enable-libdavs2 --enable-libopenjpeg --enable-libquirc --enable-libuavs3d --enable-libxevd --enable-libzvbi --enable-liboapv --enable-libqrencode --enable-librav1e --enable-libsvtav1 --enable-libvvenc --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxavs2 --enable-libxeve --enable-libxvid --enable-libaom --enable-libjxl --enable-libsvtjpegxs --enable-libvpx --enable-mediafoundation --enable-libass --enable-frei0r --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-liblensfun --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-dxva2 --enable-d3d11va --enable-d3d12va --enable-ffnvcodec --enable-libvpl --enable-nvdec --enable-nvenc --enable-vaapi --enable-libshaderc --enable-vulkan --enable-libplacebo --enable-opencl --enable-libcdio --enable-openal --enable-libgme --enable-libmodplug --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libshine --enable-libtheora --enable-libtwolame --enable-libvo-amrwbenc --enable-libcodec2 --enable-libilbc --enable-libgsm --enable-liblc3 --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-ladspa --enable-libbs2b --enable-libflite --enable-libmysofa --enable-librubberband --enable-libsoxr --enable-chromaprint --enable-whisper
+  libavutil      60. 26.100 / 60. 26.100
+  libavcodec     62. 28.100 / 62. 28.100
+  libavformat    62. 12.100 / 62. 12.100
+  libavdevice    62.  3.100 / 62.  3.100
+  libavfilter    11. 14.100 / 11. 14.100
+  libswscale      9.  5.100 /  9.  5.100
+  libswresample   6.  3.100 /  6.  3.100
+Input #0, png_pipe, from 'L:\workspace\yinghe-shijie\videos\analysis\The.Apartment.Job.S01E01\cards\relationship_card.png':
+  Duration: N/A, bitrate: N/A
+  Stream #0:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 25 fps, 25 tbr, 25 tbn
+Input #1, lavfi, from 'anullsrc=channel_layout=stereo:sample_rate=44100':
+  Duration: N/A, start: 0.000000, bitrate: 705 kb/s
+  Stream #1:0: Audio: pcm_u8, 44100 Hz, stereo, u8, 705 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (png (native) -> h264 (libx264))
+  Stream #1:0 -> #0:1 (pcm_u8 (native) -> aac (native))
+Press [q] to stop, [?] for help
+[libx264 @ 00000217ce11d9c0] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+[libx264 @ 00000217ce11d9c0] profile Constrained Baseline, level 4.0, 4:2:0, 8-bit
+[libx264 @ 00000217ce11d9c0] 264 - core 165 r3223 0480cb0 - H.264/MPEG-4 AVC codec - Copyleft 2003-2025 - http://www.videolan.org/x264.html - options: cabac=0 ref=1 deblock=0:0:0 analyse=0:0 me=dia subme=0 psy=1 psy_rd=1.00:0.00 mixed_ref=0 me_range=16 chroma_me=1 trellis=0 8x8dct=0 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=0 threads=34 lookahead_threads=5 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=0 weightp=0 keyint=250 keyint_min=25 scenecut=0 intra_refresh=0 rc=crf mbtree=0 crf=22.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=0
+Output #0, mp4, to 'C:\Users\SHARKG~1.SHA\AppData\Local\Temp\drama_evidence_mwekol52\piece_002.mp4':
+  Metadata:
+    encoder         : Lavf62.12.100
+  Stream #0:0: Video: h264 (avc1 / 0x31637661), yuv420p(tv, progressive), 1920x1080, q=2-31, 30 fps, 15360 tbn
+    Metadata:
+      encoder         : Lavc62.28.100 libx264
+    Side data:
+      CPB properties: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+  Stream #0:1: Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 160 kb/s
+    Metadata:
+      encoder         : Lavc62.28.100 aac
+[out#0/mp4 @ 00000217ce112040] video:371KiB audio:1KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 1.260476%
+frame=  120 fps=0.0 q=-1.0 Lsize=     376KiB time=00:00:04.00 bitrate= 770.9kbits/s speed=12.7x elapsed=0:00:00.31    
+[libx264 @ 00000217ce11d9c0] frame I:1     Avg QP:19.00  size: 80185
+[libx264 @ 00000217ce11d9c0] frame P:119   Avg QP:12.24  size:  2511
+[libx264 @ 00000217ce11d9c0] mb I  I16..4: 100.0%  0.0%  0.0%
+[libx264 @ 00000217ce11d9c0] mb P  I16..4:  1.0%  0.0%  0.0%  P16..4:  8.2%  0.0%  0.0%  0.0%  0.0%    skip:90.8%
+[libx264 @ 00000217ce11d9c0] coded y,uvDC,uvAC intra: 4.6% 17.2% 13.6% inter: 1.5% 5.2% 0.1%
+[libx264 @ 00000217ce11d9c0] i16 v,h,dc,p: 80% 19%  1%  0%
+[libx264 @ 00000217ce11d9c0] i8c dc,h,v,p: 41% 35% 24%  0%
+[libx264 @ 00000217ce11d9c0] kb/s:757.98
+[aac @ 00000217ce99a740] Qavg: 65536.000
+ffmpeg version 8.1-full_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers
+  built with gcc 15.2.0 (Rev11, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-cairo --enable-fontconfig --enable-iconv --enable-gnutls --enable-lcms2 --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-libsnappy --enable-zlib --enable-librist --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-libbluray --enable-libcaca --enable-libdvdnav --enable-libdvdread --enable-sdl2 --enable-libaribb24 --enable-libaribcaption --enable-libdav1d --enable-libdavs2 --enable-libopenjpeg --enable-libquirc --enable-libuavs3d --enable-libxevd --enable-libzvbi --enable-liboapv --enable-libqrencode --enable-librav1e --enable-libsvtav1 --enable-libvvenc --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxavs2 --enable-libxeve --enable-libxvid --enable-libaom --enable-libjxl --enable-libsvtjpegxs --enable-libvpx --enable-mediafoundation --enable-libass --enable-frei0r --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-liblensfun --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-dxva2 --enable-d3d11va --enable-d3d12va --enable-ffnvcodec --enable-libvpl --enable-nvdec --enable-nvenc --enable-vaapi --enable-libshaderc --enable-vulkan --enable-libplacebo --enable-opencl --enable-libcdio --enable-openal --enable-libgme --enable-libmodplug --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libshine --enable-libtheora --enable-libtwolame --enable-libvo-amrwbenc --enable-libcodec2 --enable-libilbc --enable-libgsm --enable-liblc3 --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-ladspa --enable-libbs2b --enable-libflite --enable-libmysofa --enable-librubberband --enable-libsoxr --enable-chromaprint --enable-whisper
+  libavutil      60. 26.100 / 60. 26.100
+  libavcodec     62. 28.100 / 62. 28.100
+  libavformat    62. 12.100 / 62. 12.100
+  libavdevice    62.  3.100 / 62.  3.100
+  libavfilter    11. 14.100 / 11. 14.100
+  libswscale      9.  5.100 /  9.  5.100
+  libswresample   6.  3.100 /  6.  3.100
+Input #0, matroska,webm, from 'L:\BaiduNetdiskDownload\公寓黑风暴 아파트 (2026)\The.Apartment.Job.S01E01.2026.1080p.NF.WEB-DL.AAC2.0.H.264.mkv':
+  Metadata:
+    encoder         : libebml v1.4.5 + libmatroska v1.7.1
+    MOVIE/ENCODER   : Lavf60.18.100
+  Duration: 01:03:44.64, start: 0.000000, bitrate: 5177 kb/s
+  Stream #0:0: Video: h264 (Main), yuv420p(tv, bt709, progressive), 1920x1080 [SAR 1:1 DAR 16:9], 23.98 fps, 23.98 tbr, 1k tbn (default)
+    Metadata:
+      BPS             : 4913887
+      DURATION        : 01:03:44.571000000
+      NUMBER_OF_FRAMES: 91698
+      NUMBER_OF_BYTES : 2349188818
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:1(kor): Audio: aac (HE-AAC), 48000 Hz, stereo, fltp (default)
+    Metadata:
+      BPS             : 127999
+      DURATION        : 01:03:44.640000000
+      NUMBER_OF_FRAMES: 89640
+      NUMBER_OF_BYTES : 61194239
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:2(eng): Audio: aac (HE-AAC), 48000 Hz, stereo, fltp
+    Metadata:
+      BPS             : 127999
+      DURATION        : 01:03:44.640000000
+      NUMBER_OF_FRAMES: 89640
+      NUMBER_OF_BYTES : 61194239
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:3(eng): Subtitle: subrip (srt) (default) (forced)
+    Metadata:
+      title           : English
+      BPS             : 62
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1015
+      NUMBER_OF_BYTES : 29264
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:4(eng): Subtitle: subrip (srt)
+    Metadata:
+      title           : English (forced)
+      BPS             : 4
+      DURATION        : 01:01:19.926000000
+      NUMBER_OF_FRAMES: 69
+      NUMBER_OF_BYTES : 2020
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:5(eng): Subtitle: subrip (srt)
+    Metadata:
+      title           : English (dub)
+      BPS             : 81
+      DURATION        : 01:01:54.544000000
+      NUMBER_OF_FRAMES: 1040
+      NUMBER_OF_BYTES : 38047
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:6(kor): Subtitle: subrip (srt)
+    Metadata:
+      title           : Korean (forced)
+      BPS             : 0
+      DURATION        : 01:01:03.410000000
+      NUMBER_OF_FRAMES: 9
+      NUMBER_OF_BYTES : 167
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:7(kor): Subtitle: subrip (srt)
+    Metadata:
+      title           : Korean
+      BPS             : 73
+      DURATION        : 01:00:58.154000000
+      NUMBER_OF_FRAMES: 1178
+      NUMBER_OF_BYTES : 33740
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:8(kor): Subtitle: subrip (srt)
+    Metadata:
+      title           : Korean (SDH)
+      BPS             : 84
+      DURATION        : 01:02:34.250000000
+      NUMBER_OF_FRAMES: 1294
+      NUMBER_OF_BYTES : 39525
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:9(ara): Subtitle: subrip (srt)
+    Metadata:
+      title           : Arabic
+      BPS             : 100
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1025
+      NUMBER_OF_BYTES : 46671
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:10(cze): Subtitle: subrip (srt)
+    Metadata:
+      title           : Czech
+      BPS             : 56
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1024
+      NUMBER_OF_BYTES : 26246
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:11(dan): Subtitle: subrip (srt)
+    Metadata:
+      title           : Danish
+      BPS             : 55
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1016
+      NUMBER_OF_BYTES : 25866
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:12(ger): Subtitle: subrip (srt)
+    Metadata:
+      title           : German
+      BPS             : 63
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1015
+      NUMBER_OF_BYTES : 29502
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:13(gre): Subtitle: subrip (srt)
+    Metadata:
+      title           : Greek
+      BPS             : 98
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1021
+      NUMBER_OF_BYTES : 45674
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:14(spa): Subtitle: subrip (srt)
+    Metadata:
+      title           : Spanish (Latin America)
+      BPS             : 59
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1022
+      NUMBER_OF_BYTES : 27685
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:15(spa): Subtitle: subrip (srt)
+    Metadata:
+      title           : Spanish (Spain)
+      BPS             : 59
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1024
+      NUMBER_OF_BYTES : 27834
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:16(fin): Subtitle: subrip (srt)
+    Metadata:
+      title           : Finnish
+      BPS             : 56
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1016
+      NUMBER_OF_BYTES : 26430
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:17(fil): Subtitle: subrip (srt)
+    Metadata:
+      title           : Filipino
+      BPS             : 55
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1020
+      NUMBER_OF_BYTES : 25956
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:18(fre): Subtitle: subrip (srt)
+    Metadata:
+      title           : French
+      BPS             : 55
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1013
+      NUMBER_OF_BYTES : 25705
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:19(heb): Subtitle: subrip (srt)
+    Metadata:
+      title           : Hebrew
+      BPS             : 91
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1028
+      NUMBER_OF_BYTES : 42484
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:20(hrv): Subtitle: subrip (srt)
+    Metadata:
+      title           : Croatian
+      BPS             : 56
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1026
+      NUMBER_OF_BYTES : 26439
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:21(hun): Subtitle: subrip (srt)
+    Metadata:
+      title           : Hungarian
+      BPS             : 62
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1017
+      NUMBER_OF_BYTES : 28818
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:22(ind): Subtitle: subrip (srt)
+    Metadata:
+      title           : Indonesian
+      BPS             : 55
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1043
+      NUMBER_OF_BYTES : 25603
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:23(ita): Subtitle: subrip (srt)
+    Metadata:
+      title           : Italian
+      BPS             : 57
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1023
+      NUMBER_OF_BYTES : 26820
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:24(jpn): Subtitle: subrip (srt)
+    Metadata:
+      title           : Japanese
+      BPS             : 58
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 982
+      NUMBER_OF_BYTES : 27051
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:25(may): Subtitle: subrip (srt)
+    Metadata:
+      title           : Malay
+      BPS             : 57
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1027
+      NUMBER_OF_BYTES : 26583
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:26(nob): Subtitle: subrip (srt)
+    Metadata:
+      title           : Norwegian
+      BPS             : 58
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1027
+      NUMBER_OF_BYTES : 27325
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:27(dut): Subtitle: subrip (srt)
+    Metadata:
+      title           : Dutch
+      BPS             : 55
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1011
+      NUMBER_OF_BYTES : 25963
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:28(pol): Subtitle: subrip (srt)
+    Metadata:
+      title           : Polish
+      BPS             : 54
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1017
+      NUMBER_OF_BYTES : 25215
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:29(por): Subtitle: subrip (srt)
+    Metadata:
+      title           : Portuguese (Portugal)
+      BPS             : 59
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1026
+      NUMBER_OF_BYTES : 27495
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:30(por): Subtitle: subrip (srt)
+    Metadata:
+      title           : Portuguese (Brazil)
+      BPS             : 58
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1022
+      NUMBER_OF_BYTES : 26989
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:31(rum): Subtitle: subrip (srt)
+    Metadata:
+      title           : Romanian
+      BPS             : 59
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1015
+      NUMBER_OF_BYTES : 27572
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:32(rus): Subtitle: subrip (srt)
+    Metadata:
+      title           : Russian
+      BPS             : 100
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1028
+      NUMBER_OF_BYTES : 46506
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:33(swe): Subtitle: subrip (srt)
+    Metadata:
+      title           : Swedish
+      BPS             : 58
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1015
+      NUMBER_OF_BYTES : 27302
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:34(tha): Subtitle: subrip (srt)
+    Metadata:
+      title           : Thai
+      BPS             : 168
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1046
+      NUMBER_OF_BYTES : 78241
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:35(tur): Subtitle: subrip (srt)
+    Metadata:
+      title           : Turkish
+      BPS             : 60
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1023
+      NUMBER_OF_BYTES : 27898
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:36(ukr): Subtitle: subrip (srt)
+    Metadata:
+      title           : Ukrainian
+      BPS             : 101
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1024
+      NUMBER_OF_BYTES : 47165
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:37(vie): Subtitle: subrip (srt)
+    Metadata:
+      title           : Vietnamese
+      BPS             : 78
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1047
+      NUMBER_OF_BYTES : 36318
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:38(chi): Subtitle: subrip (srt)
+    Metadata:
+      title           : Chinese (Traditional)
+      BPS             : 60
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1028
+      NUMBER_OF_BYTES : 28027
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:39(chi): Subtitle: subrip (srt)
+    Metadata:
+      title           : Chinese (Simplified)
+      BPS             : 51
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1028
+      NUMBER_OF_BYTES : 23758
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> h264 (libx264))
+  Stream #0:1 -> #0:1 (aac (native) -> aac (native))
+Press [q] to stop, [?] for help
+[libx264 @ 0000014ca11d40c0] using SAR=1/1
+[libx264 @ 0000014ca11d40c0] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+[libx264 @ 0000014ca11d40c0] profile Constrained Baseline, level 4.0, 4:2:0, 8-bit
+[libx264 @ 0000014ca11d40c0] 264 - core 165 r3223 0480cb0 - H.264/MPEG-4 AVC codec - Copyleft 2003-2025 - http://www.videolan.org/x264.html - options: cabac=0 ref=1 deblock=0:0:0 analyse=0:0 me=dia subme=0 psy=1 psy_rd=1.00:0.00 mixed_ref=0 me_range=16 chroma_me=1 trellis=0 8x8dct=0 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=0 threads=34 lookahead_threads=5 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=0 weightp=0 keyint=250 keyint_min=25 scenecut=0 intra_refresh=0 rc=crf mbtree=0 crf=22.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=0
+Output #0, mp4, to 'C:\Users\SHARKG~1.SHA\AppData\Local\Temp\drama_evidence_mwekol52\piece_003.mp4':
+  Metadata:
+    MOVIE/ENCODER   : Lavf60.18.100
+    encoder         : Lavf62.12.100
+  Stream #0:0: Video: h264 (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1920x1080 [SAR 1:1 DAR 16:9], q=2-31, 30 fps, 15360 tbn (default)
+    Metadata:
+      encoder         : Lavc62.28.100 libx264
+      BPS             : 4913887
+      DURATION        : 01:03:44.571000000
+      NUMBER_OF_FRAMES: 91698
+      NUMBER_OF_BYTES : 2349188818
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+    Side data:
+      CPB properties: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+  Stream #0:1(kor): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 160 kb/s (default)
+    Metadata:
+      encoder         : Lavc62.28.100 aac
+      BPS             : 127999
+      DURATION        : 01:03:44.640000000
+      NUMBER_OF_FRAMES: 89640
+      NUMBER_OF_BYTES : 61194239
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+frame=  139 fps=0.0 q=20.0 size=    5632KiB time=00:00:04.63 bitrate=9957.8kbits/s speed=8.73x elapsed=0:00:00.53    
+frame=  417 fps=396 q=20.0 size=   13568KiB time=00:00:13.90 bitrate=7996.4kbits/s speed=13.2x elapsed=0:00:01.05    
+frame=  701 fps=446 q=20.0 size=   19456KiB time=00:00:23.36 bitrate=6821.0kbits/s speed=14.9x elapsed=0:00:01.57    
+frame=  942 fps=453 q=21.0 size=   24064KiB time=00:00:31.40 bitrate=6278.1kbits/s speed=15.1x elapsed=0:00:02.07    
+frame= 1234 fps=474 q=21.0 size=   30720KiB time=00:00:41.13 bitrate=6118.1kbits/s speed=15.8x elapsed=0:00:02.60    
+frame= 1472 fps=474 q=23.0 size=   36352KiB time=00:00:49.06 bitrate=6069.2kbits/s speed=15.8x elapsed=0:00:03.10    
+[mp4 @ 0000014ca1aa9f00] Starting second pass: moving the moov atom to the beginning of the file
+[out#0/mp4 @ 0000014ca12cee00] video:38960KiB audio:1030KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.122619%
+frame= 1567 fps=477 q=-1.0 Lsize=   40040KiB time=00:00:52.21 bitrate=6281.3kbits/s speed=15.9x elapsed=0:00:03.28    
+[libx264 @ 0000014ca11d40c0] frame I:7     Avg QP:17.43  size:101279
+[libx264 @ 0000014ca11d40c0] frame P:1560  Avg QP:20.02  size: 25119
+[libx264 @ 0000014ca11d40c0] mb I  I16..4: 100.0%  0.0%  0.0%
+[libx264 @ 0000014ca11d40c0] mb P  I16..4: 17.1%  0.0%  0.0%  P16..4: 26.7%  0.0%  0.0%  0.0%  0.0%    skip:56.2%
+[libx264 @ 0000014ca11d40c0] coded y,uvDC,uvAC intra: 32.5% 31.7% 2.4% inter: 11.8% 9.0% 0.1%
+[libx264 @ 0000014ca11d40c0] i16 v,h,dc,p: 38% 21% 22% 19%
+[libx264 @ 0000014ca11d40c0] i8c dc,h,v,p: 48% 23% 23%  6%
+[libx264 @ 0000014ca11d40c0] kb/s:6110.22
+[aac @ 0000014ca1ad9f80] Qavg: 751.147
+ffmpeg version 8.1-full_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers
+  built with gcc 15.2.0 (Rev11, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-cairo --enable-fontconfig --enable-iconv --enable-gnutls --enable-lcms2 --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-libsnappy --enable-zlib --enable-librist --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-libbluray --enable-libcaca --enable-libdvdnav --enable-libdvdread --enable-sdl2 --enable-libaribb24 --enable-libaribcaption --enable-libdav1d --enable-libdavs2 --enable-libopenjpeg --enable-libquirc --enable-libuavs3d --enable-libxevd --enable-libzvbi --enable-liboapv --enable-libqrencode --enable-librav1e --enable-libsvtav1 --enable-libvvenc --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxavs2 --enable-libxeve --enable-libxvid --enable-libaom --enable-libjxl --enable-libsvtjpegxs --enable-libvpx --enable-mediafoundation --enable-libass --enable-frei0r --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-liblensfun --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-dxva2 --enable-d3d11va --enable-d3d12va --enable-ffnvcodec --enable-libvpl --enable-nvdec --enable-nvenc --enable-vaapi --enable-libshaderc --enable-vulkan --enable-libplacebo --enable-opencl --enable-libcdio --enable-openal --enable-libgme --enable-libmodplug --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libshine --enable-libtheora --enable-libtwolame --enable-libvo-amrwbenc --enable-libcodec2 --enable-libilbc --enable-libgsm --enable-liblc3 --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-ladspa --enable-libbs2b --enable-libflite --enable-libmysofa --enable-librubberband --enable-libsoxr --enable-chromaprint --enable-whisper
+  libavutil      60. 26.100 / 60. 26.100
+  libavcodec     62. 28.100 / 62. 28.100
+  libavformat    62. 12.100 / 62. 12.100
+  libavdevice    62.  3.100 / 62.  3.100
+  libavfilter    11. 14.100 / 11. 14.100
+  libswscale      9.  5.100 /  9.  5.100
+  libswresample   6.  3.100 /  6.  3.100
+Input #0, png_pipe, from 'L:\workspace\yinghe-shijie\videos\analysis\The.Apartment.Job.S01E01\cards\analysis_card.png':
+  Duration: N/A, bitrate: N/A
+  Stream #0:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 25 fps, 25 tbr, 25 tbn
+Input #1, lavfi, from 'anullsrc=channel_layout=stereo:sample_rate=44100':
+  Duration: N/A, start: 0.000000, bitrate: 705 kb/s
+  Stream #1:0: Audio: pcm_u8, 44100 Hz, stereo, u8, 705 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (png (native) -> h264 (libx264))
+  Stream #1:0 -> #0:1 (pcm_u8 (native) -> aac (native))
+Press [q] to stop, [?] for help
+[libx264 @ 0000019a3f29b900] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+[libx264 @ 0000019a3f29b900] profile Constrained Baseline, level 4.0, 4:2:0, 8-bit
+[libx264 @ 0000019a3f29b900] 264 - core 165 r3223 0480cb0 - H.264/MPEG-4 AVC codec - Copyleft 2003-2025 - http://www.videolan.org/x264.html - options: cabac=0 ref=1 deblock=0:0:0 analyse=0:0 me=dia subme=0 psy=1 psy_rd=1.00:0.00 mixed_ref=0 me_range=16 chroma_me=1 trellis=0 8x8dct=0 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=0 threads=34 lookahead_threads=5 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=0 weightp=0 keyint=250 keyint_min=25 scenecut=0 intra_refresh=0 rc=crf mbtree=0 crf=22.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=0
+Output #0, mp4, to 'C:\Users\SHARKG~1.SHA\AppData\Local\Temp\drama_evidence_mwekol52\piece_004.mp4':
+  Metadata:
+    encoder         : Lavf62.12.100
+  Stream #0:0: Video: h264 (avc1 / 0x31637661), yuv420p(tv, progressive), 1920x1080, q=2-31, 30 fps, 15360 tbn
+    Metadata:
+      encoder         : Lavc62.28.100 libx264
+    Side data:
+      CPB properties: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+  Stream #0:1: Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 160 kb/s
+    Metadata:
+      encoder         : Lavc62.28.100 aac
+[out#0/mp4 @ 0000019a3f299180] video:358KiB audio:1KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 1.303999%
+frame=  120 fps=0.0 q=-1.0 Lsize=     364KiB time=00:00:04.00 bitrate= 745.5kbits/s speed=11.8x elapsed=0:00:00.33    
+[libx264 @ 0000019a3f29b900] frame I:1     Avg QP:19.00  size: 83227
+[libx264 @ 0000019a3f29b900] frame P:119   Avg QP:12.24  size:  2379
+[libx264 @ 0000019a3f29b900] mb I  I16..4: 100.0%  0.0%  0.0%
+[libx264 @ 0000019a3f29b900] mb P  I16..4:  0.8%  0.0%  0.0%  P16..4:  7.3%  0.0%  0.0%  0.0%  0.0%    skip:91.9%
+[libx264 @ 0000019a3f29b900] coded y,uvDC,uvAC intra: 5.9% 20.5% 15.6% inter: 1.8% 3.6% 0.1%
+[libx264 @ 0000019a3f29b900] i16 v,h,dc,p: 78% 21%  1%  0%
+[libx264 @ 0000019a3f29b900] i8c dc,h,v,p: 41% 38% 21%  0%
+[libx264 @ 0000019a3f29b900] kb/s:732.57
+[aac @ 0000019a3e56c2c0] Qavg: 65536.000
+ffmpeg version 8.1-full_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers
+  built with gcc 15.2.0 (Rev11, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-cairo --enable-fontconfig --enable-iconv --enable-gnutls --enable-lcms2 --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-libsnappy --enable-zlib --enable-librist --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-libbluray --enable-libcaca --enable-libdvdnav --enable-libdvdread --enable-sdl2 --enable-libaribb24 --enable-libaribcaption --enable-libdav1d --enable-libdavs2 --enable-libopenjpeg --enable-libquirc --enable-libuavs3d --enable-libxevd --enable-libzvbi --enable-liboapv --enable-libqrencode --enable-librav1e --enable-libsvtav1 --enable-libvvenc --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxavs2 --enable-libxeve --enable-libxvid --enable-libaom --enable-libjxl --enable-libsvtjpegxs --enable-libvpx --enable-mediafoundation --enable-libass --enable-frei0r --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-liblensfun --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-dxva2 --enable-d3d11va --enable-d3d12va --enable-ffnvcodec --enable-libvpl --enable-nvdec --enable-nvenc --enable-vaapi --enable-libshaderc --enable-vulkan --enable-libplacebo --enable-opencl --enable-libcdio --enable-openal --enable-libgme --enable-libmodplug --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libshine --enable-libtheora --enable-libtwolame --enable-libvo-amrwbenc --enable-libcodec2 --enable-libilbc --enable-libgsm --enable-liblc3 --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-ladspa --enable-libbs2b --enable-libflite --enable-libmysofa --enable-librubberband --enable-libsoxr --enable-chromaprint --enable-whisper
+  libavutil      60. 26.100 / 60. 26.100
+  libavcodec     62. 28.100 / 62. 28.100
+  libavformat    62. 12.100 / 62. 12.100
+  libavdevice    62.  3.100 / 62.  3.100
+  libavfilter    11. 14.100 / 11. 14.100
+  libswscale      9.  5.100 /  9.  5.100
+  libswresample   6.  3.100 /  6.  3.100
+Input #0, matroska,webm, from 'L:\BaiduNetdiskDownload\公寓黑风暴 아파트 (2026)\The.Apartment.Job.S01E01.2026.1080p.NF.WEB-DL.AAC2.0.H.264.mkv':
+  Metadata:
+    encoder         : libebml v1.4.5 + libmatroska v1.7.1
+    MOVIE/ENCODER   : Lavf60.18.100
+  Duration: 01:03:44.64, start: 0.000000, bitrate: 5177 kb/s
+  Stream #0:0: Video: h264 (Main), yuv420p(tv, bt709, progressive), 1920x1080 [SAR 1:1 DAR 16:9], 23.98 fps, 23.98 tbr, 1k tbn (default)
+    Metadata:
+      BPS             : 4913887
+      DURATION        : 01:03:44.571000000
+      NUMBER_OF_FRAMES: 91698
+      NUMBER_OF_BYTES : 2349188818
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:1(kor): Audio: aac (HE-AAC), 48000 Hz, stereo, fltp (default)
+    Metadata:
+      BPS             : 127999
+      DURATION        : 01:03:44.640000000
+      NUMBER_OF_FRAMES: 89640
+      NUMBER_OF_BYTES : 61194239
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:2(eng): Audio: aac (HE-AAC), 48000 Hz, stereo, fltp
+    Metadata:
+      BPS             : 127999
+      DURATION        : 01:03:44.640000000
+      NUMBER_OF_FRAMES: 89640
+      NUMBER_OF_BYTES : 61194239
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:3(eng): Subtitle: subrip (srt) (default) (forced)
+    Metadata:
+      title           : English
+      BPS             : 62
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1015
+      NUMBER_OF_BYTES : 29264
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:4(eng): Subtitle: subrip (srt)
+    Metadata:
+      title           : English (forced)
+      BPS             : 4
+      DURATION        : 01:01:19.926000000
+      NUMBER_OF_FRAMES: 69
+      NUMBER_OF_BYTES : 2020
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:5(eng): Subtitle: subrip (srt)
+    Metadata:
+      title           : English (dub)
+      BPS             : 81
+      DURATION        : 01:01:54.544000000
+      NUMBER_OF_FRAMES: 1040
+      NUMBER_OF_BYTES : 38047
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:6(kor): Subtitle: subrip (srt)
+    Metadata:
+      title           : Korean (forced)
+      BPS             : 0
+      DURATION        : 01:01:03.410000000
+      NUMBER_OF_FRAMES: 9
+      NUMBER_OF_BYTES : 167
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:7(kor): Subtitle: subrip (srt)
+    Metadata:
+      title           : Korean
+      BPS             : 73
+      DURATION        : 01:00:58.154000000
+      NUMBER_OF_FRAMES: 1178
+      NUMBER_OF_BYTES : 33740
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:8(kor): Subtitle: subrip (srt)
+    Metadata:
+      title           : Korean (SDH)
+      BPS             : 84
+      DURATION        : 01:02:34.250000000
+      NUMBER_OF_FRAMES: 1294
+      NUMBER_OF_BYTES : 39525
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:9(ara): Subtitle: subrip (srt)
+    Metadata:
+      title           : Arabic
+      BPS             : 100
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1025
+      NUMBER_OF_BYTES : 46671
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:10(cze): Subtitle: subrip (srt)
+    Metadata:
+      title           : Czech
+      BPS             : 56
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1024
+      NUMBER_OF_BYTES : 26246
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:11(dan): Subtitle: subrip (srt)
+    Metadata:
+      title           : Danish
+      BPS             : 55
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1016
+      NUMBER_OF_BYTES : 25866
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:12(ger): Subtitle: subrip (srt)
+    Metadata:
+      title           : German
+      BPS             : 63
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1015
+      NUMBER_OF_BYTES : 29502
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:13(gre): Subtitle: subrip (srt)
+    Metadata:
+      title           : Greek
+      BPS             : 98
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1021
+      NUMBER_OF_BYTES : 45674
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:14(spa): Subtitle: subrip (srt)
+    Metadata:
+      title           : Spanish (Latin America)
+      BPS             : 59
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1022
+      NUMBER_OF_BYTES : 27685
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:15(spa): Subtitle: subrip (srt)
+    Metadata:
+      title           : Spanish (Spain)
+      BPS             : 59
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1024
+      NUMBER_OF_BYTES : 27834
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:16(fin): Subtitle: subrip (srt)
+    Metadata:
+      title           : Finnish
+      BPS             : 56
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1016
+      NUMBER_OF_BYTES : 26430
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:17(fil): Subtitle: subrip (srt)
+    Metadata:
+      title           : Filipino
+      BPS             : 55
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1020
+      NUMBER_OF_BYTES : 25956
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:18(fre): Subtitle: subrip (srt)
+    Metadata:
+      title           : French
+      BPS             : 55
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1013
+      NUMBER_OF_BYTES : 25705
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:19(heb): Subtitle: subrip (srt)
+    Metadata:
+      title           : Hebrew
+      BPS             : 91
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1028
+      NUMBER_OF_BYTES : 42484
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:20(hrv): Subtitle: subrip (srt)
+    Metadata:
+      title           : Croatian
+      BPS             : 56
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1026
+      NUMBER_OF_BYTES : 26439
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:21(hun): Subtitle: subrip (srt)
+    Metadata:
+      title           : Hungarian
+      BPS             : 62
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1017
+      NUMBER_OF_BYTES : 28818
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:22(ind): Subtitle: subrip (srt)
+    Metadata:
+      title           : Indonesian
+      BPS             : 55
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1043
+      NUMBER_OF_BYTES : 25603
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:23(ita): Subtitle: subrip (srt)
+    Metadata:
+      title           : Italian
+      BPS             : 57
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1023
+      NUMBER_OF_BYTES : 26820
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:24(jpn): Subtitle: subrip (srt)
+    Metadata:
+      title           : Japanese
+      BPS             : 58
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 982
+      NUMBER_OF_BYTES : 27051
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:25(may): Subtitle: subrip (srt)
+    Metadata:
+      title           : Malay
+      BPS             : 57
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1027
+      NUMBER_OF_BYTES : 26583
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:26(nob): Subtitle: subrip (srt)
+    Metadata:
+      title           : Norwegian
+      BPS             : 58
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1027
+      NUMBER_OF_BYTES : 27325
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:27(dut): Subtitle: subrip (srt)
+    Metadata:
+      title           : Dutch
+      BPS             : 55
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1011
+      NUMBER_OF_BYTES : 25963
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:28(pol): Subtitle: subrip (srt)
+    Metadata:
+      title           : Polish
+      BPS             : 54
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1017
+      NUMBER_OF_BYTES : 25215
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:29(por): Subtitle: subrip (srt)
+    Metadata:
+      title           : Portuguese (Portugal)
+      BPS             : 59
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1026
+      NUMBER_OF_BYTES : 27495
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:30(por): Subtitle: subrip (srt)
+    Metadata:
+      title           : Portuguese (Brazil)
+      BPS             : 58
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1022
+      NUMBER_OF_BYTES : 26989
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:31(rum): Subtitle: subrip (srt)
+    Metadata:
+      title           : Romanian
+      BPS             : 59
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1015
+      NUMBER_OF_BYTES : 27572
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:32(rus): Subtitle: subrip (srt)
+    Metadata:
+      title           : Russian
+      BPS             : 100
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1028
+      NUMBER_OF_BYTES : 46506
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:33(swe): Subtitle: subrip (srt)
+    Metadata:
+      title           : Swedish
+      BPS             : 58
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1015
+      NUMBER_OF_BYTES : 27302
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:34(tha): Subtitle: subrip (srt)
+    Metadata:
+      title           : Thai
+      BPS             : 168
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1046
+      NUMBER_OF_BYTES : 78241
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:35(tur): Subtitle: subrip (srt)
+    Metadata:
+      title           : Turkish
+      BPS             : 60
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1023
+      NUMBER_OF_BYTES : 27898
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:36(ukr): Subtitle: subrip (srt)
+    Metadata:
+      title           : Ukrainian
+      BPS             : 101
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1024
+      NUMBER_OF_BYTES : 47165
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:37(vie): Subtitle: subrip (srt)
+    Metadata:
+      title           : Vietnamese
+      BPS             : 78
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1047
+      NUMBER_OF_BYTES : 36318
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:38(chi): Subtitle: subrip (srt)
+    Metadata:
+      title           : Chinese (Traditional)
+      BPS             : 60
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1028
+      NUMBER_OF_BYTES : 28027
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:39(chi): Subtitle: subrip (srt)
+    Metadata:
+      title           : Chinese (Simplified)
+      BPS             : 51
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1028
+      NUMBER_OF_BYTES : 23758
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> h264 (libx264))
+  Stream #0:1 -> #0:1 (aac (native) -> aac (native))
+Press [q] to stop, [?] for help
+[libx264 @ 0000022e9bb11f80] using SAR=1/1
+[libx264 @ 0000022e9bb11f80] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+[libx264 @ 0000022e9bb11f80] profile Constrained Baseline, level 4.0, 4:2:0, 8-bit
+[libx264 @ 0000022e9bb11f80] 264 - core 165 r3223 0480cb0 - H.264/MPEG-4 AVC codec - Copyleft 2003-2025 - http://www.videolan.org/x264.html - options: cabac=0 ref=1 deblock=0:0:0 analyse=0:0 me=dia subme=0 psy=1 psy_rd=1.00:0.00 mixed_ref=0 me_range=16 chroma_me=1 trellis=0 8x8dct=0 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=0 threads=34 lookahead_threads=5 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=0 weightp=0 keyint=250 keyint_min=25 scenecut=0 intra_refresh=0 rc=crf mbtree=0 crf=22.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=0
+Output #0, mp4, to 'C:\Users\SHARKG~1.SHA\AppData\Local\Temp\drama_evidence_mwekol52\piece_005.mp4':
+  Metadata:
+    MOVIE/ENCODER   : Lavf60.18.100
+    encoder         : Lavf62.12.100
+  Stream #0:0: Video: h264 (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1920x1080 [SAR 1:1 DAR 16:9], q=2-31, 30 fps, 15360 tbn (default)
+    Metadata:
+      encoder         : Lavc62.28.100 libx264
+      BPS             : 4913887
+      DURATION        : 01:03:44.571000000
+      NUMBER_OF_FRAMES: 91698
+      NUMBER_OF_BYTES : 2349188818
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+    Side data:
+      CPB properties: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+  Stream #0:1(kor): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 160 kb/s (default)
+    Metadata:
+      encoder         : Lavc62.28.100 aac
+      BPS             : 127999
+      DURATION        : 01:03:44.640000000
+      NUMBER_OF_FRAMES: 89640
+      NUMBER_OF_BYTES : 61194239
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+frame=  165 fps=0.0 q=16.0 size=    2304KiB time=00:00:05.50 bitrate=3431.8kbits/s speed=10.5x elapsed=0:00:00.52    
+frame=  433 fps=421 q=18.0 size=    5632KiB time=00:00:14.43 bitrate=3196.6kbits/s speed=  14x elapsed=0:00:01.02    
+[mp4 @ 0000022e9bea9d00] Starting second pass: moving the moov atom to the beginning of the file
+[out#0/mp4 @ 0000022e9c7a7e00] video:9104KiB audio:470KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.243671%
+frame=  723 fps=489 q=-1.0 Lsize=    9597KiB time=00:00:24.10 bitrate=3262.3kbits/s speed=16.3x elapsed=0:00:01.47    
+[libx264 @ 0000022e9bb11f80] frame I:3     Avg QP:16.00  size: 86057
+[libx264 @ 0000022e9bb11f80] frame P:720   Avg QP:17.83  size: 12589
+[libx264 @ 0000022e9bb11f80] mb I  I16..4: 100.0%  0.0%  0.0%
+[libx264 @ 0000022e9bb11f80] mb P  I16..4:  4.6%  0.0%  0.0%  P16..4: 25.3%  0.0%  0.0%  0.0%  0.0%    skip:70.1%
+[libx264 @ 0000022e9bb11f80] coded y,uvDC,uvAC intra: 21.0% 44.4% 8.6% inter: 6.9% 12.7% 0.1%
+[libx264 @ 0000022e9bb11f80] i16 v,h,dc,p: 65% 16%  6% 13%
+[libx264 @ 0000022e9bb11f80] i8c dc,h,v,p: 37% 14% 40%  9%
+[libx264 @ 0000022e9bb11f80] kb/s:3094.48
+[aac @ 0000022e9c52cd80] Qavg: 732.542
+ffmpeg version 8.1-full_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers
+  built with gcc 15.2.0 (Rev11, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-cairo --enable-fontconfig --enable-iconv --enable-gnutls --enable-lcms2 --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-libsnappy --enable-zlib --enable-librist --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-libbluray --enable-libcaca --enable-libdvdnav --enable-libdvdread --enable-sdl2 --enable-libaribb24 --enable-libaribcaption --enable-libdav1d --enable-libdavs2 --enable-libopenjpeg --enable-libquirc --enable-libuavs3d --enable-libxevd --enable-libzvbi --enable-liboapv --enable-libqrencode --enable-librav1e --enable-libsvtav1 --enable-libvvenc --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxavs2 --enable-libxeve --enable-libxvid --enable-libaom --enable-libjxl --enable-libsvtjpegxs --enable-libvpx --enable-mediafoundation --enable-libass --enable-frei0r --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-liblensfun --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-dxva2 --enable-d3d11va --enable-d3d12va --enable-ffnvcodec --enable-libvpl --enable-nvdec --enable-nvenc --enable-vaapi --enable-libshaderc --enable-vulkan --enable-libplacebo --enable-opencl --enable-libcdio --enable-openal --enable-libgme --enable-libmodplug --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libshine --enable-libtheora --enable-libtwolame --enable-libvo-amrwbenc --enable-libcodec2 --enable-libilbc --enable-libgsm --enable-liblc3 --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-ladspa --enable-libbs2b --enable-libflite --enable-libmysofa --enable-librubberband --enable-libsoxr --enable-chromaprint --enable-whisper
+  libavutil      60. 26.100 / 60. 26.100
+  libavcodec     62. 28.100 / 62. 28.100
+  libavformat    62. 12.100 / 62. 12.100
+  libavdevice    62.  3.100 / 62.  3.100
+  libavfilter    11. 14.100 / 11. 14.100
+  libswscale      9.  5.100 /  9.  5.100
+  libswresample   6.  3.100 /  6.  3.100
+Input #0, matroska,webm, from 'L:\BaiduNetdiskDownload\公寓黑风暴 아파트 (2026)\The.Apartment.Job.S01E01.2026.1080p.NF.WEB-DL.AAC2.0.H.264.mkv':
+  Metadata:
+    encoder         : libebml v1.4.5 + libmatroska v1.7.1
+    MOVIE/ENCODER   : Lavf60.18.100
+  Duration: 01:03:44.64, start: 0.000000, bitrate: 5177 kb/s
+  Stream #0:0: Video: h264 (Main), yuv420p(tv, bt709, progressive), 1920x1080 [SAR 1:1 DAR 16:9], 23.98 fps, 23.98 tbr, 1k tbn (default)
+    Metadata:
+      BPS             : 4913887
+      DURATION        : 01:03:44.571000000
+      NUMBER_OF_FRAMES: 91698
+      NUMBER_OF_BYTES : 2349188818
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:1(kor): Audio: aac (HE-AAC), 48000 Hz, stereo, fltp (default)
+    Metadata:
+      BPS             : 127999
+      DURATION        : 01:03:44.640000000
+      NUMBER_OF_FRAMES: 89640
+      NUMBER_OF_BYTES : 61194239
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:2(eng): Audio: aac (HE-AAC), 48000 Hz, stereo, fltp
+    Metadata:
+      BPS             : 127999
+      DURATION        : 01:03:44.640000000
+      NUMBER_OF_FRAMES: 89640
+      NUMBER_OF_BYTES : 61194239
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:3(eng): Subtitle: subrip (srt) (default) (forced)
+    Metadata:
+      title           : English
+      BPS             : 62
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1015
+      NUMBER_OF_BYTES : 29264
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:4(eng): Subtitle: subrip (srt)
+    Metadata:
+      title           : English (forced)
+      BPS             : 4
+      DURATION        : 01:01:19.926000000
+      NUMBER_OF_FRAMES: 69
+      NUMBER_OF_BYTES : 2020
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:5(eng): Subtitle: subrip (srt)
+    Metadata:
+      title           : English (dub)
+      BPS             : 81
+      DURATION        : 01:01:54.544000000
+      NUMBER_OF_FRAMES: 1040
+      NUMBER_OF_BYTES : 38047
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:6(kor): Subtitle: subrip (srt)
+    Metadata:
+      title           : Korean (forced)
+      BPS             : 0
+      DURATION        : 01:01:03.410000000
+      NUMBER_OF_FRAMES: 9
+      NUMBER_OF_BYTES : 167
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:7(kor): Subtitle: subrip (srt)
+    Metadata:
+      title           : Korean
+      BPS             : 73
+      DURATION        : 01:00:58.154000000
+      NUMBER_OF_FRAMES: 1178
+      NUMBER_OF_BYTES : 33740
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:8(kor): Subtitle: subrip (srt)
+    Metadata:
+      title           : Korean (SDH)
+      BPS             : 84
+      DURATION        : 01:02:34.250000000
+      NUMBER_OF_FRAMES: 1294
+      NUMBER_OF_BYTES : 39525
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:9(ara): Subtitle: subrip (srt)
+    Metadata:
+      title           : Arabic
+      BPS             : 100
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1025
+      NUMBER_OF_BYTES : 46671
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:10(cze): Subtitle: subrip (srt)
+    Metadata:
+      title           : Czech
+      BPS             : 56
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1024
+      NUMBER_OF_BYTES : 26246
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:11(dan): Subtitle: subrip (srt)
+    Metadata:
+      title           : Danish
+      BPS             : 55
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1016
+      NUMBER_OF_BYTES : 25866
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:12(ger): Subtitle: subrip (srt)
+    Metadata:
+      title           : German
+      BPS             : 63
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1015
+      NUMBER_OF_BYTES : 29502
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:13(gre): Subtitle: subrip (srt)
+    Metadata:
+      title           : Greek
+      BPS             : 98
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1021
+      NUMBER_OF_BYTES : 45674
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:14(spa): Subtitle: subrip (srt)
+    Metadata:
+      title           : Spanish (Latin America)
+      BPS             : 59
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1022
+      NUMBER_OF_BYTES : 27685
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:15(spa): Subtitle: subrip (srt)
+    Metadata:
+      title           : Spanish (Spain)
+      BPS             : 59
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1024
+      NUMBER_OF_BYTES : 27834
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:16(fin): Subtitle: subrip (srt)
+    Metadata:
+      title           : Finnish
+      BPS             : 56
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1016
+      NUMBER_OF_BYTES : 26430
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:17(fil): Subtitle: subrip (srt)
+    Metadata:
+      title           : Filipino
+      BPS             : 55
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1020
+      NUMBER_OF_BYTES : 25956
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:18(fre): Subtitle: subrip (srt)
+    Metadata:
+      title           : French
+      BPS             : 55
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1013
+      NUMBER_OF_BYTES : 25705
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:19(heb): Subtitle: subrip (srt)
+    Metadata:
+      title           : Hebrew
+      BPS             : 91
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1028
+      NUMBER_OF_BYTES : 42484
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:20(hrv): Subtitle: subrip (srt)
+    Metadata:
+      title           : Croatian
+      BPS             : 56
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1026
+      NUMBER_OF_BYTES : 26439
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:21(hun): Subtitle: subrip (srt)
+    Metadata:
+      title           : Hungarian
+      BPS             : 62
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1017
+      NUMBER_OF_BYTES : 28818
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:22(ind): Subtitle: subrip (srt)
+    Metadata:
+      title           : Indonesian
+      BPS             : 55
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1043
+      NUMBER_OF_BYTES : 25603
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:23(ita): Subtitle: subrip (srt)
+    Metadata:
+      title           : Italian
+      BPS             : 57
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1023
+      NUMBER_OF_BYTES : 26820
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:24(jpn): Subtitle: subrip (srt)
+    Metadata:
+      title           : Japanese
+      BPS             : 58
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 982
+      NUMBER_OF_BYTES : 27051
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:25(may): Subtitle: subrip (srt)
+    Metadata:
+      title           : Malay
+      BPS             : 57
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1027
+      NUMBER_OF_BYTES : 26583
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:26(nob): Subtitle: subrip (srt)
+    Metadata:
+      title           : Norwegian
+      BPS             : 58
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1027
+      NUMBER_OF_BYTES : 27325
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:27(dut): Subtitle: subrip (srt)
+    Metadata:
+      title           : Dutch
+      BPS             : 55
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1011
+      NUMBER_OF_BYTES : 25963
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:28(pol): Subtitle: subrip (srt)
+    Metadata:
+      title           : Polish
+      BPS             : 54
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1017
+      NUMBER_OF_BYTES : 25215
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:29(por): Subtitle: subrip (srt)
+    Metadata:
+      title           : Portuguese (Portugal)
+      BPS             : 59
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1026
+      NUMBER_OF_BYTES : 27495
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:30(por): Subtitle: subrip (srt)
+    Metadata:
+      title           : Portuguese (Brazil)
+      BPS             : 58
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1022
+      NUMBER_OF_BYTES : 26989
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:31(rum): Subtitle: subrip (srt)
+    Metadata:
+      title           : Romanian
+      BPS             : 59
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1015
+      NUMBER_OF_BYTES : 27572
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:32(rus): Subtitle: subrip (srt)
+    Metadata:
+      title           : Russian
+      BPS             : 100
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1028
+      NUMBER_OF_BYTES : 46506
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:33(swe): Subtitle: subrip (srt)
+    Metadata:
+      title           : Swedish
+      BPS             : 58
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1015
+      NUMBER_OF_BYTES : 27302
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:34(tha): Subtitle: subrip (srt)
+    Metadata:
+      title           : Thai
+      BPS             : 168
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1046
+      NUMBER_OF_BYTES : 78241
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:35(tur): Subtitle: subrip (srt)
+    Metadata:
+      title           : Turkish
+      BPS             : 60
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1023
+      NUMBER_OF_BYTES : 27898
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:36(ukr): Subtitle: subrip (srt)
+    Metadata:
+      title           : Ukrainian
+      BPS             : 101
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1024
+      NUMBER_OF_BYTES : 47165
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:37(vie): Subtitle: subrip (srt)
+    Metadata:
+      title           : Vietnamese
+      BPS             : 78
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1047
+      NUMBER_OF_BYTES : 36318
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:38(chi): Subtitle: subrip (srt)
+    Metadata:
+      title           : Chinese (Traditional)
+      BPS             : 60
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1028
+      NUMBER_OF_BYTES : 28027
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:39(chi): Subtitle: subrip (srt)
+    Metadata:
+      title           : Chinese (Simplified)
+      BPS             : 51
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1028
+      NUMBER_OF_BYTES : 23758
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> h264 (libx264))
+  Stream #0:1 -> #0:1 (aac (native) -> aac (native))
+Press [q] to stop, [?] for help
+[libx264 @ 0000020745592ac0] using SAR=1/1
+[libx264 @ 0000020745592ac0] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+[libx264 @ 0000020745592ac0] profile Constrained Baseline, level 4.0, 4:2:0, 8-bit
+[libx264 @ 0000020745592ac0] 264 - core 165 r3223 0480cb0 - H.264/MPEG-4 AVC codec - Copyleft 2003-2025 - http://www.videolan.org/x264.html - options: cabac=0 ref=1 deblock=0:0:0 analyse=0:0 me=dia subme=0 psy=1 psy_rd=1.00:0.00 mixed_ref=0 me_range=16 chroma_me=1 trellis=0 8x8dct=0 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=0 threads=34 lookahead_threads=5 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=0 weightp=0 keyint=250 keyint_min=25 scenecut=0 intra_refresh=0 rc=crf mbtree=0 crf=22.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=0
+Output #0, mp4, to 'C:\Users\SHARKG~1.SHA\AppData\Local\Temp\drama_evidence_mwekol52\piece_006.mp4':
+  Metadata:
+    MOVIE/ENCODER   : Lavf60.18.100
+    encoder         : Lavf62.12.100
+  Stream #0:0: Video: h264 (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1920x1080 [SAR 1:1 DAR 16:9], q=2-31, 30 fps, 15360 tbn (default)
+    Metadata:
+      encoder         : Lavc62.28.100 libx264
+      BPS             : 4913887
+      DURATION        : 01:03:44.571000000
+      NUMBER_OF_FRAMES: 91698
+      NUMBER_OF_BYTES : 2349188818
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+    Side data:
+      CPB properties: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+  Stream #0:1(kor): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 160 kb/s (default)
+    Metadata:
+      encoder         : Lavc62.28.100 aac
+      BPS             : 127999
+      DURATION        : 01:03:44.640000000
+      NUMBER_OF_FRAMES: 89640
+      NUMBER_OF_BYTES : 61194239
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+frame=  154 fps=0.0 q=17.0 size=    2560KiB time=00:00:05.16 bitrate=4059.1kbits/s speed=10.2x elapsed=0:00:00.50    
+frame=  457 fps=443 q=19.0 size=    6912KiB time=00:00:15.23 bitrate=3717.1kbits/s speed=14.8x elapsed=0:00:01.03    
+frame=  718 fps=460 q=15.0 size=   12544KiB time=00:00:23.93 bitrate=4293.6kbits/s speed=15.3x elapsed=0:00:01.55    
+frame= 1009 fps=486 q=16.0 size=   16640KiB time=00:00:33.63 bitrate=4053.0kbits/s speed=16.2x elapsed=0:00:02.07    
+frame= 1326 fps=513 q=18.0 size=   20224KiB time=00:00:44.20 bitrate=3748.3kbits/s speed=17.1x elapsed=0:00:02.58    
+frame= 1662 fps=535 q=19.0 size=   25088KiB time=00:00:55.40 bitrate=3709.8kbits/s speed=17.8x elapsed=0:00:03.10    
+[mp4 @ 000002074590abc0] Starting second pass: moving the moov atom to the beginning of the file
+[out#0/mp4 @ 00000207457cf8c0] video:27171KiB audio:1224KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.205339%
+frame= 1878 fps=547 q=-1.0 Lsize=   28453KiB time=00:01:02.60 bitrate=3723.5kbits/s speed=18.2x elapsed=0:00:03.43    
+[libx264 @ 0000020745592ac0] frame I:8     Avg QP:15.62  size: 91645
+[libx264 @ 0000020745592ac0] frame P:1870  Avg QP:18.15  size: 14486
+[libx264 @ 0000020745592ac0] mb I  I16..4: 100.0%  0.0%  0.0%
+[libx264 @ 0000020745592ac0] mb P  I16..4:  5.3%  0.0%  0.0%  P16..4: 25.8%  0.0%  0.0%  0.0%  0.0%    skip:68.9%
+[libx264 @ 0000020745592ac0] coded y,uvDC,uvAC intra: 21.1% 41.9% 6.6% inter: 7.2% 13.0% 0.3%
+[libx264 @ 0000020745592ac0] i16 v,h,dc,p: 50% 24% 10% 16%
+[libx264 @ 0000020745592ac0] i8c dc,h,v,p: 47% 20% 26%  7%
+[libx264 @ 0000020745592ac0] kb/s:3555.58
+[aac @ 0000020745cfd6c0] Qavg: 953.472
+ffmpeg version 8.1-full_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers
+  built with gcc 15.2.0 (Rev11, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-cairo --enable-fontconfig --enable-iconv --enable-gnutls --enable-lcms2 --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-libsnappy --enable-zlib --enable-librist --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-libbluray --enable-libcaca --enable-libdvdnav --enable-libdvdread --enable-sdl2 --enable-libaribb24 --enable-libaribcaption --enable-libdav1d --enable-libdavs2 --enable-libopenjpeg --enable-libquirc --enable-libuavs3d --enable-libxevd --enable-libzvbi --enable-liboapv --enable-libqrencode --enable-librav1e --enable-libsvtav1 --enable-libvvenc --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxavs2 --enable-libxeve --enable-libxvid --enable-libaom --enable-libjxl --enable-libsvtjpegxs --enable-libvpx --enable-mediafoundation --enable-libass --enable-frei0r --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-liblensfun --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-dxva2 --enable-d3d11va --enable-d3d12va --enable-ffnvcodec --enable-libvpl --enable-nvdec --enable-nvenc --enable-vaapi --enable-libshaderc --enable-vulkan --enable-libplacebo --enable-opencl --enable-libcdio --enable-openal --enable-libgme --enable-libmodplug --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libshine --enable-libtheora --enable-libtwolame --enable-libvo-amrwbenc --enable-libcodec2 --enable-libilbc --enable-libgsm --enable-liblc3 --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-ladspa --enable-libbs2b --enable-libflite --enable-libmysofa --enable-librubberband --enable-libsoxr --enable-chromaprint --enable-whisper
+  libavutil      60. 26.100 / 60. 26.100
+  libavcodec     62. 28.100 / 62. 28.100
+  libavformat    62. 12.100 / 62. 12.100
+  libavdevice    62.  3.100 / 62.  3.100
+  libavfilter    11. 14.100 / 11. 14.100
+  libswscale      9.  5.100 /  9.  5.100
+  libswresample   6.  3.100 /  6.  3.100
+Input #0, matroska,webm, from 'L:\BaiduNetdiskDownload\公寓黑风暴 아파트 (2026)\The.Apartment.Job.S01E01.2026.1080p.NF.WEB-DL.AAC2.0.H.264.mkv':
+  Metadata:
+    encoder         : libebml v1.4.5 + libmatroska v1.7.1
+    MOVIE/ENCODER   : Lavf60.18.100
+  Duration: 01:03:44.64, start: 0.000000, bitrate: 5177 kb/s
+  Stream #0:0: Video: h264 (Main), yuv420p(tv, bt709, progressive), 1920x1080 [SAR 1:1 DAR 16:9], 23.98 fps, 23.98 tbr, 1k tbn (default)
+    Metadata:
+      BPS             : 4913887
+      DURATION        : 01:03:44.571000000
+      NUMBER_OF_FRAMES: 91698
+      NUMBER_OF_BYTES : 2349188818
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:1(kor): Audio: aac (HE-AAC), 48000 Hz, stereo, fltp (default)
+    Metadata:
+      BPS             : 127999
+      DURATION        : 01:03:44.640000000
+      NUMBER_OF_FRAMES: 89640
+      NUMBER_OF_BYTES : 61194239
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:2(eng): Audio: aac (HE-AAC), 48000 Hz, stereo, fltp
+    Metadata:
+      BPS             : 127999
+      DURATION        : 01:03:44.640000000
+      NUMBER_OF_FRAMES: 89640
+      NUMBER_OF_BYTES : 61194239
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:3(eng): Subtitle: subrip (srt) (default) (forced)
+    Metadata:
+      title           : English
+      BPS             : 62
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1015
+      NUMBER_OF_BYTES : 29264
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:4(eng): Subtitle: subrip (srt)
+    Metadata:
+      title           : English (forced)
+      BPS             : 4
+      DURATION        : 01:01:19.926000000
+      NUMBER_OF_FRAMES: 69
+      NUMBER_OF_BYTES : 2020
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:5(eng): Subtitle: subrip (srt)
+    Metadata:
+      title           : English (dub)
+      BPS             : 81
+      DURATION        : 01:01:54.544000000
+      NUMBER_OF_FRAMES: 1040
+      NUMBER_OF_BYTES : 38047
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:6(kor): Subtitle: subrip (srt)
+    Metadata:
+      title           : Korean (forced)
+      BPS             : 0
+      DURATION        : 01:01:03.410000000
+      NUMBER_OF_FRAMES: 9
+      NUMBER_OF_BYTES : 167
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:7(kor): Subtitle: subrip (srt)
+    Metadata:
+      title           : Korean
+      BPS             : 73
+      DURATION        : 01:00:58.154000000
+      NUMBER_OF_FRAMES: 1178
+      NUMBER_OF_BYTES : 33740
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:8(kor): Subtitle: subrip (srt)
+    Metadata:
+      title           : Korean (SDH)
+      BPS             : 84
+      DURATION        : 01:02:34.250000000
+      NUMBER_OF_FRAMES: 1294
+      NUMBER_OF_BYTES : 39525
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:9(ara): Subtitle: subrip (srt)
+    Metadata:
+      title           : Arabic
+      BPS             : 100
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1025
+      NUMBER_OF_BYTES : 46671
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:10(cze): Subtitle: subrip (srt)
+    Metadata:
+      title           : Czech
+      BPS             : 56
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1024
+      NUMBER_OF_BYTES : 26246
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:11(dan): Subtitle: subrip (srt)
+    Metadata:
+      title           : Danish
+      BPS             : 55
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1016
+      NUMBER_OF_BYTES : 25866
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:12(ger): Subtitle: subrip (srt)
+    Metadata:
+      title           : German
+      BPS             : 63
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1015
+      NUMBER_OF_BYTES : 29502
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:13(gre): Subtitle: subrip (srt)
+    Metadata:
+      title           : Greek
+      BPS             : 98
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1021
+      NUMBER_OF_BYTES : 45674
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:14(spa): Subtitle: subrip (srt)
+    Metadata:
+      title           : Spanish (Latin America)
+      BPS             : 59
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1022
+      NUMBER_OF_BYTES : 27685
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:15(spa): Subtitle: subrip (srt)
+    Metadata:
+      title           : Spanish (Spain)
+      BPS             : 59
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1024
+      NUMBER_OF_BYTES : 27834
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:16(fin): Subtitle: subrip (srt)
+    Metadata:
+      title           : Finnish
+      BPS             : 56
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1016
+      NUMBER_OF_BYTES : 26430
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:17(fil): Subtitle: subrip (srt)
+    Metadata:
+      title           : Filipino
+      BPS             : 55
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1020
+      NUMBER_OF_BYTES : 25956
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:18(fre): Subtitle: subrip (srt)
+    Metadata:
+      title           : French
+      BPS             : 55
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1013
+      NUMBER_OF_BYTES : 25705
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:19(heb): Subtitle: subrip (srt)
+    Metadata:
+      title           : Hebrew
+      BPS             : 91
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1028
+      NUMBER_OF_BYTES : 42484
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:20(hrv): Subtitle: subrip (srt)
+    Metadata:
+      title           : Croatian
+      BPS             : 56
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1026
+      NUMBER_OF_BYTES : 26439
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:21(hun): Subtitle: subrip (srt)
+    Metadata:
+      title           : Hungarian
+      BPS             : 62
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1017
+      NUMBER_OF_BYTES : 28818
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:22(ind): Subtitle: subrip (srt)
+    Metadata:
+      title           : Indonesian
+      BPS             : 55
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1043
+      NUMBER_OF_BYTES : 25603
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:23(ita): Subtitle: subrip (srt)
+    Metadata:
+      title           : Italian
+      BPS             : 57
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1023
+      NUMBER_OF_BYTES : 26820
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:24(jpn): Subtitle: subrip (srt)
+    Metadata:
+      title           : Japanese
+      BPS             : 58
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 982
+      NUMBER_OF_BYTES : 27051
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:25(may): Subtitle: subrip (srt)
+    Metadata:
+      title           : Malay
+      BPS             : 57
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1027
+      NUMBER_OF_BYTES : 26583
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:26(nob): Subtitle: subrip (srt)
+    Metadata:
+      title           : Norwegian
+      BPS             : 58
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1027
+      NUMBER_OF_BYTES : 27325
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:27(dut): Subtitle: subrip (srt)
+    Metadata:
+      title           : Dutch
+      BPS             : 55
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1011
+      NUMBER_OF_BYTES : 25963
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:28(pol): Subtitle: subrip (srt)
+    Metadata:
+      title           : Polish
+      BPS             : 54
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1017
+      NUMBER_OF_BYTES : 25215
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:29(por): Subtitle: subrip (srt)
+    Metadata:
+      title           : Portuguese (Portugal)
+      BPS             : 59
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1026
+      NUMBER_OF_BYTES : 27495
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:30(por): Subtitle: subrip (srt)
+    Metadata:
+      title           : Portuguese (Brazil)
+      BPS             : 58
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1022
+      NUMBER_OF_BYTES : 26989
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:31(rum): Subtitle: subrip (srt)
+    Metadata:
+      title           : Romanian
+      BPS             : 59
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1015
+      NUMBER_OF_BYTES : 27572
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:32(rus): Subtitle: subrip (srt)
+    Metadata:
+      title           : Russian
+      BPS             : 100
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1028
+      NUMBER_OF_BYTES : 46506
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:33(swe): Subtitle: subrip (srt)
+    Metadata:
+      title           : Swedish
+      BPS             : 58
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1015
+      NUMBER_OF_BYTES : 27302
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:34(tha): Subtitle: subrip (srt)
+    Metadata:
+      title           : Thai
+      BPS             : 168
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1046
+      NUMBER_OF_BYTES : 78241
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:35(tur): Subtitle: subrip (srt)
+    Metadata:
+      title           : Turkish
+      BPS             : 60
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1023
+      NUMBER_OF_BYTES : 27898
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:36(ukr): Subtitle: subrip (srt)
+    Metadata:
+      title           : Ukrainian
+      BPS             : 101
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1024
+      NUMBER_OF_BYTES : 47165
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:37(vie): Subtitle: subrip (srt)
+    Metadata:
+      title           : Vietnamese
+      BPS             : 78
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1047
+      NUMBER_OF_BYTES : 36318
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:38(chi): Subtitle: subrip (srt)
+    Metadata:
+      title           : Chinese (Traditional)
+      BPS             : 60
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1028
+      NUMBER_OF_BYTES : 28027
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:39(chi): Subtitle: subrip (srt)
+    Metadata:
+      title           : Chinese (Simplified)
+      BPS             : 51
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1028
+      NUMBER_OF_BYTES : 23758
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> h264 (libx264))
+  Stream #0:1 -> #0:1 (aac (native) -> aac (native))
+Press [q] to stop, [?] for help
+[libx264 @ 000002569f076a40] using SAR=1/1
+[libx264 @ 000002569f076a40] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+[libx264 @ 000002569f076a40] profile Constrained Baseline, level 4.0, 4:2:0, 8-bit
+[libx264 @ 000002569f076a40] 264 - core 165 r3223 0480cb0 - H.264/MPEG-4 AVC codec - Copyleft 2003-2025 - http://www.videolan.org/x264.html - options: cabac=0 ref=1 deblock=0:0:0 analyse=0:0 me=dia subme=0 psy=1 psy_rd=1.00:0.00 mixed_ref=0 me_range=16 chroma_me=1 trellis=0 8x8dct=0 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=0 threads=34 lookahead_threads=5 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=0 weightp=0 keyint=250 keyint_min=25 scenecut=0 intra_refresh=0 rc=crf mbtree=0 crf=22.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=0
+Output #0, mp4, to 'C:\Users\SHARKG~1.SHA\AppData\Local\Temp\drama_evidence_mwekol52\piece_007.mp4':
+  Metadata:
+    MOVIE/ENCODER   : Lavf60.18.100
+    encoder         : Lavf62.12.100
+  Stream #0:0: Video: h264 (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1920x1080 [SAR 1:1 DAR 16:9], q=2-31, 30 fps, 15360 tbn (default)
+    Metadata:
+      encoder         : Lavc62.28.100 libx264
+      BPS             : 4913887
+      DURATION        : 01:03:44.571000000
+      NUMBER_OF_FRAMES: 91698
+      NUMBER_OF_BYTES : 2349188818
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+    Side data:
+      CPB properties: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+  Stream #0:1(kor): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 160 kb/s (default)
+    Metadata:
+      encoder         : Lavc62.28.100 aac
+      BPS             : 127999
+      DURATION        : 01:03:44.640000000
+      NUMBER_OF_FRAMES: 89640
+      NUMBER_OF_BYTES : 61194239
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+frame=  216 fps=0.0 q=19.0 size=    4352KiB time=00:00:07.16 bitrate=4974.7kbits/s speed=  14x elapsed=0:00:00.51    
+frame=  551 fps=534 q=20.0 size=    9728KiB time=00:00:18.36 bitrate=4339.0kbits/s speed=17.8x elapsed=0:00:01.03    
+[mp4 @ 000002569f33f380] Starting second pass: moving the moov atom to the beginning of the file
+[out#0/mp4 @ 000002569f3400c0] video:12230KiB audio:448KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.175784%
+frame=  688 fps=550 q=-1.0 Lsize=   12700KiB time=00:00:22.93 bitrate=4536.7kbits/s speed=18.3x elapsed=0:00:01.25    
+[libx264 @ 000002569f076a40] frame I:3     Avg QP:17.00  size: 85010
+[libx264 @ 000002569f076a40] frame P:685   Avg QP:18.97  size: 17909
+[libx264 @ 000002569f076a40] mb I  I16..4: 100.0%  0.0%  0.0%
+[libx264 @ 000002569f076a40] mb P  I16..4:  7.1%  0.0%  0.0%  P16..4: 29.4%  0.0%  0.0%  0.0%  0.0%    skip:63.5%
+[libx264 @ 000002569f076a40] coded y,uvDC,uvAC intra: 19.9% 38.0% 6.9% inter: 9.8% 11.9% 0.3%
+[libx264 @ 000002569f076a40] i16 v,h,dc,p: 55% 20%  9% 16%
+[libx264 @ 000002569f076a40] i8c dc,h,v,p: 44% 19% 30%  7%
+[libx264 @ 000002569f076a40] kb/s:4368.48
+[aac @ 000002569f769140] Qavg: 594.269
+ffmpeg version 8.1-full_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers
+  built with gcc 15.2.0 (Rev11, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-cairo --enable-fontconfig --enable-iconv --enable-gnutls --enable-lcms2 --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-libsnappy --enable-zlib --enable-librist --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-libbluray --enable-libcaca --enable-libdvdnav --enable-libdvdread --enable-sdl2 --enable-libaribb24 --enable-libaribcaption --enable-libdav1d --enable-libdavs2 --enable-libopenjpeg --enable-libquirc --enable-libuavs3d --enable-libxevd --enable-libzvbi --enable-liboapv --enable-libqrencode --enable-librav1e --enable-libsvtav1 --enable-libvvenc --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxavs2 --enable-libxeve --enable-libxvid --enable-libaom --enable-libjxl --enable-libsvtjpegxs --enable-libvpx --enable-mediafoundation --enable-libass --enable-frei0r --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-liblensfun --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-dxva2 --enable-d3d11va --enable-d3d12va --enable-ffnvcodec --enable-libvpl --enable-nvdec --enable-nvenc --enable-vaapi --enable-libshaderc --enable-vulkan --enable-libplacebo --enable-opencl --enable-libcdio --enable-openal --enable-libgme --enable-libmodplug --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libshine --enable-libtheora --enable-libtwolame --enable-libvo-amrwbenc --enable-libcodec2 --enable-libilbc --enable-libgsm --enable-liblc3 --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-ladspa --enable-libbs2b --enable-libflite --enable-libmysofa --enable-librubberband --enable-libsoxr --enable-chromaprint --enable-whisper
+  libavutil      60. 26.100 / 60. 26.100
+  libavcodec     62. 28.100 / 62. 28.100
+  libavformat    62. 12.100 / 62. 12.100
+  libavdevice    62.  3.100 / 62.  3.100
+  libavfilter    11. 14.100 / 11. 14.100
+  libswscale      9.  5.100 /  9.  5.100
+  libswresample   6.  3.100 /  6.  3.100
+Input #0, matroska,webm, from 'L:\BaiduNetdiskDownload\公寓黑风暴 아파트 (2026)\The.Apartment.Job.S01E01.2026.1080p.NF.WEB-DL.AAC2.0.H.264.mkv':
+  Metadata:
+    encoder         : libebml v1.4.5 + libmatroska v1.7.1
+    MOVIE/ENCODER   : Lavf60.18.100
+  Duration: 01:03:44.64, start: 0.000000, bitrate: 5177 kb/s
+  Stream #0:0: Video: h264 (Main), yuv420p(tv, bt709, progressive), 1920x1080 [SAR 1:1 DAR 16:9], 23.98 fps, 23.98 tbr, 1k tbn (default)
+    Metadata:
+      BPS             : 4913887
+      DURATION        : 01:03:44.571000000
+      NUMBER_OF_FRAMES: 91698
+      NUMBER_OF_BYTES : 2349188818
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:1(kor): Audio: aac (HE-AAC), 48000 Hz, stereo, fltp (default)
+    Metadata:
+      BPS             : 127999
+      DURATION        : 01:03:44.640000000
+      NUMBER_OF_FRAMES: 89640
+      NUMBER_OF_BYTES : 61194239
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:2(eng): Audio: aac (HE-AAC), 48000 Hz, stereo, fltp
+    Metadata:
+      BPS             : 127999
+      DURATION        : 01:03:44.640000000
+      NUMBER_OF_FRAMES: 89640
+      NUMBER_OF_BYTES : 61194239
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:3(eng): Subtitle: subrip (srt) (default) (forced)
+    Metadata:
+      title           : English
+      BPS             : 62
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1015
+      NUMBER_OF_BYTES : 29264
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:4(eng): Subtitle: subrip (srt)
+    Metadata:
+      title           : English (forced)
+      BPS             : 4
+      DURATION        : 01:01:19.926000000
+      NUMBER_OF_FRAMES: 69
+      NUMBER_OF_BYTES : 2020
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:5(eng): Subtitle: subrip (srt)
+    Metadata:
+      title           : English (dub)
+      BPS             : 81
+      DURATION        : 01:01:54.544000000
+      NUMBER_OF_FRAMES: 1040
+      NUMBER_OF_BYTES : 38047
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:6(kor): Subtitle: subrip (srt)
+    Metadata:
+      title           : Korean (forced)
+      BPS             : 0
+      DURATION        : 01:01:03.410000000
+      NUMBER_OF_FRAMES: 9
+      NUMBER_OF_BYTES : 167
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:7(kor): Subtitle: subrip (srt)
+    Metadata:
+      title           : Korean
+      BPS             : 73
+      DURATION        : 01:00:58.154000000
+      NUMBER_OF_FRAMES: 1178
+      NUMBER_OF_BYTES : 33740
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:8(kor): Subtitle: subrip (srt)
+    Metadata:
+      title           : Korean (SDH)
+      BPS             : 84
+      DURATION        : 01:02:34.250000000
+      NUMBER_OF_FRAMES: 1294
+      NUMBER_OF_BYTES : 39525
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:9(ara): Subtitle: subrip (srt)
+    Metadata:
+      title           : Arabic
+      BPS             : 100
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1025
+      NUMBER_OF_BYTES : 46671
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:10(cze): Subtitle: subrip (srt)
+    Metadata:
+      title           : Czech
+      BPS             : 56
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1024
+      NUMBER_OF_BYTES : 26246
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:11(dan): Subtitle: subrip (srt)
+    Metadata:
+      title           : Danish
+      BPS             : 55
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1016
+      NUMBER_OF_BYTES : 25866
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:12(ger): Subtitle: subrip (srt)
+    Metadata:
+      title           : German
+      BPS             : 63
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1015
+      NUMBER_OF_BYTES : 29502
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:13(gre): Subtitle: subrip (srt)
+    Metadata:
+      title           : Greek
+      BPS             : 98
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1021
+      NUMBER_OF_BYTES : 45674
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:14(spa): Subtitle: subrip (srt)
+    Metadata:
+      title           : Spanish (Latin America)
+      BPS             : 59
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1022
+      NUMBER_OF_BYTES : 27685
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:15(spa): Subtitle: subrip (srt)
+    Metadata:
+      title           : Spanish (Spain)
+      BPS             : 59
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1024
+      NUMBER_OF_BYTES : 27834
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:16(fin): Subtitle: subrip (srt)
+    Metadata:
+      title           : Finnish
+      BPS             : 56
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1016
+      NUMBER_OF_BYTES : 26430
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:17(fil): Subtitle: subrip (srt)
+    Metadata:
+      title           : Filipino
+      BPS             : 55
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1020
+      NUMBER_OF_BYTES : 25956
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:18(fre): Subtitle: subrip (srt)
+    Metadata:
+      title           : French
+      BPS             : 55
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1013
+      NUMBER_OF_BYTES : 25705
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:19(heb): Subtitle: subrip (srt)
+    Metadata:
+      title           : Hebrew
+      BPS             : 91
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1028
+      NUMBER_OF_BYTES : 42484
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:20(hrv): Subtitle: subrip (srt)
+    Metadata:
+      title           : Croatian
+      BPS             : 56
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1026
+      NUMBER_OF_BYTES : 26439
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:21(hun): Subtitle: subrip (srt)
+    Metadata:
+      title           : Hungarian
+      BPS             : 62
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1017
+      NUMBER_OF_BYTES : 28818
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:22(ind): Subtitle: subrip (srt)
+    Metadata:
+      title           : Indonesian
+      BPS             : 55
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1043
+      NUMBER_OF_BYTES : 25603
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:23(ita): Subtitle: subrip (srt)
+    Metadata:
+      title           : Italian
+      BPS             : 57
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1023
+      NUMBER_OF_BYTES : 26820
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:24(jpn): Subtitle: subrip (srt)
+    Metadata:
+      title           : Japanese
+      BPS             : 58
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 982
+      NUMBER_OF_BYTES : 27051
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:25(may): Subtitle: subrip (srt)
+    Metadata:
+      title           : Malay
+      BPS             : 57
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1027
+      NUMBER_OF_BYTES : 26583
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:26(nob): Subtitle: subrip (srt)
+    Metadata:
+      title           : Norwegian
+      BPS             : 58
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1027
+      NUMBER_OF_BYTES : 27325
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:27(dut): Subtitle: subrip (srt)
+    Metadata:
+      title           : Dutch
+      BPS             : 55
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1011
+      NUMBER_OF_BYTES : 25963
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:28(pol): Subtitle: subrip (srt)
+    Metadata:
+      title           : Polish
+      BPS             : 54
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1017
+      NUMBER_OF_BYTES : 25215
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:29(por): Subtitle: subrip (srt)
+    Metadata:
+      title           : Portuguese (Portugal)
+      BPS             : 59
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1026
+      NUMBER_OF_BYTES : 27495
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:30(por): Subtitle: subrip (srt)
+    Metadata:
+      title           : Portuguese (Brazil)
+      BPS             : 58
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1022
+      NUMBER_OF_BYTES : 26989
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:31(rum): Subtitle: subrip (srt)
+    Metadata:
+      title           : Romanian
+      BPS             : 59
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1015
+      NUMBER_OF_BYTES : 27572
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:32(rus): Subtitle: subrip (srt)
+    Metadata:
+      title           : Russian
+      BPS             : 100
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1028
+      NUMBER_OF_BYTES : 46506
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:33(swe): Subtitle: subrip (srt)
+    Metadata:
+      title           : Swedish
+      BPS             : 58
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1015
+      NUMBER_OF_BYTES : 27302
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:34(tha): Subtitle: subrip (srt)
+    Metadata:
+      title           : Thai
+      BPS             : 168
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1046
+      NUMBER_OF_BYTES : 78241
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:35(tur): Subtitle: subrip (srt)
+    Metadata:
+      title           : Turkish
+      BPS             : 60
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1023
+      NUMBER_OF_BYTES : 27898
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:36(ukr): Subtitle: subrip (srt)
+    Metadata:
+      title           : Ukrainian
+      BPS             : 101
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1024
+      NUMBER_OF_BYTES : 47165
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:37(vie): Subtitle: subrip (srt)
+    Metadata:
+      title           : Vietnamese
+      BPS             : 78
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1047
+      NUMBER_OF_BYTES : 36318
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:38(chi): Subtitle: subrip (srt)
+    Metadata:
+      title           : Chinese (Traditional)
+      BPS             : 60
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1028
+      NUMBER_OF_BYTES : 28027
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:39(chi): Subtitle: subrip (srt)
+    Metadata:
+      title           : Chinese (Simplified)
+      BPS             : 51
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1028
+      NUMBER_OF_BYTES : 23758
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> h264 (libx264))
+  Stream #0:1 -> #0:1 (aac (native) -> aac (native))
+Press [q] to stop, [?] for help
+[libx264 @ 00000202e97d2100] using SAR=1/1
+[libx264 @ 00000202e97d2100] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+[libx264 @ 00000202e97d2100] profile Constrained Baseline, level 4.0, 4:2:0, 8-bit
+[libx264 @ 00000202e97d2100] 264 - core 165 r3223 0480cb0 - H.264/MPEG-4 AVC codec - Copyleft 2003-2025 - http://www.videolan.org/x264.html - options: cabac=0 ref=1 deblock=0:0:0 analyse=0:0 me=dia subme=0 psy=1 psy_rd=1.00:0.00 mixed_ref=0 me_range=16 chroma_me=1 trellis=0 8x8dct=0 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=0 threads=34 lookahead_threads=5 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=0 weightp=0 keyint=250 keyint_min=25 scenecut=0 intra_refresh=0 rc=crf mbtree=0 crf=22.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=0
+Output #0, mp4, to 'C:\Users\SHARKG~1.SHA\AppData\Local\Temp\drama_evidence_mwekol52\piece_008.mp4':
+  Metadata:
+    MOVIE/ENCODER   : Lavf60.18.100
+    encoder         : Lavf62.12.100
+  Stream #0:0: Video: h264 (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1920x1080 [SAR 1:1 DAR 16:9], q=2-31, 30 fps, 15360 tbn (default)
+    Metadata:
+      encoder         : Lavc62.28.100 libx264
+      BPS             : 4913887
+      DURATION        : 01:03:44.571000000
+      NUMBER_OF_FRAMES: 91698
+      NUMBER_OF_BYTES : 2349188818
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+    Side data:
+      CPB properties: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+  Stream #0:1(kor): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 160 kb/s (default)
+    Metadata:
+      encoder         : Lavc62.28.100 aac
+      BPS             : 127999
+      DURATION        : 01:03:44.640000000
+      NUMBER_OF_FRAMES: 89640
+      NUMBER_OF_BYTES : 61194239
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+frame=  199 fps=0.0 q=19.0 size=    2560KiB time=00:00:06.63 bitrate=3161.6kbits/s speed=12.9x elapsed=0:00:00.51    
+[mp4 @ 00000202e97be740] Starting second pass: moving the moov atom to the beginning of the file
+[out#0/mp4 @ 00000202e9bdd980] video:5943KiB audio:293KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.240800%
+frame=  449 fps=0.0 q=-1.0 Lsize=    6251KiB time=00:00:14.96 bitrate=3421.6kbits/s speed=16.9x elapsed=0:00:00.88    
+[libx264 @ 00000202e97d2100] frame I:2     Avg QP:17.00  size: 92774
+[libx264 @ 00000202e97d2100] frame P:447   Avg QP:18.35  size: 13198
+[libx264 @ 00000202e97d2100] mb I  I16..4: 100.0%  0.0%  0.0%
+[libx264 @ 00000202e97d2100] mb P  I16..4:  4.1%  0.0%  0.0%  P16..4: 27.4%  0.0%  0.0%  0.0%  0.0%    skip:68.5%
+[libx264 @ 00000202e97d2100] coded y,uvDC,uvAC intra: 15.5% 46.5% 8.4% inter: 7.1% 14.6% 0.2%
+[libx264 @ 00000202e97d2100] i16 v,h,dc,p: 51% 25%  9% 15%
+[libx264 @ 00000202e97d2100] i8c dc,h,v,p: 47% 21% 26%  6%
+[libx264 @ 00000202e97d2100] kb/s:3252.56
+[aac @ 00000202ea0730c0] Qavg: 829.172
+ffmpeg version 8.1-full_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers
+  built with gcc 15.2.0 (Rev11, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-cairo --enable-fontconfig --enable-iconv --enable-gnutls --enable-lcms2 --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-libsnappy --enable-zlib --enable-librist --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-libbluray --enable-libcaca --enable-libdvdnav --enable-libdvdread --enable-sdl2 --enable-libaribb24 --enable-libaribcaption --enable-libdav1d --enable-libdavs2 --enable-libopenjpeg --enable-libquirc --enable-libuavs3d --enable-libxevd --enable-libzvbi --enable-liboapv --enable-libqrencode --enable-librav1e --enable-libsvtav1 --enable-libvvenc --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxavs2 --enable-libxeve --enable-libxvid --enable-libaom --enable-libjxl --enable-libsvtjpegxs --enable-libvpx --enable-mediafoundation --enable-libass --enable-frei0r --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-liblensfun --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-dxva2 --enable-d3d11va --enable-d3d12va --enable-ffnvcodec --enable-libvpl --enable-nvdec --enable-nvenc --enable-vaapi --enable-libshaderc --enable-vulkan --enable-libplacebo --enable-opencl --enable-libcdio --enable-openal --enable-libgme --enable-libmodplug --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libshine --enable-libtheora --enable-libtwolame --enable-libvo-amrwbenc --enable-libcodec2 --enable-libilbc --enable-libgsm --enable-liblc3 --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-ladspa --enable-libbs2b --enable-libflite --enable-libmysofa --enable-librubberband --enable-libsoxr --enable-chromaprint --enable-whisper
+  libavutil      60. 26.100 / 60. 26.100
+  libavcodec     62. 28.100 / 62. 28.100
+  libavformat    62. 12.100 / 62. 12.100
+  libavdevice    62.  3.100 / 62.  3.100
+  libavfilter    11. 14.100 / 11. 14.100
+  libswscale      9.  5.100 /  9.  5.100
+  libswresample   6.  3.100 /  6.  3.100
+Input #0, matroska,webm, from 'L:\BaiduNetdiskDownload\公寓黑风暴 아파트 (2026)\The.Apartment.Job.S01E01.2026.1080p.NF.WEB-DL.AAC2.0.H.264.mkv':
+  Metadata:
+    encoder         : libebml v1.4.5 + libmatroska v1.7.1
+    MOVIE/ENCODER   : Lavf60.18.100
+  Duration: 01:03:44.64, start: 0.000000, bitrate: 5177 kb/s
+  Stream #0:0: Video: h264 (Main), yuv420p(tv, bt709, progressive), 1920x1080 [SAR 1:1 DAR 16:9], 23.98 fps, 23.98 tbr, 1k tbn (default)
+    Metadata:
+      BPS             : 4913887
+      DURATION        : 01:03:44.571000000
+      NUMBER_OF_FRAMES: 91698
+      NUMBER_OF_BYTES : 2349188818
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:1(kor): Audio: aac (HE-AAC), 48000 Hz, stereo, fltp (default)
+    Metadata:
+      BPS             : 127999
+      DURATION        : 01:03:44.640000000
+      NUMBER_OF_FRAMES: 89640
+      NUMBER_OF_BYTES : 61194239
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:2(eng): Audio: aac (HE-AAC), 48000 Hz, stereo, fltp
+    Metadata:
+      BPS             : 127999
+      DURATION        : 01:03:44.640000000
+      NUMBER_OF_FRAMES: 89640
+      NUMBER_OF_BYTES : 61194239
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:3(eng): Subtitle: subrip (srt) (default) (forced)
+    Metadata:
+      title           : English
+      BPS             : 62
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1015
+      NUMBER_OF_BYTES : 29264
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:4(eng): Subtitle: subrip (srt)
+    Metadata:
+      title           : English (forced)
+      BPS             : 4
+      DURATION        : 01:01:19.926000000
+      NUMBER_OF_FRAMES: 69
+      NUMBER_OF_BYTES : 2020
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:5(eng): Subtitle: subrip (srt)
+    Metadata:
+      title           : English (dub)
+      BPS             : 81
+      DURATION        : 01:01:54.544000000
+      NUMBER_OF_FRAMES: 1040
+      NUMBER_OF_BYTES : 38047
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:6(kor): Subtitle: subrip (srt)
+    Metadata:
+      title           : Korean (forced)
+      BPS             : 0
+      DURATION        : 01:01:03.410000000
+      NUMBER_OF_FRAMES: 9
+      NUMBER_OF_BYTES : 167
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:7(kor): Subtitle: subrip (srt)
+    Metadata:
+      title           : Korean
+      BPS             : 73
+      DURATION        : 01:00:58.154000000
+      NUMBER_OF_FRAMES: 1178
+      NUMBER_OF_BYTES : 33740
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:8(kor): Subtitle: subrip (srt)
+    Metadata:
+      title           : Korean (SDH)
+      BPS             : 84
+      DURATION        : 01:02:34.250000000
+      NUMBER_OF_FRAMES: 1294
+      NUMBER_OF_BYTES : 39525
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:9(ara): Subtitle: subrip (srt)
+    Metadata:
+      title           : Arabic
+      BPS             : 100
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1025
+      NUMBER_OF_BYTES : 46671
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:10(cze): Subtitle: subrip (srt)
+    Metadata:
+      title           : Czech
+      BPS             : 56
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1024
+      NUMBER_OF_BYTES : 26246
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:11(dan): Subtitle: subrip (srt)
+    Metadata:
+      title           : Danish
+      BPS             : 55
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1016
+      NUMBER_OF_BYTES : 25866
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:12(ger): Subtitle: subrip (srt)
+    Metadata:
+      title           : German
+      BPS             : 63
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1015
+      NUMBER_OF_BYTES : 29502
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:13(gre): Subtitle: subrip (srt)
+    Metadata:
+      title           : Greek
+      BPS             : 98
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1021
+      NUMBER_OF_BYTES : 45674
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:14(spa): Subtitle: subrip (srt)
+    Metadata:
+      title           : Spanish (Latin America)
+      BPS             : 59
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1022
+      NUMBER_OF_BYTES : 27685
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:15(spa): Subtitle: subrip (srt)
+    Metadata:
+      title           : Spanish (Spain)
+      BPS             : 59
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1024
+      NUMBER_OF_BYTES : 27834
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:16(fin): Subtitle: subrip (srt)
+    Metadata:
+      title           : Finnish
+      BPS             : 56
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1016
+      NUMBER_OF_BYTES : 26430
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:17(fil): Subtitle: subrip (srt)
+    Metadata:
+      title           : Filipino
+      BPS             : 55
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1020
+      NUMBER_OF_BYTES : 25956
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:18(fre): Subtitle: subrip (srt)
+    Metadata:
+      title           : French
+      BPS             : 55
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1013
+      NUMBER_OF_BYTES : 25705
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:19(heb): Subtitle: subrip (srt)
+    Metadata:
+      title           : Hebrew
+      BPS             : 91
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1028
+      NUMBER_OF_BYTES : 42484
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:20(hrv): Subtitle: subrip (srt)
+    Metadata:
+      title           : Croatian
+      BPS             : 56
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1026
+      NUMBER_OF_BYTES : 26439
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:21(hun): Subtitle: subrip (srt)
+    Metadata:
+      title           : Hungarian
+      BPS             : 62
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1017
+      NUMBER_OF_BYTES : 28818
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:22(ind): Subtitle: subrip (srt)
+    Metadata:
+      title           : Indonesian
+      BPS             : 55
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1043
+      NUMBER_OF_BYTES : 25603
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:23(ita): Subtitle: subrip (srt)
+    Metadata:
+      title           : Italian
+      BPS             : 57
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1023
+      NUMBER_OF_BYTES : 26820
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:24(jpn): Subtitle: subrip (srt)
+    Metadata:
+      title           : Japanese
+      BPS             : 58
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 982
+      NUMBER_OF_BYTES : 27051
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:25(may): Subtitle: subrip (srt)
+    Metadata:
+      title           : Malay
+      BPS             : 57
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1027
+      NUMBER_OF_BYTES : 26583
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:26(nob): Subtitle: subrip (srt)
+    Metadata:
+      title           : Norwegian
+      BPS             : 58
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1027
+      NUMBER_OF_BYTES : 27325
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:27(dut): Subtitle: subrip (srt)
+    Metadata:
+      title           : Dutch
+      BPS             : 55
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1011
+      NUMBER_OF_BYTES : 25963
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:28(pol): Subtitle: subrip (srt)
+    Metadata:
+      title           : Polish
+      BPS             : 54
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1017
+      NUMBER_OF_BYTES : 25215
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:29(por): Subtitle: subrip (srt)
+    Metadata:
+      title           : Portuguese (Portugal)
+      BPS             : 59
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1026
+      NUMBER_OF_BYTES : 27495
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:30(por): Subtitle: subrip (srt)
+    Metadata:
+      title           : Portuguese (Brazil)
+      BPS             : 58
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1022
+      NUMBER_OF_BYTES : 26989
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:31(rum): Subtitle: subrip (srt)
+    Metadata:
+      title           : Romanian
+      BPS             : 59
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1015
+      NUMBER_OF_BYTES : 27572
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:32(rus): Subtitle: subrip (srt)
+    Metadata:
+      title           : Russian
+      BPS             : 100
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1028
+      NUMBER_OF_BYTES : 46506
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:33(swe): Subtitle: subrip (srt)
+    Metadata:
+      title           : Swedish
+      BPS             : 58
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1015
+      NUMBER_OF_BYTES : 27302
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:34(tha): Subtitle: subrip (srt)
+    Metadata:
+      title           : Thai
+      BPS             : 168
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1046
+      NUMBER_OF_BYTES : 78241
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:35(tur): Subtitle: subrip (srt)
+    Metadata:
+      title           : Turkish
+      BPS             : 60
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1023
+      NUMBER_OF_BYTES : 27898
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:36(ukr): Subtitle: subrip (srt)
+    Metadata:
+      title           : Ukrainian
+      BPS             : 101
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1024
+      NUMBER_OF_BYTES : 47165
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:37(vie): Subtitle: subrip (srt)
+    Metadata:
+      title           : Vietnamese
+      BPS             : 78
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1047
+      NUMBER_OF_BYTES : 36318
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:38(chi): Subtitle: subrip (srt)
+    Metadata:
+      title           : Chinese (Traditional)
+      BPS             : 60
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1028
+      NUMBER_OF_BYTES : 28027
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+  Stream #0:39(chi): Subtitle: subrip (srt)
+    Metadata:
+      title           : Chinese (Simplified)
+      BPS             : 51
+      DURATION        : 01:01:57.839000000
+      NUMBER_OF_FRAMES: 1028
+      NUMBER_OF_BYTES : 23758
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> h264 (libx264))
+  Stream #0:1 -> #0:1 (aac (native) -> aac (native))
+Press [q] to stop, [?] for help
+[libx264 @ 00000239a89656c0] using SAR=1/1
+[libx264 @ 00000239a89656c0] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+[libx264 @ 00000239a89656c0] profile Constrained Baseline, level 4.0, 4:2:0, 8-bit
+[libx264 @ 00000239a89656c0] 264 - core 165 r3223 0480cb0 - H.264/MPEG-4 AVC codec - Copyleft 2003-2025 - http://www.videolan.org/x264.html - options: cabac=0 ref=1 deblock=0:0:0 analyse=0:0 me=dia subme=0 psy=1 psy_rd=1.00:0.00 mixed_ref=0 me_range=16 chroma_me=1 trellis=0 8x8dct=0 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=0 threads=34 lookahead_threads=5 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=0 weightp=0 keyint=250 keyint_min=25 scenecut=0 intra_refresh=0 rc=crf mbtree=0 crf=22.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=0
+Output #0, mp4, to 'C:\Users\SHARKG~1.SHA\AppData\Local\Temp\drama_evidence_mwekol52\piece_009.mp4':
+  Metadata:
+    MOVIE/ENCODER   : Lavf60.18.100
+    encoder         : Lavf62.12.100
+  Stream #0:0: Video: h264 (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1920x1080 [SAR 1:1 DAR 16:9], q=2-31, 30 fps, 15360 tbn (default)
+    Metadata:
+      encoder         : Lavc62.28.100 libx264
+      BPS             : 4913887
+      DURATION        : 01:03:44.571000000
+      NUMBER_OF_FRAMES: 91698
+      NUMBER_OF_BYTES : 2349188818
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+    Side data:
+      CPB properties: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+  Stream #0:1(kor): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 160 kb/s (default)
+    Metadata:
+      encoder         : Lavc62.28.100 aac
+      BPS             : 127999
+      DURATION        : 01:03:44.640000000
+      NUMBER_OF_FRAMES: 89640
+      NUMBER_OF_BYTES : 61194239
+      _STATISTICS_WRITING_APP: mkvmerge v98.0 ('Chonks') 64-bit
+      _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+frame=  186 fps=0.0 q=18.0 size=    3584KiB time=00:00:06.20 bitrate=4735.6kbits/s speed=12.3x elapsed=0:00:00.50    
+frame=  518 fps=506 q=17.0 size=    9472KiB time=00:00:17.26 bitrate=4493.9kbits/s speed=16.9x elapsed=0:00:01.02    
+frame=  815 fps=528 q=20.0 size=   14080KiB time=00:00:27.16 bitrate=4245.8kbits/s speed=17.6x elapsed=0:00:01.54    
+[mp4 @ 00000239a8d99d00] Starting second pass: moving the moov atom to the beginning of the file
+[out#0/mp4 @ 00000239a9698340] video:17157KiB audio:689KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.186134%
+frame= 1051 fps=552 q=-1.0 Lsize=   17878KiB time=00:00:35.03 bitrate=4180.6kbits/s speed=18.4x elapsed=0:00:01.90    
+[libx264 @ 00000239a89656c0] frame I:5     Avg QP:16.40  size: 92142
+[libx264 @ 00000239a89656c0] frame P:1046  Avg QP:18.89  size: 16355
+[libx264 @ 00000239a89656c0] mb I  I16..4: 100.0%  0.0%  0.0%
+[libx264 @ 00000239a89656c0] mb P  I16..4:  5.6%  0.0%  0.0%  P16..4: 28.4%  0.0%  0.0%  0.0%  0.0%    skip:66.0%
+[libx264 @ 00000239a89656c0] coded y,uvDC,uvAC intra: 19.8% 40.4% 6.9% inter: 8.7% 11.9% 0.2%
+[libx264 @ 00000239a89656c0] i16 v,h,dc,p: 47% 23% 11% 19%
+[libx264 @ 00000239a89656c0] i8c dc,h,v,p: 45% 21% 25%  8%
+[libx264 @ 00000239a89656c0] kb/s:4011.66
+[aac @ 00000239a941c280] Qavg: 781.922
+ffmpeg version 8.1-full_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers
+  built with gcc 15.2.0 (Rev11, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-cairo --enable-fontconfig --enable-iconv --enable-gnutls --enable-lcms2 --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-libsnappy --enable-zlib --enable-librist --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-libbluray --enable-libcaca --enable-libdvdnav --enable-libdvdread --enable-sdl2 --enable-libaribb24 --enable-libaribcaption --enable-libdav1d --enable-libdavs2 --enable-libopenjpeg --enable-libquirc --enable-libuavs3d --enable-libxevd --enable-libzvbi --enable-liboapv --enable-libqrencode --enable-librav1e --enable-libsvtav1 --enable-libvvenc --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxavs2 --enable-libxeve --enable-libxvid --enable-libaom --enable-libjxl --enable-libsvtjpegxs --enable-libvpx --enable-mediafoundation --enable-libass --enable-frei0r --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-liblensfun --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-dxva2 --enable-d3d11va --enable-d3d12va --enable-ffnvcodec --enable-libvpl --enable-nvdec --enable-nvenc --enable-vaapi --enable-libshaderc --enable-vulkan --enable-libplacebo --enable-opencl --enable-libcdio --enable-openal --enable-libgme --enable-libmodplug --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libshine --enable-libtheora --enable-libtwolame --enable-libvo-amrwbenc --enable-libcodec2 --enable-libilbc --enable-libgsm --enable-liblc3 --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-ladspa --enable-libbs2b --enable-libflite --enable-libmysofa --enable-librubberband --enable-libsoxr --enable-chromaprint --enable-whisper
+  libavutil      60. 26.100 / 60. 26.100
+  libavcodec     62. 28.100 / 62. 28.100
+  libavformat    62. 12.100 / 62. 12.100
+  libavdevice    62.  3.100 / 62.  3.100
+  libavfilter    11. 14.100 / 11. 14.100
+  libswscale      9.  5.100 /  9.  5.100
+  libswresample   6.  3.100 /  6.  3.100
+Input #0, png_pipe, from 'L:\workspace\yinghe-shijie\videos\analysis\The.Apartment.Job.S01E01\cards\closing_card.png':
+  Duration: N/A, bitrate: N/A
+  Stream #0:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 25 fps, 25 tbr, 25 tbn
+Input #1, lavfi, from 'anullsrc=channel_layout=stereo:sample_rate=44100':
+  Duration: N/A, start: 0.000000, bitrate: 705 kb/s
+  Stream #1:0: Audio: pcm_u8, 44100 Hz, stereo, u8, 705 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (png (native) -> h264 (libx264))
+  Stream #1:0 -> #0:1 (pcm_u8 (native) -> aac (native))
+Press [q] to stop, [?] for help
+[libx264 @ 0000016328fb0380] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+[libx264 @ 0000016328fb0380] profile Constrained Baseline, level 4.0, 4:2:0, 8-bit
+[libx264 @ 0000016328fb0380] 264 - core 165 r3223 0480cb0 - H.264/MPEG-4 AVC codec - Copyleft 2003-2025 - http://www.videolan.org/x264.html - options: cabac=0 ref=1 deblock=0:0:0 analyse=0:0 me=dia subme=0 psy=1 psy_rd=1.00:0.00 mixed_ref=0 me_range=16 chroma_me=1 trellis=0 8x8dct=0 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=0 threads=34 lookahead_threads=5 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=0 weightp=0 keyint=250 keyint_min=25 scenecut=0 intra_refresh=0 rc=crf mbtree=0 crf=22.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=0
+Output #0, mp4, to 'C:\Users\SHARKG~1.SHA\AppData\Local\Temp\drama_evidence_mwekol52\piece_010.mp4':
+  Metadata:
+    encoder         : Lavf62.12.100
+  Stream #0:0: Video: h264 (avc1 / 0x31637661), yuv420p(tv, progressive), 1920x1080, q=2-31, 30 fps, 15360 tbn
+    Metadata:
+      encoder         : Lavc62.28.100 libx264
+    Side data:
+      CPB properties: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+  Stream #0:1: Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 160 kb/s
+    Metadata:
+      encoder         : Lavc62.28.100 aac
+[out#0/mp4 @ 0000016328cfd780] video:283KiB audio:1KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 1.939545%
+frame=  150 fps=0.0 q=-1.0 Lsize=     290KiB time=00:00:05.00 bitrate= 474.5kbits/s speed=15.5x elapsed=0:00:00.32    
+[libx264 @ 0000016328fb0380] frame I:1     Avg QP:19.00  size: 55736
+[libx264 @ 0000016328fb0380] frame P:149   Avg QP:12.16  size:  1565
+[libx264 @ 0000016328fb0380] mb I  I16..4: 100.0%  0.0%  0.0%
+[libx264 @ 0000016328fb0380] mb P  I16..4:  2.3%  0.0%  0.0%  P16..4:  4.1%  0.0%  0.0%  0.0%  0.0%    skip:93.6%
+[libx264 @ 0000016328fb0380] coded y,uvDC,uvAC intra: 1.6% 7.6% 5.9% inter: 1.0% 1.9% 0.1%
+[libx264 @ 0000016328fb0380] i16 v,h,dc,p: 91%  9%  0%  0%
+[libx264 @ 0000016328fb0380] i8c dc,h,v,p: 28% 64%  8%  0%
+[libx264 @ 0000016328fb0380] kb/s:462.36
+[aac @ 000001632833af40] Qavg: 65536.000
+ffmpeg version 8.1-full_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers
+  built with gcc 15.2.0 (Rev11, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-cairo --enable-fontconfig --enable-iconv --enable-gnutls --enable-lcms2 --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-libsnappy --enable-zlib --enable-librist --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-libbluray --enable-libcaca --enable-libdvdnav --enable-libdvdread --enable-sdl2 --enable-libaribb24 --enable-libaribcaption --enable-libdav1d --enable-libdavs2 --enable-libopenjpeg --enable-libquirc --enable-libuavs3d --enable-libxevd --enable-libzvbi --enable-liboapv --enable-libqrencode --enable-librav1e --enable-libsvtav1 --enable-libvvenc --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxavs2 --enable-libxeve --enable-libxvid --enable-libaom --enable-libjxl --enable-libsvtjpegxs --enable-libvpx --enable-mediafoundation --enable-libass --enable-frei0r --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-liblensfun --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-dxva2 --enable-d3d11va --enable-d3d12va --enable-ffnvcodec --enable-libvpl --enable-nvdec --enable-nvenc --enable-vaapi --enable-libshaderc --enable-vulkan --enable-libplacebo --enable-opencl --enable-libcdio --enable-openal --enable-libgme --enable-libmodplug --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libshine --enable-libtheora --enable-libtwolame --enable-libvo-amrwbenc --enable-libcodec2 --enable-libilbc --enable-libgsm --enable-liblc3 --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-ladspa --enable-libbs2b --enable-libflite --enable-libmysofa --enable-librubberband --enable-libsoxr --enable-chromaprint --enable-whisper
+  libavutil      60. 26.100 / 60. 26.100
+  libavcodec     62. 28.100 / 62. 28.100
+  libavformat    62. 12.100 / 62. 12.100
+  libavdevice    62.  3.100 / 62.  3.100
+  libavfilter    11. 14.100 / 11. 14.100
+  libswscale      9.  5.100 /  9.  5.100
+  libswresample   6.  3.100 /  6.  3.100
+[mov,mp4,m4a,3gp,3g2,mj2 @ 000002a3ba9e64c0] Auto-inserting h264_mp4toannexb bitstream filter
+Input #0, concat, from 'C:\Users\SHARKG~1.SHA\AppData\Local\Temp\drama_evidence_mwekol52\concat.txt':
+  Duration: N/A, start: -0.023220, bitrate: 3278 kb/s
+  Stream #0:0(und): Video: h264 (Constrained Baseline) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1920x1080 [SAR 1:1 DAR 16:9], 3116 kb/s, 30 fps, 30 tbr, 15360 tbn
+    Metadata:
+      handler_name    : VideoHandler
+      encoder         : Lavc62.28.100 libx264
+  Stream #0:1(kor): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 161 kb/s, start -0.023220
+    Metadata:
+      handler_name    : SoundHandler
+Stream mapping:
+  Stream #0:0 -> #0:0 (copy)
+  Stream #0:1 -> #0:1 (copy)
+Output #0, mp4, to 'L:\workspace\yinghe-shijie\videos\analysis\The.Apartment.Job.S01E01\third_story_proxy.mp4':
+  Metadata:
+    encoder         : Lavf62.12.100
+  Stream #0:0(und): Video: h264 (Constrained Baseline) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1920x1080 [SAR 1:1 DAR 16:9], q=2-31, 3116 kb/s, 30 fps, 30 tbr, 15360 tbn
+    Metadata:
+      handler_name    : VideoHandler
+      encoder         : Lavc62.28.100 libx264
+  Stream #0:1(kor): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 161 kb/s
+    Metadata:
+      handler_name    : SoundHandler
+Press [q] to stop, [?] for help
+[mov,mp4,m4a,3gp,3g2,mj2 @ 000002a3baa6ed40] Auto-inserting h264_mp4toannexb bitstream filter
+[aost#0:1/copy @ 000002a3baef6680] Non-monotonic DTS; previous: 732160, current: 732060; changing to 732161. This may result in incorrect timestamps in the output file.
+[mov,mp4,m4a,3gp,3g2,mj2 @ 000002a3baa6ed40] Auto-inserting h264_mp4toannexb bitstream filter
+[aost#0:1/copy @ 000002a3baef6680] Non-monotonic DTS; previous: 909212, current: 908460; changing to 909213. This may result in incorrect timestamps in the output file.
+[mov,mp4,m4a,3gp,3g2,mj2 @ 000002a3baa6ed40] Auto-inserting h264_mp4toannexb bitstream filter
+    Last message repeated 1 times
+[aost#0:1/copy @ 000002a3baef6680] Non-monotonic DTS; previous: 3389102, current: 3388350; changing to 3389103. This may result in incorrect timestamps in the output file.
+[mov,mp4,m4a,3gp,3g2,mj2 @ 000002a3baa6ed40] Auto-inserting h264_mp4toannexb bitstream filter
+[aost#0:1/copy @ 000002a3baef6680] Non-monotonic DTS; previous: 4452315, current: 4451513; changing to 4452316. This may result in incorrect timestamps in the output file.
+[mov,mp4,m4a,3gp,3g2,mj2 @ 000002a3baa6ed40] Auto-inserting h264_mp4toannexb bitstream filter
+[aost#0:1/copy @ 000002a3baef6680] Non-monotonic DTS; previous: 7213226, current: 7212349; changing to 7213227. This may result in incorrect timestamps in the output file.
+[mov,mp4,m4a,3gp,3g2,mj2 @ 000002a3baa6ed40] Auto-inserting h264_mp4toannexb bitstream filter
+[aost#0:1/copy @ 000002a3baef6680] Non-monotonic DTS; previous: 8224046, current: 8223915; changing to 8224047. This may result in incorrect timestamps in the output file.
+[mov,mp4,m4a,3gp,3g2,mj2 @ 000002a3baa6ed40] Auto-inserting h264_mp4toannexb bitstream filter
+[aost#0:1/copy @ 000002a3baef6680] Non-monotonic DTS; previous: 8884410, current: 8884224; changing to 8884411. This may result in incorrect timestamps in the output file.
+[mov,mp4,m4a,3gp,3g2,mj2 @ 000002a3baa6a340] Auto-inserting h264_mp4toannexb bitstream filter
+[aost#0:1/copy @ 000002a3baef6680] Non-monotonic DTS; previous: 10429425, current: 10429268; changing to 10429426. This may result in incorrect timestamps in the output file.
+[mp4 @ 000002a3baf05840] Starting second pass: moving the moov atom to the beginning of the file
+[out#0/mp4 @ 000002a3baf0c540] video:117893KiB audio:4486KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.179981%
+frame= 7244 fps=0.0 q=-1.0 Lsize=  122599KiB time=00:04:01.51 bitrate=4158.5kbits/s speed= 810x elapsed=0:00:00.29    
+L:\workspace\yinghe-shijie\videos\analysis\The.Apartment.Job.S01E01\third_story_proxy.mp4
+L:\workspace\yinghe-shijie\videos\analysis\The.Apartment.Job.S01E01\third_story_proxy_metadata.json

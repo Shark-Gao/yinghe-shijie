@@ -1,0 +1,385 @@
+{
+  "version": 1,
+  "timeline": "L:\\workspace\\yinghe-shijie\\outputs\\audio\\A10_中文字幕直读时间线.json",
+  "output_audio": "L:\\workspace\\yinghe-shijie\\outputs\\audio\\A10_中文字幕直读_Yunyang.mp3",
+  "segments": [
+    {
+      "id": "subtitle_001",
+      "start": "00:00:00.000",
+      "end": "00:00:13.896",
+      "audio_duration": 13.896
+    },
+    {
+      "id": "subtitle_002",
+      "start": "00:00:14.096",
+      "end": "00:00:29.480",
+      "audio_duration": 15.384
+    },
+    {
+      "id": "subtitle_003",
+      "start": "00:00:29.680",
+      "end": "00:00:43.120",
+      "audio_duration": 13.44
+    },
+    {
+      "id": "subtitle_004",
+      "start": "00:00:43.320",
+      "end": "00:00:58.296",
+      "audio_duration": 14.976
+    },
+    {
+      "id": "subtitle_005",
+      "start": "00:00:58.496",
+      "end": "00:01:12.896",
+      "audio_duration": 14.4
+    },
+    {
+      "id": "subtitle_006",
+      "start": "00:01:13.096",
+      "end": "00:01:25.960",
+      "audio_duration": 12.864
+    },
+    {
+      "id": "subtitle_007",
+      "start": "00:01:26.160",
+      "end": "00:01:40.320",
+      "audio_duration": 14.16
+    },
+    {
+      "id": "subtitle_008",
+      "start": "00:01:40.520",
+      "end": "00:01:55.184",
+      "audio_duration": 14.664
+    },
+    {
+      "id": "subtitle_009",
+      "start": "00:01:55.384",
+      "end": "00:02:11.176",
+      "audio_duration": 15.792
+    },
+    {
+      "id": "subtitle_010",
+      "start": "00:02:11.376",
+      "end": "00:02:26.832",
+      "audio_duration": 15.456
+    },
+    {
+      "id": "subtitle_011",
+      "start": "00:02:27.032",
+      "end": "00:02:42.392",
+      "audio_duration": 15.36
+    },
+    {
+      "id": "subtitle_012",
+      "start": "00:02:42.592",
+      "end": "00:02:58.624",
+      "audio_duration": 16.032
+    },
+    {
+      "id": "subtitle_013",
+      "start": "00:02:58.824",
+      "end": "00:03:14.160",
+      "audio_duration": 15.336
+    },
+    {
+      "id": "subtitle_014",
+      "start": "00:03:14.360",
+      "end": "00:03:30.272",
+      "audio_duration": 15.912
+    },
+    {
+      "id": "subtitle_015",
+      "start": "00:03:30.472",
+      "end": "00:03:45.160",
+      "audio_duration": 14.688
+    },
+    {
+      "id": "subtitle_016",
+      "start": "00:03:45.360",
+      "end": "00:03:59.640",
+      "audio_duration": 14.28
+    },
+    {
+      "id": "subtitle_017",
+      "start": "00:03:59.840",
+      "end": "00:04:14.792",
+      "audio_duration": 14.952
+    },
+    {
+      "id": "subtitle_018",
+      "start": "00:04:14.992",
+      "end": "00:04:30.352",
+      "audio_duration": 15.36
+    },
+    {
+      "id": "subtitle_019",
+      "start": "00:04:30.552",
+      "end": "00:04:45.624",
+      "audio_duration": 15.072
+    },
+    {
+      "id": "subtitle_020",
+      "start": "00:04:45.824",
+      "end": "00:04:59.672",
+      "audio_duration": 13.848
+    },
+    {
+      "id": "subtitle_021",
+      "start": "00:04:59.872",
+      "end": "00:05:13.960",
+      "audio_duration": 14.088
+    },
+    {
+      "id": "subtitle_022",
+      "start": "00:05:14.160",
+      "end": "00:05:28.032",
+      "audio_duration": 13.872
+    },
+    {
+      "id": "subtitle_023",
+      "start": "00:05:28.232",
+      "end": "00:05:42.464",
+      "audio_duration": 14.232
+    },
+    {
+      "id": "subtitle_024",
+      "start": "00:05:42.664",
+      "end": "00:05:57.064",
+      "audio_duration": 14.4
+    },
+    {
+      "id": "subtitle_025",
+      "start": "00:05:57.264",
+      "end": "00:06:10.392",
+      "audio_duration": 13.128
+    },
+    {
+      "id": "subtitle_026",
+      "start": "00:06:10.592",
+      "end": "00:06:26.168",
+      "audio_duration": 15.576
+    },
+    {
+      "id": "subtitle_027",
+      "start": "00:06:26.368",
+      "end": "00:06:40.576",
+      "audio_duration": 14.208
+    },
+    {
+      "id": "subtitle_028",
+      "start": "00:06:40.776",
+      "end": "00:06:56.280",
+      "audio_duration": 15.504
+    },
+    {
+      "id": "subtitle_029",
+      "start": "00:06:56.480",
+      "end": "00:07:10.928",
+      "audio_duration": 14.448
+    },
+    {
+      "id": "subtitle_030",
+      "start": "00:07:11.128",
+      "end": "00:07:26.392",
+      "audio_duration": 15.264
+    },
+    {
+      "id": "subtitle_031",
+      "start": "00:07:26.592",
+      "end": "00:07:41.280",
+      "audio_duration": 14.688
+    },
+    {
+      "id": "subtitle_032",
+      "start": "00:07:41.480",
+      "end": "00:07:56.576",
+      "audio_duration": 15.096
+    },
+    {
+      "id": "subtitle_033",
+      "start": "00:07:56.776",
+      "end": "00:08:11.920",
+      "audio_duration": 15.144
+    },
+    {
+      "id": "subtitle_034",
+      "start": "00:08:12.120",
+      "end": "00:08:27.360",
+      "audio_duration": 15.24
+    },
+    {
+      "id": "subtitle_035",
+      "start": "00:08:27.560",
+      "end": "00:08:42.752",
+      "audio_duration": 15.192
+    },
+    {
+      "id": "subtitle_036",
+      "start": "00:08:42.952",
+      "end": "00:08:59.872",
+      "audio_duration": 16.92
+    },
+    {
+      "id": "subtitle_037",
+      "start": "00:09:00.072",
+      "end": "00:09:16.176",
+      "audio_duration": 16.104
+    },
+    {
+      "id": "subtitle_038",
+      "start": "00:09:16.376",
+      "end": "00:09:33.440",
+      "audio_duration": 17.064
+    },
+    {
+      "id": "subtitle_039",
+      "start": "00:09:33.640",
+      "end": "00:09:49.168",
+      "audio_duration": 15.528
+    },
+    {
+      "id": "subtitle_040",
+      "start": "00:09:49.368",
+      "end": "00:10:05.232",
+      "audio_duration": 15.864
+    },
+    {
+      "id": "subtitle_041",
+      "start": "00:10:05.432",
+      "end": "00:10:20.264",
+      "audio_duration": 14.832
+    },
+    {
+      "id": "subtitle_042",
+      "start": "00:10:20.464",
+      "end": "00:10:36.568",
+      "audio_duration": 16.104
+    },
+    {
+      "id": "subtitle_043",
+      "start": "00:10:36.768",
+      "end": "00:10:52.656",
+      "audio_duration": 15.888
+    },
+    {
+      "id": "subtitle_044",
+      "start": "00:10:52.856",
+      "end": "00:11:08.672",
+      "audio_duration": 15.816
+    },
+    {
+      "id": "subtitle_045",
+      "start": "00:11:08.872",
+      "end": "00:11:25.504",
+      "audio_duration": 16.632
+    },
+    {
+      "id": "subtitle_046",
+      "start": "00:11:25.704",
+      "end": "00:11:43.608",
+      "audio_duration": 17.904
+    },
+    {
+      "id": "subtitle_047",
+      "start": "00:11:43.808",
+      "end": "00:11:59.984",
+      "audio_duration": 16.176
+    },
+    {
+      "id": "subtitle_048",
+      "start": "00:12:00.184",
+      "end": "00:12:15.616",
+      "audio_duration": 15.432
+    },
+    {
+      "id": "subtitle_049",
+      "start": "00:12:15.816",
+      "end": "00:12:32.040",
+      "audio_duration": 16.224
+    },
+    {
+      "id": "subtitle_050",
+      "start": "00:12:32.240",
+      "end": "00:12:48.080",
+      "audio_duration": 15.84
+    },
+    {
+      "id": "subtitle_051",
+      "start": "00:12:48.280",
+      "end": "00:13:04.912",
+      "audio_duration": 16.632
+    },
+    {
+      "id": "subtitle_052",
+      "start": "00:13:05.112",
+      "end": "00:13:21.240",
+      "audio_duration": 16.128
+    },
+    {
+      "id": "subtitle_053",
+      "start": "00:13:21.440",
+      "end": "00:13:37.808",
+      "audio_duration": 16.368
+    },
+    {
+      "id": "subtitle_054",
+      "start": "00:13:38.008",
+      "end": "00:13:53.656",
+      "audio_duration": 15.648
+    },
+    {
+      "id": "subtitle_055",
+      "start": "00:13:53.856",
+      "end": "00:14:10.272",
+      "audio_duration": 16.416
+    },
+    {
+      "id": "subtitle_056",
+      "start": "00:14:10.472",
+      "end": "00:14:26.552",
+      "audio_duration": 16.08
+    },
+    {
+      "id": "subtitle_057",
+      "start": "00:14:26.752",
+      "end": "00:14:41.128",
+      "audio_duration": 14.376
+    },
+    {
+      "id": "subtitle_058",
+      "start": "00:14:41.328",
+      "end": "00:14:57.720",
+      "audio_duration": 16.392
+    },
+    {
+      "id": "subtitle_059",
+      "start": "00:14:57.920",
+      "end": "00:15:14.456",
+      "audio_duration": 16.536
+    },
+    {
+      "id": "subtitle_060",
+      "start": "00:15:14.656",
+      "end": "00:15:28.912",
+      "audio_duration": 14.256
+    },
+    {
+      "id": "subtitle_061",
+      "start": "00:15:29.112",
+      "end": "00:15:44.520",
+      "audio_duration": 15.408
+    },
+    {
+      "id": "subtitle_062",
+      "start": "00:15:44.720",
+      "end": "00:16:00.248",
+      "audio_duration": 15.528
+    },
+    {
+      "id": "subtitle_063",
+      "start": "00:16:00.448",
+      "end": "00:16:15.520",
+      "audio_duration": 15.072
+    }
+  ]
+}

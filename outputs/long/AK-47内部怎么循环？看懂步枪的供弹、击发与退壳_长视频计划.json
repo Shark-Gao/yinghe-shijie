@@ -1,0 +1,81 @@
+{
+  "version": "1.1",
+  "project": "硬核视界",
+  "account_direction": "男性向",
+  "cover_style": "military",
+  "cover_title": "AK-47自动循环",
+  "cover_headline": "AK-47自动循环",
+  "cover_subhead": "供弹击发退壳",
+  "cover_sizes": {
+    "16:9": "1920x1080",
+    "4:3": "1440x1080",
+    "3:4": "1080x1440"
+  },
+  "cover_assets": [
+    "videos/exports/长视频/AK-47内部循环/AK47_内部循环_封面_16x9.png",
+    "videos/exports/长视频/AK-47内部循环/AK47_内部循环_封面_4x3.png",
+    "videos/exports/长视频/AK-47内部循环/AK47_内部循环_封面_3x4.png"
+  ],
+  "cover_generation": {
+    "status": "passed",
+    "base_style": "原创军事向3D工程剖面；三种比例独立构图",
+    "text_overlay": "使用add_cover_title.py后期叠加中文",
+    "visual_check": "三张封面已检查比例、标题安全区、主体完整性和文字可读性"
+  },
+  "source_video": "L:/workspace/yinghe-shijie/videos/raw/AK-47内部怎么循环？看懂步枪的供弹、击发与退壳.mp4",
+  "source_duration": "00:10:38.618",
+  "source_audio": "保留为低音量背景，由自动混音侧链压低；不新增BGM",
+  "edit_decision": {
+    "keep": "保留源片完整动画和章节顺序，不改变画幅",
+    "remove": [],
+    "cleanup": "仅在00:00:18.000—00:00:26.000局部遮除源片英文TURN ON SUBTITLES提示，不改变时间码"
+  },
+  "editor_card": {
+    "main_track": "军事武器 / 作战机制",
+    "ordinary_question": "AK-47扣下扳机后，内部零件到底怎样自动完成下一发？",
+    "core_answer": "火药气体驱动长行程活塞和枪机框后退，枪机旋转解锁并完成抽壳抛壳，再由复进簧推动枪机向前供弹和闭锁。",
+    "first_two_seconds_hook": "片头整枪特写：AK-47能连续循环，靠的不是某个神奇零件，而是一整套严格排序的机械动作。",
+    "five_to_ten_second_promise": "前十秒先给出燃气—枪机—复进簧的总答案，之后按动画拆开每一步。",
+    "chapter_results": [
+      "0:00—1:20 认识整枪、机匣和导气系统",
+      "1:20—4:00 看懂枪机、扳机组、击针和闭锁",
+      "4:00—6:00 解释弹匣供弹、入膛和旋转闭锁",
+      "6:00—8:40 解释击发、导气、解锁、抽壳、抛壳和复进",
+      "8:40—10:38 回到瞄具、外部结构、可靠性边界和全循环复盘"
+    ],
+    "emotion_change": "从只知道AK可靠，变成能按顺序解释它为什么能可靠完成下一发。",
+    "series_follow_up": "下一条可拆解AK与AR平台的导气、闭锁和机匣结构差异。",
+    "fact_status": {
+      "verified": "AK-47/AKM为导气式、旋转枪机闭锁；循环包含供弹、入膛、闭锁、击发、解锁、抽壳、抛壳、待击/复进等动作；源片画面展示的部件关系。",
+      "source_analysis": "长行程活塞把活塞、枪机框和枪机的后坐动作作为一个连续机械链路；片中彩色剖面用于解释动作顺序。",
+      "inference": "结构的容错、时序和维护要求共同影响可靠性；不把可靠性表述成不会卡或无需保养。"
+    }
+  },
+  "visual_alignment": {
+    "required": true,
+    "max_delta_seconds": 1.0,
+    "max_gap_seconds": 0.8,
+    "anchors_defined_in": "outputs/audio/AK-47内部怎么循环？看懂步枪的供弹、击发与退壳_等长解说时间线.json",
+    "review_rule": "关键名词和动作在对应画面窗口独立起播，不在长段内部按字数猜测。"
+  },
+  "narration_review": {
+    "status": "passed_before_tts",
+    "scope": "32个分段逐段审阅",
+    "notes": "已检查自然中文、军事武器范围、前十秒答案、源片画面顺序、事实/分析边界、连续口播覆盖和锚点独立起播；未加入广告、赞助或无关行动号召。"
+  },
+  "sources": [
+    {"title":"U.S. Marine Corps AK-47 Maintenance Manual, TM 8370-50007-IN/2","url":"https://info.publicintelligence.net/USMC-AK47-MaintenanceManual.pdf","use":"导气式、正向闭锁、八步循环、供弹和入膛说明"},
+    {"title":"National Institute of Justice: Cycle of Fire Steps","url":"https://nij.ojp.gov/nij-hosted-online-training-courses/firearms-examiner-training/module-08/cycle-fire-steps","use":"供弹、入膛、闭锁、击发、解锁、抽壳、抛壳、待击的通用定义"},
+    {"title":"U.S. Army Maneuver Center of Excellence: Kalashnikov Weapon Corner","url":"https://www.moore.army.mil/infantry/magazine/issues/2005/NOV-DEC/pdfs/NOV-DEC2005.pdf","use":"AK-47/AKM的导气式工作方式、弹匣容量和型号背景"},
+    {"title":"U.S. Army ODIN Weapon Effects Guide: AK-47","url":"https://odin.t2com.army.mil/WEG/Asset/9aeec045149d0b5a7fbe2e567440b66d","use":"AK-47/AKM身份、型号背景和公开武器资料核对"}
+  ],
+  "preflight_review": {
+    "status": "passed",
+    "revision_notes": "片头发现00:00:18.000—00:00:26.000源片英文提示，采用局部遮除而非裁掉连续动画；核对00:00、01:00、01:20、02:00、02:40、04:20、05:20、06:00、06:20、06:40、07:00、07:20、07:40、08:00、08:20、08:40、10:20等17个画面锚点。正式成片前仍需以实际TTS时间线运行visual alignment脚本并确认truncated_segments为空。"
+  },
+  "deliverables": {
+    "video": "videos/exports/长视频/AK-47内部循环/AK47_内部循环_长视频配音版_最终.mp4",
+    "subtitle": "videos/exports/长视频/AK-47内部循环/AK47_内部循环_中文字幕.srt",
+    "narration": "videos/exports/长视频/AK-47内部循环/AK47_内部循环_中文解说_自动混音.mp3"
+  }
+}

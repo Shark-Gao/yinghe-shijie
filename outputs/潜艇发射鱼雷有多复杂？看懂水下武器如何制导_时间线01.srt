@@ -1,0 +1,309 @@
+1
+00:00:01,200 --> 00:00:02,066
+hello everyone
+2
+00:00:02,066 --> 00:00:03,399
+welcome back again with us on
+3
+00:00:03,400 --> 00:00:05,500
+another episode at Military TV
+4
+00:00:05,933 --> 00:00:06,866
+in today's session
+5
+00:00:06,866 --> 00:00:09,066
+we will take a deep look on the process of
+6
+00:00:09,066 --> 00:00:11,733
+how does a submarine fire a torpedo
+7
+00:00:12,933 --> 00:00:17,533
+I bet not many people know how it works do you  so
+8
+00:00:17,600 --> 00:00:19,500
+if you are curious to the answer
+9
+00:00:19,900 --> 00:00:22,466
+stay tuned with us and watch the video till the end
+10
+00:00:24,300 --> 00:00:25,100
+torpedo
+11
+00:00:25,133 --> 00:00:27,999
+a self propelled underwater weapon designed to
+12
+00:00:28,000 --> 00:00:30,133
+launch above or below the water's surface
+13
+00:00:30,666 --> 00:00:32,799
+is equipped with an explosive warhead
+14
+00:00:33,500 --> 00:00:35,766
+it can detonate or contact with or
+15
+00:00:35,766 --> 00:00:37,566
+in proximity to the targets
+16
+00:00:38,166 --> 00:00:40,933
+this underwater projectile has been used strictly
+17
+00:00:40,933 --> 00:00:44,166
+from the 19th century for the battleship and used to
+18
+00:00:44,166 --> 00:00:46,366
+give a great effect during the World War I
+19
+00:00:47,866 --> 00:00:50,966
+interesting it experiences some constant changes and
+20
+00:00:50,966 --> 00:00:54,066
+refinement allowing for modern ones with light weights
+21
+00:00:54,366 --> 00:00:58,366
+as well as straight running automated homers or wire
+22
+00:00:58,366 --> 00:01:01,566
+guided and can be launched from a variety of platforms
+23
+00:01:02,700 --> 00:01:05,900
+important before the launching process the torpedo is
+24
+00:01:05,900 --> 00:01:09,533
+located at a torpedo tube it's like a cylinder shaped
+25
+00:01:09,533 --> 00:01:12,533
+device and installed aboard surface vessels
+26
+00:01:13,600 --> 00:01:16,500
+deck mounted torpedo launchers are usually built for a
+27
+00:01:16,500 --> 00:01:19,966
+specific type of torpedo while submarine torpedo tubes
+28
+00:01:19,966 --> 00:01:23,566
+are general purpose launchers and are often capable of
+29
+00:01:23,566 --> 00:01:26,099
+discharging mines and cruise missiles too
+30
+00:01:27,366 --> 00:01:30,166
+in the following scene we would like to precisely
+31
+00:01:30,333 --> 00:01:32,999
+illustrate exactly how the torpedo launching system
+32
+00:01:33,133 --> 00:01:33,933
+works
+33
+00:01:35,266 --> 00:01:38,099
+so the first important thing is to assure that the
+34
+00:01:38,100 --> 00:01:41,133
+locking lugs are in the right configuration to avoid
+35
+00:01:41,133 --> 00:01:44,066
+the torpedo sliding forward and backward
+36
+00:01:44,733 --> 00:01:47,866
+the forward locking lug is in the load position
+37
+00:01:48,100 --> 00:01:50,200
+while the back one is in the up position
+38
+00:01:51,266 --> 00:01:54,499
+then the breach door is opened to slide the torpedo in
+39
+00:01:55,166 --> 00:01:56,699
+additionally this can also be
+40
+00:01:56,700 --> 00:01:58,500
+done by using hydraulic system
+41
+00:01:59,466 --> 00:02:01,199
+when the torpedo is moved against
+42
+00:02:01,200 --> 00:02:03,100
+the locking lug in the tube
+43
+00:02:03,266 --> 00:02:06,166
+the locking lug comes down and secures the torpedo
+44
+00:02:06,166 --> 00:02:08,466
+and the breach door is closed and locked
+45
+00:02:08,900 --> 00:02:11,300
+the torpedo is now stably located
+46
+00:02:11,300 --> 00:02:13,200
+in the tube and ready to fire
+47
+00:02:14,533 --> 00:02:16,899
+unfortunately it is not the time yet
+48
+00:02:17,066 --> 00:02:18,299
+there are actually some
+49
+00:02:18,300 --> 00:02:21,066
+sequences that need to take place  first
+50
+00:02:21,066 --> 00:02:22,599
+the tube has to be flooded
+51
+00:02:22,966 --> 00:02:25,566
+started by opening a valve to allow water to flood
+52
+00:02:25,566 --> 00:02:30,066
+the container called water round torpedo WRT tank
+53
+00:02:30,700 --> 00:02:33,700
+then the valve up top needs to be opened too in order
+54
+00:02:33,700 --> 00:02:36,300
+to release the air as it is filled up with water
+55
+00:02:37,700 --> 00:02:39,500
+as the torpedo tube is being filled
+56
+00:02:39,500 --> 00:02:41,566
+with water from the WTR tank
+57
+00:02:41,733 --> 00:02:43,899
+it definitely goes up to the vent line
+58
+00:02:44,566 --> 00:02:46,866
+at the top there is electrode
+59
+00:02:46,866 --> 00:02:48,299
+that senses the seawater
+60
+00:02:49,100 --> 00:02:52,200
+at this phase the valve on top and on bottom close
+61
+00:02:52,266 --> 00:02:54,966
+and the torpedo as the tube is filled with water
+62
+00:02:55,800 --> 00:02:56,000
+however
+63
+00:02:56,000 --> 00:02:58,866
+the problem is that there is a lower pressure
+64
+00:02:58,933 --> 00:03:00,933
+inside the boat compared to the outside
+65
+00:03:01,733 --> 00:03:03,533
+as generally known that the deeper a
+66
+00:03:03,533 --> 00:03:07,199
+submarine goes the higher pressure it has  therefore
+67
+00:03:07,266 --> 00:03:08,766
+the most crucial thing to do
+68
+00:03:08,766 --> 00:03:10,399
+is to equalize the system
+69
+00:03:11,466 --> 00:03:14,166
+this function is performed by equalizing valve
+70
+00:03:14,566 --> 00:03:15,766
+when this thing is turned
+71
+00:03:16,066 --> 00:03:18,199
+the pressure inside the tube will now
+72
+00:03:18,200 --> 00:03:20,300
+be equal to that outside the ocean
+73
+00:03:21,000 --> 00:03:23,566
+at the same time it is important to relocate the
+74
+00:03:23,566 --> 00:03:26,899
+slide valve at this time the slide valve also needs
+75
+00:03:26,900 --> 00:03:30,200
+to be moved slide valve refers to a movable
+76
+00:03:30,200 --> 00:03:33,166
+section of the tube about halfway down the torpedo
+77
+00:03:33,300 --> 00:03:35,700
+that circularly covers all of the several
+78
+00:03:35,733 --> 00:03:38,599
+rectangular pores through which water can enter
+79
+00:03:39,966 --> 00:03:42,766
+then the water can be dumped into torpedo tube
+80
+00:03:43,100 --> 00:03:45,733
+at this point the torpedo is completely ready to fire
+81
+00:03:47,000 --> 00:03:49,500
+when the fire instruction comes from the control
+82
+00:03:49,500 --> 00:03:52,866
+room both the locking lugs retract allowing the
+83
+00:03:52,866 --> 00:03:55,966
+torpedo to move longitudinally and pressurized
+84
+00:03:55,966 --> 00:03:58,766
+water from an impulse tank to provide a massive
+85
+00:03:58,766 --> 00:04:01,266
+amount of pressure through which will then be
+86
+00:04:01,266 --> 00:04:03,866
+introduced into the torpedo tube through all the
+87
+00:04:03,866 --> 00:04:06,466
+rectangular holes covered by the slide valve
+88
+00:04:07,300 --> 00:04:09,466
+this extra water forces the torpedo
+89
+00:04:09,466 --> 00:04:11,166
+out of the front of the submarine
+90
+00:04:12,100 --> 00:04:12,933
+to conclude
+91
+00:04:13,133 --> 00:04:15,533
+a torpedo launch of the naval warfare seems
+92
+00:04:15,533 --> 00:04:17,899
+to be the least visible aspect to show
+93
+00:04:18,466 --> 00:04:21,066
+since the nature of submarine warfare means that
+94
+00:04:21,066 --> 00:04:23,666
+none ever witnessed the torpedo tube mechanism and
+95
+00:04:23,666 --> 00:04:25,799
+how the torpedo is pushed from its tube
+96
+00:04:26,466 --> 00:04:28,599
+this is because the submarine's crew is on the
+97
+00:04:28,600 --> 00:04:31,333
+other side of a pressurized hull and unable
+98
+00:04:31,333 --> 00:04:33,533
+to follow the chain of events after loading
+99
+00:04:33,533 --> 00:04:35,699
+the torpedo and ordering the launch
+100
+00:04:36,333 --> 00:04:38,366
+it's lucky that we watch this video today
+101
+00:04:38,366 --> 00:04:40,299
+and know exactly how it works now
+102
+00:04:40,900 --> 00:04:42,100
+that's all for today
+103
+00:04:42,300 --> 00:04:43,300
+see you next time

@@ -1,0 +1,309 @@
+{
+  "version": 1,
+  "title": "雷达怎么找到隐身机？看懂电磁波、雷达阴影与探测盲区",
+  "source_subtitle": "outputs/雷达怎么找到隐身机_时间线01.srt",
+  "editorial": {
+    "content_lane": "军事武器/武器系统",
+    "audience_question": "战斗机明明在视线之外，防空系统为什么还能知道它在哪里？",
+    "promised_answer": "雷达靠发射、反射、接收和处理电磁波获得目标信息，但频率、波长、天线高度、地形和信号波形共同决定它能看多远、看多细。",
+    "emotional_shift": "从以为雷达只是屏幕上的扫描线，转变为看懂它是一套受物理规律、地形和电子对抗共同限制的探测系统。",
+    "series_link": "雷达与电子战基础：脉冲雷达、多普勒测速、隐身与干扰",
+    "claim_status": "mixed"
+  },
+  "preflight_review": {
+    "status": "passed",
+    "review_scope": "content_before_render",
+    "one_line_question": "战斗机明明看不见，雷达为什么还能发现它？",
+    "one_line_answer": "雷达把电磁波发出去，接收目标反射回来的能量，再用天线方向、回波延迟和频移等信息判断目标位置与运动状态。",
+    "conflict": "雷达希望看得远、看得细、看得准，但能量会随距离衰减，频率会受到天气和天线尺寸限制，地形还会制造雷达阴影与盲区。",
+    "emotional_value": "让观众从‘隐身就是消失’的直觉，转向理解探测距离、分辨率、地平线和电子战之间的工程取舍。",
+    "checks": {
+      "position_and_fact": "pass",
+      "emotional_value": "pass",
+      "conflict_and_hook": "pass",
+      "answer_timing": "pass",
+      "visual_evidence": "pass",
+      "title_script_consistency": "pass",
+      "safety_and_attribution": "pass"
+    },
+    "risk_notes": [
+      "源片是通用雷达基础课，画面中的 F-16、米格-29、二十英尺和八十海里等例子按源片的假设演示表述，不外推为具体型号实战性能。",
+      "原 SRT 中约五分二十五秒至六分钟出现少量自动翻译残句，已按上下文和画面修正，不直接朗读这些残句。",
+      "源视频保留原画面与频道标识，不移除版权标识；正式发布前仍需确认源片复用授权。"
+    ],
+    "revision_notes": [
+      "已检查源视频：1920x1080、约 800.136 秒、原视频含英文旁白音轨；正式版本关闭原英文旁白，不添加 BGM。",
+      "已按电磁波、频率波长、天气衰减、分辨率、逆平方律、雷达地平线、天线波束、静默锥和脉冲多普勒八个机制节点重写口播。",
+      "开头两秒给出‘看不见却能发现’的冲突，前十秒交付‘发射—反射—接收—处理’答案方向；结尾交代隐身、干扰和雷达局限。",
+      "男性向默认使用 Edge zh-CN-YunyangNeural、+10%，不加背景音乐，保持源片 16:9 完整画幅。"
+    ]
+  },
+  "platform_titles": {
+    "bilibili": "雷达怎么找到隐身机？看懂电磁波、雷达阴影与探测盲区",
+    "douyin": "战斗机明明看不见，雷达到底怎么发现它？",
+    "kuaishou": "雷达怎么找到隐身机？关键不只是发射电波",
+    "xiaohongshu": "雷达探测图解：频率、波长和雷达阴影一次看懂"
+  },
+  "platform_descriptions": {
+    "bilibili": "战斗机明明在视线之外，防空系统为什么还能知道它在哪里？本片从电磁波、频率、波长和回波讲起，拆解天气衰减、逆平方律、雷达地平线、天线波束、静默锥与脉冲多普勒，看懂雷达为什么能发现目标，也看懂它为什么会漏掉目标。#军事科普 #雷达 #电子战 #防空系统",
+    "douyin": "战斗机明明看不见，雷达到底怎么发现它？关键是把电磁波发出去，再从目标回波里提取位置和运动信息；但天气、地形、距离和隐身都会改变结果。#军事科普 #雷达 #隐身战机 #电子战",
+    "kuaishou": "雷达不是一条会自动锁定目标的扫描线，它要面对能量衰减、地平线、天气和波束盲区。用一条完整视频看懂雷达怎样发现目标，又为什么会漏掉目标。#雷达 #军事科普 #防空系统 #武器原理",
+    "xiaohongshu": "雷达探测图解：从电磁波、频率、波长到回波处理，拆开看懂雷达阴影、静默锥、天线波束和隐身目标的探测难题。#雷达 #电子战 #军事科普 #隐身战机"
+  },
+  "source_video": "L:/workspace/yinghe-shijie/videos/raw/雷达怎么找到隐身机.mp4",
+  "output_video": "L:/workspace/yinghe-shijie/videos/exports/长视频/雷达怎么找到隐身机/雷达怎么找到隐身机_长视频.mp4",
+  "cover_title": "雷达怎么找到隐身机？",
+  "cover_headline": "隐身机去哪儿",
+  "cover_subhead": "雷达如何找到目标",
+  "cover_style": "military",
+  "cover_aspect": "16:9",
+  "layout": "source",
+  "burn_captions": false,
+  "write_subtitles": true,
+  "mix": {
+    "source_volume": 0.0,
+    "narration_volume": 1.0,
+    "music_volume": 0.0,
+    "music_fade_seconds": 0.0,
+    "source_audio_mode": "static"
+  },
+  "clips": [
+    {
+      "id": "full_source",
+      "source_start": "00:00:00.000",
+      "source_end": "00:13:20.136",
+      "focus_x": 0.5
+    }
+  ],
+  "narration": {
+    "provider": "edge",
+    "voice": "zh-CN-YunyangNeural",
+    "rate": "+10%",
+    "segments": [
+      {
+        "id": "seg_001",
+        "start": "00:00:00.000",
+        "end": "00:00:27.888",
+        "text": "战斗机明明在视线之外，防空系统为什么还能知道它在哪里？答案不是雷达拥有某种魔法，而是它主动把电磁波发出去，再从目标反射回来的能量里提取信息。记住四个动作：发射、反射、接收、处理。后面所有复杂的频率、波长和波束，都是在解决这条链路里的具体问题。也就是说，雷达先制造一个可被测量的回波，再把回波翻译成方向、距离和速度。",
+        "english_text": "Why can an air-defense system know where a fighter is when the aircraft is outside visual range? The answer is not magic. Radar sends electromagnetic waves out, then extracts information from the energy reflected back by a target. Remember four actions: transmit, reflect, receive, and process. Frequency, wavelength, and beam shape all solve specific problems in this chain."
+      },
+      {
+        "id": "seg_002",
+        "start": "00:00:27.888",
+        "end": "00:00:53.112",
+        "text": "雷达最核心的原理，其实和拿手电筒照远处很像。手电筒把光送出去，物体把一部分光反射回来，我们就能判断那里有东西。雷达只是把可见光换成无线电波。金属对无线电波通常更容易产生反射，但几乎所有物体都会反射，只是强弱不同。所以雷达真正照亮的不是目标外形，而是目标对电磁能量做出的反应。",
+        "english_text": "The core principle of radar is similar to shining a flashlight into the distance. A flashlight sends light out, objects reflect some of it, and we know something is there. Radar uses radio waves instead of visible light. Metal usually reflects radio waves well, but nearly every object reflects them to some degree; the difference is how strong the return is."
+      },
+      {
+        "id": "seg_003",
+        "start": "00:00:53.112",
+        "end": "00:01:16.896",
+        "text": "雷达波和无线电波本质上是同一种电磁波，微波炉里的能量也属于这个家族。区别不在于它们是不是电磁波，而在于我们怎么使用它们。无线电台把波用来传递声音，雷达则把波用来照亮空间，再根据返回信号判断远处目标。观众看到的屏幕只是最后结果，真正的探测动作发生在看不见的电磁空间里。",
+        "english_text": "Radar waves and radio waves are the same kind of electromagnetic wave, and the energy in a microwave oven belongs to the same family. The difference is not what the waves are, but how we use them. A radio station carries sound, while radar uses waves to illuminate space and infer distant targets from the returned signal."
+      },
+      {
+        "id": "seg_004",
+        "start": "00:01:16.896",
+        "end": "00:01:40.344",
+        "text": "要让电磁波出现，最简单的办法是给天线通电。电流沿天线上下变化，周围的电场和磁场就会跟着变化，并把能量向外辐射。电流反转一次，波形也反转一次；只要持续改变极性，天线就会产生一串有峰有谷的周期波。频率越稳定，接收机越容易从环境噪声里识别出有规律的目标回波。",
+        "english_text": "The simplest way to create electromagnetic waves is to drive an antenna with current. As the current changes along the antenna, the surrounding electric and magnetic fields change and radiate energy outward. Each reversal changes the waveform, and repeated polarity changes create a periodic wave with peaks and troughs."
+      },
+      {
+        "id": "seg_005",
+        "start": "00:01:40.344",
+        "end": "00:02:05.856",
+        "text": "波形变化得有多快，就是频率。每秒经过一个固定位置一次，叫一赫兹；每秒一百万次，就是一兆赫兹。频率越高，波峰之间的距离通常越短。天线尺寸也会影响它发射和接收的效率，现代雷达还常用磁控管产生稳定的高频能量。同一套天线不能无限兼顾远距离、细分辨率和小体积，参数必须有取舍。",
+        "english_text": "How quickly the waveform changes is its frequency. One cycle per second is one hertz; one million cycles per second is one megahertz. Higher frequency usually means shorter distance between wave peaks. Antenna size affects transmission and reception, and many radar systems use magnetrons to generate stable high-frequency energy."
+      },
+      {
+        "id": "seg_006",
+        "start": "00:02:05.856",
+        "end": "00:02:30.312",
+        "text": "磁控管内部的谐振腔，会把电能整理成特定波长的电磁波。波撞上目标后，目标表面的电荷会被重新分布，随后又向外产生新的电磁波，这就是我们收到的回波。电场和磁场彼此垂直，电场朝哪个方向振动，还决定了波的极化方式。这也是为什么雷达要同时关心发射功率、接收灵敏度和目标表面的电磁特性。",
+        "english_text": "The resonant cavities inside a magnetron organize electrical energy into electromagnetic waves of a chosen wavelength. When a wave hits a target, it redistributes charge across the surface, which then generates a new electromagnetic wave. That is the echo we receive. The electric and magnetic fields are perpendicular, and the direction of the electric field defines polarization."
+      },
+      {
+        "id": "seg_007",
+        "start": "00:02:30.312",
+        "end": "00:02:54.624",
+        "text": "所有电磁波在空气中的传播速度都接近光速，但频率变高，波长就会变短。三百兆赫兹的波长大约是一米，三百千赫兹的波长则能达到一公里。这个关系非常关键，因为波长不同，电磁波穿过空气、绕过障碍物和分辨目标的方式也不同。因此，波长不是书本里的单位，而是直接决定雷达能看清多细的工程参数。",
+        "english_text": "All electromagnetic waves travel through air at nearly the speed of light, but wavelength becomes shorter as frequency rises. A three-hundred-megahertz wave is about one meter long, while a three-hundred-kilohertz wave can be about one kilometer long. This matters because wavelength changes how waves travel through air, bend around obstacles, and resolve targets."
+      },
+      {
+        "id": "seg_008",
+        "start": "00:02:54.624",
+        "end": "00:03:19.464",
+        "text": "不同频率会被分进不同的频段，军用雷达常用的命名还沿用了二战时期和北约体系的规则。低频波通常更不怕天气，高频波则更容易被雾、雨和空气中的水分吸收。频段从来不是越高越先进，而是任务、距离和环境之间的选择。选频段的第一步，往往不是追求最高性能，而是确认目标、环境和平台允许什么。",
+        "english_text": "Different frequencies are grouped into bands, and military radar naming still reflects systems developed during World War Two and later NATO conventions. Lower-frequency waves are generally less affected by weather, while higher-frequency waves are more easily absorbed by fog, rain, and atmospheric moisture. No band is simply more advanced; the choice depends on mission, range, and environment."
+      },
+      {
+        "id": "seg_009",
+        "start": "00:03:19.464",
+        "end": "00:03:45.696",
+        "text": "高频波长更接近雨滴和水汽颗粒，所以在恶劣天气里衰减更快。低于大约三吉赫兹的频率，天气影响相对小，信号更容易传远；而频率继续升高，哪怕天气晴朗，大气本身也会吃掉一部分能量。雷达看得远不远，先要看能量能不能走到目标。这类损耗不会让雷达瞬间失明，却会一点点缩短它能稳定识别目标的距离。",
+        "english_text": "High-frequency wavelengths are closer in size to raindrops and water particles, so they attenuate faster in bad weather. Frequencies below roughly three gigahertz are less affected and can travel farther, while higher frequencies lose more energy even in clear air. Before radar can see a distant target, its energy must first reach that target."
+      },
+      {
+        "id": "seg_010",
+        "start": "00:03:45.696",
+        "end": "00:04:11.280",
+        "text": "那为什么还要使用高频雷达？因为短波长更容易形成细的波束，也能用更小的天线得到更高的分辨率。低频波虽然传播稳、绕障能力强，但天线尺寸会随波长变大，很难塞进战斗机机鼻或导弹弹体。看得远和装得下，往往不能同时拉满。战斗机鼻锥里空间有限，工程师常常要在雷达尺寸和探测效果之间折中。",
+        "english_text": "Why use high-frequency radar at all? Shorter wavelengths can form narrower beams and provide higher resolution with smaller antennas. Lower-frequency waves travel more steadily and bend around obstacles, but their antennas grow with wavelength and may not fit inside a fighter nose or missile body. Long range and compact size often cannot both be maximized."
+      },
+      {
+        "id": "seg_011",
+        "start": "00:04:11.280",
+        "end": "00:04:34.728",
+        "text": "天线发出的波不是一张平面薄片，而是向空间扩散的能量泡。低频波长很长，一个回波只能告诉你某个大范围内有反射物，位置并不精确。提高频率、缩短波长，就像把屏幕像素做小，雷达才能把方向和目标分得更细。这就是为什么有的雷达适合远程预警，有的雷达则更适合末端搜索和火控。",
+        "english_text": "The wave from an antenna is not a flat sheet but energy spreading through space. A long-wavelength low-frequency return may only say that something reflective exists inside a large volume. Raising frequency and shortening wavelength is like making pixels smaller on a screen, allowing radar to separate directions and targets more precisely."
+      },
+      {
+        "id": "seg_012",
+        "start": "00:04:34.728",
+        "end": "00:04:58.872",
+        "text": "这种方向分辨能力叫角分辨率。如果两架飞机挨得太近，恰好落在同一个分辨单元里，雷达可能只看到一个回波，而不是两个目标。可分辨率提高也有代价：更高频率更容易受天气影响，波束更细时覆盖和扫描也更复杂。看得更细不等于看得更远，雷达设计总在覆盖范围和目标分辨之间换取结果。",
+        "english_text": "This ability to separate directions is angular resolution. If two aircraft are close enough to fall inside one resolution cell, radar may see one return instead of two targets. Higher resolution has a cost: high frequencies are more weather-sensitive, and narrow beams make coverage and scanning more complicated."
+      },
+      {
+        "id": "seg_013",
+        "start": "00:04:58.872",
+        "end": "00:05:23.328",
+        "text": "距离还会带来另一个硬限制：能量会向越来越大的空间扩散。假设一部雷达有九瓦能量，近处每个小格都能分到不少；距离翻倍，能量要铺到四个同样大小的区域；距离变成三倍，就要摊到九个区域。回波回来时还会再次变弱。所以远距离探测不仅需要更大功率，还需要更灵敏的接收机和更好的信号处理。",
+        "english_text": "Distance creates another hard limit: energy spreads across an ever larger volume. Imagine a radar with nine watts. Nearby, each small cell receives a substantial share. At twice the range, the energy covers four cells of the same size; at three times the range, it covers nine. The reflected signal becomes weaker again on its way back."
+      },
+      {
+        "id": "seg_014",
+        "start": "00:05:23.328",
+        "end": "00:05:48.432",
+        "text": "这就是逆平方律带来的距离代价：传播距离增加，单位面积得到的能量会快速下降。源片用一架 F 十六和一架米格二十九演示，飞机可能已经收到了对方雷达发出的信号，但对方的回波还弱到不足以被接收。能照到目标，不等于能看见目标。在电子战里，谁能先收到对方辐射，谁有时就能先知道对方正在扫描自己。",
+        "english_text": "This is the range penalty described by the inverse-square law: as distance increases, the energy per unit area falls rapidly. The video illustrates this with an F-16 and a MiG-29. One aircraft may already receive the other radar's signal, while the return echo is still too weak to detect. Illuminating a target is not the same as seeing it."
+      },
+      {
+        "id": "seg_015",
+        "start": "00:05:48.432",
+        "end": "00:06:15.072",
+        "text": "低频雷达还有一条特殊路径。部分低频波会被电离层反射，越过原本挡住信号的地形；沿地面传播的波也可能绕过障碍物，走得比直线更远。但海面、地面和大气层会让信号多次反射，形成多径回波，屏幕上甚至可能出现并不存在的幽灵目标。工程师必须用滤波、模型和多部传感器，把真实回波从这些假象里挑出来。",
+        "english_text": "Low-frequency radar has another special path. Some low-frequency waves can reflect from the ionosphere and pass beyond terrain that would block a direct signal. Ground waves can also bend around obstacles and travel farther. But the sea, ground, and atmosphere can create multiple reflections, producing multipath echoes and even ghost targets on the display."
+      },
+      {
+        "id": "seg_016",
+        "start": "00:06:15.072",
+        "end": "00:06:41.376",
+        "text": "高频雷达则常出现在飞机和导弹上，原因不只是分辨率，还因为低频天线太大。可高频波更容易被建筑、山脉和地球曲率挡住。它适合把波束压得更细，却不擅长穿过所有障碍。雷达设计从来不是单项比赛，而是把天线、功率和任务绑在一起。也就是说，低频和高频并不是谁淘汰谁，而是分别适合不同的位置和任务。",
+        "english_text": "High-frequency radar is common on aircraft and missiles not only because of resolution, but because low-frequency antennas are too large. Yet high-frequency waves are more easily blocked by buildings, mountains, and the curvature of Earth. They make narrow beams well but cannot pass every obstacle. Radar design is not a single-parameter contest; antenna, power, and mission are tied together."
+      },
+      {
+        "id": "seg_017",
+        "start": "00:06:41.376",
+        "end": "00:07:06.696",
+        "text": "这就引出了雷达地平线。假设雷达天线只有二十英尺高，它搜寻五千英尺高度的飞机，大约八十海里外还能保持视线；更低的目标却可能提前落进地形和地球曲率制造的雷达阴影。雷达不是看不见所有东西，而是看不见被几何关系藏起来的东西。雷达站得越高，视线越远，但它也越容易成为昂贵而醒目的高价值节点。",
+        "english_text": "This leads to the radar horizon. In the video's example, a radar only twenty feet above ground can keep line of sight to an aircraft at five thousand feet out to about eighty nautical miles. Lower targets can fall earlier into a radar shadow created by terrain and Earth's curvature. Radar does not fail to see everything; geometry hides some targets."
+      },
+      {
+        "id": "seg_018",
+        "start": "00:07:06.696",
+        "end": "00:07:30.264",
+        "text": "如果同一架飞机压低到二百五十英尺，它要到二十一点五海里附近才会从阴影里露出来，比高空目标近了将近六十海里。这也是低空飞行能帮助军机躲避地面雷达的原因之一，但低空并不等于消失：它只是把发现时间和交战距离压缩了。低空飞行压缩了对手的反应时间，却也可能增加飞行员的操纵和导航负担。",
+        "english_text": "If that aircraft descends to two hundred and fifty feet, it may not emerge from the radar shadow until about twenty-one and a half nautical miles, nearly sixty miles closer than the high-altitude case. This is one reason military aircraft use low-level flight to evade ground radar. Low altitude is not invisibility; it compresses warning time and engagement distance."
+      },
+      {
+        "id": "seg_019",
+        "start": "00:07:30.264",
+        "end": "00:07:54.264",
+        "text": "把雷达架得更高，就能改变这条几何关系。源片把雷达升到两万英尺后，它对低空飞机的视线可以延伸到一百六十七海里。这就是预警机为什么重要：它不是简单把探测器搬到天上，而是用高度把地面曲率造成的盲区往外推。预警机的价值，首先是改变探测几何，其次才是把更多信息送给后方指挥系统。",
+        "english_text": "Raising the radar changes this geometry. In the source example, moving the radar to twenty thousand feet extends line of sight to a low-flying aircraft to about one hundred and sixty-seven nautical miles. That is why airborne early-warning aircraft matter: they use altitude to push the blind zone caused by Earth's curvature much farther away."
+      },
+      {
+        "id": "seg_020",
+        "start": "00:07:54.264",
+        "end": "00:08:17.424",
+        "text": "到这里，雷达已经不只是把能量发出去。它还要把回波变成能用的信息。最直接的办法，是用定向天线把能量集中到一个方向。当天线朝某个方位照射并收到返回信号时，操作员至少能知道目标大概位于哪个方向。方向信息是后续计算的入口，只有知道波从哪来，其他数据才有明确的参照。",
+        "english_text": "At this point, radar is doing more than sending energy out. It must turn echoes into useful information. The most direct method is a directional antenna that concentrates energy in one direction. When the antenna points toward a direction and receives a return, the operator can at least estimate the target's azimuth."
+      },
+      {
+        "id": "seg_021",
+        "start": "00:08:17.424",
+        "end": "00:08:42.336",
+        "text": "但天线波束不会像激光笔一样干净。主能量集中在主瓣，旁边会甩出旁瓣，发射器背后还可能有后瓣。旁瓣和后瓣收到的回波，可能来自不希望看到的方向，也可能让真实目标的位置判断变得更麻烦。波束越复杂，信号处理越不能掉链子。这说明雷达天线的任务不是简单变亮，而是尽量把能量集中、把副作用压低。",
+        "english_text": "A radar beam is not as clean as a laser pointer. Most energy sits in the main lobe, but side lobes extend to the sides and a back lobe can appear behind the emitter. Returns from these unwanted directions can confuse position estimates. The more complicated the beam pattern, the more important signal processing becomes."
+      },
+      {
+        "id": "seg_022",
+        "start": "00:08:42.336",
+        "end": "00:09:07.128",
+        "text": "当雷达旋转扫描周围空域时，主瓣和旁瓣会不断扫过飞机，可雷达正上方仍然可能留下一个倒锥形空白区。这个区域叫静默锥，飞机从雷达头顶飞过时，操作员反而可能看不到它。雷达能扫描一圈，不代表它没有垂直盲区。一个不受控制的旁瓣，可能让雷达误以为目标来自错误方向，甚至暴露覆盖模式。",
+        "english_text": "As radar rotates and scans the surrounding airspace, its main and side lobes sweep across aircraft, but an inverted cone of empty coverage can remain directly above the site. This is called the cone of silence. An aircraft passing overhead may not appear to the operator. Scanning a full circle does not mean there is no vertical blind spot."
+      },
+      {
+        "id": "seg_023",
+        "start": "00:09:07.128",
+        "end": "00:09:32.832",
+        "text": "解决办法不是假装盲区不存在，而是让不同雷达互相补位。一部雷达覆盖自己的扇区，另一部从不同高度和角度填补静默锥或地形阴影。防空网络真正可靠的地方，往往不是某一部雷达参数有多夸张，而是多部传感器能不能把盲区拼起来。防空系统因此更像一张传感器网，而不是一根孤立的天线独自承担全部任务。",
+        "english_text": "The solution is not to pretend blind zones do not exist, but to make different radars cover one another. One radar covers its sector while another fills a cone of silence or terrain shadow from a different height and angle. Air-defense networks become reliable not because one radar has impossible specifications, but because multiple sensors can assemble coverage around each other's gaps."
+      },
+      {
+        "id": "seg_024",
+        "start": "00:09:32.832",
+        "end": "00:09:57.600",
+        "text": "可即便波束方向确定了，雷达还不一定知道目标离自己多远。连续发射的波，只能告诉你某个方向上有能量返回；如果想得到距离，就要给波形加上时间标记；如果想知道速度，就要观察目标运动造成的频率变化。方向只是第一层信息。如果没有时间标记，回波再强也只能说明有目标，不能直接给出目标距离。",
+        "english_text": "Even after the beam direction is known, radar may not know how far away the target is. Continuous transmission tells you that energy returned from a direction, but range needs a time reference in the waveform. Speed requires observing frequency changes caused by target motion. Direction is only the first layer of information."
+      },
+      {
+        "id": "seg_025",
+        "start": "00:09:57.600",
+        "end": "00:10:21.960",
+        "text": "脉冲雷达的思路很直白：发射一个短脉冲，等回波回来，再用往返时间换算距离。波出去和回来之间隔得越久，目标通常越远。这个办法可以把一条模糊的方向线，变成距离上的一个位置，但它仍然要面对杂波、弱回波和最大无模糊距离等问题。脉冲越短，时间上的分辨能力越好，但系统也越考验发射和接收电路。",
+        "english_text": "The idea behind pulsed radar is straightforward: send a short pulse, wait for the echo, and convert the round-trip time into range. The longer the delay, the farther the target usually is. This turns a vague direction line into a position in range, but clutter, weak returns, and the maximum unambiguous range still create problems."
+      },
+      {
+        "id": "seg_026",
+        "start": "00:10:21.960",
+        "end": "00:10:47.304",
+        "text": "速度则可以通过多普勒频移来判断。目标朝雷达靠近，回波频率会发生一类变化；目标远离，变化方向相反。雷达把发射信号和回波进行比较，就能估算目标在朝自己运动还是离开。距离告诉你目标在哪，频移告诉你它正在怎么动。这两类信息组合后，雷达才开始从发现目标，走向跟踪目标和预测目标航迹。",
+        "english_text": "Speed can be estimated through Doppler shift. When a target approaches the radar, the return frequency changes in one direction; when it moves away, the change reverses. Comparing the transmitted signal with the echo indicates whether the target is moving toward or away from the radar. Range says where it is; frequency shift says how it is moving."
+      },
+      {
+        "id": "seg_027",
+        "start": "00:10:47.304",
+        "end": "00:11:12.192",
+        "text": "这也解释了为什么雷达不是一块自动标点的屏幕。发射机要产生合适的波，天线要把它送到正确方向，接收机要从弱回波里捞出信号，计算机还要过滤地面、海面和天气造成的杂波。真正的目标信息，是整条链路共同算出来的。任何一个环节受天气、噪声或故障影响，最后的光点都可能变得不完整甚至错误。",
+        "english_text": "This is why radar is not simply a screen that automatically marks targets. The transmitter must create the right waveform, the antenna must point it correctly, the receiver must extract a weak echo, and the computer must filter clutter from ground, sea, and weather. Useful target information is calculated by the whole chain working together."
+      },
+      {
+        "id": "seg_028",
+        "start": "00:11:12.192",
+        "end": "00:11:37.560",
+        "text": "放到空战里，频率选择、天线尺寸、雷达高度和飞行路线会互相牵制。低频可能更容易绕过障碍，却需要更大的天线；高频能提供更细的分辨率，却更怕天气和遮挡；预警机能把雷达抬高，却要付出平台体积、成本和生存性的代价。所以空战中的探测优势，往往来自整个平台和网络，而不是某个孤立指标。",
+        "english_text": "In air combat, frequency choice, antenna size, radar altitude, and flight route constrain one another. Lower frequency may bend around obstacles but needs a larger antenna. Higher frequency provides finer resolution but is more sensitive to weather and blockage. Airborne early warning raises the radar, but costs platform size, money, and survivability."
+      },
+      {
+        "id": "seg_029",
+        "start": "00:11:37.560",
+        "end": "00:12:04.176",
+        "text": "隐身也不是让飞机从物理世界消失，而是尽量减少能量返回雷达的机会。外形设计、材料和边缘处理，会改变电磁波被反射的方向与强度；当回波低到接近杂波和噪声，雷达就需要更近的距离、更好的角度或更长的处理时间，才能确认那不是背景。隐身的目标不是让回波绝对为零，而是让对手更晚发现、更难确认、更难持续跟踪。",
+        "english_text": "Stealth does not make an aircraft disappear from the physical world. It reduces the energy returned toward the radar. Shape, materials, and edge treatment change the direction and strength of reflections. When the echo approaches the level of clutter and noise, radar needs a better angle, shorter distance, or longer processing time to decide that the return is not background."
+      },
+      {
+        "id": "seg_030",
+        "start": "00:12:04.176",
+        "end": "00:12:31.224",
+        "text": "电子战还会把这场较量再推一步。雷达发射能量的同时，也可能暴露自己的存在；对手可以利用干扰、欺骗或地形，让回波变弱、变乱，甚至制造假目标。于是现代空战不是单纯比谁先看见，而是比谁能在信号被遮蔽、被污染时，仍然判断出目标和威胁。当对抗双方都在发射和欺骗时，雷达操作员面对的其实是一场信息筛选战。",
+        "english_text": "Electronic warfare pushes the contest further. A radar can reveal its own presence while transmitting energy. An opponent may use jamming, deception, or terrain to weaken and confuse returns or create false targets. Modern air combat is therefore not only about seeing first, but about identifying real targets when signals are hidden or contaminated."
+      },
+      {
+        "id": "seg_031",
+        "start": "00:12:31.224",
+        "end": "00:12:56.496",
+        "text": "回头看，雷达的限制其实非常具体：距离越远，能量越稀；频率越高，越要面对天气和遮挡；波束有旁瓣和静默锥；地面曲率会制造雷达阴影；目标还可以用隐身和干扰降低回波。所谓探测能力，永远是这些限制叠加后的结果。这也意味着没有一种雷达能在所有天气、地形和距离上都保持同样的效果。",
+        "english_text": "Looking back, radar's limits are concrete. Energy becomes weaker with distance. Higher frequency brings more weather and blockage concerns. Beams have side lobes and cones of silence. Earth's curvature creates radar shadows. Targets can also reduce returns with stealth and jamming. Detection capability is always the result of these limits acting together."
+      },
+      {
+        "id": "seg_032",
+        "start": "00:12:56.496",
+        "end": "00:13:20.136",
+        "text": "所以，战斗机明明看不见，雷达仍然可能发现它，是因为雷达把电磁波变成了可计算的回波信息；而它为什么有时看不见，则取决于距离、频率、天线高度、地形、天气、隐身和干扰。理解雷达原理，才能看懂隐身和干扰。下一期讲脉冲测距与多普勒测速。雷达靠系统而非魔法。",
+        "english_text": "A radar can find a fighter that we cannot see because it turns electromagnetic waves into measurable echo information. When it fails to see one, the causes may be distance, frequency, antenna height, terrain, weather, stealth, or jamming. Understanding radar fundamentals is the key to understanding stealth and jamming. The next episode will explain pulsed ranging and Doppler speed measurement."
+      }
+    ]
+  }
+}

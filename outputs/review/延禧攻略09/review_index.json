@@ -1,0 +1,9 @@
+{
+  "video": "L:\\workspace\\yinghe-shijie\\videos\\raw\\延禧攻略09.mp4",
+  "subtitle": "L:\\workspace\\yinghe-shijie\\outputs\\延禧攻略09_时间线01.srt",
+  "duration_seconds": 2695.895,
+  "interval_seconds": 30.0,
+  "grid": "4x4",
+  "sheet_count": 6,
+  "note": "Each tile advances by interval_seconds, left-to-right then top-to-bottom. Use as a visual index; confirm selected timecodes against source video."
+}

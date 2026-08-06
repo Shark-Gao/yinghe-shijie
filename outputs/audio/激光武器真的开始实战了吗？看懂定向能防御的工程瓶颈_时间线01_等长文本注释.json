@@ -1,0 +1,863 @@
+{
+  "version": 1,
+  "source_subtitle": "激光武器真的开始实战了吗？看懂定向能防御的工程瓶颈_时间线01.srt",
+  "target_video": "L:\\workspace\\yinghe-shijie\\videos\\exports\\长视频\\激光武器真的开始实战了吗？看懂定向能防御的工程瓶颈\\激光武器真的开始实战了吗？看懂定向能防御的工程瓶颈_长视频.mp4",
+  "notes": "由时间线生成的单行屏幕注释；plot_summary 模式只显示接下来剧情简介，不显示副行。",
+  "annotations": [
+    {
+      "id": "anno_001",
+      "start": "00:00:00.000",
+      "end": "00:00:04.000",
+      "type": "chapter",
+      "text": "“想象一座机动防空车”",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_002",
+      "start": "00:00:15.000",
+      "end": "00:00:18.500",
+      "type": "callout",
+      "text": "“搭载一台一兆瓦激光炮塔”",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_003",
+      "start": "00:00:30.000",
+      "end": "00:00:34.000",
+      "type": "chapter",
+      "text": "“视频先用一个假想系统说明它的”",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_004",
+      "start": "00:00:45.000",
+      "end": "00:00:48.500",
+      "type": "callout",
+      "text": "“一百千瓦时电池”",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_005",
+      "start": "00:01:00.000",
+      "end": "00:01:04.000",
+      "type": "principle",
+      "text": "“如果它能把光束聚焦到几十公里”",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_006",
+      "start": "00:01:15.000",
+      "end": "00:01:18.500",
+      "type": "callout",
+      "text": "“功率密度就会非常惊人”",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在对应的结构、节点连线或公式动画中显示",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_007",
+      "start": "00:01:30.000",
+      "end": "00:01:34.000",
+      "type": "principle",
+      "text": "“但它不是终极武器”",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_008",
+      "start": "00:02:00.000",
+      "end": "00:02:04.000",
+      "type": "principle",
+      "text": "“要回答这个问题”",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_009",
+      "start": "00:02:30.000",
+      "end": "00:02:34.000",
+      "type": "principle",
+      "text": "“激光武器的目标不同”",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_010",
+      "start": "00:03:00.000",
+      "end": "00:03:04.000",
+      "type": "principle",
+      "text": "“在这个假想系统里”",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_011",
+      "start": "00:03:30.000",
+      "end": "00:03:34.000",
+      "type": "principle",
+      "text": "“可是”",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_012",
+      "start": "00:04:00.000",
+      "end": "00:04:04.000",
+      "type": "principle",
+      "text": "“激光并不是新概念”",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_013",
+      "start": "00:04:30.000",
+      "end": "00:04:34.000",
+      "type": "principle",
+      "text": "“第一台激光器只能输出几瓦的短”",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_014",
+      "start": "00:05:00.000",
+      "end": "00:05:04.000",
+      "type": "chapter",
+      "text": "“真正改变工程路线的是光纤激光”",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_015",
+      "start": "00:05:30.000",
+      "end": "00:05:34.000",
+      "type": "principle",
+      "text": "“这两类激光只需要电力”",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_016",
+      "start": "00:06:00.000",
+      "end": "00:06:04.000",
+      "type": "principle",
+      "text": "“军方早已把激光用于激光陀螺”",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_017",
+      "start": "00:06:30.000",
+      "end": "00:06:34.000",
+      "type": "principle",
+      "text": "“远距离光斑大小主要由波长”",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_018",
+      "start": "00:07:00.000",
+      "end": "00:07:04.000",
+      "type": "principle",
+      "text": "“光束功率除以光斑面积”",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_019",
+      "start": "00:07:30.000",
+      "end": "00:07:34.000",
+      "type": "principle",
+      "text": "“目标还会持续运动”",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_020",
+      "start": "00:08:00.000",
+      "end": "00:08:04.000",
+      "type": "principle",
+      "text": "“如果功率只有十千瓦”",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_021",
+      "start": "00:08:30.000",
+      "end": "00:08:34.000",
+      "type": "principle",
+      "text": "“因此”",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_022",
+      "start": "00:09:00.000",
+      "end": "00:09:04.000",
+      "type": "chapter",
+      "text": "“几十年来”",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_023",
+      "start": "00:09:30.000",
+      "end": "00:09:34.000",
+      "type": "principle",
+      "text": "“美国曾把化学氧碘激光装进波音”",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_024",
+      "start": "00:10:00.000",
+      "end": "00:10:04.000",
+      "type": "principle",
+      "text": "“二氧化碳激光更可靠”",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_025",
+      "start": "00:10:30.000",
+      "end": "00:10:34.000",
+      "type": "principle",
+      "text": "“现代希望重新回到光纤和半导体”",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_026",
+      "start": "00:11:00.000",
+      "end": "00:11:04.000",
+      "type": "principle",
+      "text": "“先进系统通常先用半导体激光产”",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_027",
+      "start": "00:11:30.000",
+      "end": "00:11:34.000",
+      "type": "chapter",
+      "text": "“这条路线已经带来百千瓦级系统”",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_028",
+      "start": "00:12:00.000",
+      "end": "00:12:04.000",
+      "type": "principle",
+      "text": "“有了功率还不够”",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_029",
+      "start": "00:12:30.000",
+      "end": "00:12:34.000",
+      "type": "principle",
+      "text": "“星星闪烁”",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_030",
+      "start": "00:13:00.000",
+      "end": "00:13:04.000",
+      "type": "principle",
+      "text": "“最粗暴的办法”",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_031",
+      "start": "00:13:30.000",
+      "end": "00:13:34.000",
+      "type": "principle",
+      "text": "“激光武器的成本也在变化”",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_032",
+      "start": "00:14:00.000",
+      "end": "00:14:04.000",
+      "type": "principle",
+      "text": "“更大的差别在运行成本”",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_033",
+      "start": "00:14:30.000",
+      "end": "00:14:34.000",
+      "type": "principle",
+      "text": "“片中据此推测”",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_034",
+      "start": "00:15:00.000",
+      "end": "00:15:04.000",
+      "type": "chapter",
+      "text": "“战术影响会从空中目标开始”",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_035",
+      "start": "00:15:30.000",
+      "end": "00:15:34.000",
+      "type": "principle",
+      "text": "“隐身飞机可以尝试靠近后再发射”",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_036",
+      "start": "00:16:00.000",
+      "end": "00:16:04.000",
+      "type": "principle",
+      "text": "“如果把激光装到大型飞机上”",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_037",
+      "start": "00:16:30.000",
+      "end": "00:16:34.000",
+      "type": "principle",
+      "text": "“轨道上的卫星也会受到影响”",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_038",
+      "start": "00:17:00.000",
+      "end": "00:17:04.000",
+      "type": "chapter",
+      "text": "“这对依靠空中优势的大型空军尤”",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_039",
+      "start": "00:17:30.000",
+      "end": "00:17:34.000",
+      "type": "principle",
+      "text": "“但面对弹道导弹”",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_040",
+      "start": "00:18:00.000",
+      "end": "00:18:04.000",
+      "type": "principle",
+      "text": "“所以传统武器不会立刻过时”",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_041",
+      "start": "00:18:30.000",
+      "end": "00:18:34.000",
+      "type": "principle",
+      "text": "“地面部队可能得到相对收益”",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_042",
+      "start": "00:19:00.000",
+      "end": "00:19:04.000",
+      "type": "chapter",
+      "text": "“海上平台则可能更依赖激光进行”",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_043",
+      "start": "00:19:30.000",
+      "end": "00:19:34.000",
+      "type": "principle",
+      "text": "“片中还把这种变化放到美国和中”",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_044",
+      "start": "00:20:00.000",
+      "end": "00:20:04.000",
+      "type": "principle",
+      "text": "“未来的战争不会严格按照今天的”",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_045",
+      "start": "00:20:30.000",
+      "end": "00:20:34.000",
+      "type": "principle",
+      "text": "“所以”",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,863 @@
+{
+  "version": 1,
+  "source_subtitle": "L:\\workspace\\yinghe-shijie\\videos\\exports\\长视频\\A-10为何围绕一门机炮设计？看懂“疣猪”的生存逻辑\\A-10为何围绕一门机炮设计？看懂“疣猪”的生存逻辑_长视频剪辑版中文解说.srt",
+  "target_video": "L:\\workspace\\yinghe-shijie\\videos\\exports\\长视频\\A-10为何围绕一门机炮设计？看懂“疣猪”的生存逻辑\\A-10为何围绕一门机炮设计？看懂“疣猪”的生存逻辑_长视频剪辑版.mp4",
+  "notes": "剪辑版画面注释；已按3秒片头与原片14.8秒片头裁切整体重排，默认避开底部独立字幕安全区。",
+  "annotations": [
+    {
+      "id": "anno_001",
+      "start": "00:00:03.000",
+      "end": "00:00:06.500",
+      "type": "chapter",
+      "text": "A-10从哪来",
+      "subtext": "冷战中的低空支援需求",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "arrow_callout",
+      "motion": "fade",
+      "visual_hint": "机体全景与早期型号画面",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_002",
+      "start": "00:00:22.966",
+      "end": "00:00:26.466",
+      "type": "principle",
+      "text": "富尔达缺口",
+      "subtext": "地面战场需要低空火力",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "地图与低空航线示意",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_003",
+      "start": "00:00:39.466",
+      "end": "00:00:42.966",
+      "type": "principle",
+      "text": "空地一体战",
+      "subtext": "前线支援成为核心任务",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "战术示意与地面部队画面",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_004",
+      "start": "00:00:55.333",
+      "end": "00:00:58.833",
+      "type": "comparison",
+      "text": "低空坦克杀手",
+      "subtext": "慢速换取瞄准与滞空",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "A-10低空飞行与攻击镜头",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_005",
+      "start": "00:01:17.700",
+      "end": "00:01:21.200",
+      "type": "chapter",
+      "text": "近距空中支援",
+      "subtext": "离前线更近，响应更快",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "arrow_callout",
+      "motion": "fade",
+      "visual_hint": "近距支援任务流程",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_006",
+      "start": "00:01:35.100",
+      "end": "00:01:38.600",
+      "type": "principle",
+      "text": "靠近前线待命",
+      "subtext": "为地面部队保留支援窗口",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "盘旋、待命与呼叫支援镜头",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_007",
+      "start": "00:01:57.966",
+      "end": "00:02:01.466",
+      "type": "comparison",
+      "text": "低空飞行的风险",
+      "subtext": "防空火力会把飞机拉进危险区",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "data_badge",
+      "motion": "fade",
+      "visual_hint": "防空火力与威胁示意",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_008",
+      "start": "00:02:15.400",
+      "end": "00:02:18.900",
+      "type": "comparison",
+      "text": "步枪到导弹",
+      "subtext": "威胁强度不断上升",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "武器威胁递进示意",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_009",
+      "start": "00:02:27.100",
+      "end": "00:02:30.600",
+      "type": "callout",
+      "text": "带伤返航",
+      "subtext": "生存性设计要让飞机撑到基地",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "arrow_callout",
+      "motion": "fade",
+      "visual_hint": "受损机体与返航画面",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_010",
+      "start": "00:02:58.933",
+      "end": "00:03:02.433",
+      "type": "principle",
+      "text": "成本优先",
+      "subtext": "任务平台不等于昂贵平台",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "机队、维护或生产画面",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_011",
+      "start": "00:03:12.500",
+      "end": "00:03:16.000",
+      "type": "callout",
+      "text": "便宜而粗壮",
+      "subtext": "用简单可靠换取可用率",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "arrow_callout",
+      "motion": "fade",
+      "visual_hint": "机身结构与维护细节",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_012",
+      "start": "00:03:23.700",
+      "end": "00:03:27.200",
+      "type": "chapter",
+      "text": "核心武器：GAU-8",
+      "subtext": "机炮定义了整架飞机",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "arrow_callout",
+      "motion": "fade",
+      "visual_hint": "GAU-8机炮特写",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_013",
+      "start": "00:03:36.900",
+      "end": "00:03:40.400",
+      "type": "data",
+      "text": "近六米长",
+      "subtext": "炮身与供弹系统占据机头",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "data_badge",
+      "motion": "fade",
+      "visual_hint": "机炮比例或剖面",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_014",
+      "start": "00:03:51.366",
+      "end": "00:03:54.866",
+      "type": "data",
+      "text": "1150发炮弹",
+      "subtext": "持续火力来自大容量弹舱",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "data_badge",
+      "motion": "fade",
+      "visual_hint": "弹链、弹舱或装填画面",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_015",
+      "start": "00:03:59.166",
+      "end": "00:04:02.666",
+      "type": "principle",
+      "text": "弹壳回收",
+      "subtext": "避免抛壳损伤机体",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "供弹与弹壳回收结构",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_016",
+      "start": "00:04:16.566",
+      "end": "00:04:20.066",
+      "type": "data",
+      "text": "双液压系统",
+      "subtext": "关键操纵保留冗余",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "data_badge",
+      "motion": "fade",
+      "visual_hint": "液压管路与操纵面动画",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_017",
+      "start": "00:04:34.566",
+      "end": "00:04:38.066",
+      "type": "principle",
+      "text": "一套失效仍能飞",
+      "subtext": "让受损状态也保留控制力",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "冗余系统示意",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_018",
+      "start": "00:04:50.533",
+      "end": "00:04:54.033",
+      "type": "principle",
+      "text": "手动控制备份",
+      "subtext": "液压全失仍有最后手段",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "操纵杆、连杆或控制面",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_019",
+      "start": "00:05:08.600",
+      "end": "00:05:12.100",
+      "type": "data",
+      "text": "起落架也有冗余",
+      "subtext": "异常状态下仍能安全着陆",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "data_badge",
+      "motion": "fade",
+      "visual_hint": "起落架收放和降落镜头",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_020",
+      "start": "00:05:33.266",
+      "end": "00:05:36.766",
+      "type": "principle",
+      "text": "自封油箱",
+      "subtext": "被击穿后降低燃油泄漏",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "油箱剖面或防护材料",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_021",
+      "start": "00:05:52.000",
+      "end": "00:05:55.500",
+      "type": "principle",
+      "text": "优先保护飞行员",
+      "subtext": "人和操纵能力是返航底线",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "座舱与飞行员防护画面",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_022",
+      "start": "00:06:08.600",
+      "end": "00:06:12.100",
+      "type": "data",
+      "text": "钛合金装甲舱",
+      "subtext": "座舱像一只防护壳",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "data_badge",
+      "motion": "fade",
+      "visual_hint": "钛合金座舱剖面",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_023",
+      "start": "00:06:22.700",
+      "end": "00:06:26.200",
+      "type": "principle",
+      "text": "防护破片",
+      "subtext": "装甲优先拦截致命方向",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "装甲与破片路径示意",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_024",
+      "start": "00:06:36.700",
+      "end": "00:06:40.200",
+      "type": "chapter",
+      "text": "箔条与诱饵弹",
+      "subtext": "主动降低被锁定概率",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "arrow_callout",
+      "motion": "fade",
+      "visual_hint": "干扰弹释放与红外诱饵画面",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_025",
+      "start": "00:06:54.866",
+      "end": "00:06:58.366",
+      "type": "data",
+      "text": "16组布撒装置",
+      "subtext": "多点释放干扰弹药",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "data_badge",
+      "motion": "fade",
+      "visual_hint": "机身挂点与布撒装置",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_026",
+      "start": "00:07:05.966",
+      "end": "00:07:09.466",
+      "type": "principle",
+      "text": "降低红外特征",
+      "subtext": "发动机布局服务于生存性",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "发动机尾喷口与红外示意",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_027",
+      "start": "00:07:17.300",
+      "end": "00:07:20.800",
+      "type": "principle",
+      "text": "垂尾保持稳定",
+      "subtext": "一侧受损仍争取可控",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "双垂尾与受损飞行示意",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_028",
+      "start": "00:07:32.500",
+      "end": "00:07:36.000",
+      "type": "chapter",
+      "text": "机炮装在中线",
+      "subtext": "让瞄准、后坐力和结构对齐",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "arrow_callout",
+      "motion": "fade",
+      "visual_hint": "机炮中线安装与机鼻剖面",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_029",
+      "start": "00:08:01.933",
+      "end": "00:08:05.433",
+      "type": "data",
+      "text": "44.5千牛后坐力",
+      "subtext": "每次射击都在考验机体",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "data_badge",
+      "motion": "fade",
+      "visual_hint": "后坐力方向与受力示意",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_030",
+      "start": "00:08:15.500",
+      "end": "00:08:19.000",
+      "type": "principle",
+      "text": "适应土跑道",
+      "subtext": "前线机场也能快速周转",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "简易跑道与起降画面",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_031",
+      "start": "00:08:42.500",
+      "end": "00:08:46.000",
+      "type": "data",
+      "text": "自带辅助动力",
+      "subtext": "减少对地面设备依赖",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "data_badge",
+      "motion": "fade",
+      "visual_hint": "辅助动力装置或地勤画面",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_032",
+      "start": "00:09:04.066",
+      "end": "00:09:07.566",
+      "type": "comparison",
+      "text": "机炮废气问题",
+      "subtext": "火力越强，进气越容易受影响",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "data_badge",
+      "motion": "fade",
+      "visual_hint": "机炮与进气口相对位置",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_033",
+      "start": "00:09:21.666",
+      "end": "00:09:25.166",
+      "type": "principle",
+      "text": "导气槽与新配方",
+      "subtext": "解决射击时的发动机喘振",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "导气槽、进气流线或弹药示意",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_034",
+      "start": "00:09:36.166",
+      "end": "00:09:39.666",
+      "type": "data",
+      "text": "座舱清洗装置",
+      "subtext": "烟雾进入时保持视野",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "data_badge",
+      "motion": "fade",
+      "visual_hint": "座舱玻璃与清洗气流",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_035",
+      "start": "00:09:51.166",
+      "end": "00:09:54.666",
+      "type": "principle",
+      "text": "发动机自动重启",
+      "subtext": "射击影响也要快速恢复",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "发动机与重启流程示意",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_036",
+      "start": "00:10:04.166",
+      "end": "00:10:07.666",
+      "type": "chapter",
+      "text": "GAU-8反装甲",
+      "subtext": "不是普通机炮，而是系统武器",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "arrow_callout",
+      "motion": "fade",
+      "visual_hint": "机炮射击与装甲目标示意",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_037",
+      "start": "00:10:21.400",
+      "end": "00:10:24.900",
+      "type": "data",
+      "text": "贫铀弹芯",
+      "subtext": "高密度材料提升穿透能力",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "data_badge",
+      "motion": "fade",
+      "visual_hint": "弹体剖面与材料标注",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_038",
+      "start": "00:10:39.866",
+      "end": "00:10:43.366",
+      "type": "principle",
+      "text": "密度与自锐化",
+      "subtext": "弹芯形状帮助维持穿透效果",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "材料形变与穿透原理动画",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_039",
+      "start": "00:10:52.133",
+      "end": "00:10:55.633",
+      "type": "comparison",
+      "text": "储存与维护成本",
+      "subtext": "性能提升也带来后勤负担",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "弹药储存、运输和维护画面",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_040",
+      "start": "00:11:05.400",
+      "end": "00:11:08.900",
+      "type": "comparison",
+      "text": "贫铀争议",
+      "subtext": "武器效能之外还有环境问题",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "data_badge",
+      "motion": "fade",
+      "visual_hint": "环保、储存或安全标识",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_041",
+      "start": "00:11:28.666",
+      "end": "00:11:32.166",
+      "type": "comparison",
+      "text": "A-10退役争议",
+      "subtext": "专用平台如何面对新威胁",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "A-10与新型战机对比",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_042",
+      "start": "00:11:44.866",
+      "end": "00:11:48.366",
+      "type": "data",
+      "text": "载荷与挂点",
+      "subtext": "机炮之外还能携带多种武器",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "data_badge",
+      "motion": "fade",
+      "visual_hint": "机翼挂点与武器挂载",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_043",
+      "start": "00:11:57.900",
+      "end": "00:12:01.400",
+      "type": "comparison",
+      "text": "多用途 vs 专用",
+      "subtext": "任务范围与作战效率的取舍",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "多用途战机与A-10对照",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_044",
+      "start": "00:12:12.333",
+      "end": "00:12:15.833",
+      "type": "principle",
+      "text": "任务决定设计",
+      "subtext": "没有万能飞机，只有任务匹配",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "任务流程与平台特征汇总",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    },
+    {
+      "id": "anno_045",
+      "start": "00:12:25.766",
+      "end": "00:12:29.266",
+      "type": "chapter",
+      "text": "不同时代的答案",
+      "subtext": "A-10的逻辑是为任务服务",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "A-10全景与结构特征回顾",
+      "avoid": [
+        "subtitle",
+        "core_subject"
+      ]
+    }
+  ]
+}

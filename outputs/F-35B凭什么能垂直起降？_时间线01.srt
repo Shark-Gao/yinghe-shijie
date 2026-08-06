@@ -1,0 +1,1623 @@
+1
+00:00:00,366 --> 00:00:03,599
+i've never flown an airplane like this where you can
+2
+00:00:03,733 --> 00:00:07,066
+control the motion of the airplane so precisely
+3
+00:00:08,466 --> 00:00:10,933
+i'm not sure we've even scratched the surface yet
+4
+00:00:10,933 --> 00:00:13,166
+of what this airplane when it's operating with
+5
+00:00:13,166 --> 00:00:15,333
+other f thirty five is going to be able to do
+6
+00:00:16,066 --> 00:00:19,333
+the f thirty five b is arguably the most advanced
+7
+00:00:19,500 --> 00:00:23,700
+plane ever made a Jack of all trades a stealth
+8
+00:00:23,700 --> 00:00:26,333
+fighter plane combining and improving on the
+9
+00:00:26,333 --> 00:00:30,966
+capabilities of the f sixteen av 8b harrier and the b two
+10
+00:00:31,300 --> 00:00:34,100
+a highly maneuverable fighter plane capable of
+11
+00:00:34,100 --> 00:00:37,266
+attacking both airborne and ground based targets a
+12
+00:00:37,266 --> 00:00:39,566
+stealth fighter taking the lessons learned from
+13
+00:00:39,566 --> 00:00:42,066
+lockheed's previous ventures into stealth with the
+14
+00:00:42,066 --> 00:00:45,533
+F22 Raptor and the f one one seven night hawk
+15
+00:00:45,933 --> 00:00:49,066
+a plane fitted with the most advanced sensors and computer
+16
+00:00:49,066 --> 00:00:52,699
+systems sharing information almost instantly with allies
+17
+00:00:52,933 --> 00:00:55,799
+without compromising stealth and presenting the information
+18
+00:00:56,166 --> 00:00:59,599
+directly on a heads up display on the pilot's helmet visor
+19
+00:00:59,733 --> 00:01:02,366
+giving unparalleled situational awareness
+20
+00:01:02,800 --> 00:01:04,966
+allowing a flight of f thirty fives to
+21
+00:01:04,966 --> 00:01:06,966
+effectively fight as a Hive mind
+22
+00:01:07,766 --> 00:01:09,099
+perhaps most boldly of all
+23
+00:01:09,100 --> 00:01:12,300
+the f thirty five b is capable of transitioning from
+24
+00:01:12,300 --> 00:01:15,366
+horizontal to vertical flight with the push of a button
+25
+00:01:15,500 --> 00:01:18,466
+using directional thrust and a massive vertical
+26
+00:01:18,500 --> 00:01:20,966
+turbofan engine hidden within the plane's body
+27
+00:01:21,300 --> 00:01:24,266
+making it possible to land like a helicopter on the
+28
+00:01:24,266 --> 00:01:27,933
+relatively small amphibious assault ships of the u s marines
+29
+00:01:28,400 --> 00:01:32,266
+this is the insane engineering of the f 35b
+30
+00:01:38,266 --> 00:01:40,566
+fitting all these capabilities into a single
+31
+00:01:40,566 --> 00:01:42,933
+airframe is an extremely difficult task
+32
+00:01:43,566 --> 00:01:45,699
+designing for stealth demands careful
+33
+00:01:45,866 --> 00:01:47,999
+molding of the exterior of the plane
+34
+00:01:48,300 --> 00:01:50,333
+dictating the design of crucial features
+35
+00:01:50,800 --> 00:01:52,966
+creating unavoidable tradeoffs
+36
+00:01:53,300 --> 00:01:55,766
+there are a lot of misconceptions about stealth
+37
+00:01:56,133 --> 00:01:58,466
+the goal isn't to make the aircraft invisible
+38
+00:01:58,766 --> 00:01:59,999
+it will be detectable
+39
+00:02:00,333 --> 00:02:02,266
+the goal is to delay enemy
+40
+00:02:02,300 --> 00:02:04,533
+detection for as long as possible
+41
+00:02:05,133 --> 00:02:06,299
+for bomber aircraft
+42
+00:02:06,333 --> 00:02:08,966
+it shrinks the range of the enemy's Radar stations
+43
+00:02:09,400 --> 00:02:11,900
+potentially opening gaps in Radar defenses
+44
+00:02:11,966 --> 00:02:14,899
+and allowing the aircraft to slip through undetected
+45
+00:02:15,266 --> 00:02:16,499
+for fighter aircraft
+46
+00:02:16,500 --> 00:02:18,166
+it provides a critical advantage
+47
+00:02:18,600 --> 00:02:21,066
+detect your enemy before they detect you
+48
+00:02:21,466 --> 00:02:22,899
+to gain these advantages
+49
+00:02:23,000 --> 00:02:25,100
+we need to make it harder for the Radar
+50
+00:02:25,133 --> 00:02:27,766
+receiver to decipher whether the return signal
+51
+00:02:27,766 --> 00:02:31,766
+is just background noise or an enemy aircraft  to do that
+52
+00:02:31,766 --> 00:02:34,699
+we need to minimize the strength of the return signal
+53
+00:02:34,966 --> 00:02:37,166
+there are several mechanisms for a
+54
+00:02:37,166 --> 00:02:38,799
+Radar wave to be reflected
+55
+00:02:39,266 --> 00:02:40,999
+the most significant and most obvious
+56
+00:02:41,000 --> 00:02:42,866
+way is through spectral return
+57
+00:02:43,333 --> 00:02:46,099
+otherwise known as regular reflection like a mirror
+58
+00:02:46,200 --> 00:02:47,866
+where the angle of reflection
+59
+00:02:48,000 --> 00:02:49,666
+equals the angle of incidence
+60
+00:02:49,966 --> 00:02:53,166
+we want to avoid large flat surfaces that could
+61
+00:02:53,200 --> 00:02:55,600
+reflect straight back to the radar receiver
+62
+00:02:56,066 --> 00:02:59,466
+corner reflectors where two surfaces are set at a ninety
+63
+00:02:59,466 --> 00:03:02,999
+degree angle to each other need to be avoided at all costs
+64
+00:03:03,466 --> 00:03:06,133
+tail planes consisting of the vertical and horizontal
+65
+00:03:06,133 --> 00:03:09,733
+stabilizer are the perfect surfaces to create a corner
+66
+00:03:10,000 --> 00:03:13,366
+reflector  allowing radar to bounce off both surfaces and
+67
+00:03:13,366 --> 00:03:15,699
+return right back in the direction it came
+68
+00:03:16,066 --> 00:03:18,166
+the best way to avoid this is to remove
+69
+00:03:18,166 --> 00:03:20,199
+the tail completely like the b-2
+70
+00:03:20,300 --> 00:03:22,366
+but this impacts maneuverability greatly
+71
+00:03:23,200 --> 00:03:25,700
+instead  we can replace both the horizontal and
+72
+00:03:25,700 --> 00:03:27,666
+vertical stabilizer with a v tail
+73
+00:03:27,766 --> 00:03:30,133
+as seen on the f one one seven night hawk
+74
+00:03:30,533 --> 00:03:33,566
+the v tail can act as both a rudder and an elevator
+75
+00:03:33,666 --> 00:03:35,933
+and we can see how by examining the
+76
+00:03:35,933 --> 00:03:38,133
+resultant force generated when the control
+77
+00:03:38,200 --> 00:03:40,566
+surfaces are actuated to different positions
+78
+00:03:41,300 --> 00:03:43,900
+we can actuate them in opposite directions to
+79
+00:03:43,900 --> 00:03:47,066
+generate a horizontal resultant force providing
+80
+00:03:47,066 --> 00:03:49,299
+yaw control as a vertical rudder Watt
+81
+00:03:49,400 --> 00:03:52,066
+or we can deflect them in the same direction to
+82
+00:03:52,066 --> 00:03:54,999
+provide pitch control as a horizontal elevator Watt
+83
+00:03:55,466 --> 00:03:58,199
+this configuration is sometimes used for unique looking
+84
+00:03:58,200 --> 00:04:01,800
+aircraft like the syrius sf fifty allowing it to mount a
+85
+00:04:01,800 --> 00:04:05,266
+single tiny jet engine on top of the fuselage with its
+86
+00:04:05,300 --> 00:04:07,600
+exhaust directed straight through the vertical tail
+87
+00:04:07,766 --> 00:04:11,066
+a private jet so tiny and lightweight that it can
+88
+00:04:11,066 --> 00:04:14,166
+deploy a parachute to rescue itself in emergencies
+89
+00:04:14,766 --> 00:04:17,399
+having rudder and elevator controls linked to a
+90
+00:04:17,400 --> 00:04:19,966
+single mechanism like this is not ideal
+91
+00:04:20,400 --> 00:04:22,933
+fighter jets like the f thirty five and the f
+92
+00:04:22,933 --> 00:04:25,566
+twenty two need superior control authority
+93
+00:04:25,866 --> 00:04:28,899
+and that is a function of control surface area
+94
+00:04:29,100 --> 00:04:30,400
+the larger the elevator
+95
+00:04:30,533 --> 00:04:31,966
+the larger the pitch control
+96
+00:04:32,333 --> 00:04:34,966
+if a control surface is working a double role
+97
+00:04:35,066 --> 00:04:37,799
+where rudder and elevator action is needed at the
+98
+00:04:37,800 --> 00:04:40,300
+same time it reduces the control authority
+99
+00:04:40,700 --> 00:04:44,700
+so both planes also feature large elevators offset by a
+100
+00:04:44,700 --> 00:04:47,766
+distance and angled to prevent corner reflections
+101
+00:04:48,400 --> 00:04:51,566
+we can see many more tradeoffs in design by comparing
+102
+00:04:51,566 --> 00:04:54,899
+the f one one seven and the f thirty five in the quest
+103
+00:04:54,900 --> 00:04:57,766
+to fulfill both stealth and fighter requirements
+104
+00:04:58,300 --> 00:05:01,533
+both the f one one seven and b two have their engine
+105
+00:05:01,533 --> 00:05:04,566
+air intakes mounted on the upper surface of the plane
+106
+00:05:04,600 --> 00:05:07,066
+which prevents ground based radar from bouncing
+107
+00:05:07,066 --> 00:05:10,099
+around inside the intake and back to the receiver and
+108
+00:05:10,100 --> 00:05:12,133
+helps reduce infrared heat signatures
+109
+00:05:12,766 --> 00:05:15,666
+however  for a plane expected to make high angle of
+110
+00:05:15,666 --> 00:05:17,999
+attack maneuvers in life and death situations
+111
+00:05:18,400 --> 00:05:20,800
+this isn't a design you would want to include
+112
+00:05:21,200 --> 00:05:23,300
+while performing a maneuver like this
+113
+00:05:23,366 --> 00:05:26,299
+the air intake will receive lower pressure air
+114
+00:05:26,333 --> 00:05:28,066
+which will lower performance right
+115
+00:05:28,066 --> 00:05:29,733
+when performance is needed most
+116
+00:05:30,200 --> 00:05:32,733
+air intakes located underneath the aircraft like
+117
+00:05:32,733 --> 00:05:35,499
+the f sixteen will cause too much radar return
+118
+00:05:35,800 --> 00:05:38,500
+so twin intakes located on either side
+119
+00:05:38,500 --> 00:05:40,766
+of the fuselage are instead chosen
+120
+00:05:41,266 --> 00:05:44,599
+these air intakes have some clever aerodynamic features too
+121
+00:05:45,166 --> 00:05:48,399
+this seemingly innocuous bump plays an important role
+122
+00:05:48,933 --> 00:05:51,299
+this is aeronautical engineering epitomized
+123
+00:05:51,600 --> 00:05:54,933
+every seemingly insignificant design feature has a purpose
+124
+00:05:55,666 --> 00:05:58,566
+mounting engine intakes along the body of an aircraft
+125
+00:05:58,666 --> 00:06:01,766
+comes with some issues that pylon mounted engines avoid
+126
+00:06:02,300 --> 00:06:04,500
+as air travels along the length of the body
+127
+00:06:04,766 --> 00:06:07,133
+air begins to form a layer of slow moving
+128
+00:06:07,333 --> 00:06:09,666
+turbulent air called a boundary layer
+129
+00:06:09,966 --> 00:06:12,133
+if this air is allowed to enter the engine
+130
+00:06:12,266 --> 00:06:13,999
+it not only lowers performance
+131
+00:06:14,100 --> 00:06:16,333
+but it can also damage the engine
+132
+00:06:16,566 --> 00:06:17,966
+as the turbine rotates
+133
+00:06:17,966 --> 00:06:20,499
+it will pass through the slow boundary air on one
+134
+00:06:20,500 --> 00:06:23,366
+side and then fast stream free air on the other
+135
+00:06:23,800 --> 00:06:26,066
+this means the force on the turbine blade
+136
+00:06:26,200 --> 00:06:28,600
+changes for each and every rotation
+137
+00:06:29,100 --> 00:06:30,533
+causing cyclic bending
+138
+00:06:30,566 --> 00:06:32,499
+a recipe for fatigue failure
+139
+00:06:33,000 --> 00:06:36,133
+planes like the f sixteen feature a boundary layer diverter
+140
+00:06:36,200 --> 00:06:39,666
+that separates the inlet from the fuselage with a small gap
+141
+00:06:39,866 --> 00:06:42,333
+but this design increases radar
+142
+00:06:42,333 --> 00:06:44,799
+cross section and increases drag
+143
+00:06:45,500 --> 00:06:49,266
+later variants of the f sixteen tested the dsi the
+144
+00:06:49,266 --> 00:06:52,933
+divertless supersonic inlet essentially a large bump
+145
+00:06:52,933 --> 00:06:55,866
+that creates a region of compression that pushes the
+146
+00:06:55,866 --> 00:06:58,933
+boundary layer air away from the inlet while also
+147
+00:06:58,933 --> 00:07:01,533
+scattering incoming radar and lowering drag
+148
+00:07:01,866 --> 00:07:03,899
+the test flight demonstrated that it could
+149
+00:07:03,900 --> 00:07:06,166
+meet performance requirements ushering in
+150
+00:07:06,166 --> 00:07:08,399
+its introduction to the f thirty five
+151
+00:07:08,866 --> 00:07:11,599
+the final product reduces weight by thirty percent
+152
+00:07:11,733 --> 00:07:14,299
+and lowers production and maintenance costs
+153
+00:07:14,866 --> 00:07:15,866
+moving down the plane
+154
+00:07:15,866 --> 00:07:17,766
+we can see other hints of stealth design
+155
+00:07:18,500 --> 00:07:20,900
+long sharp edges are the enemy of stealth
+156
+00:07:21,333 --> 00:07:23,499
+sharp edges causes radar waves to
+157
+00:07:23,500 --> 00:07:24,933
+scatter in all directions
+158
+00:07:25,533 --> 00:07:27,733
+Radar can even travel along the length of a
+159
+00:07:27,733 --> 00:07:30,333
+surface in the form of a traveling wave and then
+160
+00:07:30,333 --> 00:07:32,366
+scatter upon reaching the trailing edge
+161
+00:07:32,766 --> 00:07:35,333
+the strength of that return signal can be
+162
+00:07:35,333 --> 00:07:37,366
+reduced with a few clever techniques
+163
+00:07:37,733 --> 00:07:39,199
+the strength of the signal will
+164
+00:07:39,200 --> 00:07:40,700
+depend on the length of the edge
+165
+00:07:41,000 --> 00:07:43,266
+so the first technique is to reduce
+166
+00:07:43,266 --> 00:07:44,933
+the edge length with serration
+167
+00:07:45,466 --> 00:07:47,599
+you can see this technique implemented very
+168
+00:07:47,600 --> 00:07:50,600
+clearly on the trailing edge of the b two  however
+169
+00:07:50,866 --> 00:07:53,799
+it's less obvious where it's used for the f thirty five
+170
+00:07:54,266 --> 00:07:56,733
+until you start looking at all the access
+171
+00:07:56,733 --> 00:07:58,699
+hatches hidden around the aircraft
+172
+00:07:59,300 --> 00:08:01,700
+every single unavoidable surface gap on
+173
+00:08:01,700 --> 00:08:03,666
+the aircraft has a serrated edge
+174
+00:08:04,133 --> 00:08:07,333
+this hatch opens to reveal a telescoping ladder to
+175
+00:08:07,333 --> 00:08:10,066
+allow pilots to climb in and out of the aircraft
+176
+00:08:10,400 --> 00:08:12,533
+these open to reveal the landing gear
+177
+00:08:12,866 --> 00:08:14,599
+these are the internal weapons bay
+178
+00:08:14,866 --> 00:08:16,299
+essential for keeping the radar
+179
+00:08:16,333 --> 00:08:17,899
+reflecting missiles hidden from view
+180
+00:08:18,166 --> 00:08:21,199
+and these smaller hatches are flare dispenser doors
+181
+00:08:22,133 --> 00:08:25,066
+flare are effective decoys for heat seeking missiles
+182
+00:08:25,100 --> 00:08:27,966
+but they do nothing to prevent Radar guided missiles
+183
+00:08:28,366 --> 00:08:32,133
+in the face of Radar guided missile proliferation and
+184
+00:08:32,166 --> 00:08:34,733
+continued growing sophistication in the technology
+185
+00:08:35,066 --> 00:08:36,966
+a new decoy system was developed
+186
+00:08:37,700 --> 00:08:40,600
+this new technology is released from this panel
+187
+00:08:40,866 --> 00:08:41,666
+when needed
+188
+00:08:41,700 --> 00:08:44,866
+this access door opens and a transmitter begins to
+189
+00:08:44,866 --> 00:08:47,566
+reel out to a safe distance behind the plane
+190
+00:08:47,766 --> 00:08:49,933
+it has three levels of countermeasures to
+191
+00:08:49,933 --> 00:08:51,999
+protect the f thirty five from attack
+192
+00:08:52,700 --> 00:08:55,933
+first  it actively jams missiles while they attempt to lock
+193
+00:08:55,933 --> 00:08:59,066
+onto their targets by emitting jamming signals which
+194
+00:08:59,066 --> 00:09:02,066
+the onboard computer computes and delivers to the
+195
+00:09:02,066 --> 00:09:04,299
+emitter through the fiber optic towline
+196
+00:09:04,666 --> 00:09:06,733
+if the radar manages to obtain a lock
+197
+00:09:06,766 --> 00:09:08,933
+it then begins to attempt to break the lock
+198
+00:09:09,166 --> 00:09:10,933
+disrupting the tracking algorithms
+199
+00:09:11,133 --> 00:09:12,999
+guiding the missile towards its target
+200
+00:09:13,700 --> 00:09:16,066
+finally  if all is lost and the missile is
+201
+00:09:16,066 --> 00:09:17,599
+bearing down on the aircraft
+202
+00:09:17,733 --> 00:09:20,099
+the emitter begins to simulate the
+203
+00:09:20,100 --> 00:09:21,533
+aircraft's radar signature
+204
+00:09:21,966 --> 00:09:24,599
+drawing the missile toward it as a decoy
+205
+00:09:25,000 --> 00:09:27,000
+these serrated hatches hide critical
+206
+00:09:27,000 --> 00:09:28,766
+components of the f thirty five
+207
+00:09:29,100 --> 00:09:31,300
+but more can be done to reduce edge
+208
+00:09:31,333 --> 00:09:32,766
+scattering in these locations
+209
+00:09:33,300 --> 00:09:35,466
+you may notice that the color around these
+210
+00:09:35,466 --> 00:09:37,999
+edges is different to the rest of the plane
+211
+00:09:38,333 --> 00:09:40,366
+this is because the edges are treated
+212
+00:09:40,566 --> 00:09:42,799
+with a special radar scattering tape
+213
+00:09:43,300 --> 00:09:45,166
+in the same way traveling waves scatter
+214
+00:09:45,166 --> 00:09:47,166
+when they meet an edge discontinuity
+215
+00:09:47,300 --> 00:09:48,733
+they will scatter when traveling
+216
+00:09:48,733 --> 00:09:50,333
+over a change in conductivity
+217
+00:09:50,766 --> 00:09:54,099
+the f-35 uses this to its advantage to
+218
+00:09:54,100 --> 00:09:56,100
+scatter waves over a longer distance
+219
+00:09:56,766 --> 00:09:59,333
+reducing the return signal by spreading it out
+220
+00:09:59,766 --> 00:10:03,166
+the tape has a conductivity gradient gradually decreasing
+221
+00:10:03,166 --> 00:10:06,566
+its electrical conductivity causing radar waves to scatter
+222
+00:10:06,566 --> 00:10:10,166
+at each interval slowly decreasing the intensity of the
+223
+00:10:10,166 --> 00:10:13,266
+surface wave before it reaches the edge where it would have
+224
+00:10:13,266 --> 00:10:16,366
+released one large return if the tape was not present
+225
+00:10:16,966 --> 00:10:19,466
+the surface of the plane itself is also composed
+226
+00:10:19,466 --> 00:10:21,899
+of a specialized Radar absorbing material
+227
+00:10:22,166 --> 00:10:23,366
+in two thousand and ten
+228
+00:10:23,466 --> 00:10:26,699
+Lockheed Martin filed this patent for a carbon nanotube
+229
+00:10:26,700 --> 00:10:30,166
+infused composite material that can absorb Radar waves from
+230
+00:10:30,166 --> 00:10:33,266
+Zero point one Megahertz through to sixty Gigahertz
+231
+00:10:33,700 --> 00:10:36,166
+this is an incredibly wide range of frequencies
+232
+00:10:36,533 --> 00:10:39,399
+notably covering the frequencies russian surface to
+233
+00:10:39,400 --> 00:10:42,866
+air missiles like the advanced s-400 system uses
+234
+00:10:43,333 --> 00:10:45,666
+the effect traveling surface waves have on
+235
+00:10:45,666 --> 00:10:47,466
+stealth design can be seen elsewhere
+236
+00:10:47,933 --> 00:10:49,866
+you would imagine a Cylinder would be a great
+237
+00:10:49,866 --> 00:10:51,766
+way to scatter Radar in all directions
+238
+00:10:52,166 --> 00:10:54,099
+lowering the strength of the return signal
+239
+00:10:54,200 --> 00:10:57,466
+but if a Radar wave comes in tangentially to a cylinder
+240
+00:10:57,466 --> 00:10:59,266
+and the wavelength is at least one
+241
+00:10:59,266 --> 00:11:00,866
+tenth the cylinder's circumference
+242
+00:11:00,966 --> 00:11:03,933
+the wave can actually travel around the outside of the
+243
+00:11:03,933 --> 00:11:06,533
+cylinder and travel straight back to the receiver
+244
+00:11:07,000 --> 00:11:10,066
+this is likely why the f thirty five features a
+245
+00:11:10,066 --> 00:11:12,666
+sharp edge breaking up the circular nose cone
+246
+00:11:12,733 --> 00:11:14,399
+where the f sixteen has a nearly
+247
+00:11:14,500 --> 00:11:16,266
+perfect circular nose cone
+248
+00:11:16,300 --> 00:11:18,266
+the f thirty five features a ridge
+249
+00:11:19,133 --> 00:11:22,366
+the largest hatch on the plane is strangely not serrated
+250
+00:11:22,466 --> 00:11:23,766
+and this is for good reason
+251
+00:11:24,066 --> 00:11:26,699
+this hatch hides the powerful lift fan within
+252
+00:11:26,900 --> 00:11:28,600
+the airflow in and out of this lift
+253
+00:11:28,600 --> 00:11:30,466
+fan needs careful consideration
+254
+00:11:30,766 --> 00:11:33,533
+the lift fan is essentially a tiny helicopter
+255
+00:11:33,866 --> 00:11:36,266
+capable of generating eighty five kilonewtons of
+256
+00:11:36,266 --> 00:11:38,999
+vertical thrust and in doing so creates a low
+257
+00:11:39,000 --> 00:11:42,100
+pressure zone above the plane violently sucking air
+258
+00:11:42,166 --> 00:11:44,599
+into the aircraft at a ninety degree angle
+259
+00:11:45,066 --> 00:11:48,133
+this air has to travel over the hood to reach the inlet
+260
+00:11:48,200 --> 00:11:51,266
+and thus the hood needs to allow air to smoothly pass
+261
+00:11:51,266 --> 00:11:53,933
+over it without creating too much turbulent flow
+262
+00:11:54,100 --> 00:11:56,533
+which would lower the performance of the lift fan
+263
+00:11:56,933 --> 00:11:59,266
+this is why the inlet door is not serrated
+264
+00:11:59,366 --> 00:12:02,199
+as the sharp edges would cause distortions in the flow
+265
+00:12:02,666 --> 00:12:04,933
+this hood alone went through several design
+266
+00:12:04,933 --> 00:12:08,133
+iterations to optimize the airflow flowing over it
+267
+00:12:08,533 --> 00:12:11,499
+the demonstration x thirty five aircraft had two
+268
+00:12:11,500 --> 00:12:13,866
+doors opening towards the side of the aircraft
+269
+00:12:14,000 --> 00:12:15,666
+but this was changed for the final
+270
+00:12:15,666 --> 00:12:18,166
+aircraft in favor of a rear hinged door
+271
+00:12:18,700 --> 00:12:21,600
+this helps funnel air into the engine and improves
+272
+00:12:21,600 --> 00:12:24,333
+pressure recovery on short takeoffs where the f
+273
+00:12:24,333 --> 00:12:27,199
+thirty five b does not take off vertically instead
+274
+00:12:27,400 --> 00:12:30,333
+using the lift fan and directional thrust of the rear
+275
+00:12:30,333 --> 00:12:33,166
+nozzle to take off on extremely short runways
+276
+00:12:33,733 --> 00:12:36,366
+the way this aircraft transforms to perform
+277
+00:12:36,533 --> 00:12:39,733
+vertical landing and short takeoffs is astounding
+278
+00:12:39,933 --> 00:12:41,366
+it's the closest thing to a
+279
+00:12:41,366 --> 00:12:43,166
+transformer we have ever created
+280
+00:12:43,866 --> 00:12:47,166
+1 when the time comes a clutch linking the extended drive
+281
+00:12:47,166 --> 00:12:50,199
+shaft of the f thirty five's engine begins to transfer
+282
+00:12:50,400 --> 00:12:53,866
+twenty nine thousand horsepower to the bevel gear of the
+283
+00:12:53,866 --> 00:12:57,199
+lift fan spinning the contra rotating lift fan blades
+284
+00:12:57,700 --> 00:12:58,500
+simultaneously
+285
+00:12:58,733 --> 00:13:01,799
+gears begin to rotate in the rear exhaust nozzle
+286
+00:13:02,266 --> 00:13:05,266
+the mechanics of this nozzle are another wonder to behold
+287
+00:13:05,733 --> 00:13:07,899
+called the three bearing swivel nozzle
+288
+00:13:07,966 --> 00:13:10,299
+it is composed of three airtight segments
+289
+00:13:10,333 --> 00:13:12,399
+cut at angles relative to one another
+290
+00:13:12,800 --> 00:13:14,966
+we can change the shape of the nozzle by
+291
+00:13:14,966 --> 00:13:17,299
+rotating these angled pieces separately
+292
+00:13:17,900 --> 00:13:19,800
+these three pieces rotate together to
+293
+00:13:19,800 --> 00:13:21,500
+smoothly transition thrust downwards
+294
+00:13:21,766 --> 00:13:24,966
+but it's easier to understand how it works by seeing
+295
+00:13:24,966 --> 00:13:27,599
+what happens when we rotate segments individually
+296
+00:13:28,266 --> 00:13:30,666
+rotating the central piece can take the nozzle
+297
+00:13:30,666 --> 00:13:33,299
+from zero degrees down to forty five degrees
+298
+00:13:33,600 --> 00:13:35,933
+this position is used for short takeoffs
+299
+00:13:36,066 --> 00:13:38,866
+splitting the engine's power between thrust and lift
+300
+00:13:39,400 --> 00:13:42,300
+this mode is as impressive as the vertical takeoffs
+301
+00:13:42,500 --> 00:13:44,533
+allowing the plane to operate from shorter
+302
+00:13:44,533 --> 00:13:47,566
+amphibious assault ships like the uss mcmaster island
+303
+00:13:47,800 --> 00:13:50,600
+a ship just two hundred and fifty eight meters long
+304
+00:13:51,133 --> 00:13:54,099
+its minimum takeoff distance decreases even further
+305
+00:13:54,266 --> 00:13:56,899
+with the aid of a ski jump a ramp that has been
+306
+00:13:56,900 --> 00:13:59,333
+added to smaller amphibious assault ships
+307
+00:14:00,066 --> 00:14:02,199
+watching the f thirty five take off over
+308
+00:14:02,200 --> 00:14:04,466
+such short distances is incredible
+309
+00:14:04,866 --> 00:14:07,866
+in this clip we can see the rear nozzle quickly adjusting
+310
+00:14:07,866 --> 00:14:11,399
+its angle of thrust in sync with the rear elevators to
+311
+00:14:11,400 --> 00:14:14,933
+adjust the pitch of the plane to ensure a safe takeoff
+312
+00:14:15,266 --> 00:14:16,733
+for a vertical landing
+313
+00:14:16,733 --> 00:14:19,199
+the final nozzle segment can rotate to
+314
+00:14:19,200 --> 00:14:21,133
+provide the full ninety degree turn
+315
+00:14:21,533 --> 00:14:23,333
+the first nozzle segment can rotate to
+316
+00:14:23,333 --> 00:14:24,999
+move the nozzle from side to side
+317
+00:14:25,166 --> 00:14:28,166
+but here it's needed to ensure the thrust doesn't
+318
+00:14:28,166 --> 00:14:31,766
+move sideways as the nozzle transitions  as we saw
+319
+00:14:31,933 --> 00:14:34,066
+when we rotate the segments individually
+320
+00:14:34,166 --> 00:14:36,333
+they move in an arc that would cause the f
+321
+00:14:36,333 --> 00:14:38,333
+thirty five to spin out of control
+322
+00:14:39,000 --> 00:14:42,066
+this mechanism also allows the f thirty five to
+323
+00:14:42,066 --> 00:14:44,799
+smoothly transition from cruise to vertical flight
+324
+00:14:44,966 --> 00:14:47,366
+and from vertical flight to cruise when needed
+325
+00:14:48,000 --> 00:14:50,700
+there are additional control mechanisms to ensure
+326
+00:14:50,700 --> 00:14:53,300
+this precarious balancing act does not go wrong
+327
+00:14:53,933 --> 00:14:56,699
+bleed air from the main engine bypass is siphoned
+328
+00:14:56,700 --> 00:14:59,366
+to two roll nozzles located on each wing
+329
+00:14:59,766 --> 00:15:01,933
+providing thrust far away from the plane's
+330
+00:15:01,933 --> 00:15:03,766
+center of pressure to control roll
+331
+00:15:04,533 --> 00:15:07,866
+there are also guide vanes located underneath the lift fan
+332
+00:15:08,133 --> 00:15:10,366
+these can adjust the outlet area to
+333
+00:15:10,366 --> 00:15:12,299
+adjust the performance of the lift fan
+334
+00:15:12,466 --> 00:15:15,566
+but can also control the thrust of the lift fan from
+335
+00:15:15,566 --> 00:15:18,366
+five degrees forward to forty two degrees backwards
+336
+00:15:18,900 --> 00:15:22,100
+with computer assisted control of these control mechanisms
+337
+00:15:22,266 --> 00:15:25,266
+the f-35 is remarkably stable compared to
+338
+00:15:25,266 --> 00:15:27,799
+its predecessor the av-8b harrier
+339
+00:15:28,133 --> 00:15:30,499
+allowing the single engine of the f-35
+340
+00:15:30,500 --> 00:15:32,700
+to hover on two columns of air
+341
+00:15:33,133 --> 00:15:35,199
+to do this  the f-35's engine
+342
+00:15:35,200 --> 00:15:37,666
+the f-135 developed from the
+343
+00:15:37,666 --> 00:15:40,333
+f-119 engine of the f-22 raptor
+344
+00:15:40,466 --> 00:15:42,133
+had to be incredibly powerful
+345
+00:15:42,666 --> 00:15:45,533
+the f-22 raptor is a twin engine fighter
+346
+00:15:45,700 --> 00:15:47,666
+giving it plenty of excess power to
+347
+00:15:47,666 --> 00:15:49,366
+pull off incredible maneuvers
+348
+00:15:49,866 --> 00:15:53,133
+the f thirty five only has one engine and needs to squeeze
+349
+00:15:53,133 --> 00:15:56,799
+out all the power it can get to perform a vertical landing
+350
+00:15:57,166 --> 00:15:59,599
+where the f twenty two's engine can generate one
+351
+00:15:59,600 --> 00:16:01,966
+hundred and fifty six kilonewtons of thrust
+352
+00:16:02,100 --> 00:16:03,700
+the f thirty five's can generate
+353
+00:16:03,700 --> 00:16:05,066
+one hundred and ninety one
+354
+00:16:05,566 --> 00:16:07,499
+the f thirty five's engine has a much
+355
+00:16:07,500 --> 00:16:09,666
+larger fan and bypass ducting
+356
+00:16:09,800 --> 00:16:11,866
+giving it twice the bypass ratio of
+357
+00:16:11,866 --> 00:16:13,533
+its f twenty two counterpart
+358
+00:16:13,766 --> 00:16:15,399
+providing the f thirty five with a
+359
+00:16:15,400 --> 00:16:17,166
+more efficient engine for cruise
+360
+00:16:17,333 --> 00:16:20,699
+but also a higher mass flow rate for higher thrust
+361
+00:16:21,133 --> 00:16:23,466
+however  this does come with some drawbacks
+362
+00:16:24,133 --> 00:16:27,166
+air that travels around the engine core completely avoids
+363
+00:16:27,166 --> 00:16:30,166
+the combustion chamber and thus misses out on the
+364
+00:16:30,166 --> 00:16:33,966
+acceleration generated there reducing the exhaust velocity
+365
+00:16:34,400 --> 00:16:36,600
+this reduces the top speed of the plane
+366
+00:16:37,066 --> 00:16:40,066
+the Max speed of the f thirty five is one point six马赫
+367
+00:16:40,133 --> 00:16:42,333
+and while it's the first plane capable of
+368
+00:16:42,333 --> 00:16:44,466
+vertical flight and supersonic flights
+369
+00:16:44,600 --> 00:16:47,300
+the f twenty two can fly at two point two马赫
+370
+00:16:47,600 --> 00:16:51,100
+the f thirty five was optimized for loiter time not speed
+371
+00:16:51,700 --> 00:16:54,400
+however  all that extra weight needed for vertical
+372
+00:16:54,400 --> 00:16:56,933
+takeoff seriously hampers that ideology
+373
+00:16:57,400 --> 00:17:00,266
+the liftfan module weighs one point two tons
+374
+00:17:00,533 --> 00:17:02,299
+weight that does nothing in normal
+375
+00:17:02,300 --> 00:17:04,566
+flight and requires more fuel to carry
+376
+00:17:04,800 --> 00:17:06,133
+and to make matters worse
+377
+00:17:06,300 --> 00:17:08,266
+that space is used for internal
+378
+00:17:08,366 --> 00:17:10,266
+fuel tanks for its variants
+379
+00:17:10,900 --> 00:17:14,000
+making the lift fan as light as possible was pertinent to
+380
+00:17:14,000 --> 00:17:16,966
+making the f thirty five b viable in the battlefield
+381
+00:17:17,200 --> 00:17:20,900
+the fact it only weighs one point two tons is astounding
+382
+00:17:21,366 --> 00:17:24,499
+it contains two counter rotating titanium blisks
+383
+00:17:24,800 --> 00:17:27,933
+blisk meaning the blades and disk are all one single piece
+384
+00:17:28,300 --> 00:17:31,300
+instead of the traditional alternative of creating a disk
+385
+00:17:31,300 --> 00:17:33,933
+and attaching blades through dovetail connections
+386
+00:17:34,500 --> 00:17:36,800
+this improves efficiency and eliminates a
+387
+00:17:36,800 --> 00:17:39,100
+potential site of failure in the connection
+388
+00:17:39,533 --> 00:17:41,866
+this is an astounding feat of manufacturing
+389
+00:17:41,866 --> 00:17:44,166
+and the first stage fan takes it even further
+390
+00:17:44,533 --> 00:17:47,133
+the first stage blades are hollow to save weight
+391
+00:17:47,866 --> 00:17:51,566
+where the f 35 b truly comes into its own however is in its
+392
+00:17:51,566 --> 00:17:55,266
+modern suite of sensors and computers all feeding into this
+393
+00:17:55,333 --> 00:17:58,899
+the heads up display incorporated into the pilot's helmet
+394
+00:17:59,566 --> 00:18:02,399
+traditional heads up displays like those of the f sixteen
+395
+00:18:02,500 --> 00:18:06,166
+are incorporated into a panel in the cockpit a panel which
+396
+00:18:06,166 --> 00:18:08,899
+the pilot can't see while scanning their environment
+397
+00:18:09,366 --> 00:18:12,199
+situational awareness is everything in the heat of combat
+398
+00:18:12,400 --> 00:18:14,333
+and this helmet does everything it
+399
+00:18:14,333 --> 00:18:15,999
+can to keep the pilot informed
+400
+00:18:16,333 --> 00:18:18,966
+even giving them x ray vision and night vision
+401
+00:18:19,700 --> 00:18:22,133
+information from a suite of sensors around the plane
+402
+00:18:22,266 --> 00:18:25,166
+feed into a central computer where it is processed and
+403
+00:18:25,166 --> 00:18:27,699
+displayed through a projector inside the helmet
+404
+00:18:28,333 --> 00:18:30,533
+inside this transparent faceted box
+405
+00:18:30,600 --> 00:18:32,900
+underneath the aircraft is a suite of sensors
+406
+00:18:33,366 --> 00:18:34,899
+those are not your typical windows
+407
+00:18:35,533 --> 00:18:37,199
+these windows are made from a
+408
+00:18:37,200 --> 00:18:39,933
+notoriously expensive gemstone  sapphire
+409
+00:18:40,266 --> 00:18:43,199
+one of the few materials that is both hard and durable
+410
+00:18:43,266 --> 00:18:45,733
+but also transparent to a broad range of
+411
+00:18:45,733 --> 00:18:49,199
+electromagnetic wavelengths from ultraviolet to infrared
+412
+00:18:49,866 --> 00:18:50,299
+however
+413
+00:18:50,300 --> 00:18:53,400
+the Radar antenna hidden inside the nose of the f thirty
+414
+00:18:53,400 --> 00:18:56,700
+five is the most important part of this electronic system
+415
+00:18:57,166 --> 00:19:00,133
+this is a scanned array Radar that works very
+416
+00:19:00,133 --> 00:19:02,399
+differently to traditional mechanical Radar
+417
+00:19:03,066 --> 00:19:05,999
+phased array antennas have hundreds of tiny antennas
+418
+00:19:06,266 --> 00:19:08,799
+we can see metal plates set in rows in the
+419
+00:19:08,800 --> 00:19:10,866
+f thirty five phased array antenna
+420
+00:19:11,166 --> 00:19:13,566
+the metal plates have slots cut into them and
+421
+00:19:13,566 --> 00:19:15,966
+each and every one of these slots is an
+422
+00:19:15,966 --> 00:19:18,799
+antenna one thousand six hundred in total
+423
+00:19:19,133 --> 00:19:22,799
+this allows the phased array antenna to steer its radar
+424
+00:19:22,900 --> 00:19:25,533
+using constructive and destructive interference
+425
+00:19:26,300 --> 00:19:29,166
+if two antennae release two radar waves at the exact
+426
+00:19:29,166 --> 00:19:31,966
+same time with their peaks and troughs lined up
+427
+00:19:32,066 --> 00:19:34,333
+it will result in constructive interference
+428
+00:19:35,000 --> 00:19:37,266
+increasing the amplitude of the radio wave
+429
+00:19:37,733 --> 00:19:40,866
+however if the radio waves are set one hundred and eighty
+430
+00:19:40,866 --> 00:19:44,333
+degrees out of phase matching the peaks to troughs it will
+431
+00:19:44,366 --> 00:19:47,933
+result in complete destructive interference canceling out
+432
+00:19:47,933 --> 00:19:51,466
+the wave completely this is how noise canceling earphones
+433
+00:19:51,466 --> 00:19:54,733
+work they listen to the background noise and then release a
+434
+00:19:54,733 --> 00:19:56,799
+canceling sound wave to create silence
+435
+00:19:57,666 --> 00:19:59,299
+phased array antenna use this
+436
+00:19:59,300 --> 00:20:01,533
+phenomenon to steer the radio waves
+437
+00:20:01,800 --> 00:20:03,966
+preventing the radar from becoming a giant
+438
+00:20:03,966 --> 00:20:06,366
+beacon leading enemies straight to it
+439
+00:20:06,800 --> 00:20:08,966
+traditional phased array antennas are passive
+440
+00:20:09,266 --> 00:20:11,966
+meaning every antenna in the array is driven
+441
+00:20:12,000 --> 00:20:14,366
+by a single transmitter and receiver
+442
+00:20:14,733 --> 00:20:17,199
+this would mean it can only point in one direction
+443
+00:20:17,466 --> 00:20:21,133
+and if it encountered two enemy planes flying side by side
+444
+00:20:21,200 --> 00:20:22,366
+and they split up
+445
+00:20:22,500 --> 00:20:24,700
+the passive phased array antenna would no
+446
+00:20:24,700 --> 00:20:26,533
+longer be able to track both of them
+447
+00:20:27,133 --> 00:20:27,533
+however
+448
+00:20:27,533 --> 00:20:31,333
+the f-35's phased array antenna is an active phased array
+449
+00:20:31,566 --> 00:20:34,599
+meaning each and every one of these antenna is an
+450
+00:20:34,800 --> 00:20:37,700
+individually driven transmitter and receiver  meaning
+451
+00:20:37,800 --> 00:20:40,266
+the f-35 can track multiple targets
+452
+00:20:40,333 --> 00:20:42,366
+at once with zero moving parts
+453
+00:20:43,133 --> 00:20:45,566
+the nose cones hiding these antennas need to be
+454
+00:20:45,566 --> 00:20:48,199
+transparent to Radar waves and are usually made
+455
+00:20:48,200 --> 00:20:50,400
+from glass fiber composites as a result
+456
+00:20:50,666 --> 00:20:52,699
+this transparency causes issues for
+457
+00:20:52,700 --> 00:20:54,400
+the plane's radar return signature
+458
+00:20:54,600 --> 00:20:57,300
+as an antenna like this will reflect signals
+459
+00:20:57,866 --> 00:21:00,866
+this was a much bigger issue for mechanical radar dishes
+460
+00:21:00,900 --> 00:21:03,766
+that needed to point at the enemy to keep track of them
+461
+00:21:03,933 --> 00:21:06,266
+the phased array can point towards multiple
+462
+00:21:06,266 --> 00:21:08,499
+targets while staying in a single position
+463
+00:21:08,866 --> 00:21:11,333
+and this is why it is pointed skywards
+464
+00:21:11,533 --> 00:21:13,766
+to bounce incoming radar to space
+465
+00:21:14,500 --> 00:21:16,533
+the phased array antenna also acts as
+466
+00:21:16,533 --> 00:21:18,199
+the plane's communication antenna
+467
+00:21:18,266 --> 00:21:21,199
+and this is critical to the f-35's battle doctrine
+468
+00:21:21,700 --> 00:21:23,700
+the f thirty five excels in battle
+469
+00:21:24,133 --> 00:21:26,299
+because of its networking abilities
+470
+00:21:26,700 --> 00:21:28,900
+relaying information between its squadron
+471
+00:21:29,266 --> 00:21:31,333
+this is a huge amount of data to transfer
+472
+00:21:31,400 --> 00:21:33,400
+between aircraft and allies on the surface
+473
+00:21:33,766 --> 00:21:36,899
+and requires a high data transfer speed  however
+474
+00:21:37,166 --> 00:21:39,766
+communication comes with one glaring problem
+475
+00:21:39,900 --> 00:21:42,133
+it announces your presence to anyone listening
+476
+00:21:42,666 --> 00:21:44,733
+it is vital that stealth planes can
+477
+00:21:44,766 --> 00:21:46,499
+communicate with each other securely
+478
+00:21:46,866 --> 00:21:49,999
+and the active phased array antenna facilitates this
+479
+00:21:50,500 --> 00:21:54,333
+the f thirty five uses the latest datalink system m adl
+480
+00:21:54,733 --> 00:21:57,899
+improving on the experiences learned with the f twenty two
+481
+00:21:58,200 --> 00:22:01,200
+allowing the f thirty five to quickly share data securely
+482
+00:22:01,500 --> 00:22:04,800
+from individual f thirty fives and ground based systems
+483
+00:22:05,400 --> 00:22:07,866
+this information is then sorted by the computer
+484
+00:22:07,866 --> 00:22:10,299
+and presented to the pilot in their heads up
+485
+00:22:10,300 --> 00:22:12,066
+display right in front of their eyes
+486
+00:22:12,366 --> 00:22:15,099
+giving them unparalleled situational awareness
+487
+00:22:15,600 --> 00:22:17,966
+there is no need to communicate with their wing
+488
+00:22:18,000 --> 00:22:20,466
+mates if there is an adversary underneath them
+489
+00:22:20,500 --> 00:22:22,200
+the planes communicate and feed
+490
+00:22:22,200 --> 00:22:24,200
+that data right into the helmet
+491
+00:22:24,500 --> 00:22:26,866
+allowing the pilot to look underneath the plane and
+492
+00:22:26,866 --> 00:22:29,399
+see the location of the adversary themselves
+493
+00:22:30,133 --> 00:22:32,699
+this is the true strength of the f 35b
+494
+00:22:32,800 --> 00:22:35,266
+it is a networked Hive mind stealth fighter
+495
+00:22:35,566 --> 00:22:37,966
+capable of taking off from a ship a fraction of
+496
+00:22:37,966 --> 00:22:40,333
+the size of an aircraft carrier and returning
+497
+00:22:40,400 --> 00:22:42,800
+while hovering in the sky like a helicopter
+498
+00:22:43,000 --> 00:22:44,866
+it's one of the most remarkable pieces
+499
+00:22:44,866 --> 00:22:47,399
+of military technology ever created
+500
+00:22:48,366 --> 00:22:51,299
+the f thirty five has borrowed many lessons learned from
+501
+00:22:51,300 --> 00:22:54,166
+planes like the f one one seven night hawk and b two
+502
+00:22:54,500 --> 00:22:57,133
+planes that we have not made documentaries about yet
+503
+00:22:57,666 --> 00:23:00,566
+but our friends over at mustered half their b two
+504
+00:23:00,566 --> 00:23:03,366
+documentary is twenty minutes of beautifully crafted
+505
+00:23:03,366 --> 00:23:07,366
+story filled with stylish 3d renders if you liked this
+506
+00:23:07,366 --> 00:23:09,899
+video you will definitely love these originals
+507
+00:23:10,500 --> 00:23:12,600
+you can get access to them by signing up with the
+508
+00:23:12,600 --> 00:23:14,766
+real engineering link in the description
+509
+00:23:15,100 --> 00:23:17,533
+you can sign up directly to Nebula for just
+510
+00:23:17,533 --> 00:23:20,466
+four dollars a month or forty dollars a year
+511
+00:23:20,600 --> 00:23:23,866
+an incredibly good price to help us build the best
+512
+00:23:23,866 --> 00:23:26,299
+creator owned streaming platform in the world
+513
+00:23:26,766 --> 00:23:30,499
+or you can use the incredible cost saving hack of signing up
+514
+00:23:30,500 --> 00:23:34,066
+to the Nebula and curiositystream bundle and get both
+515
+00:23:34,066 --> 00:23:37,299
+streaming services for just fourteen seventy nine a year
+516
+00:23:37,533 --> 00:23:40,933
+getting access to all of curiositystream's award winning
+517
+00:23:40,933 --> 00:23:45,333
+documentaries and Nebula's amazing and ever growing catalog
+518
+00:23:45,700 --> 00:23:47,600
+Nebula is a game changing platform
+519
+00:23:47,800 --> 00:23:50,666
+we gathered all of our favorite YouTube creators in
+520
+00:23:50,666 --> 00:23:53,666
+one place to give us the power of a collective
+521
+00:23:54,066 --> 00:23:57,066
+funding our best ideas for documentaries like our
+522
+00:23:57,066 --> 00:23:59,866
+battle of Britain and logistics of d day series
+523
+00:24:00,133 --> 00:24:02,599
+and real sciences becoming human series
+524
+00:24:03,100 --> 00:24:05,933
+they even funded Patrick Williams feature length film that
+525
+00:24:05,933 --> 00:24:09,533
+i feature in in a scene alongside Darren Aronofsky
+526
+00:24:09,900 --> 00:24:12,266
+that would not be possible on YouTube
+527
+00:24:12,733 --> 00:24:15,699
+we also upload early and ad free on Nebula
+528
+00:24:15,800 --> 00:24:17,900
+giving you early access to Sam from
+529
+00:24:17,900 --> 00:24:20,533
+windover and eyesantics on jet lag the game
+530
+00:24:20,900 --> 00:24:23,466
+along with exclusive behind the scenes videos
+531
+00:24:23,600 --> 00:24:26,533
+like the layover after show and our extended
+532
+00:24:26,566 --> 00:24:29,099
+interview from David Curtis from Helios
+533
+00:24:29,533 --> 00:24:32,333
+we have many more documentary shoots planned for the year
+534
+00:24:32,533 --> 00:24:34,466
+with fascinating companies and we will be
+535
+00:24:34,466 --> 00:24:36,966
+releasing behind the scenes footage for them all
+536
+00:24:37,166 --> 00:24:39,699
+you get all this while helping us build a
+537
+00:24:39,700 --> 00:24:42,400
+platform that unlocks our creativity from the
+538
+00:24:42,400 --> 00:24:44,900
+shackles of an algorithm driven platform
+539
+00:24:45,300 --> 00:24:47,966
+signing up with the link in the description is the
+540
+00:24:47,966 --> 00:24:50,766
+best way to support this channel while getting some
+541
+00:24:50,800 --> 00:24:53,700
+amazing entertainment and education in return

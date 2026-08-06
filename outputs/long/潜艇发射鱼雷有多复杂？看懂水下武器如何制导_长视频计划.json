@@ -1,0 +1,224 @@
+{
+  "version": 1,
+  "title": "潜艇发射鱼雷有多复杂？看懂水下武器如何制导",
+  "source_subtitle": "outputs/潜艇发射鱼雷有多复杂？看懂水下武器如何制导_时间线01.srt",
+  "editorial": {
+    "content_lane": "军事装备/战争机制",
+    "audience_question": "潜艇发射鱼雷为什么不是把炮弹推出去，而是一整套水下流程？",
+    "promised_answer": "鱼雷出管前必须完成装填、锁定、注水、排气、均压和解锁，最后由受压海水把它推出艇体。",
+    "emotional_shift": "从以为鱼雷只是会游泳的炸弹，到看懂水下武器发射依赖精密的压力与机械协同。",
+    "series_link": "潜艇武器与水下作战机制",
+    "claim_status": "mixed"
+  },
+  "preflight_review": {
+    "status": "passed",
+    "review_scope": "content_before_render",
+    "one_line_question": "潜艇发射鱼雷为什么需要这么多步骤？",
+    "one_line_answer": "鱼雷管必须先完成装填、锁定、注水、均压和解锁，才能让受压海水安全推出鱼雷。",
+    "conflict": "鱼雷需要从密闭艇体进入高压海水，发射系统必须同时保证安全锁定、压力平衡和快速出管。",
+    "emotional_value": "让观众从只关注鱼雷爆炸威力，转向理解发射机构、海水压力和水下隐蔽性的协同。",
+    "checks": {
+      "position_and_fact": "pass",
+      "emotional_value": "pass",
+      "conflict_and_hook": "pass",
+      "answer_timing": "pass",
+      "visual_evidence": "pass",
+      "title_script_consistency": "pass",
+      "safety_and_attribution": "pass"
+    },
+    "risk_notes": [
+      "源字幕为英文单语 SRT，中文解说依据源字幕和鱼雷管剖面画面重写，不生成未经核实的具体型号参数。",
+      "源片使用通用鱼雷管动画，解说将‘现代鱼雷’与‘本片展示的发射流程’分开表述，不把单一艇型结构泛化为所有潜艇。",
+      "保留源片 Military TV 水印，不移除版权标识；正式使用前仍需确认源片复用授权。"
+    ],
+    "revision_notes": [
+      "已阅读源字幕并检查源视频联系表；源片总时长约 290.064 秒，画面包含鱼雷管实拍、潜艇镜头和装填—注水—均压—出管剖面动画。",
+      "已将频道开场、行动号召和结尾宣传改写为男性向纪录片口吻；前 2 秒给出发射流程冲突，前 10 秒交付答案方向。",
+      "文案按装填、锁定、注水排气、压力均衡、滑阀开启和受压海水推出六个机制节点组织；每段都有对应结构图、潜艇镜头或流程画面。",
+      "男性向默认使用 Edge zh-CN-YunyangNeural、+10%，不添加 BGM，正式视频关闭英文原声并保留源片画面。"
+    ]
+  },
+  "platform_titles": {
+    "bilibili": "潜艇发射鱼雷有多复杂？看懂水下武器如何制导",
+    "douyin": "潜艇发射鱼雷，为什么不是开炮？",
+    "kuaishou": "鱼雷怎么从潜艇里打出去？",
+    "xiaohongshu": "潜艇鱼雷发射图解：看懂水下武器如何制导"
+  },
+  "platform_descriptions": {
+    "bilibili": "潜艇发射鱼雷不是把一枚炸弹推出去，而是要依次完成装填、锁定、注水、排气、均压和解锁。本期用鱼雷管剖面动画拆解完整流程，看懂海水压力怎样把鱼雷安全推出艇体。",
+    "douyin": "鱼雷怎么从潜艇里打出去？关键不是爆炸，而是鱼雷管如何完成注水、均压和解锁。",
+    "kuaishou": "潜艇打鱼雷，为什么要先注水再发射？一条动画看懂鱼雷出管的完整流程。",
+    "xiaohongshu": "潜艇鱼雷发射图解：从装填、锁定到注水均压，完整看懂水下武器如何离开鱼雷管。"
+  },
+  "source_video": "L:/workspace/yinghe-shijie/videos/raw/潜艇发射鱼雷有多复杂？看懂水下武器如何制导.mp4",
+  "output_video": "L:/workspace/yinghe-shijie/videos/exports/长视频/潜艇发射鱼雷有多复杂？看懂水下武器如何制导/潜艇发射鱼雷有多复杂？看懂水下武器如何制导_长视频.mp4",
+  "cover_title": "潜艇发射鱼雷有多复杂？",
+  "cover_headline": "鱼雷怎么安全出管",
+  "cover_subhead": "水下武器发射全拆解",
+  "cover_aspect": "16:9",
+  "layout": "source",
+  "burn_captions": false,
+  "write_subtitles": true,
+  "mix": {
+    "source_volume": 0.0,
+    "narration_volume": 1.0,
+    "music_volume": 0.0,
+    "music_fade_seconds": 0.0,
+    "source_audio_mode": "static"
+  },
+  "clips": [
+    {
+      "id": "full_source",
+      "source_start": "00:00:00.000",
+      "source_end": "00:04:50.064",
+      "focus_x": 0.5
+    }
+  ],
+  "narration": {
+    "provider": "edge",
+    "voice": "zh-CN-YunyangNeural",
+    "rate": "+10%",
+    "segments": [
+      {
+        "id": "seg_001",
+        "start": "00:00:00.000",
+        "end": "00:00:15.500",
+        "text": "潜艇发射鱼雷，真正复杂的地方，不是爆炸那一刻，而是鱼雷离开艇体之前，必须完成一整套水下准备。接下来用一个剖面图，看懂它怎样从管内安全出发。",
+        "english_text": "The hardest part of firing a torpedo from a submarine is not the explosion, but the complete underwater preparation that must happen before the weapon leaves the hull. Using a cutaway diagram, we can see how it begins its journey safely inside the tube."
+      },
+      {
+        "id": "seg_002",
+        "start": "00:00:15.500",
+        "end": "00:00:31.000",
+        "text": "鱼雷是一种自推进的水下武器，内部有战斗部、动力系统和控制机构。它可以从水面舰艇、飞机或潜艇发射，靠自身航行接近目标，而不是像普通炮弹一样只沿着一条抛物线飞出去。",
+        "english_text": "A torpedo is a self-propelled underwater weapon containing a warhead, a propulsion system, and control mechanisms. It can be launched from surface ships, aircraft, or submarines and travels toward its target under its own power, unlike an ordinary shell that simply follows a ballistic path."
+      },
+      {
+        "id": "seg_003",
+        "start": "00:00:31.000",
+        "end": "00:00:47.866",
+        "text": "它可以通过直接接触，或者在目标附近引爆造成冲击。随着技术发展，鱼雷出现了直航、自导和线导等不同方式，发射平台也越来越多。可无论型号怎么变化，水下发射都绕不开一个问题：怎样让鱼雷安全离管。",
+        "english_text": "A torpedo can detonate through direct contact or near a target to create a damaging shock. Technology has produced straight-running, homing, and wire-guided variants launched from different platforms. But whatever the model, underwater launch must solve the same problem: how to leave the tube safely."
+      },
+      {
+        "id": "seg_004",
+        "start": "00:00:47.866",
+        "end": "00:01:02.700",
+        "text": "鱼雷从十九世纪进入海战，并在第一次世界大战中证明威力。今天的鱼雷更轻、更智能，还能根据目标声音修正航向。但它越复杂，发射前要确认的机械和环境条件也越多。",
+        "english_text": "Torpedoes entered naval warfare in the nineteenth century and demonstrated their power during the First World War. Modern torpedoes are lighter and smarter and can adjust their course using the target's acoustic signature. But the more complex the weapon becomes, the more mechanical and environmental conditions must be checked before launch."
+      },
+      {
+        "id": "seg_005",
+        "start": "00:01:02.700",
+        "end": "00:01:17.500",
+        "text": "发射前，鱼雷先要进入鱼雷管。鱼雷管可以理解为安装在舰艇内部的圆柱形发射通道，既要容纳一枚几吨重的武器，又要把它和外面的海水隔开，直到真正进入发射程序。",
+        "english_text": "Before launch, the torpedo must enter a torpedo tube. The tube is a cylindrical launch passage inside the vessel. It must hold a weapon weighing several tons while separating it from the surrounding seawater until the launch sequence truly begins."
+      },
+      {
+        "id": "seg_006",
+        "start": "00:01:17.500",
+        "end": "00:01:32.000",
+        "text": "水面舰艇的甲板发射器，往往针对特定鱼雷设计；潜艇鱼雷管更像通用接口，有些系统还可发射水雷或巡航导弹。接下来镜头推进鱼雷管内部，看它到底怎样工作。",
+        "english_text": "Deck launchers on surface ships are often designed for a specific torpedo. Submarine tubes act more like general-purpose interfaces, and some systems can also launch mines or cruise missiles. The next sequence moves inside the tube to show step by step how the mechanism works."
+      },
+      {
+        "id": "seg_007",
+        "start": "00:01:32.000",
+        "end": "00:01:47.500",
+        "text": "第一步不是开门，而是先确认锁紧机构处于正确位置。鱼雷在管内不能前后滑动，所以前后两个锁耳必须分别处在装填和抬起状态，给鱼雷留出受控的固定位置。",
+        "english_text": "The first step is not opening the door, but confirming that the locking mechanism is in the correct position. The torpedo must not slide back and forth inside the tube, so the forward and rear locking lugs must be positioned correctly to hold it in a controlled location."
+      },
+      {
+        "id": "seg_008",
+        "start": "00:01:47.500",
+        "end": "00:02:02.500",
+        "text": "随后打开后舱门，把鱼雷沿着鱼雷管送进去。装填既可以由人工和机械配合完成，也可以借助液压系统推动。鱼雷碰到定位锁耳后，锁耳落下，把它固定住，后舱门随即关闭并锁定。",
+        "english_text": "The rear door is then opened and the torpedo is moved into the tube. Loading can be performed with a combination of people and machinery or assisted by a hydraulic system. Once the torpedo reaches the positioning lug, the lug drops into place and secures it, while the rear door closes and locks."
+      },
+      {
+        "id": "seg_009",
+        "start": "00:02:02.500",
+        "end": "00:02:17.500",
+        "text": "到这里，鱼雷只是被稳定地放在管内，还远远没有到发射时刻。真正的难点在于，鱼雷管里面原本是空气，而管外是海水。想让鱼雷出去，必须先把管内环境变成适合开前舱门的状态。",
+        "english_text": "At this point, the torpedo is only stable inside the tube; it is nowhere near ready to fire. The real challenge is that the tube initially contains air while the outside is seawater. To let the torpedo leave, the internal environment must first be prepared for opening the outer door."
+      },
+      {
+        "id": "seg_010",
+        "start": "00:02:17.500",
+        "end": "00:02:32.500",
+        "text": "第一道准备程序，是给鱼雷管注水。阀门打开后，海水先进入一个叫水弹舱的容器，再按照流程流入鱼雷管。这个过程看似只是加水，实际上是在给鱼雷建立一个与外海相连的压力环境。",
+        "english_text": "The first preparation sequence is flooding the torpedo tube. After a valve opens, seawater first enters a container called the water round torpedo tank and then flows into the tube. It may look like simply adding water, but it is actually creating a pressure environment connected to the outside sea."
+      },
+      {
+        "id": "seg_011",
+        "start": "00:02:32.500",
+        "end": "00:02:47.500",
+        "text": "注水的同时，顶部阀门需要打开，让原本占据管内的空气排出去。水位不断上升，直到到达通气管线。顶部的电极会感知海水，确认鱼雷管已经完成注水，而不是只灌进了一部分。",
+        "english_text": "At the same time, the upper valve must open so the air inside the tube can escape. The water level rises until it reaches the vent line. An electrode at the top detects seawater and confirms that the tube has been flooded rather than only partially filled."
+      },
+      {
+        "id": "seg_012",
+        "start": "00:02:47.500",
+        "end": "00:03:02.500",
+        "text": "当传感器确认水位后，上下阀门关闭，鱼雷就被包在充满海水的鱼雷管里。但这时还有一个更隐蔽的问题：潜艇内部的压力，通常低于外面的海水压力，尤其是潜得越深，差别越明显。",
+        "english_text": "Once the sensor confirms the water level, the upper and lower valves close and the torpedo is surrounded by seawater inside the tube. But a less visible problem remains: pressure inside the submarine is usually lower than the pressure outside, especially as the submarine dives deeper."
+      },
+      {
+        "id": "seg_013",
+        "start": "00:03:02.500",
+        "end": "00:03:17.500",
+        "text": "如果这时贸然打开前舱门，海水压力就会把水和结构同时推向艇内，后果不只是鱼雷出不去，还可能损坏设备。因此，发射前必须先把鱼雷管和外海之间的压力差消掉，这一步叫均压。",
+        "english_text": "If the outer door were opened now, seawater pressure would push water and structures toward the inside of the submarine. The result would be more than a failed launch; equipment could also be damaged. The pressure difference between the tube and the sea must therefore be removed before launch. This is called equalization."
+      },
+      {
+        "id": "seg_014",
+        "start": "00:03:17.500",
+        "end": "00:03:32.500",
+        "text": "均压阀打开后，鱼雷管压力逐渐升高，直到接近外海压力。可以把它理解成先把两边的秤调平，再允许前舱门动作。没有这一步，鱼雷管两侧压力不同，越想快开，风险越大。",
+        "english_text": "When the equalizing valve opens, pressure inside the tube gradually rises until it approaches the pressure of the surrounding sea. It is like leveling two scales before allowing the outer door to move. Without this step, the tube door would be a barrier with very different pressures on each side; opening it quickly would increase the risk."
+      },
+      {
+        "id": "seg_015",
+        "start": "00:03:32.500",
+        "end": "00:03:47.500",
+        "text": "压力平衡后，还要调整滑阀。滑阀是鱼雷管中段可以移动的一部分，平时盖住进水孔。它移动到指定位置后，这些孔才会与外海连通，为最后用受压海水推出鱼雷做好准备。",
+        "english_text": "After pressure is balanced, the slide valve must also be adjusted. The slide valve is a movable section in the middle of the tube that normally covers the water-entry ports. Once it moves to the correct position, the ports connect with the sea and prepare the system to push the torpedo out with pressurized water."
+      },
+      {
+        "id": "seg_016",
+        "start": "00:03:47.500",
+        "end": "00:04:02.500",
+        "text": "到这一步，鱼雷才算真正准备完毕。控制室发出发射指令后，前后锁耳同时收回，不再阻挡鱼雷沿着管道前进。注意，这里不是依靠鱼雷立刻启动发动机，而是先让它被安全地推出艇体。",
+        "english_text": "Only now is the torpedo truly ready. After the control room issues the launch command, the forward and rear locking lugs retract and no longer block the torpedo's movement through the tube. The torpedo does not necessarily start its engine immediately; it is first pushed safely out of the hull."
+      },
+      {
+        "id": "seg_017",
+        "start": "00:04:02.500",
+        "end": "00:04:17.500",
+        "text": "接下来，冲击水舱里的高压水通过滑阀进水孔进入鱼雷管，形成推力，把鱼雷沿轴向推出。这样发射可在艇体内部完成，不需要发动机在管内提前工作。",
+        "english_text": "Next, pressurized water from the impulse tank enters the tube through the ports covered by the slide valve. The water creates enough force to push the torpedo forward along its axis. This allows the launch to be completed from inside the submarine without requiring the torpedo's engine to run inside the tube."
+      },
+      {
+        "id": "seg_018",
+        "start": "00:04:17.500",
+        "end": "00:04:32.500",
+        "text": "这也是潜艇鱼雷发射最不容易被外界看到的部分。艇员在耐压艇体内操作，外面看不到锁耳收回、海水进入和鱼雷出管。所谓隐蔽，不只是潜艇在水下，也包括发射流程尽量不暴露。",
+        "english_text": "This is also the part of submarine torpedo launch that is hardest for outsiders to see. The crew operates behind the pressure hull, while people outside cannot observe the continuous sequence of locking-lug retraction, seawater entry, and torpedo exit. Stealth is not only the submarine hiding underwater; the launch process itself is designed to reveal as little as possible."
+      },
+      {
+        "id": "seg_019",
+        "start": "00:04:32.500",
+        "end": "00:04:43.500",
+        "text": "所以，鱼雷离开艇体的几秒背后，是机械、阀门、海水压力和指令共同完成的系统动作。它不仅要命中，还要稳定、安静、可控地出艇。",
+        "english_text": "So the few seconds from inside the submarine to the open sea are actually a coordinated system action involving mechanical locks, valve control, seawater pressure, and commands from the control room. The real complexity of a torpedo is not only whether it can hit, but whether it can leave the submarine steadily, quietly, and under control."
+      },
+      {
+        "id": "seg_020",
+        "start": "00:04:43.500",
+        "end": "00:04:50.064",
+        "text": "先均压，再由系统协同把鱼雷推出。",
+        "english_text": "Understanding torpedo launch means understanding a crucial step in a submarine weapon system: the pressure and mechanical relationships must be handled first, before the attack can truly begin."
+      }
+    ]
+  }
+}

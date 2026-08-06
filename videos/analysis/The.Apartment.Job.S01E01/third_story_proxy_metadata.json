@@ -1,0 +1,85 @@
+{
+  "duration": 241.477,
+  "segments": [
+    {
+      "index": 1,
+      "kind": "source",
+      "asset": "debt_deadline",
+      "start": 0.0,
+      "end": 16.6,
+      "duration": 16.6
+    },
+    {
+      "index": 2,
+      "kind": "card",
+      "asset": "relationship_card",
+      "start": 16.6,
+      "end": 20.6,
+      "duration": 4.0
+    },
+    {
+      "index": 3,
+      "kind": "source",
+      "asset": "collateral_father",
+      "start": 20.6,
+      "end": 72.819,
+      "duration": 52.219
+    },
+    {
+      "index": 4,
+      "kind": "card",
+      "asset": "analysis_card",
+      "start": 72.819,
+      "end": 76.819,
+      "duration": 4.0
+    },
+    {
+      "index": 5,
+      "kind": "source",
+      "asset": "father_release",
+      "start": 76.819,
+      "end": 100.927,
+      "duration": 24.108
+    },
+    {
+      "index": 6,
+      "kind": "source",
+      "asset": "team_first_departure",
+      "start": 100.927,
+      "end": 163.531,
+      "duration": 62.604
+    },
+    {
+      "index": 7,
+      "kind": "source",
+      "asset": "team_return",
+      "start": 163.531,
+      "end": 186.469,
+      "duration": 22.938
+    },
+    {
+      "index": 8,
+      "kind": "source",
+      "asset": "team_memory",
+      "start": 186.469,
+      "end": 201.442,
+      "duration": 14.973
+    },
+    {
+      "index": 9,
+      "kind": "source",
+      "asset": "team_commitment",
+      "start": 201.442,
+      "end": 236.477,
+      "duration": 35.035
+    },
+    {
+      "index": 10,
+      "kind": "card",
+      "asset": "closing_card",
+      "start": 236.477,
+      "end": 241.477,
+      "duration": 5.0
+    }
+  ]
+}

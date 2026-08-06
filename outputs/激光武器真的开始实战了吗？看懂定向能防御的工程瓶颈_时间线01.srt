@@ -1,0 +1,1626 @@
+1
+00:00:00,700 --> 00:00:02,533
+imagine a battlefield of the future
+2
+00:00:02,866 --> 00:00:05,599
+one where this one megawatt laser Turret exists
+3
+00:00:06,066 --> 00:00:07,733
+it fires green beams of light
+4
+00:00:07,766 --> 00:00:09,499
+from its one meter wide Turret
+5
+00:00:09,800 --> 00:00:12,366
+powered by a one hundred kilowatt hour battery
+6
+00:00:12,733 --> 00:00:15,499
+that's enough for six minutes of continuous firing
+7
+00:00:16,000 --> 00:00:18,566
+the whole weapon fits inside a standard shipping
+8
+00:00:18,566 --> 00:00:21,533
+container and it can be carried by most heavy trucks
+9
+00:00:21,966 --> 00:00:24,266
+if a generator can be hooked to the truck's
+10
+00:00:24,266 --> 00:00:26,266
+own five hundred horsepower engine
+11
+00:00:26,400 --> 00:00:29,300
+then the battery can be recharged in about sixteen minutes
+12
+00:00:29,900 --> 00:00:33,000
+this laser can focus its beam onto a five centimeter
+13
+00:00:33,000 --> 00:00:36,766
+wide spot at a distance of fifty kilometers  there
+14
+00:00:36,766 --> 00:00:38,333
+the intensity will be fifty
+15
+00:00:38,366 --> 00:00:40,099
+kilowatts per square centimeter
+16
+00:00:40,500 --> 00:00:42,200
+now introduce some targets
+17
+00:00:42,666 --> 00:00:45,166
+a nearby air defense radar picks up a
+18
+00:00:45,166 --> 00:00:47,566
+squad of four jet aircraft flying low
+19
+00:00:47,900 --> 00:00:50,733
+it transmits the tracking information to the laser
+20
+00:00:51,333 --> 00:00:54,566
+normally the pilots have forty to sixty seconds from hearing
+21
+00:00:54,566 --> 00:00:57,799
+the Radar warning signal to release their payload and duck
+22
+00:00:57,800 --> 00:01:00,866
+down behind the horizon breaking the targeting lock
+23
+00:01:01,166 --> 00:01:03,599
+but lasers travel at light speed
+24
+00:01:04,166 --> 00:01:06,699
+the Beam weapon turns the first plane into a
+25
+00:01:06,700 --> 00:01:09,466
+fireball within two hundred milliseconds of firing
+26
+00:01:09,733 --> 00:01:12,766
+the whole engagement is over within four seconds
+27
+00:01:13,400 --> 00:01:16,166
+this technology will change how wars are fought
+28
+00:01:16,500 --> 00:01:18,466
+and they are already being
+29
+00:01:18,466 --> 00:01:20,533
+deployed in live war zones today
+30
+00:01:20,900 --> 00:01:21,900
+how do they work
+31
+00:01:21,900 --> 00:01:23,866
+and how will warfare change
+32
+00:01:24,266 --> 00:01:27,566
+let's investigate the impending era of laser weapons
+33
+00:01:31,733 --> 00:01:34,733
+militarys around the world are spending millions of dollars
+34
+00:01:34,900 --> 00:01:37,800
+each year developing laser weapons and mounting them on
+35
+00:01:37,800 --> 00:01:41,066
+trucks and ships or integrating them into air defenses
+36
+00:01:41,366 --> 00:01:44,099
+what's got them so invested in this technology
+37
+00:01:44,866 --> 00:01:47,599
+the lasers you probably know about are very weak
+38
+00:01:48,000 --> 00:01:50,100
+handheld laser pointers have beam
+39
+00:01:50,100 --> 00:01:51,733
+powers measured in milliwatts
+40
+00:01:51,900 --> 00:01:53,500
+while the bright beams of a laser
+41
+00:01:53,500 --> 00:01:55,666
+show manage a few tens of Watts
+42
+00:01:56,100 --> 00:01:59,333
+these are far less powerful than even a light bulb
+43
+00:01:59,666 --> 00:02:01,866
+but it's very concentrated light
+44
+00:02:02,100 --> 00:02:05,666
+so it will damage camera sensors or injure your eyes
+45
+00:02:06,333 --> 00:02:08,866
+military lasers like range finders or target
+46
+00:02:08,866 --> 00:02:11,699
+designators are not much more powerful than that
+47
+00:02:12,266 --> 00:02:14,333
+they only need the beam to bounce off a surface
+48
+00:02:14,466 --> 00:02:16,966
+and remain visible across a large distance
+49
+00:02:17,666 --> 00:02:20,799
+a laser weapon tries instead to blow it up by
+50
+00:02:20,800 --> 00:02:23,066
+melting metals and exploding fuel tanks
+51
+00:02:23,566 --> 00:02:26,166
+it does this by focusing tens of thousands of
+52
+00:02:26,166 --> 00:02:28,533
+Watts onto a small point on the target
+53
+00:02:28,733 --> 00:02:31,866
+as if it was being heated by a dozen blow torches
+54
+00:02:32,333 --> 00:02:33,899
+the most powerful of these laser
+55
+00:02:33,900 --> 00:02:36,500
+weapons wields three hundred kilowatts
+56
+00:02:36,666 --> 00:02:38,799
+which is equivalent to delivering a stick
+57
+00:02:38,800 --> 00:02:41,866
+of tnt to a target every three seconds
+58
+00:02:42,500 --> 00:02:43,933
+that's what we have today
+59
+00:02:44,133 --> 00:02:46,199
+what military planners dream of is a
+60
+00:02:46,200 --> 00:02:48,200
+laser with a megawatt of power
+61
+00:02:48,533 --> 00:02:49,866
+with a few extra features
+62
+00:02:50,666 --> 00:02:53,599
+it would produce green wavelength light instead
+63
+00:02:53,600 --> 00:02:56,966
+of invisible infrared and be focused by a large
+64
+00:02:56,966 --> 00:02:59,466
+one meter diameter mirror in a turret
+65
+00:02:59,866 --> 00:03:01,466
+we will explain how it works
+66
+00:03:01,600 --> 00:03:03,866
+but first let's see what it can do
+67
+00:03:04,800 --> 00:03:06,366
+drones wouldn't last more than a
+68
+00:03:06,366 --> 00:03:08,166
+blink of an eye under its beam
+69
+00:03:08,400 --> 00:03:10,100
+they'd be destroyed as fast as
+70
+00:03:10,100 --> 00:03:11,600
+the turret can switch targets
+71
+00:03:12,333 --> 00:03:13,866
+missiles don't fare much better
+72
+00:03:14,066 --> 00:03:16,099
+as long as the laser weapon is given good
+73
+00:03:16,100 --> 00:03:18,300
+tracking data by an air defense radar
+74
+00:03:18,400 --> 00:03:21,200
+it can eliminate entire waves of over a
+75
+00:03:21,200 --> 00:03:23,700
+hundred missiles before they can reach it
+76
+00:03:23,933 --> 00:03:25,999
+all without ever having to reload
+77
+00:03:26,666 --> 00:03:29,133
+satellites sailing overhead are not safe either
+78
+00:03:29,566 --> 00:03:31,099
+low orbit satellites could have
+79
+00:03:31,100 --> 00:03:32,866
+holes melted in their solar panels
+80
+00:03:33,066 --> 00:03:36,166
+and higher altitude ones could get their cameras burnt out
+81
+00:03:36,533 --> 00:03:39,066
+but lasers are not the ultimate weapon
+82
+00:03:39,466 --> 00:03:41,166
+they're still dependent on radars
+83
+00:03:41,166 --> 00:03:42,333
+pointing out their targets
+84
+00:03:42,600 --> 00:03:44,966
+can only shoot at things within their line of sight
+85
+00:03:45,133 --> 00:03:47,566
+and few platforms today can handle the
+86
+00:03:47,566 --> 00:03:48,999
+electric consumption they need
+87
+00:03:49,500 --> 00:03:50,800
+properly armored vehicles like
+88
+00:03:50,800 --> 00:03:52,333
+tanks can shrug off their beams
+89
+00:03:52,500 --> 00:03:54,666
+and lasers can do nothing against targets
+90
+00:03:54,733 --> 00:03:56,699
+behind hills or beyond the horizon
+91
+00:03:57,300 --> 00:04:00,100
+yes  the advantages they do have are so great
+92
+00:04:00,200 --> 00:04:02,600
+they cannot be ignored  so
+93
+00:04:02,600 --> 00:04:04,900
+the real question is why aren't
+94
+00:04:04,900 --> 00:04:06,766
+laser weapons everywhere already
+95
+00:04:07,400 --> 00:04:09,733
+lasers have been around for over six decades
+96
+00:04:09,733 --> 00:04:12,266
+and it's hard to imagine a world without them today
+97
+00:04:12,733 --> 00:04:13,733
+in nineteen sixty
+98
+00:04:13,733 --> 00:04:16,499
+Gordon Gould at the Hughes research lab in California
+99
+00:04:16,733 --> 00:04:20,066
+managed to produce a Beam of deep red coherent light
+100
+00:04:20,466 --> 00:04:23,333
+he did it by taking a Ruby Crystal and pumping a
+101
+00:04:23,333 --> 00:04:25,899
+burst of energy into it using Flash lamps
+102
+00:04:26,566 --> 00:04:29,333
+chromium atoms in the crystal absorb the light energy
+103
+00:04:29,700 --> 00:04:31,133
+entering an excited state
+104
+00:04:31,466 --> 00:04:35,066
+which they shed as photons of a specific red wavelength
+105
+00:04:35,466 --> 00:04:38,999
+by placing the Ruby inside a tube with mirrors at both ends
+106
+00:04:39,200 --> 00:04:42,000
+one reflective and the other partially reflective
+107
+00:04:42,133 --> 00:04:45,399
+the photons could bounce back and forth across the crystal
+108
+00:04:45,700 --> 00:04:47,066
+knocking out photons from the
+109
+00:04:47,066 --> 00:04:49,266
+chromium atoms in synchronized waves
+110
+00:04:49,600 --> 00:04:51,366
+those ordered waves escaped through
+111
+00:04:51,366 --> 00:04:52,866
+the partial reflective side
+112
+00:04:53,200 --> 00:04:55,133
+appearing to us as a laser beam
+113
+00:04:55,666 --> 00:04:58,933
+the first laser only produced short pulses of a few Watts
+114
+00:04:59,066 --> 00:05:02,266
+like igniting a bonfire to get a candle's worth of light
+115
+00:05:02,566 --> 00:05:05,299
+but it was still an unprecedented capability
+116
+00:05:05,666 --> 00:05:07,866
+a Nobel prize winning one in fact
+117
+00:05:08,566 --> 00:05:10,699
+early designs struggled to pump in large amounts
+118
+00:05:10,700 --> 00:05:13,466
+of energy or get it back out as a laser beam
+119
+00:05:13,500 --> 00:05:15,866
+without incurring huge efficiency losses
+120
+00:05:16,533 --> 00:05:18,599
+engineers rapidly got to expanding their
+121
+00:05:18,600 --> 00:05:20,966
+capabilities and improving their efficiency
+122
+00:05:21,733 --> 00:05:23,666
+different types of lasers were tested
+123
+00:05:23,966 --> 00:05:27,133
+ranging from fluorescent dyes under concentrated sunlight
+124
+00:05:27,200 --> 00:05:31,100
+to driving shock waves down gas tubes using high explosives
+125
+00:05:31,733 --> 00:05:33,999
+even radiation from a nuclear reactor was
+126
+00:05:34,000 --> 00:05:36,666
+investigated as a source of laser pumping energy
+127
+00:05:37,166 --> 00:05:39,366
+they all failed by being too impractical
+128
+00:05:39,533 --> 00:05:40,866
+dangerous or expensive
+129
+00:05:41,200 --> 00:05:44,800
+what did succeed was fiber lasers and semiconductor lasers
+130
+00:05:45,700 --> 00:05:48,100
+fiber lasers take a source of light and send it down
+131
+00:05:48,100 --> 00:05:51,366
+an optical fiber made of a special glass which has
+132
+00:05:51,366 --> 00:05:54,566
+atoms of ytterbium or neodymium embedded inside
+133
+00:05:54,966 --> 00:05:57,366
+the length of the fiber gives those atoms plenty
+134
+00:05:57,366 --> 00:06:00,099
+of chances to absorb the light energy and release
+135
+00:06:00,100 --> 00:06:02,600
+it as a narrow high quality laser beam
+136
+00:06:03,200 --> 00:06:04,966
+semiconductor lasers are somewhat
+137
+00:06:04,966 --> 00:06:06,899
+like solar cells in reverse
+138
+00:06:07,566 --> 00:06:10,266
+instead of using layers of semiconductors like gallium
+139
+00:06:10,266 --> 00:06:13,733
+arsenide to absorb external sunlight to produce electricity
+140
+00:06:14,066 --> 00:06:17,199
+they consume electricity to release their own photons
+141
+00:06:17,900 --> 00:06:20,933
+those photons are bounced between microscopic mirror
+142
+00:06:20,933 --> 00:06:23,966
+layers so they come out as a single laser beam
+143
+00:06:24,466 --> 00:06:26,333
+semiconductor lasers are easy to
+144
+00:06:26,333 --> 00:06:28,666
+manufacture and tune to specific needs
+145
+00:06:28,966 --> 00:06:30,466
+making them very popular
+146
+00:06:31,400 --> 00:06:34,900
+fiber and semiconductor lasers only need electricity to run
+147
+00:06:35,200 --> 00:06:36,900
+operate at reasonable temperatures
+148
+00:06:37,066 --> 00:06:40,366
+and can be scaled from microchips to the size of buildings
+149
+00:06:41,066 --> 00:06:43,099
+they're also exceedingly versatile
+150
+00:06:43,466 --> 00:06:45,533
+especially when frequency doubling is used
+151
+00:06:45,900 --> 00:06:48,000
+it's a technique where a laser beam passes
+152
+00:06:48,000 --> 00:06:50,466
+through a special non linear crystal
+153
+00:06:50,533 --> 00:06:53,499
+which contains structures that can capture two photons
+154
+00:06:53,533 --> 00:06:56,299
+and convert them into one higher energy photon
+155
+00:06:56,766 --> 00:07:00,099
+this is why lasers are used everywhere from playing with
+156
+00:07:00,100 --> 00:07:03,533
+your cat and scanning barcodes to cutting steel to
+157
+00:07:03,533 --> 00:07:06,266
+delivering this video to you through fiber internet
+158
+00:07:06,333 --> 00:07:07,133
+connections
+159
+00:07:07,666 --> 00:07:09,566
+the world's militaries have also picked up
+160
+00:07:09,566 --> 00:07:11,499
+on the potential of laser technology
+161
+00:07:11,966 --> 00:07:13,866
+they are used as laser gyroscopes
+162
+00:07:13,866 --> 00:07:15,366
+to guide submarines underwater
+163
+00:07:15,600 --> 00:07:17,400
+or as communication devices to
+164
+00:07:17,400 --> 00:07:18,900
+securely transmit information
+165
+00:07:19,766 --> 00:07:22,999
+lasers are also used to attack by guiding bombs or
+166
+00:07:23,000 --> 00:07:25,800
+triggering proximity fuses for air to air missiles
+167
+00:07:26,000 --> 00:07:29,200
+or defend against those same missiles by shining
+168
+00:07:29,200 --> 00:07:31,933
+a beam on the missile's sensors to blind it
+169
+00:07:32,166 --> 00:07:34,133
+but what about laser weapons
+170
+00:07:34,533 --> 00:07:37,699
+where are they as this technology becomes commonplace
+171
+00:07:38,466 --> 00:07:41,066
+the first problem to solve is producing a spot
+172
+00:07:41,133 --> 00:07:43,266
+small enough and powerful enough at distance
+173
+00:07:43,900 --> 00:07:46,066
+the size of the spot at a certain distance
+174
+00:07:46,166 --> 00:07:48,099
+is determined by the laser wavelength
+175
+00:07:48,100 --> 00:07:49,966
+the beam quality and the diameter of
+176
+00:07:49,966 --> 00:07:51,399
+the weapon's focusing mirror
+177
+00:07:51,900 --> 00:07:53,900
+lenses can also focus laser beams
+178
+00:07:54,000 --> 00:07:55,566
+but they are much heavier and harder
+179
+00:07:55,566 --> 00:07:57,266
+to manufacture than a mirror
+180
+00:07:57,333 --> 00:07:59,966
+so all serious designs use wide mirrors
+181
+00:08:00,600 --> 00:08:02,200
+Beam power matters a lot too
+182
+00:08:02,600 --> 00:08:04,666
+divide the Beam power by the spot area
+183
+00:08:04,733 --> 00:08:07,899
+and you get an intensity in Watts per square centimeter
+184
+00:08:08,266 --> 00:08:11,866
+a realistic green laser focused by a ten centimeter diameter
+185
+00:08:11,866 --> 00:08:15,666
+mirror can create a spot about ten centimeters wide at ten
+186
+00:08:15,666 --> 00:08:18,999
+kilometers with an area of seventy eight square centimeters
+187
+00:08:19,533 --> 00:08:21,066
+with a one meter wide mirror
+188
+00:08:21,133 --> 00:08:22,966
+it can produce the same spot at a
+189
+00:08:22,966 --> 00:08:24,866
+distance of a hundred kilometers
+190
+00:08:25,333 --> 00:08:28,299
+ten kilowatts divided by this area nets us one
+191
+00:08:28,300 --> 00:08:30,900
+hundred and twenty eight Watts per square centimeter
+192
+00:08:30,933 --> 00:08:33,266
+which is enough to start melting most metals
+193
+00:08:33,500 --> 00:08:36,933
+no aircraft can be made shiny enough to avoid this damage
+194
+00:08:37,466 --> 00:08:39,533
+an effective weapon however must do more
+195
+00:08:39,533 --> 00:08:41,699
+than just slowly erode a target surface
+196
+00:08:42,100 --> 00:08:43,500
+it must blast through it
+197
+00:08:43,666 --> 00:08:45,266
+delivering a destructive amount of
+198
+00:08:45,266 --> 00:08:47,299
+energy in a short amount of time
+199
+00:08:47,700 --> 00:08:49,800
+that's why the laser intensity should be
+200
+00:08:49,800 --> 00:08:51,533
+compared to the target's hardness
+201
+00:08:51,733 --> 00:08:53,766
+given in jewels per square centimeter
+202
+00:08:54,266 --> 00:08:56,499
+the hardness of different targets can only
+203
+00:08:56,500 --> 00:08:58,966
+really be estimated by real world testing
+204
+00:08:59,133 --> 00:09:01,466
+but we know we need about a kilojoule per
+205
+00:09:01,466 --> 00:09:03,466
+square centimeter to destroy a drone
+206
+00:09:03,500 --> 00:09:05,966
+and a missile or aircraft takes tens of
+207
+00:09:05,966 --> 00:09:07,533
+kilowatts per square centimeter
+208
+00:09:08,066 --> 00:09:11,899
+an icbm warhead protected by its reentry heat shield cone
+209
+00:09:11,900 --> 00:09:15,100
+has a hardness on the order of hundreds of kilojoules
+210
+00:09:15,366 --> 00:09:17,999
+equivalent to setting off eight sticks of dynamite
+211
+00:09:18,100 --> 00:09:20,733
+on every palm sized patch the laser touches
+212
+00:09:21,300 --> 00:09:23,766
+a ten kilowatt beam however would take nearly
+213
+00:09:23,866 --> 00:09:26,566
+eight seconds to overcome the hardness of a drone
+214
+00:09:26,700 --> 00:09:29,600
+or a minute and a half to damage a missile
+215
+00:09:30,100 --> 00:09:31,600
+clearly that's not enough
+216
+00:09:31,866 --> 00:09:34,166
+the intensity must be greatly increased
+217
+00:09:34,900 --> 00:09:36,866
+doubling the focusing mirror's diameter
+218
+00:09:36,933 --> 00:09:39,099
+quadruples the intensity of its spot
+219
+00:09:39,400 --> 00:09:42,133
+but mirror sizes quickly become impractical
+220
+00:09:42,800 --> 00:09:45,333
+reducing the wavelength generally isn't an option
+221
+00:09:45,566 --> 00:09:47,499
+that leaves raising the laser power
+222
+00:09:48,166 --> 00:09:49,899
+the accepted thresholds are ten
+223
+00:09:49,900 --> 00:09:51,300
+kilowatts for handling drones
+224
+00:09:51,466 --> 00:09:54,399
+a hundred kilowatts for defeating missiles at short range
+225
+00:09:54,533 --> 00:09:56,699
+and climbing to megawatts for taking on
+226
+00:09:56,700 --> 00:09:58,666
+fighter jets or tougher targets
+227
+00:09:59,500 --> 00:10:00,966
+militarys have been trying to reach
+228
+00:10:00,966 --> 00:10:02,599
+these thresholds for decades
+229
+00:10:02,933 --> 00:10:05,966
+why is it so hard to create a powerful laser
+230
+00:10:05,966 --> 00:10:08,566
+beam and deliver it across many kilometers
+231
+00:10:09,466 --> 00:10:12,333
+several technologies have been pursued for untold
+232
+00:10:12,500 --> 00:10:15,333
+millions of dollars with successful megawatt lasers
+233
+00:10:15,333 --> 00:10:18,599
+being produced only to be discarded for their drawbacks
+234
+00:10:19,300 --> 00:10:21,800
+chemical fuel lasers were an exciting early option
+235
+00:10:21,933 --> 00:10:25,099
+like the co laser used inside the yal-1 airborne
+236
+00:10:25,100 --> 00:10:28,133
+laser testbed that flew aboard this boeing seven
+237
+00:10:28,166 --> 00:10:31,399
+four seven generating megawatt beams focused by a
+238
+00:10:31,400 --> 00:10:34,066
+rotating one point five meter diameter mirror
+239
+00:10:34,500 --> 00:10:37,000
+the coil or chemical oxygen iodine
+240
+00:10:37,000 --> 00:10:40,133
+laser worked by combining chlorine  iodine
+241
+00:10:40,333 --> 00:10:41,466
+hydrogen peroxide
+242
+00:10:41,500 --> 00:10:44,500
+and potassium hydroxide to get a hot gas
+243
+00:10:44,900 --> 00:10:48,366
+then passed that gas through a nozzle like a rocket engine
+244
+00:10:48,766 --> 00:10:49,766
+in that nozzle
+245
+00:10:49,800 --> 00:10:51,266
+iodide ions would form
+246
+00:10:51,500 --> 00:10:54,200
+ready to release their excess energy as photons
+247
+00:10:54,666 --> 00:10:57,333
+mirrors lining the nozzle walls would gather and
+248
+00:10:57,333 --> 00:10:59,933
+direct those photons out as a laser beam
+249
+00:11:00,500 --> 00:11:03,266
+rocket engines easily reach gigawatts of output
+250
+00:11:03,366 --> 00:11:05,866
+so converting just a fraction of their power as a
+251
+00:11:05,866 --> 00:11:09,499
+laser beam was enough to produce a powerful weapon  however
+252
+00:11:09,733 --> 00:11:11,866
+testing proved the technology impractical
+253
+00:11:12,266 --> 00:11:14,499
+the fuels were toxic and prone to exploding
+254
+00:11:14,600 --> 00:11:16,533
+the exhaust hot and corrosive
+255
+00:11:16,600 --> 00:11:18,000
+and the plane could only carry
+256
+00:11:18,166 --> 00:11:19,966
+enough fuel for twenty shots
+257
+00:11:20,400 --> 00:11:22,600
+it was a technological dead end
+258
+00:11:23,566 --> 00:11:26,166
+another example is the carbon dioxide laser
+259
+00:11:26,366 --> 00:11:29,266
+it's another sort of gas laser where a hot gas is
+260
+00:11:29,266 --> 00:11:31,966
+heated and passed through a mirror lined nozzle
+261
+00:11:32,366 --> 00:11:34,666
+this time the gas is carbon dioxide
+262
+00:11:34,666 --> 00:11:35,933
+which is relatively safe
+263
+00:11:36,100 --> 00:11:37,733
+and the heating can be done by
+264
+00:11:37,733 --> 00:11:39,599
+burning regular kerosene and air
+265
+00:11:39,933 --> 00:11:40,733
+it's a simple
+266
+00:11:40,933 --> 00:11:42,933
+reliable technology that is still used
+267
+00:11:42,933 --> 00:11:45,066
+today to produce powerful laser cutters
+268
+00:11:45,366 --> 00:11:47,733
+but they use electrical heating today
+269
+00:11:48,466 --> 00:11:50,966
+during the cold war the Soviets even tried to
+270
+00:11:50,966 --> 00:11:53,499
+launch a satellite into orbit equipped with
+271
+00:11:53,500 --> 00:11:55,966
+a one megawatt carbon dioxide laser
+272
+00:11:56,300 --> 00:11:59,133
+their mistake was using a soviet rocket to do it
+273
+00:11:59,266 --> 00:12:01,299
+it flipped on its way up and crashed
+274
+00:12:02,000 --> 00:12:04,700
+they are especially popular with biomedical applications
+275
+00:12:04,933 --> 00:12:07,866
+as the beam they produce is heavily absorbed by water
+276
+00:12:08,133 --> 00:12:10,599
+which means the laser can be absorbed quickly as
+277
+00:12:10,600 --> 00:12:13,300
+heat and not penetrate deeper into the tissue
+278
+00:12:13,733 --> 00:12:15,933
+perfect for precise medical procedures
+279
+00:12:16,500 --> 00:12:19,066
+but it's twenty times harder to focus
+280
+00:12:19,066 --> 00:12:20,799
+than a green wavelength laser
+281
+00:12:21,066 --> 00:12:23,666
+so it's only useful at short ranges
+282
+00:12:24,133 --> 00:12:27,533
+it's modern semiconductor and fiber laser technology that
+283
+00:12:27,533 --> 00:12:30,499
+has restored the hope for a practical laser weapon
+284
+00:12:31,200 --> 00:12:32,766
+individually these lasers are weak
+285
+00:12:33,100 --> 00:12:35,266
+capable of only a hundred to a thousand
+286
+00:12:35,333 --> 00:12:37,566
+Watts before melting from internal heat
+287
+00:12:38,200 --> 00:12:40,600
+beam combining is the trick that allows them to
+288
+00:12:40,600 --> 00:12:43,600
+climb to higher powers by merging dozens of
+289
+00:12:43,733 --> 00:12:46,599
+individual lasers into a single giant beam
+290
+00:12:47,166 --> 00:12:49,866
+the most advanced modern weapons actually use
+291
+00:12:49,866 --> 00:12:53,333
+semiconductor lasers to generate the raw power they need
+292
+00:12:53,500 --> 00:12:55,766
+then send it through fiber lasers to
+293
+00:12:55,766 --> 00:12:58,133
+turn it into many high quality beams
+294
+00:12:58,333 --> 00:13:00,066
+which are merged for an output in
+295
+00:13:00,066 --> 00:13:01,399
+the hundreds of kilowatts
+296
+00:13:01,866 --> 00:13:05,366
+this technology is being deployed right now in rafale's
+297
+00:13:05,366 --> 00:13:08,799
+one hundred kilowatt iron beam or aboard the u s Navy's
+298
+00:13:08,800 --> 00:13:11,366
+one hundred and fifty kilowatt Helios laser
+299
+00:13:11,800 --> 00:13:14,666
+Lockheed Martin is pushing its high energy laser from
+300
+00:13:14,666 --> 00:13:17,499
+three hundred kilowatts to five hundred kilowatts too
+301
+00:13:18,000 --> 00:13:20,200
+these modern lasers also get good efficiency
+302
+00:13:20,400 --> 00:13:23,000
+with thirty to fifty percent of the electricity they
+303
+00:13:23,066 --> 00:13:25,333
+consume reaching the focusing mirror as light
+304
+00:13:25,533 --> 00:13:26,799
+and they are pretty compact
+305
+00:13:27,533 --> 00:13:30,599
+it may not be long before jet fighters are carrying one
+306
+00:13:30,600 --> 00:13:33,066
+hundred kilowatt pods on their usual hard points
+307
+00:13:33,333 --> 00:13:36,399
+or air defense battalions are equipped with trucks with a
+308
+00:13:36,400 --> 00:13:39,600
+one megawatt laser turret instead of a missile launcher
+309
+00:13:40,300 --> 00:13:43,400
+power is however useless if it can't reach the target
+310
+00:13:43,900 --> 00:13:46,300
+the second major challenge preventing laser
+311
+00:13:46,300 --> 00:13:48,400
+weapons is getting through the atmosphere
+312
+00:13:48,900 --> 00:13:51,400
+a Beam is expected to travel through air filled
+313
+00:13:51,400 --> 00:13:53,933
+with dust or clouds that scatter the light
+314
+00:13:54,400 --> 00:13:56,533
+atmosphere gases absorb whole sections
+315
+00:13:56,533 --> 00:13:58,299
+of the electromagnetic spectrum
+316
+00:13:58,600 --> 00:13:59,400
+water vapor
+317
+00:13:59,400 --> 00:14:00,200
+for example
+318
+00:14:00,666 --> 00:14:02,566
+completely blocks the mid infrared
+319
+00:14:02,566 --> 00:14:04,999
+beams of a carbon dioxide laser
+320
+00:14:05,500 --> 00:14:08,766
+the air itself also acts like a moving lens that
+321
+00:14:08,766 --> 00:14:11,199
+distorts or bends the beam traversing it
+322
+00:14:11,500 --> 00:14:13,400
+a rough rule of thumb is that if the
+323
+00:14:13,400 --> 00:14:15,366
+image of a target can't reach you
+324
+00:14:15,500 --> 00:14:18,133
+then your laser beam can't reach it either
+325
+00:14:18,566 --> 00:14:22,166
+the distortions that make stars twinkle mirages appear or
+326
+00:14:22,166 --> 00:14:25,766
+mountains disappear into blue haze also affect laser beams
+327
+00:14:26,333 --> 00:14:28,866
+researchers have spent years investigating each
+328
+00:14:28,866 --> 00:14:32,099
+phenomenon and devising ways to avoid or negate them
+329
+00:14:32,666 --> 00:14:34,966
+restricting laser wavelengths from blue to red
+330
+00:14:35,300 --> 00:14:37,266
+plus a small number of infrared bands
+331
+00:14:37,466 --> 00:14:39,599
+gets past most atmospheric absorption
+332
+00:14:40,200 --> 00:14:43,466
+Adaptive Optics try to undo distortions that bend
+333
+00:14:43,466 --> 00:14:45,699
+light's path through air by measuring them
+334
+00:14:45,700 --> 00:14:47,933
+then reversing them with a flexible mirror
+335
+00:14:48,300 --> 00:14:49,366
+getting through fog
+336
+00:14:49,366 --> 00:14:51,466
+dust or clouds is much harder
+337
+00:14:51,966 --> 00:14:54,566
+1 the brute force method is to carve a channel through
+338
+00:14:54,566 --> 00:14:57,799
+them by simply vaporizing anything in the Beam's path
+339
+00:14:58,300 --> 00:15:00,500
+this requires an enormous amount of power
+340
+00:15:00,900 --> 00:15:03,066
+rising to hundreds of megawatts if the
+341
+00:15:03,066 --> 00:15:05,066
+target is sitting inside a thunderstorm
+342
+00:15:05,500 --> 00:15:07,700
+so new techniques are being developed to create
+343
+00:15:07,700 --> 00:15:10,366
+a channel using more efficient mechanisms
+344
+00:15:10,700 --> 00:15:14,000
+such as shattering water droplets with short laser pulses
+345
+00:15:14,166 --> 00:15:17,266
+or sweeping particles out of the way using shock waves
+346
+00:15:17,533 --> 00:15:19,533
+that may only cost a few kilowatts
+347
+00:15:20,000 --> 00:15:21,966
+what is certain however is that the cost
+348
+00:15:21,966 --> 00:15:24,066
+of laser weapons is falling rapidly
+349
+00:15:24,866 --> 00:15:27,199
+cold war era programs cost billions
+350
+00:15:27,333 --> 00:15:29,099
+with the yal one reaching eleven
+351
+00:15:29,200 --> 00:15:30,866
+billion for a single plane
+352
+00:15:31,266 --> 00:15:33,299
+in a twenty twenty four us Naval
+353
+00:15:33,300 --> 00:15:34,900
+institute's congressional report
+354
+00:15:35,133 --> 00:15:37,466
+it stated that a sixty kilowatt laser
+355
+00:15:37,466 --> 00:15:39,066
+weapon would cost one hundred million
+356
+00:15:39,300 --> 00:15:41,000
+while a two hundred and fifty kilowatt
+357
+00:15:41,000 --> 00:15:42,866
+version would cost two hundred million
+358
+00:15:43,400 --> 00:15:44,533
+it sounds like a lot
+359
+00:15:44,666 --> 00:15:47,899
+but it means that an effective laser is already inside the
+360
+00:15:47,900 --> 00:15:51,166
+cost bracket of an existing gun or missile based system
+361
+00:15:51,466 --> 00:15:53,199
+while retaining the benefit of only
+362
+00:15:53,200 --> 00:15:55,333
+needing a few dollars a minute to run
+363
+00:15:55,933 --> 00:15:58,766
+commercially available lasers are doubling in power
+364
+00:15:58,966 --> 00:16:01,966
+while also falling in cost every five years
+365
+00:16:02,200 --> 00:16:04,100
+and these improvements are likely to
+366
+00:16:04,100 --> 00:16:06,166
+carry over to military lasers
+367
+00:16:06,800 --> 00:16:08,333
+by the end of this decade
+368
+00:16:08,500 --> 00:16:11,100
+we can expect to see megawatt lasers cost
+369
+00:16:11,100 --> 00:16:12,800
+no more than a few million dollars
+370
+00:16:13,300 --> 00:16:14,900
+about the price of a main battle
+371
+00:16:14,966 --> 00:16:17,166
+tank or older jet fighter plane
+372
+00:16:17,666 --> 00:16:19,999
+many Nations would be able to afford them
+373
+00:16:20,100 --> 00:16:23,100
+so they'd be deployed in large numbers around the world
+374
+00:16:23,466 --> 00:16:24,733
+what could they do then
+375
+00:16:24,733 --> 00:16:26,733
+and how would this transform warfare
+376
+00:16:27,533 --> 00:16:28,899
+by the end of the decade
+377
+00:16:28,966 --> 00:16:31,166
+we may have mobile one Megawatt green
+378
+00:16:31,166 --> 00:16:33,299
+lasers like this roaming the battlefield
+379
+00:16:33,566 --> 00:16:35,166
+as an air defense weapon
+380
+00:16:35,166 --> 00:16:36,166
+it can be extraordinary
+381
+00:16:36,900 --> 00:16:38,533
+it can shoot through thousands of
+382
+00:16:38,533 --> 00:16:40,066
+drones or hundreds of missiles
+383
+00:16:40,533 --> 00:16:42,699
+militaries would have to adapt by sending in
+384
+00:16:42,700 --> 00:16:45,100
+their attacks as low as possible to the ground
+385
+00:16:45,300 --> 00:16:47,100
+so that they'll only be exposed to the
+386
+00:16:47,100 --> 00:16:48,966
+laser at the last possible moment
+387
+00:16:49,666 --> 00:16:51,999
+this restricts their offensive range and forces
+388
+00:16:52,000 --> 00:16:54,766
+them to be sent in less frequent mass attacks
+389
+00:16:55,333 --> 00:16:56,966
+aircraft would have a much harder
+390
+00:16:56,966 --> 00:16:58,933
+time when lasers are in the area
+391
+00:16:59,300 --> 00:17:02,366
+flying low consumes more fuel and reduces payload
+392
+00:17:02,900 --> 00:17:04,733
+stealth could be used to come closer to
+393
+00:17:04,733 --> 00:17:06,666
+the laser before it starts firing
+394
+00:17:06,733 --> 00:17:09,699
+but any error would result in instant fireballs
+395
+00:17:10,166 --> 00:17:12,766
+avoiding that means relying on much more advanced
+396
+00:17:12,933 --> 00:17:15,066
+aircraft equipped with standoff munitions
+397
+00:17:15,366 --> 00:17:17,199
+both of which would cost a lot more
+398
+00:17:17,600 --> 00:17:18,466
+on the other hand
+399
+00:17:18,700 --> 00:17:21,133
+large planes could mount massive lasers that
+400
+00:17:21,133 --> 00:17:23,099
+would flip the table on ground defense
+401
+00:17:23,733 --> 00:17:25,299
+instead of the lumbering targets for
+402
+00:17:25,300 --> 00:17:27,000
+long range missiles they are today
+403
+00:17:27,133 --> 00:17:29,466
+they'd become gunships surrounded by a
+404
+00:17:29,466 --> 00:17:31,699
+megawatt exclusion zone that keeps out
+405
+00:17:31,700 --> 00:17:34,333
+missiles and any plane with a smaller laser
+406
+00:17:34,766 --> 00:17:37,399
+a satellite at a four hundred kilometer altitude
+407
+00:17:37,500 --> 00:17:39,133
+the same height as the iss
+408
+00:17:39,266 --> 00:17:40,966
+would not survive more than four
+409
+00:17:41,000 --> 00:17:43,000
+seconds against a megawatt laser
+410
+00:17:43,466 --> 00:17:46,666
+just one beam could clean out orbital bands over time
+411
+00:17:47,000 --> 00:17:49,500
+potentially entire low orbit constellations
+412
+00:17:49,666 --> 00:17:50,999
+for the cost of a few dollars
+413
+00:17:51,933 --> 00:17:53,966
+Battlefield intelligence becomes restricted
+414
+00:17:54,166 --> 00:17:56,333
+making air attacks even less coordinated
+415
+00:17:56,466 --> 00:17:58,399
+and easier for the laser to defeat
+416
+00:17:58,733 --> 00:18:00,666
+the effects are compounding everywhere
+417
+00:18:00,733 --> 00:18:03,266
+and they hurt western militaries the most
+418
+00:18:03,733 --> 00:18:06,133
+they are the ones that aim for air dominance
+419
+00:18:06,266 --> 00:18:09,099
+and expect to use their large number of non stealthy
+420
+00:18:09,100 --> 00:18:12,500
+aircraft to wipe out ground forces once they achieve it
+421
+00:18:12,966 --> 00:18:16,466
+lasers are an inexhaustible counter to that strategy
+422
+00:18:17,133 --> 00:18:19,499
+lasers have an effect at a grander scale too
+423
+00:18:19,766 --> 00:18:21,966
+ballistic missiles are terrifying because
+424
+00:18:21,966 --> 00:18:24,333
+they are very expensive to defend against
+425
+00:18:24,533 --> 00:18:26,299
+so few sites are protected
+426
+00:18:26,766 --> 00:18:30,099
+nuclear warheads come screaming down at extreme velocities
+427
+00:18:30,666 --> 00:18:32,899
+slamming into the ground fifteen to thirty
+428
+00:18:32,966 --> 00:18:35,066
+seconds after touching the atmosphere
+429
+00:18:35,600 --> 00:18:38,000
+a single megawatt laser turret could only
+430
+00:18:38,000 --> 00:18:40,133
+defeat a handful of them in that time
+431
+00:18:40,466 --> 00:18:42,066
+it's not a perfect defense
+432
+00:18:42,133 --> 00:18:43,599
+but it might be something many
+433
+00:18:43,600 --> 00:18:45,166
+nations could afford to set up
+434
+00:18:45,366 --> 00:18:47,666
+a large nuclear power would happily
+435
+00:18:47,666 --> 00:18:49,766
+sacrifice a few warheads to punch through
+436
+00:18:49,966 --> 00:18:52,199
+a small power might only have a few
+437
+00:18:52,200 --> 00:18:53,866
+warheads available in total
+438
+00:18:54,200 --> 00:18:56,533
+1 but none of this means that drones  missiles
+439
+00:18:56,533 --> 00:18:58,966
+aircraft or ballistic missiles become obsolete  2
+440
+00:18:59,566 --> 00:19:01,599
+older planes with bombs get replaced by
+441
+00:19:01,600 --> 00:19:03,666
+a smaller number of stealthy jets
+442
+00:19:04,266 --> 00:19:06,566
+cruise missiles that efficiently travel at high
+443
+00:19:06,566 --> 00:19:09,499
+altitude are reused for short range strikes
+444
+00:19:09,933 --> 00:19:12,566
+satellites are sent on inclined orbits to catch
+445
+00:19:12,666 --> 00:19:14,666
+glimpses of the battlefield from the sides
+446
+00:19:15,300 --> 00:19:16,933
+more warheads have to be loaded
+447
+00:19:16,933 --> 00:19:18,599
+onto each ballistic missile
+448
+00:19:18,666 --> 00:19:21,933
+which makes maintaining nuclear arsenals a greater burden
+449
+00:19:22,533 --> 00:19:24,199
+ground forces are the big winners
+450
+00:19:24,733 --> 00:19:26,399
+tanks can be used more aggressively
+451
+00:19:26,566 --> 00:19:28,366
+when the Aerial threat is reduced
+452
+00:19:28,866 --> 00:19:30,699
+Megawatt lasers can skewer light
+453
+00:19:30,733 --> 00:19:32,966
+vehicles like armored personnel carriers
+454
+00:19:33,166 --> 00:19:35,333
+but they are not more or less effective in
+455
+00:19:35,333 --> 00:19:37,466
+that role than a regular auto cannon
+456
+00:19:37,566 --> 00:19:39,733
+and artillery will continue to be a
+457
+00:19:39,733 --> 00:19:41,166
+centerpiece of surface action
+458
+00:19:41,400 --> 00:19:42,700
+so countries with large
+459
+00:19:42,700 --> 00:19:46,400
+conventional forces get a relative boost  at sea
+460
+00:19:46,666 --> 00:19:49,599
+vessels of all types would be better defended by lasers
+461
+00:19:49,933 --> 00:19:52,733
+it would serve as an inexhaustible defense that would
+462
+00:19:52,733 --> 00:19:55,866
+require an overwhelming volley of missiles to overcome
+463
+00:19:56,533 --> 00:19:59,166
+concentrating firepower and therefore grouping ships
+464
+00:19:59,166 --> 00:20:01,899
+into large fleets instead of scattering them across
+465
+00:20:01,900 --> 00:20:04,666
+the ocean would be necessary to win engagements
+466
+00:20:05,100 --> 00:20:07,933
+that's an important consequence for the us trying to
+467
+00:20:07,933 --> 00:20:10,733
+cover both the Atlantic and the Pacific while China
+468
+00:20:10,733 --> 00:20:13,266
+is trying to pry open gaps in its defense
+469
+00:20:14,166 --> 00:20:14,933
+despite all this
+470
+00:20:14,933 --> 00:20:17,999
+it's the west that's likely to first adopt laser weapons
+471
+00:20:18,200 --> 00:20:20,200
+and be the first to devise tactics that
+472
+00:20:20,200 --> 00:20:21,900
+exploit them as much as possible
+473
+00:20:22,600 --> 00:20:24,466
+of course  we don't know what the future of
+474
+00:20:24,466 --> 00:20:26,066
+warfare will actually look like
+475
+00:20:26,333 --> 00:20:28,666
+technologies can be theorycrafted for years
+476
+00:20:28,933 --> 00:20:30,599
+only to be used in completely
+477
+00:20:30,700 --> 00:20:32,866
+unexpected ways on the real battlefield
+478
+00:20:33,466 --> 00:20:35,966
+what we do know is that the problems holding back
+479
+00:20:35,966 --> 00:20:38,399
+laser weapon technology will soon be solved
+480
+00:20:38,666 --> 00:20:39,733
+and when that happens
+481
+00:20:40,000 --> 00:20:41,733
+great changes must be expected
+482
+00:20:42,366 --> 00:20:45,166
+only time will tell how significant they'll be
+483
+00:20:46,200 --> 00:20:48,700
+progress in technology often comes down to the
+484
+00:20:48,700 --> 00:20:50,933
+tools engineers have at their disposal
+485
+00:20:51,000 --> 00:20:53,200
+and onshape is one of my favorite tools
+486
+00:20:53,266 --> 00:20:55,266
+i currently have at my disposal
+487
+00:20:55,666 --> 00:20:58,266
+onshape is a professional grade CAD and PDM
+488
+00:20:58,266 --> 00:21:00,499
+system built entirely on the cloud
+489
+00:21:00,800 --> 00:21:02,266
+that means no downloads
+490
+00:21:02,266 --> 00:21:03,066
+no installs
+491
+00:21:03,133 --> 00:21:04,699
+and no hardware limitations
+492
+00:21:05,133 --> 00:21:06,933
+it runs directly in your browser
+493
+00:21:07,500 --> 00:21:08,266
+because of that
+494
+00:21:08,266 --> 00:21:11,066
+you can design from anywhere on nearly any device
+495
+00:21:11,200 --> 00:21:12,666
+even a phone or tablet
+496
+00:21:12,933 --> 00:21:15,699
+and it's free to try for six months to all
+497
+00:21:15,700 --> 00:21:18,666
+engineers and companies by going to onshape
+498
+00:21:19,000 --> 00:21:21,166
+pro slash realengineering
+499
+00:21:21,533 --> 00:21:23,566
+i honestly love this software
+500
+00:21:23,800 --> 00:21:26,466
+being able to just type the onshape url into
+501
+00:21:26,466 --> 00:21:29,066
+a browser and instantly access my files
+502
+00:21:29,266 --> 00:21:32,599
+create new files or view old ones is incredibly handy
+503
+00:21:33,100 --> 00:21:35,466
+last week  i wanted to mount my Hurley to the wall
+504
+00:21:35,533 --> 00:21:37,866
+where it will sit until i get the once in a year
+505
+00:21:37,866 --> 00:21:41,133
+call up as emergency cover on a sub's bench  so
+506
+00:21:41,133 --> 00:21:42,933
+i typed onshape into my browser
+507
+00:21:43,166 --> 00:21:45,199
+created a shape after measuring the Hurley
+508
+00:21:45,200 --> 00:21:47,933
+and had it printing next to me five minutes later
+509
+00:21:48,333 --> 00:21:50,699
+i no longer work as a real engineer
+510
+00:21:50,700 --> 00:21:51,600
+but if i did
+511
+00:21:51,766 --> 00:21:53,999
+i could see myself pulling my phone out during
+512
+00:21:54,066 --> 00:21:56,666
+technical sales meetings to show a customer a detail
+513
+00:21:56,800 --> 00:21:59,400
+or quickly using my phone as a second screen to
+514
+00:21:59,400 --> 00:22:01,800
+check dimensions as i design on my computer
+515
+00:22:02,366 --> 00:22:04,299
+browser based systems just have a ton of
+516
+00:22:04,300 --> 00:22:06,133
+flexibility in how you use them
+517
+00:22:06,400 --> 00:22:08,366
+it also makes collaboration seamless
+518
+00:22:08,466 --> 00:22:10,699
+you can share and work in others in real time
+519
+00:22:10,700 --> 00:22:12,066
+just like in Google docs
+520
+00:22:12,466 --> 00:22:14,799
+every single action is automatically recorded
+521
+00:22:14,866 --> 00:22:16,399
+so you can roll back to earlier
+522
+00:22:16,400 --> 00:22:18,066
+versions whenever you need to
+523
+00:22:18,200 --> 00:22:19,733
+this would have been the dream for
+524
+00:22:19,733 --> 00:22:21,166
+group college projects too
+525
+00:22:21,700 --> 00:22:24,000
+onshape even borrows ideas from git hub
+526
+00:22:24,166 --> 00:22:26,266
+allowing you to branch and merge designs
+527
+00:22:26,366 --> 00:22:28,333
+if someone wants to explore a new idea
+528
+00:22:28,600 --> 00:22:30,700
+they can now do so in their own branch
+529
+00:22:30,700 --> 00:22:32,300
+without affecting the main project
+530
+00:22:32,366 --> 00:22:34,466
+and merge it back in later if it works
+531
+00:22:34,866 --> 00:22:37,533
+that's a really powerful tool for innovative companies
+532
+00:22:37,700 --> 00:22:39,366
+it empowers designers to explore
+533
+00:22:39,366 --> 00:22:41,466
+new ideas in a low risk way
+534
+00:22:41,733 --> 00:22:44,499
+the result is that everyone on your team always has
+535
+00:22:44,500 --> 00:22:47,000
+access to a single up to date source of truth
+536
+00:22:47,266 --> 00:22:49,666
+no more lost files or version confusion
+537
+00:22:50,066 --> 00:22:52,599
+onshape is now offering engineers and their companies
+538
+00:22:52,600 --> 00:22:55,266
+up to six months free of the professional version
+539
+00:22:55,466 --> 00:22:57,399
+if you're an engineer or a product designer
+540
+00:22:57,400 --> 00:22:59,300
+i highly recommend checking it out
+541
+00:22:59,533 --> 00:23:02,399
+you can get started for free at onshape  com
+542
+00:23:02,466 --> 00:23:04,133
+Ford slash realengineering

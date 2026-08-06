@@ -1,0 +1,306 @@
+{
+  "version": 1,
+  "source_subtitle": "激光武器真的开始实战了吗？看懂定向能防御的工程瓶颈_时间线01.srt",
+  "output_audio": "激光武器真的开始实战了吗？看懂定向能防御的工程瓶颈_时间线01_等长_Yunyang.mp3",
+  "mode": "source_length_full_narration",
+  "provider": "edge",
+  "voice": "zh-CN-YunyangNeural",
+  "rate": "+10%",
+  "video_duration": "00:20:46.200",
+  "segments": [
+    {
+      "id": "seg_001",
+      "start": "00:00:00.000",
+      "end": "00:00:30.000",
+      "text": "想象一座机动防空车，搭载一台一兆瓦激光炮塔。它不用装填炮弹，只要有足够电力，就能把光束送到目标身上。可这不是科幻电影的魔法，真正的问题是，电从哪里来，热往哪里排，光束又能不能穿过真实大气。",
+      "english_text": "Imagine a mobile air-defense truck carrying a one-megawatt laser turret. It does not reload shells; with enough electricity, it can send a beam onto a target. But this is not magic from a science-fiction film. The real questions are where the power comes from, where the heat goes, and whether the beam can cross the real atmosphere."
+    },
+    {
+      "id": "seg_002",
+      "start": "00:00:30.000",
+      "end": "00:01:00.000",
+      "text": "视频先用一个假想系统说明它的诱惑力。一百千瓦时电池，可以支撑几分钟连续照射。整套设备能塞进标准集装箱，由重型卡车运输，接上发动机发电机后，还能在十几分钟内重新充电。",
+      "english_text": "The video first uses a hypothetical system to show why the idea is attractive. A one-hundred-kilowatt-hour battery could support several minutes of continuous firing. The whole system could fit inside a standard shipping container, move on a heavy truck, and recharge in roughly a few minutes when connected to a generator."
+    },
+    {
+      "id": "seg_003",
+      "start": "00:01:00.000",
+      "end": "00:01:30.000",
+      "text": "如果它能把光束聚焦到几十公里外的几厘米光斑，功率密度就会非常惊人。雷达发现目标后，激光几乎不需要等待弹道飞行时间。无人机、来袭导弹，甚至低轨卫星的光电设备，都可能成为它的目标。",
+      "english_text": "If the system can focus its beam into a spot only a few centimeters wide at tens of kilometers, its power density becomes extraordinary. Once radar finds a target, the laser does not wait for a projectile to fly. Drones, incoming missiles, and even electro-optical equipment on low-orbit satellites could become targets."
+    },
+    {
+      "id": "seg_004",
+      "start": "00:01:30.000",
+      "end": "00:02:00.000",
+      "text": "但它不是终极武器。激光仍然需要雷达提供目标信息，只能攻击视线范围内的目标，还会受到山丘、地平线、装甲和电力容量限制。于是问题变成，激光优势这么明显，为什么还没有到处部署。",
+      "english_text": "But it is not an ultimate weapon. A laser still needs radar to provide target information, can attack only within line of sight, and remains limited by hills, the horizon, armor, and available electrical power. The question is why, despite such obvious advantages, laser weapons are not everywhere yet."
+    },
+    {
+      "id": "seg_005",
+      "start": "00:02:00.000",
+      "end": "00:02:30.000",
+      "text": "要回答这个问题，先要知道激光到底是什么。普通激光笔只有毫瓦级功率，舞台激光也不过几十瓦，但光线高度集中，仍然足以伤害眼睛或烧坏相机传感器。军用测距和照射设备的功率也不需要高到能摧毁目标。",
+      "english_text": "To answer that, we first need to understand what a laser is. A common pointer has only milliwatts of power, and a stage laser may have only tens of watts, yet concentrated light can still damage eyes or camera sensors. Military rangefinders and designators do not need enough power to destroy their targets."
+    },
+    {
+      "id": "seg_006",
+      "start": "00:02:30.000",
+      "end": "00:03:00.000",
+      "text": "激光武器的目标不同，它要把几万瓦甚至几十万瓦的能量集中到很小的区域，像许多支喷灯同时烘烤一个点，让金属熔化，让燃料箱失效。今天最强的一批系统已经进入几十万瓦级，军事规划者还在追逐兆瓦级。",
+      "english_text": "A laser weapon has a different goal. It concentrates tens or hundreds of thousands of watts into a tiny area, like many blowtorches heating one point at once, melting metal and disabling fuel tanks. Some of today's most powerful systems have reached the hundreds-of-kilowatts class, while planners continue to pursue megawatt power."
+    },
+    {
+      "id": "seg_007",
+      "start": "00:03:00.000",
+      "end": "00:03:30.000",
+      "text": "在这个假想系统里，无人机可能在炮塔完成转向的瞬间被摧毁，导弹则要依靠防空雷达持续提供跟踪。理论上，连续射击的激光不用像拦截弹那样重新装填，面对大规模无人机和导弹来袭时，弹药库压力会完全不同。",
+      "english_text": "In the hypothetical system, a drone could be destroyed almost as soon as the turret turns toward it, while missiles would still depend on continuous tracking from an air-defense radar. In theory, a laser does not reload like an interceptor missile, so a large drone or missile attack would create a very different ammunition problem."
+    },
+    {
+      "id": "seg_008",
+      "start": "00:03:30.000",
+      "end": "00:04:00.000",
+      "text": "可是，厚重装甲可能让光束难以迅速烧穿，山后和地平线之外的目标也无法直接照射。激光的优势必须建立在发现目标、稳定跟踪、持续供电和无遮挡视线同时成立的前提上。少一个环节，整套系统的杀伤力就会下降。",
+      "english_text": "However, heavy armor can make it difficult for a beam to burn through quickly, and targets behind hills or beyond the horizon cannot be illuminated directly. A laser's advantage depends on detection, stable tracking, continuous power, and an unobstructed line of sight all working together. Lose one link and the system's effect drops."
+    },
+    {
+      "id": "seg_009",
+      "start": "00:04:00.000",
+      "end": "00:04:30.000",
+      "text": "激光并不是新概念。早在上世纪六十年代，研究人员就用红宝石晶体和闪光灯制造出第一批激光。晶体里的铬原子吸收能量，再释放特定波长的光子，镜子让这些光子来回反射，最后从半透镜一侧形成整齐的光束。",
+      "english_text": "Lasers are not a new concept. In the 1960s, researchers used ruby crystals and flash lamps to create early lasers. Chromium atoms in the crystal absorbed energy and released photons at a specific wavelength. Mirrors made the photons bounce back and forth until an ordered beam escaped through a partially reflective surface."
+    },
+    {
+      "id": "seg_010",
+      "start": "00:04:30.000",
+      "end": "00:05:00.000",
+      "text": "第一台激光器只能输出几瓦的短脉冲，效率低得惊人。工程师随后尝试过染料、气体冲击波，甚至核反应堆辐射等泵浦方式。它们要么太危险，要么太昂贵，或者根本不适合安装在移动平台上。",
+      "english_text": "The first laser produced only short pulses of a few watts and was astonishingly inefficient. Engineers later tried dyes, shock waves in gases, and even radiation from nuclear reactors as pumping methods. These approaches were too dangerous, too expensive, or simply unsuitable for mobile platforms."
+    },
+    {
+      "id": "seg_011",
+      "start": "00:05:00.000",
+      "end": "00:05:30.000",
+      "text": "真正改变工程路线的是光纤激光和半导体激光。光纤里的特殊玻璃掺入镱或钕等元素，让光在很长的路径里反复获得放大。半导体激光则像反过来的太阳能电池，用电直接产生光子，结构更小，也更容易调节。",
+      "english_text": "The engineering path changed with fiber and semiconductor lasers. Special glass in a fiber is doped with elements such as ytterbium or neodymium, allowing light to be amplified along a long path. Semiconductor lasers work like solar cells in reverse: electricity directly produces photons in a compact and tunable structure."
+    },
+    {
+      "id": "seg_012",
+      "start": "00:05:30.000",
+      "end": "00:06:00.000",
+      "text": "这两类激光只需要电力，工作温度也比较可控，还能从芯片级扩展到建筑级设备。通过倍频晶体，原本的光束还能转换成更适合传播或聚焦的波长，所以激光才会同时出现在条码扫描、钢材切割、光纤通信和军用瞄准设备里。",
+      "english_text": "Both types need electricity and can operate at manageable temperatures, while scaling from chips to building-sized systems. Frequency-doubling crystals can convert a beam into a wavelength better suited for propagation or focusing. That versatility is why lasers appear in barcode scanners, steel cutting, fiber communications, and military targeting devices."
+    },
+    {
+      "id": "seg_013",
+      "start": "00:06:00.000",
+      "end": "00:06:30.000",
+      "text": "军方早已把激光用于激光陀螺、保密通信、制导炸弹和导弹引信。它也能照射来袭导弹的传感器，让对方暂时失明。但从辅助设备走向激光武器，中间还隔着一个关键问题：怎样让光束在远距离仍然足够细、足够强。",
+      "english_text": "Militaries already use lasers in ring gyroscopes, secure communications, guided bombs, and missile fuzes. A beam can also illuminate a missile sensor and temporarily blind it. But moving from supporting equipment to a laser weapon requires solving a crucial problem: keeping the beam narrow and powerful at long distance."
+    },
+    {
+      "id": "seg_014",
+      "start": "00:06:30.000",
+      "end": "00:07:00.000",
+      "text": "远距离光斑大小主要由波长、光束质量和聚焦镜直径决定。镜片可以聚焦，但又重又难制造，因此大多数高能系统更愿意使用大尺寸反射镜。镜子越大，远处的光斑就越容易保持集中，但炮塔也会随之变大变重。",
+      "english_text": "The size of a distant spot is mainly determined by wavelength, beam quality, and the diameter of the focusing optic. Lenses can focus light, but they are heavy and difficult to manufacture, so high-energy systems prefer large mirrors. A larger mirror keeps the spot tighter at distance, but it also makes the turret larger and heavier."
+    },
+    {
+      "id": "seg_015",
+      "start": "00:07:00.000",
+      "end": "00:07:30.000",
+      "text": "光束功率除以光斑面积，就是目标真正承受的功率密度。一个十厘米反射镜，可能在十公里外形成十厘米光斑；换成一米反射镜，就能把类似光斑推到更远。问题是，熔化表面和快速击穿目标，完全不是同一个难度。",
+      "english_text": "Beam power divided by spot area gives the power density the target actually receives. A ten-centimeter mirror might create a ten-centimeter spot at ten kilometers, while a one-meter mirror can keep a similar spot at a much greater distance. But slowly melting a surface and rapidly breaking through a target are completely different challenges."
+    },
+    {
+      "id": "seg_016",
+      "start": "00:07:30.000",
+      "end": "00:08:00.000",
+      "text": "目标还会持续运动、旋转和散热，所以激光不能只在表面留下痕迹，而要在足够短的时间内把能量送进去。片中给出的估算显示，摧毁小型无人机只需要千焦级能量，而导弹、飞机和再入弹头需要高得多的能量密度。",
+      "english_text": "A target also moves, rotates, and spreads heat. The laser cannot merely mark the surface; it must deliver energy quickly enough to penetrate or disable it. The video estimates that a small drone needs energy in the kilojoule range, while missiles, aircraft, and reentry warheads require much higher energy density."
+    },
+    {
+      "id": "seg_017",
+      "start": "00:08:00.000",
+      "end": "00:08:30.000",
+      "text": "如果功率只有十千瓦，击穿无人机可能要几秒，损伤导弹甚至要更久。把反射镜直径翻倍，光斑强度大约能提高四倍，但镜面尺寸很快会失去机动性。波长也不能无限缩短，最后只能把希望寄托在提高激光输出功率上。",
+      "english_text": "With only ten kilowatts, disabling a drone could take seconds and damaging a missile could take much longer. Doubling the mirror diameter can raise spot intensity by roughly four times, but the mirror soon becomes too large for a mobile platform. Wavelength cannot be shortened indefinitely, so the remaining route is to raise the laser's output power."
+    },
+    {
+      "id": "seg_018",
+      "start": "00:08:30.000",
+      "end": "00:09:00.000",
+      "text": "因此，工程上常用十千瓦级应对无人机，百千瓦级应对近距离导弹，更高的目标则需要迈向兆瓦级。这里的数字不是万能门槛，因为目标材料、照射角度和时间都会改变结果，但它们能说明一个趋势：目标越硬，系统越像一座发电站。",
+      "english_text": "Engineering discussions often place drone defense in the ten-kilowatt class, short-range missile defense around one hundred kilowatts, and tougher targets in the megawatt class. These are not universal thresholds, because material, angle, and dwell time change the result. They show one trend: the harder the target, the more the weapon resembles a power station."
+    },
+    {
+      "id": "seg_019",
+      "start": "00:09:00.000",
+      "end": "00:09:30.000",
+      "text": "几十年来，军方尝试过多条高能激光路线。最夸张的一类是化学燃料激光，靠反应产生能量，再把热气流送过类似火箭喷口的结构，生成强光束。它能达到很高输出，却把燃料、毒性、腐蚀和后勤问题一起带上了战场。",
+      "english_text": "For decades, militaries pursued several high-energy laser routes. One of the most dramatic was the chemical laser, which generated energy through reactions and sent hot gases through a structure resembling a rocket nozzle to create a beam. It could reach high output, but it also brought fuel, toxicity, corrosion, and logistics problems to the battlefield."
+    },
+    {
+      "id": "seg_020",
+      "start": "00:09:30.000",
+      "end": "00:10:00.000",
+      "text": "美国曾把化学氧碘激光装进波音七四七测试平台，靠一米多宽的旋转反射镜发射兆瓦级光束。可实测之后，燃料易爆、尾气高温腐蚀，飞机携带的燃料也只能支撑有限次数，最终证明这是一条技术死路。",
+      "english_text": "The United States once placed a chemical oxygen-iodine laser on a Boeing 747 testbed, using a rotating mirror more than a meter wide to direct megawatt-class beams. Testing showed that the fuel was explosive, the exhaust was hot and corrosive, and the aircraft could carry only a limited number of shots. The route became a technological dead end."
+    },
+    {
+      "id": "seg_021",
+      "start": "00:10:00.000",
+      "end": "00:10:30.000",
+      "text": "二氧化碳激光更可靠，也被用于工业切割，但它的光束更难远距离聚焦。冷战时期，苏联甚至尝试把兆瓦级二氧化碳激光送上轨道，只是火箭在升空时失控坠毁。这个故事说明，武器系统的失败往往不只发生在激光器本体。",
+      "english_text": "Carbon-dioxide lasers were more reliable and remain useful for industrial cutting, but their beams are harder to focus over long distances. During the Cold War, the Soviet Union even tried to place a megawatt carbon-dioxide laser in orbit, but the rocket lost control and crashed. The story shows that a weapon system can fail outside the laser itself."
+    },
+    {
+      "id": "seg_022",
+      "start": "00:10:30.000",
+      "end": "00:11:00.000",
+      "text": "现代希望重新回到光纤和半导体激光。单个模块通常只有几百到上千瓦，继续加大就会被内部热量烧坏。工程师的办法，是把许多独立激光器的输出合并成一束更大的光。",
+      "english_text": "Modern hopes have returned to fiber and semiconductor lasers. A single module may produce only hundreds or a thousand watts before internal heat damages it. Engineers therefore combine the output of many independent lasers into one larger beam."
+    },
+    {
+      "id": "seg_023",
+      "start": "00:11:00.000",
+      "end": "00:11:30.000",
+      "text": "先进系统通常先用半导体激光产生原始功率，再经过光纤激光器整理成多束高质量光束，最后在光学系统里合成。这样做的难点是，每个模块的波长、相位、指向和热状态都要控制好，不能简单理解成把灯泡并联起来。",
+      "english_text": "Advanced systems often use semiconductor lasers to generate raw power, fiber lasers to shape it into multiple high-quality beams, and optics to combine them. The challenge is controlling the wavelength, phase, pointing, and thermal state of every module. It is not as simple as wiring light bulbs in parallel."
+    },
+    {
+      "id": "seg_024",
+      "start": "00:11:30.000",
+      "end": "00:12:00.000",
+      "text": "这条路线已经带来百千瓦级系统，也出现在公开讨论的 Iron Beam 和美国海军 HELIOS 等项目中。片中还提到，现代激光只有大约三到五成输入电力最终变成光，剩下的能量大多要变成热，效率就直接决定了平台的体积。",
+      "english_text": "This path has produced systems in the hundred-kilowatt class and appears in public discussions of projects such as Iron Beam and the U.S. Navy's HELIOS. The video also notes that only roughly thirty to fifty percent of input electricity becomes light in modern lasers. Much of the rest becomes heat, so efficiency directly determines platform size."
+    },
+    {
+      "id": "seg_025",
+      "start": "00:12:00.000",
+      "end": "00:12:30.000",
+      "text": "有了功率还不够，光束必须穿过大气。尘埃和云会散射光，水汽会吸收特定波段，空气本身还像一片不断移动的透镜，让光束弯曲、抖动和扩散。激光能不能击中目标，首先取决于目标的光学路径是否干净。",
+      "english_text": "Power alone is not enough; the beam must cross the atmosphere. Dust and clouds scatter light, water vapor absorbs certain bands, and the air itself acts like a moving lens that bends, shakes, and spreads the beam. Whether the laser can hit the target first depends on whether the optical path is clear."
+    },
+    {
+      "id": "seg_026",
+      "start": "00:12:30.000",
+      "end": "00:13:00.000",
+      "text": "星星闪烁、海市蜃楼和远山变蓝，都是大气扰动的结果，激光也会遭遇同样的问题。自适应光学可以先测量光路变化，再用可变形反射镜反向修正，但这只适合处理一部分扰动，对浓雾、沙尘和厚云仍然很无力。",
+      "english_text": "Twinkling stars, mirages, and distant blue mountains all result from atmospheric disturbance, and lasers face the same problem. Adaptive optics can measure the changes and reverse them with a deformable mirror, but this handles only part of the disturbance and is still weak against dense fog, dust, and thick clouds."
+    },
+    {
+      "id": "seg_027",
+      "start": "00:13:00.000",
+      "end": "00:13:30.000",
+      "text": "最粗暴的办法，是用更强的能量把光路上的水滴和颗粒直接蒸发掉，硬生生烧出一条通道。可一旦目标躲进雷暴，所需功率会飙升到数百兆瓦。于是研究人员开始尝试短脉冲、冲击波和更高效的粒子清除方法。",
+      "english_text": "The brute-force solution is to use even more energy to vaporize water droplets and particles in the path, carving a channel through the air. But if the target is inside a thunderstorm, the required power could rise to hundreds of megawatts. Researchers are therefore exploring short pulses, shock waves, and more efficient ways to clear particles."
+    },
+    {
+      "id": "seg_028",
+      "start": "00:13:30.000",
+      "end": "00:14:00.000",
+      "text": "激光武器的成本也在变化。冷战时期的 YAL 一号项目，单架测试飞机就花掉了数十亿美元。今天公开报告给出的估算是，几十千瓦到几百千瓦级系统的造价，已经进入传统火炮或导弹系统能够比较的范围。",
+      "english_text": "The cost of laser weapons is also changing. During the Cold War, the YAL-1 program consumed billions of dollars for a single test aircraft. Public estimates today place the cost of systems from tens to hundreds of kilowatts within a range that can be compared with conventional gun or missile systems."
+    },
+    {
+      "id": "seg_029",
+      "start": "00:14:00.000",
+      "end": "00:14:30.000",
+      "text": "更大的差别在运行成本。传统拦截弹发射一次，就消耗一枚高价值弹药；激光只要系统还有电，单次照射主要增加的是能源和散热成本。商业激光器还在持续提高功率、降低价格，这些进步也可能传导到军用系统。",
+      "english_text": "The larger difference is operating cost. A conventional interceptor consumes an expensive missile every time it fires. A laser mainly adds energy and cooling costs as long as the system still has power. Commercial lasers continue to become more powerful and cheaper, and those improvements may carry into military systems."
+    },
+    {
+      "id": "seg_030",
+      "start": "00:14:30.000",
+      "end": "00:15:00.000",
+      "text": "片中据此推测，到本十年末，兆瓦级激光的价格可能下降到几百万美元，接近主战坦克或老式战斗机的级别。如果这个判断成立，激光就不再只是少数大国的昂贵试验，而可能成为许多国家都能部署的防空节点。",
+      "english_text": "Based on these trends, the video speculates that megawatt lasers could cost only a few million dollars by the end of this decade, near the price of a main battle tank or an older fighter. If that forecast proves correct, lasers would move beyond expensive experiments by a few major powers and become air-defense nodes many nations could deploy."
+    },
+    {
+      "id": "seg_031",
+      "start": "00:15:00.000",
+      "end": "00:15:30.000",
+      "text": "战术影响会从空中目标开始。机动兆瓦激光如果能稳定工作，就可能连续处理大量无人机和一批来袭导弹。进攻方为了降低暴露时间，会把飞行高度压得更低，但这样会增加油耗、减少航程和载荷，也让攻击路线更受地形限制。",
+      "english_text": "The tactical effects would begin with airborne targets. If a mobile megawatt laser can operate reliably, it could engage large numbers of drones and waves of incoming missiles. Attackers would fly lower to reduce exposure time, but that increases fuel use, reduces range and payload, and makes routes more constrained by terrain."
+    },
+    {
+      "id": "seg_032",
+      "start": "00:15:30.000",
+      "end": "00:16:00.000",
+      "text": "隐身飞机可以尝试靠近后再发射远程弹药，但距离越近，留给激光跟踪和照射的时间越长，任何判断失误都可能付出很大代价。进攻方可能因此转向更昂贵的隐身平台和远程武器，防御成本下降，突防成本上升。",
+      "english_text": "Stealth aircraft could try to approach before launching stand-off weapons, but the closer they get, the longer the laser has to track and illuminate them. A mistake could become costly. Attackers might therefore rely on more expensive stealth platforms and longer-range weapons, lowering defensive cost while raising the cost of penetration."
+    },
+    {
+      "id": "seg_033",
+      "start": "00:16:00.000",
+      "end": "00:16:30.000",
+      "text": "如果把激光装到大型飞机上，结果甚至可能反过来。大型平台可以携带更大的能源和散热设备，变成带着兆瓦级防御圈的空中炮舰。它不再只是等待导弹袭击的目标，而是能主动压制周围的导弹和小型飞机。",
+      "english_text": "If lasers are mounted on large aircraft, the result could reverse the balance. A large platform can carry more power and cooling, becoming an airborne gunship surrounded by a megawatt-class defensive zone. It would no longer be only a target waiting for missiles, but could actively suppress missiles and smaller aircraft nearby."
+    },
+    {
+      "id": "seg_034",
+      "start": "00:16:30.000",
+      "end": "00:17:00.000",
+      "text": "轨道上的卫星也会受到影响。近地轨道卫星的太阳能板可能被烧出孔洞，高轨卫星的相机可能被强光损伤。随着太空侦察被削弱，战场情报会变得更不完整，空袭协同也会更难，防空系统反而可能更容易逐个击破目标。",
+      "english_text": "Satellites could also be affected. Solar panels on low-orbit satellites might be damaged, while cameras on higher satellites could be blinded or burned. As space-based reconnaissance weakens, battlefield intelligence becomes less complete and air attacks become harder to coordinate, potentially making air defense more effective against individual targets."
+    },
+    {
+      "id": "seg_035",
+      "start": "00:17:00.000",
+      "end": "00:17:30.000",
+      "text": "这对依靠空中优势的大型空军尤其重要。它们习惯先夺取制空权，再用大量非隐身飞机压制地面部队。如果激光能以较低成本持续拦截，原本建立在数量和弹药消耗上的空中优势，就必须重新计算。",
+      "english_text": "This would matter especially to large air forces that depend on air superiority. Their traditional pattern is to seize the skies first and then use many non-stealth aircraft against ground forces. If lasers can intercept repeatedly at low cost, air superiority built on numbers and ammunition expenditure would have to be recalculated."
+    },
+    {
+      "id": "seg_036",
+      "start": "00:17:30.000",
+      "end": "00:18:00.000",
+      "text": "但面对弹道导弹，激光并不会突然变成完美盾牌。弹头进入大气层后速度极快，留给拦截系统的时间只有几十秒。一座兆瓦级炮塔可能只能处理其中一部分，而且它仍然受天气、视线和连续照射时间限制。",
+      "english_text": "Against ballistic missiles, a laser would not suddenly become a perfect shield. A warhead moves extremely fast after entering the atmosphere, leaving only seconds for interception. A megawatt turret might defeat only some of them and would still be limited by weather, line of sight, and the time needed to dwell on each target."
+    },
+    {
+      "id": "seg_037",
+      "start": "00:18:00.000",
+      "end": "00:18:30.000",
+      "text": "所以传统武器不会立刻过时。飞机会更多采用隐身和远程弹药，巡航导弹可能改变高度和路线，卫星会尝试从倾斜轨道观察战场，弹道导弹则可能增加分导弹头。攻防双方都会围绕激光的视线和照射时间重新设计。",
+      "english_text": "Traditional weapons would not become obsolete immediately. Aircraft could rely more on stealth and stand-off weapons, cruise missiles could change altitude and routes, satellites could use inclined orbits to observe from the side, and ballistic missiles could carry more independently guided warheads. Both sides would redesign around the laser's line of sight and dwell time."
+    },
+    {
+      "id": "seg_038",
+      "start": "00:18:30.000",
+      "end": "00:19:00.000",
+      "text": "地面部队可能得到相对收益。空中威胁降低后，坦克可以更大胆地使用；兆瓦级激光也能对轻型装甲车辆造成威胁。但对装甲目标来说，激光未必比自动炮更有效，炮兵仍然会是地面作战的核心火力。",
+      "english_text": "Ground forces could gain a relative advantage. If the aerial threat decreases, tanks could be used more aggressively, and a megawatt laser could threaten light armored vehicles. But against armored targets, a laser is not automatically more effective than an autocannon, and artillery would remain central to surface warfare."
+    },
+    {
+      "id": "seg_039",
+      "start": "00:19:00.000",
+      "end": "00:19:30.000",
+      "text": "海上平台则可能更依赖激光进行近防。舰艇不需要携带无限的拦截弹，但为了守住一条航线或一个编队，舰船也可能重新集中，靠更密集的火力共同抵御导弹齐射。激光改变的，可能是舰队的编组方式。",
+      "english_text": "At sea, platforms could rely more on lasers for close defense. Ships would not need an unlimited supply of interceptors, but protecting a route or fleet might also encourage ships to operate in tighter groups, using concentrated firepower against missile salvos. Lasers could change how fleets are organized."
+    },
+    {
+      "id": "seg_040",
+      "start": "00:19:30.000",
+      "end": "00:20:00.000",
+      "text": "片中还把这种变化放到美国和中国的海上竞争中讨论，但这部分属于作者的战略推演，不是已经发生的战果。真正可以确认的是，激光武器会把能源、传感器、光学和舰艇平台绑定得更紧，单件装备的参数不再足够说明战斗力。",
+      "english_text": "The video also places this change in the maritime competition between the United States and China, but that part is the author's strategic projection, not an already proven result. What can be said more safely is that lasers bind power, sensors, optics, and naval platforms more tightly together, so the specifications of one weapon no longer explain combat power by themselves."
+    },
+    {
+      "id": "seg_041",
+      "start": "00:20:00.000",
+      "end": "00:20:30.000",
+      "text": "未来的战争不会严格按照今天的理论剧本发展。一种技术可能研究多年，最后却以完全不同的方式进入战场。但激光武器的几个瓶颈已经很清楚：要有可移动的能源，要把废热带走，要让光束穿过大气，还要让雷达和炮塔持续锁住目标。",
+      "english_text": "Future wars will not follow today's theoretical scripts exactly. A technology may be studied for years and then enter combat in a completely different form. But the main laser bottlenecks are clear: mobile power, heat removal, atmospheric propagation, and continuous target tracking between radar and turret."
+    },
+    {
+      "id": "seg_042",
+      "start": "00:20:30.000",
+      "end": "00:20:46.200",
+      "text": "激光武器不会取代所有炮弹，它改变的是防空系统的能源竞争。看懂供电、散热、天气和视线限制，才知道它离实战还有多远。",
+      "english_text": "Laser weapons will not replace every shell. They change air defense into an energy competition. Understanding power, heat, weather, and line-of-sight limits shows how far they are from combat."
+    }
+  ]
+}

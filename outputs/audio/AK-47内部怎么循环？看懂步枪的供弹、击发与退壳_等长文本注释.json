@@ -1,0 +1,616 @@
+{
+  "version": 1,
+  "source_subtitle": "AK-47内部怎么循环？看懂步枪的供弹、击发与退壳_中文解说.srt",
+  "target_video": "videos/exports/长视频/AK-47内部循环/AK-47内部怎么循环？看懂步枪的供弹、击发与退壳_长视频配音版.mp4",
+  "notes": "由时间线生成的单行屏幕注释；plot_summary 模式只显示接下来剧情简介，不显示副行。",
+  "annotations": [
+    {
+      "id": "anno_001",
+      "start": "00:00:00.000",
+      "end": "00:00:04.000",
+      "type": "chapter",
+      "text": "“AK-47为什么能连续循环”",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_002",
+      "start": "00:00:20.000",
+      "end": "00:00:24.000",
+      "type": "chapter",
+      "text": "“整枪看起来并不复杂”",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_003",
+      "start": "00:00:40.000",
+      "end": "00:00:44.000",
+      "type": "principle",
+      "text": "“从枪口向后看”",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_004",
+      "start": "00:01:00.000",
+      "end": "00:01:04.000",
+      "type": "principle",
+      "text": "“导气系统先记住一个动作”",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_005",
+      "start": "00:01:20.000",
+      "end": "00:01:24.000",
+      "type": "principle",
+      "text": "“机匣就是这套循环的轨道和外壳”",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_006",
+      "start": "00:01:40.000",
+      "end": "00:01:44.000",
+      "type": "principle",
+      "text": "“枪机前端面对的是三个关键任务”",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_007",
+      "start": "00:02:00.000",
+      "end": "00:02:04.000",
+      "type": "principle",
+      "text": "“扳机组决定什么时候释放能量”",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_008",
+      "start": "00:02:20.000",
+      "end": "00:02:24.000",
+      "type": "principle",
+      "text": "“这套保险和扳机机构的价值”",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_009",
+      "start": "00:02:40.000",
+      "end": "00:02:44.000",
+      "type": "principle",
+      "text": "“闭锁凸笋是枪机前端突出的金属”",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_010",
+      "start": "00:03:00.000",
+      "end": "00:03:04.000",
+      "type": "principle",
+      "text": "“再看枪机框和枪机的关系”",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_011",
+      "start": "00:03:20.000",
+      "end": "00:03:24.000",
+      "type": "chapter",
+      "text": "“扣下扳机时”",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_012",
+      "start": "00:03:40.000",
+      "end": "00:03:44.000",
+      "type": "principle",
+      "text": "“在子弹还没有离开枪口之前”",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_013",
+      "start": "00:04:00.000",
+      "end": "00:04:04.000",
+      "type": "principle",
+      "text": "“接下来进入自动步枪最关键的分”",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_014",
+      "start": "00:04:20.000",
+      "end": "00:04:24.000",
+      "type": "principle",
+      "text": "“弧形弹匣不是为了好看”",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_015",
+      "start": "00:04:40.000",
+      "end": "00:04:44.000",
+      "type": "principle",
+      "text": "“弹匣送上来的不是一整排一起移”",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_016",
+      "start": "00:05:00.000",
+      "end": "00:05:04.000",
+      "type": "principle",
+      "text": "“当枪机组处在后方时”",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_017",
+      "start": "00:05:20.000",
+      "end": "00:05:24.000",
+      "type": "principle",
+      "text": "“供弹开始”",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_018",
+      "start": "00:05:40.000",
+      "end": "00:05:44.000",
+      "type": "principle",
+      "text": "“枪机前进到位后”",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_019",
+      "start": "00:06:00.000",
+      "end": "00:06:04.000",
+      "type": "chapter",
+      "text": "“击发发生在枪膛已经闭锁之后”",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_020",
+      "start": "00:06:20.000",
+      "end": "00:06:24.000",
+      "type": "principle",
+      "text": "“高压火药气体先推动弹头向前”",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_021",
+      "start": "00:06:40.000",
+      "end": "00:06:44.000",
+      "type": "principle",
+      "text": "“导气孔把燃气引到枪管上方的导”",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_022",
+      "start": "00:07:00.000",
+      "end": "00:07:04.000",
+      "type": "principle",
+      "text": "“长行程活塞开始后退”",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_023",
+      "start": "00:07:20.000",
+      "end": "00:07:24.000",
+      "type": "principle",
+      "text": "“枪机解锁”",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_024",
+      "start": "00:07:40.000",
+      "end": "00:07:44.000",
+      "type": "chapter",
+      "text": "“抽壳钩负责抓住”",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_025",
+      "start": "00:08:00.000",
+      "end": "00:08:04.000",
+      "type": "principle",
+      "text": "“抛壳完成后”",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_026",
+      "start": "00:08:20.000",
+      "end": "00:08:24.000",
+      "type": "principle",
+      "text": "“复进簧现在释放储存的能量”",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_027",
+      "start": "00:08:40.000",
+      "end": "00:08:44.000",
+      "type": "principle",
+      "text": "“前准星和后方照门出现在画面里”",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_028",
+      "start": "00:09:00.000",
+      "end": "00:09:04.000",
+      "type": "principle",
+      "text": "“把外部零件重新放回来看”",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_029",
+      "start": "00:09:20.000",
+      "end": "00:09:24.000",
+      "type": "principle",
+      "text": "“这也是AK结构给人的第一印象”",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_030",
+      "start": "00:09:40.000",
+      "end": "00:09:44.000",
+      "type": "principle",
+      "text": "“但可靠不等于永远不会卡”",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_031",
+      "start": "00:10:00.000",
+      "end": "00:10:04.000",
+      "type": "chapter",
+      "text": "“把整套循环压缩成一句话”",
+      "subtext": "",
+      "position": "top_center",
+      "x": 0,
+      "y": 520,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    },
+    {
+      "id": "anno_032",
+      "start": "00:10:20.000",
+      "end": "00:10:24.000",
+      "type": "principle",
+      "text": "“完整循环再看一遍”",
+      "subtext": "",
+      "position": "center",
+      "x": 0,
+      "y": 260,
+      "layer": 10,
+      "style": "tech_label",
+      "motion": "fade",
+      "visual_hint": "在下一段剧情即将发生或正在发生的对应画面中显示",
+      "avoid": [
+        "subtitle",
+        "face"
+      ]
+    }
+  ]
+}

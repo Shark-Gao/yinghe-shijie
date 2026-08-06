@@ -1,0 +1,9 @@
+{
+  "video": "L:\\workspace\\yinghe-shijie\\videos\\raw\\雷达怎么找到隐身机.mp4",
+  "subtitle": "L:\\workspace\\yinghe-shijie\\outputs\\雷达怎么找到隐身机_时间线01.srt",
+  "duration_seconds": 800.136417,
+  "interval_seconds": 20.0,
+  "grid": "4x4",
+  "sheet_count": 3,
+  "note": "Each tile advances by interval_seconds, left-to-right then top-to-bottom. Use as a visual index; confirm selected timecodes against source video."
+}

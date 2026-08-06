@@ -1,0 +1,196 @@
+{
+  "status": "passed",
+  "max_delta_seconds": 1.0,
+  "max_gap_seconds": 0.8,
+  "anchor_count": 17,
+  "failures": [],
+  "anchors": [
+    {
+      "id": "a01",
+      "segment_id": "seg_001",
+      "anchor_text": "AK-47",
+      "visual_start": 0.0,
+      "visual_end": 20.0,
+      "audio_start": 0.0,
+      "audio_end": 19.68,
+      "delta_seconds": 0.0,
+      "status": "passed"
+    },
+    {
+      "id": "a02",
+      "segment_id": "seg_004",
+      "anchor_text": "导气系统先",
+      "visual_start": 60.0,
+      "visual_end": 80.0,
+      "audio_start": 60.0,
+      "audio_end": 79.872,
+      "delta_seconds": 0.0,
+      "status": "passed"
+    },
+    {
+      "id": "a03",
+      "segment_id": "seg_005",
+      "anchor_text": "机匣就是",
+      "visual_start": 80.0,
+      "visual_end": 100.0,
+      "audio_start": 80.0,
+      "audio_end": 99.488,
+      "delta_seconds": 0.0,
+      "status": "passed"
+    },
+    {
+      "id": "a04",
+      "segment_id": "seg_007",
+      "anchor_text": "扳机组决定",
+      "visual_start": 120.0,
+      "visual_end": 140.0,
+      "audio_start": 120.0,
+      "audio_end": 139.632,
+      "delta_seconds": 0.0,
+      "status": "passed"
+    },
+    {
+      "id": "a05",
+      "segment_id": "seg_009",
+      "anchor_text": "闭锁凸笋是",
+      "visual_start": 160.0,
+      "visual_end": 180.0,
+      "audio_start": 160.0,
+      "audio_end": 179.56,
+      "delta_seconds": 0.0,
+      "status": "passed"
+    },
+    {
+      "id": "a06",
+      "segment_id": "seg_014",
+      "anchor_text": "弧形弹匣不是",
+      "visual_start": 260.0,
+      "visual_end": 280.0,
+      "audio_start": 260.0,
+      "audio_end": 279.608,
+      "delta_seconds": 0.0,
+      "status": "passed"
+    },
+    {
+      "id": "a07",
+      "segment_id": "seg_017",
+      "anchor_text": "供弹开始",
+      "visual_start": 320.0,
+      "visual_end": 340.0,
+      "audio_start": 320.0,
+      "audio_end": 339.848,
+      "delta_seconds": 0.0,
+      "status": "passed"
+    },
+    {
+      "id": "a08",
+      "segment_id": "seg_019",
+      "anchor_text": "击发发生",
+      "visual_start": 360.0,
+      "visual_end": 380.0,
+      "audio_start": 360.0,
+      "audio_end": 379.656,
+      "delta_seconds": 0.0,
+      "status": "passed"
+    },
+    {
+      "id": "a09",
+      "segment_id": "seg_020",
+      "anchor_text": "高压火药气体先",
+      "visual_start": 380.0,
+      "visual_end": 400.0,
+      "audio_start": 380.0,
+      "audio_end": 399.704,
+      "delta_seconds": 0.0,
+      "status": "passed"
+    },
+    {
+      "id": "a10",
+      "segment_id": "seg_021",
+      "anchor_text": "导气孔把",
+      "visual_start": 400.0,
+      "visual_end": 420.0,
+      "audio_start": 400.0,
+      "audio_end": 419.536,
+      "delta_seconds": 0.0,
+      "status": "passed"
+    },
+    {
+      "id": "a11",
+      "segment_id": "seg_022",
+      "anchor_text": "长行程活塞开始",
+      "visual_start": 420.0,
+      "visual_end": 440.0,
+      "audio_start": 420.0,
+      "audio_end": 439.536,
+      "delta_seconds": 0.0,
+      "status": "passed"
+    },
+    {
+      "id": "a12",
+      "segment_id": "seg_023",
+      "anchor_text": "枪机解锁，闭锁",
+      "visual_start": 440.0,
+      "visual_end": 460.0,
+      "audio_start": 440.0,
+      "audio_end": 459.776,
+      "delta_seconds": 0.0,
+      "status": "passed"
+    },
+    {
+      "id": "a13",
+      "segment_id": "seg_024",
+      "anchor_text": "抽壳钩负责",
+      "visual_start": 460.0,
+      "visual_end": 480.0,
+      "audio_start": 460.0,
+      "audio_end": 479.464,
+      "delta_seconds": 0.0,
+      "status": "passed"
+    },
+    {
+      "id": "a14",
+      "segment_id": "seg_025",
+      "anchor_text": "抛壳完成",
+      "visual_start": 480.0,
+      "visual_end": 500.0,
+      "audio_start": 480.0,
+      "audio_end": 499.872,
+      "delta_seconds": 0.0,
+      "status": "passed"
+    },
+    {
+      "id": "a15",
+      "segment_id": "seg_026",
+      "anchor_text": "复进簧现在",
+      "visual_start": 500.0,
+      "visual_end": 520.0,
+      "audio_start": 500.0,
+      "audio_end": 519.464,
+      "delta_seconds": 0.0,
+      "status": "passed"
+    },
+    {
+      "id": "a16",
+      "segment_id": "seg_027",
+      "anchor_text": "前准星和后方",
+      "visual_start": 520.0,
+      "visual_end": 540.0,
+      "audio_start": 520.0,
+      "audio_end": 539.704,
+      "delta_seconds": 0.0,
+      "status": "passed"
+    },
+    {
+      "id": "a17",
+      "segment_id": "seg_032",
+      "anchor_text": "完整循环再",
+      "visual_start": 620.0,
+      "visual_end": 638.618,
+      "audio_start": 620.0,
+      "audio_end": 638.6,
+      "delta_seconds": 0.0,
+      "status": "passed"
+    }
+  ]
+}

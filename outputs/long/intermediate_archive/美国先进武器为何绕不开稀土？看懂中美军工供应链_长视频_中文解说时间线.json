@@ -1,0 +1,300 @@
+{
+  "version": 1,
+  "source_plan": "美国先进武器为何绕不开稀土？看懂中美军工供应链_长视频计划.json",
+  "source_subtitle": "L:\\workspace\\yinghe-shijie\\outputs\\美国先进武器为何绕不开稀土？看懂中美军工供应链_时间线01.srt",
+  "output_audio": "L:\\workspace\\yinghe-shijie\\videos\\exports\\长视频\\美国先进武器为何绕不开稀土\\美国先进武器为何绕不开稀土？看懂中美军工供应链_长视频_中文解说.mp3",
+  "mode": "short_video_chinese_narration",
+  "provider": "edge",
+  "voice": "zh-CN-YunyangNeural",
+  "rate": "+10%",
+  "video_duration": "00:12:42.674",
+  "segments": [
+    {
+      "id": "seg_001",
+      "start": "00:00:00.000",
+      "end": "00:00:15.500",
+      "text": "美国最先进的战斗机，为什么要依赖中国主导的稀土供应链？答案不只在矿山，而在整条产业链。你看到的是一架飞机，背后却站着分离、冶炼、磁材和制造工序，少一道，整条链就会卡住。",
+      "english_text": "Why does one of America's most advanced fighters depend on a rare-earth supply chain led by China? The answer is not just the mine, but the entire industrial chain. What you see is an aircraft, but behind it are separation, refining, magnets, and manufacturing. If one link is missing, the whole chain can be held up."
+    },
+    {
+      "id": "seg_002",
+      "start": "00:00:15.500",
+      "end": "00:00:31.000",
+      "text": "按片中引用的估算，一架F-35需要约四百一十八公斤稀土；阿利·伯克级驱逐舰约二千六百公斤，弗吉尼亚级潜艇接近四千六百公斤。重点是稀土分散在许多系统里，缺了就难替代。",
+      "english_text": "According to estimates cited in the source, one F-35 requires about 418 kilograms of rare earths, an Arleigh Burke destroyer about 2,600 kilograms, and a Virginia-class submarine nearly 4,600 kilograms. The point is that rare earths are spread across many systems and are difficult to replace when supplies are missing."
+    },
+    {
+      "id": "seg_003",
+      "start": "00:00:31.000",
+      "end": "00:00:46.500",
+      "text": "钕、镨、钐、镝、铽，这些名字听起来陌生，却被塞进发动机、雷达、激光器和制导系统。它们能让电机更小，让传感器更灵敏，也让设备在高温和高负荷下工作更稳。",
+      "english_text": "Neodymium, praseodymium, samarium, dysprosium, and terbium may sound unfamiliar, but they enter engines, radars, lasers, and guidance systems. They make motors smaller, sensors more sensitive, and equipment more stable under heat and heavy loads."
+    },
+    {
+      "id": "seg_004",
+      "start": "00:00:46.500",
+      "end": "00:01:02.000",
+      "text": "它们的价值，不是因为地壳里稀少，而是因为能让设备更小、更强、更耐高温。对军工来说，这意味着重量、空间和可靠性的竞争。军工讲究极限，材料不能只看有没有，还要稳定供给。",
+      "english_text": "Their value does not come from being scarce in the Earth's crust, but from making equipment smaller, stronger, and more heat-resistant. In defense manufacturing it means a contest over weight, space, and reliability. Defense systems operate at the limit, so the material must not only exist; it must be supplied steadily."
+    },
+    {
+      "id": "seg_005",
+      "start": "00:01:02.000",
+      "end": "00:01:23.366",
+      "text": "更关键的是，从矿石到高性能磁材，中间隔着一整套复杂工艺。矿石要先被分离，再提纯成单一元素，随后变成金属、合金和磁体，最后才进入发动机、雷达与执行机构。如今这条链的关键环节，长期集中在中国，这才是供应链的核心，而不是一座矿。",
+      "english_text": "More importantly, a complex set of processes lies between ore and high-performance magnets. Ore must be separated, purified into individual elements, and turned into metals, alloys, and magnets before entering engines, radars, and actuators. The key links of this chain have long been concentrated in China. That is the core of the supply chain, not one single mine."
+    },
+    {
+      "id": "seg_006",
+      "start": "00:01:23.366",
+      "end": "00:01:42.366",
+      "text": "先说一个容易误解的地方：稀土其实没有名字听起来那么稀有，真正稀缺的是能经济开采、稳定分离的高品位资源。矿体里往往混着多种元素，能把它们干净、稳定、低成本地分开，才算真正拥有供应能力，这一步最考验工程能力，也是第一道门槛。",
+      "english_text": "First, one common misunderstanding: rare earths are not as rare as their name suggests. What is scarce is high-grade material that can be mined and separated economically and reliably. Deposits often contain several elements together, and real supply capability means separating them cleanly, steadily, and at low cost. This step is the clearest test of engineering capability, and it is the first major hurdle."
+    },
+    {
+      "id": "seg_007",
+      "start": "00:01:42.366",
+      "end": "00:02:01.366",
+      "text": "而且，挖出来只是起点。不同元素要被分开、提纯、制成金属或合金，最后才能进入磁材和军工部件。每一步都要控制纯度、温度和杂质，任何一个环节不稳定，后面的磁体性能就会跟着波动。所以矿山只是入口，不是终点。",
+      "english_text": "Mining is only the starting point. Different elements must be separated and purified, then turned into metals or alloys before entering magnets and defense components. Every step must control purity, temperature, and impurities. If one link becomes unstable, the performance of the final magnet fluctuates with it. The mine is only the entrance, not the finish line."
+    },
+    {
+      "id": "seg_008",
+      "start": "00:02:01.366",
+      "end": "00:02:20.366",
+      "text": "中国的资源分布也不是只有一个矿。内蒙古的巴彦鄂博、四川、山东和江西，形成了不同类型的稀土来源。多地布局意味着原料不押在一个点上，也让采选、分离和下游加工按元素特点分工协作，这就是体系协同的价值，也让供应更稳。",
+      "english_text": "China's resources do not come from a single mine. Bayan Obo in Inner Mongolia, along with sites in Sichuan, Shandong, and Jiangxi, provide different sources of rare earths. A multi-region layout avoids relying on one point and lets mining, separation, and downstream processing cooperate according to each element's characteristics. That is the value of system-wide coordination, and it makes supply more stable."
+    },
+    {
+      "id": "seg_009",
+      "start": "00:02:20.366",
+      "end": "00:02:39.366",
+      "text": "矿石被送去分离和精炼，再进入赣州一带的磁材工厂。兵马未动，粮草先行，军工的后勤其实早在矿山就开始了。只有原料、工艺和订单接得上，稀土才会从地下资源变成可以装进武器的稳定部件，缺一环，后面就接不上，这就是断点。",
+      "english_text": "Ore is sent for separation and refining, then moves to magnet factories around Ganzhou. Before the troops move, logistics must come first; for defense manufacturing, logistics begins at the mine. Only when raw materials, processes, and orders connect can rare earths become stable components for weapons. If one link is missing, the rest cannot connect. That is the break point."
+    },
+    {
+      "id": "seg_010",
+      "start": "00:02:39.366",
+      "end": "00:02:58.366",
+      "text": "同类磁材既能装进风力发电机和新能源汽车，也能进入电机、雷达和精密执行机构。民用市场把产量做大、把成本摊薄，也让工厂持续积累设备和人才。军工需要的那一小部分高性能材料，往往就建立在这套大规模制造基础上。",
+      "english_text": "The same magnet materials can go into wind turbines and electric vehicles, as well as motors, radars, and precision actuators. Civilian markets increase volume, spread costs, and let factories accumulate equipment and talent. The small share of high-performance material needed by defense manufacturing often rests on this large-scale manufacturing base."
+    },
+    {
+      "id": "seg_011",
+      "start": "00:02:58.366",
+      "end": "00:03:17.366",
+      "text": "但中国并不是一开始就占据这个位置。几十年前，美国的山口矿曾经是全球稀土供应的重要来源，矿山、加工和下游需求也曾经在美国形成闭环。供应链的领先，从来不是天生不变，而是随着投入和选择不断转移，方向也会随之改变。",
+      "english_text": "But China did not always occupy this position. Decades ago, the Mountain Pass mine in the United States was an important source of global rare-earth supply, and mining, processing, and downstream demand once formed a loop inside the United States. Supply-chain leadership is not permanent by nature; it shifts with investment and policy choices, and the direction changes with it."
+    },
+    {
+      "id": "seg_012",
+      "start": "00:03:17.366",
+      "end": "00:03:36.366",
+      "text": "到了二十世纪八十年代，美国企业面对更高的环保和运营成本，稀土加工越来越难以在国内维持。这个行业既脏、又重、利润还不稳定，企业自然更愿意把加工环节放到成本更低的地方，先把眼前的账算清楚，产业因此开始外移，这并非偶然。",
+      "english_text": "By the 1980s, U.S. companies faced higher environmental and operating costs, making rare-earth processing increasingly difficult to sustain domestically. The industry was dirty, capital-intensive, and uncertain in profit, so companies preferred to move processing to lower-cost locations and focus on their immediate balance sheets. As a result, the industry began moving overseas; that was not accidental."
+    },
+    {
+      "id": "seg_013",
+      "start": "00:03:36.366",
+      "end": "00:03:55.366",
+      "text": "于是，产业链开始外移。美国仍然可以买到稀土产品，却逐渐失去了对分离、冶炼和磁材工艺的现场控制。表面看，采购价格可能更便宜；实际上，工艺、设备维护和工程人才也一并离开了本土，依赖链条也就变得更深。",
+      "english_text": "The industry then moved overseas. The United States could still buy rare-earth products, but gradually lost direct control over separation, refining, and magnet manufacturing. On the surface, purchasing could be cheaper; in practice, processes, equipment maintenance, and engineering talent also left the country, deepening the dependency chain."
+    },
+    {
+      "id": "seg_014",
+      "start": "00:03:55.366",
+      "end": "00:04:14.366",
+      "text": "到一九九六年，美国国会还关闭了矿务局这个相关研究机构。外包的不只是产能，也包括经验、人才和工程数据。等到国家重新意识到风险时，想补回来的已经不是一间工厂，而是一代技术人员和产业记忆，这笔隐性成本后来很难补。",
+      "english_text": "By 1996, the U.S. Congress had also closed the Bureau of Mines, a relevant research agency. What was outsourced was not only capacity, but also experience, talent, and engineering data. When the country recognized the risk again, it was no longer trying to replace one factory, but a generation of technical workers and industrial memory. That hidden cost is difficult to recover later."
+    },
+    {
+      "id": "seg_015",
+      "start": "00:04:14.366",
+      "end": "00:04:33.366",
+      "text": "就在美国后退时，中国接住了这条产业链。矿山、分离厂、冶炼厂和磁材企业，被逐步连成了一个体系。这个过程不只是把矿挖出来，而是把每一个中间环节都做成可配合、可迭代、可批量复制的工业能力，这才是真正的接住，不是口号。",
+      "english_text": "As the United States stepped back, China took up the chain. Mines, separation plants, refineries, and magnet makers were gradually connected into a system. The process was not simply about digging up ore, but about turning every intermediate link into an industrial capability that could cooperate, improve, and scale. That is what it means to truly take up the chain, not a slogan."
+    },
+    {
+      "id": "seg_016",
+      "start": "00:04:33.366",
+      "end": "00:04:52.366",
+      "text": "这不是一夜之间的所谓垄断，而是长期投入、工艺迭代和规模化制造共同形成的优势。稀土产业看起来不起眼，却需要多年试错才能稳定运行；真正拉开差距的，是把试错变成下一轮生产经验，让优势一层层累积，这种能力只能靠时间沉淀。",
+      "english_text": "This was not an overnight monopoly, but an advantage built by long-term investment, process iteration, and manufacturing at scale. Rare-earth production may look unremarkable, but it takes years of trial and error to operate steadily. The real difference is turning trial and error into experience for the next production cycle, allowing the advantage to accumulate layer by layer. That capability can only be built over time."
+    },
+    {
+      "id": "seg_017",
+      "start": "00:04:52.366",
+      "end": "00:05:11.366",
+      "text": "新技术降低了生产成本，出口和税收政策又帮助产品进入全球市场。价格一低，其他国家替代供应链的投资就更难回本。久而久之，别人不是没有矿，也不是没有资金，而是发现自己很难在同样的价格和速度上竞争，替代者自然越来越少。",
+      "english_text": "New technology lowered production costs, while export and tax policies helped products reach global markets. When prices fell, investment in alternative supply chains became harder to justify. Over time, other countries did not lack deposits or money; they found it difficult to compete at the same price and speed, so alternatives became fewer."
+    },
+    {
+      "id": "seg_018",
+      "start": "00:05:11.366",
+      "end": "00:05:30.366",
+      "text": "片中引用的历史统计显示，二〇〇五年前后中国在全球稀土矿产量中的份额一度接近百分之九十八。这个数字不是今天的占比，却说明当时高度集中。更重要的是，矿产量只是第一层，分离、冶炼和磁材制造的集中，才影响下游武器工厂。",
+      "english_text": "Historical statistics cited in the source show that China's share of global rare-earth mine production once approached 98 percent around 2005. That figure is not today's share, but it shows how concentrated the industry was then. More importantly, mining output is only the first layer; concentration in separation, refining, and magnet manufacturing is what affects downstream weapons factories."
+    },
+    {
+      "id": "seg_019",
+      "start": "00:05:30.366",
+      "end": "00:05:49.366",
+      "text": "难替代的，也从来不是某一座矿，而是矿、化学分离、磁材和下游制造之间的协同。牵一发，确实会动全身。一个国家可以买到原料，却未必有设备、配方和客户把原料继续变成合格部件，这就是供应链的门槛，它需要的是完整配套。",
+      "english_text": "What is difficult to replace is not a single mine, but the coordination among mining, chemical separation, magnets, and downstream manufacturing. Pull one thread, and the whole system can move. A country may buy raw material, but still lack the equipment, formulas, and customers needed to turn it into qualified components. That is the real supply-chain barrier; it requires a complete supporting system."
+    },
+    {
+      "id": "seg_020",
+      "start": "00:05:49.366",
+      "end": "00:06:08.366",
+      "text": "所以不少国家即使有矿，也不等于有产品。没有分离设备、工艺团队和稳定客户，矿石只能躺在地下，巧妇也难为无米之炊。更麻烦的是，工厂刚建起来还不够，还要经过长期订单验证，才能把实验室里的材料变成军工能放心使用的批次。",
+      "english_text": "That is why having a deposit does not automatically mean having products. Without separation equipment, process teams, and stable customers, ore may remain underground; even a skilled cook cannot make a meal without rice. A new factory is not enough either. It needs years of orders and testing before laboratory material becomes a batch that defense manufacturers can trust."
+    },
+    {
+      "id": "seg_021",
+      "start": "00:06:08.366",
+      "end": "00:06:27.366",
+      "text": "稀土优势的第二层含义，是它能从经济问题变成外交和安全问题。二〇一〇年东海争议后的出口变化，就是片中使用的典型案例。资源一旦进入关键工业，就不再只是商品价格问题，也会进入国家谈判和产业安全，影响决策和交付节奏。",
+      "english_text": "The second meaning of rare-earth dominance is that an economic issue can become a diplomatic and security issue. The export changes after the 2010 East China Sea dispute are used in the source as a typical case. Once a resource enters critical industry, it is no longer only a matter of price; it enters national negotiations and industrial security, affecting decisions and delivery schedules."
+    },
+    {
+      "id": "seg_022",
+      "start": "00:06:27.366",
+      "end": "00:06:46.366",
+      "text": "这类事件让美国、日本和其他国家重新评估对中国稀土的依赖。稀土不是立刻让武器失灵，却可能先让生产和维修排队。对军队来说，最怕的不是某一枚导弹当场停机，而是库存消耗之后，备件和新装备迟迟补不上来，这不是短期问题。",
+      "english_text": "Such events led the United States, Japan, and others to reassess their dependence on Chinese rare earths. Rare earths do not make weapons fail instantly, but can make production and maintenance wait in line first. For a military, the greatest fear is not one missile stopping immediately, but spare parts and new equipment failing to arrive after inventories are consumed. This is not a short-term problem."
+    },
+    {
+      "id": "seg_023",
+      "start": "00:06:46.366",
+      "end": "00:07:05.366",
+      "text": "二〇二五年四月，中国商务部和海关总署对钐、钆、铽、镝、镥、钪、钇等中重稀土相关物项实施出口管制。这里要看清，管制不是把所有出口一刀切，而是把特定物项纳入许可、申报和合规流程，这就是管制的边界。",
+      "english_text": "In April 2025, China's Ministry of Commerce and General Administration of Customs imposed export controls on items related to samarium, gadolinium, terbium, dysprosium, lutetium, scandium, and yttrium. The key point is that controls are not a blanket ban on every export; they place specified items into licensing, declaration, and compliance procedures. That is the boundary of the controls."
+    },
+    {
+      "id": "seg_024",
+      "start": "00:07:05.366",
+      "end": "00:07:24.366",
+      "text": "中方公开表述是依法维护国家安全和利益，并履行防扩散义务；对美国军工来说，这则意味着关键材料供应进入了许可和合规环节。换句话说，供应并非凭空消失，但交付速度、去向和用途都需要经过更严格的审查，会增加成本。",
+      "english_text": "China's public explanation was that the controls protect national security and interests under the law and fulfill non-proliferation obligations. For U.S. defense manufacturing, this means key-material supply enters a licensing and compliance process. In other words, supply does not simply vanish, but its speed, destination, and use face stricter review, which adds cost."
+    },
+    {
+      "id": "seg_025",
+      "start": "00:07:24.366",
+      "end": "00:07:43.366",
+      "text": "稀土并不是中国对美出口的大头，却可能是特定制造环节的卡脖子节点。越是高端、越是小众，越经不起断供。它占贸易额可能不大，却能影响一条昂贵生产线的节拍，这就是小材料撬动大系统的放大效应，影响的正是生产节奏和维修保障。",
+      "english_text": "Rare earths are not the bulk of China's exports to the United States, but they can be a bottleneck for specific manufacturing steps. The more specialized the component, the less disruption it can tolerate. Its share of trade may be small, yet it can affect the rhythm of an expensive production line. This is the amplification effect of a small material moving a large system, affecting production tempo and maintenance support."
+    },
+    {
+      "id": "seg_026",
+      "start": "00:07:43.366",
+      "end": "00:08:02.366",
+      "text": "片中提到，随后出现了高层谈判和阶段性缓和。这里的关键不是马上全面断供，而是中国拥有调节供应节奏和范围的能力。对供应链高度集中的国家来说，能否拿到货、何时拿到货、拿到什么规格，本身就会变成谈判筹码，这就是能力。",
+      "english_text": "The source notes that high-level talks and a temporary easing followed. The key is not an immediate total cutoff, but China's ability to regulate the pace and scope of supply. For countries dependent on a concentrated supply chain, whether they receive material, when it arrives, and what grade they receive can themselves become bargaining chips. That is capability."
+    },
+    {
+      "id": "seg_027",
+      "start": "00:08:02.366",
+      "end": "00:08:21.366",
+      "text": "美国国防部门早就知道这个风险。公开研究把中国在稀土上的近乎垄断，列为美国防务供应链的脆弱点。因为武器系统越复杂，零部件越多，越不可能只靠最后一道总装来解决前面的材料短板。替代材料还要重新认证和测试，才能装机。",
+      "english_text": "The U.S. defense establishment has known this risk for years. Public research lists China's near-monopoly position in rare earths as a vulnerability in the U.S. defense supply chain. The more complex a weapon system becomes, the more parts it contains, and the less the final assembly line can compensate for a material shortfall upstream. Substitute materials must be certified and tested again before installation."
+    },
+    {
+      "id": "seg_028",
+      "start": "00:08:21.366",
+      "end": "00:08:40.366",
+      "text": "片中援引一项研究，给出九十天和七成八等警示数字；这属于特定模型，不能当成必然结果。稳妥结论是，断供会先冲击交付、备件和维修。军工库存可以撑过短期波动，却很难无限期绕开材料认证、供应商替换和重新测试，也都不能省。",
+      "english_text": "The source cites a study with warnings involving 90 days and 78 percent; those figures belong to a specific model and should not be treated as inevitable. The safer conclusion is that disruption would first hit delivery, spares, and maintenance. Defense inventories can absorb a short fluctuation, but cannot avoid material certification, supplier replacement, and retesting forever. None of them can be skipped."
+    },
+    {
+      "id": "seg_029",
+      "start": "00:08:40.366",
+      "end": "00:08:59.366",
+      "text": "这也解释了美国为什么关注格陵兰和加拿大。它要找的不是一块新矿，而是能减少对单一供应链依赖的资源和通道。地图上的距离、港口、铁路和加工厂，最后都会转化成军工能不能及时拿到材料的现实问题。地理优势不等于工业优势。",
+      "english_text": "This also helps explain U.S. interest in Greenland and Canada. It is not simply looking for a new mine, but for resources and routes that reduce dependence on a single supply chain. Distances, ports, railways, and processing plants on a map eventually become the practical question of whether defense manufacturers can receive material on time. Geographic advantage is not the same as industrial advantage."
+    },
+    {
+      "id": "seg_030",
+      "start": "00:08:59.366",
+      "end": "00:09:18.366",
+      "text": "格陵兰拥有重稀土资源，片中还提到中国企业曾参与相关项目，但项目后来因环境与政治因素暂停。资源多，不等于项目能落地。矿区要面对极地运输、能源、环保许可和地方政治，任何一项拖住，整条供应链都只能停在图纸上。",
+      "english_text": "Greenland has heavy rare-earth resources. The source also notes Chinese participation in a related project, which was later halted for environmental and political reasons. Resources alone do not make a project viable. A mine must deal with Arctic transport, energy, environmental permits, and local politics. If any one of them stalls, the supply chain remains on paper."
+    },
+    {
+      "id": "seg_031",
+      "start": "00:09:18.366",
+      "end": "00:09:37.366",
+      "text": "加拿大北部和西部也有钕、镨资源。中国企业在海外稀土领域的参与不断扩大，让资源问题进一步变成产业和安全问题。对美国来说，真正担心的不是矿石属于谁，而是开采、加工和销售这些关键节点最终由谁掌握，这才是关键。",
+      "english_text": "Northern and western Canada also hold neodymium and praseodymium resources. Growing Chinese participation in overseas rare earths has turned a resource issue further into an industrial and security issue. For the United States, the concern is not simply who owns the ore, but who ultimately controls the key points in mining, processing, and sales. That is the key issue."
+    },
+    {
+      "id": "seg_032",
+      "start": "00:09:37.366",
+      "end": "00:09:56.366",
+      "text": "所以，特朗普关于格陵兰和加拿大的表态，不能只看成临时冲动；它背后确实连接着关键矿产、军工和产业链安全。当然，政治表态不等于项目已经成功，更不等于资源马上能够变成磁材，地图上的野心还要经过漫长的工程验证。",
+      "english_text": "That is why Trump's statements about Greenland and Canada cannot be viewed only as temporary impulses; they connect to critical minerals, defense manufacturing, and industrial-chain security. But political statements do not mean a project has succeeded, nor that resources can immediately become magnets. Ambition on a map still requires years of engineering validation."
+    },
+    {
+      "id": "seg_033",
+      "start": "00:09:56.366",
+      "end": "00:10:15.366",
+      "text": "美国现在开始补课。白宫动用《国防生产法》，希望用公共资金加快国内关键矿产和磁材生产。它要解决的不是一条新闻里的短期缺口，而是把矿山、精炼、磁材和军工采购重新接起来，先让产业活下来，再谈规模竞争。",
+      "english_text": "The United States is now trying to catch up. The White House has invoked the Defense Production Act to use public funding to accelerate domestic production of critical minerals and magnets. The goal is not a short-term gap in one news cycle, but to reconnect mines, refining, magnets, and defense procurement. The industry must survive first; scale competition comes later."
+    },
+    {
+      "id": "seg_034",
+      "start": "00:10:15.366",
+      "end": "00:10:34.366",
+      "text": "德州的圆顶山项目就是其中一个案例。片中计划数据估算，它拥有约十三万吨、涉及十六种元素的稀土资源。看起来资源量很可观，但储量不是年产量，年产量也不是合格磁材，资源还要经过加工，项目交付还要看验证，最后才能形成产能，并不简单。",
+      "english_text": "The Round Top project in Texas is one example. The planned figures cited in the source estimate about 130,000 tons of rare-earth resources across 16 elements. A large resource estimate is not annual output, and annual output is not qualified magnet material. The resource still has to pass processing, delivery still depends on validation, and only then can it become real capacity. That process is not simple."
+    },
+    {
+      "id": "seg_035",
+      "start": "00:10:34.366",
+      "end": "00:10:53.366",
+      "text": "但矿山后面还要接精炼厂和磁材厂。项目计划在俄克拉荷马州建设磁铁工厂，初期目标约两千吨，后续扩大到接近五千吨。只有把矿里的元素一路变成成品磁体，所谓补链才算真正闭环，链条必须闭合，才能稳定交付，也并不轻松。",
+      "english_text": "But a mine still needs a refinery and a magnet plant behind it. The project plans a magnet factory in Oklahoma, with an initial target of about 2,000 tons and later expansion to nearly 5,000 tons. Catching up means turning elements in the mine into finished magnets all the way through. The chain must be closed to deliver steadily, and that is not easy."
+    },
+    {
+      "id": "seg_036",
+      "start": "00:10:53.366",
+      "end": "00:11:12.366",
+      "text": "美国还在建设应急储备，支持本土矿山、炼厂和磁材企业。片中提到，二〇二五年国防授权法案安排了约十二亿美元的稀土战略储备，另有数亿美元支持相关项目。政府不得不先当买家，帮产业撑过冷启动，然后再扩张，再谈规模。",
+      "english_text": "The United States is also building emergency stockpiles and supporting domestic mines, refineries, and magnet makers. The source notes that the 2025 defense authorization set aside about 1.2 billion dollars for a strategic rare-earth reserve, with hundreds of millions more for related projects. The government must act as a buyer first to help the industry survive its launch phase, then expand and pursue scale."
+    },
+    {
+      "id": "seg_037",
+      "start": "00:11:12.366",
+      "end": "00:11:31.366",
+      "text": "山口矿运营商获得政府采购和价格支持，就是典型例子。看起来像市场竞争，背后却已经上了国家安全的强度。美国政府还支持在得州建设新的磁材工厂，原因很现实：没有稳定买家，刚起步的供应链很难熬过前几年的高成本，这就是托底。",
+      "english_text": "Government purchasing and price support for the Mountain Pass operator are a typical example. What looks like market competition has already been intensified by national-security policy. The U.S. government is also supporting a new magnet factory in Texas for a practical reason: without a stable buyer, a new supply chain may not survive its first years of high costs. This is a policy backstop."
+    },
+    {
+      "id": "seg_038",
+      "start": "00:11:31.366",
+      "end": "00:11:50.366",
+      "text": "问题是，美国要补上的不是一座矿，而是一整套生态。片中估计，建立自给型稀土供应链至少要十年、投入一百亿到一百五十亿美元。想靠一座矿解决问题，就像泥菩萨过江——自身难保，矿山还要依赖精炼、磁材和下游订单，并不快。",
+      "english_text": "The problem is that the United States must rebuild an ecosystem, not just a mine. The source estimates that a self-sufficient rare-earth supply chain would take at least a decade and 10 to 15 billion dollars. Trying to solve the problem with one mine is like a clay idol crossing a river: it cannot even save itself. The mine still depends on refining, magnets, and downstream orders, and the process is not fast."
+    },
+    {
+      "id": "seg_039",
+      "start": "00:11:50.366",
+      "end": "00:12:09.366",
+      "text": "更难的是环保和许可。传统稀土加工可能涉及酸液、重金属甚至放射性废物，项目既要安全，成本和审批时间也会更高。美国还要处理用水、排放和废物处置，环保标准不能绕开，供应链重建不可能一夜完成，项目落地也不会快。",
+      "english_text": "The harder issues are environmental protection and permitting. Traditional rare-earth processing can involve acids, heavy metals, and even radioactive waste, so a project must be safe while facing higher costs and longer approvals. The United States must also handle water use, emissions, and waste disposal. Environmental standards cannot simply be bypassed, so rebuilding the supply chain cannot happen overnight, and projects will not move quickly."
+    },
+    {
+      "id": "seg_040",
+      "start": "00:12:09.366",
+      "end": "00:12:28.366",
+      "text": "新方法可以减少废物，片中提到生物溶剂技术理论上能把废物减少到原来的约百分之十五，但技术还要验证。一些矿区又靠近原住民土地，社会协商和法律争议也会拖慢项目，资源优势最终还得经过现实程序，才能稳定变成产能，再进入市场。",
+      "english_text": "New methods may reduce waste. The source notes that biological-solvent technology could theoretically cut waste to about 15 percent of the previous level, but the method still needs validation. Some deposits are also near Indigenous lands, so social negotiations and legal disputes can slow projects. A resource advantage must still pass real procedures before it can become capacity."
+    },
+    {
+      "id": "seg_041",
+      "start": "00:12:28.366",
+      "end": "00:12:42.674",
+      "text": "所以这场竞争的底层，不只是比谁的武器先进，而是比谁能把资源、工艺、制造和后勤稳定接起来。中国的优势，正是长期积累的体系能力，底气也来自这里，也是根本。",
+      "english_text": "At the foundation, this competition is not only about whose weapons are more advanced, but who can reliably connect resources, processes, manufacturing, and logistics. China's advantage is precisely its long-built system capability, and that is where the confidence comes from. That is the foundation."
+    }
+  ]
+}

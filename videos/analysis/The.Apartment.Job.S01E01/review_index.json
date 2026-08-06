@@ -1,0 +1,9 @@
+{
+  "video": "L:\\BaiduNetdiskDownload\\公寓黑风暴 아파트 (2026)\\The.Apartment.Job.S01E01.2026.1080p.NF.WEB-DL.AAC2.0.H.264.mkv",
+  "subtitle": "L:\\workspace\\yinghe-shijie\\videos\\analysis\\The.Apartment.Job.S01E01\\source_zh-CN.srt",
+  "duration_seconds": 3824.64,
+  "interval_seconds": 10.0,
+  "grid": "4x4",
+  "sheet_count": 24,
+  "note": "Each tile advances by interval_seconds, left-to-right then top-to-bottom. Use as a visual index; confirm selected timecodes against source video."
+}

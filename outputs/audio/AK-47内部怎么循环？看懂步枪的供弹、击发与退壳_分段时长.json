@@ -1,0 +1,199 @@
+{
+  "version": 1,
+  "timeline": "L:\\workspace\\yinghe-shijie\\outputs\\audio\\AK-47内部怎么循环？看懂步枪的供弹、击发与退壳_等长解说时间线.json",
+  "output_audio": "L:\\workspace\\yinghe-shijie\\outputs\\audio\\AK-47内部怎么循环？看懂步枪的供弹、击发与退壳_等长_edge.mp3",
+  "segments": [
+    {
+      "id": "seg_001",
+      "start": "00:00:00.000",
+      "end": "00:00:20.000",
+      "audio_duration": 19.68
+    },
+    {
+      "id": "seg_002",
+      "start": "00:00:20.000",
+      "end": "00:00:40.000",
+      "audio_duration": 19.872
+    },
+    {
+      "id": "seg_003",
+      "start": "00:00:40.000",
+      "end": "00:01:00.000",
+      "audio_duration": 19.872
+    },
+    {
+      "id": "seg_004",
+      "start": "00:01:00.000",
+      "end": "00:01:20.000",
+      "audio_duration": 19.872
+    },
+    {
+      "id": "seg_005",
+      "start": "00:01:20.000",
+      "end": "00:01:40.000",
+      "audio_duration": 19.488
+    },
+    {
+      "id": "seg_006",
+      "start": "00:01:40.000",
+      "end": "00:02:00.000",
+      "audio_duration": 19.824
+    },
+    {
+      "id": "seg_007",
+      "start": "00:02:00.000",
+      "end": "00:02:20.000",
+      "audio_duration": 19.632
+    },
+    {
+      "id": "seg_008",
+      "start": "00:02:20.000",
+      "end": "00:02:40.000",
+      "audio_duration": 19.752
+    },
+    {
+      "id": "seg_009",
+      "start": "00:02:40.000",
+      "end": "00:03:00.000",
+      "audio_duration": 19.56
+    },
+    {
+      "id": "seg_010",
+      "start": "00:03:00.000",
+      "end": "00:03:20.000",
+      "audio_duration": 19.68
+    },
+    {
+      "id": "seg_011",
+      "start": "00:03:20.000",
+      "end": "00:03:40.000",
+      "audio_duration": 19.8
+    },
+    {
+      "id": "seg_012",
+      "start": "00:03:40.000",
+      "end": "00:04:00.000",
+      "audio_duration": 19.608
+    },
+    {
+      "id": "seg_013",
+      "start": "00:04:00.000",
+      "end": "00:04:20.000",
+      "audio_duration": 19.632
+    },
+    {
+      "id": "seg_014",
+      "start": "00:04:20.000",
+      "end": "00:04:40.000",
+      "audio_duration": 19.608
+    },
+    {
+      "id": "seg_015",
+      "start": "00:04:40.000",
+      "end": "00:05:00.000",
+      "audio_duration": 19.296
+    },
+    {
+      "id": "seg_016",
+      "start": "00:05:00.000",
+      "end": "00:05:20.000",
+      "audio_duration": 19.536
+    },
+    {
+      "id": "seg_017",
+      "start": "00:05:20.000",
+      "end": "00:05:40.000",
+      "audio_duration": 19.848
+    },
+    {
+      "id": "seg_018",
+      "start": "00:05:40.000",
+      "end": "00:06:00.000",
+      "audio_duration": 19.488
+    },
+    {
+      "id": "seg_019",
+      "start": "00:06:00.000",
+      "end": "00:06:20.000",
+      "audio_duration": 19.656
+    },
+    {
+      "id": "seg_020",
+      "start": "00:06:20.000",
+      "end": "00:06:40.000",
+      "audio_duration": 19.704
+    },
+    {
+      "id": "seg_021",
+      "start": "00:06:40.000",
+      "end": "00:07:00.000",
+      "audio_duration": 19.536
+    },
+    {
+      "id": "seg_022",
+      "start": "00:07:00.000",
+      "end": "00:07:20.000",
+      "audio_duration": 19.536
+    },
+    {
+      "id": "seg_023",
+      "start": "00:07:20.000",
+      "end": "00:07:40.000",
+      "audio_duration": 19.776
+    },
+    {
+      "id": "seg_024",
+      "start": "00:07:40.000",
+      "end": "00:08:00.000",
+      "audio_duration": 19.464
+    },
+    {
+      "id": "seg_025",
+      "start": "00:08:00.000",
+      "end": "00:08:20.000",
+      "audio_duration": 19.872
+    },
+    {
+      "id": "seg_026",
+      "start": "00:08:20.000",
+      "end": "00:08:40.000",
+      "audio_duration": 19.464
+    },
+    {
+      "id": "seg_027",
+      "start": "00:08:40.000",
+      "end": "00:09:00.000",
+      "audio_duration": 19.704
+    },
+    {
+      "id": "seg_028",
+      "start": "00:09:00.000",
+      "end": "00:09:20.000",
+      "audio_duration": 19.728
+    },
+    {
+      "id": "seg_029",
+      "start": "00:09:20.000",
+      "end": "00:09:40.000",
+      "audio_duration": 19.344
+    },
+    {
+      "id": "seg_030",
+      "start": "00:09:40.000",
+      "end": "00:10:00.000",
+      "audio_duration": 19.92
+    },
+    {
+      "id": "seg_031",
+      "start": "00:10:00.000",
+      "end": "00:10:20.000",
+      "audio_duration": 19.488
+    },
+    {
+      "id": "seg_032",
+      "start": "00:10:20.000",
+      "end": "00:10:38.618",
+      "audio_duration": 18.6
+    }
+  ]
+}

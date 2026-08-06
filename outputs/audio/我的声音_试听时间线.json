@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "mode": "source_length_full_narration",
+  "provider": "cosyvoice",
+  "cosyvoice_model_dir": "tools/CosyVoice/pretrained_models/CosyVoice-300M-SFT",
+  "cosyvoice_mode": "zero_shot",
+  "prompt_audio": "我的声音_参考.wav",
+  "prompt_text": "很多人以为，导弹飞得越快，威力就越大。其实，真正决定拦截难度的，是发现目标、计算弹道和完成制导的速度。只要其中一个环节落后，整套系统就可能错过窗口。",
+  "voice": "我的声音",
+  "speed": 1.0,
+  "video_duration": "00:00:20.000",
+  "output_audio": "我的声音_试听.mp3",
+  "segments": [
+    {
+      "id": "test_001",
+      "start": "00:00:00.000",
+      "end": "00:00:07.000",
+      "text": "真正决定一套武器系统上限的，往往不是它能打多远，而是它能不能及时发现目标。"
+    },
+    {
+      "id": "test_002",
+      "start": "00:00:07.000",
+      "end": "00:00:14.000",
+      "text": "从雷达捕捉信号，到火控计算，再到导弹完成制导，每一步都在争夺时间。"
+    },
+    {
+      "id": "test_003",
+      "start": "00:00:14.000",
+      "end": "00:00:20.000",
+      "text": "任何一个环节出现延迟，留给防御系统的机会就会增加。"
+    }
+  ]
+}
