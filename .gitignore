@@ -6,3 +6,6 @@ videos/exports/*
 
 __pycache__/
 *.py[cod]
+
+# 个人声音参考素材仅保留本地，不纳入版本库
+outputs/audio/我的声音_参考.wav
