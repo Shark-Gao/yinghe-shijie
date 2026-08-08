@@ -20,6 +20,7 @@ def args() -> argparse.Namespace:
     parser.add_argument("--layout", choices=("center", "right", "portrait"), default="right")
     parser.add_argument("--font-file", default="", help="可选的字体文件路径。")
     parser.add_argument("--style", choices=("default", "editorial"), default="default", help="封面排版风格。")
+    parser.add_argument("--theme-position", choices=("default", "above"), default="default", help="主题标签位置；editorial 风格可放到主标题上方。")
     return parser.parse_args()
 
 
@@ -64,6 +65,7 @@ def main() -> None:
         metadata_path = escape_path(files[metadata_index]) if metadata else None
         drama_cover = bool(metadata)
         editorial = options.style == "editorial"
+        theme_above = editorial and options.theme_position == "above"
     # 使用相对坐标，让生成的 16:9 封面即使每次像素尺寸略有不同也保持可读。
         if options.layout == "right":
             if editorial:
@@ -146,10 +148,16 @@ def main() -> None:
                         f"bordercolor=black:borderw=7:fontsize=h*({'0.068' if drama_cover else '0.062'}):x=(w-text_w)/2:y=h*({'0.495' if drama_cover else '0.405'})"
                     )
             if theme_path:
-                filters += (
-                    f",drawtext=fontfile='{font_path}':textfile='{theme_path}':fontcolor=0x8EDBFF:"
-                    "bordercolor=black:borderw=3:fontsize=h*0.030:x=(w-text_w)/2:y=h*0.505"
-                )
+                if theme_above:
+                    filters += (
+                        f",drawtext=fontfile='{font_path}':textfile='{theme_path}':fontcolor=0x8EDBFF:"
+                        "bordercolor=black:borderw=3:fontsize=h*0.030:x=w*0.12:y=h*0.095"
+                    )
+                else:
+                    filters += (
+                        f",drawtext=fontfile='{font_path}':textfile='{theme_path}':fontcolor=0x8EDBFF:"
+                        "bordercolor=black:borderw=3:fontsize=h*0.030:x=(w-text_w)/2:y=h*0.505"
+                    )
         else:
             filters = (
                 "drawbox=x=iw*0.04:y=ih*0.03:w=iw*0.92:h=ih*0.31:color=black@0.66:t=fill,"
