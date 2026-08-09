@@ -1,0 +1,4 @@
+interface:
+  display_name: "荒野美食视频工坊"
+  short_description: "为森林户外美食视频制作三种尺寸封面、标题简介和话题包装"
+  default_prompt: "使用 $yinghe-food-video 为我的户外美食视频从原片挑选关键画面，制作三种尺寸封面并生成可直接发布的标题、简介和话题。"
