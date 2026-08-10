@@ -1,0 +1,135 @@
+{
+  "version": 1,
+  "title": "魏璎珞借一条狗反制两位主子",
+  "drama": {
+    "work_title": "延禧攻略",
+    "episode": "12",
+    "opening_stance_hook": "皇后荔枝宴红布一掀，冲出来的不是荔枝，而是高贵妃的狗；看似魏璎珞要受罚，实际责任正在回到主人身上。",
+    "commentary_viewpoint": "魏璎珞不是急着洗清自己，而是把雪球制造的混乱转成主人失管的证据。",
+    "discussion_conflict": "借皇帝的惩罚反击敌人，算不算以其人之道还治其人之身？",
+    "emotional_value": "从以为魏璎珞必然受罚，到看到她把责任链推回主子并获得阶段性胜利。"
+  },
+  "editorial": {
+    "content_lane": "电视剧剧情/宫廷智斗",
+    "audience_question": "荔枝宴被毁后，魏璎珞为什么反而让嘉嫔和高贵妃受罚？",
+    "promised_answer": "她把雪球造成的混乱转成主人失管的证据，逼皇帝追究主子责任。",
+    "emotional_shift": "从以为主角会因失职倒霉，到看懂她如何借势反制并让责任落回幕后主子。",
+    "series_link": "延禧攻略宫廷反转",
+    "claim_status": "verified_fact"
+  },
+  "preflight_review": {
+    "status": "passed",
+    "review_scope": "content_before_render",
+    "one_line_question": "荔枝宴被毁后，魏璎珞怎样把自己的危机变成对方的罪责？",
+    "one_line_answer": "她借雪球制造的现场混乱，证明真正该负责的是放任恶犬闯祸的主人。",
+    "conflict": "嘉嫔和高贵妃试图把荔枝树被毁归咎于魏璎珞，魏璎珞则把责任推回雪球主人。",
+    "emotional_value": "观众从紧张魏璎珞会被问罪，转为看到她用规则和证据完成反制。",
+    "checks": {
+      "position_and_fact": "pass",
+      "emotional_value": "pass",
+      "conflict_and_hook": "pass",
+      "answer_timing": "pass",
+      "visual_evidence": "pass",
+      "title_script_consistency": "pass",
+      "safety_and_attribution": "pass"
+    },
+    "risk_notes": [
+      "电视剧对白和人物动机属于剧中叙事，解说不延伸为现实事实。",
+      "素材授权范围未核验，本成片仅供内部审看，不公开发布。"
+    ],
+    "revision_notes": []
+  },
+  "platform_titles": {
+    "bilibili": "魏璎珞借一条狗反制两位主子",
+    "douyin": "皇后荔枝宴出事，魏璎珞反将一军",
+    "kuaishou": "一条狗闯进宴会，最后谁挨罚？",
+    "xiaohongshu": "延禧攻略第12集：一条狗如何反转荔枝宴？"
+  },
+  "platform_descriptions": {
+    "bilibili": "荔枝宴被雪球搅乱后，魏璎珞没有急着洗清自己，而是把“狗闯祸”变成主人失管的证据，最终让责任回到嘉嫔和高贵妃身上。你觉得这是聪明反制，还是借势报仇？",
+    "douyin": "红布一掀，冲出来的不是荔枝，而是高贵妃的狗。魏璎珞顺势把一场栽赃，变成了追究主子责任的现场。",
+    "kuaishou": "本来是要让魏璎珞背锅，结果一条狗闯进宴会，反而把嘉嫔和高贵妃都牵连进去。",
+    "xiaohongshu": "《延禧攻略》第12集高能反转：荔枝宴被雪球搅乱，魏璎珞用“主人必须负责”的逻辑，把一场栽赃变成了反制。适合收藏这段宫廷智斗拆局。"
+  },
+  "source_video": "L:\\workspace\\yinghe-shijie\\videos\\raw\\延禧攻略12.mp4",
+  "source_subtitle": "L:\\workspace\\yinghe-shijie\\outputs\\延禧攻略12_时间线01.srt",
+  "output_video": "L:\\workspace\\yinghe-shijie\\videos\\exports\\短视频\\延禧攻略12_高能反转01_视频注释版\\延禧攻略12_高能反转01_视频注释版.mp4",
+  "annotation_only": true,
+  "annotation_file": "L:\\workspace\\yinghe-shijie\\outputs\\延禧攻略12_高能反转01\\延禧攻略12_高能反转01_annotations.json",
+  "caption_mode": "plot_summary",
+  "cover_title": "狗闯宴席，责任回到主人",
+  "cover_headline": "狗闯宴席",
+  "cover_subhead": "责任回到主人",
+  "cover_style": "female",
+  "cover_aspect": "16:9",
+  "layout": "source",
+  "burn_captions": false,
+  "write_subtitles": false,
+  "mix": {
+    "source_audio_mode": "keep_source",
+    "source_volume": 1.0,
+    "narration_volume": 0.0,
+    "music_volume": 0.0
+  },
+  "edit_rules": {
+    "selection_mode": "high_energy_story_chain",
+    "clip_order": "story_order",
+    "source_reuse": false,
+    "source_overlap": false,
+    "allow_transition_clips": true,
+    "direct_cut": true,
+    "burn_annotations": false
+  },
+  "expression_rules": {
+    "tone": "通过剧情注释梳理宫廷智斗，不替角色新增动机",
+    "source_dialogue_mode": "保留原剧必要对白和动作声",
+    "copyright_note": "原剧片段仅作为内部审看和剧情注释证据。"
+  },
+  "clips": [
+    {
+      "id": "dog_reveal",
+      "source_start": "00:17:44.500",
+      "source_end": "00:18:10.900",
+      "focus_x": 0.5,
+      "high_energy": true,
+      "annotation_ids": ["anno_001"],
+      "source_clip_role": "红布掀开、雪球冲出、宴会现场失控"
+    },
+    {
+      "id": "victim_accusation",
+      "source_start": "00:18:21.100",
+      "source_end": "00:18:31.200",
+      "focus_x": 0.52,
+      "high_energy": true,
+      "annotation_ids": ["anno_007"],
+      "source_clip_role": "愉贵人借机指认高贵妃"
+    },
+    {
+      "id": "emperor_challenge",
+      "source_start": "00:22:08.666",
+      "source_end": "00:22:30.900",
+      "focus_x": 0.5,
+      "high_energy": true,
+      "annotation_ids": ["anno_009"],
+      "source_clip_role": "皇帝拒绝把所有责任推给雪球"
+    },
+    {
+      "id": "owner_logic",
+      "source_start": "00:22:36.200",
+      "source_end": "00:23:01.900",
+      "focus_x": 0.48,
+      "high_energy": true,
+      "annotation_ids": ["anno_014"],
+      "source_clip_role": "魏璎珞用看守者逻辑把责任推给主人"
+    },
+    {
+      "id": "punishment_result",
+      "source_start": "00:27:41.800",
+      "source_end": "00:28:07.000",
+      "focus_x": 0.5,
+      "high_energy": true,
+      "annotation_ids": ["anno_020"],
+      "source_clip_role": "嘉嫔降位禁足、高贵妃罚俸"
+    }
+  ]
+}

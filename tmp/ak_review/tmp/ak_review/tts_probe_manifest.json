@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "timeline": "tmp\\ak_review\\tts_probe.json",
+  "output_audio": "tmp\\ak_review\\tts_probe.mp3",
+  "segments": [
+    {
+      "id": "probe",
+      "start": "00:00:00.000",
+      "end": "00:00:20.000",
+      "audio_duration": 17.112
+    }
+  ]
+}

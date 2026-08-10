@@ -1,0 +1,137 @@
+{
+  "version": 1,
+  "title": "格洛克如何完成自动装填？看懂一把手枪的击发循环",
+  "source_subtitle": "outputs/一把手枪如何完成自动装填？看懂1911击_时间线01.srt",
+  "editorial": {
+    "content_lane": "军事武器/武器系统",
+    "audience_question": "格洛克为什么扣一次扳机，就能自动完成击发、退壳、供弹并准备下一发？",
+    "promised_answer": "后坐力推动套筒完成退壳与抛壳，复进簧和弹匣完成供弹，扳机杆、击针和三道保险则负责控制下一次击发。",
+    "emotional_shift": "从以为自动装填只是套筒来回运动，到看懂一整套零件如何把后坐力变成连续循环。",
+    "series_link": "手枪工作原理与枪械保险",
+    "claim_status": "mixed"
+  },
+  "preflight_review": {
+    "status": "passed",
+    "review_scope": "content_before_render",
+    "one_line_question": "格洛克怎样把一次击发变成下一发待击？",
+    "one_line_answer": "套筒后坐完成解锁、抽壳和抛壳，复进时从弹匣取出新弹并重新锁定，保险机构负责阻止误击发。",
+    "conflict": "手枪必须快速完成循环，但每个动作都要按固定顺序发生；少一个解锁、抽壳或保险环节，下一发就无法可靠进入待击状态。",
+    "emotional_value": "让观众从“手枪会自己上膛”的直觉，转向理解后坐力、弹簧、供弹和保险之间的机械协同。",
+    "checks": {
+      "position_and_fact": "pass",
+      "emotional_value": "pass",
+      "conflict_and_hook": "pass",
+      "answer_timing": "pass",
+      "visual_evidence": "pass",
+      "title_script_consistency": "pass",
+      "safety_and_attribution": "pass"
+    },
+    "risk_notes": [
+      "输入字幕文件名包含‘1911’，但字幕正文和源视频画面均标注 Glock；本计划按可见内容统一改为格洛克，不把它包装成 1911。",
+      "源字幕为英文单语 SRT，中文解说依据源字幕与可见三维剖面动画重写，不加入源片没有支持的具体型号参数。",
+      "源视频包含英文旁白和片尾制作人员信息；正式成片关闭英文原声，保留源片画面与版权信息，使用前仍需确认源片复用授权。"
+    ],
+    "revision_notes": [
+      "已核对源视频：1920x1080、约 00:02:54.289、29.97fps，含英文 AAC 原声，不含中文字幕流。",
+      "已检查联系表：画面依次展示扳机杆与击针、击发与后坐、抽壳抛壳、供弹、扳机复位、三道保险、多边形膛线和弹匣托弹板。",
+      "已将开头改为 2 秒内提出‘为什么能自己退壳、供弹并准备下一发’，5—10 秒交付套筒往复与后坐力的答案方向。",
+      "男性向长视频使用 Edge zh-CN-YunyangNeural、+0% 原速，不添加 BGM，源视频英文原声关闭。",
+      "画面锚点绑定到首次出现的格洛克、扳机杆、击发、后坐、抽壳、供弹、三道保险、膛线和弹匣托弹板画面。"
+    ]
+  },
+  "platform_titles": {
+    "bilibili": "格洛克如何完成自动装填？看懂一把手枪的击发循环",
+    "douyin": "格洛克扣一下扳机，为什么能自动完成整套循环？",
+    "kuaishou": "手枪打完一发，下一发是怎么自动上来的？",
+    "xiaohongshu": "格洛克工作原理图解：看懂击发、退壳与供弹"
+  },
+  "platform_descriptions": {
+    "bilibili": "格洛克扣下扳机后，套筒如何完成后坐、解锁、抽壳、抛壳和供弹？本期用三维剖面拆开击发循环，再看扳机复位、三道保险、多边形膛线和空仓挂机。#军事武器 #格洛克 #手枪原理 #枪械科普",
+    "douyin": "手枪为什么打完一发还能自动准备下一发？关键是套筒后坐、抽壳抛壳和弹匣供弹。#格洛克 #手枪原理 #枪械科普",
+    "kuaishou": "扣一下扳机，手枪里面到底发生了什么？从击发到退壳，再到下一发供弹，一次看懂。#格洛克 #自动装填 #武器原理",
+    "xiaohongshu": "格洛克工作原理图解：套筒、抽壳钩、抛壳挺、复进簧和弹匣如何协同完成自动循环。#格洛克 #手枪原理 #枪械结构 #科普"
+  },
+  "source_video": "L:/workspace/yinghe-shijie/videos/raw/一把手枪如何完成自动装填？看懂1911击发循环.mp4",
+  "output_video": "L:/workspace/yinghe-shijie/videos/exports/长视频/格洛克如何完成自动装填？看懂一把手枪的击发循环/格洛克如何完成自动装填？看懂一把手枪的击发循环_长视频配音版.mp4",
+  "cover_title": "格洛克如何自动装填？",
+  "cover_headline": "自动装填循环",
+  "cover_subhead": "击发退壳再供弹",
+  "cover_style": "military",
+  "cover_aspect": "16:9",
+  "cover_assets": {
+    "16:9": "L:/workspace/yinghe-shijie/videos/exports/长视频/格洛克如何完成自动装填？看懂一把手枪的击发循环/格洛克如何完成自动装填？看懂一把手枪的击发循环_封面_16x9_设计版.png",
+    "4:3": "L:/workspace/yinghe-shijie/videos/exports/长视频/格洛克如何完成自动装填？看懂一把手枪的击发循环/格洛克如何完成自动装填？看懂一把手枪的击发循环_封面_4x3_设计版.png",
+    "3:4": "L:/workspace/yinghe-shijie/videos/exports/长视频/格洛克如何完成自动装填？看懂一把手枪的击发循环/格洛克如何完成自动装填？看懂一把手枪的击发循环_封面_3x4_设计版.png"
+  },
+  "cover_sizes": {
+    "16:9": "1920x1080",
+    "4:3": "1440x1080",
+    "3:4": "1080x1440"
+  },
+  "layout": "source",
+  "burn_captions": false,
+  "write_subtitles": true,
+  "background_music": "",
+  "mix": {
+    "source_volume": 0.0,
+    "narration_volume": 1.0,
+    "music_volume": 0.0,
+    "music_fade_seconds": 0.0,
+    "source_audio_mode": "static"
+  },
+  "clips": [
+    {
+      "id": "full_source",
+      "source_start": "00:00:00.000",
+      "source_end": "00:02:54.289",
+      "focus_x": 0.5,
+      "layout": "source"
+    }
+  ],
+  "visual_alignment": {
+    "required": true,
+    "max_delta_seconds": 1.0,
+    "max_gap_seconds": 0.8,
+    "anchors": [
+      {"id":"anchor_001","anchor_text":"格洛克","visual_start":"00:00:07.533","visual_end":"00:00:11.766","segment_id":"seg_002","match_mode":"segment_start","source_evidence":"画面标题与格洛克剖面结构出现"},
+      {"id":"anchor_002","anchor_text":"扣下扳机","visual_start":"00:00:11.766","visual_end":"00:00:18.700","segment_id":"seg_003","match_mode":"segment_start","source_evidence":"扳机杆和击针联动剖面开始动作"},
+      {"id":"anchor_003","anchor_text":"扳机杆","visual_start":"00:00:18.700","visual_end":"00:00:25.733","segment_id":"seg_004","match_mode":"segment_start","source_evidence":"扳机杆下移并释放击针的剖面"},
+      {"id":"anchor_004","anchor_text":"火药燃气","visual_start":"00:00:25.733","visual_end":"00:00:31.933","segment_id":"seg_005","match_mode":"segment_start","source_evidence":"弹头出膛与后坐力示意"},
+      {"id":"anchor_005","anchor_text":"套筒后坐","visual_start":"00:00:31.933","visual_end":"00:00:39.500","segment_id":"seg_006","match_mode":"segment_start","source_evidence":"枪管下倾解锁、套筒后移"},
+      {"id":"anchor_006","anchor_text":"弹壳","visual_start":"00:00:39.500","visual_end":"00:00:47.700","segment_id":"seg_007","match_mode":"segment_start","source_evidence":"抽壳钩和抛壳挺将空弹壳推出"},
+      {"id":"anchor_007","anchor_text":"套筒向前复进","visual_start":"00:00:47.700","visual_end":"00:00:57.333","segment_id":"seg_008","match_mode":"segment_start","source_evidence":"套筒复进并从弹匣推送新弹"},
+      {"id":"anchor_008","anchor_text":"格洛克有三道保险","visual_start":"00:01:29.133","visual_end":"00:01:41.300","segment_id":"seg_013","match_mode":"segment_start","source_evidence":"三道保险章节标题与扳机保险画面"},
+      {"id":"anchor_009","anchor_text":"第二道保险","visual_start":"00:01:41.300","visual_end":"00:01:53.666","segment_id":"seg_014","match_mode":"segment_start","source_evidence":"击针保险剖面画面"},
+      {"id":"anchor_010","anchor_text":"最后一道保险","visual_start":"00:01:53.666","visual_end":"00:02:10.600","segment_id":"seg_015","match_mode":"segment_start","source_evidence":"跌落保险剖面画面"},
+      {"id":"anchor_011","anchor_text":"多边形膛线","visual_start":"00:02:10.600","visual_end":"00:02:22.466","segment_id":"seg_016","match_mode":"segment_start","source_evidence":"枪管膛线示意图"},
+      {"id":"anchor_012","anchor_text":"弹匣弹簧","visual_start":"00:02:22.466","visual_end":"00:02:32.900","segment_id":"seg_017","match_mode":"segment_start","source_evidence":"弹匣供弹和弹簧托弹板剖面"},
+      {"id":"anchor_013","anchor_text":"最后一发弹壳被抛出","visual_start":"00:02:32.900","visual_end":"00:02:54.289","segment_id":"seg_018","match_mode":"segment_start","source_evidence":"空仓挂机与托弹板顶起套筒锁"}
+    ]
+  },
+  "narration": {
+    "provider": "edge",
+    "voice": "zh-CN-YunyangNeural",
+    "rate": "+0%",
+    "segments": [
+      {"id":"seg_001","start":"00:00:00.000","end":"00:00:07.533","text":"手枪发射后，为什么能退壳、供弹，再准备好下一发？套筒在往复运动。"},
+      {"id":"seg_002","start":"00:00:07.533","end":"00:00:11.766","text":"格洛克的自动循环，从扣动扳机开始。"},
+      {"id":"seg_003","start":"00:00:11.766","end":"00:00:18.700","text":"扣下扳机时，内部机构把击针拉回；连接件改变受力方向，击针释放。"},
+      {"id":"seg_004","start":"00:00:18.700","end":"00:00:25.733","text":"扳机杆下移脱离击针，击针撞击底火，燃烧膨胀的气体把弹头推出枪口。"},
+      {"id":"seg_005","start":"00:00:25.733","end":"00:00:31.933","text":"火药燃气把弹头送出枪口，后坐力同时推动套筒向后运动。"},
+      {"id":"seg_006","start":"00:00:31.933","end":"00:00:39.500","text":"套筒后坐，枪管下倾完成解锁；抽壳钩把空壳从弹膛中拉出，准备抛壳。"},
+      {"id":"seg_007","start":"00:00:39.500","end":"00:00:47.700","text":"弹壳被完全抽出后，会撞上抛壳挺并甩出枪身，套筒继续后退并压缩复进簧。"},
+      {"id":"seg_008","start":"00:00:47.700","end":"00:00:57.333","text":"套筒向前复进时，底部突起从弹匣剥离新弹，沿供弹坡推入弹膛。枪管上抬锁定，下一发就位。"},
+      {"id":"seg_009","start":"00:00:57.333","end":"00:01:06.300","text":"这一轮循环完成。套筒回到前方，击针和扳机机构复位并重新待击，格洛克准备下一次击发。"},
+      {"id":"seg_010","start":"00:01:06.300","end":"00:01:13.966","text":"套筒后移时，连接件上的钩部被压入机架，让扳机杆向上运动，等待扳机复位。"},
+      {"id":"seg_011","start":"00:01:13.966","end":"00:01:20.000","text":"套筒复进后，扳机杆接住击针；扳机不松开，就不会再次击发。"},
+      {"id":"seg_012","start":"00:01:20.000","end":"00:01:29.133","text":"松开扳机，连接件回到原位，扳机杆重新获得向下空间。再次扣动扳机，才会进入下一轮。"},
+      {"id":"seg_013","start":"00:01:29.133","end":"00:01:41.300","text":"格洛克有三道保险，第一道是扳机保险。扳机中间的保险片没有被正确压下时，扳机就无法向后移动，也不会意外触发击发机构。"},
+      {"id":"seg_014","start":"00:01:41.300","end":"00:01:53.666","text":"第二道保险是击针保险。它平时挡住击针，只有扳机杆上移把保险顶开，击针才会向前运动。保险和击发因此紧密联动起来。"},
+      {"id":"seg_015","start":"00:01:53.666","end":"00:02:10.600","text":"最后一道保险是跌落保险。击针后方的扳机杆被机架托住，只有扳机杆向后移动并越过台阶，击针才会获得前进通道。即使手枪受到撞击，只要扳机没有被扣动，击针也不会自行前冲。"},
+      {"id":"seg_016","start":"00:02:10.600","end":"00:02:22.466","text":"多边形膛线在枪管内部，让弹头旋转并保持飞行稳定，也有助于提高射击精度。膛线看不见，却会决定弹头离开枪管后的姿态。"},
+      {"id":"seg_017","start":"00:02:22.466","end":"00:02:32.900","text":"弹匣弹簧向上顶住托弹板，把下一发推到套筒取弹的位置。能否顺利入膛，供弹角度和弹簧压力都很关键。"},
+      {"id":"seg_018","start":"00:02:32.900","end":"00:02:54.289","text":"最后一发弹壳被抛出后，托弹板顶起套筒锁定杆，套筒停在后方，提醒弹匣已经打空。换上新弹匣并拉动套筒，循环重新开始。看懂这条链路，就是看懂半自动手枪的核心逻辑：击发、后坐、抽壳、抛壳、供弹，再次锁定。"
+      }
+    ]
+  }
+}

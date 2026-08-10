@@ -1,0 +1,115 @@
+{
+  "version": 1,
+  "timeline": "L:\\workspace\\yinghe-shijie\\outputs\\audio\\格洛克如何完成自动装填？看懂一把手枪的击发循环_时间线01_等长解说时间线.json",
+  "output_audio": "L:\\workspace\\yinghe-shijie\\outputs\\audio\\格洛克如何完成自动装填？看懂一把手枪的击发循环_时间线01_等长_edge.mp3",
+  "segments": [
+    {
+      "id": "seg_001",
+      "start": "00:00:00.000",
+      "end": "00:00:07.533",
+      "audio_duration": 6.816
+    },
+    {
+      "id": "seg_002",
+      "start": "00:00:07.533",
+      "end": "00:00:11.766",
+      "audio_duration": 3.528
+    },
+    {
+      "id": "seg_003",
+      "start": "00:00:11.766",
+      "end": "00:00:18.700",
+      "audio_duration": 6.48
+    },
+    {
+      "id": "seg_004",
+      "start": "00:00:18.700",
+      "end": "00:00:25.733",
+      "audio_duration": 6.84
+    },
+    {
+      "id": "seg_005",
+      "start": "00:00:25.733",
+      "end": "00:00:31.933",
+      "audio_duration": 5.832
+    },
+    {
+      "id": "seg_006",
+      "start": "00:00:31.933",
+      "end": "00:00:39.500",
+      "audio_duration": 7.08
+    },
+    {
+      "id": "seg_007",
+      "start": "00:00:39.500",
+      "end": "00:00:47.700",
+      "audio_duration": 7.632
+    },
+    {
+      "id": "seg_008",
+      "start": "00:00:47.700",
+      "end": "00:00:57.333",
+      "audio_duration": 9.336
+    },
+    {
+      "id": "seg_009",
+      "start": "00:00:57.333",
+      "end": "00:01:06.300",
+      "audio_duration": 8.712
+    },
+    {
+      "id": "seg_010",
+      "start": "00:01:06.300",
+      "end": "00:01:13.966",
+      "audio_duration": 7.056
+    },
+    {
+      "id": "seg_011",
+      "start": "00:01:13.966",
+      "end": "00:01:20.000",
+      "audio_duration": 6.0
+    },
+    {
+      "id": "seg_012",
+      "start": "00:01:20.000",
+      "end": "00:01:29.133",
+      "audio_duration": 8.544
+    },
+    {
+      "id": "seg_013",
+      "start": "00:01:29.133",
+      "end": "00:01:41.300",
+      "audio_duration": 11.4
+    },
+    {
+      "id": "seg_014",
+      "start": "00:01:41.300",
+      "end": "00:01:53.666",
+      "audio_duration": 11.712
+    },
+    {
+      "id": "seg_015",
+      "start": "00:01:53.666",
+      "end": "00:02:10.600",
+      "audio_duration": 16.368
+    },
+    {
+      "id": "seg_016",
+      "start": "00:02:10.600",
+      "end": "00:02:22.466",
+      "audio_duration": 11.832
+    },
+    {
+      "id": "seg_017",
+      "start": "00:02:22.466",
+      "end": "00:02:32.900",
+      "audio_duration": 10.104
+    },
+    {
+      "id": "seg_018",
+      "start": "00:02:32.900",
+      "end": "00:02:54.289",
+      "audio_duration": 20.904
+    }
+  ]
+}

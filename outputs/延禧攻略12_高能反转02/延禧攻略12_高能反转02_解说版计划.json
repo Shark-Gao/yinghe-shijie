@@ -1,0 +1,223 @@
+{
+  "version": 1,
+  "title": "皇帝看穿璎珞借刀报仇",
+  "drama": {
+    "work_title": "延禧攻略",
+    "episode": "12",
+    "opening_stance_hook": "皇帝先下令把璎珞提来重重问罪，转眼却突然改变主意——他已经看穿，璎珞是在借自己的手报仇。",
+    "commentary_viewpoint": "璎珞故意把责任引向储秀宫，皇帝看懂了她的借刀之计，却也看见她真正维护的是皇后。",
+    "discussion_conflict": "明知璎珞借势报仇，皇帝该不该因为她维护皇后而放过她？",
+    "emotional_value": "从以为璎珞马上要被问罪，到看到皇帝识破计谋后仍给她留下余地。"
+  },
+  "editorial": {
+    "content_lane": "电视剧剧情/宫廷智斗",
+    "audience_question": "皇帝既然看穿璎珞借刀报仇，为什么最后还是放过她？",
+    "promised_answer": "皇帝看穿她把祸水引向储秀宫，但认定对方本就脱不了干系，而且璎珞是在维护皇后，所以没有过分苛责。",
+    "emotional_shift": "从担心璎珞因设局受罚，转为看懂皇帝对她‘看穿但留情’的复杂判断。",
+    "series_link": "延禧攻略宫廷反转",
+    "claim_status": "verified_fact"
+  },
+  "story_card": {
+    "core_conflict": "皇帝要追究荔枝树高处仍有果实的责任，璎珞的借刀报仇却被皇帝当场识破。",
+    "audience_question": "皇帝既然看穿璎珞借刀报仇，为什么最后还是放过她？",
+    "specific_object_or_anomaly": "低处荔枝已毁，高处却仍有果实，成为皇帝识破设局的关键证据。",
+    "opening_hook": "皇帝先要把璎珞提来重重问罪，却在传令后突然看穿她是在祸水东引。",
+    "first_five_second_risk": "如果前几秒只铺陈荔枝细节，观众可能还没有意识到璎珞即将被问罪；解说开头直接先给出‘先问罪、后识破、再放过’的结果链。",
+    "viewing_promise": "看完能明白璎珞如何借皇帝的手完成反击，以及皇帝为什么知道真相后仍不重罚她。",
+    "viewpoint": "把这段看成皇帝与璎珞之间的一次智力互认：璎珞借势报仇，皇帝看穿计谋，但认可她维护皇后的动机。",
+    "payoff_type": "事后识破/危机化解/关系反转",
+    "ending_result": "皇帝不再过分苛责璎珞，只留下‘借朕的手报仇’的警告与恼怒。",
+    "discussion_point": "看穿计谋却选择留情，是皇帝在维护皇后，还是已经开始欣赏璎珞？",
+    "unsupported_claims": []
+  },
+  "selection_score": {
+    "content_completion": 4.5,
+    "distribution_potential": 4.0,
+    "hook_type": "事后识破/借刀报仇",
+    "object_or_evidence": "荔枝树高处仍有果实",
+    "emotional_payoff": "看穿但放过",
+    "visual_risk": "对白近景为主，竖屏需避开底部原剧字幕并保留人物反应",
+    "dialogue_density": "高",
+    "context_dependency": "中"
+  },
+  "platform_titles": {
+    "bilibili": "皇帝看穿璎珞借刀报仇，却为什么放过她？",
+    "douyin": "皇帝看穿璎珞借刀报仇，为什么最后放过她？",
+    "kuaishou": "明知她借刀报仇，皇帝为何还是不罚？",
+    "xiaohongshu": "延禧攻略：皇帝看穿璎珞借刀报仇，最后为何留情？"
+  },
+  "platform_descriptions": {
+    "bilibili": "荔枝宴出事后，皇帝先下令把璎珞提来问罪，却很快看穿她是在借自己的惩罚，把责任引回储秀宫。可他明知璎珞借刀报仇，为什么还是选择放过？这场反转真正改变的，不只是处罚结果，还有皇帝对璎珞的判断。",
+    "douyin": "皇帝先下令重重问罪，传令的人刚要出发，他却突然看穿：璎珞是在借自己的手报仇。明知她设局，皇帝为什么最后还是放过？",
+    "kuaishou": "璎珞把责任引向储秀宫，皇帝一眼看穿她在借刀报仇。可他没有继续追究，反而因为一个原因给她留了余地。",
+    "xiaohongshu": "《延禧攻略》第12集高能反转：皇帝看穿璎珞借刀报仇，却没有过分苛责。她维护皇后的动机，为什么能抵消这次设局？"
+  },
+  "source_video": "L:\\workspace\\yinghe-shijie\\videos\\raw\\延禧攻略12.mp4",
+  "source_subtitle": "L:\\workspace\\yinghe-shijie\\outputs\\延禧攻略12_时间线01.srt",
+  "output_video": "L:\\workspace\\yinghe-shijie\\videos\\exports\\短视频\\延禧攻略12_高能反转02\\延禧攻略12_高能反转02_解说版.mp4",
+  "cover_title": "皇帝看穿了，璎珞借刀报仇",
+  "cover_headline": "皇帝看穿了",
+  "cover_subhead": "璎珞借刀报仇",
+  "cover_style": "editorial",
+  "cover_aspect": "16:9",
+  "layout": "source",
+  "burn_captions": false,
+  "write_subtitles": true,
+  "narration_tail_seconds": 0.6,
+  "duration_bucket": "90—130秒",
+  "target_platform": "抖音",
+  "primary_version": "narration",
+  "mix": {
+    "source_audio_mode": "play_between_narration",
+    "source_gap_volume": 0.65,
+    "source_audio_under_narration_volume": 0.12,
+    "source_audio_intro_deadline_seconds": 10.0,
+    "source_audio_intro_min_seconds": 0.5,
+    "source_volume": 0.65,
+    "narration_volume": 1.0,
+    "music_volume": 0.0,
+    "music_fade_seconds": 0.0,
+    "audio_transition_fade_seconds": 0.08
+  },
+  "edit_rules": {
+    "selection_mode": "high_energy_story_chain",
+    "clip_order": "story_order",
+    "source_reuse": false,
+    "source_overlap": false,
+    "allow_transition_clips": false,
+    "direct_cut": true,
+    "burn_annotations": false
+  },
+  "expression_rules": {
+    "tone": "冷静拆局、口语化、保留皇帝与璎珞的博弈张力",
+    "source_dialogue_mode": "保留原剧证明识破、留情和最终评价的必要对白",
+    "original_audio_under_narration": 0.12,
+    "copyright_note": "原剧片段仅作为剧情证据，解说承担人物关系、因果和观点。"
+  },
+  "clips": [
+    {
+      "id": "emperor_spots_clue",
+      "source_start": "00:38:32.267",
+      "source_end": "00:38:59.800",
+      "focus_x": 0.5,
+      "high_energy": true,
+      "annotation_ids": ["anno_001", "anno_002", "anno_003", "anno_004"],
+      "source_clip_role": "皇帝从荔枝树高低处的差异看出疑点，并下令把璎珞提来问罪"
+    },
+    {
+      "id": "realizes_revenge",
+      "source_start": "00:39:05.100",
+      "source_end": "00:39:30.167",
+      "focus_x": 0.5,
+      "high_energy": true,
+      "annotation_ids": ["anno_005", "anno_006", "anno_007"],
+      "source_clip_role": "皇帝突然收回传令，看穿璎珞玩的是祸水东引"
+    },
+    {
+      "id": "why_no_punishment",
+      "source_start": "00:39:34.267",
+      "source_end": "00:40:01.367",
+      "focus_x": 0.5,
+      "high_energy": true,
+      "annotation_ids": ["anno_008", "anno_009", "anno_010"],
+      "source_clip_role": "皇帝解释为何不翻案：储秀宫本就脱不了干系，算是自作自受"
+    },
+    {
+      "id": "protects_empress",
+      "source_start": "00:40:03.000",
+      "source_end": "00:40:29.367",
+      "focus_x": 0.5,
+      "high_energy": true,
+      "annotation_ids": ["anno_011", "anno_012", "anno_013", "anno_014"],
+      "source_clip_role": "皇帝承认璎珞是在维护皇后，最后点破她借皇帝之手报仇"
+    }
+  ],
+  "narration": {
+    "provider": "cosyvoice",
+    "python": "tools\\CosyVoice\\.venv\\Scripts\\python.exe",
+    "model_dir": "tools\\CosyVoice\\pretrained_models\\CosyVoice-300M-SFT",
+    "mode": "sft",
+    "voice": "中文女",
+    "speed": 1.12,
+    "segments": [
+      {
+        "start": "00:00:00.600",
+        "end": "00:00:07.000",
+        "text": "荔枝宴刚结束，皇帝却发现，事情没有表面这么简单。"
+      },
+      {
+        "start": "00:00:09.000",
+        "end": "00:00:15.500",
+        "text": "低处的荔枝可以被毁，高处的荔枝却未必碰得到。"
+      },
+      {
+        "start": "00:00:17.200",
+        "end": "00:00:23.700",
+        "text": "这个细节让皇帝意识到，整场混乱可能有人故意安排。"
+      },
+      {
+        "start": "00:00:29.000",
+        "end": "00:00:35.000",
+        "text": "他立刻下令，把负责看守荔枝的璎珞提来问罪。"
+      },
+      {
+        "start": "00:00:37.000",
+        "end": "00:00:43.500",
+        "text": "可就在传令的人准备动身时，皇帝突然改变了主意。"
+      },
+      {
+        "start": "00:00:45.000",
+        "end": "00:00:51.800",
+        "text": "因为他已经看穿，璎珞是在把祸水引向储秀宫。"
+      },
+      {
+        "start": "00:00:53.300",
+        "end": "00:00:59.700",
+        "text": "这场反击并不是凭空栽赃，对方本来就脱不了干系。"
+      },
+      {
+        "start": "00:01:01.300",
+        "end": "00:01:07.800",
+        "text": "皇帝明白她在借自己的惩罚报仇，却没有立刻收回处罚。"
+      },
+      {
+        "start": "00:01:09.300",
+        "end": "00:01:15.800",
+        "text": "因为璎珞真正维护的，是皇后的宴会、颜面和处境。"
+      },
+      {
+        "start": "00:01:21.000",
+        "end": "00:01:27.500",
+        "text": "所以这次他选择睁一只眼闭一只眼，放过这个胆大的宫女。"
+      },
+      {
+        "start": "00:01:29.000",
+        "end": "00:01:35.000",
+        "text": "只是借朕的手报仇，这份聪明也让皇帝又气又佩服。"
+      }
+    ]
+  },
+  "preflight_review": {
+    "status": "passed",
+    "review_scope": "content_before_render",
+    "one_line_question": "皇帝既然看穿璎珞借刀报仇，为什么最后还是放过她？",
+    "one_line_answer": "因为储秀宫本就脱不了干系，而璎珞是在维护皇后，皇帝因此没有过分苛责。",
+    "conflict": "皇帝要追究璎珞的设局，璎珞却把责任引回储秀宫；皇帝识破后仍要在惩罚与维护皇后之间作判断。",
+    "emotional_value": "观众从担心璎珞被问罪，转为看到皇帝识破计谋后仍给她留情。",
+    "checks": {
+      "position_and_fact": "pass",
+      "emotional_value": "pass",
+      "conflict_and_hook": "pass",
+      "answer_timing": "pass",
+      "visual_evidence": "pass",
+      "title_script_consistency": "pass",
+      "safety_and_attribution": "pass"
+    },
+    "risk_notes": [
+      "人物动机和判断均以本段电视剧对白为依据，不延伸为现实事实。",
+      "素材授权范围未核验，本成片仅供内部审看，不公开发布。",
+      "原始字幕个别字词存在OCR误识别，本段成片尽量避开相关句子；最终以画面和对白为准。"
+    ],
+    "revision_notes": []
+  }
+}

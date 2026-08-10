@@ -1,0 +1,152 @@
+{
+  "status": "passed",
+  "max_delta_seconds": 1.0,
+  "max_gap_seconds": 0.8,
+  "anchor_count": 13,
+  "failures": [],
+  "anchors": [
+    {
+      "id": "anchor_001",
+      "segment_id": "seg_002",
+      "anchor_text": "格洛克",
+      "visual_start": 7.533,
+      "visual_end": 11.766,
+      "audio_start": 7.533,
+      "audio_end": 11.061,
+      "delta_seconds": 0.0,
+      "status": "passed"
+    },
+    {
+      "id": "anchor_002",
+      "segment_id": "seg_003",
+      "anchor_text": "扣下扳机",
+      "visual_start": 11.766,
+      "visual_end": 18.7,
+      "audio_start": 11.766,
+      "audio_end": 18.246,
+      "delta_seconds": 0.0,
+      "status": "passed"
+    },
+    {
+      "id": "anchor_003",
+      "segment_id": "seg_004",
+      "anchor_text": "扳机杆",
+      "visual_start": 18.7,
+      "visual_end": 25.733,
+      "audio_start": 18.7,
+      "audio_end": 25.54,
+      "delta_seconds": 0.0,
+      "status": "passed"
+    },
+    {
+      "id": "anchor_004",
+      "segment_id": "seg_005",
+      "anchor_text": "火药燃气",
+      "visual_start": 25.733,
+      "visual_end": 31.933,
+      "audio_start": 25.733,
+      "audio_end": 31.565,
+      "delta_seconds": 0.0,
+      "status": "passed"
+    },
+    {
+      "id": "anchor_005",
+      "segment_id": "seg_006",
+      "anchor_text": "套筒后坐",
+      "visual_start": 31.933,
+      "visual_end": 39.5,
+      "audio_start": 31.933,
+      "audio_end": 39.013,
+      "delta_seconds": 0.0,
+      "status": "passed"
+    },
+    {
+      "id": "anchor_006",
+      "segment_id": "seg_007",
+      "anchor_text": "弹壳",
+      "visual_start": 39.5,
+      "visual_end": 47.7,
+      "audio_start": 39.5,
+      "audio_end": 47.132,
+      "delta_seconds": 0.0,
+      "status": "passed"
+    },
+    {
+      "id": "anchor_007",
+      "segment_id": "seg_008",
+      "anchor_text": "套筒向前复进",
+      "visual_start": 47.7,
+      "visual_end": 57.333,
+      "audio_start": 47.7,
+      "audio_end": 57.036,
+      "delta_seconds": 0.0,
+      "status": "passed"
+    },
+    {
+      "id": "anchor_008",
+      "segment_id": "seg_013",
+      "anchor_text": "格洛克有三道保险",
+      "visual_start": 89.133,
+      "visual_end": 101.3,
+      "audio_start": 89.133,
+      "audio_end": 100.533,
+      "delta_seconds": 0.0,
+      "status": "passed"
+    },
+    {
+      "id": "anchor_009",
+      "segment_id": "seg_014",
+      "anchor_text": "第二道保险",
+      "visual_start": 101.3,
+      "visual_end": 113.666,
+      "audio_start": 101.3,
+      "audio_end": 113.012,
+      "delta_seconds": 0.0,
+      "status": "passed"
+    },
+    {
+      "id": "anchor_010",
+      "segment_id": "seg_015",
+      "anchor_text": "最后一道保险",
+      "visual_start": 113.666,
+      "visual_end": 130.6,
+      "audio_start": 113.666,
+      "audio_end": 130.034,
+      "delta_seconds": 0.0,
+      "status": "passed"
+    },
+    {
+      "id": "anchor_011",
+      "segment_id": "seg_016",
+      "anchor_text": "多边形膛线",
+      "visual_start": 130.6,
+      "visual_end": 142.466,
+      "audio_start": 130.6,
+      "audio_end": 142.432,
+      "delta_seconds": 0.0,
+      "status": "passed"
+    },
+    {
+      "id": "anchor_012",
+      "segment_id": "seg_017",
+      "anchor_text": "弹匣弹簧",
+      "visual_start": 142.466,
+      "visual_end": 152.9,
+      "audio_start": 142.466,
+      "audio_end": 152.57,
+      "delta_seconds": 0.0,
+      "status": "passed"
+    },
+    {
+      "id": "anchor_013",
+      "segment_id": "seg_018",
+      "anchor_text": "最后一发弹壳被抛出",
+      "visual_start": 152.9,
+      "visual_end": 174.289,
+      "audio_start": 152.9,
+      "audio_end": 173.804,
+      "delta_seconds": 0.0,
+      "status": "passed"
+    }
+  ]
+}

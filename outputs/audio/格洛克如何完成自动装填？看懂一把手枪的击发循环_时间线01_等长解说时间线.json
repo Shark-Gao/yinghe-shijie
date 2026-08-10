@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "source_subtitle": "一把手枪如何完成自动装填？看懂1911击_时间线01.srt",
+  "output_audio": "格洛克如何完成自动装填？看懂一把手枪的击发循环_时间线01_等长_edge.mp3",
+  "mode": "source_length_full_narration",
+  "voice": "zh-CN-YunyangNeural",
+  "rate": "+0%",
+  "video_duration": "00:02:54.289",
+  "segments": [
+    {"id":"seg_001","start":"00:00:00.000","end":"00:00:07.533","text":"手枪发射后，为什么能退壳、供弹，再准备好下一发？套筒在往复运动。","english_text":"After a pistol fires, how can it extract, feed, and prepare the next round? The slide moves back and forth."},
+    {"id":"seg_002","start":"00:00:07.533","end":"00:00:11.766","text":"格洛克的自动循环，从扣动扳机开始。","english_text":"The Glock's automatic cycle begins when the trigger is pulled."},
+    {"id":"seg_003","start":"00:00:11.766","end":"00:00:18.700","text":"扣下扳机时，内部机构把击针拉回；连接件改变受力方向，击针释放。","english_text":"When the trigger is pulled, the internal mechanism draws the firing pin back. The connector changes the force direction, and the pin is released."},
+    {"id":"seg_004","start":"00:00:18.700","end":"00:00:25.733","text":"扳机杆下移脱离击针，击针撞击底火，燃烧膨胀的气体把弹头推出枪口。","english_text":"The trigger bar drops away from the firing pin. The pin strikes the primer, and expanding gas from combustion drives the bullet out of the muzzle."},
+    {"id":"seg_005","start":"00:00:25.733","end":"00:00:31.933","text":"火药燃气把弹头送出枪口，后坐力同时推动套筒向后运动。","english_text":"Propellant gas sends the bullet out of the muzzle, while recoil simultaneously drives the slide rearward."},
+    {"id":"seg_006","start":"00:00:31.933","end":"00:00:39.500","text":"套筒后坐，枪管下倾完成解锁；抽壳钩把空壳从弹膛中拉出，准备抛壳。","english_text":"As the slide recoils, the barrel tilts down to unlock. The extractor pulls the empty case from the chamber and prepares it for ejection."},
+    {"id":"seg_007","start":"00:00:39.500","end":"00:00:47.700","text":"弹壳被完全抽出后，会撞上抛壳挺并甩出枪身，套筒继续后退并压缩复进簧。","english_text":"Once the case is fully extracted, it strikes the ejector and is thrown out of the firearm. The slide continues rearward and compresses the recoil spring."},
+    {"id":"seg_008","start":"00:00:47.700","end":"00:00:57.333","text":"套筒向前复进时，底部突起从弹匣剥离新弹，沿供弹坡推入弹膛。枪管上抬锁定，下一发就位。","english_text":"As the slide returns forward, its lower lug strips a new round from the magazine and pushes it up the feed ramp into the chamber. The barrel rises and locks, placing the next round in position."},
+    {"id":"seg_009","start":"00:00:57.333","end":"00:01:06.300","text":"这一轮循环完成。套筒回到前方，击针和扳机机构复位并重新待击，格洛克准备下一次击发。","english_text":"This cycle is complete. The slide returns forward, the firing pin and trigger mechanism reset and become ready again, and the Glock is ready for the next shot."},
+    {"id":"seg_010","start":"00:01:06.300","end":"00:01:13.966","text":"套筒后移时，连接件上的钩部被压入机架，让扳机杆向上运动，等待扳机复位。","english_text":"As the slide moves back, the hook on the connector is forced into the frame, allowing the trigger bar to move upward and wait for trigger reset."},
+    {"id":"seg_011","start":"00:01:13.966","end":"00:01:20.000","text":"套筒复进后，扳机杆接住击针；扳机不松开，就不会再次击发。","english_text":"After the slide returns forward, the trigger bar retains the firing pin. If the trigger is not released, the pistol cannot fire again."},
+    {"id":"seg_012","start":"00:01:20.000","end":"00:01:29.133","text":"松开扳机，连接件回到原位，扳机杆重新获得向下空间。再次扣动扳机，才会进入下一轮。","english_text":"Releasing the trigger lets the connector return to position and gives the trigger bar room to move downward. Only another trigger pull can begin the next cycle."},
+    {"id":"seg_013","start":"00:01:29.133","end":"00:01:41.300","text":"格洛克有三道保险，第一道是扳机保险。扳机中间的保险片没有被正确压下时，扳机就无法向后移动，也不会意外触发击发机构。","english_text":"The Glock has three safeties. The first is the trigger safety. Unless the center lever on the trigger is pressed correctly, the trigger cannot move rearward and cannot accidentally activate the firing mechanism."},
+    {"id":"seg_014","start":"00:01:41.300","end":"00:01:53.666","text":"第二道保险是击针保险。它平时挡住击针，只有扳机杆上移把保险顶开，击针才会向前运动。保险和击发因此紧密联动起来。","english_text":"The second safety is the firing-pin safety. It normally blocks the pin; only when the trigger bar rises and pushes it clear can the pin move forward. The safety and firing action are tightly linked together."},
+    {"id":"seg_015","start":"00:01:53.666","end":"00:02:10.600","text":"最后一道保险是跌落保险。击针后方的扳机杆被机架托住，只有扳机杆向后移动并越过台阶，击针才会获得前进通道。即使手枪受到撞击，只要扳机没有被扣动，击针也不会自行前冲。","english_text":"The final safety is the drop safety. The frame holds the trigger bar behind the firing pin, and only rearward trigger movement can clear the ledge and open a path forward. Even if the pistol is struck, the pin cannot move forward by itself without a trigger pull."},
+    {"id":"seg_016","start":"00:02:10.600","end":"00:02:22.466","text":"多边形膛线在枪管内部，让弹头旋转并保持飞行稳定，也有助于提高射击精度。膛线看不见，却会决定弹头离开枪管后的姿态。","english_text":"Polygonal rifling inside the barrel spins the bullet, keeps it stable in flight, and helps improve shooting accuracy. The rifling is hidden, but it determines the bullet's attitude after leaving the barrel."},
+    {"id":"seg_017","start":"00:02:22.466","end":"00:02:32.900","text":"弹匣弹簧向上顶住托弹板，把下一发推到套筒取弹的位置。能否顺利入膛，供弹角度和弹簧压力都很关键。","english_text":"The magazine spring pushes the follower upward and places the next round where the slide can pick it up. Feed angle and spring pressure are both critical to reliable chambering."},
+    {"id":"seg_018","start":"00:02:32.900","end":"00:02:54.289","text":"最后一发弹壳被抛出后，托弹板顶起套筒锁定杆，套筒停在后方，提醒弹匣已经打空。换上新弹匣并拉动套筒，循环重新开始。看懂这条链路，就是看懂半自动手枪的核心逻辑：击发、后坐、抽壳、抛壳、供弹，再次锁定。","english_text":"After the last case is ejected, the magazine follower lifts the slide-lock lever. The slide stays to the rear, showing that the magazine is empty. The cycle restarts after a fresh magazine is inserted and the slide is pulled. This chain is the core logic of a semi-automatic pistol: firing, recoil, extraction, ejection, feeding, and locking again."}
+  ],
+  "visual_alignment": {
+    "required": true,
+    "max_delta_seconds": 1.0,
+    "max_gap_seconds": 0.8,
+    "anchors": [
+      {"id":"anchor_001","anchor_text":"格洛克","visual_start":"00:00:07.533","visual_end":"00:00:11.766","segment_id":"seg_002","match_mode":"segment_start","source_evidence":"画面标题与格洛克剖面结构出现"},
+      {"id":"anchor_002","anchor_text":"扣下扳机","visual_start":"00:00:11.766","visual_end":"00:00:18.700","segment_id":"seg_003","match_mode":"segment_start","source_evidence":"扳机杆和击针联动剖面开始动作"},
+      {"id":"anchor_003","anchor_text":"扳机杆","visual_start":"00:00:18.700","visual_end":"00:00:25.733","segment_id":"seg_004","match_mode":"segment_start","source_evidence":"扳机杆下移并释放击针的剖面"},
+      {"id":"anchor_004","anchor_text":"火药燃气","visual_start":"00:00:25.733","visual_end":"00:00:31.933","segment_id":"seg_005","match_mode":"segment_start","source_evidence":"弹头出膛与后坐力示意"},
+      {"id":"anchor_005","anchor_text":"套筒后坐","visual_start":"00:00:31.933","visual_end":"00:00:39.500","segment_id":"seg_006","match_mode":"segment_start","source_evidence":"枪管下倾解锁、套筒后移"},
+      {"id":"anchor_006","anchor_text":"弹壳","visual_start":"00:00:39.500","visual_end":"00:00:47.700","segment_id":"seg_007","match_mode":"segment_start","source_evidence":"抽壳钩和抛壳挺将空弹壳推出"},
+      {"id":"anchor_007","anchor_text":"套筒向前复进","visual_start":"00:00:47.700","visual_end":"00:00:57.333","segment_id":"seg_008","match_mode":"segment_start","source_evidence":"套筒复进并从弹匣推送新弹"},
+      {"id":"anchor_008","anchor_text":"格洛克有三道保险","visual_start":"00:01:29.133","visual_end":"00:01:41.300","segment_id":"seg_013","match_mode":"segment_start","source_evidence":"三道保险章节标题与扳机保险画面"},
+      {"id":"anchor_009","anchor_text":"第二道保险","visual_start":"00:01:41.300","visual_end":"00:01:53.666","segment_id":"seg_014","match_mode":"segment_start","source_evidence":"击针保险剖面画面"},
+      {"id":"anchor_010","anchor_text":"最后一道保险","visual_start":"00:01:53.666","visual_end":"00:02:10.600","segment_id":"seg_015","match_mode":"segment_start","source_evidence":"跌落保险剖面画面"},
+      {"id":"anchor_011","anchor_text":"多边形膛线","visual_start":"00:02:10.600","visual_end":"00:02:22.466","segment_id":"seg_016","match_mode":"segment_start","source_evidence":"枪管膛线示意图"},
+      {"id":"anchor_012","anchor_text":"弹匣弹簧","visual_start":"00:02:22.466","visual_end":"00:02:32.900","segment_id":"seg_017","match_mode":"segment_start","source_evidence":"弹匣供弹和弹簧托弹板剖面"},
+      {"id":"anchor_013","anchor_text":"最后一发弹壳被抛出","visual_start":"00:02:32.900","visual_end":"00:02:54.289","segment_id":"seg_018","match_mode":"segment_start","source_evidence":"空仓挂机与托弹板顶起套筒锁"}
+    ]
+  }
+}
