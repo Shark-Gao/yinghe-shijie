@@ -1,0 +1,4 @@
+interface:
+  display_name: "美食视频封面"
+  short_description: "从视频指定时间点生成三种尺寸美食封面"
+  default_prompt: "使用 $yinghe-food-cover 从我指定的视频时间点抽取真实画面，生成三种尺寸美食封面并保存到长视频目录。"

@@ -19,7 +19,7 @@ def args() -> argparse.Namespace:
     parser.add_argument("--episode", default="", help="集数，例如：第9集。")
     parser.add_argument("--layout", choices=("center", "right", "portrait"), default="right")
     parser.add_argument("--font-file", default="", help="可选的字体文件路径。")
-    parser.add_argument("--style", choices=("default", "editorial"), default="default", help="封面排版风格。")
+    parser.add_argument("--style", choices=("default", "editorial", "grid"), default="default", help="封面排版风格。")
     parser.add_argument("--theme-position", choices=("default", "above"), default="default", help="主题标签位置；editorial 风格可放到主标题上方。")
     return parser.parse_args()
 
@@ -65,9 +65,61 @@ def main() -> None:
         metadata_path = escape_path(files[metadata_index]) if metadata else None
         drama_cover = bool(metadata)
         editorial = options.style == "editorial"
+        grid = options.style == "grid"
         theme_above = editorial and options.theme_position == "above"
-    # 使用相对坐标，让生成的 16:9 封面即使每次像素尺寸略有不同也保持可读。
-        if options.layout == "right":
+    # 使用相对坐标，让不同尺寸的封面保持可读。
+        if grid:
+            # 电视剧主页网格卡片风：短标题、白色粗体、亮青色横线，
+            # 剧名与集数放在副标题正下方居中显示，不外显主题或内容分类标签。
+            if options.layout == "portrait":
+                filters = (
+                    "drawbox=x=0:y=0:w=iw:h=ih:color=0x07111D@0.10:t=fill,"
+                    + f"drawtext=fontfile='{font_path}':textfile='{headline_path}':fontcolor=0xF7F7F2:"
+                    f"shadowcolor=black@0.75:shadowx=2:shadowy=3:bordercolor=0x07111D@0.35:borderw=1:"
+                    f"fontsize=h*0.077:x=(w-text_w)/2:y=h*0.125,"
+                    "drawbox=x=iw*0.14:y=ih*0.285:w=iw*0.72:h=ih*0.008:color=0x3CCBFF:t=fill,"
+                    + f"drawtext=fontfile='{font_path}':textfile='{subhead_path}':fontcolor=0xF0F4F5:"
+                    f"shadowcolor=black@0.75:shadowx=2:shadowy=3:bordercolor=0x07111D@0.35:borderw=1:"
+                    f"fontsize=h*0.048:x=(w-text_w)/2:y=h*0.335"
+                )
+                if len(subhead_lines) > 1:
+                    subhead_second_path = escape_path(files[2])
+                    filters += (
+                        f",drawtext=fontfile='{font_path}':textfile='{subhead_second_path}':fontcolor=0xF0F4F5:"
+                        f"shadowcolor=black@0.75:shadowx=2:shadowy=3:bordercolor=0x07111D@0.35:borderw=1:"
+                        f"fontsize=h*0.048:x=(w-text_w)/2:y=h*0.405"
+                    )
+                if metadata_path:
+                    filters += (
+                        f",drawtext=fontfile='{font_path}':textfile='{metadata_path}':fontcolor=0xD8F2FF:"
+                        f"shadowcolor=black@0.82:shadowx=2:shadowy=3:bordercolor=0x07111D@0.38:borderw=1:"
+                        f"fontsize=h*0.034:x=(w-text_w)/2:y={'h*0.420' if len(subhead_lines) == 1 else 'h*0.490'}"
+                    )
+            else:
+                filters = (
+                    "drawbox=x=0:y=0:w=iw:h=ih*0.58:color=0x07111D@0.08:t=fill,"
+                    + f"drawtext=fontfile='{font_path}':textfile='{headline_path}':fontcolor=0xF7F7F2:"
+                    f"shadowcolor=black@0.75:shadowx=2:shadowy=3:bordercolor=0x07111D@0.35:borderw=1:"
+                    f"fontsize=h*0.105:x=(w-text_w)/2:y=h*0.11,"
+                    "drawbox=x=iw*0.20:y=ih*0.285:w=iw*0.60:h=ih*0.009:color=0x3CCBFF:t=fill,"
+                    + f"drawtext=fontfile='{font_path}':textfile='{subhead_path}':fontcolor=0xF0F4F5:"
+                    f"shadowcolor=black@0.75:shadowx=2:shadowy=3:bordercolor=0x07111D@0.35:borderw=1:"
+                    f"fontsize=h*0.052:x=(w-text_w)/2:y=h*0.335"
+                )
+                if len(subhead_lines) > 1:
+                    subhead_second_path = escape_path(files[2])
+                    filters += (
+                        f",drawtext=fontfile='{font_path}':textfile='{subhead_second_path}':fontcolor=0xF0F4F5:"
+                        f"shadowcolor=black@0.75:shadowx=2:shadowy=3:bordercolor=0x07111D@0.35:borderw=1:"
+                        f"fontsize=h*0.052:x=(w-text_w)/2:y=h*0.415"
+                    )
+                if metadata_path:
+                    filters += (
+                        f",drawtext=fontfile='{font_path}':textfile='{metadata_path}':fontcolor=0xD8F2FF:"
+                        f"shadowcolor=black@0.82:shadowx=2:shadowy=3:bordercolor=0x07111D@0.38:borderw=1:"
+                        f"fontsize=h*0.036:x=(w-text_w)/2:y={'h*0.420' if len(subhead_lines) == 1 else 'h*0.490'}"
+                    )
+        elif options.layout == "right":
             if editorial:
                 filters = (
                     "drawbox=x=iw*0.588:y=ih*0.235:w=iw*0.005:h=ih*0.38:color=0xC9A96E@0.78:t=fill,"
