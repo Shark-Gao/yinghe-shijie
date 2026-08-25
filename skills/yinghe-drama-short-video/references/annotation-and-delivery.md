@@ -45,6 +45,14 @@
 python "L:/workspace/yinghe-shijie/skills/generate-narration-audio/scripts/validate_annotations_json.py" "<annotations.json>"
 ```
 
+注释 JSON 校验通过后，必须生成外置注释 SRT：
+
+```powershell
+python "L:/workspace/yinghe-shijie/skills/yinghe-drama-short-video/scripts/annotations_to_srt.py" --input "<annotations.json>" --output "<annotation.srt>"
+```
+
+随后逐条比对 JSON 与 SRT 的文字、开始时间和结束时间；`write_subtitles: false` 只表示不把注释烧录进 MP4，不表示可以省略外置 SRT。
+
 ## 交付文件
 
-交付前确认：两版 MP4、中文解说 MP3/SRT、注释 JSON/SRT、两份计划、三种封面、平台标题、完整简介和3—4个话题均已生成。用户明确跳过某版本或封面时，在计划和最终验收中记录原因。
+交付前确认：两版 MP4、中文解说 MP3/SRT、注释 JSON/SRT、两份计划、三种封面、平台标题、完整简介和3—4个话题均已生成。用户明确跳过某版本或封面时，在计划和最终验收中记录原因；任何文件不存在或验收中断时，状态保持“待核验”。
