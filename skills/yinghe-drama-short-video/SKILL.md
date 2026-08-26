@@ -40,6 +40,18 @@ description: 当用户要求制作或优化电视剧、电影、短剧或电视�
 
 如果只能复述集数进度、人物关系或“这一集发生了很多事”，就不能进入制作。
 
+### 当前项目已验证的发布迭代经验
+
+以下经验来自本项目已发布电视剧剧情样本，作为下一条作品的默认待测试假设，不替代新数据：
+
+- 播放量明显高于同类中位数、点赞率也较高时，优先保留题材、人物关系和封面承诺；不要因为评论或分享偏低就同时更换选题、标题、封面和剪辑结构。
+- `2秒跳出率偏高 + 平均播放时长高于同类 + 完播率略低` 通常说明观众出现“两头损失”：一部分在开头离开，留下的人能继续看，但仍有观众在结果或尾段前流失。下一条同时只测试“前2秒冲突钩子”和“结果后的具体讨论点”，不要据此直接删掉必要剧情。
+- 发布后约12—18小时出现单小时播放突增，应记录为二次分发信号；23—24小时数据可做初判，但不要把短时爆发当成最终结论，至少保留后续统计时间点。
+- 女性观众占比、年龄段和活跃度与内容定位高度匹配时，优先沿用同一人物/冲突系列；下一条通过更强开场和结尾互动提升观看与讨论，而不是先换赛道。
+- 点赞率优秀但评论率、分享率偏低，说明情绪认同已经形成，讨论和传播设计不足。结尾先交付素材展示的阶段性结果，再补一条明确原创判断和一个具体的反事实或二选一问题。
+
+详细指标拆解、数据置信边界和复盘模板见 [`references/post-publish-review.md`](references/post-publish-review.md)。
+
 ### 选题采用双评分，而不是只看反转
 
 每个候选分别评估：
@@ -86,6 +98,7 @@ description: 当用户要求制作或优化电视剧、电影、短剧或电视�
 11. `cover_style`、`content_lane`、`theme` 只作内部分类，不能自动成为封面文字；不得叠加“女性成长”“女性向”“军事向”等类别标签。
 12. 每次生成后都必须完成实际时长、音频停讲、对白边界、画面、注释、三种封面、主页缩略图和交付文件复核；发布后还要记录数据，未完成时不能标记为正式完成。
 13. 交付必须经过四道门禁：生成前建立必交文件清单；渲染后逐项确认文件真实存在并通过格式校验；完成成片和视觉复核；最后才允许标记“已完成”。任一命令中断、检查未执行或结果不明，状态保持“待核验”，不得根据部分结果推断全部通过。
+14. 最终回复必须直接展示平台、标题、可复制的完整简介和3—4个话题；只把文案写入计划 JSON、交付清单或文件路径而不在回复中展示，不算完成最终交付。
 
 ## 默认输入、输出与版本选择
 
@@ -113,13 +126,13 @@ description: 当用户要求制作或优化电视剧、电影、短剧或电视�
 7. 在渲染前建立交付清单，明确双版本、旁车、注释、计划、封面、平台包装和验收记录的目标路径；运行 `validate_preflight_review.py --plan <plan.json>`，通过后再渲染。
 8. 按主版本优先、另一版本同步的原则生成 MP4、旁车文件和注释文件；注释版必须用 `scripts/annotations_to_srt.py` 将注释 JSON 转成外置 SRT，并校验 JSON、SRT 的文字和时间一致。
 9. 读取 `cover-rules.md` 生成三种正式封面，先生成并查看三种主页缩略图测试图，再确认正式文件。
-10. 读取 `platform-packaging.md` 生成与封面、开头和结尾一致的标题、完整简介和话题。
+10. 读取 `platform-packaging.md` 生成与封面、开头和结尾一致的标题、完整简介和话题，并把它们写入计划的 `platform_titles`、`platform_descriptions`、`platform_topics`；最终回复必须直接展示默认平台文案，若生成多个平台版本则逐个平台展示，不能只给计划文件链接。
 11. 读取 `review-and-qa.md` 完成实际成片、画面、音频、字幕、封面和主页缩略图复核，并写入验收记录；发现问题时同步修改计划、旁车和受影响的成片并重新验收。验收命令中断时，必须从中断项继续，不能直接交付。
 12. 发布后读取 `post-publish-review.md` 记录数据，区分播放规模、观看效率、互动效率和转粉效率，把结论反馈到下一条选题和包装。
 
 ## 计划最小结构
 
-解说计划至少记录：`drama`、`source_video`、`source_subtitle`、`output_video`、`clips`、`narration`、`mix`、`edit_rules`、`expression_rules`、`story_card`、`selection_score`、`target_platform`、`duration_bucket`、`primary_version`、`preflight_review`、`delivery_manifest`、`review_record`。
+解说计划至少记录：`drama`、`source_video`、`source_subtitle`、`output_video`、`clips`、`narration`、`mix`、`edit_rules`、`expression_rules`、`story_card`、`selection_score`、`target_platform`、`duration_bucket`、`primary_version`、`platform_titles`、`platform_descriptions`、`platform_topics`、`preflight_review`、`delivery_manifest`、`review_record`。
 
 注释计划另加：`annotation_only: true`、`annotation_file`、`annotation_srt`、`caption_mode: "plot_summary"`、`write_subtitles: false`、`annotation_strategy`。
 
@@ -135,4 +148,4 @@ description: 当用户要求制作或优化电视剧、电影、短剧或电视�
 
 ## 交付底线
 
-未通过预检、实际时长检查、音频停讲检查、对白边界检查、注释检查、画面抽检、封面检查、主页缩略图检查或文件清点时，只能标记为“待返修”。缺少外置注释 SRT、`primary_version`、交付清单或验收记录时，也不能标记为“正式完成”。授权未核验时，成片仅供内部审看，不得声称可公开发布。发布后没有数据记录时，不能完成本条技能的复盘闭环。
+未通过预检、实际时长检查、音频停讲检查、对白边界检查、注释检查、画面抽检、封面检查、主页缩略图检查或文件清点时，只能标记为“待返修”。缺少外置注释 SRT、`primary_version`、平台文案直接展示、交付清单或验收记录时，也不能标记为“正式完成”。授权未核验时，成片仅供内部审看，不得声称可公开发布。发布后没有数据记录时，不能完成本条技能的复盘闭环。
